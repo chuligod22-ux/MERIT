@@ -1,0 +1,11 @@
+backbone,mode,params_M,MTF50,pct_clean,det_recovery_pct,falsecrack_max
+_clean,-,-,0.0773,100,-,0.0923
+_degraded,-,-,0.0387,50,0,-
+nafnet,on,4.95,0.057,74,+77,0.114
+nafnet,off,4.95,0.056,72,+5,0.109
+plainunet,on,4.38,0.059,76,+41,0.106
+plainunet,off,4.38,0.052,68,+6,0.124
+restormer,on,2.49,0.056,73,+72,0.122
+restormer,off,2.49,0.054,70,+5,0.107
+mamba,on,1.64,0.061,79,+39,0.109
+mamba,off,1.64,0.055,71,+6,0.106

@@ -1,0 +1,18 @@
+# Core (analysis + figures, CPU-only is enough to reproduce tables/figures from data/processed/)
+numpy>=1.24
+scipy>=1.10
+opencv-python>=4.8
+scikit-image>=0.21
+matplotlib>=3.7
+pillow>=10.0
+
+# Deep learning (needed for training and for the diffusion baselines; CUDA GPU recommended)
+torch>=2.1
+torchvision>=0.16
+
+# Diffusion baseline (SD-x4 upscaler). DiffBIR is run via its own repo (see third_party/FETCH.md).
+diffusers>=0.27
+transformers>=4.40
+huggingface_hub>=1.5,<2
+
+# Python 3.10+ recommended.

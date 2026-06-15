@@ -1,0 +1,12 @@
+method,det_recovery_mean,det_recovery_std,falsecrack_max
+clean,,,0.0882
+degraded,,,0.0907
+Wiener,9,10,0.1900
+Richardson-Lucy,13,8,0.3178
+unsup-Wiener,2,4,0.1619
+wrong-PSF-Wiener,5,8,0.2105
+TV-denoise,3,1,0.1008
+NL-means,2,1,0.0996
+unsharp,-1,1,0.0847
+NAFNet-big,23,24,0.1029
+MERIT,65,26,0.1055

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection"
+abstract: >-
+  Reproducibility package (code, processed data, trained weights) for MERIT, a
+  measurement-fidelity restoration framework for high-speed mobile tunnel-lining
+  inspection, built on the Measurement-Perception-Distortion principle.
+authors:
+  - family-names: "[FAMILY]"        # filled at de-anonymization / acceptance
+    given-names: "[GIVEN]"
+license: MIT
+preferred-citation:
+  type: article
+  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection — Recovering Chart-Measured Resolution and Crack Detectability without Hallucination"
+  authors:
+    - family-names: "[FAMILY]"
+      given-names: "[GIVEN]"
+  journal: "Computer-Aided Civil and Infrastructure Engineering"
+  year: [YEAR]
+  doi: "[DOI on acceptance]"

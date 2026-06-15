@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Weights are distributed via GitHub Releases, not the git tree
+weights/
+*.pt
+*.pth
+
+# Scratch / large / on-request data (not committed)
+tmp/
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db

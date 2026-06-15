@@ -1,0 +1,10 @@
+axis,metric,value
+chart,clean_MTF50,0.0773
+chart,DiffBIR_MTF50,0.0379
+chart,DiffBIR_PSNR,38.67
+chart,DiffBIR_LPIPS,0.1291
+chart,DiffBIR_MTFerr,0.0394
+falsecrack,clean_max,0.0923
+falsecrack,DiffBIR_mean,0.00051
+falsecrack,DiffBIR_max,0.1726
+falsecrack,DiffBIR_frac>0.5,0.000
