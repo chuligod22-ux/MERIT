@@ -85,8 +85,11 @@ See the per-script header comments for inputs/outputs. The reference degradation
 
 - **Processed data** (`data/processed/`, CC-BY 4.0): all per-condition / per-method results
   (MTF50, PSNR, LPIPS, noise, detection recovery, false-crack), which back every table and figure.
-- **Representative frames** (`data/samples/`): a small anonymized subset for quick inspection.
-- **Full raw archive** (cam1 ISO 12233 chart frames, cam2 tunnel-lining crack frames):
+- **Representative raw frames** (Release [`samples-v1`](https://github.com/chuligod22-ux/MERIT/releases/tag/samples-v1), CC-BY 4.0):
+  one full-resolution raw frame per acquisition condition for both cameras
+  (50 cam1 ISO 12233 chart + 50 cam2 tunnel-lining crack = 100 frames). `MANIFEST.csv`
+  maps each file to its camera and condition.
+- **Full raw archive** (cam1: 3,704 frames; cam2: 737 frames):
   available from the corresponding author on reasonable request.
 
 ## Third-party components (not redistributed)
