@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper below."
-title: "Supplementary material for: MERIT — Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection"
+title: "Supplementary material for: MERIT — Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection without Hallucination"
 type: software
 authors:
   - family-names: Lee
@@ -31,7 +31,7 @@ keywords:
   - deep learning
 preferred-citation:
   type: article
-  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection — Recovering Chart-Measured Resolution and Crack Detectability without Hallucination"
+  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection without Hallucination"
   authors:
     - family-names: Lee
       given-names: Chulhee
