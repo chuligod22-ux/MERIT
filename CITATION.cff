@@ -1,20 +1,46 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper below."
-title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection"
-abstract: >-
-  Reproducibility package (code, processed data, trained weights) for MERIT, a
-  measurement-fidelity restoration framework for high-speed mobile tunnel-lining
-  inspection, built on the Measurement-Perception-Distortion principle.
+title: "Supplementary material for: MERIT — Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection"
+type: software
 authors:
-  - family-names: "[FAMILY]"        # filled at de-anonymization / acceptance
-    given-names: "[GIVEN]"
+  - family-names: Lee
+    given-names: Chulhee
+    affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
+  - family-names: Kim
+    given-names: Donggyou
+    affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
+  - family-names: Kim
+    given-names: Dongku
+    affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
+  - family-names: An
+    given-names: Junbeom
+    affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
+version: "1.0.0"
+date-released: "2026-06-15"
 license: MIT
+repository-code: "https://github.com/chuligod22-ux/MERIT"
+url: "https://github.com/chuligod22-ux/MERIT"
+keywords:
+  - tunnel inspection
+  - image restoration
+  - measurement fidelity
+  - crack detection
+  - hallucination
+  - modulation transfer function
+  - NAFNet
+  - deep learning
 preferred-citation:
   type: article
   title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Inspection — Recovering Chart-Measured Resolution and Crack Detectability without Hallucination"
   authors:
-    - family-names: "[FAMILY]"
-      given-names: "[GIVEN]"
+    - family-names: Lee
+      given-names: Chulhee
+    - family-names: Kim
+      given-names: Donggyou
+    - family-names: Kim
+      given-names: Dongku
+    - family-names: An
+      given-names: Junbeom
   journal: "Computer-Aided Civil and Infrastructure Engineering"
-  year: [YEAR]
+  year: 2026
   doi: "[DOI on acceptance]"
