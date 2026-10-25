@@ -1,0 +1,166 @@
+{
+  "cohorts": {
+    "MPRNet": {
+      "bank": "C036 ISO200 bank",
+      "crops": 191,
+      "parents": 133
+    },
+    "NAFNet": {
+      "bank": "C010 unused-condition bank",
+      "crops": 98,
+      "parents": 68
+    },
+    "Restormer": {
+      "bank": "C040 ISO400 bank",
+      "crops": 450,
+      "parents": 302
+    }
+  },
+  "completed_at_kst": "2026-10-21T16:21:37+09:00",
+  "conditions": {
+    "high": {
+      "noise_std_8bit": 2.75,
+      "sigma_h_px": 2.7,
+      "sigma_v_px": 2.3
+    },
+    "low": {
+      "noise_std_8bit": 0.75,
+      "sigma_h_px": 0.7,
+      "sigma_v_px": 0.6
+    },
+    "mid": {
+      "noise_std_8bit": 1.5,
+      "sigma_h_px": 1.6,
+      "sigma_v_px": 1.3
+    }
+  },
+  "estimand": "final frozen MERIT route minus corresponding backbone baseline on paired controlled references",
+  "interpretation": {
+    "actual_field": "PSNR and LPIPS are N/A because no registered paired source reference exists",
+    "cross_backbone_ranking": "not permitted because confirmation cohorts and backbone-specific routes differ",
+    "nafnet_lpips": "improves at low severity and when pooled, but worsens at medium and high severity",
+    "negative_delta_lpips": "lower AlexNet LPIPS distance to the operational source reference",
+    "positive_delta_psnr": "higher agreement with the operational source reference"
+  },
+  "provenance": {
+    "csv_sha256": "2e1997ec6cdff8fc5b8baa84c4b0997f4ff6e8feddbab5b1c854b977cefb8cc5",
+    "mprnet_summary": "<LOCAL_PATH_REDACTED>",
+    "mprnet_summary_sha256": "0fc7ef57c1b66ac243e7272aecc0a00250dc892100ec9305ca9e0422b89aa342",
+    "nafnet_summary": "<LOCAL_PATH_REDACTED>",
+    "nafnet_summary_sha256": "f6eb76e91b7c6e58a23f0bf1f047bcc65104346e32ea78743a423e7f35148d3e",
+    "restormer_summary": "<LOCAL_PATH_REDACTED>",
+    "restormer_summary_sha256": "09e0215302d7ce429d3c98f0af84c135c58fbc42ecd213846de204a09f4dd2a9"
+  },
+  "rows": [
+    {
+      "backbone": "NAFNet",
+      "condition": "low",
+      "crops": 98,
+      "delta_lpips_alex_ci95_high": -0.047840247170853556,
+      "delta_lpips_alex_ci95_low": -0.050967739371497636,
+      "delta_lpips_alex_mean": -0.04940645113051717,
+      "delta_psnr_ci95_high_db": 0.6680929405682979,
+      "delta_psnr_ci95_low_db": 0.6652021726569274,
+      "delta_psnr_mean_db": 0.6666542456654118,
+      "parents": 68
+    },
+    {
+      "backbone": "NAFNet",
+      "condition": "mid",
+      "crops": 98,
+      "delta_lpips_alex_ci95_high": 0.002061142987309912,
+      "delta_lpips_alex_ci95_low": 0.00197440209810689,
+      "delta_lpips_alex_mean": 0.002017766967707989,
+      "delta_psnr_ci95_high_db": 0.0037636837596416567,
+      "delta_psnr_ci95_low_db": 0.003471729292097979,
+      "delta_psnr_mean_db": 0.0036175170907397254,
+      "parents": 68
+    },
+    {
+      "backbone": "NAFNet",
+      "condition": "high",
+      "crops": 98,
+      "delta_lpips_alex_ci95_high": 0.024259326072848017,
+      "delta_lpips_alex_ci95_low": 0.022764748288318516,
+      "delta_lpips_alex_mean": 0.02351505183949579,
+      "delta_psnr_ci95_high_db": 0.08363190881382795,
+      "delta_psnr_ci95_low_db": 0.08058691667235524,
+      "delta_psnr_mean_db": 0.08208842082463381,
+      "parents": 68
+    },
+    {
+      "backbone": "MPRNet",
+      "condition": "low",
+      "crops": 191,
+      "delta_lpips_alex_ci95_high": -0.0033190174011160363,
+      "delta_lpips_alex_ci95_low": -0.003463848502240583,
+      "delta_lpips_alex_mean": -0.0033890228024501057,
+      "delta_psnr_ci95_high_db": 0.03830862838260933,
+      "delta_psnr_ci95_low_db": 0.035167597316065266,
+      "delta_psnr_mean_db": 0.036667283198912326,
+      "parents": 133
+    },
+    {
+      "backbone": "MPRNet",
+      "condition": "mid",
+      "crops": 191,
+      "delta_lpips_alex_ci95_high": -0.0012654296764380351,
+      "delta_lpips_alex_ci95_low": -0.0013219983677193832,
+      "delta_lpips_alex_mean": -0.0012938854912468664,
+      "delta_psnr_ci95_high_db": 0.012423886178647888,
+      "delta_psnr_ci95_low_db": 0.008143773250445347,
+      "delta_psnr_mean_db": 0.010159851055438407,
+      "parents": 133
+    },
+    {
+      "backbone": "MPRNet",
+      "condition": "high",
+      "crops": 191,
+      "delta_lpips_alex_ci95_high": -0.0018442408121817292,
+      "delta_lpips_alex_ci95_low": -0.0019551715596501985,
+      "delta_lpips_alex_mean": -0.0019007886237867098,
+      "delta_psnr_ci95_high_db": 0.006671209819262852,
+      "delta_psnr_ci95_low_db": 0.005534899564502221,
+      "delta_psnr_mean_db": 0.006106663468917089,
+      "parents": 133
+    },
+    {
+      "backbone": "Restormer",
+      "condition": "low",
+      "crops": 450,
+      "delta_lpips_alex_ci95_high": -0.03213499547814987,
+      "delta_lpips_alex_ci95_low": -0.0335064954617807,
+      "delta_lpips_alex_mean": -0.03280782984121483,
+      "delta_psnr_ci95_high_db": 0.5382829763059851,
+      "delta_psnr_ci95_low_db": 0.5274659987251787,
+      "delta_psnr_mean_db": 0.5326866664601942,
+      "parents": 302
+    },
+    {
+      "backbone": "Restormer",
+      "condition": "mid",
+      "crops": 450,
+      "delta_lpips_alex_ci95_high": -0.007423417473717636,
+      "delta_lpips_alex_ci95_low": -0.008476173275748625,
+      "delta_lpips_alex_mean": -0.007945942431359364,
+      "delta_psnr_ci95_high_db": 0.043851052641655536,
+      "delta_psnr_ci95_low_db": 0.03665871735785597,
+      "delta_psnr_mean_db": 0.04011929500450987,
+      "parents": 302
+    },
+    {
+      "backbone": "Restormer",
+      "condition": "high",
+      "crops": 450,
+      "delta_lpips_alex_ci95_high": -0.0004245261456118384,
+      "delta_lpips_alex_ci95_low": -0.0010109738605076377,
+      "delta_lpips_alex_mean": -0.0007272906288932228,
+      "delta_psnr_ci95_high_db": 0.015878105816731474,
+      "delta_psnr_ci95_low_db": 0.014104597232452047,
+      "delta_psnr_mean_db": 0.014968411932571446,
+      "parents": 302
+    }
+  ],
+  "schema_version": "MERIT-C060-R1-2-ALIGNED-TABLE5-v1",
+  "status": "PASS"
+}

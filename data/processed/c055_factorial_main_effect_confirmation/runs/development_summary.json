@@ -1,0 +1,289 @@
+{
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20261055
+  },
+  "evidence_status": "post-C054 estimand correction; seed 1/2 not opened",
+  "payload_sha256": "a56777c26470989f558a42be7b43c8ece0fc71c64baae444abf7c6d0196a809d",
+  "policy": "specific_mean",
+  "rationale": "Compare the framework and backbone main effects from the same balanced 2x4 factorial. The raw bypass is common to all backbone levels, so backbone marginal contrasts average the raw and selected-framework levels, matching C051's estimator.",
+  "result": {
+    "backbone_marginal": {
+      "mamba": 0.22475416782280727,
+      "nafnet": 0.18753999572781044,
+      "plainunet": 0.19440598364974965,
+      "restormer": 0.19048208048525728
+    },
+    "by_detector": {
+      "d2_deeplabv3_resnet50": 0.08625452958465825,
+      "d2_resnet34_unet": 0.07277075341849217,
+      "d2_vgg16_unet": 0.06678454154362388
+    },
+    "by_tunnel": {
+      "A": 0.11391002316158122,
+      "B": 0.020516346553985886,
+      "C": 0.1525468291798519,
+      "D": 0.014106567166946696
+    },
+    "conditional_sensitivity": {
+      "conditional_sensitivity_dominance": {
+        "ci95_high": 0.011543882642027587,
+        "ci95_low": -0.00907096414716223,
+        "estimate": 0.000841597325597826
+      },
+      "max_backbone_conditional": {
+        "ci95_high": 0.08216738706772315,
+        "ci95_low": 0.06715526117139703,
+        "estimate": 0.07442834418999364
+      }
+    },
+    "framework_cells": {
+      "mamba": 0.2878477494820041,
+      "nafnet": 0.21341940529201045,
+      "plainunet": 0.22715138113588887,
+      "restormer": 0.21930357480690416
+    },
+    "gates": {
+      "backbone_consistency": true,
+      "detector_consistency": true,
+      "factorial_dominance": true,
+      "framework_positive": true,
+      "tunnel_consistency": true
+    },
+    "primary": {
+      "factorial_dominance": {
+        "ci95_high": 0.04762792045667951,
+        "ci95_low": 0.02929022399536493,
+        "estimate": 0.03805576942059463
+      },
+      "framework_main": {
+        "ci95_high": 0.08490921158458786,
+        "ci95_low": 0.0656600778149801,
+        "estimate": 0.07526994151559147
+      },
+      "max_backbone_main": {
+        "ci95_high": 0.041083693533861564,
+        "ci95_low": 0.033577630585698515,
+        "estimate": 0.037214172094996834
+      }
+    },
+    "raw_cells": {
+      "mamba": 0.16166058616361043,
+      "nafnet": 0.16166058616361043,
+      "plainunet": 0.16166058616361043,
+      "restormer": 0.16166058616361043
+    },
+    "status": "PASS",
+    "within_backbone_full_gain": {
+      "mamba": 0.12618716331839366,
+      "nafnet": 0.051758819128400024,
+      "plainunet": 0.06549079497227844,
+      "restormer": 0.05764298864329373
+    }
+  },
+  "schema_version": "MERIT-C055-FACTORIAL-DEVELOPMENT-v1",
+  "selection": {
+    "mamba": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "nafnet": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max_raw_off",
+          "d2_resnet34_unet": "max_raw_off",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "plainunet": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "restormer": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max_raw_off",
+          "d2_resnet34_unet": "max_raw_off",
+          "d2_vgg16_unet": "mean3"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    }
+  },
+  "source_c054_payload_sha256": "0eae81bd89dad4e424f817f0086b3d6d950f6a04a9aaf05f111cb182a8aa1666",
+  "status": "PASS"
+}

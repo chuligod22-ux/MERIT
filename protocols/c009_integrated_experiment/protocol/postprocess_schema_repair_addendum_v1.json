@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-11T11:39:12.339913+00:00",
+  "failure": {
+    "cause": "The v3 D3 summarizer requested no_visible_crack component fields from crack_visible frames.",
+    "error": "KeyError: any_eligible_component"
+  },
+  "field_dispatch": {
+    "crack_visible": "frame_roi_hit_fraction",
+    "no_visible_crack_burden": "components_per_megapixel",
+    "no_visible_crack_positive_rate": "any_eligible_component"
+  },
+  "immutable_evidence": {
+    "protocol/postprocess_execution_freeze_v3.json": "b342feba51479e952a704fda5ea081313d7d61963e82912b470db66a8ee5a95f",
+    "runs/queue/full_evaluation_queue_status_v2.json": "533f09e7a6e006789340be3508071de544f43b08869237d0d7ff24af442fdf4d",
+    "runs/queue/postprocess_status_v3.json": "6b21443fac7dcfd7673fc97a1a91ae8ade50dbc79d7c3946775a78e4a1cc501f",
+    "scripts/c009_generate_final_report.py": "008af18507ef9875df86b88425a1f7deda60a45cd9ca5800bb203d668d81c925",
+    "scripts/c009_summarize_results.py": "e5959144c7ef094cb2cb8c1698b7227bf1e81d98d2bbb1d64d2fa3ed94be2cd3"
+  },
+  "payload_sha256": "a969e7fcfb9cb95ac1e6ba377a4349f5f37ed06b8f843667b741883a68381efd",
+  "repair_files": {
+    "c009_postprocess_supervisor_schema_repair_v1.py": "21c0c895c0b2eb54eb378c54d4b9136f26997b075c60db64ec84ab8b824e3287",
+    "c009_summarize_results_schema_repair_v1.py": "19627a23151d1d87b6f2f26ba7e4b3f45b6771087431d7158a519b3104e01107",
+    "test_c009_postprocess_schema_repair.py": "d4afdf24848a465c11d1db1b03430c3195817d9b31fec62ce388b5ecdbcb15a9"
+  },
+  "required_queue_item_count": 84,
+  "result_access_disclosure": "All 84 evaluations were complete when the frozen v3 summarizer raised KeyError before writing the final summary. The repair is restricted to the pre-existing label-specific endpoint schema and changes no model, cohort, threshold, endpoint, gate, bootstrap rule, or global-verdict rule.",
+  "schema_version": "MERIT-C009-POSTPROCESS-SCHEMA-REPAIR-ADDENDUM-v1",
+  "scientific_contract_change": "NONE",
+  "status": "PASS_FROZEN_AFTER_IMPLEMENTATION_FAILURE_BEFORE_FINAL_SUMMARY"
+}

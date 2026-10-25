@@ -1,0 +1,95 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261051,
+    "unit": "physical parent stratified within tunnel"
+  },
+  "claim_boundary": "Detection AUPRC under the frozen synthetic degradation on the four revision-added tunnels; C050 optical PSNR remains a mandatory separate result.",
+  "claim_status": "FRAMEWORK_EFFECT_NOT_SUPPORTED",
+  "coverage": {
+    "arms": 2,
+    "backbones": 4,
+    "detectors": 3,
+    "model_detector_seeds": 3,
+    "physical_parents": 14,
+    "rows": 1008,
+    "tunnels": 4
+  },
+  "detector_input_contract": "uint8 [0,255]",
+  "evaluation_addendum_payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "gates": {
+    "backbone_consistency": false,
+    "detector_consistency": false,
+    "dominance": false,
+    "framework_positive": false,
+    "tunnel_consistency": false
+  },
+  "payload_sha256": "6c07cf450c7039901597d1243dc7a3c52b7545a48d3a2566482a8bdc0f8a6fcb",
+  "primary": {
+    "dominance": {
+      "ci95_high": -0.12457083546831237,
+      "ci95_low": -0.14824427131150048,
+      "estimate": -0.1360546068206186
+    },
+    "framework_main": {
+      "ci95_high": -0.011131598926497257,
+      "ci95_low": -0.014423193205179175,
+      "estimate": -0.012855385065056499
+    },
+    "max_backbone": {
+      "ci95_high": 0.13468356331772416,
+      "ci95_low": 0.11246506631475765,
+      "estimate": 0.12319922175556208
+    }
+  },
+  "schema_version": "MERIT-C051-FACTORIAL-SUMMARY-v2",
+  "secondary": {
+    "backbone_marginal": {
+      "mamba": 0.30475919994456796,
+      "nafnet": 0.18155997818900588,
+      "plainunet": 0.21316760246757188,
+      "restormer": 0.22442765409997392
+    },
+    "backbone_pairwise": {
+      "nafnet-minus-mamba": -0.12319922175556208,
+      "nafnet-minus-plainunet": -0.031607624278566004,
+      "nafnet-minus-restormer": -0.042867675910968045,
+      "plainunet-minus-mamba": -0.09159159747699608,
+      "plainunet-minus-restormer": -0.01126005163240204,
+      "restormer-minus-mamba": -0.08033154584459404
+    },
+    "by_detector": {
+      "d2_deeplabv3_resnet50": -0.007824799668737243,
+      "d2_resnet34_unet": -0.02989517771107493,
+      "d2_vgg16_unet": -0.000846177815357283
+    },
+    "by_tunnel": {
+      "A": -0.015603280290201171,
+      "B": -0.0032742947476798435,
+      "C": -0.030071686232177798,
+      "D": -0.0024722789901671237
+    },
+    "cells": {
+      "mamba:off": 0.31898593357873073,
+      "mamba:on": 0.2905324663104052,
+      "nafnet:off": 0.2030521521046257,
+      "nafnet:on": 0.16006780427338604,
+      "plainunet:off": 0.19314264671323897,
+      "plainunet:on": 0.2331925582219048,
+      "restormer:off": 0.23444447243463723,
+      "restormer:on": 0.21441083576531061
+    },
+    "ss_ratio": {
+      "ci95_high": 0.025627752688566124,
+      "ci95_low": 0.015318974114407139,
+      "estimate": 0.020041529910142537
+    },
+    "within_backbone": {
+      "mamba": -0.02845346726832554,
+      "nafnet": -0.042984347831239667,
+      "plainunet": 0.040049911508665825,
+      "restormer": -0.020033636669326615
+    }
+  },
+  "status": "FAIL"
+}

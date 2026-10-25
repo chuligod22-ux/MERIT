@@ -1,0 +1,84 @@
+{
+  "architecture": "d2_vgg16_unet",
+  "checkpoint": "final_epoch.pt",
+  "checkpoint_sha256": "e0203cc47f5f1aaea2322f7d36a30bbdf62d27335c82d6f1ca3c3197baea1752",
+  "completed_utc": "2026-09-23T22:27:13.160137+00:00",
+  "elapsed_seconds": 5518.914753000019,
+  "encoder_sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+  "epochs": [
+    {
+      "elapsed_seconds": 460.74894170020707,
+      "epoch": 1,
+      "train_loss": 0.9069857362927799
+    },
+    {
+      "elapsed_seconds": 463.28981660003774,
+      "epoch": 2,
+      "train_loss": 0.5617505195837369
+    },
+    {
+      "elapsed_seconds": 459.3428414000664,
+      "epoch": 3,
+      "train_loss": 0.5158820884735108
+    },
+    {
+      "elapsed_seconds": 459.87842980003916,
+      "epoch": 4,
+      "train_loss": 0.5021245619840582
+    },
+    {
+      "elapsed_seconds": 458.93154660006985,
+      "epoch": 5,
+      "train_loss": 0.4846772577770787
+    },
+    {
+      "elapsed_seconds": 458.77809730009176,
+      "epoch": 6,
+      "train_loss": 0.4740531578247845
+    },
+    {
+      "elapsed_seconds": 458.79824369982816,
+      "epoch": 7,
+      "train_loss": 0.463159653813387
+    },
+    {
+      "elapsed_seconds": 458.60432070004754,
+      "epoch": 8,
+      "train_loss": 0.45843007155748033
+    },
+    {
+      "elapsed_seconds": 464.224088100018,
+      "epoch": 9,
+      "train_loss": 0.45541440149328816
+    },
+    {
+      "elapsed_seconds": 458.46247090003453,
+      "epoch": 10,
+      "train_loss": 0.4616847248203028
+    },
+    {
+      "elapsed_seconds": 459.2264669002034,
+      "epoch": 11,
+      "train_loss": 0.45050537208944724
+    },
+    {
+      "elapsed_seconds": 458.3013419001363,
+      "epoch": 12,
+      "train_loss": 0.43776710226442894
+    }
+  ],
+  "fold": "C",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "heldout_parents": [
+    "0116",
+    "0117",
+    "0118",
+    "0119",
+    "0120"
+  ],
+  "peak_cuda_memory_bytes": 60938348544,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "seed": 20260922,
+  "started_utc": "2026-09-23T20:55:15.385124+00:00",
+  "training_tiles": 4953
+}

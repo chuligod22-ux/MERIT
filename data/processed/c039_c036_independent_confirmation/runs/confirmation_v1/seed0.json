@@ -1,0 +1,85 @@
+{
+  "confirmation_freeze_payload_sha256": "a80295a8cf7634b94dc81e1803cc348bccd1300aee373bb0d5da277c8de1c675",
+  "elapsed_seconds": 302.76662070001476,
+  "high_gate_weights": [
+    0.04132125899195671,
+    0.33930522203445435,
+    0.6193735003471375
+  ],
+  "identity_max_abs_error": 0.0,
+  "model_seed": 0,
+  "parents": 133,
+  "peak_cuda_memory_bytes": 7946833920,
+  "provenance": {
+    "base": {
+      "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+      "checkpoint_sha256": "9c27626bc51284425b0a3805e7fde8a27ed3c2a14d9e63869b8f9d71effb4e87",
+      "completion_payload_sha256": "741aa598148cfcc4643ca351a03c06265fba75f48cc329a541dde1b5212b8b18",
+      "model": {
+        "class": "MPRNet",
+        "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+        "family": "mprnet",
+        "kwargs": {
+          "bias": false,
+          "in_c": 3,
+          "kernel_size": 3,
+          "n_feat": 96,
+          "num_cab": 8,
+          "out_c": 3,
+          "reduction": 4,
+          "scale_orsnetfeats": 32,
+          "scale_unetfeats": 48
+        },
+        "module": "Deblurring.MPRNet",
+        "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+        "output_selector": "sequence_index_0",
+        "parameters": 20127073,
+        "repository": "https://github.com/swz30/MPRNet",
+        "runtime_adaptations": [],
+        "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+        "trainable_parameters": 20127073
+      },
+      "model_id": "wp1__mprnet__base__seed0"
+    },
+    "merit_full": {
+      "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+      "checkpoint_sha256": "a22d48d211ad796d5c61b6eedfbb21889671128c83eb05e61d8d233c0f249a46",
+      "completion_payload_sha256": "9befc858b57da851f3c0e191d6e6da3d1228699a5478fd218b706e629f051f7e",
+      "model": {
+        "class": "MPRNet",
+        "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+        "family": "mprnet",
+        "kwargs": {
+          "bias": false,
+          "in_c": 3,
+          "kernel_size": 3,
+          "n_feat": 96,
+          "num_cab": 8,
+          "out_c": 3,
+          "reduction": 4,
+          "scale_orsnetfeats": 32,
+          "scale_unetfeats": 48
+        },
+        "module": "Deblurring.MPRNet",
+        "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+        "output_selector": "sequence_index_0",
+        "parameters": 20127073,
+        "repository": "https://github.com/swz30/MPRNet",
+        "runtime_adaptations": [],
+        "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+        "trainable_parameters": 20127073
+      },
+      "model_id": "wp1__mprnet__merit_full__seed0"
+    },
+    "shared": {
+      "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+      "checkpoint_sha256": "621296e95b5bd9d2a993ba4f2ff2f4dcd087522a9c8223d76fc6ec0350f1ad2a",
+      "global_step": 1500
+    }
+  },
+  "records": 1719,
+  "records_path": "<LOCAL_PATH_REDACTED>",
+  "records_sha256": "6d53f4d63e45b26032f766a9289ecb99abdf5d891752424e6ba210ac87a35ba2",
+  "schema_version": "MERIT-C039-C036-CONFIRMATION-CELL-v1",
+  "status": "COMPLETE"
+}

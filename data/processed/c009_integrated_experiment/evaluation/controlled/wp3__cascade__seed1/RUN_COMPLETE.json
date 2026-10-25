@@ -1,0 +1,51 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds": 27.780100299976766,
+  "main_records": 500,
+  "model_id": "wp3__cascade__seed1",
+  "ood_records": 0,
+  "payload_sha256": "9334bc31a35b37797e95d097cc1165b79741902cacaef510d08a0430e1c348c4",
+  "peak_cuda_memory_bytes": 2394331136,
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "b3e2be85e5125de9f83be7d91fbfe7158ef2490e8a8283a8942c02d3a4585816",
+    "completion_payload_sha256": "2ee52063a2dad517d7d5b87fb0b948f6333e8eb83fbfe9c025a608c97945fe12",
+    "model": {
+      "branch_class": "basicsr.models.archs.NAFNet_arch.NAFNetLocal",
+      "branch_kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 22
+      },
+      "parameters": 16296154,
+      "relative_to_single": -0.047671659272108036,
+      "single_parameters": 17111907,
+      "structure": "cascade",
+      "trainable_parameters": 16296154
+    },
+    "model_id": "wp3__cascade__seed1"
+  },
+  "records": 500,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "cf644cd9441d2c0bb22148db3aef074cf0a596b7f3242ce16bf5c726edbedad4",
+  "schema_version": "MERIT-C009-CONTROLLED-RUN-COMPLETE-v1",
+  "specification": {
+    "kind": "followon",
+    "seed": 1,
+    "structure": "cascade",
+    "wp": "wp3"
+  },
+  "status": "PASS"
+}

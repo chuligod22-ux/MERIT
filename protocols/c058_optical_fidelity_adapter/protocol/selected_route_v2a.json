@@ -1,0 +1,58 @@
+{
+  "bindings": {
+    "contract": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/development_contract_v2.json",
+      "sha256": "1296a68a1b9856d6aa55656fb43b23fc5d35e2e311ca764ff764b39fdea20184"
+    },
+    "development_candidate_summaries": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_candidate_summaries.json",
+      "sha256": "088e37ecd40999ec4c2210d352b4f20f121a5cfe8e6b6f1c2012d12110b1af0a"
+    },
+    "development_condition_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_condition_results.csv",
+      "sha256": "1a17328b093ed970f3a05c524d452ed43e8376e9a8d356fb7f84749dc0c67e0f"
+    },
+    "development_final": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_final.json",
+      "sha256": "5b82f0e6d74e438e832518447c2b32d28cf1c765035afed7674ceddd2ed2fcf8"
+    },
+    "development_final_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_final.json.sha256",
+      "sha256": "4a1147e524a407ffaf7171cd62d2620449c678f42c7979f8b6e7da0c9874806c"
+    },
+    "release_verification_v2a": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/release_verification_v2a.json",
+      "sha256": "779a13972668d05402f91f1cea652ab31d4c892065c32d47ce24846c0127aced"
+    },
+    "release_verification_v2a_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/release_verification_v2a.json.sha256",
+      "sha256": "ada72d66df37f73cc40e39196f30ddc03d65d4d94134d1ece6f5f0d81683bf7f"
+    },
+    "verification_addendum_v2a": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/verification_addendum_v2a.json",
+      "sha256": "61934dc86e9d8507ab91daba0e34f764a3f97fd5be198af31c2c909c43ce8cd8"
+    },
+    "verification_addendum_v2a_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/verification_addendum_v2a.json.sha256",
+      "sha256": "877f853138d7aaa692b7213a08fe891248ba94be8b3c107ab0c486d34249f3ba"
+    }
+  },
+  "created_utc": "2026-10-20T14:38:51+00:00",
+  "development_gate": "PASS",
+  "evidence_label_for_confirmation": "adapter-level held-out conditions, not independent data; C057 model outputs were previously observed",
+  "prohibitions": [
+    "No route or seed change after this freeze.",
+    "Do not modify the frozen v2 or v2a verification artifacts.",
+    "The existing 40-condition run is not independent confirmation."
+  ],
+  "schema_version": "MERIT-C058-OPTICAL-FIDELITY-SELECTION-v2",
+  "selected_candidate": {
+    "alpha": -0.5,
+    "cap_dn": 8.0,
+    "route_id": "band_inverse_a0.500_s0.75_cap8",
+    "sharp_gain": 0.0,
+    "sigma": 0.75
+  },
+  "state": "ROUTE_FROZEN_AFTER_DEVELOPMENT_PASS_BEFORE_EXISTING40_CONFIRMATION",
+  "verification_addendum": "MERIT-C058-RELEASE-VERIFICATION-ADDENDUM-v2a"
+}

@@ -1,0 +1,21 @@
+{
+  "development_global_gate_pass": true,
+  "holdout_global_gate_pass": true,
+  "holdout_outputs_postdate_freeze": true,
+  "holdout_summary_payload_sha256": "c99970304497b812374e6df55976d2d198dac023dbade1fbe2ab5c9dfb74b6c7",
+  "identity_pixel_exact": true,
+  "payload_sha256": "2eeef3cc98f392bfd6a9298cac63cba96953c644a6ed2e0730a040f02c4e5d2e",
+  "progress_counts": {
+    "development_d2_v1": 6,
+    "development_d2_v2": 6,
+    "development_width": 75,
+    "holdout_d2": 6,
+    "holdout_width": 75
+  },
+  "protocol_file_sha256": "6d50355f31cb839148840df58f9387ea63885f2910f6242925e80bbc1c111ed8",
+  "protocol_payload_sha256": "7d2edf81d983bd7de44879574b4119859fdc33457fb1c6a187d8413fc572510b",
+  "resnet_fail_closed_pixel_exact": true,
+  "schema_version": "MERIT-C012-INTEGRITY-AUDIT-v1",
+  "status": "PASS",
+  "verified_payload_files": 176
+}

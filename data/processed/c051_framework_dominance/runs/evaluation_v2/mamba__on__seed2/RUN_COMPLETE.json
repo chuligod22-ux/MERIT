@@ -1,0 +1,25 @@
+{
+  "arm": "on",
+  "backbone": "mamba",
+  "detector_input_contract": "uint8 [0,255]",
+  "elapsed_seconds_this_invocation": 141.70851600007154,
+  "evaluation_addendum_payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "fold_sha256": {
+    "A": "469ab72f791bd5f84c9d82556eabae7a48ab63411fd838eac013f866119aad13",
+    "B": "cc1d63d800ac5a6d35fbad05ac43bb91e181d0f45e1985e4bb57ddd27514edd5",
+    "C": "8b438d5ccc8d661bceab8283042e453e0c3b4b9820074eecba0049b2092b4b6c",
+    "D": "4f92625846cd9a87c6c0515b9b55da5589d140066ae5e81bcfd9f7e31156ccef"
+  },
+  "model_id": "mamba__on__seed2",
+  "payload_sha256": "723f37652da39e1edc3c25d5df1113d1c78cddb7d16d73c8ec1d2227d6b2f441",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "provenance": {
+    "checkpoint": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "fc500c5655c0964829bce5f7144de31ab630e4f39c26ce12815efbe23428bd48",
+    "training_payload_sha256": "613770bc7569a653dc790f1938aebd6444c7e669b5ef19174323fda77bfa423c"
+  },
+  "schema_version": "MERIT-C051-EVALUATION-RUN-v2",
+  "seed": 2,
+  "status": "PASS_COMPLETE",
+  "tile_count": 1703
+}

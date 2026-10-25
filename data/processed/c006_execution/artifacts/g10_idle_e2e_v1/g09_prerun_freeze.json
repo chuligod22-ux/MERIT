@@ -1,0 +1,70 @@
+{
+  "schema_version": "MERIT-C006-G09-PRERUN-FREEZE-v1",
+  "created_utc": "2026-09-20T05:53:06.756981+00:00",
+  "frozen_before_operational_e2e": true,
+  "d3_read_or_used": false,
+  "assets": {
+    "protocol": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "379862b87d80c7eca47005f6a8421538ae20992ecd5d1d72e185d789b525aceb"
+    },
+    "adapter": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4e421d2083fe23953945973d71bebaf1f523903ba3f137d29d815f8f404b1335"
+    },
+    "gate_driver": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d72552613288f842bdf7ac75560e16fbe2312025dc72b9d79e22592ddc3a70a"
+    },
+    "benchmark": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "775f03b25a8d883ae0f2ba5faf2a59b5116b5390b3d6c62ee35b9a41236183ec"
+    }
+  },
+  "specs": {
+    "0": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ed49c476f83b5ef3ecbbd56b0c9789e555167f2bc7cfb02b2743eca1ef157299"
+    },
+    "1": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "878d099e2009c059221a5502b1f4a1270f385c466717790dba1ed8dfdf6fcc1a"
+    },
+    "2": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "619b0ec8b68888243a5fb3ea744212c091ab69f7dc92cd581c68352c807691af"
+    }
+  },
+  "restoration_checkpoints": {
+    "task_off_seed0": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "10466a39dbb50d0d4b959b79e6c802ef47177f406f01869980668c11cd8d857c"
+    },
+    "task_on_seed0": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "10f105d19280f1f91a6022eeb51f05a17c5596c3d9261cbff6bfa561d4bdc65d"
+    },
+    "task_off_seed1": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b"
+    },
+    "task_on_seed1": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd"
+    },
+    "task_off_seed2": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "507038a52ba73cd6a8413a6c4be86e227ba97f0e97e63b8a35239cf472be8d4e"
+    },
+    "task_on_seed2": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7980d0034f81355d4a5bab09453bc9d7bf7ce6460510977c730c935ddee82107"
+    }
+  },
+  "detector_checkpoint": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc"
+  },
+  "authoritative_projection_rule": "988 * (maximum repeated RAW time + sum of three seed-specific OFF times + sum of three seed-specific ON times)",
+  "note": "The frozen C005 runner's per-seed legacy date flag is non-authoritative; d5500 G09 supplies the current deadline."
+}

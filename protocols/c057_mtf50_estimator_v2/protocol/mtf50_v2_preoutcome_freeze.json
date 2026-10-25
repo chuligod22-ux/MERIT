@@ -1,0 +1,24 @@
+{
+  "schema_version": "MERIT-C057-MTF50-V2-PREOUTCOME-FREEZE-v1",
+  "created_utc": "2026-10-20T07:19:52Z",
+  "state": "FROZEN_BEFORE_V2_HOLDOUT_AND_RESTORATION_OUTPUTS",
+  "development_contract": {
+    "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_development_contract.json",
+    "sha256": "8c4d33fb23be8f657598776f8b010c228385a5f87350af45e7f2ed982779773e"
+  },
+  "frozen_inputs": {
+    "cohort_sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274",
+    "v1_estimator_code_sha256": "b4e377630985d0e1115519365adc95a24c6c022c66d4cd1cab08c762cd271623",
+    "v1_roi_results_sha256": "53cdea6e0d0ccb412541d1645351888060991463eb9f0a30081fd7687f91ce90",
+    "v1_final_sha256": "25554b976de9571afa728893d602f1df3379ab40d417c4860963a064b7afedd5"
+  },
+  "known_v1_status": {
+    "valid_roi_fraction": 0.8681635002878526,
+    "valid_roi_count": 1508,
+    "roi_records": 1737,
+    "roi_spearman_vs_imatest": 0.9767468902965536,
+    "frame_spearman_vs_imatest_mean": 0.9623417730879686,
+    "primary_gate": "FAILED"
+  },
+  "prohibition": "Do not inspect or use restoration-arm output to select or tune the v2 estimator."
+}

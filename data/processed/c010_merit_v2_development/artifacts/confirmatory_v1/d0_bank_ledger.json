@@ -1,0 +1,46 @@
+{
+  "audit_contact_sheets": {},
+  "bank_content_hash_definition": "SHA-256 over manifest-order repetitions of uint64 big-endian bank_index followed by contiguous uint8 crop bytes",
+  "bank_content_sha256": "e1eb8ee92e8a44963a1da5ccd9cd630bd2f9732849e4a12a4beeb62c929dbe5f",
+  "bank_dtype": "uint8",
+  "bank_npy_sha256": "d274000c7364e04c5acdf73913ca2e4f9b42a56b548b7d75dafd77b0be89f82d",
+  "bank_shape": [
+    98,
+    448,
+    448
+  ],
+  "builder_code_sha256": "b2f19296979e686c55c085c7f7df9e47e4552aae279a85064deada2ab2dd745e",
+  "forbidden_source_check": {
+    "D1_rows": 0,
+    "D2_rows": 0,
+    "D3_rows": 0,
+    "DQ1_rows": 0,
+    "legacy_crack_bank_rows": 0
+  },
+  "generated_at_kst": "2026-10-11T21:17:17+09:00",
+  "ledger_payload_sha256": "ad14d357090aaf788c3bc9527b15807d6ecd539bfc90ce3a9021393494dc3956",
+  "manifest_csv_sha256": "147d76ce9d523f72a81d31d5f11bf7efb289ca5ce7664bcbfad47b8ed5ff0fb1",
+  "parent_count": 68,
+  "parent_counts_by_camera": {
+    "cam1": 38,
+    "cam2": 30
+  },
+  "protocol_id": "MERIT-C010-V2-UNUSED-CONDITION-CONFIRMATORY-v1",
+  "protocol_json_sha256": "338ef95ad9bd68cc6aabd8ccdf73d76d17e0fdd3ea12e2cff5a8e82683111a86",
+  "role_assignment_used_model_output": false,
+  "role_counts": {
+    "crack": 30,
+    "wall": 68
+  },
+  "rule_counts": {
+    "cam1_lower_right_wall": 38,
+    "cam2_upper_center_crack": 30,
+    "cam2_upper_left_wall": 30
+  },
+  "selection_used_model_output": false,
+  "source_dataset": "D0 only",
+  "split_counts": {
+    "synthetic_holdout": 98
+  },
+  "unique_parent_hash_count": 68
+}

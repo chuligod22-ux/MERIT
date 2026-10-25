@@ -1,0 +1,28 @@
+{
+  "active_command": null,
+  "active_log": null,
+  "completed_at_kst": "2026-09-28T01:48:48+09:00",
+  "completed_full_runs": [
+    "wp2/zero_prompt_full_seed0",
+    "wp2/zero_prompt_full_seed1",
+    "wp2/zero_prompt_full_seed2",
+    "wp3/cascade_seed0",
+    "wp3/cascade_seed1",
+    "wp3/cascade_seed2",
+    "wp3/parallel_seed0",
+    "wp3/parallel_seed1",
+    "wp3/parallel_seed2"
+  ],
+  "deadline_state": "AT_RISK_PENDING_JOURNAL_EXTENSION",
+  "elapsed_seconds": 234087.61158669973,
+  "execution_freeze_sha256": "a0cf384ea9245304e27d368cb725a3e1e0e68cb462769a85c5c616def972d0f5",
+  "pilot_closure_sha256": "ec312145d04b2ba3d754b13e5357bd2e6e4357d6792a694610917988e43f586b",
+  "queue_pid": 44872,
+  "schema_version": "MERIT-C009-WP23-QUEUE-STATUS-v1",
+  "started_at_kst": "2026-09-25T08:47:20+09:00",
+  "status": "complete",
+  "total_additional_full_runs": 9,
+  "updated_at_kst": "2026-09-28T01:48:48+09:00",
+  "wp1_observed_status": "running",
+  "wp1_queue_sha256": "bc93307b02b3de1fab81d42b30ac566f96a68e50d3ff421b1fec8471866806e1"
+}

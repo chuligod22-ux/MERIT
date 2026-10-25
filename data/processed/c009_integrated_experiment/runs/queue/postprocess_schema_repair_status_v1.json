@@ -1,0 +1,20 @@
+{
+  "active_command": null,
+  "active_step": null,
+  "addendum_sha256": "503393f36218c32e17abf493e3112595ec2107a605b4c4fa7e053473e0f06226",
+  "completed_at_kst": "2026-10-11T20:39:31+09:00",
+  "pid": 13752,
+  "queue_item_count": 84,
+  "report_path": "<LOCAL_PATH_REDACTED>",
+  "schema_version": "MERIT-C009-POSTPROCESS-SCHEMA-REPAIR-STATUS-v1",
+  "started_at_kst": "2026-10-11T20:39:20+09:00",
+  "status": "complete",
+  "step_1_returncode": 0,
+  "step_1_stderr": "",
+  "step_1_stdout": "{\n  \"status\": \"PASS_COMPLETE_PREDECLARED_ANALYSIS\",\n  \"global_verdict\": \"NOT_SUPPORTED\",\n  \"path\": \"<LOCAL_PATH_REDACTED>",\n  \"sha256\": \"35f92b7f6111eb0610bd903f3d728612166bc820b26f36177902c00e24a05c44\"\n}\n",
+  "step_2_returncode": 0,
+  "step_2_stderr": "",
+  "step_2_stdout": "{\n  \"status\": \"PASS\",\n  \"path\": \"<LOCAL_PATH_REDACTED>",\n  \"sha256\": \"3141d7a037aceb2300220f8ef47322ed4de36a57cb466477e1a1cdd285ac5922\"\n}\n",
+  "summary_path": "<LOCAL_PATH_REDACTED>",
+  "updated_at_kst": "2026-10-11T20:39:31+09:00"
+}

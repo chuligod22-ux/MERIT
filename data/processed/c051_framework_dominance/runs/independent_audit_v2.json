@@ -1,0 +1,15 @@
+{
+  "coverage": {
+    "evaluation_cells": 24,
+    "factorial_rows": 1008,
+    "fold_files": 96,
+    "training_cells": 24
+  },
+  "evaluation_addendum_payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "issues": [],
+  "payload_sha256": "ef6a97b10d37d28c0d7684b88a2bdb0d7df12080a24cbfcf9020cdc874b27cb5",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "schema_version": "MERIT-C051-AUDIT-v2",
+  "status": "PASS",
+  "summary_payload_sha256": "6c07cf450c7039901597d1243dc7a3c52b7545a48d3a2566482a8bdc0f8a6fcb"
+}

@@ -1,0 +1,17 @@
+{
+  "architecture": "d2_deeplabv3_resnet50",
+  "encoder_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "fold": "C",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "heldout_parents": [
+    "0116",
+    "0117",
+    "0118",
+    "0119",
+    "0120"
+  ],
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "seed": 20260921,
+  "started_utc": "2026-09-24T06:45:54.003635+00:00",
+  "training_tiles": 4953
+}

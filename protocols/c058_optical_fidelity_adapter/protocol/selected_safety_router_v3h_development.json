@@ -1,0 +1,145 @@
+{
+  "bindings": {
+    "artifacts/safety_router_v3h_development/candidate_grid_v1/candidate_summary.json": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/candidate_grid_v1/candidate_summary.json",
+      "sha256": "96bb13edc79d3aaca11864ca13224047a1ae443ccc9ca57ddf499bbf6338a871"
+    },
+    "artifacts/safety_router_v3h_development/candidate_grid_v1/condition_by_source.csv": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/candidate_grid_v1/condition_by_source.csv",
+      "sha256": "341f5cc8e95eda19a73f76f3f912b287aa4b2d4ca548b297c2232c7be5f11073"
+    },
+    "artifacts/safety_router_v3h_development/candidate_grid_v1/condition_combined.csv": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/candidate_grid_v1/condition_combined.csv",
+      "sha256": "e3242e48fa96f55843b9677964f86ad9c2c5b633b9061f44c8bde8ddffdec17a"
+    },
+    "artifacts/safety_router_v3h_development/candidate_grid_v1/development_summary.json": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/candidate_grid_v1/development_summary.json",
+      "sha256": "7bf2b79846613eed172cca935893b9b4dd77917089b712d6c9fc8ab3644a06bd"
+    },
+    "artifacts/safety_router_v3h_development/candidate_grid_v1/pixel_diagnostics.csv": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/candidate_grid_v1/pixel_diagnostics.csv",
+      "sha256": "bd106bebee5b5be3fcd3f1d6748bdf953f022ac0d49c1980668cab059e1fded4"
+    },
+    "artifacts/safety_router_v3h_development/locator_v2_audit/exposed/summary.json": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/locator_v2_audit/exposed/summary.json",
+      "sha256": "e8870bb0b19320e45e1bb392b0a017c076f45d5ad379dac98e4c33806dcd107f"
+    },
+    "artifacts/safety_router_v3h_development/locator_v2_audit/holdout/summary.json": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/locator_v2_audit/holdout/summary.json",
+      "sha256": "2dd3b1ecb69c5dd043cfda62cb0d261dfeca4e4895c90c82062741575618d060"
+    },
+    "scripts/c058_adapter_v2.py": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter_v2.py",
+      "sha256": "872d1d38d45c989b98b16a5f991462e7513269430120cdccc519325dd3418ea0"
+    },
+    "scripts/c058_inference_v3h.py": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_inference_v3h.py",
+      "sha256": "e9eeb4e5c472ae4e965aff4565694377048884ceab8c72c033a33913a7e7b436"
+    },
+    "scripts/c058_mtf_measure_v3h.py": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_mtf_measure_v3h.py",
+      "sha256": "70e35a6f4531fc69d8738e68201f960b8934bff7c61216f9977a2fa5904cbb48"
+    },
+    "scripts/c058_raw_locator_v2.py": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_raw_locator_v2.py",
+      "sha256": "f4c5a87d24e6dc7d6e58f9d3fc6481d8fc0a9e0761310d6f0e5da188f5e3b73e"
+    },
+    "scripts/c058_v3h_candidate_development.py": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_v3h_candidate_development.py",
+      "sha256": "217e8b973c9107e3d3d7752f706d23e955b7d6777a8c060784f580b1bd5e3c71"
+    }
+  },
+  "created_utc": "2026-10-21T02:32:10+00:00",
+  "development_result": {
+    "active_condition_cells": 6,
+    "active_frames": 39,
+    "common_valid_active_roi_identities": 120,
+    "condition_bootstrap_95pct_ci": [
+      -0.0048862479,
+      -0.0028210066
+    ],
+    "frames": 84,
+    "improved_conditions": 6,
+    "maximum_abs_change_dn": 4.0,
+    "maximum_headroom_limited_fraction": 0.0,
+    "maximum_introduced_clipping_fraction": 0.0,
+    "maximum_unprojected_overshoot_fraction": 0.0,
+    "mean_delta_abs_error_cy_px": -0.0039258513,
+    "per_condition_delta_abs_error_cy_px": {
+      "80km_2.5m_ISO100": -0.0057968267418789,
+      "80km_2.5m_ISO200": -0.0015359468427569,
+      "80km_3.5m_ISO100": -0.0033670105788632,
+      "80km_3.5m_ISO200": -0.0045305305547386,
+      "80km_4.5m_ISO100": -0.0043313863007268,
+      "80km_4.5m_ISO200": -0.0039934064875706
+    },
+    "raw_mean_abs_error_cy_px": 0.005700867524834564,
+    "reference_frames": 45,
+    "relative_abs_error_reduction": 0.6886410241927383,
+    "v3h_mean_abs_error_cy_px": 0.0017750162737453685
+  },
+  "evidence_boundary": {
+    "former_280_frame_holdout": "exposed_by_v3g_and_used_only_for_v3h_development",
+    "independent_optical_confirmation": false,
+    "label": "development_only",
+    "reason": "only one former-holdout frame was active-condition chart-usable after target-type and source-footprint QC"
+  },
+  "gate_checks": {
+    "all_condition_deltas_negative": true,
+    "bootstrap_ci_upper_negative": true,
+    "former_holdout_not_reused_as_confirmation": true,
+    "introduced_clipping_zero": true,
+    "maximum_change_le_4dn": true,
+    "mean_delta_negative": true,
+    "six_active_conditions": true,
+    "unprojected_overshoot_zero": true
+  },
+  "locator_audit": {
+    "exposed_479": {
+      "all_frame_radius_error_fraction_median": 0.06606840307629566,
+      "eligible_center_error_radii_median": 0.038387603755883785,
+      "eligible_center_error_radii_p95": 0.07883091431452537,
+      "eligible_fraction": 0.4091858037578288,
+      "eligible_frames": 196,
+      "eligible_radius_error_fraction_median": 0.033417090702331856,
+      "eligible_radius_error_fraction_p95": 0.08456067339777759,
+      "eligible_radius_error_le_10pct_fraction": 0.9693877551020408,
+      "frames": 479,
+      "mode": "exposed",
+      "rejection_reasons": {
+        "ok": 196,
+        "partial_chart": 283
+      }
+    },
+    "former_holdout_280": {
+      "eligible_four_valid_roi_fraction": 1.0,
+      "eligible_four_valid_roi_frames": 8,
+      "eligible_fraction": 0.02857142857142857,
+      "eligible_frames": 8,
+      "eligible_raw_roi_attempts": 32,
+      "eligible_raw_valid_fraction": 1.0,
+      "eligible_raw_valid_rois": 32,
+      "frames": 280,
+      "mode": "holdout",
+      "rejection_reasons": {
+        "low_template_score": 259,
+        "ok": 8,
+        "partial_chart": 13
+      }
+    },
+    "interpretation": "The v3g 280-frame list mixed quadrant-chart, partial-chart, crack-board, and wall-only frames; v3h excludes non-chart and replicated-border ROIs before MTF50 estimation."
+  },
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-SELECTION-v3h-development",
+  "selected_route": {
+    "active_if": "speed_kmh == 80 and iso in {100,200} and distance_m in {2.5,3.5,4.5}",
+    "alpha": -0.75,
+    "maximum_headroom_limited_fraction": 0.01,
+    "model_condition": "task_on",
+    "model_seed": 1,
+    "otherwise": "raw_exact_bypass",
+    "residual_cap_dn": 8.0,
+    "run_key": "safe_s1_am0.75",
+    "sigma_px": 0.75
+  },
+  "state": "DEVELOPMENT_SELECTED_REQUIRES_UNTOUCHED_CONFIRMATION"
+}

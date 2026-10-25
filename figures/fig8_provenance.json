@@ -1,0 +1,114 @@
+{
+  "artifacts": {
+    "fig8.pdf": "002cb53ffe678d17279759d8458d88da23cecf2c9ae8716ad6832e77dfbb166e",
+    "fig8.png": "b7bd6e9c93aef617412273bb9bb51bc9ee26d942a083547bb641e28c0508a8e6"
+  },
+  "claim_boundary": "Qualitative, outcome-blind examples from the controlled C063 dataset. Full-dataset analysis remains in Table 4 and Figure 10; these panels are not human-mask detection accuracy or field confirmation.",
+  "footer_crop_fraction": 0.965,
+  "internal_title_removed": true,
+  "records": [
+    {
+      "condition_cell": "crack_d25_ISO400_V60",
+      "degradation_seed": 573355366039135932,
+      "display_residual_vmax_dn": 12.0,
+      "display_zoom_box_yxhw": [
+        512,
+        384,
+        384,
+        576
+      ],
+      "display_zoom_selection": "maximum mean Sobel magnitude over a fixed 3x3 source-only candidate grid",
+      "frame": "frame_000039.png",
+      "input_sha256": "07f4f7aaebe68e1cf3b1b713ac96144cd58441a12dd596a21f5b4aa78fabffbc",
+      "non_exact_regenerations": [
+        "unsupervised_wiener_oracle"
+      ],
+      "ordinal": 96,
+      "primary_condition": true,
+      "progress_json": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/artifacts/full737_battery_v1/progress/0096_crack_d25_ISO400_V60_frame_000039.png.json",
+      "progress_sha256": "278da91d7c836d02ee26c157fcdb7797b8b6a30deb8b1d3e7b001fd519407291",
+      "route_active": true,
+      "verified_output_hashes": 11
+    },
+    {
+      "condition_cell": "crack_d25_ISO800_V60",
+      "degradation_seed": 875432633073863902,
+      "display_residual_vmax_dn": 12.0,
+      "display_zoom_box_yxhw": [
+        256,
+        0,
+        384,
+        576
+      ],
+      "display_zoom_selection": "maximum mean Sobel magnitude over a fixed 3x3 source-only candidate grid",
+      "frame": "frame_000045.png",
+      "input_sha256": "0c2629576e12247e5af6de8c0fb1c168a031d085235eb8c19504bca75ba41fc6",
+      "non_exact_regenerations": [
+        "unsupervised_wiener_oracle"
+      ],
+      "ordinal": 125,
+      "primary_condition": true,
+      "progress_json": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/artifacts/full737_battery_v1/progress/0125_crack_d25_ISO800_V60_frame_000045.png.json",
+      "progress_sha256": "6704e448a88b1dad759d723d56e01169cd5bc07ad6b6db91638f7682191b4e4c",
+      "route_active": false,
+      "verified_output_hashes": 11
+    },
+    {
+      "condition_cell": "crack_d45_ISO400_V60",
+      "degradation_seed": 76883891353452837,
+      "display_residual_vmax_dn": 12.0,
+      "display_zoom_box_yxhw": [
+        0,
+        768,
+        384,
+        576
+      ],
+      "display_zoom_selection": "maximum mean Sobel magnitude over a fixed 3x3 source-only candidate grid",
+      "frame": "frame_000057.png",
+      "input_sha256": "0111257de827a985379ea9a01efbffc52387bb922b2003e5d73fb6dcebddd519",
+      "non_exact_regenerations": [
+        "unsupervised_wiener_oracle"
+      ],
+      "ordinal": 388,
+      "primary_condition": true,
+      "progress_json": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/artifacts/full737_battery_v1/progress/0388_crack_d45_ISO400_V60_frame_000057.png.json",
+      "progress_sha256": "843d63a63df3e6f96314613ea3fb86e688ddc97eea06cbb7c6a9b70787948ba0",
+      "route_active": true,
+      "verified_output_hashes": 11
+    },
+    {
+      "condition_cell": "crack_d65_ISO1600_V80",
+      "degradation_seed": 1000217289848316920,
+      "display_residual_vmax_dn": 12.0,
+      "display_zoom_box_yxhw": [
+        256,
+        384,
+        384,
+        576
+      ],
+      "display_zoom_selection": "maximum mean Sobel magnitude over a fixed 3x3 source-only candidate grid",
+      "frame": "frame_000027.png",
+      "input_sha256": "0de17c5362a9cb5807a4f6cb0ca2d97d61950bc11666950839df56ed22c098e0",
+      "non_exact_regenerations": [
+        "unsupervised_wiener_oracle"
+      ],
+      "ordinal": 637,
+      "primary_condition": true,
+      "progress_json": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/artifacts/full737_battery_v1/progress/0637_crack_d65_ISO1600_V80_frame_000027.png.json",
+      "progress_sha256": "022a5675613500888cfeafbbe42770838f512f96e33c5ce1406bee64be7fe5b3",
+      "route_active": true,
+      "verified_output_hashes": 11
+    }
+  ],
+  "redundant_footer_removed": true,
+  "regeneration": "Every deterministic plotted array matched the hash frozen during the original 737-frame run. The unsupervised-Wiener panel is a same-parameter stochastic rerun because its original internal random state was not persisted; no original per-frame metric is attached to that rerun.",
+  "schema_version": "MERIT-R3-6-FIG8-C063-v5",
+  "selection_rule": "Four fixed acquisition-grid anchors selected before outcome inspection; source-only high-structure display zoom.",
+  "selection_uses_model_outcomes": false,
+  "source_analysis": "c063_full737_restoration_battery/full737_battery_v1",
+  "subcaption_style": {
+    "alignment": "centered below each panel",
+    "color": "#101828",
+    "font": "DejaVu Sans Bold"
+  }
+}

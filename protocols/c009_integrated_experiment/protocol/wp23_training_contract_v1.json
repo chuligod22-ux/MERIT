@@ -1,0 +1,112 @@
+{
+  "schema_version": "MERIT-C009-WP23-TRAINING-CONTRACT-v1",
+  "created_date": "2026-09-25",
+  "status": "FROZEN_BEFORE_WP1_OR_WP23_PERFORMANCE_RESULTS",
+  "purpose": "Freeze the additional WP2 zero-prompt-full runs and WP3 cascade/parallel runs without changing the active WP1 runner.",
+  "result_access_at_freeze": "WP1 was running on nafnet/base_seed0; no WP1 fixed-final checkpoint or C009 endpoint result existed.",
+  "source_contract": {
+    "path": "protocol/g11_training_contract_v2.json",
+    "sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969"
+  },
+  "shared_training": {
+    "source_bank": "Exact immutable C006 D0 bank and train split from the G11 v2 contract",
+    "steps": 8000,
+    "batch_size": 4,
+    "patch_size": 448,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "cosine_t_max": 8000,
+    "precision": "bfloat16 mixed precision",
+    "seeds": [0, 1, 2],
+    "fidelity_loss": "L1 + gradient L1 + 0.1*detached-weight FFT error on preclip output",
+    "task_loss": "L1 between frozen DeepCrack probabilities of clamped restored output and clean target",
+    "task_lambda": 5.0,
+    "task_loss_enabled_for_all_additional_runs": true,
+    "checkpoint_selection": "fixed final step only",
+    "recovery_checkpoint_interval_steps": 1000,
+    "stream_pairing": "same seed uses the exact G11 NumPy stream; final stream hash must equal the corresponding WP1 NAFNet pair"
+  },
+  "wp2": {
+    "primary_backbone": "nafnet",
+    "informative_oracle_arm": {
+      "checkpoint_reuse": "WP1 nafnet/merit_full_seed{0,1,2}",
+      "reason": "Architecture, informative prompts, task-enabled objective, data stream, initialization, schedule, fixed-final rule, and seeds are exact-equal."
+    },
+    "additional_arm": {
+      "name": "zero_prompt_full",
+      "runs": 3,
+      "architecture": "Exact WP1 official NAFNet adapter",
+      "input": "degraded channel 0 plus two identically zero prompt maps",
+      "objective": "The same fidelity plus task loss as informative_oracle; this differs from WP1 base, which has no task loss."
+    },
+    "inference_perturbation": {
+      "evaluation_split": "D0 synthetic_holdout only; no training or checkpoint selection",
+      "correct": "p_b=0.5*(sigma_h+sigma_v)/3 and p_n=noise_std_8bit/3",
+      "shuffled": "within each fixed bank-index-sorted batch of 10, cyclically shift the complete prompt pair by one sample",
+      "swapped": "exchange p_b and p_n",
+      "constant": {
+        "p_b": 0.48333333333333334,
+        "p_n": 0.5,
+        "basis": "midpoints of the three uniform training ranges"
+      },
+      "zero": "both prompt maps zero",
+      "mismatch_multipliers": [0.5, 0.75, 1.25, 1.5],
+      "mismatch_rule": "multiply both correct prompt scalars by the factor and clamp to [0,1]",
+      "claim_limit": "synthetic oracle-prompt reliance only"
+    }
+  },
+  "wp3": {
+    "single": {
+      "checkpoint_reuse": "WP1 nafnet/merit_full_seed{0,1,2}",
+      "parameters": 17111907
+    },
+    "shared_branch": {
+      "upstream": "Exact clean NAFNet source frozen by G11",
+      "class": "basicsr.models.archs.NAFNet_arch.NAFNetLocal",
+      "kwargs": {
+        "img_channel": 3,
+        "width": 22,
+        "middle_blk_num": 1,
+        "enc_blk_nums": [1, 1, 1, 28],
+        "dec_blk_nums": [1, 1, 1, 1]
+      },
+      "parameters_per_branch": 8148077
+    },
+    "cascade": {
+      "runs": 3,
+      "definition": "Blur stage receives [degraded,p_b,0]; its selected channel 0 feeds a noise stage receiving [stage1,0,p_n]. Final output is stage2 channel 0.",
+      "parameters": 16296154,
+      "relative_to_single": -0.0476716596780504
+    },
+    "parallel": {
+      "runs": 3,
+      "definition": "Blur and noise branches receive [degraded,p_b,0] and [degraded,0,p_n]. A trainable 1x1 fusion maps [blur_output,noise_output,degraded] to one channel.",
+      "fusion_initialization": "weights [0.5,0.5,0.0], bias 0",
+      "parameters": 16296158,
+      "relative_to_single": -0.04767142551674686
+    },
+    "parameter_tolerance": 0.05,
+    "parameter_gate": "PASS for cascade and parallel",
+    "interpretation": "The alternatives are matched structural comparisons, not official standalone upstream architectures."
+  },
+  "run_matrix": [
+    {"wp": "wp2", "structure": "zero_prompt_full", "seed": 0},
+    {"wp": "wp2", "structure": "zero_prompt_full", "seed": 1},
+    {"wp": "wp2", "structure": "zero_prompt_full", "seed": 2},
+    {"wp": "wp3", "structure": "cascade", "seed": 0},
+    {"wp": "wp3", "structure": "cascade", "seed": 1},
+    {"wp": "wp3", "structure": "cascade", "seed": 2},
+    {"wp": "wp3", "structure": "parallel", "seed": 0},
+    {"wp": "wp3", "structure": "parallel", "seed": 1},
+    {"wp": "wp3", "structure": "parallel", "seed": 2}
+  ],
+  "hard_stops": [
+    "WP1 queue is not complete or any of its 18 fixed-final runs failed.",
+    "Any frozen file, source tree, bank, DeepCrack, contract, or checkpoint hash mismatch.",
+    "Any additional-run stream hash differs from the corresponding WP1 NAFNet stream hash.",
+    "Any pilot fails forced checkpoint/resume, finite loss/gradient, or fixed parameter-count checks.",
+    "Any result-based change to the run matrix, structure width, fusion, prompt condition, or fixed-final checkpoint rule."
+  ]
+}

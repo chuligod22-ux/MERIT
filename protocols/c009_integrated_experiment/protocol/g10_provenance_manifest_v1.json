@@ -1,0 +1,164 @@
+{
+  "schema_version": "MERIT-C009-G10-PROVENANCE-v1",
+  "created_date": "2026-09-24",
+  "gate": "G10",
+  "status": "CLOSED",
+  "claim_boundary": {
+    "d3": "different tunnel / same acquisition system; not cross-device or broad deployment validation",
+    "d2_external": "four tunnels acquired with one non-MERIT equipment family; 14 physical parents, not 1703 independent specimens",
+    "width_chart": "nominal apparent printed width only; not traceable physical crack-width metrology"
+  },
+  "author_confirmation_record": {
+    "path": "10_접수자료/d5120_merit_data_asset_manifest.md",
+    "sha256": "bf8aa3d48c06cb45d2e8e4677bfa056c424738b0f0460b4ba7c73212c0e61f0a"
+  },
+  "facility_erratum": {
+    "path": "40_수정본/d5700_merit_d5620_facility_erratum.md",
+    "sha256": "bcc5ded2cf247209fe16b8c4f72a0e77379d9da5bf74dbddadb688559954ace6",
+    "status": "CLOSED"
+  },
+  "assets": {
+    "d0_training_bank": {
+      "role": "restoration training/validation and paired synthetic optical evaluation",
+      "protocol": {
+        "path": "40_수정본/c006_execution/c006_protocol.json",
+        "sha256": "570a835e90f5ceac01ded2c30b95930a10f6229c091a5236aa82e99d9420b2d6"
+      },
+      "manifest": {
+        "path": "40_수정본/c006_execution/artifacts/d0_bank_manifest.csv",
+        "rows": 211,
+        "sha256": "37339f67ebb536043a8429671fc1e1a710a0621d12028d2c95d5d48ea8471c5f"
+      },
+      "ledger": {
+        "path": "40_수정본/c006_execution/artifacts/d0_bank_ledger.json",
+        "sha256": "2da2add184256563baaea6edda45e494390ab35e48d68513e7efa0fc0720380d"
+      },
+      "bank": {
+        "path": "40_수정본/c006_execution/artifacts/d0_bank_448.npy",
+        "sha256": "72184370f07e825d4ec6ac386b040f14758c09e49cde3ddee588ba8a6f0f82c3"
+      }
+    },
+    "d0_cam1_mtf": {
+      "role": "submitted-system chart MTF condition evaluation",
+      "cohort": {
+        "path": "40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+        "rows": 1737,
+        "sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274"
+      },
+      "freeze": {
+        "path": "40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_freeze.json",
+        "sha256": "f2e9ecd89295b7f4725244041cf917b7625fb746333c8afb06d1c478679cf755"
+      }
+    },
+    "d0_cam2_natural_crack": {
+      "role": "actual field detector-response analysis without physical crack ground truth",
+      "cohort": {
+        "path": "40_수정본/c007_d0_condition_eval/artifacts/cam2_v1/d0_cam2_cohort.csv",
+        "rows": 50,
+        "sha256": "a8aa5a3feccaf8983ac66ac0f843156daad2897b792f4bff8fdde1cf5455466b"
+      },
+      "freeze": {
+        "path": "40_수정본/c007_d0_condition_eval/artifacts/cam2_v1/d0_cam2_freeze.json",
+        "sha256": "d17b9f076271a84af3adfb30508db920964b1e42464d8826a25939242f074758"
+      }
+    },
+    "d1_indoor": {
+      "role": "controlled actual-acquisition MTF sensitivity; not field clean truth",
+      "cohort": {
+        "path": "40_수정본/c007_d1_indoor_mtf_eval/artifacts/indoor_v1/d1_indoor_cohort.csv",
+        "rows": 3200,
+        "sha256": "5d5eb028441cec0b9fbb0cb7a1f1629122c146d2e9bc315575f7a92f5e818de6"
+      },
+      "freeze": {
+        "path": "40_수정본/c007_d1_indoor_mtf_eval/artifacts/indoor_v1/d1_indoor_freeze.json",
+        "sha256": "f09e6bf556061f4a9e7cb93b67f0d09bd28459033c9ff46678de2579d50eee65"
+      }
+    },
+    "d2_external_four_tunnel": {
+      "role": "independent external crack endpoint; restoration tuning prohibited",
+      "cohort": {
+        "path": "40_수정본/c007_d2_external_synthetic/artifacts/external_v1/cohort.csv",
+        "rows": 1703,
+        "parents": 14,
+        "tunnels": 4,
+        "sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028"
+      },
+      "freeze": {
+        "path": "40_수정본/c007_d2_external_synthetic/artifacts/external_v1/freeze.json",
+        "sha256": "88a6c73cedb62eba6ba2cb479951af6f3fd69da1381f0f8c0ff691e398e0fc92"
+      }
+    },
+    "d3_systematic_field_cohort": {
+      "role": "different-tunnel, same-acquisition-system image-visible field endpoint",
+      "cohort": {
+        "path": "40_수정본/c005_freeze/artifacts/v1/d3_cohort.csv",
+        "rows": 988,
+        "sha256": "6274b67d6c1da7a82b921c307e83a59422537aeb1eacf467c79bac7e91c43421"
+      },
+      "freeze": {
+        "path": "40_수정본/c005_freeze/artifacts/v1/d3_cohort_freeze.json",
+        "sha256": "75650e8ce24905d753a08afa09c42ec1bd4e64c41faf8d7f613bdb356404a80d"
+      },
+      "rater_a": {
+        "path": "40_수정본/c005_freeze/runs/annotations_v2/a/frozen/rater_a_initial_final.json",
+        "sha256": "ade032061241145cf746af25ed22ce59a2df682e9880eebfff78875468210cf9"
+      },
+      "rater_b": {
+        "path": "40_수정본/c005_freeze/runs/annotations_v2/b/frozen/rater_b_initial_final.json",
+        "sha256": "7c291a7c81ef71a8d804ad6e5a74213f5d7dc2551d6f468c185a7f7956f13392"
+      },
+      "consensus": {
+        "path": "40_수정본/c005_freeze/runs/annotations_v2/consensus/frozen/d3_consensus_final.csv",
+        "rows": 988,
+        "sha256": "9f09039ec821b5e68cfcf1284bac8f10d7945893e426f6685f8f2acb85806a9e"
+      },
+      "consensus_freeze": {
+        "path": "40_수정본/c005_freeze/runs/annotations_v2/consensus/frozen/d3_consensus_freeze.json",
+        "sha256": "9b814d5e05cf032af97546ffa09a834c74ba492e9ac39462a385bc6da0c5b5d6"
+      }
+    },
+    "d3_full_perimeter_pairs": {
+      "role": "post-hoc ISO400/800 quality-descriptor harmonization; no clean reference",
+      "cohort": {
+        "path": "40_수정본/c007_full_perimeter_harmonization/artifacts/full_perimeter_v1/full_perimeter_cohort.csv",
+        "rows": 685,
+        "cells": 12,
+        "sha256": "c107a4f4040e31f16b2b79321e294b6e5a84c063d42130bbda521571a20517fd"
+      },
+      "freeze": {
+        "path": "40_수정본/c007_full_perimeter_harmonization/artifacts/full_perimeter_v1/full_perimeter_freeze.json",
+        "sha256": "acde0a948d33b41985d3519a9dcee3a8cc0984f244d28135e8c5277507dfc8bd"
+      },
+      "source_ledger": {
+        "path": "40_수정본/c007_full_perimeter_harmonization/artifacts/full_perimeter_v1/source_file_ledger.csv",
+        "rows": 276,
+        "sha256": "872567da7b21c037b78e7ac208fa3b379538538f86d5e859e3d6403ebbd14599"
+      }
+    },
+    "printed_width_chart": {
+      "role": "nominal apparent-width preservation",
+      "source_freeze": {
+        "path": "40_수정본/c009_integrated_experiment/protocol/width_chart_source_freeze.json",
+        "source_rows": 50,
+        "ledger_sha256": "3ee87765258f47f8197be8a172ecc5feded8fe883d8dfdc593378aef5aac0dea"
+      },
+      "layout": [[0.1, 0.2, 0.3, 0.4], [0.5, 0.6, 0.7, 0.8], [0.9, 1.0]],
+      "roi_status": "PENDING_PER_IMAGE_REVIEW",
+      "legacy_result": "DO_NOT_USE: cam1_crack_detectability.csv was generated with an incorrect 3/3/4 grid"
+    }
+  },
+  "role_separation": {
+    "restorer_training": ["d0_training_bank"],
+    "detector_training": ["D2 parent-disjoint training assets already frozen under C005; not the WP5 evaluation cohort"],
+    "external_crack_evaluation": ["d2_external_four_tunnel"],
+    "same_system_cross_site_evaluation": ["d3_systematic_field_cohort", "d3_full_perimeter_pairs"],
+    "actual_acquisition_optical_sensitivity": ["d0_cam1_mtf", "d1_indoor"],
+    "nominal_width_evaluation": ["printed_width_chart"]
+  },
+  "remaining_execution_blockers_outside_g10": [
+    "WP8 requires a separately frozen and independently reviewed 10-ROI-per-image ledger.",
+    "G11 exact official model source snapshots are not yet locally available.",
+    "G12 numeric success and stop gates must be frozen before result access.",
+    "G13 remains conditional on official-model smoke and the journal's extension decision."
+  ]
+}

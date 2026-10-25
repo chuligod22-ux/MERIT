@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-20T11:26:45+00:00",
+  "files": {
+    "cohort": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+      "sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274"
+    },
+    "development_contract": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_development_contract_v2.json",
+      "sha256": "3da4d7a7c74a2052035ff9b606c3267fc45e19ad888f29fa03d4885fbca253f6"
+    },
+    "estimator_source": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/mtf50_estimator.py",
+      "sha256": "edd89b2e9ad93017d18df4ef9d8cd1d4902f9da9bf9ea0eeef68ae26a72b75a9"
+    },
+    "preoutcome_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_preoutcome_freeze_v2.json",
+      "sha256": "59762f03f0b112c29bce9eb2cbe67c998a2508d23004890ccd6f89f524d586f6"
+    },
+    "runner_source": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_mtf50_v2.py",
+      "sha256": "9ad2f36fc28f1baaf529dd47bf3037e498dc97c08c4275c9ef0790026bdb0fba"
+    },
+    "test_source": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/tests/test_mtf50_estimator.py",
+      "sha256": "7e883ece258a94ecc8a30adc2dc48ea4e98a0c6f853ec80db02a0a7ecdc9446d"
+    }
+  },
+  "partition_validation": {
+    "development": {
+      "condition_cells": 10,
+      "distances_m": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "iso_set": [
+        100
+      ],
+      "roi_records": 335,
+      "speeds_kmh": [
+        60,
+        80
+      ]
+    },
+    "holdout": {
+      "condition_cells": 40,
+      "distances_m": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "iso_set": [
+        200,
+        400,
+        800,
+        1600
+      ],
+      "roi_records": 1402,
+      "speeds_kmh": [
+        60,
+        80
+      ]
+    },
+    "union": {
+      "condition_cells": 50,
+      "intersection_roi_records": 0,
+      "roi_records": 1737
+    }
+  },
+  "prohibition": "No source, test, contract, cohort, or selected sigma change is permitted before official holdout execution.",
+  "schema_version": "MERIT-C057-MTF50-V2-EXECUTION-FREEZE-v1",
+  "selected_candidate": {
+    "esf_input": "unaltered RAW pixels",
+    "line_fit": "existing two-stage ordinary least squares",
+    "localization_gaussian_sigma_px": 0.75,
+    "polarity": "select signed-gradient polarity with greater line support"
+  },
+  "state": "FROZEN_BEFORE_OFFICIAL_HOLDOUT_AND_RESTORATION_OUTPUTS"
+}

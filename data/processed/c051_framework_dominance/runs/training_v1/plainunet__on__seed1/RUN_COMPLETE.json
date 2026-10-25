@@ -1,0 +1,23 @@
+{
+  "checkpoint": "<LOCAL_PATH_REDACTED>",
+  "checkpoint_sha256": "18a6bc020f9534e89bc7eaeea9ec24969c46817a74ffeec92cf2b0bc1c8cabcc",
+  "elapsed_seconds_this_invocation": 596.0994395001326,
+  "log": "<LOCAL_PATH_REDACTED>",
+  "log_sha256": "3604524e0a9adedcec754654eafed08701ad077124db3b834356550441521555",
+  "model_id": "plainunet__on__seed1",
+  "payload_sha256": "bceeb14d919af5faa1d9a780e7de00bd59e4f0dd75b54b27381ef9156726a17a",
+  "peak_cuda_memory_bytes": 8899737088,
+  "schema_version": "MERIT-C051-TRAINING-RUN-v1",
+  "specification": {
+    "arm": "on",
+    "asset_manifest_payload_sha256": "b20126cb738b301a622063a533a28efef8ec2049d98db6f54b3cc61da9152600",
+    "backbone": "plainunet",
+    "batch_size": 4,
+    "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+    "seed": 1,
+    "steps": 4000,
+    "width": 48
+  },
+  "status": "PASS_COMPLETE",
+  "trainable_parameters": 4383361
+}

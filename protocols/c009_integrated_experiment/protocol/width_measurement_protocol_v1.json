@@ -1,0 +1,76 @@
+{
+  "schema_version": "width-measurement-protocol-v1",
+  "frozen_at": "2026-09-25T00:00:00+09:00",
+  "freeze_status": "FROZEN_BEFORE_FULL_500_ROI_OUTCOME",
+  "scope": "RAW centreline freeze and printed nominal apparent-width measurement",
+  "claim_boundary": {
+    "allowed": "Printed-target nominal apparent-width preservation under the acquisition-system design GSD",
+    "forbidden": [
+      "Traceable physical metrology of the printed target",
+      "Natural-crack physical width accuracy",
+      "Using nominal line widths to calibrate pixel-to-mm scale"
+    ]
+  },
+  "calibration": {
+    "source": "MERIT acquisition-system design specification",
+    "design_gsd_mm_per_sensor_pixel": 0.3,
+    "relative_gsd_sensitivity": 0.05,
+    "interpretation": "Assumption/sensitivity basis, not an independent board-dimension calibration"
+  },
+  "sampling_rule": {
+    "predeclared_subpixel_non_estimable_mm": [0.1, 0.2],
+    "reason": "At 0.3 mm/sensor pixel, the nominal spans are 0.33 and 0.67 pixel; no PSF deconvolution is used.",
+    "estimable_candidate_widths_mm": [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  },
+  "measurement": {
+    "centreline_source": "RAW_ONLY",
+    "future_variant_rule": "Reuse the identical RAW-frozen trace for every co-registered degraded/base/MERIT variant",
+    "apparent_width_definition": "FWHM between linearly interpolated half-maximum edge crossings",
+    "rectification": "Frozen ROI quadrilateral to an equal-sided plane while retaining inverse-homography local normal scale",
+    "design_gsd_application": "Rectified normal width is mapped back to sensor-pixel distance before multiplication by 0.3 mm/pixel",
+    "aggregation": "Median retained profile width per ROI",
+    "uncertainty": "1,000-replicate block bootstrap over 16-pixel along-line blocks",
+    "profile_stride_px": 2,
+    "trace_storage_stride_px": 4
+  },
+  "fixed_parameters": {
+    "inner_x_fraction": [0.12, 0.88],
+    "inner_y_fraction": [0.15, 0.85],
+    "background_sigma_side_divisor": 22.0,
+    "ridge_sigma_px": 0.8,
+    "dp_max_step_px": 4,
+    "dp_smoothness_penalty": 0.22,
+    "profile_half_range_px": 16,
+    "profile_baseline_inner_px": 10,
+    "profile_min_amplitude_dn": 1.5,
+    "profile_min_snr": 3.0,
+    "min_valid_profile_count": 50,
+    "min_valid_profile_fraction": 0.5,
+    "outlier_mad_multiplier": 3.5,
+    "bootstrap_replicates": 1000,
+    "bootstrap_block_width_px": 16,
+    "uncertainty_non_estimable_rule": "95% statistical CI span greater than 0.5 times nominal width"
+  },
+  "inputs": {
+    "roi_ledger": "width_chart_roi_final_v1.csv",
+    "roi_ledger_sha256": "ce46cf8249a8666c38a7b9b1ee02899423677ac584643e46bbe2654a32c2fd9f",
+    "expected_rows": 500,
+    "expected_frames": 50,
+    "expected_nominal_widths_per_frame": 10
+  },
+  "implementation": {
+    "script": "../scripts/measure_width_chart_raw.py",
+    "script_sha256": "b09ce6809f42da101fbaf938bf37f76119610c976c2366d200b0fec178e5bb35",
+    "test": "../scripts/test_measure_width_chart_raw.py",
+    "test_sha256": "bdb56b5d20ab985f1e4fe955af039895de5c444d9954fc3ac2f1f4a39c4bbd4e",
+    "synthetic_tests": "4 passed",
+    "test_scope": [
+      "identity normal-scale mapping",
+      "resolved line estimability",
+      "predeclared subpixel non-estimability",
+      "blank-patch QC rejection"
+    ]
+  },
+  "decision_rule_reference": "g12_endpoint_gate_freeze_v1.json printed_width",
+  "full_training_permission": false
+}

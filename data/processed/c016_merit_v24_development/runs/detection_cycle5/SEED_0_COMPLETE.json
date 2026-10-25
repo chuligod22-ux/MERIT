@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds_this_invocation": 430.16588490002323,
+  "payload_sha256": "7d4ac3a56e9e9ce285704a7afe706fa74abc55da8699e810f56bd7b1686af69c",
+  "schema_version": "MERIT-C016-DETECTION-CYCLE5-SEED-COMPLETE-v1",
+  "seed": 0,
+  "status": "PASS_COMPLETE",
+  "units": 4
+}

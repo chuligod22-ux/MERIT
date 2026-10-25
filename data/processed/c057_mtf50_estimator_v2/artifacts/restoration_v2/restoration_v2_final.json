@@ -1,0 +1,232 @@
+{
+  "analysis_status": "retrospective frozen measurement-method re-evaluation; not prospective confirmation",
+  "arm_three_seed_summaries": [
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_improved": 13,
+      "conditions_tied": 0,
+      "conditions_worsened": 29,
+      "mean_abs_error_cy_px": 0.019512036952356666,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0013563664470857529,
+        0.00527972241628491
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0033488922875855045
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_improved": 12,
+      "conditions_tied": 0,
+      "conditions_worsened": 30,
+      "mean_abs_error_cy_px": 0.017470383979659745,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0003059418335773123,
+        0.0022503177823515663
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0013072393148885848
+    }
+  ],
+  "claim_limits": [
+    "The original v1 86.82% failure and negative sensitivity remain preserved.",
+    "MTF50 v2 is not claimed as ISO 12233 compliance or optical calibration.",
+    "This retrospective analysis does not establish natural-crack detection or physical-width efficacy."
+  ],
+  "complete_case_coverage": {
+    "all_roi_identities": 1737,
+    "complete_case_fraction": 0.9965457685664939,
+    "complete_case_roi_identities": 1731,
+    "gate": "PASS",
+    "gate_checks": {
+      "each_distance_complete_case_fraction": true,
+      "overall_complete_case_fraction": true
+    },
+    "minimum_distance_complete_case_fraction": 0.99,
+    "per_distance": [
+      {
+        "complete_case_fraction": 1.0,
+        "complete_case_roi_identities": 332,
+        "distance_m": 2.5,
+        "roi_identities": 332
+      },
+      {
+        "complete_case_fraction": 1.0,
+        "complete_case_roi_identities": 311,
+        "distance_m": 3.5,
+        "roi_identities": 311
+      },
+      {
+        "complete_case_fraction": 0.99,
+        "complete_case_roi_identities": 297,
+        "distance_m": 4.5,
+        "roi_identities": 300
+      },
+      {
+        "complete_case_fraction": 0.9947089947089947,
+        "complete_case_roi_identities": 376,
+        "distance_m": 5.5,
+        "roi_identities": 378
+      },
+      {
+        "complete_case_fraction": 0.9975961538461539,
+        "complete_case_roi_identities": 415,
+        "distance_m": 6.5,
+        "roi_identities": 416
+      }
+    ]
+  },
+  "counts": {
+    "condition_cells": 50,
+    "frames": 479,
+    "primary_condition_cells": 42,
+    "roi_identities": 1737,
+    "runs_including_raw": 7
+  },
+  "created_utc": "2026-10-20T12:23:55+00:00",
+  "fixed_run_summaries": [
+    {
+      "condition": "off",
+      "condition_cells": 42,
+      "conditions_improved": 14,
+      "conditions_tied": 0,
+      "conditions_worsened": 28,
+      "mean_abs_error_cy_px": 0.01902492703215688,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0008401477520747314,
+        0.00480464930837777
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0028617823673857228,
+      "median_abs_error_cy_px": 0.01530861332508255,
+      "median_restored_minus_raw_abs_error_cy_px": 0.0029895909987945057,
+      "seed": "0"
+    },
+    {
+      "condition": "on",
+      "condition_cells": 42,
+      "conditions_improved": 15,
+      "conditions_tied": 0,
+      "conditions_worsened": 27,
+      "mean_abs_error_cy_px": 0.01710156131408936,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        -0.000357151406238345,
+        0.002147891684115931
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0009384166493182028,
+      "median_abs_error_cy_px": 0.01023023076700779,
+      "median_restored_minus_raw_abs_error_cy_px": 0.001244114393414382,
+      "seed": "0"
+    },
+    {
+      "condition": "off",
+      "condition_cells": 42,
+      "conditions_improved": 14,
+      "conditions_tied": 0,
+      "conditions_worsened": 28,
+      "mean_abs_error_cy_px": 0.01975934674360912,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0015058285960354236,
+        0.005667097145784464
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.003596202078837958,
+      "median_abs_error_cy_px": 0.01520558724356371,
+      "median_restored_minus_raw_abs_error_cy_px": 0.004740574968190463,
+      "seed": "1"
+    },
+    {
+      "condition": "on",
+      "condition_cells": 42,
+      "conditions_improved": 6,
+      "conditions_tied": 0,
+      "conditions_worsened": 36,
+      "mean_abs_error_cy_px": 0.019474248382600014,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0016898602168454542,
+        0.004851164748799649
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.003311103717828855,
+      "median_abs_error_cy_px": 0.014151218087186224,
+      "median_restored_minus_raw_abs_error_cy_px": 0.004191083009890767,
+      "seed": "1"
+    },
+    {
+      "condition": "off",
+      "condition_cells": 42,
+      "conditions_improved": 13,
+      "conditions_tied": 0,
+      "conditions_worsened": 29,
+      "mean_abs_error_cy_px": 0.01975183708130399,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.001571638216545731,
+        0.005519760710140088
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0035886924165328326,
+      "median_abs_error_cy_px": 0.015076153818134992,
+      "median_restored_minus_raw_abs_error_cy_px": 0.004539817040367537,
+      "seed": "2"
+    },
+    {
+      "condition": "on",
+      "condition_cells": 42,
+      "conditions_improved": 24,
+      "conditions_tied": 0,
+      "conditions_worsened": 18,
+      "mean_abs_error_cy_px": 0.015835342242289854,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        -0.00107518284680199,
+        0.0004596428517383641
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": -0.0003278024224813036,
+      "median_abs_error_cy_px": 0.009778021308241285,
+      "median_restored_minus_raw_abs_error_cy_px": -0.0012236426041325674,
+      "seed": "2"
+    }
+  ],
+  "inputs": {
+    "artifacts": {
+      "complete_case_rois": {
+        "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/restoration_v2/restoration_v2_complete_case_rois.csv",
+        "sha256": "2d0fb6af0b1089454ce0ae1dbec9f9bd1d1ea0952e27c6545f8e70f0b27a3262"
+      },
+      "condition_results": {
+        "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/restoration_v2/restoration_v2_condition_results.csv",
+        "sha256": "7499ef074279e2eda271a118d32fcf2b4356a05d83f7cd0543780d2ec0ed0b1d"
+      },
+      "frame_results": {
+        "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/restoration_v2/restoration_v2_frame_results.csv",
+        "sha256": "1b8c8d4ebc4233a3733193a8e901b7df9e005c307d6d1d9cf089e108ae459dc8"
+      },
+      "roi_results": {
+        "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/restoration_v2/restoration_v2_roi_results.csv",
+        "sha256": "8f94c6ea2992b3ca2310113e4070dec1e5450087e79412c65a2d201350ad86d8"
+      },
+      "task_pairs": {
+        "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/restoration_v2/restoration_v2_task_pairs.csv",
+        "sha256": "706b03ad35800dc54ff2df79252472f1d9813342c74fd6bbbcada6beb6f9f25b"
+      }
+    },
+    "holdout_results_sha256": "b93591b2d9fb0c12a65e5b55304ae37fb38739639c007d6f9c9155fe996c1653",
+    "holdout_summary_sha256": "bbaadc493d90daf5ae4d5368be8f5465d8cdfd5439395fe52700b5f01a0cb5e9",
+    "original_cohort_sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274",
+    "original_protocol_sha256": "df66bc10df5019529c2a9cdaee78a19dfce941be3f750ed6a75d4f2cfe695136",
+    "progress_manifest_sha256": "c6fcbc3b8c1ea74e8153a8efb65ddf9634aa75e525692bce74968dd245d7ca26",
+    "raw_execution_freeze_sha256": "ef6caed381f42b6432168e823c33e80aec9a7b85f100cf137b743c718375e128",
+    "restoration_freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719"
+  },
+  "interpretation_gate": "The identical seven-run complete-case coverage gate passed; report the frozen positive or negative efficacy result.",
+  "raw_reproduction": {
+    "maximum_absolute_difference_cy_px": 9.71445146547012e-17,
+    "pass": true,
+    "roi_identities": 1737,
+    "valid_roi_identities": 1731
+  },
+  "schema_version": "MERIT-C057-MTF50-V2-RESTORATION-v1",
+  "state": "COMPLETE",
+  "task_on_minus_off": {
+    "condition_cells": 42,
+    "mean_on_minus_off_abs_error_cy_px": -0.0020416529726969197,
+    "median_on_minus_off_abs_error_cy_px": -0.0013956502118602776,
+    "pairs": 126,
+    "seeds": 3
+  }
+}

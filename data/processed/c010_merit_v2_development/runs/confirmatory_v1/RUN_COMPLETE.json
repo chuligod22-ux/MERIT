@@ -1,0 +1,257 @@
+{
+  "claim_boundary": "Retrospective unused-condition, parent-disjoint synthetic paired confirmation. It is not new acquisition, real-field recovery, downstream crack-detection efficacy, physical-width recovery, or cross-site validation.",
+  "completed_at_kst": "2026-10-11T21:20:43+09:00",
+  "crops": 98,
+  "freeze_path": "<LOCAL_PATH_REDACTED>",
+  "freeze_sha256": "af7a1a16c34d2191a8bc88278decf1ca550ae271807dcbd1f81b7e504439926b",
+  "macro": {
+    "delta_gradient_mae": {
+      "ci_high": -8.362653513511537e-05,
+      "ci_low": -8.461204000495319e-05,
+      "mean": -8.41182908058483e-05,
+      "parents": 68
+    },
+    "delta_overshoot_p95": {
+      "ci_high": -9.313080883978673e-05,
+      "ci_low": -0.00011751194150408495,
+      "mean": -0.00010519491135516083,
+      "parents": 68
+    },
+    "delta_psnr_db": {
+      "ci_high": 0.25143527503314433,
+      "ci_low": 0.25012691524666075,
+      "mean": 0.2507867298314799,
+      "parents": 68
+    },
+    "gates": {
+      "all_seeds": true,
+      "gradient": true,
+      "identity": true,
+      "overshoot": true,
+      "psnr": true
+    },
+    "identity": {
+      "max_mean_absolute_change": 0.0,
+      "max_p99_absolute_change": 0.0
+    }
+  },
+  "parents": 68,
+  "per_seed": {
+    "seed0": {
+      "delta_gradient_mae": {
+        "ci_high": -8.67006500520564e-05,
+        "ci_low": -8.775852653414794e-05,
+        "mean": -8.723296295833207e-05,
+        "parents": 68
+      },
+      "delta_overshoot_p95": {
+        "ci_high": -7.080192470525885e-05,
+        "ci_low": -9.110541338242934e-05,
+        "mean": -8.0876948225945e-05,
+        "parents": 68
+      },
+      "delta_psnr_db": {
+        "ci_high": 0.2554227685053647,
+        "ci_low": 0.2544945573704526,
+        "mean": 0.2549491105943165,
+        "parents": 68
+      },
+      "gates": {
+        "gradient": true,
+        "identity": true,
+        "overshoot": true,
+        "psnr": true
+      },
+      "identity": {
+        "max_mean_absolute_change": 0.0,
+        "max_p99_absolute_change": 0.0
+      },
+      "identity_records": 98,
+      "metrics_path": "<LOCAL_PATH_REDACTED>",
+      "metrics_sha256": "fca0bba41cb8f4851f92d8a578f04e4bcf82f3a182c83660c46e24046f9c44c5",
+      "provenance": {
+        "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+        "checkpoint_sha256": "8b6b528ade6e02e28adee4f826354e89df7fe88adcfa566d0c5be5384d64dd13",
+        "model": {
+          "class": "NAFNetLocal",
+          "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+          "family": "nafnet",
+          "kwargs": {
+            "dec_blk_nums": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "enc_blk_nums": [
+              1,
+              1,
+              1,
+              28
+            ],
+            "img_channel": 3,
+            "middle_blk_num": 1,
+            "width": 32
+          },
+          "module": "basicsr.models.archs.NAFNet_arch",
+          "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+          "output_selector": "tensor",
+          "parameters": 17111907,
+          "repository": "https://github.com/megvii-research/NAFNet",
+          "runtime_adaptations": [],
+          "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+          "trainable_parameters": 17111907
+        },
+        "seed": 0
+      },
+      "records": 980,
+      "restoration_records": 882,
+      "status": "PASS"
+    },
+    "seed1": {
+      "delta_gradient_mae": {
+        "ci_high": -8.08883175326913e-05,
+        "ci_low": -8.22204972934617e-05,
+        "mean": -8.155951741321951e-05,
+        "parents": 68
+      },
+      "delta_overshoot_p95": {
+        "ci_high": -0.00013797406429707173,
+        "ci_low": -0.00017146861586404746,
+        "mean": -0.00015459507699976702,
+        "parents": 68
+      },
+      "delta_psnr_db": {
+        "ci_high": 0.24185743966293166,
+        "ci_low": 0.2387804945366486,
+        "mean": 0.2403120390985445,
+        "parents": 68
+      },
+      "gates": {
+        "gradient": true,
+        "identity": true,
+        "overshoot": true,
+        "psnr": true
+      },
+      "identity": {
+        "max_mean_absolute_change": 0.0,
+        "max_p99_absolute_change": 0.0
+      },
+      "identity_records": 98,
+      "metrics_path": "<LOCAL_PATH_REDACTED>",
+      "metrics_sha256": "6ec0780e4af963ef9c6f11d5cdbb8a3c168043759b652ff92840424c993eb22c",
+      "provenance": {
+        "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+        "checkpoint_sha256": "d91fc1c72ec9c4deeceeb1fd5e411093bf3fe4c2fcaccdd8bf64ad1a0bdfb46b",
+        "model": {
+          "class": "NAFNetLocal",
+          "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+          "family": "nafnet",
+          "kwargs": {
+            "dec_blk_nums": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "enc_blk_nums": [
+              1,
+              1,
+              1,
+              28
+            ],
+            "img_channel": 3,
+            "middle_blk_num": 1,
+            "width": 32
+          },
+          "module": "basicsr.models.archs.NAFNet_arch",
+          "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+          "output_selector": "tensor",
+          "parameters": 17111907,
+          "repository": "https://github.com/megvii-research/NAFNet",
+          "runtime_adaptations": [],
+          "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+          "trainable_parameters": 17111907
+        },
+        "seed": 1
+      },
+      "records": 980,
+      "restoration_records": 882,
+      "status": "PASS"
+    },
+    "seed2": {
+      "delta_gradient_mae": {
+        "ci_high": -8.317471124814655e-05,
+        "ci_low": -8.395421375776185e-05,
+        "mean": -8.356239204599334e-05,
+        "parents": 68
+      },
+      "delta_overshoot_p95": {
+        "ci_high": -7.026800975676023e-05,
+        "ci_low": -9.022526003308504e-05,
+        "mean": -8.011270883977046e-05,
+        "parents": 68
+      },
+      "delta_psnr_db": {
+        "ci_high": 0.2574683280145836,
+        "ci_low": 0.256733699215432,
+        "mean": 0.25709903980157867,
+        "parents": 68
+      },
+      "gates": {
+        "gradient": true,
+        "identity": true,
+        "overshoot": true,
+        "psnr": true
+      },
+      "identity": {
+        "max_mean_absolute_change": 0.0,
+        "max_p99_absolute_change": 0.0
+      },
+      "identity_records": 98,
+      "metrics_path": "<LOCAL_PATH_REDACTED>",
+      "metrics_sha256": "0520a0551b4df060cad381621aa09e2d59ed1bc84f9f689f17cc823abd88e542",
+      "provenance": {
+        "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+        "checkpoint_sha256": "6445800bbae0b23305c5b85a4685779c4d6e8f9d76448c63e03c318002e60f63",
+        "model": {
+          "class": "NAFNetLocal",
+          "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+          "family": "nafnet",
+          "kwargs": {
+            "dec_blk_nums": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "enc_blk_nums": [
+              1,
+              1,
+              1,
+              28
+            ],
+            "img_channel": 3,
+            "middle_blk_num": 1,
+            "width": 32
+          },
+          "module": "basicsr.models.archs.NAFNet_arch",
+          "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+          "output_selector": "tensor",
+          "parameters": 17111907,
+          "repository": "https://github.com/megvii-research/NAFNet",
+          "runtime_adaptations": [],
+          "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+          "trainable_parameters": 17111907
+        },
+        "seed": 2
+      },
+      "records": 980,
+      "restoration_records": 882,
+      "status": "PASS"
+    }
+  },
+  "schema_version": "MERIT-C010-V2-CONFIRMATORY-RESULT-v1",
+  "scientific_status": "RETROSPECTIVE_UNUSED_CONDITION_PARENT_DISJOINT_SYNTHETIC_CONFIRMATION",
+  "status": "PASS"
+}

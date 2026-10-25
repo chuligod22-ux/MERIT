@@ -1,0 +1,54 @@
+{
+  "destinations": [
+    "<LOCAL_PATH_REDACTED>",
+    "<LOCAL_PATH_REDACTED>"
+  ],
+  "display_change_only": true,
+  "display_gamma": 0.45,
+  "display_recomposition": "Each frozen 448 x 448 qualitative tile was replaced by its rendered top-left 224 x 224 source-only ROI at 2x magnification. Numerical panels, annotations, metrics, sample selection, and stochastic seed are unchanged.",
+  "families": [
+    "illumination_gradient_vignetting",
+    "linear_motion_psf",
+    "poisson_gaussian",
+    "saturation_clipping",
+    "spatially_varying_blur",
+    "veiling_scattering"
+  ],
+  "footer_crop_fraction": 0.965,
+  "metrics_use_untransformed_arrays": true,
+  "pdf_sha256": "a3ef0f3e317f3b8fe5e4c1dba6f51fcd8cc5ee036a226453710a7743d8984eb1",
+  "png_sha256": "2e1fd23bf5024d2a2695218cba69f5a52339e6f8421ffcbf05868f70dbb27857",
+  "qualitative_error_insets": "Absolute display-domain difference from the reference; degraded and restored insets share the same family-specific 99th-percentile scale.",
+  "qualitative_roi_selected_from": "SOURCE_IMAGE_ONLY",
+  "qualitative_roi_y0_y1_x0_x1": [
+    0,
+    224,
+    0,
+    224
+  ],
+  "qualitative_zoom_factor": 2.0,
+  "recomposition_script_sha256": "6d249480b97f4b8f38721210df364f647d0896661594f0b13c5239fe173b5920",
+  "redundant_footer_removed": true,
+  "rendered_base_pdf_sha256": "36709eb51956de2e8905bde875bca4832f4af176f68dc2ac6d773b2e5be8b794",
+  "rendered_base_png_sha256": "a3bea59b8b4fdc09a0922eb7e07fa7a830ce8e58c12f85321c37afc1796ec526",
+  "rendered_base_provenance_sha256": "7a81984d62ceb492c3ca299f57b2fdbf23a7e008cae40f1f6dc9012a40bc0617",
+  "schema_version": "MERIT-C018-FIGURE15-v5",
+  "secondary_panel_annotations_removed": true,
+  "selection": {
+    "bank_index": "80",
+    "condition": "crack_d45_ISO100_V80",
+    "crop_sha256": "87bf0aa6bc7d6b11355e9d27e778f3208022b446c5b219c7ea36a92084f378ba",
+    "parent_sha256": "82a2ad5a2615d85ab9b40d6af10037d9b0e39666e20da530c68902528f0e0eef",
+    "role": "crack",
+    "stochastic_seed": "202610150"
+  },
+  "selection_rule": "One clearly visible crack crop was selected from frozen role=crack source crops using the operational-source image only; no degraded or restored output was viewed. The same crop and severity are used for all six families; one seed is fixed for the stochastic families.",
+  "selection_status": "SOURCE_ONLY_QUALITATIVE_SELECTION_NO_OUTPUT_SCREENING",
+  "severity": 2,
+  "source_generation_script_sha256": "08d187ddd2b6f283efb7162214d34cdace43d478444711f1481ff96bed6a80f3",
+  "subcaption_style": {
+    "alignment": "centered below each panel",
+    "color": "#101828",
+    "font": "DejaVu Sans Bold"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "assets": {
+    "c016_cycle5_protocol": {
+      "bytes": 5999,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "427715e3ce534b4c3ec0cc0f70943152ce82b90b2821a57d59e6eb8e257ec47d"
+    },
+    "c016_cycle5_selection": {
+      "bytes": 40370,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "524a582666d08ca277ed2ec9f169902e7c50e3532fdaef415cc0fc43b1eb7d41"
+    },
+    "c016_cycle5_summary": {
+      "bytes": 29058,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "13c04261318d6081b4c67772c68f791019b30f37409a8972eaeb6ef0b933605d"
+    },
+    "cv_protocol": {
+      "bytes": 3014,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6500883908ee5d22e4dbc77ccfe2de8a34e4effc8cd1cd748f332570a66c852a"
+    },
+    "d2_protocol": {
+      "bytes": 3196,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3"
+    },
+    "field_cohort": {
+      "bytes": 703837,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028"
+    },
+    "segformer_config": {
+      "bytes": 6884,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "209caa9091e4632f7c8883c11170cd08ad29af68b23c09590aa4a5befb1a2a7f"
+    },
+    "segformer_pretrained_dir": "<LOCAL_PATH_REDACTED>",
+    "segformer_weights": {
+      "bytes": 15036944,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6ae39addd01de6b1b8bde2cf677d43a5cd733424b8d186de3f95d1c51fee23f9"
+    }
+  },
+  "claim_boundary": "C017 is iterative development and stochastic replication on the four supplied tunnels. It measures architecture robustness on those tunnels and does not establish prospective new-site generalisation.",
+  "code": {
+    "evaluation": {
+      "bytes": 23846,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "2054521adcc945847bef6d38636376e06931b10ad7d9a50609bdd3e7f5e5e097"
+    },
+    "models": {
+      "bytes": 5572,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "1aeca31627e4b42db064bb234c463596d6a910b6a523552e9bba0f2b011d77e1"
+    },
+    "training": {
+      "bytes": 15146,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "71ad09888c9f740185e761ef682ee4732938f40e9102cba354805f1a70b22b05"
+    }
+  },
+  "data": {
+    "base_tile_count": 7060,
+    "d2_root": "<LOCAL_PATH_REDACTED>",
+    "field_evaluation_cohort": "1703 frozen tiles from the same 14 parents and four supplied tunnels",
+    "outer_split": "leave one whole tunnel out",
+    "parent_count": 14,
+    "tile_size": 512,
+    "tunnels": {
+      "A": [
+        "0036",
+        "0037",
+        "0038",
+        "0039",
+        "0040"
+      ],
+      "B": [
+        "0055"
+      ],
+      "C": [
+        "0116",
+        "0117",
+        "0118",
+        "0119",
+        "0120"
+      ],
+      "D": [
+        "0211",
+        "0212",
+        "0213"
+      ]
+    }
+  },
+  "environment": {
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.9.0"
+  },
+  "evaluation": {
+    "bootstrap": "10,000 parent-cluster resamples stratified by tunnel",
+    "candidate_conditions": {
+      "identity": {
+        "profile": null,
+        "weight": 0.0
+      },
+      "inv0125__linear025": {
+        "profile": "inv0125",
+        "weight": 0.25
+      },
+      "inv0125__linear050": {
+        "profile": "inv0125",
+        "weight": 0.5
+      },
+      "inv0125__linear075": {
+        "profile": "inv0125",
+        "weight": 0.75
+      },
+      "inv0125__linear100": {
+        "profile": "inv0125",
+        "weight": 1.0
+      },
+      "inv1250__linear025": {
+        "profile": "inv1250",
+        "weight": 0.25
+      },
+      "inv1250__linear050": {
+        "profile": "inv1250",
+        "weight": 0.5
+      },
+      "inv1250__linear075": {
+        "profile": "inv1250",
+        "weight": 0.75
+      },
+      "inv1250__linear100": {
+        "profile": "inv1250",
+        "weight": 1.0
+      },
+      "sharp0025__linear025": {
+        "profile": "sharp0025",
+        "weight": 0.25
+      },
+      "sharp0025__linear050": {
+        "profile": "sharp0025",
+        "weight": 0.5
+      },
+      "sharp0025__linear075": {
+        "profile": "sharp0025",
+        "weight": 0.75
+      },
+      "sharp0025__linear100": {
+        "profile": "sharp0025",
+        "weight": 1.0
+      }
+    },
+    "final_gate": "For both all seeds and held seeds 1/2: positive 95% bootstrap lower bound, positive mean in 4/4 tunnels, positive F1 mean, nonworsening matched-sensitivity FPR, and nonnegative mean delta AUPRC for every included detector.",
+    "held_replication_data": "restorer/model seeds 1 and 2, inaccessible to route selection",
+    "practical_target_delta_auprc": 0.01,
+    "practical_target_role": "predeclared substantive-effect indicator, reported separately from the efficacy gate",
+    "primary_analysis": "equal average of SegFormer-B0 and Mamba2 U-Net hybrid",
+    "robustness_analysis": "equal average of the frozen CNN panel plus the two new models",
+    "selection_constraints": "mean matched-sensitivity delta FPR <=0; every tunnel panel delta AUPRC >0; each model mean delta AUPRC >=0; active routes positive on at least 2/4 tunnels",
+    "selection_data": "restorer/model seed 0 across all four development tunnels",
+    "selection_objective": "maximum equal-model equal-tunnel new-model-panel delta AUPRC"
+  },
+  "frozen": true,
+  "model_contracts": {
+    "mamba2_unet": {
+      "architecture": "Mamba2 U-Net hybrid: convolutional 32/48/64/96/128 encoder, two official Transformers Mamba2 blocks at 32x32, symmetric convolutional decoder",
+      "input": "512x512 ImageNet-normalized grayscale repeated to RGB",
+      "naming_boundary": "This is a purpose-built Mamba2 U-Net hybrid, not VM-UNet or CrackMamba.",
+      "output": "one 512x512 binary crack logit",
+      "pretraining": "none"
+    },
+    "segformer_b0": {
+      "architecture": "NVIDIA SegFormer-B0 ADE20K pretrained encoder/decoder with a newly initialized one-logit crack classifier",
+      "input": "512x512 ImageNet-normalized grayscale repeated to RGB",
+      "output": "one 512x512 binary crack logit",
+      "pretraining": "nvidia/segformer-b0-finetuned-ade-512-512 local immutable snapshot"
+    }
+  },
+  "models": [
+    "segformer_b0",
+    "mamba2_unet"
+  ],
+  "objective": "Test whether MERIT improves crack detection for a transformer and a Mamba-family detector under the same four-tunnel leave-one-tunnel-out protocol.",
+  "payload_sha256": "a4eb65827a45aa9a953d9c1f132341cb1f04f50e0913b4ddbfccf2e8517033ce",
+  "schema_version": "MERIT-C017-PROTOCOL-v1",
+  "source_provenance": {
+    "VMamba4CrackSeg_commit": "52c16cb698219e15ef5cb27ae9a3a76f7e962177",
+    "implementation_note": "VMamba4CrackSeg was audited, but its CUDA selective-scan extension is unavailable in this Windows environment. The tested Mamba model uses the official Transformers Mamba2 PyTorch implementation.",
+    "state_spaces_mamba_commit": "e9594ce1c732d97440f0332fdc43170a2294dbfa"
+  },
+  "status": "FROZEN_BEFORE_TRAINING_AND_MERIT_OUTPUTS",
+  "training": {
+    "augmentation": "deterministic 0/90/180/270 degree rotation only",
+    "checkpoint": "fixed final epoch; no held-out checkpoint selection or early stopping",
+    "epochs": 12,
+    "learning_rate": 0.0001,
+    "loss": "BCEWithLogits plus soft Dice, equal weights, no pos_weight",
+    "models": {
+      "mamba2_unet": {
+        "effective_batch_size": 64,
+        "gradient_accumulation": 2,
+        "physical_batch_size": 32
+      },
+      "segformer_b0": {
+        "effective_batch_size": 64,
+        "gradient_accumulation": 1,
+        "physical_batch_size": 64
+      }
+    },
+    "optimizer": "AdamW",
+    "precision": "CUDA bfloat16 autocast with float32 loss",
+    "resume": "epoch-specific shuffle seeds and atomic epoch checkpoints",
+    "seeds": [
+      20260921,
+      20260922,
+      20260923
+    ],
+    "weight_decay": 0.0001,
+    "workers": 4
+  }
+}

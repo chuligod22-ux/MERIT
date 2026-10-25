@@ -1,0 +1,93 @@
+{
+  "bindings": {
+    "v2_adapter_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter.py",
+      "sha256": "7de6ee23f211cef41af68843dc69edf4cbad093a7a54e42b3b3130cb0a833ac2"
+    },
+    "v2_artifact:candidate_summaries": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_candidate_summaries.json",
+      "sha256": "088e37ecd40999ec4c2210d352b4f20f121a5cfe8e6b6f1c2012d12110b1af0a"
+    },
+    "v2_artifact:common_complete_case_report": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_complete_case_report.json",
+      "sha256": "b57c697dc4ec738e9740a59924651abc43e1ed6f3a919da9ea3619d7dfb4eab2"
+    },
+    "v2_artifact:common_complete_case_roi_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_complete_case_roi_results.csv",
+      "sha256": "7226992dfcf3cb00082c2cff12f12c39dc5f870cb60ca5de2e2a2d2bb87c03c7"
+    },
+    "v2_artifact:condition_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_condition_results.csv",
+      "sha256": "1a17328b093ed970f3a05c524d452ed43e8376e9a8d356fb7f84749dc0c67e0f"
+    },
+    "v2_artifact:pixel_diagnostics": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_pixel_diagnostics.csv",
+      "sha256": "f6c70fcf1b1475a11559f693e4e4daebf5dd04c824b557398600cc6829a9e84b"
+    },
+    "v2_artifact:progress_manifest": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_progress_manifest.json",
+      "sha256": "2c79945cf45efaea844ffe33bcf07cae7482eb56c8aa3f337cd828a63ca20099"
+    },
+    "v2_artifact:roi_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_roi_results.csv",
+      "sha256": "7c84d8756fba418d10c27a3aa2ea3fdeac90be784cb162087be08ddbfa82c764"
+    },
+    "v2_contract": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/development_contract_v2.json",
+      "sha256": "1296a68a1b9856d6aa55656fb43b23fc5d35e2e311ca764ff764b39fdea20184"
+    },
+    "v2_contract_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/development_contract_v2.json.sha256",
+      "sha256": "776349d384ebc7f8c8e42556138539c3eb754efc76b5f48c7cdc601bf00419c7"
+    },
+    "v2_development_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_development_v2.py",
+      "sha256": "2c732bb9740cd32988a5d9042ba2e3f5f32694c19ce0521ac493b60b28fe35cc"
+    },
+    "v2_final": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_final.json",
+      "sha256": "5b82f0e6d74e438e832518447c2b32d28cf1c765035afed7674ceddd2ed2fcf8"
+    },
+    "v2_final_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_final.json.sha256",
+      "sha256": "4a1147e524a407ffaf7171cd62d2620449c678f42c7979f8b6e7da0c9874806c"
+    },
+    "v2a_addendum_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_release_addendum_v2a.py",
+      "sha256": "8b7191e200033de5b771d041abc8c1172bf88c05675ab4675523e1c71f976858"
+    },
+    "v2a_addendum_tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_release_addendum_v2a.py",
+      "sha256": "bfedfd97f2280052ca2b5fa1823e7ebe9e2cf141637e0d0071d9a5dd22e41e86"
+    }
+  },
+  "frozen_tolerance": {
+    "absolute": 1e-15,
+    "maximum_allowed_absolute_difference": 1e-13,
+    "relative": 1e-13
+  },
+  "original_v2": {
+    "contract_schema": "MERIT-C058-OPTICAL-FIDELITY-DEVELOPMENT-v2",
+    "contract_sha256": "1296a68a1b9856d6aa55656fb43b23fc5d35e2e311ca764ff764b39fdea20184",
+    "final_sha256": "5b82f0e6d74e438e832518447c2b32d28cf1c765035afed7674ceddd2ed2fcf8",
+    "gate": "PASS",
+    "selected_route_id": "band_inverse_a0.500_s0.75_cap8"
+  },
+  "prohibitions": [
+    "Do not modify or overwrite any v2 code, contract, progress, final, or artifact.",
+    "Do not relax the frozen 1e-13/1e-15 numerical tolerance.",
+    "Do not change the released condition CSV, summary, route ranking, or gate.",
+    "Do not overwrite an existing v2 or v2a selection file."
+  ],
+  "purpose": "Correct the release verifier only: compare progress-derived floating tables to released CSV with frozen tolerance, then exactly recompute summaries and selection from the released condition CSV.",
+  "schema_version": "MERIT-C058-RELEASE-VERIFICATION-ADDENDUM-v2a",
+  "state": "FROZEN_AFTER_V2_RELEASE_BEFORE_V2A_SELECTION",
+  "verification_order": [
+    "verify all v2/addendum file hashes",
+    "reconstruct ROI, diagnostics, and manifest from all progress files",
+    "reconstruct common complete-case and condition tables",
+    "compare reconstructed numeric tables to released CSV with tolerance",
+    "recompute summaries and route selection exactly from released condition CSV",
+    "require unchanged selected route and PASS gate"
+  ]
+}

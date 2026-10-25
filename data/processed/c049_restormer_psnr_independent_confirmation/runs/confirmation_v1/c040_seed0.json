@@ -1,0 +1,62 @@
+{
+  "elapsed_seconds": 246.21010459994432,
+  "identity_max_abs_error": 0.0,
+  "model_seed": 0,
+  "parents": 302,
+  "peak_cuda_memory_bytes": 7725115904,
+  "protocol_payload_sha256": "7809ac82932d86abf61da217d7ed4f9f4215f2bfaa5575837ccc1250fb4ca061",
+  "provenance": {
+    "base": {
+      "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+      "checkpoint_sha256": "aaa44062831ebe1fdec96b960d4b5c1d0598fae8ccfd07822e436c00c1da9ad2",
+      "completion_payload_sha256": "80b1effb5a300e2cf3d02bcc16f8c7f40f1126fc56a74f7940f41a8004128d7c",
+      "model": {
+        "class": "Restormer",
+        "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+        "family": "restormer",
+        "kwargs": {
+          "LayerNorm_type": "WithBias",
+          "bias": false,
+          "dim": 48,
+          "dual_pixel_task": false,
+          "ffn_expansion_factor": 2.66,
+          "heads": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "inp_channels": 3,
+          "num_blocks": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "num_refinement_blocks": 4,
+          "out_channels": 3
+        },
+        "module": "basicsr.models.archs.restormer_arch",
+        "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+        "output_selector": "tensor",
+        "parameters": 26126644,
+        "repository": "https://github.com/swz30/Restormer",
+        "runtime_adaptations": [],
+        "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+        "trainable_parameters": 26126644
+      },
+      "model_id": "wp1__restormer__base__seed0"
+    },
+    "high_adapter_checkpoint_sha256": "33a893ec65a64231e26933dd2345793ce1b32c150b21b59387001630236241e3",
+    "merit_full": {
+      "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+      "checkpoint_sha256": "38a9f5faf2758380b4611a91238d5ec18f1e3b64f8d6248f4ea418bbaefab693",
+      "completion_payload_sha256": "d6ccb7291e6500b99b6997d33d22adde3728b1541dc588e15cefa04a526d7609"
+    }
+  },
+  "records": 1350,
+  "records_path": "<LOCAL_PATH_REDACTED>",
+  "records_sha256": "af1bc4c62487f5e816b1e1064a4858437d075fc846e85f0f3585da2a2631f13c",
+  "schema_version": "MERIT-C049-CONFIRMATION-CELL-v1",
+  "status": "COMPLETE"
+}

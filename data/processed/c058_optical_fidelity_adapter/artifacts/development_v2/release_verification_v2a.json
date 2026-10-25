@@ -1,0 +1,79 @@
+{
+  "comparisons": {
+    "progress_to_complete_case_csv": {
+      "atol": 1e-15,
+      "columns": 12,
+      "label": "progress_to_complete_case_csv",
+      "maximum_absolute_difference": 9.71445146547012e-17,
+      "maximum_allowed_absolute_difference": 1e-13,
+      "numeric_values_compared": 121545,
+      "pass": true,
+      "rows": 24309,
+      "rtol": 1e-13
+    },
+    "progress_to_condition_csv": {
+      "atol": 1e-15,
+      "columns": 21,
+      "label": "progress_to_condition_csv",
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "maximum_allowed_absolute_difference": 1e-13,
+      "numeric_values_compared": 6120,
+      "pass": true,
+      "rows": 360,
+      "rtol": 1e-13
+    },
+    "progress_to_diagnostics_csv": {
+      "atol": 1e-15,
+      "columns": 24,
+      "label": "progress_to_diagnostics_csv",
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "maximum_allowed_absolute_difference": 1e-13,
+      "numeric_values_compared": 119232,
+      "pass": true,
+      "rows": 6624,
+      "rtol": 1e-13
+    },
+    "progress_to_roi_csv": {
+      "atol": 1e-15,
+      "columns": 12,
+      "label": "progress_to_roi_csv",
+      "maximum_absolute_difference": 9.71445146547012e-17,
+      "maximum_allowed_absolute_difference": 1e-13,
+      "numeric_values_compared": 122129,
+      "pass": true,
+      "rows": 24455,
+      "rtol": 1e-13
+    }
+  },
+  "exact_checks": {
+    "all_addendum_bindings_match": true,
+    "all_v2_artifact_bindings_match": true,
+    "complete_case_report_exact": true,
+    "condition_csv_to_summary_exact": true,
+    "maximum_difference_within_frozen_tolerance": true,
+    "progress_manifest_exact": true,
+    "selected_route_unchanged": true,
+    "selection_gate_same_pass": true,
+    "summary_to_selection_exact": true
+  },
+  "gate": "PASS",
+  "inputs": {
+    "addendum_sha256": "61934dc86e9d8507ab91daba0e34f764a3f97fd5be198af31c2c909c43ce8cd8",
+    "c057_restoration_freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719",
+    "v2_contract_sha256": "1296a68a1b9856d6aa55656fb43b23fc5d35e2e311ca764ff764b39fdea20184",
+    "v2_final_sha256": "5b82f0e6d74e438e832518447c2b32d28cf1c765035afed7674ceddd2ed2fcf8"
+  },
+  "maximum_absolute_difference": 8.881784197001252e-16,
+  "maximum_allowed_absolute_difference": 1e-13,
+  "reference_maximum_absolute_difference": 0.0,
+  "schema_version": "MERIT-C058-RELEASE-VERIFICATION-RESULT-v2a",
+  "selected_candidate": {
+    "alpha": -0.5,
+    "cap_dn": 8.0,
+    "route_id": "band_inverse_a0.500_s0.75_cap8",
+    "sharp_gain": 0.0,
+    "sigma": 0.75
+  },
+  "selected_route_id": "band_inverse_a0.500_s0.75_cap8",
+  "state": "PASS_PROGRESS_TO_SELECTION_RECOMPUTATION"
+}

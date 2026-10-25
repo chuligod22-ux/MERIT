@@ -1,0 +1,48 @@
+{
+  "schema_version": "MERIT-C018-V25-DEGRADATION-DEVELOPMENT-v1",
+  "status": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "created_date": "2026-10-15",
+  "objective": "Develop degradation-conditioned MERIT branches for the six C009 OOD families while preserving exact identity behavior.",
+  "scientific_boundary": {
+    "c009": "The completed C009 verdict remains immutable and is used only as an unblinded development benchmark.",
+    "training": "Only the original C006/C009 training split may be used for optimization.",
+    "confirmation": "A parent-disjoint C010 source cohort with newly frozen OOD draws is reserved for one-shot confirmation after development is frozen.",
+    "field": "The released v2.4 field route remains unchanged unless a later field endpoint confirms non-inferiority."
+  },
+  "routing": {
+    "identity": "exact source bypass",
+    "illumination_gradient_vignetting": "parameter-conditioned multiplicative inverse",
+    "veiling_scattering": "parameter-conditioned affine inverse",
+    "saturation_clipping": "parameter-conditioned inverse below the clipped plateau with conservative plateau reconstruction",
+    "linear_motion_psf": "parameter-conditioned bounded motion unsharp branch",
+    "spatially_varying_blur": "parameter-conditioned bounded spatially varying unsharp branch",
+    "poisson_gaussian": "NAFNet branch fine-tuned from the frozen C009 base using signal-dependent Poisson-Gaussian training draws"
+  },
+  "physics_gain_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.65,
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "poisson_training": {
+    "initial_checkpoint": "../../c009_integrated_experiment/runs/wp1/nafnet/base_seed0/final.pt",
+    "steps": 3000,
+    "batch_size": 8,
+    "learning_rate": 0.00002,
+    "weight_decay": 0.0001,
+    "peak_photons_range": [32.0, 200.0],
+    "additive_std_8bit_range": [0.5, 3.5],
+    "loss": "MSE + 0.02*L1 + 0.05*gradient-L1",
+    "seed": 20261015
+  }
+}

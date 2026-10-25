@@ -1,0 +1,68 @@
+{
+  "schema_version": "MERIT-C061-MOTION-DEBLUR-DEVELOPMENT-v1a",
+  "status": "FROZEN_BEFORE_FULL_33_PARENT_SCAN",
+  "created_date": "2026-10-24",
+  "objective": "Replace the C018 zero-gain linear-motion bypass with a bounded non-blind deblurring route while retaining exact fallback when development gates fail.",
+  "supersedes": {
+    "protocol": "development_v1.json",
+    "protocol_sha256": "362914ca5eea59ded650c75aa4beb77aed5239f76f35d9e6476c99c8b3de4821",
+    "reason": "The initial three-crop code exercise wrote to the official development output namespace. It was not an official development result. v1a separates every max-crops exercise into runs/smoke and reserves runs/development_v1/motion_scan.json for the complete 50-crop, 33-parent scan."
+  },
+  "script_sha256": "28d2b527f3fddb8d04db385799e74ab658a3666d8129cc13c5bfb6c9fed29035",
+  "input_freeze": {
+    "development_bank": {
+      "path": "c006_execution/artifacts/d0_bank_448.npy",
+      "sha256": "72184370f07e825d4ec6ac386b040f14758c09e49cde3ddee588ba8a6f0f82c3",
+      "eligible_split": "synthetic_holdout",
+      "crops": 50,
+      "physical_parents": 33
+    },
+    "development_manifest": {
+      "path": "c006_execution/artifacts/d0_bank_manifest.csv",
+      "sha256": "37339f67ebb536043a8429671fc1e1a710a0621d12028d2c95d5d48ea8471c5f"
+    },
+    "reserved_confirmation_bank": {
+      "path": "c010_merit_v2_development/artifacts/confirmatory_v1/d0_bank_448.npy",
+      "sha256": "d274000c7364e04c5acdf73913ca2e4f9b42a56b548b7d75dafd77b0be89f82d",
+      "crops": 98,
+      "physical_parents": 68,
+      "access_rule": "Do not evaluate the C061 route until the route, parameters, code, and confirmation gates are frozen."
+    },
+    "reserved_confirmation_manifest": {
+      "path": "c010_merit_v2_development/artifacts/confirmatory_v1/d0_bank_manifest.csv",
+      "sha256": "147d76ce9d523f72a81d31d5f11bf7efb289ca5ce7664bcbfad47b8ed5ff0fb1"
+    }
+  },
+  "scientific_boundary": {
+    "development": "Only the C006 synthetic_holdout split (50 crops, 33 physical parents) is used to select an algorithm and parameters.",
+    "confirmation": "The C010 98-crop, 68-parent cohort is not evaluated until the route and gates are frozen.",
+    "operator": "The synthetic linear-motion kernel length and angle are supplied to the route; this is not blind field-PSF estimation.",
+    "field": "A positive synthetic result does not establish real-tunnel motion deblurring."
+  },
+  "execution_contract": {
+    "official_scan": "Run without --max-crops and write runs/development_v1/motion_scan.json.",
+    "smoke_scan": "Any run with --max-crops is a code exercise written only under runs/smoke and cannot support selection or a manuscript claim.",
+    "selection_timing": "Inspect and select only after all 50 crops and all 128 candidates for each of the three severities are complete."
+  },
+  "families": {
+    "linear_motion_psf": [
+      {"length_px": 3, "angle_deg": 0.0},
+      {"length_px": 7, "angle_deg": 5.0},
+      {"length_px": 13, "angle_deg": 10.0}
+    ]
+  },
+  "candidate_grid": {
+    "wiener_regularization": [0.00001, 0.00003, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1],
+    "landweber_iterations": [1, 2, 4, 8, 16, 32],
+    "landweber_steps": [0.5, 1.0, 1.5],
+    "richardson_lucy_iterations": [1, 2, 4, 8, 16],
+    "blend_alpha": [0.25, 0.5, 0.75, 1.0]
+  },
+  "development_gates": {
+    "delta_psnr_parent_mean_gt_db": 0.1,
+    "delta_gradient_parent_mean_lte": 0.0,
+    "delta_overshoot_parent_mean_lte": 0.01,
+    "all_three_severities_must_pass": true
+  },
+  "selection": "Within each severity, select the eligible configuration with maximum parent-mean PSNR improvement. Prefer one shared algorithm family across severities; severity-specific regularization is allowed because kernel parameters are supplied."
+}

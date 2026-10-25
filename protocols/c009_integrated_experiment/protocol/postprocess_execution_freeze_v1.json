@@ -1,0 +1,23 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260924,
+  "created_utc": "2026-09-25T00:19:09.475445+00:00",
+  "frozen_files": {
+    "c009_evaluation_common.py": "346936787b5b3afd5290f4646986d33641bb1ad88c9483ad39eab46460c1e519",
+    "c009_generate_final_report.py": "fdd2612cd9dfbff750092d32fea55481be13a93a1c179cea32136a0bf9de2ced",
+    "c009_postprocess_supervisor.py": "b855a7f7bdabe56e61826d42cd0a2953d2cf09e20512268bbaec081688f032d9",
+    "c009_summarize_results.py": "8aca4b32756925c6d653b5e1b39443a2a5f43f324700c8cdf3abaa8077826df4",
+    "test_c009_postprocess.py": "871c8318e960c71c32fee88c3a2619b69be358d3bafdb2428b1f4889d3a9d40a"
+  },
+  "outputs": [
+    "evaluation/final_summary/c009_final_summary_v1.json",
+    "40_수정본/d5800_merit_c009_full_experiment_results.md"
+  ],
+  "payload_sha256": "98177462ba79da630c50fac3884f7efa0a84cbdf59625fcdfbac4c7d98f9a21a",
+  "required_queue_item_count": 84,
+  "result_access_at_freeze": "WP1 nafnet/base_seed0 had reached its fixed-final checkpoint, but no checkpoint was selected or evaluated and no C009 endpoint result existed.",
+  "schema_version": "MERIT-C009-POSTPROCESS-EXECUTION-FREEZE-v1",
+  "status": "PASS_FROZEN_BEFORE_C009_RESULTS",
+  "test_evidence": "2 passed: cluster weighting and equal-tunnel stratified bootstrap",
+  "verdict_rule": "Exact global categories in g12_endpoint_gate_freeze_v1.json; no favorable subgroup rescue."
+}

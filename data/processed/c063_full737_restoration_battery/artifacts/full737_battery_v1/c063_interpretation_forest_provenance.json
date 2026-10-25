@@ -1,0 +1,14 @@
+{
+  "schema_version": "MERIT-C063-INTERPRETATION-FIGURE-v2",
+  "inputs": {
+    "artifacts\\full737_battery_v1\\method_summary.csv": "20c43c82c6215865a78631a5f50f90ce477f2231b955d0709fdc152803e4e766",
+    "artifacts\\full737_battery_v1\\merit_dominance.csv": "b6f85af51c703fb18d3571bdfd4f7b09be9819385567b519ca47782527b1843c",
+    "artifacts\\full737_battery_v1\\condition_results.csv": "039eb9bbb0e1a52d1ca974c0be9449044267ab71223ed4228230847d5440fd53"
+  },
+  "script_sha256": "3c2ee0433585f91feb7e1a8f3c52695333f37b2297cd95b953c0dd0f2bdb8704",
+  "outputs": {
+    "c063_interpretation_forest.png": "9291dea414420ddfdc6328b3556c4bfbae0aa94903338f779159c0f68dce0a9b",
+    "c063_interpretation_forest.pdf": "37a3cc5522834f4ddf509d5968c6b546a626e749ed8a2e4cb6d2bac84cc3943a"
+  },
+  "claim_boundary": "Controlled detector-response comparison; not human-mask detection accuracy. Frames are repeated observations within acquisition conditions."
+}

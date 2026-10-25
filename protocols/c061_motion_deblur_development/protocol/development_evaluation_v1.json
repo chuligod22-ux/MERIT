@@ -1,0 +1,59 @@
+{
+  "schema_version": "MERIT-C061-DEVELOPMENT-EVALUATION-v1",
+  "status": "FROZEN_BEFORE_LPIPS_DEVELOPMENT_EVALUATION",
+  "created_date": "2026-10-24",
+  "scientific_status": "Development-only route selection on the complete C006 synthetic_holdout cohort; no C010 route output has been evaluated.",
+  "selection_rule": "Use the maximum-parent-mean-PSNR eligible candidate already selected by the frozen 128-candidate scan independently for each supplied synthetic kernel severity.",
+  "files": {
+    "scanner": {
+      "path": "scripts/c061_scan_motion.py",
+      "sha256": "28d2b527f3fddb8d04db385799e74ab658a3666d8129cc13c5bfb6c9fed29035"
+    },
+    "evaluator": {
+      "path": "scripts/c061_finalize_development.py",
+      "sha256": "f13e05ee0be3e1572074214a23fec7cf85513fcb22e54b21e8d34845560b9957"
+    },
+    "scan_protocol": {
+      "path": "protocol/development_v1a.json",
+      "sha256": "bc2bedd7f887f5c897afe70eaa4da81d3a2b397b1ec6eaa0fccc512669ef152e"
+    },
+    "scan_result": {
+      "path": "runs/development_v1/motion_scan.json",
+      "sha256": "fc2cc5a9c46f31232a8b9788a787152508406f0318b018b099138c5685f7dfaf"
+    }
+  },
+  "families": {
+    "linear_motion_psf": [
+      {"length_px": 3, "angle_deg": 0.0},
+      {"length_px": 7, "angle_deg": 5.0},
+      {"length_px": 13, "angle_deg": 10.0}
+    ]
+  },
+  "selected_routes": {
+    "1": {
+      "parameters": {"length_px": 3, "angle_deg": 0.0},
+      "specification": {"algorithm": "wiener", "alpha": 1.0, "regularization": 0.003}
+    },
+    "2": {
+      "parameters": {"length_px": 7, "angle_deg": 5.0},
+      "specification": {"algorithm": "wiener", "alpha": 1.0, "regularization": 0.003}
+    },
+    "3": {
+      "parameters": {"length_px": 13, "angle_deg": 10.0},
+      "specification": {"algorithm": "landweber", "alpha": 1.0, "iterations": 32, "step": 1.5}
+    }
+  },
+  "development_gates": {
+    "delta_psnr_mean_gte_db": 0.1,
+    "delta_psnr_ci95_low_gt_db": 0.0,
+    "delta_lpips_mean_lte": -0.005,
+    "delta_lpips_ci95_high_lt": 0.0,
+    "delta_gradient_ci95_high_lte": 0.0,
+    "delta_overshoot_ci95_high_lte": 0.01,
+    "bootstrap_unit": "physical parent",
+    "bootstrap_replicates": 10000,
+    "all_three_severities_must_pass": true
+  },
+  "identity_contract": "When no supported synthetic motion kernel is supplied, return the input bit-exactly.",
+  "confirmation_rule": "Only a complete development PASS may be converted into a separate hash-bound confirmation freeze before the C010 route is evaluated."
+}

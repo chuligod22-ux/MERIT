@@ -1,0 +1,12 @@
+{
+  "schema_version": "MERIT-C006-D3-THRESHOLD-SWEEP-v1",
+  "state": "INFERENCE_COMPLETE",
+  "completed": 974,
+  "eligible": 974,
+  "remaining": 0,
+  "last_cohort_id": "D3-CAM103-5R-000499",
+  "last_frame_seconds": 56.62068759999238,
+  "session_average_seconds": 76.87577807926071,
+  "session_projected_remaining_seconds": 0.0,
+  "updated_utc": "2026-09-22T02:43:14.701370+00:00"
+}

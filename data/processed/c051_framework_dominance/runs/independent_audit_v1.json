@@ -1,0 +1,14 @@
+{
+  "coverage": {
+    "evaluation_cells": 24,
+    "factorial_rows": 1008,
+    "fold_files": 96,
+    "training_cells": 24
+  },
+  "issues": [],
+  "payload_sha256": "98c9c8f71e42a0b247a07da9cb123d1a0ba9ef32ec33f8f167f8a194d3032ecc",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "schema_version": "MERIT-C051-AUDIT-v1",
+  "status": "PASS",
+  "summary_payload_sha256": "4b5f0573616a8ed78024b1b2d8a8fb7700e658c969cd7e9753ee817fb0d8c910"
+}

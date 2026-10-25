@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-10-21T01:48:03+00:00",
+  "execution_freeze_sha256": "d2acb780cd9e4ffd1993b7bf2625987993cf2576dfdefc23e916c7a65d94b14b",
+  "final_sha256": "ec3c492c6a51d88c13a817c65f352fde1ca0ca3935c2065ba2754ca207d2747d",
+  "gate": "FAIL",
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-ONE-SHOT-COMPLETE-v3g",
+  "state": "COMPLETE"
+}

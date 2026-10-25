@@ -1,0 +1,55 @@
+{
+  "schema_version": "MERIT-C058-RAW-LOCATOR-EXECUTION-FREEZE-v2",
+  "state": "FROZEN_AFTER_EXPOSED_479_FRAME_VALIDATION_BEFORE_UNEXPOSED_FRAME_ACCESS",
+  "result": "PASS",
+  "bounded_correction": {
+    "only_change": "SEARCH_WIDTH 420 to 1024 working pixels",
+    "v1_source_sha256": "73e2bc9d8d449a1a8e75b8c91dfc675f1dda756912347f8923e94cd0add40354",
+    "v1_contract_sha256": "407d43d9928c02ad52d9c8da2e5c38886df938056c7b414ea7f08ec7e1b7610a",
+    "v2_source_sha256": "1c9dc9627115ada3a57404427a0d921bef95c0017189bf7336f5d9092c6e4755",
+    "v2_contract_sha256": "20f3daace10d22d8eedb6d183d6ac262f5f9ac5ae65d7916248a2354950861cf"
+  },
+  "validation": {
+    "raw_frames_attempted": 479,
+    "raw_locator_score_gate_passed": 479,
+    "frames_with_both_reference_orientations": 478,
+    "condition_cells": 50,
+    "condition_cells_passing_algorithm_gates": 50,
+    "median_center_error_radii": 0.04366013166017647,
+    "p95_center_error_radii": 0.10213353268131928,
+    "roi_attempts": 1729,
+    "roi_valid": 1728,
+    "roi_valid_fraction": 0.9994216310005783,
+    "mtf_spearman_vs_imatest": 0.8077828340387182,
+    "mtf_mae_cy_px_vs_imatest": 0.02182229832823164,
+    "all_predeclared_gates_pass": true,
+    "unit_tests": "4 passed"
+  },
+  "validation_exclusion": {
+    "frame_id": "60km_5.5m_ISO100/frame_000147.png",
+    "reason": "Only one Imatest edge orientation exists in the frozen C057 cohort",
+    "raw_locator_passed": true,
+    "raw_locator_score": 0.7117385268211365
+  },
+  "files": {
+    "source": {"path": "scripts/c058_raw_locator.py", "sha256": "1c9dc9627115ada3a57404427a0d921bef95c0017189bf7336f5d9092c6e4755"},
+    "tests": {"path": "tests/test_c058_raw_locator.py", "sha256": "120268b6501e90945350fe96b833b37c714d89f8654f95effa618a1d91e64d76"},
+    "contract": {"path": "protocol/locator_development_contract_v1.json", "sha256": "20f3daace10d22d8eedb6d183d6ac262f5f9ac5ae65d7916248a2354950861cf"},
+    "summary_v2": {"path": "artifacts/locator_development_v1/locator_development_summary_v2.json", "sha256": "a0f9b5a30d01a67ee8dd52de844867de54767155587d1d9e543b34b5c730f198"},
+    "frames_v2": {"path": "artifacts/locator_development_v1/locator_frame_results_v2.csv", "sha256": "9a35546f461464572aa8a36cd31906100a1343068aea77883d6250f81346216a"},
+    "rois_v2": {"path": "artifacts/locator_development_v1/locator_roi_results_v2.csv", "sha256": "8f3a4c957a6bbeec0932a3e581b16b45d59eaf98dad3805f532dd7f0b6f77c93"},
+    "conditions_v2": {"path": "artifacts/locator_development_v1/locator_condition_results_v2.csv", "sha256": "6d5497b364001a8c8c79fc3d2c39774b19a98b86c9817ae8a63d0a2727f817dd"},
+    "condition_gate_audit_v2": {"path": "artifacts/locator_development_v1/locator_condition_gate_audit_v2.csv", "sha256": "6b47f6871b41525e17363a7f436c76bce0543d53593472b853ab34b2d1ca060a"},
+    "failed_frames_v2": {"path": "artifacts/locator_development_v1/locator_failed_frames_v2.csv", "sha256": "aa39dc535c7b51a2b7881607b6703f8b0c5e7a6be34082b6a74d27eeb1257d24"},
+    "invalid_rois_v2": {"path": "artifacts/locator_development_v1/locator_invalid_rois_v2.csv", "sha256": "05f2addb802a05afb60fdcbb4e88b07b6649f1de18f4676d99877fd8d621ff07"},
+    "audit_v2": {"path": "artifacts/locator_development_v1/locator_final_audit_v2.json", "sha256": "4ff784c01850c1ba7db56d9bd1052a32e075675af1bef67350730dc668dfed54"},
+    "v1_failed_summary": {"path": "artifacts/locator_development_v1/locator_development_summary_v1_failed.json", "sha256": "efc2c980aa6d4dd67c80ed7158cbb1628749366b316421361b74ac393bb7f434"},
+    "v1_failed_frames": {"path": "artifacts/locator_development_v1/locator_frame_results_v1_failed.csv", "sha256": "086b834deddf33bdaef0a00d1e72099362bac6280f141f3fee2577d7d255b2ee"},
+    "v1_failed_rois": {"path": "artifacts/locator_development_v1/locator_roi_results_v1_failed.csv", "sha256": "e74d507d983e5582d54d85143c60c7e3a8b0a7b69124c0a3c88c0418e318a044"}
+  },
+  "seal": {
+    "unexposed_candidate_frames": 403,
+    "pixel_access_before_this_freeze": false,
+    "status": "SEALED"
+  }
+}

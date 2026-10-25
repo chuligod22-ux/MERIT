@@ -1,0 +1,42 @@
+{
+  "schema_version": "MERIT-C058-V3I-INDEPENDENT-RECALCULATION-v1",
+  "state": "PASS",
+  "checks": {
+    "condition_rows_50_unique": true,
+    "frame_rows_479_unique": true,
+    "paired_roi_count_1731": true,
+    "gate_rows_50_unique": true,
+    "raw_only_gate_recalculates": true,
+    "reference_5_exact": true,
+    "worsened_zero": true,
+    "speed80_mean_negative": true,
+    "speed80_ci_upper_negative": true,
+    "introduced_clipping_zero": true,
+    "summary_counts_match": true,
+    "summary_means_match": true,
+    "summary_ci_matches": true
+  },
+  "recalculated": {
+    "improved_condition_cells": 32,
+    "tied_condition_cells": 18,
+    "worsened_condition_cells": 0,
+    "full50_mean_delta_abs_error_cy_px": -0.0021273593607682743,
+    "full50_condition_bootstrap_95pct_ci": [
+      -0.0027722947542539018,
+      -0.0015091931824245167
+    ],
+    "speed80_mean_delta_abs_error_cy_px": -0.002833706241131636,
+    "speed80_condition_bootstrap_95pct_ci": [
+      -0.003745867729557859,
+      -0.001939221349121318
+    ],
+    "reference_exact_condition_cells": 5
+  },
+  "source_hashes": {
+    "summary.json": "c9af0f9c4e507baf124c3facf86f8d09d165e3ecf69465f2b8cae7b9141f7966",
+    "condition_results.csv": "2e09420811bb801cdb0c6ca5d1e86e1393d41661806f2b969b42937bb38335fb",
+    "frame_results.csv": "fe062133907e108e324335ac29fe678561c0e78729a428aef215542264a21ef5",
+    "roi_results.csv": "4c911d1d4992c3c76ee1f27137ec2069cd15a687cc5d23242b0f2b8aa93656f5",
+    "gate_table.csv": "2c55301299ee3bdc10319d3e70ddad0545543c53636ed625b483db03b2cb702e"
+  }
+}

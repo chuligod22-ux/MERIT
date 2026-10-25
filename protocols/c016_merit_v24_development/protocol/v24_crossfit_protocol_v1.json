@@ -1,0 +1,146 @@
+{
+  "assets": {
+    "c014_summary": {
+      "bytes": 3817,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d614550c90a00a4dc6e775a56814317f14c553af8dd50f4d5e6b0bf82b45917"
+    },
+    "d2_cohort": {
+      "bytes": 703837,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028"
+    },
+    "natural_width_cross_sections": {
+      "bytes": 528558,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "fd3a4c92b33014c1ac881f15ed53c26bfc99ae1e7690321ebbcf51f6c35bd431"
+    },
+    "v23_summary": {
+      "bytes": 3611,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e7500fd25c4d276e106d20df53d41916e08b0296e1fc6c4b79813e16e7912780"
+    }
+  },
+  "candidate_profiles": {
+    "combo_a050_g005": {
+      "family": "combined",
+      "residual_gain": 0.5,
+      "sharp_gain": 0.05
+    },
+    "combo_a075_g005": {
+      "family": "combined",
+      "residual_gain": 0.75,
+      "sharp_gain": 0.05
+    },
+    "inv0125": {
+      "family": "inverse_base_residual",
+      "residual_gain": 0.125,
+      "sharp_gain": 0.0
+    },
+    "inv0250": {
+      "family": "inverse_base_residual",
+      "residual_gain": 0.25,
+      "sharp_gain": 0.0
+    },
+    "inv0375": {
+      "family": "inverse_base_residual",
+      "residual_gain": 0.375,
+      "sharp_gain": 0.0
+    },
+    "inv0500": {
+      "family": "inverse_base_residual",
+      "residual_gain": 0.5,
+      "sharp_gain": 0.0
+    },
+    "inv0750": {
+      "family": "inverse_base_residual",
+      "residual_gain": 0.75,
+      "sharp_gain": 0.0
+    },
+    "inv1000": {
+      "family": "inverse_base_residual",
+      "residual_gain": 1.0,
+      "sharp_gain": 0.0
+    },
+    "inv1250": {
+      "family": "inverse_base_residual",
+      "residual_gain": 1.25,
+      "sharp_gain": 0.0
+    },
+    "sharp0025": {
+      "family": "unsharp",
+      "residual_gain": 0.0,
+      "sharp_gain": 0.025
+    },
+    "sharp0050": {
+      "family": "unsharp",
+      "residual_gain": 0.0,
+      "sharp_gain": 0.05
+    },
+    "sharp0075": {
+      "family": "unsharp",
+      "residual_gain": 0.0,
+      "sharp_gain": 0.075
+    },
+    "sharp0100": {
+      "family": "unsharp",
+      "residual_gain": 0.0,
+      "sharp_gain": 0.1
+    }
+  },
+  "claim_boundary": "Detection uses existing annotated tunnel data. Width is expert-mask-defined natural crack apparent width in pixels, not physical millimetre width or traceable metrology.",
+  "code": {
+    "pipeline": {
+      "bytes": 57988,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "315e12aac127582626230349a03042ecb1857bdeaff1692815032ceb72e545cf"
+    },
+    "profiles": {
+      "bytes": 4729,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "60ee8c6ec3d41b53263a4c219cb6999710d9f76936c7b2a0f69d8aed10299a51"
+    },
+    "tests": {
+      "bytes": 3340,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d7037a1c9592c9f9876f492fa630c8b7f755be61957092d64a47c316b28ed6fd"
+    }
+  },
+  "detection_selection": {
+    "aggregation": "parent within tunnel, equal tunnel mean",
+    "eligibility": "mean delta AUPRC >0; mean matched-sensitivity delta FPR <=0; at least 2/3 training tunnels have positive delta AUPRC",
+    "fallback": "exact identity",
+    "objective": "maximum mean delta AUPRC; ties prefer smaller profile magnitude",
+    "training_folds": "the other three tunnels only",
+    "unit": "detector within excluded target tunnel"
+  },
+  "evaluation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "final_gates": {
+    "detection": "panel delta AUPRC mean and 95% CI lower >0; all four tunnels positive; matched-sensitivity delta FPR mean <=0; every detector mean delta AUPRC >=0; panel mean exceeds the frozen v2.3 four-tunnel descriptive mean",
+    "natural_apparent_width": ">=300 ROI, >=100 tiles, >=10 parents, four tunnels; delta absolute-error mean and 95% CI upper <0; >=3/4 tunnels improve; effective non-estimable increase <=2 percentage points; paired estimable rate >=70%"
+  },
+  "payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "schema_version": "MERIT-C016-V24-CROSSFIT-PROTOCOL-v1",
+  "scientific_role": "Development-time outer-tunnel cross-fitting on the four supplied tunnels. Each target tunnel is excluded from its route selection. This is not a prospective physically new-site confirmation.",
+  "selection_seed": 0,
+  "status": "FROZEN_BEFORE_V24_OUTCOMES",
+  "tunnels": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "width_selection": {
+    "aggregation": "ROI within tile, tile within parent, equal tunnel mean",
+    "eligibility": "mean delta absolute error <0; at least 2/3 training tunnels improve; effective non-estimable rate no greater than raw",
+    "fallback": "exact identity",
+    "objective": "minimum mean delta absolute error; ties prefer smaller profile magnitude",
+    "safe_routing": "When raw is ESTIMABLE and the active profile is NON_ESTIMABLE, use the raw measurement. The reference width is never consulted by this routing rule.",
+    "training_folds": "the other three tunnels only",
+    "unit": "excluded target tunnel"
+  }
+}

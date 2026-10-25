@@ -1,0 +1,41 @@
+{
+  "code_path": "<LOCAL_PATH_REDACTED>",
+  "code_sha256": "f33f8332a6446130bcd057583c8fb4821925f8b8c66ff5c50d771adf8bda7f58",
+  "cohort_path": "<LOCAL_PATH_REDACTED>",
+  "cohort_sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028",
+  "created_utc": "2026-09-23T08:07:46.931836+00:00",
+  "parent_count": 14,
+  "per_parent": {
+    "0036": 25,
+    "0037": 24,
+    "0038": 30,
+    "0039": 49,
+    "0040": 24,
+    "0055": 679,
+    "0116": 19,
+    "0117": 26,
+    "0118": 29,
+    "0119": 31,
+    "0120": 30,
+    "0211": 665,
+    "0212": 38,
+    "0213": 34
+  },
+  "protocol_id": "MERIT-D2-EXTERNAL-SYNTHETIC-POSTHOC-20260923",
+  "protocol_path": "<LOCAL_PATH_REDACTED>",
+  "protocol_sha256": "21b9fbb4124a20774b72536b084dbc0e432f96477dcd7c5d6ab7d1faeabff140",
+  "schema_version": "MERIT-C007-D2-EXTERNAL-SYNTHETIC-v1",
+  "selected_content_set_sha256": "7d537bc7607e90e1102e42c103ebf66cfcdf5932ac0000c5228fa41220046ea3",
+  "static_asset_hashes": {
+    "cv_code": "d7acc31f31bd7b8e65552c312b8e7784b55d1281f3920f73a830ff18ec2e670c",
+    "cv_protocol": "6500883908ee5d22e4dbc77ccfe2de8a34e4effc8cd1cd748f332570a66c852a",
+    "d2_code": "4fc81efb9e08bf09fffb56be1af2c5b9e2288e1e60bab7e8d85c78500a7cc1ec",
+    "d2_protocol": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3",
+    "restoration_model_code": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618",
+    "restoration_protocol": "c141abb91235de9a1fd91895d360806de3959a48e8ee9c7dd9570a3a2b6b7d43",
+    "upstream_audit": "bdde9febf80fea5cc2db1d06c519a9ead8e08fc97393dc3ca32130c34b3366dd",
+    "upstream_manifest": "5c22a8284673b671832574d1b143d8c822748df3ccae2935381d8a3db2bcdfbe"
+  },
+  "tile_count": 1703,
+  "tunnel_count": 4
+}

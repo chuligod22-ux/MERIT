@@ -1,0 +1,13 @@
+{
+  "completed_folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "elapsed_seconds_this_invocation": 236.20428350009024,
+  "model_id": "wp1__mprnet__base__seed0",
+  "schema_version": "MERIT-C009-D2-EXTERNAL-STATUS-v1",
+  "status": "evaluation_complete",
+  "total_folds": 4
+}

@@ -1,0 +1,61 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds": 373.3798964000307,
+  "main_records": 500,
+  "model_id": "wp1__restormer__merit_full__seed1",
+  "ood_records": 2700,
+  "payload_sha256": "f00051bc20efa36b80629de50b14f460ede19cccca88a6a3ad143ad9ab90a2e7",
+  "peak_cuda_memory_bytes": 7738822656,
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "4c1dcbbe7d7bac56628b80add93cb951a4b8563973d2f2bef9d30fb92c5638f6",
+    "completion_payload_sha256": "3e991c3e9601e400f45710a8b86f86b20bb7cac0ee364682591265339ba4ef0d",
+    "model": {
+      "class": "Restormer",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "family": "restormer",
+      "kwargs": {
+        "LayerNorm_type": "WithBias",
+        "bias": false,
+        "dim": 48,
+        "dual_pixel_task": false,
+        "ffn_expansion_factor": 2.66,
+        "heads": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "inp_channels": 3,
+        "num_blocks": [
+          4,
+          6,
+          6,
+          8
+        ],
+        "num_refinement_blocks": 4,
+        "out_channels": 3
+      },
+      "module": "basicsr.models.archs.restormer_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 26126644,
+      "repository": "https://github.com/swz30/Restormer",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "trainable_parameters": 26126644
+    },
+    "model_id": "wp1__restormer__merit_full__seed1"
+  },
+  "records": 3200,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "208b5422e21fb67d03207339d1784f139450c7611bc5dc3bd5ea8956c9dc0510",
+  "schema_version": "MERIT-C009-CONTROLLED-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "merit_full",
+    "family": "restormer",
+    "kind": "wp1",
+    "seed": 1
+  },
+  "status": "PASS"
+}

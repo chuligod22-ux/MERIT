@@ -1,0 +1,13 @@
+{
+  "affected_scope": "all evaluation_v1 folds, factorial_rows.csv, factorial_summary.json, and their gate result",
+  "discovered_date": "2026-10-19",
+  "invalid_audit_payload_sha256": "98c9c8f71e42a0b247a07da9cb123d1a0ba9ef32ec33f8f167f8a194d3032ecc",
+  "invalid_evaluator_sha256": "28b250358cd33c008a06fe11ff051fdc41cd264483cfdc75fbb2bca41a8d4627",
+  "invalid_summary_payload_sha256": "4b5f0573616a8ed78024b1b2d8a8fb7700e658c969cd7e9753ee817fb0d8c910",
+  "payload_sha256": "b8661edb91ac49226be50302a0d21a31279e27daa9cee11f8260e2071df1daed",
+  "reason": "c051_evaluate.py returned restored float32 in [0,1], while the frozen external.detect_batch contract divides every candidate by 255. Restored images alone were therefore normalized twice.",
+  "resolution": "Preserve v1; rerun all 24x4 folds in evaluation_v2 after explicit round-and-clip conversion to uint8 [0,255].",
+  "schema_version": "MERIT-C051-EVALUATION-V1-INVALIDATION-v1",
+  "status": "INVALIDATED_INPUT_SCALE_CONTRACT",
+  "unaffected_scope": "all 24 fixed-final training checkpoints and the degraded-input detector results"
+}

@@ -1,0 +1,27 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260924,
+  "created_utc": "2026-09-25T00:36:15.265492+00:00",
+  "frozen_files": {
+    "c009_evaluation_common.py": "346936787b5b3afd5290f4646986d33641bb1ad88c9483ad39eab46460c1e519",
+    "c009_generate_final_report.py": "3eb09b0e87912d90e61989cab6cfcf4f1e28de9692b1587e63b812a78cefb4c1",
+    "c009_postprocess_supervisor.py": "3951f4ceb3d47c9409cfb2eb3a08ab3510f9e2f1b0739ca40272c4dd3641c96b",
+    "c009_summarize_results.py": "25b4a868f4988178319ee8743271f1fb3920244a459fb2725adecdd287713101",
+    "test_c009_postprocess.py": "6204cf726a6fab4aa918d1147b26f67e2b6db6ceb5ef0842e74d1106556c4a62"
+  },
+  "outputs": [
+    "evaluation/final_summary/c009_final_summary_v2.json",
+    "40_수정본/d5800_merit_c009_full_experiment_results.md"
+  ],
+  "payload_sha256": "418c9932116f4f3983000b56c12cdf3751c478e4472b7307ec63589e7d72294b",
+  "required_queue_item_count": 84,
+  "result_access_at_freeze": "WP1 nafnet/base_seed0 had reached its fixed-final checkpoint, but no checkpoint was selected or evaluated and no C009 endpoint result existed. The v1 postprocessor was stopped while waiting and is superseded by this stricter G12-complete implementation.",
+  "schema_version": "MERIT-C009-POSTPROCESS-EXECUTION-FREEZE-v2",
+  "status": "PASS_FROZEN_BEFORE_C009_RESULTS",
+  "supersedes": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "d9c7a69e57dc506ede7753df83854353d91c25084e3c27b6766b8a41693ba19a"
+  },
+  "test_evidence": "4 passed: cluster weighting, equal-tunnel bootstrap, Holm adjustment, and matched-sensitivity burden",
+  "verdict_rule": "Exact global categories in g12_endpoint_gate_freeze_v1.json; no favorable subgroup rescue."
+}

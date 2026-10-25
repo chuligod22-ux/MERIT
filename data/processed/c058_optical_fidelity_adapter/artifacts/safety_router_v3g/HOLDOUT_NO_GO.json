@@ -1,0 +1,32 @@
+{
+    "schema_version":  "MERIT-C058-SAFETY-ROUTER-HOLDOUT-NO-GO-v3g",
+    "state":  "ONE_SHOT_COMPLETE_FAIL_PRESERVED",
+    "created_utc":  "2026-10-21T01:49:58Z",
+    "frames":  280,
+    "conditions":  29,
+    "active_frames":  47,
+    "active_conditions":  6,
+    "frames_ok":  205,
+    "frames_failed":  75,
+    "locator_failures":  64,
+    "tile_failures":  11,
+    "common_complete_case_fraction":  0.41964285714285715,
+    "active_common_complete_case_fraction":  0.35638297872340424,
+    "active_mean_delta_abs_error_cy_px":  -0.0022421834835252216,
+    "active_condition_bootstrap_95pct_ci":  [
+                                                -0.0071169517209057525,
+                                                0.0031143413006727017
+                                            ],
+    "active_improved_conditions":  3,
+    "active_worsened_conditions":  3,
+    "maximum_preclip_overshoot_fraction":  0.0952662803818543,
+    "maximum_introduced_clipping_fraction":  0.0097021176438011,
+    "maximum_abs_change_dn":  11.5424585342407,
+    "duplicate_sha256_within_holdout":  0,
+    "sha256_overlap_with_c057_exposed":  0,
+    "sha256_overlap_with_c006_bank_parents":  0,
+    "inactive_23_conditions_exact_tie":  true,
+    "gate":  "FAIL",
+    "independent_reuse_prohibited":  true,
+    "interpretation_sha256":  "7d86f54a38aafb68c33c432ae69aef2203c6783929e6e8cbd7850d3372158d2d"
+}

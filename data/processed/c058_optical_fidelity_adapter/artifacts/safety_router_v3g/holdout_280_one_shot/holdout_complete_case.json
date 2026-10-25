@@ -1,0 +1,38 @@
+{
+  "common_roi_identities": 470,
+  "expected_roi_identities": 1120,
+  "fraction": 0.41964285714285715,
+  "minimum_distance_fraction": 0.3333333333333333,
+  "per_distance": [
+    {
+      "common_roi_identities": 104,
+      "distance_m": 2.5,
+      "expected_roi_identities": 312,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "common_roi_identities": 117,
+      "distance_m": 3.5,
+      "expected_roi_identities": 296,
+      "fraction": 0.3952702702702703
+    },
+    {
+      "common_roi_identities": 95,
+      "distance_m": 4.5,
+      "expected_roi_identities": 240,
+      "fraction": 0.3958333333333333
+    },
+    {
+      "common_roi_identities": 72,
+      "distance_m": 5.5,
+      "expected_roi_identities": 128,
+      "fraction": 0.5625
+    },
+    {
+      "common_roi_identities": 82,
+      "distance_m": 6.5,
+      "expected_roi_identities": 144,
+      "fraction": 0.5694444444444444
+    }
+  ]
+}

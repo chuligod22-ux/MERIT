@@ -1,0 +1,48 @@
+{
+  "backbone": "nafnet",
+  "elapsed_seconds": 33.46344560012221,
+  "model_seed": 1,
+  "parents": 302,
+  "peak_cuda_memory_bytes": 3305418240,
+  "protocol_payload_sha256": "a0c36357a6636e13a197655fbab8f1a4f051bc0bb2311efc59958920f5e7a88b",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "d91fc1c72ec9c4deeceeb1fd5e411093bf3fe4c2fcaccdd8bf64ad1a0bdfb46b",
+    "model": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "seed": 1
+  },
+  "records": 1350,
+  "records_path": "<LOCAL_PATH_REDACTED>",
+  "records_sha256": "d113d91cb093f57b8206e61f5cd28ba1e52e1c73c1e00aaccfd8e1bea6b8863f",
+  "schema_version": "MERIT-C050-FACTORIAL-CELL-v1",
+  "status": "COMPLETE"
+}

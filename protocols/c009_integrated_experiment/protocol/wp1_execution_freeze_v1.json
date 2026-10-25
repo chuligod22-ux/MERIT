@@ -1,0 +1,158 @@
+{
+  "authorization": "FULL_SCOPE_AT_AUTHOR_RISK_PENDING_JOURNAL_EXTENSION",
+  "checkpoint_policy": {
+    "fixed_final_step": 8000,
+    "recovery_interval_steps": 1000,
+    "recovery_is_not_result_selection": true,
+    "resume_requires_exact_hashes": true
+  },
+  "created_utc": "2026-09-24T23:29:44.133091+00:00",
+  "frozen_files": {
+    "c006_train.py": "6b189dd5fb4db4fc976bc3a35897423ff03cd7e3f00f32149cda6fd3488a4386",
+    "c009_wp1_queue.py": "d21b35e7e389e81098ae9dea5de85e2189cc5844149bab91ef05a60431b4d6d4",
+    "c009_wp1_train.py": "eccdc6d3d185098fffe8e91952e4e589033214ce27d575a734d390fce7b1a793",
+    "g11_closure_v1.json": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+    "g11_implementation_manifest_v3.json": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+    "g11_official_backbone_adapter.py": "1731ea286ae5d643b39c5ff9bf25ba98b96b4895561c9a789e96add2e6def7be",
+    "g11_official_model_factory.py": "3845b5a2b1a42ee89d0afef94ccb38a444d2f882bb863f96a5a39d59296c5611",
+    "g11_source_preflight_v3.json": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+    "g11_training_contract_v2.json": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+    "g11_training_stream.py": "b5d314fac2be5424150aec29c7cc0caec2ed2d85bfb93c80b478ecbc1128634d",
+    "g13_feasibility_v2.json": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803"
+  },
+  "g13_sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803",
+  "generator_path": "<LOCAL_PATH_REDACTED>",
+  "generator_sha256": "ad8caac39051ad49c13d1a8746878ca48e3845b5cf954ea456a5593f2d03b497",
+  "paired_order": "family -> seed -> base then merit_full",
+  "payload_sha256": "9ec955f32a181513e1c7a34dd31df477917ad162351c2d9b20c7fdef3901e653",
+  "pilot_policy": {
+    "arms": [
+      "base",
+      "merit_full"
+    ],
+    "families": [
+      "nafnet",
+      "restormer",
+      "mprnet"
+    ],
+    "forced_resume_boundary": 5,
+    "pilot_results_are_technical_only": true,
+    "seed": 0,
+    "steps": 20
+  },
+  "post_run_rule": "Do not select a backbone, arm, seed, or checkpoint from training loss. Complete all 18 fixed-final runs before confirmatory endpoint analysis.",
+  "run_count": 18,
+  "run_matrix": [
+    {
+      "arm": "base",
+      "family": "nafnet",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "nafnet",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "nafnet",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "nafnet",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "nafnet",
+      "seed": 2,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "nafnet",
+      "seed": 2,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "restormer",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "restormer",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "restormer",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "restormer",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "restormer",
+      "seed": 2,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "restormer",
+      "seed": 2,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "mprnet",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "mprnet",
+      "seed": 0,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "mprnet",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "mprnet",
+      "seed": 1,
+      "steps": 8000
+    },
+    {
+      "arm": "base",
+      "family": "mprnet",
+      "seed": 2,
+      "steps": 8000
+    },
+    {
+      "arm": "merit_full",
+      "family": "mprnet",
+      "seed": 2,
+      "steps": 8000
+    }
+  ],
+  "run_matrix_sha256": "acc9a7bbcec57a511cbb48f65bb2f7f982e69413fc55e7c57ec68404f97febff",
+  "schema_version": "MERIT-C009-WP1-EXECUTION-FREEZE-v1",
+  "status": "PASS"
+}

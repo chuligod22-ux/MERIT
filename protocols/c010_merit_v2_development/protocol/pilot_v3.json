@@ -1,0 +1,40 @@
+{
+  "schema_version": "MERIT-C010-V2-DEVELOPMENT-PILOT-v3",
+  "status": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "created_date": "2026-10-11",
+  "supersedes_for_development": "pilot_v2.json",
+  "reason": "v2 passed PSNR, identity, and overshoot but its learned blend extrapolated at mid/high severity and failed gradient safety. v3 fixes a bounded piecewise-linear curve at the three explicitly unblinded development anchors.",
+  "scientific_boundary": {
+    "c009": "Immutable completed negative confirmatory evidence; no C009 file or verdict is replaced.",
+    "development_data": "The former C009 D0 synthetic holdout is reused and tuned on as an explicitly unblinded C010 development set.",
+    "confirmation": "The anchor values are development-selected. A newly acquired or never-used confirmatory set is mandatory before any efficacy claim.",
+    "claim": "This pilot can establish engineering feasibility only."
+  },
+  "base": {
+    "family": "nafnet",
+    "seed": 0,
+    "arm": "base",
+    "checkpoint": "../c009_integrated_experiment/runs/wp1/nafnet/base_seed0/final.pt",
+    "policy": "Frozen; always called with zero prompt channels."
+  },
+  "calibration": {
+    "severity_definition": "mean(normalized blur prompt, normalized noise prompt)",
+    "severity_anchors": [0.23333333333333334, 0.49166666666666664, 0.875],
+    "blend_anchors": [0.75, 1.0125, 1.075],
+    "outside_range": "Clamp to nearest anchor",
+    "spatial_residual": "disabled",
+    "task_loss": "disabled"
+  },
+  "development_evaluation": {
+    "rows": 50,
+    "conditions": 3,
+    "noise_seeds": 3,
+    "identity_rows": 50,
+    "unit": "Mean within physical parent before paired bootstrap",
+    "bootstrap_replicates": 5000,
+    "primary_target": "Mean v2-minus-base PSNR >= 0.10 dB and parent-bootstrap 95% CI lower bound > 0",
+    "gradient_target": "Mean v2-minus-base gradient MAE < 0",
+    "identity_target": "Zero-prompt mean and p99 absolute output change <= 1e-7",
+    "overshoot_target": "Mean v2-minus-base edge-normal overshoot p95 <= 0"
+  }
+}

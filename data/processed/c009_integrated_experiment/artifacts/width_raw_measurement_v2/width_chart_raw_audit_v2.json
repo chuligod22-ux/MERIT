@@ -1,0 +1,216 @@
+{
+  "schema_version": "width-raw-audit-v2",
+  "created_at": "2026-09-25T00:38:04+09:00",
+  "scope": "Descriptive audit of orientation-aware frozen RAW apparent-width measurements",
+  "invariants": {
+    "rows": 500,
+    "source_frames": 50,
+    "status_counts": {
+      "ESTIMABLE": 387,
+      "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 100,
+      "UNCERTAINTY_NON_ESTIMABLE": 9,
+      "QC_NON_ESTIMABLE": 4
+    },
+    "orientation_counts_roi": {
+      "HORIZONTAL": 450,
+      "VERTICAL": 50
+    },
+    "orientation_counts_frame": {
+      "HORIZONTAL": 45,
+      "VERTICAL": 5
+    },
+    "orientation_consistent_within_frame": true
+  },
+  "eligible_endpoint": {
+    "definition": "nominal widths 0.3 to 1.0 mm",
+    "rows": 400,
+    "estimable": 387,
+    "estimable_fraction": 0.9675,
+    "frames_with_any_estimable": 50,
+    "frames_with_all_eight_estimable": 39,
+    "frames_with_no_estimable": 0
+  },
+  "ordering_diagnostic": {
+    "pooled_spearman_rho": 0.45869221159013746,
+    "pooled_spearman_p": 1.5643006260243312e-21,
+    "frames_with_at_least_six_estimable": 50,
+    "within_frame_rho_median": 0.8333333333333335,
+    "within_frame_rho_q1": 0.630952380952381,
+    "within_frame_rho_q3": 0.9285714285714288,
+    "within_frame_positive_rho_count": 48,
+    "within_frame_slope_median": 0.25906331182912934,
+    "within_frame_slope_q1": 0.17815896109766455,
+    "within_frame_slope_q3": 0.28837966437766105,
+    "within_frame_positive_slope_count": 49,
+    "interpretation": "Nominal ordering is usually retained within a condition, but FWHM is compressed and offset by the acquisition PSF; this is a relative preservation endpoint, not direct physical-width metrology."
+  },
+  "orientation_audit": {
+    "vertical_frames": [
+      {
+        "source_id": "W007",
+        "filename": "cam1_v60_iso1600_d35.png",
+        "speed_kmh": 60,
+        "iso": 1600,
+        "distance_m": 3.5
+      },
+      {
+        "source_id": "W016",
+        "filename": "cam1_v60_iso400_d25.png",
+        "speed_kmh": 60,
+        "iso": 400,
+        "distance_m": 2.5
+      },
+      {
+        "source_id": "W017",
+        "filename": "cam1_v60_iso400_d35.png",
+        "speed_kmh": 60,
+        "iso": 400,
+        "distance_m": 3.5
+      },
+      {
+        "source_id": "W041",
+        "filename": "cam1_v80_iso400_d25.png",
+        "speed_kmh": 80,
+        "iso": 400,
+        "distance_m": 2.5
+      },
+      {
+        "source_id": "W042",
+        "filename": "cam1_v80_iso400_d35.png",
+        "speed_kmh": 80,
+        "iso": 400,
+        "distance_m": 3.5
+      }
+    ],
+    "visual_contact_sheets": "<LOCAL_PATH_REDACTED>"
+  },
+  "remaining_non_estimable_rows": [
+    {
+      "source_id": "W006",
+      "filename": "cam1_v60_iso1600_d25_x.png",
+      "nominal_width_mm": 0.3,
+      "status": "QC_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W010",
+      "filename": "cam1_v60_iso1600_d65.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W015",
+      "filename": "cam1_v60_iso200_d65_x.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W015",
+      "filename": "cam1_v60_iso200_d65_x.png",
+      "nominal_width_mm": 0.4,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W018",
+      "filename": "cam1_v60_iso400_d45.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W025",
+      "filename": "cam1_v60_iso800_d65.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W031",
+      "filename": "cam1_v80_iso1600_d25_x.png",
+      "nominal_width_mm": 0.3,
+      "status": "QC_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W031",
+      "filename": "cam1_v80_iso1600_d25_x.png",
+      "nominal_width_mm": 0.4,
+      "status": "QC_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W035",
+      "filename": "cam1_v80_iso1600_d65.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W040",
+      "filename": "cam1_v80_iso200_d65_x.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W041",
+      "filename": "cam1_v80_iso400_d25.png",
+      "nominal_width_mm": 0.4,
+      "status": "QC_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W043",
+      "filename": "cam1_v80_iso400_d45.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    },
+    {
+      "source_id": "W050",
+      "filename": "cam1_v80_iso800_d65.png",
+      "nominal_width_mm": 0.3,
+      "status": "UNCERTAINTY_NON_ESTIMABLE"
+    }
+  ],
+  "v1_to_v2_audit": {
+    "status_transitions": [
+      {
+        "status_v1": "ESTIMABLE",
+        "status_v2": "ESTIMABLE",
+        "n": 348
+      },
+      {
+        "status_v1": "PREDECLARED_SUBPIXEL_NON_ESTIMABLE",
+        "status_v2": "PREDECLARED_SUBPIXEL_NON_ESTIMABLE",
+        "n": 100
+      },
+      {
+        "status_v1": "QC_NON_ESTIMABLE",
+        "status_v2": "ESTIMABLE",
+        "n": 39
+      },
+      {
+        "status_v1": "QC_NON_ESTIMABLE",
+        "status_v2": "QC_NON_ESTIMABLE",
+        "n": 4
+      },
+      {
+        "status_v1": "UNCERTAINTY_NON_ESTIMABLE",
+        "status_v2": "UNCERTAINTY_NON_ESTIMABLE",
+        "n": 9
+      }
+    ],
+    "shared_horizontal_estimable_rows": 348,
+    "shared_horizontal_max_absolute_difference_mm": 0.0,
+    "interpretation": "Unchanged horizontal cases reproduce exactly; changes are confined to orientation handling and its downstream estimability."
+  },
+  "claim_boundary": "RAW feasibility only; no restoration-effect conclusion",
+  "inputs": {
+    "measurements_csv": "<LOCAL_PATH_REDACTED>",
+    "measurements_sha256": "6f9ea415d2654588498b2eb61eab031a3276f357e67d10663f7a67d8b784dadf",
+    "v1_measurements_csv": "<LOCAL_PATH_REDACTED>",
+    "v1_measurements_sha256": "8d6ff48653fca54076492fd19e48c0c0a382c0fbd6c6b663cbeda60bcce8a20b"
+  },
+  "outputs": {
+    "condition_summary_csv": "<LOCAL_PATH_REDACTED>",
+    "condition_summary_sha256": "afb2c61a53d29703c3e71a423afea4fe28eb9ac506289cbf8a3ffa6dab58305a",
+    "per_width_summary_csv": "<LOCAL_PATH_REDACTED>",
+    "per_width_summary_sha256": "c7e0ae0e0f6f9d01bb1be6652f3dc4c1d6e88b0141df279757f5591bebc6d3a5"
+  },
+  "script": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "d3d4545f8f30351239c9f50e828ac4e205278f21e666ca704d59b51fae158422"
+  }
+}

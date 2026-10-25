@@ -1,0 +1,384 @@
+{
+  "schema_version": "MERIT-C009-WIDTH-ROI-FINAL-v1",
+  "created_kst": "2026-09-24T23:55:40.916872+09:00",
+  "status": "ROI_LEDGER_FROZEN_MEASUREMENT_INPUT_READY",
+  "review_scope": "50 raw frames x 10 nominal widths = 500 ROIs",
+  "review_rule": "Raw source pixels and pre-measurement overlays only; no restoration, detector, or width-estimation output was inspected.",
+  "reviewer": "CODEX_INDEPENDENT_RAW_ONLY_VISUAL_AUDIT",
+  "candidate_input": {
+    "csv_path": "<LOCAL_PATH_REDACTED>",
+    "csv_sha256": "19ebe176d8501ad3ff7d5454da7be39e4f2c60e120846971bebc5545c2a20564",
+    "json_path": "<LOCAL_PATH_REDACTED>",
+    "json_sha256": "2f6a15dd42856f4aa7d1f474066285d660a3c8a395e5b65a24fffec8d8019faf"
+  },
+  "final_ledger": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "ce46cf8249a8666c38a7b9b1ee02899423677ac584643e46bbe2654a32c2fd9f",
+    "rows": 500,
+    "unique_frames": 50,
+    "unique_widths": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "disposition_counts": {
+    "ACCEPT_AS_IS": 489,
+    "CORRECTED": 11
+  },
+  "non_estimable_count_at_roi_freeze": 0,
+  "measurement_status_counts": {
+    "NOT_RUN": 500
+  },
+  "strict_qc_flagged_frame_count_reviewed": 17,
+  "manual_corrections": [
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.1,
+      "polygon": [
+        [
+          2904,
+          28
+        ],
+        [
+          3544,
+          28
+        ],
+        [
+          3544,
+          684
+        ],
+        [
+          2904,
+          684
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.2,
+      "polygon": [
+        [
+          3788,
+          28
+        ],
+        [
+          4428,
+          28
+        ],
+        [
+          4428,
+          684
+        ],
+        [
+          3788,
+          684
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.3,
+      "polygon": [
+        [
+          4624,
+          28
+        ],
+        [
+          5260,
+          28
+        ],
+        [
+          5260,
+          684
+        ],
+        [
+          4624,
+          684
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.4,
+      "polygon": [
+        [
+          5484,
+          40
+        ],
+        [
+          6128,
+          40
+        ],
+        [
+          6128,
+          700
+        ],
+        [
+          5484,
+          700
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.5,
+      "polygon": [
+        [
+          2920,
+          1020
+        ],
+        [
+          3560,
+          1020
+        ],
+        [
+          3560,
+          1668
+        ],
+        [
+          2920,
+          1668
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.6,
+      "polygon": [
+        [
+          3788,
+          1004
+        ],
+        [
+          4428,
+          1004
+        ],
+        [
+          4428,
+          1652
+        ],
+        [
+          3788,
+          1652
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.7,
+      "polygon": [
+        [
+          4616,
+          1004
+        ],
+        [
+          5256,
+          1004
+        ],
+        [
+          5256,
+          1648
+        ],
+        [
+          4616,
+          1648
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.8,
+      "polygon": [
+        [
+          5508,
+          952
+        ],
+        [
+          6148,
+          952
+        ],
+        [
+          6148,
+          1608
+        ],
+        [
+          5508,
+          1608
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 0.9,
+      "polygon": [
+        [
+          3768,
+          1892
+        ],
+        [
+          4420,
+          1892
+        ],
+        [
+          4420,
+          2544
+        ],
+        [
+          3768,
+          2544
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "nominal_width_mm": 1.0,
+      "polygon": [
+        [
+          4604,
+          1832
+        ],
+        [
+          5240,
+          1832
+        ],
+        [
+          5240,
+          2472
+        ],
+        [
+          4604,
+          2472
+        ]
+      ]
+    },
+    {
+      "filename": "cam1_v60_iso400_d45.png",
+      "nominal_width_mm": 0.3,
+      "polygon": [
+        [
+          4097,
+          10
+        ],
+        [
+          4754,
+          10
+        ],
+        [
+          4754,
+          403
+        ],
+        [
+          4097,
+          403
+        ]
+      ]
+    }
+  ],
+  "review_pages": [
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "06f4d4ff46c85ddee3df8137f7b2a926498ee1db9b19cdb6f3232a8f940d51c0"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "b7083f723ad194da5342bf56e37b26b84d416d3fa2d804bd341110a028692b4e"
+    }
+  ],
+  "strict_qc_flagged_pages": [
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f34108c1cc528faa55c9e8569e1e5797e779e558e350f82c30e4c4e7ef955585"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "66ad9762ed9a7749fb1400c1971a60b8c71db9cf4dd2ddfb8c72333a9d34b1f5"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "319fe343d4bc81412039e14a535f09262e91a9145f5103183a0dfab6013050a3"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d020393abc92298782f26805d6607f231c3bbb3ef7e2046ad439c2581514ca42"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "3a8098d5e8ad986eb9eb393084fe8bf9230293599f026b8e6a9bf3a5a2a1c523"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e4056c42b91acede9c7e582de45a76ac3d004764534522c92013dda8d8299af1"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "8ee883b02c2000412e5c2f87a3b892195fc7375a80ab95a80521f0cf899e830f"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d32231cd61310e14b4e4c00c61f01186a60785f2b8de4b7dd00c4a42eef28faa"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "231793d7956a8f6229f5285e56c7289d6b3b2286b7a752ead4703c10191f6a11"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4be34c18afeaff4a23e6881d9ba0ee86ce5d4aaf8ac47d186e98db5dc2cfc8e0"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "56a002779e4b456ec06bdb2a0a583c457f3a59435155cbfb24df6869a8eeb235"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "232d36addd61eff5656151d9208b9e4047d242738e0d8908dafc358b2a392a4c"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4a5c0aef0bdb1f50dc9335361fcc92fe1e7346e58bfbec4adbed24a9fc32fe02"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e97f07df5b2bbbf95296d7ed2676bf36293a6196163d49b53c06a0be0faa35cc"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "2848b8eee8cc67abe20b26397db3a22058ce65c75f94a77f3e738959c20ac9a3"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "5b304d56f89543e72a724c43270a6a2538ef1f055d7f813134fc896ccfbe9de4"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "23fd088874b6e6145b3dcf725aef51ba447ab2080c51ec36584797d17218996b"
+    }
+  ],
+  "correction_pages": [
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e4d7b13af12d4ccd6adbb4f453e8380c0cf4beb15e6bf54e16ca5ae79fbe40b7"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "baeb20c4c4b03aa230d12eaeac4cb2e10d10bdea8d5d417fd5b92dfc0a618759"
+    }
+  ],
+  "authorization": {
+    "raw_width_measurement": true,
+    "restored_width_comparison": "REQUIRES_G11_OFFICIAL_MODEL_OUTPUTS",
+    "full_training": false
+  },
+  "generator": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "3223b8677541ee0163a4c52cd7f001bb418e79b63dfdf862b44b3ee6a7798cf7"
+  }
+}

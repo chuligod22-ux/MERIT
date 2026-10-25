@@ -1,0 +1,38 @@
+{
+  "c061_confirmation_sha256": "e8d68e7a3c48d9d4ba05f8fba4054fd5f02bf816495371789866a74587f82b26",
+  "c061_sample_metrics_sha256": "8e05a47208dbd621f0a97cb069d18ce199dbd0a9528a11744c644489cd6337be",
+  "cell_summary_sha256": "8a5f118205dee3148ae4d8a67a4d233dbd22a9764450b4e68dab23dfde258ab5",
+  "destinations": [
+    "<LOCAL_PATH_REDACTED>",
+    "<LOCAL_PATH_REDACTED>",
+    "<LOCAL_PATH_REDACTED>",
+    "<LOCAL_PATH_REDACTED>"
+  ],
+  "display_gamma": 0.45,
+  "families": [
+    "illumination_gradient_vignetting",
+    "linear_motion_psf",
+    "poisson_gaussian",
+    "saturation_clipping",
+    "spatially_varying_blur",
+    "veiling_scattering"
+  ],
+  "freeze_sha256": "09fc1021a396ad0d32797a23c9c8e3838f32931cb6e2e090296d871d8070ea2a",
+  "metrics_use_untransformed_arrays": true,
+  "pdf_sha256": "36709eb51956de2e8905bde875bca4832f4af176f68dc2ac6d773b2e5be8b794",
+  "png_sha256": "a3bea59b8b4fdc09a0922eb7e07fa7a830ce8e58c12f85321c37afc1796ec526",
+  "sample_metrics_sha256": "9137b1d8110b9c0938e773fea3f13eb7aee9c0b3215cb44dd77327eae884133a",
+  "schema_version": "MERIT-C018-FIGURE15-v1",
+  "script_sha256": "7962bfac32c058fd254d10e1e0b051e75e32e6c2888eed96074a86f282a3e340",
+  "selection": {
+    "bank_index": "80",
+    "condition": "crack_d45_ISO100_V80",
+    "crop_sha256": "87bf0aa6bc7d6b11355e9d27e778f3208022b446c5b219c7ea36a92084f378ba",
+    "parent_sha256": "82a2ad5a2615d85ab9b40d6af10037d9b0e39666e20da530c68902528f0e0eef",
+    "role": "crack",
+    "stochastic_seed": "202610150"
+  },
+  "selection_rule": "One clearly visible crack crop was selected from frozen role=crack source crops using the operational-source image only; no degraded or restored output was viewed. The same crop and severity are used for all six families; one seed is fixed for the stochastic families.",
+  "selection_status": "SOURCE_ONLY_QUALITATIVE_SELECTION_NO_OUTPUT_SCREENING",
+  "severity": 2
+}

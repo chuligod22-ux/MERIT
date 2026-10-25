@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "checkpoint_hashes_valid": true,
+    "finite_runtime_failures": 0,
+    "fixed_step_20": true,
+    "forced_resume_exercised": true,
+    "shared_stream_hash": "9a8ec61c9fead078686d62e8e9f18d6af937c46616535c9e1541d8b11555e807",
+    "three_structures_complete": true
+  },
+  "created_at_kst": "2026-09-27T08:18:21+09:00",
+  "execution_freeze_sha256": "543116b42ab2c640243c31f1d482b00c2a17a1a1aa1fe6a0a138950d299a6107",
+  "interpretation": "Technical readiness only; no model selection or efficacy inference.",
+  "payload_sha256": "fb9dce16455953ae4df457609c89bec0a922b7833672407c233670d04bb29f2e",
+  "records": [
+    {
+      "elapsed_seconds": 18.729229600168765,
+      "final_checkpoint_sha256": "eb43fee5d9e16e6e0602c8f0abbb57c8341f186a2a810c8843d140d12ce456b6",
+      "parameters": 17111907,
+      "peak_cuda_memory_bytes": 21176394240,
+      "resume_count": 1,
+      "seed": 0,
+      "stream_sha256": "9a8ec61c9fead078686d62e8e9f18d6af937c46616535c9e1541d8b11555e807",
+      "structure": "zero_prompt_full",
+      "wp": "wp2"
+    },
+    {
+      "elapsed_seconds": 24.478119399864227,
+      "final_checkpoint_sha256": "df63a074ce5ce156d4b0293a8a98d3360f75e8478ca6a710f8ea6efe92f2cce4",
+      "parameters": 16296154,
+      "peak_cuda_memory_bytes": 23936961024,
+      "resume_count": 1,
+      "seed": 0,
+      "stream_sha256": "9a8ec61c9fead078686d62e8e9f18d6af937c46616535c9e1541d8b11555e807",
+      "structure": "cascade",
+      "wp": "wp3"
+    },
+    {
+      "elapsed_seconds": 24.291673500090837,
+      "final_checkpoint_sha256": "cd2526ae0ff38c3fc46d65ff8efbed30747a4a2dbcf978cb4c0acc22e4fac409",
+      "parameters": 16296158,
+      "peak_cuda_memory_bytes": 23933148160,
+      "resume_count": 1,
+      "seed": 0,
+      "stream_sha256": "9a8ec61c9fead078686d62e8e9f18d6af937c46616535c9e1541d8b11555e807",
+      "structure": "parallel",
+      "wp": "wp3"
+    }
+  ],
+  "schema_version": "MERIT-C009-WP23-PILOT-CLOSURE-v1",
+  "status": "PASS",
+  "trainer_sha256": "d843bcf70b099ed9bf9a642990b4efd972c252b5a1f2d52b69d48d3eeb8345e2"
+}

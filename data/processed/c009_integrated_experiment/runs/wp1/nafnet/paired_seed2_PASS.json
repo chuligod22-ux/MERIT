@@ -1,0 +1,15 @@
+{
+  "checked_at_kst": "2026-09-25T15:20:48+09:00",
+  "checks": {
+    "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+    "global_step": 8000,
+    "initial_state_sha256": "20d1a0236369920d026bfd3661e7f4a3576d007f3e7d0dc3b8396ebce2f7b4e4",
+    "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821",
+    "trainable_parameters": 17111907
+  },
+  "family": "nafnet",
+  "payload_sha256": "ddbb3d3078e540db19c6a1d60e057f40309180c56f55ef18fd20ef418170cfff",
+  "schema_version": "MERIT-C009-WP1-PAIRED-CHECK-v1",
+  "seed": 2,
+  "status": "PASS"
+}

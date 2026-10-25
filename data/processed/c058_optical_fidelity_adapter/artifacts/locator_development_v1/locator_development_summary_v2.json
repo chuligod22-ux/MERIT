@@ -1,0 +1,1063 @@
+{
+  "schema_version": "MERIT-C058-RAW-LOCATOR-DEVELOPMENT-v2",
+  "created_utc": "2026-10-20T14:06:38+00:00",
+  "scope": "479 exposed C057 frames only; same-acquisition development validation",
+  "raw_only_locator": true,
+  "reference_used_only_after_localization": true,
+  "bounded_correction": "search width only: 420 to 1024 working pixels",
+  "frames_expected": 479,
+  "frames_located": 478,
+  "localization_coverage": 0.9979123173277662,
+  "condition_cells_located": 50,
+  "extract_shape_counts": [
+    {
+      "extract_width": 1440.0,
+      "extract_height": 960.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1454.0,
+      "extract_height": 969.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1459.0,
+      "extract_height": 972.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1463.0,
+      "extract_height": 975.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1470.0,
+      "extract_height": 980.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1472.0,
+      "extract_height": 981.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1477.0,
+      "extract_height": 984.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1481.0,
+      "extract_height": 987.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1490.0,
+      "extract_height": 993.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1491.0,
+      "extract_height": 993.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1499.0,
+      "extract_height": 999.0,
+      "count": 6
+    },
+    {
+      "extract_width": 1506.0,
+      "extract_height": 1004.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1508.0,
+      "extract_height": 1005.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1517.0,
+      "extract_height": 1011.0,
+      "count": 9
+    },
+    {
+      "extract_width": 1518.0,
+      "extract_height": 1012.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1518.0,
+      "extract_height": 1071.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1524.0,
+      "extract_height": 1016.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1524.0,
+      "extract_height": 1107.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1525.0,
+      "extract_height": 1016.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1526.0,
+      "extract_height": 1017.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1535.0,
+      "extract_height": 1023.0,
+      "count": 9
+    },
+    {
+      "extract_width": 1544.0,
+      "extract_height": 1029.0,
+      "count": 9
+    },
+    {
+      "extract_width": 1553.0,
+      "extract_height": 1035.0,
+      "count": 6
+    },
+    {
+      "extract_width": 1554.0,
+      "extract_height": 1036.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1555.0,
+      "extract_height": 1036.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1560.0,
+      "extract_height": 1040.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1562.0,
+      "extract_height": 1041.0,
+      "count": 5
+    },
+    {
+      "extract_width": 1566.0,
+      "extract_height": 1044.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1571.0,
+      "extract_height": 1047.0,
+      "count": 7
+    },
+    {
+      "extract_width": 1572.0,
+      "extract_height": 1048.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1578.0,
+      "extract_height": 1052.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1578.0,
+      "extract_height": 1053.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1580.0,
+      "extract_height": 1053.0,
+      "count": 5
+    },
+    {
+      "extract_width": 1589.0,
+      "extract_height": 1059.0,
+      "count": 7
+    },
+    {
+      "extract_width": 1590.0,
+      "extract_height": 1060.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1598.0,
+      "extract_height": 1065.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1607.0,
+      "extract_height": 1071.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1608.0,
+      "extract_height": 1072.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1614.0,
+      "extract_height": 1076.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1616.0,
+      "extract_height": 1077.0,
+      "count": 7
+    },
+    {
+      "extract_width": 1620.0,
+      "extract_height": 1080.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1625.0,
+      "extract_height": 1083.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1629.0,
+      "extract_height": 1086.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1632.0,
+      "extract_height": 1088.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1634.0,
+      "extract_height": 1089.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1638.0,
+      "extract_height": 1092.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1643.0,
+      "extract_height": 1095.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1644.0,
+      "extract_height": 1096.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1644.0,
+      "extract_height": 1365.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1645.0,
+      "extract_height": 1096.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1650.0,
+      "extract_height": 1100.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1652.0,
+      "extract_height": 1101.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1662.0,
+      "extract_height": 1108.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1668.0,
+      "extract_height": 1112.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1669.0,
+      "extract_height": 1112.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1670.0,
+      "extract_height": 1113.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1674.0,
+      "extract_height": 1116.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1675.0,
+      "extract_height": 1116.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1679.0,
+      "extract_height": 1119.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1680.0,
+      "extract_height": 1120.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1686.0,
+      "extract_height": 1124.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1686.0,
+      "extract_height": 1317.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1688.0,
+      "extract_height": 1125.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1692.0,
+      "extract_height": 1128.0,
+      "count": 6
+    },
+    {
+      "extract_width": 1693.0,
+      "extract_height": 1128.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1697.0,
+      "extract_height": 1131.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1698.0,
+      "extract_height": 1132.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1704.0,
+      "extract_height": 1136.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1706.0,
+      "extract_height": 1137.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1710.0,
+      "extract_height": 1140.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1710.0,
+      "extract_height": 1149.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1715.0,
+      "extract_height": 1143.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1721.0,
+      "extract_height": 1147.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1722.0,
+      "extract_height": 1148.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1724.0,
+      "extract_height": 1149.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1728.0,
+      "extract_height": 1152.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1729.0,
+      "extract_height": 1152.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1733.0,
+      "extract_height": 1155.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1734.0,
+      "extract_height": 1156.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1735.0,
+      "extract_height": 1156.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1740.0,
+      "extract_height": 1160.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1742.0,
+      "extract_height": 1161.0,
+      "count": 6
+    },
+    {
+      "extract_width": 1746.0,
+      "extract_height": 1164.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1751.0,
+      "extract_height": 1167.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1752.0,
+      "extract_height": 1168.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1753.0,
+      "extract_height": 1168.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1758.0,
+      "extract_height": 1172.0,
+      "count": 5
+    },
+    {
+      "extract_width": 1760.0,
+      "extract_height": 1173.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1765.0,
+      "extract_height": 1176.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1769.0,
+      "extract_height": 1179.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1770.0,
+      "extract_height": 1180.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1776.0,
+      "extract_height": 1184.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1778.0,
+      "extract_height": 1185.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1782.0,
+      "extract_height": 1188.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1787.0,
+      "extract_height": 1191.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1788.0,
+      "extract_height": 1192.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1794.0,
+      "extract_height": 1196.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1795.0,
+      "extract_height": 1196.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1796.0,
+      "extract_height": 1197.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1800.0,
+      "extract_height": 1200.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1805.0,
+      "extract_height": 1203.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1812.0,
+      "extract_height": 1208.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1813.0,
+      "extract_height": 1208.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1814.0,
+      "extract_height": 1209.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1818.0,
+      "extract_height": 1212.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1823.0,
+      "extract_height": 1215.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1824.0,
+      "extract_height": 1216.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1830.0,
+      "extract_height": 1220.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1832.0,
+      "extract_height": 1221.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1836.0,
+      "extract_height": 1224.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1841.0,
+      "extract_height": 1227.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1842.0,
+      "extract_height": 1228.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1844.0,
+      "extract_height": 1230.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1845.0,
+      "extract_height": 1230.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1849.0,
+      "extract_height": 1232.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1850.0,
+      "extract_height": 1233.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1854.0,
+      "extract_height": 1236.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1860.0,
+      "extract_height": 1240.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1866.0,
+      "extract_height": 1244.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1867.0,
+      "extract_height": 1244.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1872.0,
+      "extract_height": 1248.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1878.0,
+      "extract_height": 1252.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1884.0,
+      "extract_height": 1256.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1886.0,
+      "extract_height": 1257.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1890.0,
+      "extract_height": 1260.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1895.0,
+      "extract_height": 1263.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1896.0,
+      "extract_height": 1264.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1902.0,
+      "extract_height": 1268.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1903.0,
+      "extract_height": 1269.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1908.0,
+      "extract_height": 1272.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1910.0,
+      "extract_height": 1273.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1913.0,
+      "extract_height": 1275.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1914.0,
+      "extract_height": 1276.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1920.0,
+      "extract_height": 1280.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1921.0,
+      "extract_height": 1280.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1922.0,
+      "extract_height": 1281.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1926.0,
+      "extract_height": 1284.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1932.0,
+      "extract_height": 1288.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1938.0,
+      "extract_height": 1292.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1940.0,
+      "extract_height": 1293.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1944.0,
+      "extract_height": 1296.0,
+      "count": 2
+    },
+    {
+      "extract_width": 1950.0,
+      "extract_height": 1300.0,
+      "count": 4
+    },
+    {
+      "extract_width": 1956.0,
+      "extract_height": 1304.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1962.0,
+      "extract_height": 1308.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1968.0,
+      "extract_height": 1312.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1986.0,
+      "extract_height": 1324.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1990.0,
+      "extract_height": 1326.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1992.0,
+      "extract_height": 1328.0,
+      "count": 3
+    },
+    {
+      "extract_width": 1994.0,
+      "extract_height": 1329.0,
+      "count": 1
+    },
+    {
+      "extract_width": 1998.0,
+      "extract_height": 1332.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2003.0,
+      "extract_height": 1335.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2004.0,
+      "extract_height": 1336.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2010.0,
+      "extract_height": 1340.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2012.0,
+      "extract_height": 1341.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2016.0,
+      "extract_height": 1344.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2022.0,
+      "extract_height": 1348.0,
+      "count": 8
+    },
+    {
+      "extract_width": 2028.0,
+      "extract_height": 1352.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2034.0,
+      "extract_height": 1356.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2040.0,
+      "extract_height": 1360.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2042.0,
+      "extract_height": 1360.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2046.0,
+      "extract_height": 1364.0,
+      "count": 5
+    },
+    {
+      "extract_width": 2052.0,
+      "extract_height": 1368.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2057.0,
+      "extract_height": 1371.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2058.0,
+      "extract_height": 1372.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2059.0,
+      "extract_height": 1372.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2064.0,
+      "extract_height": 1376.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2066.0,
+      "extract_height": 1376.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2070.0,
+      "extract_height": 1380.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2075.0,
+      "extract_height": 1383.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2076.0,
+      "extract_height": 1384.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2082.0,
+      "extract_height": 1388.0,
+      "count": 8
+    },
+    {
+      "extract_width": 2088.0,
+      "extract_height": 1392.0,
+      "count": 9
+    },
+    {
+      "extract_width": 2094.0,
+      "extract_height": 1396.0,
+      "count": 5
+    },
+    {
+      "extract_width": 2097.0,
+      "extract_height": 1398.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2100.0,
+      "extract_height": 1400.0,
+      "count": 7
+    },
+    {
+      "extract_width": 2106.0,
+      "extract_height": 1404.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2112.0,
+      "extract_height": 1408.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2118.0,
+      "extract_height": 1412.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2124.0,
+      "extract_height": 1416.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2129.0,
+      "extract_height": 1419.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2136.0,
+      "extract_height": 1424.0,
+      "count": 5
+    },
+    {
+      "extract_width": 2142.0,
+      "extract_height": 1428.0,
+      "count": 6
+    },
+    {
+      "extract_width": 2143.0,
+      "extract_height": 1428.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2148.0,
+      "extract_height": 1432.0,
+      "count": 6
+    },
+    {
+      "extract_width": 2150.0,
+      "extract_height": 1433.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2154.0,
+      "extract_height": 1436.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2155.0,
+      "extract_height": 1437.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2159.0,
+      "extract_height": 1439.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2160.0,
+      "extract_height": 1440.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2166.0,
+      "extract_height": 1444.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2172.0,
+      "extract_height": 1448.0,
+      "count": 5
+    },
+    {
+      "extract_width": 2178.0,
+      "extract_height": 1452.0,
+      "count": 4
+    },
+    {
+      "extract_width": 2183.0,
+      "extract_height": 1455.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2184.0,
+      "extract_height": 1456.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2190.0,
+      "extract_height": 1460.0,
+      "count": 3
+    },
+    {
+      "extract_width": 2196.0,
+      "extract_height": 1464.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2202.0,
+      "extract_height": 1468.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2208.0,
+      "extract_height": 1472.0,
+      "count": 2
+    },
+    {
+      "extract_width": 2222.0,
+      "extract_height": 1481.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2226.0,
+      "extract_height": 1484.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2256.0,
+      "extract_height": 1504.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2290.0,
+      "extract_height": 1526.0,
+      "count": 1
+    },
+    {
+      "extract_width": 2292.0,
+      "extract_height": 1528.0,
+      "count": 1
+    }
+  ],
+  "crop_origin": {
+    "x_min": 0,
+    "x_max": 6752,
+    "y_min": 0,
+    "y_max": 531,
+    "maximum_sparse_mae": 51.53354212972317,
+    "exact_fraction": 0.99581589958159
+  },
+  "center_error_radii": {
+    "median": 0.04366013166017647,
+    "p95": 0.10213353268131928,
+    "maximum": 0.4842761202930818
+  },
+  "radius_error_fraction": {
+    "median": 0.16137419253399418,
+    "p95": 0.3280334855059302
+  },
+  "mtf50_cross_validation": {
+    "roi_attempts": 1729,
+    "roi_valid": 1728,
+    "valid_fraction": 0.9994216310005783,
+    "spearman_rho_vs_imatest": 0.8077828340387182,
+    "mae_cy_px_vs_imatest": 0.02182229832823164
+  },
+  "gates": {
+    "coverage_at_least_0_95": true,
+    "condition_cells_equal_50": true,
+    "median_center_error_at_most_0_15_radius": true,
+    "p95_center_error_at_most_0_35_radius": true,
+    "roi_valid_fraction_at_least_0_95": true,
+    "exact_crop_fraction_at_least_0_95": true,
+    "mtf_spearman_at_least_0_80": true,
+    "mtf_mae_at_most_0_03_cy_px": true
+  }
+}

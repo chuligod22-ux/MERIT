@@ -1,0 +1,59 @@
+{
+  "conditions_per_roi": 2,
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 1801.5435760999098,
+  "model_id": "wp1__restormer__base__seed1",
+  "payload_sha256": "8d332d3084519e7ce49128fb3d29369fb403ca1cce95033c0628a4b7a6b6a2c9",
+  "progress_manifest_sha256": "93dfe788485cc222d0e4f85caec6ef01da35ca350d3896670f71c768072fb171",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "ccce4a221b56526025534743726b2e58fc59c855a27919fb08575334188c9d76",
+    "completion_payload_sha256": "ba6fa11fbf26b1094e5f087f7bd9a4854aac7a790cfaf1900d2c855a767fd5a2",
+    "model": {
+      "class": "Restormer",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "family": "restormer",
+      "kwargs": {
+        "LayerNorm_type": "WithBias",
+        "bias": false,
+        "dim": 48,
+        "dual_pixel_task": false,
+        "ffn_expansion_factor": 2.66,
+        "heads": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "inp_channels": 3,
+        "num_blocks": [
+          4,
+          6,
+          6,
+          8
+        ],
+        "num_refinement_blocks": 4,
+        "out_channels": 3
+      },
+      "module": "basicsr.models.archs.restormer_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 26126644,
+      "repository": "https://github.com/swz30/Restormer",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "trainable_parameters": 26126644
+    },
+    "model_id": "wp1__restormer__base__seed1"
+  },
+  "roi_per_frame": 10,
+  "schema_version": "MERIT-C009-WIDTH-RUN-COMPLETE-v1",
+  "source_frames": 50,
+  "specification": {
+    "arm": "base",
+    "family": "restormer",
+    "kind": "wp1",
+    "seed": 1
+  },
+  "status": "PASS"
+}

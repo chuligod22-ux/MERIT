@@ -1,0 +1,106 @@
+{
+  "artifacts": {
+    "condition": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/public_e2e_development/public_e2e_condition_results.csv",
+      "sha256": "972d131ea02194ce6d915005a1971653a30b60f264a49121ea10efa8bd8994f7"
+    },
+    "coverage": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/public_e2e_development/public_e2e_complete_case.json",
+      "sha256": "c435ee8af195426065cba8e636bb76fdd569b4e98c04291c4029527e8a2bbe7d"
+    },
+    "diagnostics": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/public_e2e_development/public_e2e_pixel_diagnostics.csv",
+      "sha256": "c4838fb3b68c6f3b4a2bb7768495aaddf4047f7da8019210d49d9d1016375463"
+    },
+    "roi": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/public_e2e_development/public_e2e_roi_results.csv",
+      "sha256": "b05236f49d2050366198ff11c9dcd8516401a3c00080a186f5adc05b22930774"
+    }
+  },
+  "completed_utc": "2026-10-21T01:38:15+00:00",
+  "contract_sha256": "3b6ad1299a69064ed102b4864006d2a03273ee95a6b88aebb7e31b5fe53f6c55",
+  "counts": {
+    "active_condition_cells": 6,
+    "frames": 137,
+    "located_frames": 137
+  },
+  "coverage": {
+    "common_roi_identities": 548,
+    "expected_roi_identities": 548,
+    "fraction": 1.0,
+    "minimum_distance_fraction": 1.0,
+    "per_distance": [
+      {
+        "common_roi_identities": 104,
+        "distance_m": 2.5,
+        "expected_roi_identities": 104,
+        "fraction": 1.0
+      },
+      {
+        "common_roi_identities": 104,
+        "distance_m": 3.5,
+        "expected_roi_identities": 104,
+        "fraction": 1.0
+      },
+      {
+        "common_roi_identities": 116,
+        "distance_m": 4.5,
+        "expected_roi_identities": 116,
+        "fraction": 1.0
+      },
+      {
+        "common_roi_identities": 108,
+        "distance_m": 5.5,
+        "expected_roi_identities": 108,
+        "fraction": 1.0
+      },
+      {
+        "common_roi_identities": 116,
+        "distance_m": 6.5,
+        "expected_roi_identities": 116,
+        "fraction": 1.0
+      }
+    ]
+  },
+  "evidence_label": "Outcome-driven public development; not independent confirmation",
+  "reference_mtf50_native_cy_px_by_distance": {
+    "2.5": 0.10392504501812438,
+    "3.5": 0.1122379567559399,
+    "4.5": 0.09739223995111292,
+    "5.5": 0.09321212790914576,
+    "6.5": 0.11466297642830188
+  },
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-PUBLIC-E2E-v3g",
+  "state": "PUBLIC_NATIVE_E2E_DEVELOPMENT_COMPLETE",
+  "summary": {
+    "active_condition_cluster_bootstrap_95pct_ci": [
+      -0.008702565498727333,
+      -0.002492836650818231
+    ],
+    "active_expert_seed_means_descriptive": {
+      "0": -0.0019587216022632636,
+      "1": -0.0062834241439208936
+    },
+    "active_mean_delta_abs_error_cy_px": -0.005562640386977955,
+    "condition_cluster_bootstrap_95pct_ci": [
+      -0.008702565498727333,
+      -0.002492836650818231
+    ],
+    "condition_mean_delta_abs_error_cy_px": -0.005562640386977955,
+    "gate": "PASS",
+    "gate_checks": {
+      "active_ci_upper_lt_zero": true,
+      "active_mean_lt_zero": true,
+      "all_active_condition_means_lt_zero": true,
+      "ci_upper_lt_zero": true,
+      "common_complete_case_coverage": true,
+      "each_distance_complete_case_coverage": true,
+      "inactive_exact_identity": true,
+      "introduced_clipping": true,
+      "locator_coverage": true,
+      "maximum_abs_change_dn": true,
+      "mean_delta_lt_zero": true,
+      "preclip_overshoot": true
+    }
+  }
+}

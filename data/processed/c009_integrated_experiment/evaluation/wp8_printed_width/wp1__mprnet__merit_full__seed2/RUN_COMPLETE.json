@@ -1,0 +1,48 @@
+{
+  "conditions_per_roi": 2,
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 1364.8373631997965,
+  "model_id": "wp1__mprnet__merit_full__seed2",
+  "payload_sha256": "72afed03a4dbb49406fe3cbea0787dd5ef15a030021ae1f36f58d7f5a8cdc8a5",
+  "progress_manifest_sha256": "7718ea7cb8cb6e05c50908b852a4705cd3c839e9403601ad6661e26ab8790600",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "a6b6481b1336ab9c2e785ff18f2b686e43f090f033b415db3590a33609c9a55f",
+    "completion_payload_sha256": "196c4cbd5e632ed0e148b9e5a18abb82e4edcf77ca9ea77dab97553f4ffad94e",
+    "model": {
+      "class": "MPRNet",
+      "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+      "family": "mprnet",
+      "kwargs": {
+        "bias": false,
+        "in_c": 3,
+        "kernel_size": 3,
+        "n_feat": 96,
+        "num_cab": 8,
+        "out_c": 3,
+        "reduction": 4,
+        "scale_orsnetfeats": 32,
+        "scale_unetfeats": 48
+      },
+      "module": "Deblurring.MPRNet",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "sequence_index_0",
+      "parameters": 20127073,
+      "repository": "https://github.com/swz30/MPRNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+      "trainable_parameters": 20127073
+    },
+    "model_id": "wp1__mprnet__merit_full__seed2"
+  },
+  "roi_per_frame": 10,
+  "schema_version": "MERIT-C009-WIDTH-RUN-COMPLETE-v1",
+  "source_frames": 50,
+  "specification": {
+    "arm": "merit_full",
+    "family": "mprnet",
+    "kind": "wp1",
+    "seed": 2
+  },
+  "status": "PASS"
+}

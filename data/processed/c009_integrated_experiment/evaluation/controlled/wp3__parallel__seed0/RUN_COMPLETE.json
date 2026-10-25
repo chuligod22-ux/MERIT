@@ -1,0 +1,51 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds": 30.039397799875587,
+  "main_records": 500,
+  "model_id": "wp3__parallel__seed0",
+  "ood_records": 0,
+  "payload_sha256": "d1f5270982155328f45b34d31266a37485d66f9ec93dfab75a7ba972513079c8",
+  "peak_cuda_memory_bytes": 2361695232,
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "abb43750b20185428da90f00ede28af72c71354c32bc76e03276ebdedaaa9382",
+    "completion_payload_sha256": "6b7a6efffa9bb19ec36eda0391d243cf1cf2e4705f6783ba3869a141729ea780",
+    "model": {
+      "branch_class": "basicsr.models.archs.NAFNet_arch.NAFNetLocal",
+      "branch_kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 22
+      },
+      "parameters": 16296158,
+      "relative_to_single": -0.04767142551674686,
+      "single_parameters": 17111907,
+      "structure": "parallel",
+      "trainable_parameters": 16296158
+    },
+    "model_id": "wp3__parallel__seed0"
+  },
+  "records": 500,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "a1cac1abc23bfc4f6d5f709122e74a2b55ba259f87eaf957e98aa919689d695d",
+  "schema_version": "MERIT-C009-CONTROLLED-RUN-COMPLETE-v1",
+  "specification": {
+    "kind": "followon",
+    "seed": 0,
+    "structure": "parallel",
+    "wp": "wp3"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": "MERIT-C063-FULL737-BATTERY-v1",
+  "state": "FROZEN_BEFORE_FULL737_BATTERY_OUTPUTS",
+  "created_utc": "2026-10-24T02:57:27+00:00",
+  "cohort": {
+    "frames": 737,
+    "condition_cells": 50,
+    "primary_condition_cells": 45,
+    "selection": "all frames; detector-blind and content-blind",
+    "analysis_region": "fixed 896x1344 crop centred horizontally and vertically within the upper floor(0.40*height) lining band; no detector-dependent placement",
+    "independent_unit": "acquisition condition cell",
+    "frame_role": "repeated paired observation within condition cell"
+  },
+  "controlled_degradation": {
+    "gaussian_sigma_horizontal_px": 2.6,
+    "gaussian_sigma_vertical_px": 2.4,
+    "gaussian_noise_sd_dn": 2.5,
+    "noise_seed": "first 64 bits of source image SHA-256 XOR 20261024",
+    "source_interpretation": "operational source reference, not pristine physical truth"
+  },
+  "methods": [
+    "degraded",
+    "wiener_oracle",
+    "richardson_lucy_oracle",
+    "unsupervised_wiener_oracle",
+    "wiener_wrong_psf",
+    "tv_denoise",
+    "nl_means",
+    "unsharp",
+    "nafnet_fidelity",
+    "merit_core_adapter",
+    "merit_routed_v3i"
+  ],
+  "primary_merit": "merit_core_adapter",
+  "method_parameters": {
+    "oracle_psf": [
+      2.4,
+      2.6
+    ],
+    "wrong_psf_sigma_px": [
+      1.5,
+      1.5
+    ],
+    "wiener_K": 0.01,
+    "richardson_lucy_iterations": 20,
+    "tv_weight": 0.08,
+    "nl_means": {
+      "patch_size": 5,
+      "patch_distance": 6,
+      "h": 0.05,
+      "fast_mode": true
+    },
+    "unsharp": {
+      "sigma_px": 1.5,
+      "amount": 1.5
+    },
+    "classical_tiling": {
+      "tile": 1024,
+      "overlap": 64
+    },
+    "deep_seed": 1,
+    "safe_adapter": {
+      "alpha": -0.75,
+      "sigma_px": 0.75,
+      "cap_dn": 8.0
+    }
+  },
+  "detector": {
+    "architecture": "ResNet34-UNet",
+    "role": "external four-tunnel-trained response probe absent from MERIT training and loss",
+    "threshold": 0.55
+  },
+  "statistics": {
+    "primary_metric": "mean_probability absolute source-response error",
+    "secondary_metrics": [
+      "maximum_probability",
+      "area_fraction_at_0.55"
+    ],
+    "within_cell": "median across all frames",
+    "method_effect": "method absolute error minus degraded absolute error; negative favours method",
+    "recovery_percent": "100*(mean degraded error - mean method error)/mean degraded error",
+    "merit_dominance": "baseline error minus MERIT error; positive favours MERIT",
+    "bootstrap": {
+      "count": 10000,
+      "seed": 20261024,
+      "unit": "condition cell"
+    },
+    "paired_sign_flip": {
+      "count": 100000,
+      "seed": 20261124
+    },
+    "multiplicity": "Holm within the fixed method family for each comparison family",
+    "image_level_analysis": "secondary sensitivity only; frames are not asserted independent"
+  },
+  "claim_boundary": "This is a controlled detector-response restoration comparison against an operational source reference. It is not human-mask detection accuracy or proof that 737 frames are independent.",
+  "bindings": {
+    "script": {
+      "path": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/scripts/c063_full737_battery.py",
+      "sha256": "aedcbb2f04b97221ff11ebb796efbad23777e94adfb06214814501359985c8cc"
+    },
+    "c062_manifest": {
+      "path": "05_MERIT_revision/40_수정본/c062_cam2_full_cohort_audit/protocol/full737_manifest_v2.csv",
+      "sha256": "2d7e011cdeac48e69f8344f22b31a9439603d0bb4b5cb5ec17afbe45be0446a3"
+    },
+    "manifest": {
+      "path": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/protocol/full737_battery_manifest_v1.csv",
+      "sha256": "8734b13112ae0244d5e47c315c4f502ff31a9d5e56001828ec9a273a821fd951"
+    },
+    "model_code": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/c006_model.py",
+      "sha256": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618"
+    },
+    "inference_code": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/c006_operational_inference.py",
+      "sha256": "4e421d2083fe23953945973d71bebaf1f523903ba3f137d29d815f8f404b1335"
+    },
+    "task_off_checkpoint": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_off_seed1/final.pt",
+      "sha256": "f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b"
+    },
+    "task_on_checkpoint": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_on_seed1/final.pt",
+      "sha256": "8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd"
+    },
+    "detector_code": {
+      "path": "05_MERIT_revision/40_수정본/c005_freeze/d2_detector/d2_detector.py",
+      "sha256": "4fc81efb9e08bf09fffb56be1af2c5b9e2288e1e60bab7e8d85c78500a7cc1ec"
+    },
+    "detector_checkpoint": {
+      "path": "05_MERIT_revision/40_수정본/c005_freeze/d2_detector/artifacts/d2_training_run/best_d2_resnet34_unet.pt",
+      "sha256": "aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc"
+    },
+    "detector_protocol": {
+      "path": "05_MERIT_revision/40_수정본/c005_freeze/d2_detector/protocol.json",
+      "sha256": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3"
+    },
+    "adapter_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter_v2.py",
+      "sha256": "872d1d38d45c989b98b16a5f991462e7513269430120cdccc519325dd3418ea0"
+    },
+    "gate_table": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3i_development/all50_margin_gated_v1/gate_table.csv",
+      "sha256": "2c55301299ee3bdc10319d3e70ddad0545543c53636ed625b483db03b2cb702e"
+    },
+    "independent_verifier": {
+      "path": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/scripts/independent_verify_c063.py",
+      "sha256": "ae4c5a27b0cc530e26da7b32a4cdc5bd3935aedd5fe7d235be8b43feb65a7331"
+    }
+  }
+}

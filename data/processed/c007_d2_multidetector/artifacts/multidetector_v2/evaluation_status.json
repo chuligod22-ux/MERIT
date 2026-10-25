@@ -1,0 +1,9 @@
+{
+  "completed_chains": 12,
+  "elapsed_seconds_this_invocation": 1711.6830122000538,
+  "projected_remaining_seconds": 0.0,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "state": "EVALUATION_COMPLETE",
+  "total_chains": 12,
+  "updated_utc": "2026-09-24T09:26:02.263591+00:00"
+}

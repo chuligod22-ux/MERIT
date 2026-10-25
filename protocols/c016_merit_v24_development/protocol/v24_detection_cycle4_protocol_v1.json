@@ -1,0 +1,104 @@
+{
+  "assets": {
+    "cycle3_protocol": {
+      "bytes": 6245,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e4daa2a2ac6fc4910b4b5eb5903c06483e83ab76abec2794c0ee3c1df28cd0fe"
+    },
+    "cycle3_summary": {
+      "bytes": 17657,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7f9efa6cc15fd5f856b033fc16ba4cf809f2e5cc62b34efb12e3fbe528fd5147"
+    },
+    "v23_c014_summary": {
+      "bytes": 3817,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d614550c90a00a4dc6e775a56814317f14c553af8dd50f4d5e6b0bf82b45917"
+    }
+  },
+  "code": {
+    "cycle4": {
+      "bytes": 27289,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f2ba465e9ebdbfe5673d2ca7a77a09ab72256de8dce2b7aaf7588b439eb4a94a"
+    },
+    "frozen_base_pipeline": {
+      "bytes": 57988,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "315e12aac127582626230349a03042ecb1857bdeaff1692815032ceb72e545cf"
+    },
+    "profiles": {
+      "bytes": 4729,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "60ee8c6ec3d41b53263a4c219cb6999710d9f76936c7b2a0f69d8aed10299a51"
+    }
+  },
+  "dark_gate": {
+    "formula": "clip((gaussian_blur_7x7_sigma1(raw)-raw)/0.04, 0, 1)",
+    "reference_or_gt_access": false
+  },
+  "development_reason": "Cycle 3 passed with a small ResNet gain. Test reference-blind probability fusion between raw and the cycle-3 profile so that detector evidence outside raw dark-line support can fall back toward raw.",
+  "final_gate": "All-seed and held-seed selected panels must pass positive-CI, four-tunnel-positive, FPR-nonworsening and every-detector-nonnegative gates. Paired selected-minus-cycle3 panel delta AUPRC must have mean and CI lower >0 in both analyses and improve at least 3/4 tunnels. All-seed selected panel must exceed frozen C014 v2.3.",
+  "fusions": {
+    "dark025": {
+      "family": "dark_bidir",
+      "weight": 0.25
+    },
+    "dark050": {
+      "family": "dark_bidir",
+      "weight": 0.5
+    },
+    "dark075": {
+      "family": "dark_bidir",
+      "weight": 0.75
+    },
+    "dark100": {
+      "family": "dark_bidir",
+      "weight": 1.0
+    },
+    "darkpos050": {
+      "family": "dark_positive",
+      "weight": 0.5
+    },
+    "darkpos100": {
+      "family": "dark_positive",
+      "weight": 1.0
+    },
+    "full": {
+      "family": "linear",
+      "weight": 1.0
+    },
+    "identity": {
+      "family": "identity",
+      "weight": 0.0
+    },
+    "linear025": {
+      "family": "linear",
+      "weight": 0.25
+    },
+    "linear050": {
+      "family": "linear",
+      "weight": 0.5
+    },
+    "linear075": {
+      "family": "linear",
+      "weight": 0.75
+    }
+  },
+  "parent_protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "payload_sha256": "72fe35ada0f9a232639b2e57891f0b5a4ebcecc748772173df94d572924336b4",
+  "profiles": {
+    "d2_deeplabv3_resnet50": "sharp0100",
+    "d2_resnet34_unet": "sharp0025",
+    "d2_vgg16_unet": "inv0250"
+  },
+  "schema_version": "MERIT-C016-V24-DETECTION-CYCLE4-PROTOCOL-v1",
+  "scientific_role": "All four tunnels remain iterative development data. Seed 0 selects one global detector-route tuple; seeds 1 and 2 are held stochastic replications.",
+  "selection": {
+    "constraints": "panel matched-sensitivity delta FPR <=0; every tunnel panel delta AUPRC >0; every detector mean delta AUPRC >=0; each active detector route positive on at least 2/4 tunnels; panel delta AUPRC greater than cycle-3 full-profile route",
+    "data": "seed 0, all four development tunnels",
+    "objective": "maximum equal-detector equal-tunnel panel delta AUPRC",
+    "tie_break": "smaller total fusion magnitude"
+  },
+  "status": "FROZEN_BEFORE_CYCLE4_PROBABILITY_OUTPUTS"
+}

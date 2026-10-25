@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the paper below."
-title: "Supplementary material for: MERIT — Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection without Hallucination"
+message: "If you use this code or public data, please cite the article below."
+title: "MERIT revision reproducibility package"
 type: software
 authors:
   - family-names: Lee
@@ -15,8 +15,8 @@ authors:
   - family-names: An
     given-names: Junbeom
     affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
-version: "1.0.0"
-date-released: "2026-06-15"
+version: "2.0.0-revision"
+date-released: "2026-10-26"
 license: MIT
 repository-code: "https://github.com/chuligod22-ux/MERIT"
 url: "https://github.com/chuligod22-ux/MERIT"
@@ -25,13 +25,11 @@ keywords:
   - image restoration
   - measurement fidelity
   - crack detection
-  - hallucination
-  - modulation transfer function
-  - NAFNet
-  - deep learning
+  - optical preservation
+  - MTF50
 preferred-citation:
   type: article
-  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection without Hallucination"
+  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection"
   authors:
     - family-names: Lee
       given-names: Chulhee
@@ -43,4 +41,3 @@ preferred-citation:
       given-names: Junbeom
   journal: "Computer-Aided Civil and Infrastructure Engineering"
   year: 2026
-  doi: "[DOI on acceptance]"

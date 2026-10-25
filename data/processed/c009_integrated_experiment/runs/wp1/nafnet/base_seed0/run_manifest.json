@@ -1,0 +1,134 @@
+{
+  "arm": "base",
+  "authorization": {
+    "g13_status": "CLOSED_GO_FULL_SCOPE_AT_AUTHOR_RISK",
+    "journal_extension_decision": "PENDING"
+  },
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "completed_at_kst": "2026-09-25T09:09:32+09:00",
+  "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "elapsed_seconds": 2314.906857499853,
+  "environment": {
+    "allow_tf32_cudnn": false,
+    "allow_tf32_matmul": false,
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "deterministic_algorithms": true,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "numpy": "2.3.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128"
+  },
+  "execution_freeze_sha256": "728271b1ee17b261c0a3142b96383fae00968a54f19aa9ad6db61ed072a804e3",
+  "factory": {
+    "class": "NAFNetLocal",
+    "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+    "family": "nafnet",
+    "kwargs": {
+      "dec_blk_nums": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enc_blk_nums": [
+        1,
+        1,
+        1,
+        28
+      ],
+      "img_channel": 3,
+      "middle_blk_num": 1,
+      "width": 32
+    },
+    "module": "basicsr.models.archs.NAFNet_arch",
+    "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+    "output_selector": "tensor",
+    "parameters": 17111907,
+    "repository": "https://github.com/megvii-research/NAFNet",
+    "runtime_adaptations": [],
+    "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+    "trainable_parameters": 17111907
+  },
+  "family": "nafnet",
+  "fidelity_output_domain": "unclipped selected output (preclip)",
+  "final_checkpoint_sha256": "8b6b528ade6e02e28adee4f826354e89df7fe88adcfa566d0c5be5384d64dd13",
+  "final_state_sha256": "25a018be536fa97328d1dd2c18387a58842c8feead7dea1e7950fe2e8e91786e",
+  "freeze_schema": "MERIT-C009-WP1-EXECUTION-FREEZE-v1",
+  "g11_sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+  "g13_sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803",
+  "global_step": 8000,
+  "initial_state_sha256": "aabcd2bc127bf5424319cb5f503c831b65a3866b48d3d8401c5f91ab86d2502a",
+  "manifest_sha256": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+  "parameters": 17111907,
+  "patch_size": 448,
+  "peak_cuda_memory_bytes_this_invocation": 8593769984,
+  "precision": "bfloat16 mixed precision",
+  "preflight_sha256": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+  "recovery_checkpoint_sha256": "55f5da7813282aa01c0b95634e9cfcf09787b88927ac6209988e6c8baa474463",
+  "resume_count": 0,
+  "run_kind": "wp1",
+  "runner_sha256": "eccdc6d3d185098fffe8e91952e4e589033214ce27d575a734d390fce7b1a793",
+  "schema_version": "MERIT-C009-WP1-RUN-v1",
+  "seed": 0,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-25T08:30:56+09:00",
+  "status": "complete",
+  "stream_block_hashes": [
+    {
+      "end_step": 1000,
+      "sha256": "0a6bdecad03b93063f3585997253e00bd0b39e8511d62d7e24ad280c036c768f",
+      "start_step": 1
+    },
+    {
+      "end_step": 2000,
+      "sha256": "25eadd0dc0d575021aabe18df0842f5ea6622f54d526de93c9febe863337048e",
+      "start_step": 1001
+    },
+    {
+      "end_step": 3000,
+      "sha256": "5b02cbbee4842132f51fd529a3aabda2c7ec4f8aad0cf06357606b79f2d413da",
+      "start_step": 2001
+    },
+    {
+      "end_step": 4000,
+      "sha256": "3ff26eccd300d1352053f3cc43832230ce16c5f283e83d7892c24cabac79b6a9",
+      "start_step": 3001
+    },
+    {
+      "end_step": 5000,
+      "sha256": "d7015977f0ea1b6a3d4ac6b1e7f150d9aaf43cc99b5e4ae84ac51be9ba06b292",
+      "start_step": 4001
+    },
+    {
+      "end_step": 6000,
+      "sha256": "0a810e8cf0ffc6d16e2bae955e8824700399a9d287a5863b2407aa1168c7f827",
+      "start_step": 5001
+    },
+    {
+      "end_step": 7000,
+      "sha256": "84a94cd6c60a4c8b582c500acf6d21176719daaaaffa4e5342a2c270fb13a881",
+      "start_step": 6001
+    },
+    {
+      "end_step": 8000,
+      "sha256": "81018d9f8240794b14149b93663b799e36e833ccdb774bd16cfa9ea401083b38",
+      "start_step": 7001
+    }
+  ],
+  "stream_sha256": "9c238c18b484310b1a32e0397cf5669a623b596168b48b4e6ef6179f93bda5f2",
+  "task_output_domain": "selected output clamped to [0,1] before frozen DeepCrack inference",
+  "total_steps": 8000,
+  "train_rows": 161,
+  "trainable_parameters": 17111907
+}

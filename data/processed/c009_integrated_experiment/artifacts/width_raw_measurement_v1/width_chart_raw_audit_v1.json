@@ -1,0 +1,154 @@
+{
+  "schema_version": "width-raw-audit-v1",
+  "created_at": "2026-09-25T00:28:24+09:00",
+  "scope": "Descriptive audit of frozen RAW apparent-width measurements",
+  "invariants": {
+    "rows": 500,
+    "source_frames": 50,
+    "nominal_widths": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "status_counts": {
+      "ESTIMABLE": 348,
+      "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 100,
+      "QC_NON_ESTIMABLE": 43,
+      "UNCERTAINTY_NON_ESTIMABLE": 9
+    }
+  },
+  "eligible_endpoint": {
+    "definition": "nominal widths 0.3 to 1.0 mm",
+    "rows": 400,
+    "estimable": 348,
+    "estimable_fraction": 0.87,
+    "frames_with_any_estimable": 45,
+    "frames_with_all_eight_estimable": 35,
+    "frames_with_no_estimable": 5
+  },
+  "ordering_diagnostic": {
+    "pooled_spearman_rho": 0.48041085139828305,
+    "pooled_spearman_p": 1.705038331798556e-21,
+    "frames_with_at_least_six_estimable": 45,
+    "within_frame_rho_median": 0.8333333333333335,
+    "within_frame_rho_q1": 0.5714285714285715,
+    "within_frame_rho_q3": 0.9285714285714287,
+    "within_frame_positive_rho_count": 43,
+    "within_frame_slope_median": 0.2596934936282102,
+    "within_frame_slope_q1": 0.19094699138542898,
+    "within_frame_slope_q3": 0.2893234684680769,
+    "within_frame_positive_slope_count": 44,
+    "interpretation": "Nominal ordering is usually retained within a condition, but FWHM is compressed and offset by the acquisition PSF; this is a relative preservation endpoint, not direct physical-width metrology."
+  },
+  "failed_frames": [
+    {
+      "source_id": "W007",
+      "filename": "cam1_v60_iso1600_d35.png",
+      "speed_kmh": 60,
+      "iso": 1600,
+      "distance_m": 3.5
+    },
+    {
+      "source_id": "W016",
+      "filename": "cam1_v60_iso400_d25.png",
+      "speed_kmh": 60,
+      "iso": 400,
+      "distance_m": 2.5
+    },
+    {
+      "source_id": "W017",
+      "filename": "cam1_v60_iso400_d35.png",
+      "speed_kmh": 60,
+      "iso": 400,
+      "distance_m": 3.5
+    },
+    {
+      "source_id": "W041",
+      "filename": "cam1_v80_iso400_d25.png",
+      "speed_kmh": 80,
+      "iso": 400,
+      "distance_m": 2.5
+    },
+    {
+      "source_id": "W042",
+      "filename": "cam1_v80_iso400_d35.png",
+      "speed_kmh": 80,
+      "iso": 400,
+      "distance_m": 3.5
+    }
+  ],
+  "partial_frames": [
+    {
+      "source_id": "W006",
+      "filename": "cam1_v60_iso1600_d25_x.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W010",
+      "filename": "cam1_v60_iso1600_d65.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W015",
+      "filename": "cam1_v60_iso200_d65_x.png",
+      "estimable_count": 6
+    },
+    {
+      "source_id": "W018",
+      "filename": "cam1_v60_iso400_d45.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W025",
+      "filename": "cam1_v60_iso800_d65.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W031",
+      "filename": "cam1_v80_iso1600_d25_x.png",
+      "estimable_count": 6
+    },
+    {
+      "source_id": "W035",
+      "filename": "cam1_v80_iso1600_d65.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W040",
+      "filename": "cam1_v80_iso200_d65_x.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W043",
+      "filename": "cam1_v80_iso400_d45.png",
+      "estimable_count": 7
+    },
+    {
+      "source_id": "W050",
+      "filename": "cam1_v80_iso800_d65.png",
+      "estimable_count": 7
+    }
+  ],
+  "claim_boundary": "RAW feasibility only; no restoration-effect conclusion",
+  "inputs": {
+    "measurements_csv": "<LOCAL_PATH_REDACTED>",
+    "sha256": "8d6ff48653fca54076492fd19e48c0c0a382c0fbd6c6b663cbeda60bcce8a20b"
+  },
+  "outputs": {
+    "condition_summary_csv": "<LOCAL_PATH_REDACTED>",
+    "condition_summary_sha256": "4c9e7843fc772c4f36aac9b9bfe0ed5e2007a9f5e150b78d2f9a46b3c2836285",
+    "per_width_summary_csv": "<LOCAL_PATH_REDACTED>",
+    "per_width_summary_sha256": "d07629ee41f5626021c448cde25e40422bba3ba74d6fdbef43b0aefe60b7bd99"
+  },
+  "script": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "d6dd4a2267db13e45e8a817f7334255bf72f67be1348b2db51f6ee2837d916c3"
+  }
+}

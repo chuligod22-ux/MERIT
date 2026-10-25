@@ -1,0 +1,12 @@
+{
+  "completed_frames": 479,
+  "freeze_sha256": "f2e9ecd89295b7f4725244041cf917b7625fb746333c8afb06d1c478679cf755",
+  "last_frame_id": "80km_6.5m_ISO800/frame_000113.png",
+  "projected_remaining_seconds": 0.0,
+  "remaining_frames": 0,
+  "schema_version": "MERIT-D0-CAM1-50COND-v1",
+  "session_average_seconds": 1.2887051640917393,
+  "state": "INFERENCE_COMPLETE",
+  "total_frames": 479,
+  "updated_utc": "2026-09-22T14:31:05+00:00"
+}

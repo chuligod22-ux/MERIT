@@ -1,0 +1,13 @@
+{
+  "arm": "base",
+  "family": "mprnet",
+  "final_checkpoint_sha256": "86e71c4d80b4f1413a39ddc3328a7d520f8fc840a16296a2405d5e3a83363b18",
+  "final_state_sha256": "7c2719fb9f3a74c599669c6700a844cfa0c2fdead3b1168330225a53d6843464",
+  "global_step": 8000,
+  "payload_sha256": "4fdcacd7dc2170458f5923910e13d233abd887a1bb694bd4bc848c186dbcea26",
+  "run_manifest_sha256": "b9501e76170af7a1c0f0361c3f567cd97e4137a4ffe8fea5707ea89d084c699e",
+  "schema_version": "MERIT-C009-WP1-RUN-COMPLETE-v1",
+  "seed": 2,
+  "status": "PASS",
+  "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821"
+}

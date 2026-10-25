@@ -1,0 +1,128 @@
+{
+  "arm": "merit_full",
+  "authorization": {
+    "g13_status": "CLOSED_GO_FULL_SCOPE_AT_AUTHOR_RISK",
+    "journal_extension_decision": "PENDING"
+  },
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "completed_at_kst": "2026-09-27T08:14:39+09:00",
+  "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "elapsed_seconds": 14543.28623760026,
+  "environment": {
+    "allow_tf32_cudnn": false,
+    "allow_tf32_matmul": false,
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "deterministic_algorithms": true,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "numpy": "2.3.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128"
+  },
+  "execution_freeze_sha256": "728271b1ee17b261c0a3142b96383fae00968a54f19aa9ad6db61ed072a804e3",
+  "factory": {
+    "class": "MPRNet",
+    "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+    "family": "mprnet",
+    "kwargs": {
+      "bias": false,
+      "in_c": 3,
+      "kernel_size": 3,
+      "n_feat": 96,
+      "num_cab": 8,
+      "out_c": 3,
+      "reduction": 4,
+      "scale_orsnetfeats": 32,
+      "scale_unetfeats": 48
+    },
+    "module": "Deblurring.MPRNet",
+    "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+    "output_selector": "sequence_index_0",
+    "parameters": 20127073,
+    "repository": "https://github.com/swz30/MPRNet",
+    "runtime_adaptations": [],
+    "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+    "trainable_parameters": 20127073
+  },
+  "family": "mprnet",
+  "fidelity_output_domain": "unclipped selected output (preclip)",
+  "final_checkpoint_sha256": "a6b6481b1336ab9c2e785ff18f2b686e43f090f033b415db3590a33609c9a55f",
+  "final_state_sha256": "3f5ec870c24164bd4165787e447f24a9c0c0e5cd6290022b6d8beb1ad7d21200",
+  "freeze_schema": "MERIT-C009-WP1-EXECUTION-FREEZE-v1",
+  "g11_sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+  "g13_sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803",
+  "global_step": 8000,
+  "initial_state_sha256": "aa6fba439f8929718ba842eee997080e0ca9a194a7f86414740e85656231b1bd",
+  "manifest_sha256": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+  "parameters": 20127073,
+  "patch_size": 448,
+  "peak_cuda_memory_bytes_this_invocation": 49508852224,
+  "precision": "bfloat16 mixed precision",
+  "preflight_sha256": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+  "recovery_checkpoint_sha256": "b37ab8b334a91405206054a339d4a2211f9e3453ae42e73516ca23d30b49d659",
+  "resume_count": 0,
+  "run_kind": "wp1",
+  "runner_sha256": "eccdc6d3d185098fffe8e91952e4e589033214ce27d575a734d390fce7b1a793",
+  "schema_version": "MERIT-C009-WP1-RUN-v1",
+  "seed": 2,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-27T04:12:15+09:00",
+  "status": "complete",
+  "stream_block_hashes": [
+    {
+      "end_step": 1000,
+      "sha256": "700779dd273a48a4a5caa478a20bd144d5ddd2ef2a106907c6b51e59ca49c5d4",
+      "start_step": 1
+    },
+    {
+      "end_step": 2000,
+      "sha256": "af46774b2ad5251a8128dd3eab1a0cf41511fa8a54a95e97f55f90222245986c",
+      "start_step": 1001
+    },
+    {
+      "end_step": 3000,
+      "sha256": "ce7e7390f35662602a2826a137e0317c113e66793123028ba96bff83694b8a4a",
+      "start_step": 2001
+    },
+    {
+      "end_step": 4000,
+      "sha256": "791fb287f2629f6fd1a4243ad43b976ed427f1c18390640f055a25731581afae",
+      "start_step": 3001
+    },
+    {
+      "end_step": 5000,
+      "sha256": "8554450fd4005c699c0d77f6e336062464f0e39022cf0cecea3c1ca62bff68ef",
+      "start_step": 4001
+    },
+    {
+      "end_step": 6000,
+      "sha256": "06bccefec85d98cbe3c9aa08221ccb669bae94da166364514a5a2b74c78d4651",
+      "start_step": 5001
+    },
+    {
+      "end_step": 7000,
+      "sha256": "c0e51f82647a62f5e542cdbec262e2bca9b3ce4cdca7029e991395529e7d2aaf",
+      "start_step": 6001
+    },
+    {
+      "end_step": 8000,
+      "sha256": "6c0e57c385f97abf2bb6bbaa5f2383088ec2d9ea1cb016a78580042c22c912fd",
+      "start_step": 7001
+    }
+  ],
+  "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821",
+  "task_output_domain": "selected output clamped to [0,1] before frozen DeepCrack inference",
+  "total_steps": 8000,
+  "train_rows": 161,
+  "trainable_parameters": 20127073
+}

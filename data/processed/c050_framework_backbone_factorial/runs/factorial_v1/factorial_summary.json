@@ -1,0 +1,246 @@
+{
+  "analysis_exposure": "Retrospective matched factorial. Restormer C040 results existed before this analysis freeze; NAFNet and MPRNet C040 outputs did not. This is not a new prospective independent confirmation.",
+  "authorized_claim": "The tested matched factorial does not support a framework effect larger than the backbone effect.",
+  "backbone_marginal_gain_db": {
+    "mprnet": 0.6524071442399031,
+    "nafnet": 0.7305521577102891,
+    "restormer": 0.9462337098739217
+  },
+  "backbones": [
+    "nafnet",
+    "mprnet",
+    "restormer"
+  ],
+  "by_backbone_condition": {
+    "mprnet": {
+      "id_high": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": -0.004411607622081307,
+          "ci95_upper": -0.003349883464657421,
+          "estimate": -0.003880278979694849,
+          "mean": -0.0038782447828614656
+        },
+        "seed_means": {
+          "0": -0.002923431688985908,
+          "1": -0.005194328794976097,
+          "2": -0.0032636408822047415
+        },
+        "status": "FAIL"
+      },
+      "id_low": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.0626271633830676,
+          "ci95_upper": 0.06452744429086608,
+          "estimate": 0.06354224773855735,
+          "mean": 0.0635454345710469
+        },
+        "seed_means": {
+          "0": 0.06982816741172428,
+          "1": 0.05110687536596855,
+          "2": 0.06815504290761779
+        },
+        "status": "PASS"
+      },
+      "id_mid": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.015647170709728153,
+          "ci95_upper": 0.01772765337461996,
+          "estimate": 0.01662158002317262,
+          "mean": 0.016630371643768394
+        },
+        "seed_means": {
+          "0": 0.01876874681161289,
+          "1": 0.008278896110680797,
+          "2": 0.019773875176885173
+        },
+        "status": "PASS"
+      }
+    },
+    "nafnet": {
+      "id_high": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.03323537303573373,
+          "ci95_upper": 0.038206819845896425,
+          "estimate": 0.035684554950026266,
+          "mean": 0.03568023617298658
+        },
+        "seed_means": {
+          "0": 0.0344011641608128,
+          "1": 0.03495200100722184,
+          "2": 0.036283969629448506
+        },
+        "status": "PASS"
+      },
+      "id_low": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.8118328543942778,
+          "ci95_upper": 0.8196277881683017,
+          "estimate": 0.8157744952138871,
+          "mean": 0.8157859744199272
+        },
+        "seed_means": {
+          "0": 0.8399417677330525,
+          "1": 0.7891319529750765,
+          "2": 0.8094182414536418
+        },
+        "status": "PASS"
+      },
+      "id_mid": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": -0.00226830547181023,
+          "ci95_upper": -0.001914523231692148,
+          "estimate": -0.002093550918378087,
+          "mean": -0.002094390105476017
+        },
+        "seed_means": {
+          "0": -0.0034023131945446197,
+          "1": -0.0007399466441320928,
+          "2": -0.002169545421135663
+        },
+        "status": "FAIL"
+      }
+    },
+    "restormer": {
+      "id_high": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.014104816636319902,
+          "ci95_upper": 0.01587650986148702,
+          "estimate": 0.014968411932571457,
+          "mean": 0.014971664626778802
+        },
+        "seed_means": {
+          "0": 0.013607562982001456,
+          "1": 0.012423325319609104,
+          "2": 0.01755346066420736
+        },
+        "status": "PASS"
+      },
+      "id_low": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.5273467484212199,
+          "ci95_upper": 0.5382180803495095,
+          "estimate": 0.5326866664601942,
+          "mean": 0.5327107545478211
+        },
+        "seed_means": {
+          "0": 0.5031971978335753,
+          "1": 0.5293584031162992,
+          "2": 0.5620500917131134
+        },
+        "status": "PASS"
+      },
+      "id_mid": {
+        "framework_delta_psnr_db": {
+          "ci95_lower": 0.03666811163632834,
+          "ci95_upper": 0.0438586803759591,
+          "estimate": 0.04011929500450988,
+          "mean": 0.04014854917938485
+        },
+        "seed_means": {
+          "0": 0.04416116156102096,
+          "1": 0.048404608619486866,
+          "2": 0.03721891173846837
+        },
+        "status": "PASS"
+      }
+    }
+  },
+  "cell_failures": [
+    "nafnet:id_mid",
+    "mprnet:id_high"
+  ],
+  "cell_record_sha256": {
+    "mprnet_seed0": "9fa2e25d91a644808477e436a2abfba2105c9630e3293802af41c4241135902b",
+    "mprnet_seed1": "166803dc522ea8718105dff7f82dec453277036ee5d338bfbde32f6a77e8d972",
+    "mprnet_seed2": "96e05fcd4b9add0e050c19a3dcc2cb83217fb1f2c8e7d94841c9e4ff0ccbb821",
+    "nafnet_seed0": "ae14a09889a3ab2528ddea06db1a1df2a11f2b026f6da0f77dc3c0eb1c15eb51",
+    "nafnet_seed1": "d113d91cb093f57b8206e61f5cd28ba1e52e1c73c1e00aaccfd8e1bea6b8863f",
+    "nafnet_seed2": "c7855eb7fc67f367ac16499b4dde5a805a0d87b26cb67a5adccb631f40ce65f2",
+    "restormer_seed0": "7d763080a217eaabfa84c8e6badfce18c5ec57e429514348867ce4c097773696",
+    "restormer_seed1": "310c858c7e1b1b07708d5c40a2ee9be5cbfcd222d7faa87b563945533b7c30b9",
+    "restormer_seed2": "207b005be94a5c8dc9e8d8f6f144d72c5eed2d05543ff2704a4efe2518b526d2"
+  },
+  "claim_boundary": "Inference is limited to NAFNet, MPRNet, and Restormer under the matched C040 synthetic low/mid/high degradation protocol. It does not establish backbone interchangeability, all-architecture dominance, real-field detection efficacy, or natural physical-width accuracy.",
+  "claim_status": "NOT_SUPPORTED",
+  "conditions": [
+    "id_low",
+    "id_mid",
+    "id_high"
+  ],
+  "elapsed_seconds_total": 1359.2873295999598,
+  "endpoint": "PSNR gain over the identical degraded source, dB",
+  "factorial": {
+    "framework_factor_share": {
+      "ci95_lower": 0.2544610818869924,
+      "ci95_upper": 0.3063473430302116,
+      "estimate": 0.27862018352935447,
+      "mean": 0.27897003671115234
+    },
+    "framework_main_effect_db": {
+      "ci95_lower": 0.16697275477115234,
+      "ci95_upper": 0.16941529815354792,
+      "estimate": 0.16815815793609376,
+      "mean": 0.16816670558593064
+    },
+    "framework_minus_backbone_db": {
+      "ci95_lower": -0.14732645058833407,
+      "ci95_upper": -0.10299751583397977,
+      "estimate": -0.1256684076979249,
+      "mean": -0.12565317833647255
+    },
+    "framework_to_backbone_ratio": {
+      "ci95_lower": 0.531605030023048,
+      "ci95_upper": 0.6211752768770641,
+      "estimate": 0.5723041331311969,
+      "mean": 0.5731809446223312
+    },
+    "framework_to_backbone_ss_ratio": {
+      "ci95_lower": 0.39609396033740657,
+      "ci95_upper": 0.5376761865542315,
+      "estimate": 0.4578582194837647,
+      "mean": 0.4598628068602
+    },
+    "max_backbone_marginal_contrast_db": {
+      "ci95_lower": 0.27172293542416354,
+      "ci95_upper": 0.3147184312950304,
+      "estimate": 0.29382656563401865,
+      "mean": 0.2938198839224032
+    },
+    "ss_backbone": {
+      "ci95_lower": 0.07964403653068843,
+      "ci95_upper": 0.10602235116068305,
+      "estimate": 0.09263948383085524,
+      "mean": 0.09276383824494108
+    },
+    "ss_framework": {
+      "ci95_lower": 0.04181985125397647,
+      "ci95_upper": 0.043052314872756625,
+      "estimate": 0.04241574912069039,
+      "mean": 0.042420634870708844
+    },
+    "ss_interaction": {
+      "ci95_lower": 0.017044765897832704,
+      "ci95_upper": 0.017328597947401058,
+      "estimate": 0.017179786720751756,
+      "mean": 0.017180660517051326
+    }
+  },
+  "gates": {
+    "all_backbone_condition_ci_lower_gt_zero": false,
+    "all_backbone_condition_seed_means_gt_zero": false,
+    "framework_main_effect_ci_lower_gt_zero": true,
+    "framework_minus_max_backbone_ci_lower_gt_zero": false,
+    "framework_to_backbone_ss_ratio_ci_lower_gt_one": false
+  },
+  "pairwise_backbone_marginal_contrasts_db": {
+    "mprnet_minus_restormer": -0.29382656563401865,
+    "nafnet_minus_mprnet": 0.07814501347038605,
+    "nafnet_minus_restormer": -0.2156815521636326
+  },
+  "parents": 302,
+  "peak_cuda_memory_bytes": 7935938560,
+  "protocol_payload_sha256": "a0c36357a6636e13a197655fbab8f1a4f051bc0bb2311efc59958920f5e7a88b",
+  "records": 12150,
+  "schema_version": "MERIT-C050-FACTORIAL-SUMMARY-v1",
+  "status": "FAIL"
+}

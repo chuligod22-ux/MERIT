@@ -1,0 +1,7 @@
+{
+  "payload_sha256": "a2f9938ad2cb392b207964d1115ce020b2c1465c3568970ee8528c151d0caff2",
+  "protocol_payload_sha256": "90ede96eeb41bb65dadbcf1c0658074c38e4774e6ce28e7dfc41a6a986111239",
+  "schema_version": "MERIT-C016-DETECTION-CYCLE2-COMPLETE-v1",
+  "status": "PASS_COMPLETE",
+  "units": 12
+}

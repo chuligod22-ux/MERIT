@@ -1,0 +1,1982 @@
+{
+  "closure_requirement": "Review every rendered frame, record ACCEPT/REJECT per ROI, correct rejected polygons without using restoration outputs, then freeze a separate final ledger.",
+  "created_utc": "2026-09-24T14:41:01.089583+00:00",
+  "generator": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "afbd4cd4a046c219a2eaf213591ac43d30bbd36b666f5863a0a54eb8838fd934"
+  },
+  "quantitative_measurement_allowed": false,
+  "reference": {
+    "cell_polygons_px": [
+      {
+        "col_index": 0,
+        "nominal_width_mm": 0.1,
+        "polygon": [
+          [
+            2367.0,
+            211.0
+          ],
+          [
+            2976.0,
+            211.0
+          ],
+          [
+            2976.0,
+            827.0
+          ],
+          [
+            2367.0,
+            827.0
+          ]
+        ],
+        "row_index": 0
+      },
+      {
+        "col_index": 1,
+        "nominal_width_mm": 0.2,
+        "polygon": [
+          [
+            3269.0,
+            213.0
+          ],
+          [
+            3879.0,
+            213.0
+          ],
+          [
+            3879.0,
+            827.0
+          ],
+          [
+            3269.0,
+            827.0
+          ]
+        ],
+        "row_index": 0
+      },
+      {
+        "col_index": 2,
+        "nominal_width_mm": 0.3,
+        "polygon": [
+          [
+            4147.0,
+            185.0
+          ],
+          [
+            4766.0,
+            185.0
+          ],
+          [
+            4766.0,
+            806.0
+          ],
+          [
+            4147.0,
+            806.0
+          ]
+        ],
+        "row_index": 0
+      },
+      {
+        "col_index": 3,
+        "nominal_width_mm": 0.4,
+        "polygon": [
+          [
+            5125.0,
+            244.0
+          ],
+          [
+            5738.0,
+            244.0
+          ],
+          [
+            5738.0,
+            828.0
+          ],
+          [
+            5125.0,
+            828.0
+          ]
+        ],
+        "row_index": 0
+      },
+      {
+        "col_index": 0,
+        "nominal_width_mm": 0.5,
+        "polygon": [
+          [
+            2368.0,
+            1214.0
+          ],
+          [
+            2971.0,
+            1214.0
+          ],
+          [
+            2971.0,
+            1821.0
+          ],
+          [
+            2368.0,
+            1821.0
+          ]
+        ],
+        "row_index": 1
+      },
+      {
+        "col_index": 1,
+        "nominal_width_mm": 0.6,
+        "polygon": [
+          [
+            3274.0,
+            1187.0
+          ],
+          [
+            3882.0,
+            1187.0
+          ],
+          [
+            3882.0,
+            1793.0
+          ],
+          [
+            3274.0,
+            1793.0
+          ]
+        ],
+        "row_index": 1
+      },
+      {
+        "col_index": 2,
+        "nominal_width_mm": 0.7,
+        "polygon": [
+          [
+            4125.0,
+            1161.0
+          ],
+          [
+            4735.0,
+            1161.0
+          ],
+          [
+            4735.0,
+            1772.0
+          ],
+          [
+            4125.0,
+            1772.0
+          ]
+        ],
+        "row_index": 1
+      },
+      {
+        "col_index": 3,
+        "nominal_width_mm": 0.8,
+        "polygon": [
+          [
+            5103.0,
+            1202.0
+          ],
+          [
+            5712.0,
+            1202.0
+          ],
+          [
+            5712.0,
+            1815.0
+          ],
+          [
+            5103.0,
+            1815.0
+          ]
+        ],
+        "row_index": 1
+      },
+      {
+        "col_index": 0,
+        "nominal_width_mm": 0.9,
+        "polygon": [
+          [
+            3294.0,
+            2194.0
+          ],
+          [
+            3898.0,
+            2194.0
+          ],
+          [
+            3898.0,
+            2799.0
+          ],
+          [
+            3294.0,
+            2799.0
+          ]
+        ],
+        "row_index": 2
+      },
+      {
+        "col_index": 1,
+        "nominal_width_mm": 1.0,
+        "polygon": [
+          [
+            4080.0,
+            2160.0
+          ],
+          [
+            4713.0,
+            2160.0
+          ],
+          [
+            4713.0,
+            2794.0
+          ],
+          [
+            4080.0,
+            2794.0
+          ]
+        ],
+        "row_index": 2
+      }
+    ],
+    "filename": "cam1_v60_iso100_d25.png",
+    "layout": [
+      [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      [
+        0.9,
+        1.0
+      ]
+    ],
+    "sha256": "236f5464557d2e89e586f34836e418f771cf89170f27d8c364924c51cc430717"
+  },
+  "registration": {
+    "auto_qc_pass": 33,
+    "frame_count": 50,
+    "frames": [
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v60_iso100_d25.png",
+        "homography": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 1.0,
+        "local_translation_refinement_px": [
+          -0.94384765625,
+          -0.5096435546875
+        ],
+        "method": "REFERENCE_IDENTITY",
+        "ransac_inliers": 3561,
+        "ratio_test_matches": 3561,
+        "registration_error": "",
+        "source_id": "W001"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v60_iso100_d35.png",
+        "homography": [
+          [
+            0.9906257053345446,
+            0.015352787512470554,
+            441.0090885890384
+          ],
+          [
+            0.0066596081458161205,
+            0.9862137340215915,
+            -75.17164617698738
+          ],
+          [
+            2.218880057249168e-06,
+            2.996954682768519e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6234676007005254,
+        "local_translation_refinement_px": [
+          11.3953857421875,
+          18.5743408203125
+        ],
+        "method": "DISTANCE_ANCHOR",
+        "ransac_inliers": 356,
+        "ratio_test_matches": 571,
+        "registration_error": "",
+        "source_id": "W002"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v60_iso100_d45.png",
+        "homography": [
+          [
+            1.0433008932804233,
+            0.01639385303851433,
+            -129.63436886886444
+          ],
+          [
+            0.00559972673359236,
+            1.0421099351625835,
+            -380.6608356311512
+          ],
+          [
+            1.8549365302817945e-06,
+            3.413713148645981e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.5534188034188035,
+        "local_translation_refinement_px": [
+          7.2747802734375,
+          23.26763916015625
+        ],
+        "method": "DISTANCE_ANCHOR",
+        "ransac_inliers": 259,
+        "ratio_test_matches": 468,
+        "registration_error": "",
+        "source_id": "W003"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v60_iso100_d55.png",
+        "homography": [
+          [
+            1.0239434047511737,
+            0.0024911070846464368,
+            -325.9374399888584
+          ],
+          [
+            0.0027957639166362254,
+            1.025657542553836,
+            -187.81875945003702
+          ],
+          [
+            6.676199655355794e-07,
+            1.625729258054244e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.47875354107648727,
+        "local_translation_refinement_px": [
+          -7.338623046875,
+          20.6214599609375
+        ],
+        "method": "DISTANCE_ANCHOR",
+        "ransac_inliers": 169,
+        "ratio_test_matches": 353,
+        "registration_error": "",
+        "source_id": "W004"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v60_iso100_d65_x.png",
+        "homography": [
+          [
+            0.9795441184578341,
+            -0.012667185184312769,
+            125.30652481525996
+          ],
+          [
+            -0.01581317169021232,
+            0.9862017798628901,
+            531.5440826077447
+          ],
+          [
+            -4.235887707195074e-06,
+            -2.5937179373109305e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.3562753036437247,
+        "local_translation_refinement_px": [
+          -2.687255859375,
+          0.34295654296875
+        ],
+        "method": "DISTANCE_ANCHOR",
+        "ransac_inliers": 88,
+        "ratio_test_matches": 247,
+        "registration_error": "",
+        "source_id": "W005"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.4:PASS/NO_LOCAL_RECTANGLE;0.5:PASS/NO_LOCAL_RECTANGLE;0.6:PASS/NO_LOCAL_RECTANGLE;0.7:PASS/NO_LOCAL_RECTANGLE;0.8:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v60_iso1600_d25_x.png",
+        "homography": [
+          [
+            1.0401910708405788,
+            -0.00044483732498034495,
+            -47.7482411290199
+          ],
+          [
+            0.003143744882177173,
+            1.0367174318139503,
+            -102.90742521902571
+          ],
+          [
+            8.736106360080486e-07,
+            -6.874340644293694e-08,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7952218430034129,
+        "local_translation_refinement_px": [
+          0.0,
+          0.0
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 466,
+        "ratio_test_matches": 586,
+        "registration_error": "",
+        "source_id": "W006"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.4:PASS/WEAK_LOCAL_RECTANGLE:3.693;0.5:PASS/NO_LOCAL_RECTANGLE;0.6:PASS/WEAK_LOCAL_RECTANGLE:3.604;0.7:PASS/WEAK_LOCAL_RECTANGLE:3.340;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v60_iso1600_d35.png",
+        "homography": [
+          [
+            0.9908276234197543,
+            0.01562551038860249,
+            532.0090885890384
+          ],
+          [
+            0.007047912155834725,
+            0.986738201091076,
+            99.82835382301262
+          ],
+          [
+            2.218880057249168e-06,
+            2.996954682768519e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.0,
+        "local_translation_refinement_px": [
+          0.0,
+          0.0
+        ],
+        "method": "DISTANCE_ANCHOR_TEMPLATE_FALLBACK",
+        "ransac_inliers": 0,
+        "ratio_test_matches": 0,
+        "registration_error": "Weak homography: 8/159 inliers; bridge=cam1_v80_iso1600_d35.png:Weak homography: 12/213 inliers; template_score=0.122641",
+        "source_id": "W007"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v60_iso1600_d45.png",
+        "homography": [
+          [
+            1.0254680365792097,
+            0.014064201285904266,
+            -484.70666336456776
+          ],
+          [
+            0.006478249091256087,
+            1.0233248481635755,
+            -331.3150698047833
+          ],
+          [
+            2.1228781433870268e-06,
+            3.2892949012206754e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8315467075038285,
+        "local_translation_refinement_px": [
+          6.61962890625,
+          23.07666015625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 543,
+        "ratio_test_matches": 653,
+        "registration_error": "",
+        "source_id": "W008"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v60_iso1600_d55.png",
+        "homography": [
+          [
+            0.9835040454159069,
+            0.0005010747103405308,
+            491.1389106823327
+          ],
+          [
+            0.0010439079025364737,
+            0.9868564918458497,
+            43.85486399935775
+          ],
+          [
+            -1.1181541034015724e-07,
+            1.0877620873704255e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7450549450549451,
+        "local_translation_refinement_px": [
+          -5.6744384765625,
+          20.39337158203125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 339,
+        "ratio_test_matches": 455,
+        "registration_error": "",
+        "source_id": "W009"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v60_iso1600_d65.png",
+        "homography": [
+          [
+            0.9316885153553908,
+            -0.012889210954353908,
+            255.51842147847185
+          ],
+          [
+            -0.014973074587946967,
+            0.9374596668447518,
+            656.4493091991865
+          ],
+          [
+            -4.041883831517932e-06,
+            -2.632481017905438e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8140243902439024,
+        "local_translation_refinement_px": [
+          0.8642578125,
+          -4.08880615234375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 534,
+        "ratio_test_matches": 656,
+        "registration_error": "",
+        "source_id": "W010"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v60_iso200_d25.png",
+        "homography": [
+          [
+            0.9873713726755713,
+            0.00011107101126874545,
+            -170.89381884510112
+          ],
+          [
+            -0.003054187392446962,
+            0.9910354391251439,
+            24.55681150773288
+          ],
+          [
+            -9.81910616862798e-07,
+            -7.679024664749474e-08,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8916967509025271,
+        "local_translation_refinement_px": [
+          -3.330810546875,
+          0.532257080078125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 988,
+        "ratio_test_matches": 1108,
+        "registration_error": "",
+        "source_id": "W011"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v60_iso200_d35.png",
+        "homography": [
+          [
+            0.9975440483471036,
+            0.016394943532541444,
+            538.2191542811879
+          ],
+          [
+            0.007262463887103377,
+            0.9925224017780903,
+            -110.01451143990336
+          ],
+          [
+            2.4005148838477953e-06,
+            3.182525749778212e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8943298969072165,
+        "local_translation_refinement_px": [
+          12.255615234375,
+          18.9423828125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 1041,
+        "ratio_test_matches": 1164,
+        "registration_error": "",
+        "source_id": "W012"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v60_iso200_d45.png",
+        "homography": [
+          [
+            1.0283754887871017,
+            0.016523493972636097,
+            -37.22354618820492
+          ],
+          [
+            0.004743515370808803,
+            1.02880488254181,
+            -350.96972189985524
+          ],
+          [
+            1.4939697981066285e-06,
+            3.4736952846356086e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.9330484330484331,
+        "local_translation_refinement_px": [
+          7.315185546875,
+          23.374267578125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 1310,
+        "ratio_test_matches": 1404,
+        "registration_error": "",
+        "source_id": "W013"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v60_iso200_d55.png",
+        "homography": [
+          [
+            1.003616611777615,
+            0.0014829639455657814,
+            185.84755354332918
+          ],
+          [
+            0.0015190821910296278,
+            1.0066268207731803,
+            -70.67475030299543
+          ],
+          [
+            1.7131789580238792e-07,
+            1.341820790604137e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7595307917888563,
+        "local_translation_refinement_px": [
+          -6.8128662109375,
+          20.45587158203125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 518,
+        "ratio_test_matches": 682,
+        "registration_error": "",
+        "source_id": "W014"
+      },
+      {
+        "auto_qc": "0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v60_iso200_d65_x.png",
+        "homography": [
+          [
+            0.9453908089481086,
+            -0.009809576589764604,
+            -154.61402988095375
+          ],
+          [
+            -0.013561824060689658,
+            0.9485661529742629,
+            538.4191120256003
+          ],
+          [
+            -3.566252685967351e-06,
+            -2.1368546972466332e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6476578411405295,
+        "local_translation_refinement_px": [
+          -0.373779296875,
+          -1.8187255859375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 318,
+        "ratio_test_matches": 491,
+        "registration_error": "",
+        "source_id": "W015"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v60_iso400_d25.png",
+        "homography": [
+          [
+            1.0,
+            0.0,
+            34.0
+          ],
+          [
+            0.0,
+            1.0,
+            180.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.0,
+        "local_translation_refinement_px": [
+          -11.874267578125,
+          -244.477783203125
+        ],
+        "method": "DISTANCE_ANCHOR_TEMPLATE_FALLBACK",
+        "ransac_inliers": 0,
+        "ratio_test_matches": 0,
+        "registration_error": "Weak homography: 14/204 inliers; bridge=cam1_v60_iso200_d25.png:Weak homography: 18/228 inliers; template_score=0.122306",
+        "source_id": "W016"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v60_iso400_d35.png",
+        "homography": [
+          [
+            0.9901619594025796,
+            0.014726423983771933,
+            232.0090885890384
+          ],
+          [
+            0.007347460963563363,
+            0.9871427899732498,
+            234.8283538230126
+          ],
+          [
+            2.218880057249168e-06,
+            2.996954682768519e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.0,
+        "local_translation_refinement_px": [
+          -0.0228271484375,
+          -359.679443359375
+        ],
+        "method": "DISTANCE_ANCHOR_TEMPLATE_FALLBACK",
+        "ransac_inliers": 0,
+        "ratio_test_matches": 0,
+        "registration_error": "Weak homography: 11/224 inliers; bridge=cam1_v60_iso200_d35.png:Weak homography: 15/213 inliers; template_score=0.159645",
+        "source_id": "W017"
+      },
+      {
+        "auto_qc": "0.3:Y_OUT_OF_BOUNDS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v60_iso400_d45.png",
+        "homography": [
+          [
+            1.0765471649340228,
+            0.01661322555618639,
+            -350.54304910474093
+          ],
+          [
+            0.005509693844092972,
+            1.076931713582197,
+            -494.23204208093193
+          ],
+          [
+            1.686929971933483e-06,
+            3.5585765642290612e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8185890257558791,
+        "local_translation_refinement_px": [
+          11.3984375,
+          7.453857421875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 731,
+        "ratio_test_matches": 893,
+        "registration_error": "",
+        "source_id": "W018"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v60_iso400_d55.png",
+        "homography": [
+          [
+            1.0022122920662924,
+            0.002746442153869029,
+            364.2895092688948
+          ],
+          [
+            0.0005806547073229106,
+            1.0078374031769575,
+            -109.31781510627124
+          ],
+          [
+            -1.4376574232738113e-07,
+            1.524458472622842e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7226890756302521,
+        "local_translation_refinement_px": [
+          -9.76416015625,
+          5.4508056640625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 430,
+        "ratio_test_matches": 595,
+        "registration_error": "",
+        "source_id": "W019"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v60_iso400_d65.png",
+        "homography": [
+          [
+            0.9779264176810156,
+            -0.01323814749429067,
+            335.8078756492308
+          ],
+          [
+            -0.01721431848182148,
+            0.9882425965652516,
+            519.0244407732724
+          ],
+          [
+            -4.7710222660770925e-06,
+            -2.65600568746193e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7906976744186046,
+        "local_translation_refinement_px": [
+          -4.419921875,
+          -15.616455078125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 442,
+        "ratio_test_matches": 559,
+        "registration_error": "",
+        "source_id": "W020"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.7:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v60_iso800_d25.png",
+        "homography": [
+          [
+            0.9950288098683905,
+            0.0012926919217148215,
+            409.6155634377107
+          ],
+          [
+            0.004297463626511312,
+            0.9887860739887394,
+            35.39164035865876
+          ],
+          [
+            1.519257700144088e-06,
+            1.318232331379279e-07,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.863395225464191,
+        "local_translation_refinement_px": [
+          4.0850830078125,
+          1.2052001953125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 651,
+        "ratio_test_matches": 754,
+        "registration_error": "",
+        "source_id": "W021"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v60_iso800_d35.png",
+        "homography": [
+          [
+            1.0323143105153196,
+            0.014378821820801425,
+            161.22687403397958
+          ],
+          [
+            0.006646435807566947,
+            1.0280404313322387,
+            -195.3813671169592
+          ],
+          [
+            2.1846003187394296e-06,
+            3.0797423315070338e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8767605633802817,
+        "local_translation_refinement_px": [
+          7.1512451171875,
+          19.220703125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 747,
+        "ratio_test_matches": 852,
+        "registration_error": "",
+        "source_id": "W022"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v60_iso800_d45.png",
+        "homography": [
+          [
+            1.0390728505437945,
+            0.016770136674769124,
+            160.4562964469235
+          ],
+          [
+            0.005436848101943844,
+            1.038476036452426,
+            -366.4678088656871
+          ],
+          [
+            1.65267865587292e-06,
+            3.4372200782960555e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8588957055214724,
+        "local_translation_refinement_px": [
+          7.2562255859375,
+          23.80487060546875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 700,
+        "ratio_test_matches": 815,
+        "registration_error": "",
+        "source_id": "W023"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v60_iso800_d55.png",
+        "homography": [
+          [
+            1.0179219085543418,
+            0.0019300014048890127,
+            -259.6416581865502
+          ],
+          [
+            0.0026586207916553355,
+            1.020210884785795,
+            -165.9530048797917
+          ],
+          [
+            5.118644354907613e-07,
+            1.5619783624242162e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8888888888888888,
+        "local_translation_refinement_px": [
+          -7.364013671875,
+          21.569091796875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 1024,
+        "ratio_test_matches": 1152,
+        "registration_error": "",
+        "source_id": "W024"
+      },
+      {
+        "auto_qc": "0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v60_iso800_d65.png",
+        "homography": [
+          [
+            0.9320686349891802,
+            -0.010474768808995682,
+            -146.4259720192786
+          ],
+          [
+            -0.015101612202142947,
+            0.9353580433025429,
+            656.9235366316838
+          ],
+          [
+            -3.825205019710661e-06,
+            -2.4196500268276872e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.691747572815534,
+        "local_translation_refinement_px": [
+          0.1121826171875,
+          -1.46514892578125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 285,
+        "ratio_test_matches": 412,
+        "registration_error": "",
+        "source_id": "W025"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v80_iso100_d25.png",
+        "homography": [
+          [
+            0.9868752173822065,
+            -0.0007401340129303412,
+            -69.42420189243293
+          ],
+          [
+            -0.0012058930872588742,
+            0.9883863488039571,
+            24.034289419199407
+          ],
+          [
+            -4.953247681428964e-07,
+            -1.8539702204407793e-07,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.9010717230008244,
+        "local_translation_refinement_px": [
+          -1.6717529296875,
+          0.41180419921875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 1093,
+        "ratio_test_matches": 1213,
+        "registration_error": "",
+        "source_id": "W026"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v80_iso100_d35.png",
+        "homography": [
+          [
+            1.0375947958718048,
+            0.01510058602647108,
+            -36.53993902286715
+          ],
+          [
+            0.004946432111448287,
+            1.034544530976208,
+            -205.02178738174743
+          ],
+          [
+            1.947959444239399e-06,
+            2.875193187791556e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8406593406593407,
+        "local_translation_refinement_px": [
+          9.5633544921875,
+          19.75701904296875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 765,
+        "ratio_test_matches": 910,
+        "registration_error": "",
+        "source_id": "W027"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v80_iso100_d45.png",
+        "homography": [
+          [
+            1.0372893806676537,
+            0.01584175447478811,
+            -385.697989821911
+          ],
+          [
+            0.005615084195645444,
+            1.0354926874484809,
+            -379.2365325369862
+          ],
+          [
+            2.064957943857731e-06,
+            3.380123893438724e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8751545117428925,
+        "local_translation_refinement_px": [
+          7.277099609375,
+          23.04913330078125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 708,
+        "ratio_test_matches": 809,
+        "registration_error": "",
+        "source_id": "W028"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v80_iso100_d55.png",
+        "homography": [
+          [
+            1.0137690145757896,
+            0.0034956419679139433,
+            238.56312814907406
+          ],
+          [
+            -0.0008681008215527137,
+            1.019299356134437,
+            -121.69297565015786
+          ],
+          [
+            -2.2620954380949088e-07,
+            1.5194344296837583e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7666666666666667,
+        "local_translation_refinement_px": [
+          -7.103759765625,
+          21.1318359375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 483,
+        "ratio_test_matches": 630,
+        "registration_error": "",
+        "source_id": "W029"
+      },
+      {
+        "auto_qc": "0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v80_iso100_d65_x.png",
+        "homography": [
+          [
+            0.9683899279812154,
+            -0.012144097839131065,
+            104.83260965981519
+          ],
+          [
+            -0.016451468938768095,
+            0.9755334005820159,
+            549.5338283877105
+          ],
+          [
+            -4.387011118792869e-06,
+            -2.5506787872645193e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7569955817378498,
+        "local_translation_refinement_px": [
+          -0.19140625,
+          -2.1510009765625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 514,
+        "ratio_test_matches": 679,
+        "registration_error": "",
+        "source_id": "W030"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.4:PASS/NO_LOCAL_RECTANGLE;0.5:PASS/NO_LOCAL_RECTANGLE;0.6:PASS/NO_LOCAL_RECTANGLE;0.7:PASS/NO_LOCAL_RECTANGLE;0.8:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v80_iso1600_d25_x.png",
+        "homography": [
+          [
+            0.9895136792507184,
+            -0.0012143325147646715,
+            -176.89101959958194
+          ],
+          [
+            -0.0024888618996337427,
+            0.9915466866266593,
+            12.547326701012107
+          ],
+          [
+            -7.72524761074487e-07,
+            -2.4298494193161353e-07,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.833063209076175,
+        "local_translation_refinement_px": [
+          0.0,
+          0.0
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 514,
+        "ratio_test_matches": 617,
+        "registration_error": "",
+        "source_id": "W031"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.4:PASS/NO_LOCAL_RECTANGLE;0.5:PASS/NO_LOCAL_RECTANGLE;0.6:PASS/NO_LOCAL_RECTANGLE;0.7:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v80_iso1600_d35.png",
+        "homography": [
+          [
+            1.0306959698870193,
+            0.015969249403994825,
+            287.7444385462128
+          ],
+          [
+            0.006072809096844282,
+            1.0255923168177927,
+            -170.9795868959738
+          ],
+          [
+            2.3640942194750324e-06,
+            2.8734566053353777e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8253205128205128,
+        "local_translation_refinement_px": [
+          0.0,
+          0.0
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 515,
+        "ratio_test_matches": 624,
+        "registration_error": "",
+        "source_id": "W032"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v80_iso1600_d45.png",
+        "homography": [
+          [
+            1.0144228097398176,
+            0.019872687116994237,
+            1226.576729664326
+          ],
+          [
+            0.0038781932976582755,
+            1.0146745848002325,
+            -296.35019138363725
+          ],
+          [
+            1.1143457488576016e-06,
+            3.415017542691531e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6783505154639176,
+        "local_translation_refinement_px": [
+          12.78857421875,
+          22.49359130859375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 329,
+        "ratio_test_matches": 485,
+        "registration_error": "",
+        "source_id": "W033"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v80_iso1600_d55.png",
+        "homography": [
+          [
+            1.0175484173563631,
+            0.0046203130159207725,
+            858.0793759795772
+          ],
+          [
+            -0.002211758923883754,
+            1.0252769506524038,
+            -186.17390670725615
+          ],
+          [
+            -7.031741281971786e-07,
+            1.693177013955127e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6291079812206573,
+        "local_translation_refinement_px": [
+          -5.428955078125,
+          21.59967041015625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 268,
+        "ratio_test_matches": 426,
+        "registration_error": "",
+        "source_id": "W034"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v80_iso1600_d65.png",
+        "homography": [
+          [
+            0.9406179651593943,
+            -0.011516559564956251,
+            505.3791214081137
+          ],
+          [
+            -0.016227367100737772,
+            0.9519208698782455,
+            487.2414427474099
+          ],
+          [
+            -4.678047170806599e-06,
+            -2.1092771413796794e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.733615221987315,
+        "local_translation_refinement_px": [
+          0.4224853515625,
+          -3.60626220703125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 347,
+        "ratio_test_matches": 473,
+        "registration_error": "",
+        "source_id": "W035"
+      },
+      {
+        "auto_qc": "0.4:PASS/NO_LOCAL_RECTANGLE;0.8:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v80_iso200_d25.png",
+        "homography": [
+          [
+            1.0415721296659424,
+            0.0013215022576289256,
+            467.8361609703421
+          ],
+          [
+            0.008230214147877085,
+            1.030574235177195,
+            -74.85617996670979
+          ],
+          [
+            2.746225847793982e-06,
+            1.8685938236380732e-07,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8300733496332519,
+        "local_translation_refinement_px": [
+          11.0098876953125,
+          1.2857818603515625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 679,
+        "ratio_test_matches": 818,
+        "registration_error": "",
+        "source_id": "W036"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v80_iso200_d35.png",
+        "homography": [
+          [
+            1.0324329429980676,
+            0.018704057214661896,
+            885.4411135682523
+          ],
+          [
+            0.006985841564454811,
+            1.0257665119769834,
+            -185.652477423951
+          ],
+          [
+            2.6156456348956164e-06,
+            3.186599330323727e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8028673835125448,
+        "local_translation_refinement_px": [
+          15.60888671875,
+          19.8548583984375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 672,
+        "ratio_test_matches": 837,
+        "registration_error": "",
+        "source_id": "W037"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v80_iso200_d45.png",
+        "homography": [
+          [
+            1.0371731315496675,
+            0.018250985345592868,
+            175.35388971098843
+          ],
+          [
+            0.004766180253168164,
+            1.036269113738228,
+            -374.2629106213075
+          ],
+          [
+            1.7541967735129637e-06,
+            3.489375229116518e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8779576587795765,
+        "local_translation_refinement_px": [
+          8.435791015625,
+          23.5626220703125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 705,
+        "ratio_test_matches": 803,
+        "registration_error": "",
+        "source_id": "W038"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v80_iso200_d55.png",
+        "homography": [
+          [
+            1.0111930296961713,
+            0.00280341140361962,
+            319.7930368121197
+          ],
+          [
+            0.0005563662191501436,
+            1.015601814979778,
+            -140.27438430413184
+          ],
+          [
+            -3.784836616731317e-08,
+            1.5738845685649672e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.725705329153605,
+        "local_translation_refinement_px": [
+          -6.56103515625,
+          21.17681884765625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 463,
+        "ratio_test_matches": 638,
+        "registration_error": "",
+        "source_id": "W039"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.2:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v80_iso200_d65_x.png",
+        "homography": [
+          [
+            0.938588493852563,
+            -0.011076406588337551,
+            620.0918513499313
+          ],
+          [
+            -0.016634796593409648,
+            0.9518212526785211,
+            459.50875407986194
+          ],
+          [
+            -4.910207434150872e-06,
+            -1.9906835296042324e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6940928270042194,
+        "local_translation_refinement_px": [
+          -2.40673828125,
+          1.8973388671875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 329,
+        "ratio_test_matches": 474,
+        "registration_error": "",
+        "source_id": "W040"
+      },
+      {
+        "auto_qc": "0.4:PASS/NO_LOCAL_RECTANGLE;0.8:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v80_iso400_d25.png",
+        "homography": [
+          [
+            1.0,
+            0.0,
+            714.0
+          ],
+          [
+            0.0,
+            1.0,
+            160.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.0,
+        "local_translation_refinement_px": [
+          5.41552734375,
+          -244.693359375
+        ],
+        "method": "DISTANCE_ANCHOR_TEMPLATE_FALLBACK",
+        "ransac_inliers": 0,
+        "ratio_test_matches": 0,
+        "registration_error": "Weak homography: 8/158 inliers; bridge=cam1_v80_iso200_d25.png:Weak homography: 17/199 inliers; template_score=0.138824",
+        "source_id": "W041"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v80_iso400_d35.png",
+        "homography": [
+          [
+            0.9914932874369291,
+            0.016524596793433044,
+            832.0090885890384
+          ],
+          [
+            0.0071144785575522,
+            0.9868281097315591,
+            129.8283538230126
+          ],
+          [
+            2.218880057249168e-06,
+            2.996954682768519e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.0,
+        "local_translation_refinement_px": [
+          34.72216796875,
+          -286.5399169921875
+        ],
+        "method": "DISTANCE_ANCHOR_TEMPLATE_FALLBACK",
+        "ransac_inliers": 0,
+        "ratio_test_matches": 0,
+        "registration_error": "Weak homography: 9/192 inliers; bridge=cam1_v80_iso200_d35.png:Weak homography: 14/194 inliers; template_score=0.128833",
+        "source_id": "W042"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v80_iso400_d45.png",
+        "homography": [
+          [
+            1.0587884565001962,
+            0.01876229811706507,
+            451.7641444889619
+          ],
+          [
+            0.0028272013077961554,
+            1.0611752714851783,
+            -453.16433662914443
+          ],
+          [
+            1.0179468620830674e-06,
+            3.4376754870649177e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.6842105263157895,
+        "local_translation_refinement_px": [
+          6.481689453125,
+          8.447509765625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 416,
+        "ratio_test_matches": 608,
+        "registration_error": "",
+        "source_id": "W043"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v80_iso400_d55.png",
+        "homography": [
+          [
+            1.0161059852673229,
+            0.00395906493559317,
+            376.86064092924704
+          ],
+          [
+            -1.0728684187534063e-05,
+            1.0232967710079723,
+            -209.75413015464483
+          ],
+          [
+            -3.390671812540554e-07,
+            1.7489743426675177e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7415540540540541,
+        "local_translation_refinement_px": [
+          -9.098388671875,
+          7.005615234375
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 439,
+        "ratio_test_matches": 592,
+        "registration_error": "",
+        "source_id": "W044"
+      },
+      {
+        "auto_qc": "0.1:PASS/NO_LOCAL_RECTANGLE;0.9:PASS/NO_LOCAL_RECTANGLE;1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v80_iso400_d65.png",
+        "homography": [
+          [
+            0.9833147200601889,
+            -0.012119735276409688,
+            222.8827568227265
+          ],
+          [
+            -0.017803047112644958,
+            0.9918797337465021,
+            511.814740717333
+          ],
+          [
+            -4.551935265115826e-06,
+            -2.6689387577494093e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8454332552693209,
+        "local_translation_refinement_px": [
+          -4.837158203125,
+          -16.83856201171875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 722,
+        "ratio_test_matches": 854,
+        "registration_error": "",
+        "source_id": "W045"
+      },
+      {
+        "auto_qc": "0.2:PASS/NO_LOCAL_RECTANGLE;0.3:PASS/NO_LOCAL_RECTANGLE;0.6:PASS/NO_LOCAL_RECTANGLE;0.7:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d25.png",
+        "filename": "cam1_v80_iso800_d25.png",
+        "homography": [
+          [
+            0.9724924536662197,
+            -0.0013400130930517843,
+            185.9622912920997
+          ],
+          [
+            0.0016923113429466647,
+            0.9695905502468612,
+            79.41995045224992
+          ],
+          [
+            4.444353257138856e-07,
+            -2.220270582838616e-07,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8823529411764706,
+        "local_translation_refinement_px": [
+          -0.5478515625,
+          0.94683837890625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 690,
+        "ratio_test_matches": 782,
+        "registration_error": "",
+        "source_id": "W046"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d35.png",
+        "filename": "cam1_v80_iso800_d35.png",
+        "homography": [
+          [
+            1.0510065877884522,
+            0.018581016233918203,
+            983.9506186474975
+          ],
+          [
+            0.007914033560827326,
+            1.0409724355211134,
+            -215.99171370354543
+          ],
+          [
+            2.918749560128342e-06,
+            2.5966500724740126e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7453125,
+        "local_translation_refinement_px": [
+          24.393798828125,
+          19.1092529296875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 477,
+        "ratio_test_matches": 640,
+        "registration_error": "",
+        "source_id": "W047"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d45.png",
+        "filename": "cam1_v80_iso800_d45.png",
+        "homography": [
+          [
+            1.0238396596963455,
+            0.017222520463540843,
+            857.5975458815784
+          ],
+          [
+            0.00359476381914269,
+            1.0249316502248187,
+            -335.06678484912544
+          ],
+          [
+            1.0409191489917804e-06,
+            3.307898573123741e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.8374613003095975,
+        "local_translation_refinement_px": [
+          9.845947265625,
+          23.6883544921875
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 541,
+        "ratio_test_matches": 646,
+        "registration_error": "",
+        "source_id": "W048"
+      },
+      {
+        "auto_qc": "PASS",
+        "distance_anchor": "cam1_v60_iso100_d55.png",
+        "filename": "cam1_v80_iso800_d55.png",
+        "homography": [
+          [
+            1.0180641923329388,
+            0.003795725570020002,
+            312.26008209803746
+          ],
+          [
+            -0.001133553262633542,
+            1.0232698665740882,
+            -178.73907109931093
+          ],
+          [
+            -1.5813377799410348e-07,
+            1.6038745157291467e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7903726708074534,
+        "local_translation_refinement_px": [
+          -7.17431640625,
+          22.46533203125
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 509,
+        "ratio_test_matches": 644,
+        "registration_error": "",
+        "source_id": "W049"
+      },
+      {
+        "auto_qc": "1.0:PASS/NO_LOCAL_RECTANGLE",
+        "distance_anchor": "cam1_v60_iso100_d65_x.png",
+        "filename": "cam1_v80_iso800_d65.png",
+        "homography": [
+          [
+            0.9396266514639919,
+            -0.00903927807957738,
+            76.87631770225461
+          ],
+          [
+            -0.015815225329476986,
+            0.946322729458854,
+            514.1520204889266
+          ],
+          [
+            -4.0534357990291125e-06,
+            -2.08943363862058e-06,
+            1.0
+          ]
+        ],
+        "inlier_ratio": 0.7305122494432071,
+        "local_translation_refinement_px": [
+          -0.7880859375,
+          -3.261962890625
+        ],
+        "method": "DISTANCE_ANCHOR_SIFT_RANSAC",
+        "ransac_inliers": 328,
+        "ratio_test_matches": 449,
+        "registration_error": "",
+        "source_id": "W050"
+      }
+    ],
+    "method": "SIFT ratio-test plus RANSAC planar homography",
+    "minimum_nonreference_inlier_ratio": 0.6291079812206573,
+    "minimum_nonreference_inliers": 268,
+    "scale": 0.2
+  },
+  "review_pages": [
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "06f4d4ff46c85ddee3df8137f7b2a926498ee1db9b19cdb6f3232a8f940d51c0"
+    },
+    {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "b7083f723ad194da5342bf56e37b26b84d416d3fa2d804bd341110a028692b4e"
+    }
+  ],
+  "roi_ledger": {
+    "expected_rows": 500,
+    "path": "<LOCAL_PATH_REDACTED>",
+    "rows": 500,
+    "sha256": "19ebe176d8501ad3ff7d5454da7be39e4f2c60e120846971bebc5545c2a20564"
+  },
+  "schema_version": "MERIT-C009-WIDTH-ROI-CANDIDATES-v1",
+  "source_ledger": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "3ee87765258f47f8197be8a172ecc5feded8fe883d8dfdc593378aef5aac0dea"
+  },
+  "status": "AUTO_CANDIDATE_REVIEW_REQUIRED",
+  "strict_qc_flagged_pages": [
+    {
+      "filename": "cam1_v60_iso100_d65_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f34108c1cc528faa55c9e8569e1e5797e779e558e350f82c30e4c4e7ef955585"
+    },
+    {
+      "filename": "cam1_v60_iso1600_d25_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "66ad9762ed9a7749fb1400c1971a60b8c71db9cf4dd2ddfb8c72333a9d34b1f5"
+    },
+    {
+      "filename": "cam1_v60_iso1600_d35.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "319fe343d4bc81412039e14a535f09262e91a9145f5103183a0dfab6013050a3"
+    },
+    {
+      "filename": "cam1_v60_iso200_d65_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d020393abc92298782f26805d6607f231c3bbb3ef7e2046ad439c2581514ca42"
+    },
+    {
+      "filename": "cam1_v60_iso400_d45.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "3a8098d5e8ad986eb9eb393084fe8bf9230293599f026b8e6a9bf3a5a2a1c523"
+    },
+    {
+      "filename": "cam1_v60_iso400_d65.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e4056c42b91acede9c7e582de45a76ac3d004764534522c92013dda8d8299af1"
+    },
+    {
+      "filename": "cam1_v60_iso800_d25.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "8ee883b02c2000412e5c2f87a3b892195fc7375a80ab95a80521f0cf899e830f"
+    },
+    {
+      "filename": "cam1_v60_iso800_d65.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d32231cd61310e14b4e4c00c61f01186a60785f2b8de4b7dd00c4a42eef28faa"
+    },
+    {
+      "filename": "cam1_v80_iso100_d65_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "231793d7956a8f6229f5285e56c7289d6b3b2286b7a752ead4703c10191f6a11"
+    },
+    {
+      "filename": "cam1_v80_iso1600_d25_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4be34c18afeaff4a23e6881d9ba0ee86ce5d4aaf8ac47d186e98db5dc2cfc8e0"
+    },
+    {
+      "filename": "cam1_v80_iso1600_d35.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "56a002779e4b456ec06bdb2a0a583c457f3a59435155cbfb24df6869a8eeb235"
+    },
+    {
+      "filename": "cam1_v80_iso200_d25.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "232d36addd61eff5656151d9208b9e4047d242738e0d8908dafc358b2a392a4c"
+    },
+    {
+      "filename": "cam1_v80_iso200_d65_x.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4a5c0aef0bdb1f50dc9335361fcc92fe1e7346e58bfbec4adbed24a9fc32fe02"
+    },
+    {
+      "filename": "cam1_v80_iso400_d25.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e97f07df5b2bbbf95296d7ed2676bf36293a6196163d49b53c06a0be0faa35cc"
+    },
+    {
+      "filename": "cam1_v80_iso400_d65.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "2848b8eee8cc67abe20b26397db3a22058ce65c75f94a77f3e738959c20ac9a3"
+    },
+    {
+      "filename": "cam1_v80_iso800_d25.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "5b304d56f89543e72a724c43270a6a2538ef1f055d7f813134fc896ccfbe9de4"
+    },
+    {
+      "filename": "cam1_v80_iso800_d65.png",
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "23fd088874b6e6145b3dcf725aef51ba447ab2080c51ec36584797d17218996b"
+    }
+  ]
+}

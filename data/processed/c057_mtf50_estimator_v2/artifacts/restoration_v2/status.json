@@ -1,0 +1,12 @@
+{
+  "completed_frames": 479,
+  "last_frame_id": "80km_6.5m_ISO800/frame_000113.png",
+  "projected_remaining_seconds": 0.0,
+  "remaining_frames": 0,
+  "restoration_freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719",
+  "schema_version": "MERIT-C057-MTF50-V2-RESTORATION-v1",
+  "session_average_seconds": 1.353860482254643,
+  "state": "INFERENCE_COMPLETE",
+  "total_frames": 479,
+  "updated_utc": "2026-10-20T12:20:44+00:00"
+}

@@ -1,0 +1,179 @@
+{
+  "checkpoint": "final_epoch.pt",
+  "checkpoint_sha256": "0b004e0eb7b8061389843a2b0c0a5044cff0ee38123f5336edb24b98fc8bedfe",
+  "claim_boundary": "C017 is iterative development and stochastic replication on the four supplied tunnels. It measures architecture robustness on those tunnels and does not establish prospective new-site generalisation.",
+  "completed_unix_time": 1791950833.1530747,
+  "device_name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "elapsed_seconds": 1641.615892700036,
+  "epochs": [
+    {
+      "elapsed_seconds": 128.81068200001027,
+      "epoch": 1,
+      "train_loss": 1.283364496353798
+    },
+    {
+      "elapsed_seconds": 124.74252049997449,
+      "epoch": 2,
+      "train_loss": 0.9621803445945267
+    },
+    {
+      "elapsed_seconds": 125.46181300003082,
+      "epoch": 3,
+      "train_loss": 0.7866458181145829
+    },
+    {
+      "elapsed_seconds": 126.29911829996854,
+      "epoch": 4,
+      "train_loss": 0.6688002702506064
+    },
+    {
+      "elapsed_seconds": 126.24184230004903,
+      "epoch": 5,
+      "train_loss": 0.5770440071176242
+    },
+    {
+      "elapsed_seconds": 126.40950770000927,
+      "epoch": 6,
+      "train_loss": 0.5200843550141361
+    },
+    {
+      "elapsed_seconds": 125.61861730006058,
+      "epoch": 7,
+      "train_loss": 0.48515185817195833
+    },
+    {
+      "elapsed_seconds": 125.95762440003455,
+      "epoch": 8,
+      "train_loss": 0.45008842832141743
+    },
+    {
+      "elapsed_seconds": 125.00306070002262,
+      "epoch": 9,
+      "train_loss": 0.4333716912631241
+    },
+    {
+      "elapsed_seconds": 126.90915169997606,
+      "epoch": 10,
+      "train_loss": 0.41603690447410335
+    },
+    {
+      "elapsed_seconds": 125.28440800006501,
+      "epoch": 11,
+      "train_loss": 0.4070679668005179
+    },
+    {
+      "elapsed_seconds": 126.6463818999473,
+      "epoch": 12,
+      "train_loss": 0.39636417376783584
+    }
+  ],
+  "fold": "D",
+  "held_out_parents": [
+    "0211",
+    "0212",
+    "0213"
+  ],
+  "model": "segformer_b0",
+  "model_contract": {
+    "dtype": "torch.bfloat16",
+    "parameters": 3714401,
+    "shape": [
+      1,
+      1,
+      512,
+      512
+    ]
+  },
+  "models_code_sha256": "1aeca31627e4b42db064bb234c463596d6a910b6a523552e9bba0f2b011d77e1",
+  "parent_metrics": {
+    "0211": {
+      "artifact_kind": "full_grid",
+      "coverage_fraction_of_source": 1.0,
+      "covered_pixels": 174325760,
+      "f1_at_0_5": 0.5965804725107677,
+      "fn": 69252,
+      "fp": 134562,
+      "negative_pixels": 174105807,
+      "negative_tile_any_positive_rate_at_0_5": 0.352755905511811,
+      "negative_tiles": 635,
+      "parent": "0211",
+      "pixel_auprc_4096_bin": 0.5655122584710873,
+      "positive_pixels": 219953,
+      "precision_at_0_5": 0.5282879307866776,
+      "recall_at_0_5": 0.6851509186053384,
+      "source_height": 17920,
+      "source_width": 9728,
+      "tile_count": 665,
+      "tn": 173971245,
+      "tp": 150701
+    },
+    "0212": {
+      "artifact_kind": "positive_enriched_overlap",
+      "coverage_fraction_of_source": 0.1099624060150376,
+      "covered_pixels": 19169280,
+      "f1_at_0_5": 0.5651755259249587,
+      "fn": 167830,
+      "fp": 45314,
+      "negative_pixels": 18862930,
+      "negative_tile_any_positive_rate_at_0_5": null,
+      "negative_tiles": null,
+      "parent": "0212",
+      "pixel_auprc_4096_bin": 0.5124559029364996,
+      "positive_pixels": 306350,
+      "precision_at_0_5": 0.7535058803050578,
+      "recall_at_0_5": 0.4521625591643545,
+      "source_height": 17920,
+      "source_width": 9728,
+      "tile_count": 681,
+      "tn": 18817616,
+      "tp": 138520
+    },
+    "0213": {
+      "artifact_kind": "positive_enriched_overlap",
+      "coverage_fraction_of_source": 0.09868421052631579,
+      "covered_pixels": 17203200,
+      "f1_at_0_5": 0.527729662381864,
+      "fn": 149701,
+      "fp": 36791,
+      "negative_pixels": 16949303,
+      "negative_tile_any_positive_rate_at_0_5": null,
+      "negative_tiles": null,
+      "parent": "0213",
+      "pixel_auprc_4096_bin": 0.43287089670333734,
+      "positive_pixels": 253897,
+      "precision_at_0_5": 0.7390468624766823,
+      "recall_at_0_5": 0.4103868891715932,
+      "source_height": 17920,
+      "source_width": 9728,
+      "tile_count": 585,
+      "tn": 16912512,
+      "tp": 104196
+    }
+  },
+  "protocol_file_sha256": "6ba41a6255ff70a67c5441f48101657708e04d7be660002238aafdf21c7003dd",
+  "protocol_payload_sha256": "a4eb65827a45aa9a953d9c1f132341cb1f04f50e0913b4ddbfccf2e8517033ce",
+  "schema_version": "MERIT-C017-TRAIN-RUN-v1",
+  "seed": 20260921,
+  "started_unix_time": 1791949191.535051,
+  "training_code_sha256": "71ad09888c9f740185e761ef682ee4732938f40e9102cba354805f1a70b22b05",
+  "training_parents": [
+    "0036",
+    "0037",
+    "0038",
+    "0039",
+    "0040",
+    "0055",
+    "0116",
+    "0117",
+    "0118",
+    "0119",
+    "0120"
+  ],
+  "training_tiles": 5129,
+  "tunnel_macro": {
+    "f1_at_0_5": 0.5631618869391968,
+    "pixel_auprc_4096_bin": 0.5036130193703081,
+    "precision_at_0_5": 0.6736135578561392,
+    "recall_at_0_5": 0.515900122313762
+  }
+}

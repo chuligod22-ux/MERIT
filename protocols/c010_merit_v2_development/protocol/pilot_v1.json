@@ -1,0 +1,50 @@
+{
+  "schema_version": "MERIT-C010-V2-DEVELOPMENT-PILOT-v1",
+  "status": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "created_date": "2026-10-11",
+  "purpose": "Test whether a frozen NAFNet base plus a bounded prompt-conditioned residual adapter can improve fidelity without the C009 DeepCrack-loss conflict.",
+  "scientific_boundary": {
+    "c009": "Immutable completed negative confirmatory evidence; no C009 file or verdict is replaced.",
+    "development_data": "The former C009 D0 synthetic holdout is reused as an explicitly unblinded C010 development set.",
+    "confirmation": "Any selected MERIT v2 design requires a newly acquired or never-used confirmatory test set. C009 endpoints cannot confirm v2.",
+    "claim": "This pilot can establish engineering feasibility only."
+  },
+  "base": {
+    "family": "nafnet",
+    "seed": 0,
+    "arm": "base",
+    "checkpoint": "../c009_integrated_experiment/runs/wp1/nafnet/base_seed0/final.pt",
+    "policy": "Frozen; always called with zero prompt channels."
+  },
+  "adapter": {
+    "hidden_channels": 24,
+    "residual_blocks": 3,
+    "max_delta": 0.08,
+    "blend_span": 0.25,
+    "zero_prompt_rule": "Return degraded input exactly.",
+    "initial_positive_prompt_rule": "Return frozen base exactly."
+  },
+  "training": {
+    "source": "C006 D0 rows labelled train only",
+    "steps": 600,
+    "batch_size": 4,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "loss": "L1 + gradient L1 + 0.1*FFT; no detector/task loss",
+    "checkpoint_selection": "Fixed final step for this protocol version",
+    "seed": 20261011
+  },
+  "development_evaluation": {
+    "rows": 50,
+    "conditions": 3,
+    "noise_seeds": 3,
+    "identity_rows": 50,
+    "unit": "Mean within physical parent before paired bootstrap",
+    "bootstrap_replicates": 5000,
+    "primary_target": "Mean v2-minus-base PSNR >= 0.10 dB and parent-bootstrap 95% CI lower bound > 0",
+    "gradient_target": "Mean v2-minus-base gradient MAE < 0",
+    "identity_target": "Zero-prompt mean and p99 absolute output change <= 1e-7",
+    "overshoot_target": "Mean v2-minus-base edge-normal overshoot p95 <= 0"
+  }
+}

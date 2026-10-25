@@ -1,0 +1,56 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds": 165.11329620005563,
+  "main_records": 500,
+  "model_id": "wp1__nafnet__merit_full__seed2",
+  "ood_records": 2700,
+  "payload_sha256": "ae60b8e1d9822ad67dbef530d77d8b60bad5ffe314c8d229f52f615a68ee09d6",
+  "peak_cuda_memory_bytes": 3251077120,
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "aba795472d478192c0b97997465bd79d25a75f24ae1b691d9455f024fe11584c",
+    "completion_payload_sha256": "76c13a56f2e19be660fc2ee644316074a92a9596c64480e61abad606d4277f3e",
+    "model": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "model_id": "wp1__nafnet__merit_full__seed2"
+  },
+  "records": 3200,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "01aa7e5ff61e881f1cd37784ead00cbe324b5d8b95ca1fdd91378aa76a42ae8a",
+  "schema_version": "MERIT-C009-CONTROLLED-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "merit_full",
+    "family": "nafnet",
+    "kind": "wp1",
+    "seed": 2
+  },
+  "status": "PASS"
+}

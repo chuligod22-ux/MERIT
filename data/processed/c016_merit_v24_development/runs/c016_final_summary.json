@@ -1,0 +1,362 @@
+{
+  "claim_boundary": "Detection uses existing annotated tunnel data. Width is expert-mask-defined natural crack apparent width in pixels, not physical millimetre width or traceable metrology.",
+  "detection": {
+    "delta_over_v23": -0.0039480678328211935,
+    "detectors": {
+      "d2_deeplabv3_resnet50": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261025,
+          "ci95_high": -0.00015393232578867294,
+          "ci95_low": -0.004155709681497731,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": -0.0021417344215516666,
+          "per_tunnel": {
+            "A": -0.003504663159445035,
+            "B": 0.0,
+            "C": -0.005062274526761631,
+            "D": 0.0
+          },
+          "positive_tunnels": 0
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261035,
+          "ci95_high": 0.0022355462195238684,
+          "ci95_low": -0.0016399728538416321,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.00018186409016661685,
+          "per_tunnel": {
+            "A": -0.0016559608971365547,
+            "B": 0.0,
+            "C": 0.002383417257803022,
+            "D": 0.0
+          },
+          "positive_tunnels": 1
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261045,
+          "ci95_high": 0.00018540747115988014,
+          "ci95_low": -0.0002562386124433713,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": -5.551587282379727e-05,
+          "per_tunnel": {
+            "A": 0.0005163499005166163,
+            "B": 9.023092577602054e-07,
+            "C": -0.0007394275693988817,
+            "D": 1.1186832931612406e-07
+          },
+          "positive_tunnels": 3
+        }
+      },
+      "d2_resnet34_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261023,
+          "ci95_high": -0.006352640385935626,
+          "ci95_low": -0.006802433428019264,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": -0.006609197436726568,
+          "per_tunnel": {
+            "A": 0.0,
+            "B": -0.02644826765625304,
+            "C": 1.3742840569822929e-05,
+            "D": -2.2649312230542296e-06
+          },
+          "positive_tunnels": 1
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261033,
+          "ci95_high": -0.0007111380006121952,
+          "ci95_low": -0.0011401278043023765,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": -0.0008716434557479399,
+          "per_tunnel": {
+            "A": 0.0,
+            "B": -0.003989913483070558,
+            "C": -1.1998499355921539e-06,
+            "D": 0.0005045395100143901
+          },
+          "positive_tunnels": 1
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261043,
+          "ci95_high": 0.0025229297228343004,
+          "ci95_low": 0.0025138636779178606,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.0025185304851682686,
+          "per_tunnel": {
+            "A": 6.736488692928958e-07,
+            "B": 0.01007578170924739,
+            "C": 2.3197866083548313e-06,
+            "D": -4.653204051964616e-06
+          },
+          "positive_tunnels": 3
+        }
+      },
+      "d2_vgg16_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261024,
+          "ci95_high": 0.0012904108356166992,
+          "ci95_low": -0.00031144220261284023,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.0004061832267456933,
+          "per_tunnel": {
+            "A": 0.0,
+            "B": 0.0019590731873002643,
+            "C": -0.000334340280317491,
+            "D": 0.0
+          },
+          "positive_tunnels": 1
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261034,
+          "ci95_high": 0.0017423420234914519,
+          "ci95_low": 0.0005212379834031408,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.0011062513035448437,
+          "per_tunnel": {
+            "A": 0.0,
+            "B": 0.005170392150001923,
+            "C": -0.0007453869358225488,
+            "D": 0.0
+          },
+          "positive_tunnels": 1
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261044,
+          "ci95_high": 0.0001212265348870809,
+          "ci95_low": -4.511605375865368e-05,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": 4.6752089044822394e-05,
+          "per_tunnel": {
+            "A": 1.5545069623305875e-07,
+            "B": -6.256698684838666e-05,
+            "C": 0.0002494282094203658,
+            "D": -8.317088922633838e-09
+          },
+          "positive_tunnels": 2
+        }
+      }
+    },
+    "gate": {
+      "pass": false,
+      "requirements": "panel delta AUPRC mean and 95% CI lower >0; all four tunnels positive; matched-sensitivity delta FPR mean <=0; every detector mean delta AUPRC >=0; panel mean exceeds the frozen v2.3 four-tunnel descriptive mean"
+    },
+    "panel": {
+      "delta_auprc": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261013,
+        "ci95_high": -0.001887825278925074,
+        "ci95_low": -0.003650925658396466,
+        "clusters": 14,
+        "improved_tunnels": 4,
+        "mean": -0.0027815828771775137,
+        "per_tunnel": {
+          "A": -0.0011682210531483452,
+          "B": -0.008163064822984258,
+          "C": -0.0017942906555030995,
+          "D": -7.549770743514038e-07
+        },
+        "positive_tunnels": 0
+      },
+      "delta_f1": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261014,
+        "ci95_high": 0.0009998501707231232,
+        "ci95_low": -0.0006195025493106099,
+        "clusters": 14,
+        "improved_tunnels": 1,
+        "mean": 0.00013882397932117352,
+        "per_tunnel": {
+          "A": -0.0005519869657121849,
+          "B": 0.00039349288897712185,
+          "C": 0.0005456101573482938,
+          "D": 0.00016817983667146338
+        },
+        "positive_tunnels": 3
+      },
+      "delta_matched_fpr": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261015,
+        "ci95_high": 0.0009259427699501773,
+        "ci95_low": 0.0007513171127773976,
+        "clusters": 14,
+        "improved_tunnels": 2,
+        "mean": 0.0008365889004630978,
+        "per_tunnel": {
+          "A": 0.0001723930000273807,
+          "B": 0.003338039010552255,
+          "C": -0.00016255985779005372,
+          "D": -1.5165509371903758e-06
+        },
+        "positive_tunnels": 2
+      }
+    },
+    "panel_parent_rows": [
+      {
+        "delta_auprc": -0.001951956453670436,
+        "delta_f1": 0.00014038154975398116,
+        "delta_matched_fpr": 0.0007678214285326956,
+        "parent": "0036",
+        "tunnel": "A"
+      },
+      {
+        "delta_auprc": 0.0017884005629002313,
+        "delta_f1": 0.0024184206976309236,
+        "delta_matched_fpr": -0.00016717944418250005,
+        "parent": "0037",
+        "tunnel": "A"
+      },
+      {
+        "delta_auprc": -0.002054130121605787,
+        "delta_f1": -0.002330333699847081,
+        "delta_matched_fpr": 0.00011128881351475806,
+        "parent": "0038",
+        "tunnel": "A"
+      },
+      {
+        "delta_auprc": -0.002191800787392969,
+        "delta_f1": -0.0023524849246615207,
+        "delta_matched_fpr": 9.291577693170842e-05,
+        "parent": "0039",
+        "tunnel": "A"
+      },
+      {
+        "delta_auprc": -0.0014316184659727653,
+        "delta_f1": -0.0006359184514372278,
+        "delta_matched_fpr": 5.711842534024153e-05,
+        "parent": "0040",
+        "tunnel": "A"
+      },
+      {
+        "delta_auprc": -0.008163064822984258,
+        "delta_f1": 0.00039349288897712185,
+        "delta_matched_fpr": 0.003338039010552255,
+        "parent": "0055",
+        "tunnel": "B"
+      },
+      {
+        "delta_auprc": -0.0005667890398252229,
+        "delta_f1": 0.001969609144434127,
+        "delta_matched_fpr": -0.00018393729279999856,
+        "parent": "0116",
+        "tunnel": "C"
+      },
+      {
+        "delta_auprc": 0.003920661600677315,
+        "delta_f1": 0.006427189842434314,
+        "delta_matched_fpr": -0.0006279594214902391,
+        "parent": "0117",
+        "tunnel": "C"
+      },
+      {
+        "delta_auprc": -0.007487088430280823,
+        "delta_f1": -0.0029534286032879184,
+        "delta_matched_fpr": 0.00012858831464415137,
+        "parent": "0118",
+        "tunnel": "C"
+      },
+      {
+        "delta_auprc": -0.0013523534802517435,
+        "delta_f1": -0.001277863987134118,
+        "delta_matched_fpr": -0.00017041963656844842,
+        "parent": "0119",
+        "tunnel": "C"
+      },
+      {
+        "delta_auprc": -0.0034858839278350227,
+        "delta_f1": -0.0014374556097049357,
+        "delta_matched_fpr": 4.092874726426617e-05,
+        "parent": "0120",
+        "tunnel": "C"
+      },
+      {
+        "delta_auprc": 0.00034696423181842145,
+        "delta_f1": 0.0003114563116125445,
+        "delta_matched_fpr": -1.1174558672563719e-06,
+        "parent": "0211",
+        "tunnel": "D"
+      },
+      {
+        "delta_auprc": -8.939735157047984e-05,
+        "delta_f1": -0.00019284291331532632,
+        "delta_matched_fpr": 4.626214631639673e-06,
+        "parent": "0212",
+        "tunnel": "D"
+      },
+      {
+        "delta_auprc": -0.00025983181147099584,
+        "delta_f1": 0.00038592611171717195,
+        "delta_matched_fpr": -8.058411575954427e-06,
+        "parent": "0213",
+        "tunnel": "D"
+      }
+    ],
+    "v23_four_tunnel_mean_delta_auprc": 0.0011664849556436803
+  },
+  "global_gate_pass": false,
+  "natural_crack_apparent_width": {
+    "changes_from_v23": {
+      "delta_absolute_error_px": -0.14867735944472063,
+      "paired_estimable_rate": 0.021759697256385935
+    },
+    "claim_boundary": "Detection uses existing annotated tunnel data. Width is expert-mask-defined natural crack apparent width in pixels, not physical millimetre width or traceable metrology.",
+    "coverage": {
+      "parents": 14,
+      "rois": 1057,
+      "tiles": 382,
+      "tunnels": 4
+    },
+    "coverage_pass": true,
+    "delta_absolute_error_px": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261113,
+      "ci95_high": -0.2191534804305088,
+      "ci95_low": -0.41466601094181094,
+      "clusters": 14,
+      "improved_tunnels": 4,
+      "mean": -0.30722220269698347,
+      "per_tunnel": {
+        "A": -0.4797688174318403,
+        "B": -0.023166179510389035,
+        "C": -0.43393552317156325,
+        "D": -0.29201829067414137
+      },
+      "positive_tunnels": 0
+    },
+    "effective_nonestimable_rate": 0.27436140018921473,
+    "gate": {
+      "pass": true,
+      "requirements": ">=300 ROI, >=100 tiles, >=10 parents, four tunnels; delta absolute-error mean and 95% CI upper <0; >=3/4 tunnels improve; effective non-estimable increase <=2 percentage points; paired estimable rate >=70%"
+    },
+    "paired_estimable_rate": 0.7010406811731315,
+    "raw_nonestimable_rate": 0.2989593188268685,
+    "safe_fallback_rois": 92,
+    "v23": {
+      "delta_absolute_error_px": -0.15854484325226284,
+      "paired_estimable_rate": 0.6792809839167455
+    }
+  },
+  "payload_sha256": "7d2bcbf707bdc28f5268a642a52867e34ddb2b8532db63946d9d2721c38a50e4",
+  "protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "schema_version": "MERIT-C016-V24-CROSSFIT-SUMMARY-v1",
+  "scientific_status": "CROSS_FITTED_DEVELOPMENT_ON_EXISTING_FOUR_TUNNELS",
+  "selection_payload_sha256": "9edfd87ad4b57813b25c8440614ff68b0baecf03ae5d82f082c260ec60076634",
+  "status": "COMPLETE_GATE_FAIL"
+}

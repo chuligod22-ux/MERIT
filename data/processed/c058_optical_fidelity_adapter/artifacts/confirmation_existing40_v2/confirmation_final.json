@@ -1,0 +1,152 @@
+{
+  "artifacts": {
+    "common_complete_case_report": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_complete_case_report.json",
+      "sha256": "1ffd67d380015184e96698a35254cd0826862c50472fa6c5baf2d9460d92af8d"
+    },
+    "common_complete_case_roi_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_complete_case_roi_results.csv",
+      "sha256": "fe9f87af9267b4d2a4578cbaccf201673b5b018682a377f17f59415c8e65920a"
+    },
+    "condition_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_condition_results.csv",
+      "sha256": "9fa226bad5daf238282025001426ebaacab2a6ef7a2aaec73c754121846a8231"
+    },
+    "pixel_diagnostics": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_pixel_diagnostics.csv",
+      "sha256": "1aed2f99350f2fe636b0786afb0a4ceabbcc33c9e6a673ad6eaa51592182f4b4"
+    },
+    "progress_manifest": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_progress_manifest.json",
+      "sha256": "e690a2b5fe02d3fc9cc0c3cd4a146d6639d6a1146d6e0fd7ad959f58557417e9"
+    },
+    "roi_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_roi_results.csv",
+      "sha256": "e9f965cde95a88bc554309bb12164ba7f5f5df15d66e9cb3d5ee5899e273d404"
+    }
+  },
+  "common_complete_case": {
+    "all_roi_identities": 1402,
+    "common_complete_case_fraction": 0.9971469329529244,
+    "common_complete_case_roi_identities": 1398,
+    "gate": "PASS",
+    "gate_checks": {
+      "each_distance_common_complete_case_fraction": true,
+      "overall_common_complete_case_fraction": true
+    },
+    "minimum_distance_common_complete_case_fraction": 0.9876543209876543,
+    "per_distance": [
+      {
+        "common_complete_case_fraction": 1.0,
+        "common_complete_case_roi_identities": 260,
+        "distance_m": 2.5,
+        "roi_identities": 260
+      },
+      {
+        "common_complete_case_fraction": 1.0,
+        "common_complete_case_roi_identities": 247,
+        "distance_m": 3.5,
+        "roi_identities": 247
+      },
+      {
+        "common_complete_case_fraction": 0.9876543209876543,
+        "common_complete_case_roi_identities": 240,
+        "distance_m": 4.5,
+        "roi_identities": 243
+      },
+      {
+        "common_complete_case_fraction": 1.0,
+        "common_complete_case_roi_identities": 312,
+        "distance_m": 5.5,
+        "roi_identities": 312
+      },
+      {
+        "common_complete_case_fraction": 0.9970588235294118,
+        "common_complete_case_roi_identities": 339,
+        "distance_m": 6.5,
+        "roi_identities": 340
+      }
+    ],
+    "run_keys": [
+      "raw_none",
+      "band_inverse_a0.500_s0.75_cap8_0",
+      "band_inverse_a0.500_s0.75_cap8_1",
+      "band_inverse_a0.500_s0.75_cap8_2"
+    ]
+  },
+  "completed_utc": "2026-10-20T14:45:57+00:00",
+  "counts": {
+    "condition_cells": 40,
+    "frames": 387,
+    "roi_identities": 1402,
+    "seeds": 3
+  },
+  "evidence_label": "adapter-level held-out conditions, not independent data; C057 model outputs were previously observed",
+  "gate": "FAIL",
+  "inputs": {
+    "c057_restoration_freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719",
+    "contract_sha256": "1296a68a1b9856d6aa55656fb43b23fc5d35e2e311ca764ff764b39fdea20184",
+    "selection_freeze_sha256": "b0c18e6a14102b7c771cb521bcc4180a1f622594f38636f5a7b4dcdb907b815a"
+  },
+  "schema_version": "MERIT-C058-OPTICAL-FIDELITY-DEVELOPMENT-v2",
+  "selected_candidate": {
+    "alpha": -0.5,
+    "cap_dn": 8.0,
+    "route_id": "band_inverse_a0.500_s0.75_cap8",
+    "sharp_gain": 0.0,
+    "sigma": 0.75
+  },
+  "state": "EXISTING40_CONFIRMATION_COMPLETE",
+  "summary": {
+    "all_seed_means_nonpositive": false,
+    "alpha": -0.5,
+    "cap_dn": 8.0,
+    "common_complete_case_min_distance_fraction": 0.9876543209876543,
+    "common_complete_case_overall_fraction": 0.9971469329529244,
+    "condition_cells": 40,
+    "condition_cluster_bootstrap_95pct_ci": [
+      -0.0003077107617224823,
+      0.0009204807044101662
+    ],
+    "conditions_improved": 22,
+    "conditions_tied": 0,
+    "conditions_worsened": 18,
+    "gate": "FAIL",
+    "gate_checks": {
+      "all_three_seed_means_nonpositive": false,
+      "ci_upper_lt_zero": false,
+      "each_distance_common_complete_case_coverage": true,
+      "incremental_contribution": true,
+      "introduced_clipping": true,
+      "maximum_abs_change_dn": true,
+      "mean_delta_lt_zero": false,
+      "merit_residual_dependency": true,
+      "minimum_condition_improvements": false,
+      "overall_common_complete_case_coverage": true,
+      "preclip_overshoot": false,
+      "reference_exact_bypass": true
+    },
+    "incremental_contribution": {
+      "applicable": false,
+      "matching_raw_only_route_id": null,
+      "mean_candidate_minus_raw_only_abs_error_cy_px": null,
+      "paired_condition_bootstrap_95pct_ci": null,
+      "pass": true,
+      "reason": "N/A_ALREADY_GATED_IN_FROZEN_DEVELOPMENT"
+    },
+    "maximum_abs_change_dn": 3.985970973968506,
+    "maximum_introduced_clipping_fraction": 0.002875919091499228,
+    "maximum_preclip_overshoot_fraction": 0.5574260034249698,
+    "mean_restored_minus_raw_abs_error_cy_px": 0.0002890152707321375,
+    "route_id": "band_inverse_a0.500_s0.75_cap8",
+    "seed_mean_deltas_cy_px": {
+      "0": 0.00034590282047509133,
+      "1": -1.31158225127527e-05,
+      "2": 0.0005342588142340738
+    },
+    "seeds": 3,
+    "sharp_gain": 0.0,
+    "sigma": 0.75,
+    "technical_gate": "FAIL"
+  }
+}

@@ -1,0 +1,5310 @@
+{
+  "elapsed_seconds_this_invocation": 691.0814980999567,
+  "folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "parent_rows": [
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0009506310021033526,
+      "delta_f1": 0.0007195370659618394,
+      "delta_matched_fpr": -5.7148416799934765e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.0042916568398131405,
+      "delta_f1": 0.0028918499626012784,
+      "delta_matched_fpr": -0.0002211942854102155,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.005972616102201234,
+      "delta_f1": 0.003488543891124629,
+      "delta_matched_fpr": -0.00026228446939033194,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.008182864649093347,
+      "delta_f1": 0.004944250692555774,
+      "delta_matched_fpr": -0.0003975199791180009,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.012418607047253394,
+      "delta_f1": 0.007491824549145321,
+      "delta_matched_fpr": -0.000611472316393788,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.016778265663423553,
+      "delta_f1": 0.009154423482744534,
+      "delta_matched_fpr": -0.0007509585348090542,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0203090438498178,
+      "delta_f1": 0.011981958382943136,
+      "delta_matched_fpr": -0.000996240169448992,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -5.95556716076473e-06,
+      "delta_f1": 3.338772222150066e-05,
+      "delta_matched_fpr": -2.991239446829483e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -2.102855199026532e-05,
+      "delta_f1": 7.390778178184565e-05,
+      "delta_matched_fpr": -1.8892038611550976e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0004291738421356994,
+      "delta_f1": 0.0005331435006573626,
+      "delta_matched_fpr": -4.565575997790908e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.00034000087675634116,
+      "delta_f1": 0.0003350220723958852,
+      "delta_matched_fpr": -2.314274729914821e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.009460256864171401,
+      "delta_f1": 0.005082977491697505,
+      "delta_matched_fpr": -0.00041310591097252873,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.015046435899384591,
+      "delta_f1": 0.00925123523438287,
+      "delta_matched_fpr": -0.0007693782724553146,
+      "detector": "d2_resnet34_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0003143429849009616,
+      "delta_f1": -3.4321795428060575e-05,
+      "delta_matched_fpr": 3.516219831447079e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.004152700230846573,
+      "delta_f1": 0.0008656035282094132,
+      "delta_matched_fpr": -4.661035590522965e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.004728496381975256,
+      "delta_f1": 0.0009200379434578521,
+      "delta_matched_fpr": -1.2920063566712256e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.007430997575180176,
+      "delta_f1": 0.0012653852383301967,
+      "delta_matched_fpr": -6.67264042432756e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.011476218463464916,
+      "delta_f1": -0.0004121778439224455,
+      "delta_matched_fpr": 0.00017515681113859996,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.017482811026741207,
+      "delta_f1": 0.0025841183782431276,
+      "delta_matched_fpr": -3.843310048325978e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0244925828399013,
+      "delta_f1": 0.008790891192470118,
+      "delta_matched_fpr": -0.0005295590611267831,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 4.6497082400898115e-05,
+      "delta_f1": 0.00010029034396330516,
+      "delta_matched_fpr": -8.667890747288826e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 1.863864079720834e-05,
+      "delta_f1": 0.00028765714993783664,
+      "delta_matched_fpr": -3.2545476579440985e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0004592896302719751,
+      "delta_f1": 0.00037800803809528993,
+      "delta_matched_fpr": -3.418092766383461e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0019788034705472413,
+      "delta_f1": 0.0011884059305254935,
+      "delta_matched_fpr": -0.00010090733190711021,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.009366590997852087,
+      "delta_f1": 0.0017674611647267024,
+      "delta_matched_fpr": -7.719329118339828e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.015174429811342871,
+      "delta_f1": 0.001760333489530308,
+      "delta_matched_fpr": -1.1448157590758859e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0010290899632200423,
+      "delta_f1": -0.00035260280812365874,
+      "delta_matched_fpr": 1.971086896475436e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0003534246915524175,
+      "delta_f1": -0.00042222769611655053,
+      "delta_matched_fpr": -2.754300232823189e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0032681098482758575,
+      "delta_f1": -0.004080599434134635,
+      "delta_matched_fpr": 0.00021029278080939365,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.006759459792501921,
+      "delta_f1": -0.008177516910413019,
+      "delta_matched_fpr": 0.00040466022377971464,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.0036387776411360706,
+      "delta_f1": -0.006829896887708298,
+      "delta_matched_fpr": 0.00031798461455722054,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.005349449307531118,
+      "delta_f1": -0.011227377313276277,
+      "delta_matched_fpr": 0.00046092104844070066,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.008158350388069002,
+      "delta_f1": -0.013162075827458986,
+      "delta_matched_fpr": 0.0006438013624779203,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 0.0002008505580700648,
+      "delta_f1": 8.00232187423422e-05,
+      "delta_matched_fpr": -2.480175565101536e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0005239609562265324,
+      "delta_f1": 0.00019632938365887753,
+      "delta_matched_fpr": -9.006953367999768e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 8.408413947902371e-05,
+      "delta_f1": -0.0005487986366993214,
+      "delta_matched_fpr": 3.067585567362394e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0006566749333647426,
+      "delta_f1": 2.0499944721197316e-05,
+      "delta_matched_fpr": 5.613028910492722e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0035050997796661765,
+      "delta_f1": -0.007381122228017234,
+      "delta_matched_fpr": 0.0003412199435355399,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.005119007865833747,
+      "delta_f1": -0.009967571709468381,
+      "delta_matched_fpr": 0.0004584408728755991,
+      "detector": "d2_resnet34_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 2.6613519208074088e-05,
+      "delta_f1": 0.0004109444694606612,
+      "delta_matched_fpr": -3.275435385437925e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0012771493055414584,
+      "delta_f1": -0.004529772659871978,
+      "delta_matched_fpr": 0.0002272685387832065,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.00018896359266518115,
+      "delta_f1": -0.004119925713142014,
+      "delta_matched_fpr": 0.00024392738705803808,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.004581116304887001,
+      "delta_f1": -0.00041886757585696266,
+      "delta_matched_fpr": -2.824761229210538e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.002686075230245999,
+      "delta_f1": -0.0035068387430352566,
+      "delta_matched_fpr": 0.00016538131982984754,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0025261763199867504,
+      "delta_f1": -0.0060775618047700375,
+      "delta_matched_fpr": 0.000326819240792706,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.002105560069005863,
+      "delta_f1": -0.007624583676183128,
+      "delta_matched_fpr": 0.0003855678361580541,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -9.563069964135806e-06,
+      "delta_f1": 1.8624744656747794e-05,
+      "delta_matched_fpr": 4.828651673860831e-07,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -3.750742239150284e-05,
+      "delta_f1": -0.0002008783812835757,
+      "delta_matched_fpr": 1.1588764017273802e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0005854207002535805,
+      "delta_f1": 0.00017108380845298754,
+      "delta_matched_fpr": -9.898735931422077e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0033959061248475253,
+      "delta_f1": 0.002504938152445235,
+      "delta_matched_fpr": -0.0001472738760528577,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.002518780095440487,
+      "delta_f1": -0.0017424924133592201,
+      "delta_matched_fpr": 4.6516011124891725e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.003442362275374311,
+      "delta_f1": -0.003073219854026865,
+      "delta_matched_fpr": 0.00012755688171791138,
+      "detector": "d2_resnet34_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0034107727463794646,
+      "delta_f1": 0.002125119016051613,
+      "delta_matched_fpr": -0.00019855278543073375,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.007293180215548367,
+      "delta_f1": 0.004203144226666011,
+      "delta_matched_fpr": -0.00038591949844283234,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.010049205626217583,
+      "delta_f1": 0.008046301271412148,
+      "delta_matched_fpr": -0.0007443673190340241,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.011568572647869702,
+      "delta_f1": 0.007247648108328342,
+      "delta_matched_fpr": -0.0006823504175366042,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.01677016392519126,
+      "delta_f1": 0.00986686469896736,
+      "delta_matched_fpr": -0.0008937342860357682,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0178094668386104,
+      "delta_f1": 0.011240756876746638,
+      "delta_matched_fpr": -0.0010185905943555082,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.01694529661069688,
+      "delta_f1": 0.009756665780967677,
+      "delta_matched_fpr": -0.0008665916103140856,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -6.7118354013517845e-06,
+      "delta_f1": -6.223472269928365e-05,
+      "delta_matched_fpr": 6.580042599195826e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.00045395372345058416,
+      "delta_f1": 0.00045004458547770465,
+      "delta_matched_fpr": -3.750624281541673e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0003849716748166587,
+      "delta_f1": -7.359884969770913e-05,
+      "delta_matched_fpr": 4.441528754457746e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0054327248522936245,
+      "delta_f1": 0.0025907787193011345,
+      "delta_matched_fpr": -0.00026484671461762983,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.012584351990452158,
+      "delta_f1": 0.008967069982647291,
+      "delta_matched_fpr": -0.0008246438387442129,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.01514714917394222,
+      "delta_f1": 0.00968993224076542,
+      "delta_matched_fpr": -0.0008884702519564112,
+      "detector": "d2_resnet34_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0012180525619430727,
+      "delta_f1": 0.0008305186040930002,
+      "delta_matched_fpr": -7.210461403407697e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.00376676406056331,
+      "delta_f1": 0.003244201994783369,
+      "delta_matched_fpr": -0.0002536256183600389,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.004811097360139738,
+      "delta_f1": 0.0025407007959680206,
+      "delta_matched_fpr": -0.00018923525342567828,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.0034457279112590777,
+      "delta_f1": 0.002080340276972903,
+      "delta_matched_fpr": -0.00016073976185325845,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.0022854379234094058,
+      "delta_f1": 0.001590789169928275,
+      "delta_matched_fpr": -0.00012925303083401174,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0004697304171901173,
+      "delta_f1": -0.0002737293488277448,
+      "delta_matched_fpr": 1.920690592174118e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.00030371003284179743,
+      "delta_f1": -0.0009205852674094572,
+      "delta_matched_fpr": 7.257691499936488e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -4.552970789939437e-06,
+      "delta_f1": 1.619359749327476e-05,
+      "delta_matched_fpr": -7.871682754815798e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 7.061192286950124e-05,
+      "delta_f1": 7.963173938030366e-07,
+      "delta_matched_fpr": 9.446019305775488e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0009237242013367952,
+      "delta_f1": 0.00038321736739532763,
+      "delta_matched_fpr": -3.069956274376687e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.001356766281202848,
+      "delta_f1": 0.0007609798788577038,
+      "delta_matched_fpr": -6.454779858945745e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0031134910242714975,
+      "delta_f1": 0.0022507904224535746,
+      "delta_matched_fpr": -0.00018167843798105876,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.001735119597855883,
+      "delta_f1": 0.001213403483041886,
+      "delta_matched_fpr": -9.257098919658764e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0013431385329837342,
+      "delta_f1": 9.794149301300958e-05,
+      "delta_matched_fpr": 7.850165205091145e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0007915880088102956,
+      "delta_f1": 0.001637949185574028,
+      "delta_matched_fpr": -0.00011807956829324763,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.00017782431303414725,
+      "delta_f1": 0.00012053259878075373,
+      "delta_matched_fpr": 1.3083608675152486e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.003386143714314782,
+      "delta_f1": -0.00298897533163478,
+      "delta_matched_fpr": 0.0002631440794789979,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.009610231352764176,
+      "delta_f1": -0.003700332023441666,
+      "delta_matched_fpr": 0.0003367393782767285,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.013477680528101499,
+      "delta_f1": -0.004063241384650862,
+      "delta_matched_fpr": 0.0003771350200612606,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.010447456732308735,
+      "delta_f1": -0.0032795876507926147,
+      "delta_matched_fpr": 0.0003280714875294414,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 1.1377295920045327e-05,
+      "delta_f1": -4.500262183015913e-06,
+      "delta_matched_fpr": 1.6354510844023007e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0001947620853702814,
+      "delta_f1": 8.984545956491896e-05,
+      "delta_matched_fpr": -6.378259229136013e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0010167927408811783,
+      "delta_f1": 0.00046637943648975,
+      "delta_matched_fpr": -3.843310048325804e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0005620702983012427,
+      "delta_f1": 5.427494376819553e-06,
+      "delta_matched_fpr": 2.1260864097125826e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.003866000286481208,
+      "delta_f1": -0.001939234964077996,
+      "delta_matched_fpr": 0.00020066984805514748,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.010750949245717067,
+      "delta_f1": -0.0037343488377040712,
+      "delta_matched_fpr": 0.0003437718179396237,
+      "detector": "d2_vgg16_unet",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.002758804367114842,
+      "delta_f1": 0.0013212193254840132,
+      "delta_matched_fpr": -9.359399369356612e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.0025920307926867725,
+      "delta_f1": 0.0019470933256665601,
+      "delta_matched_fpr": -0.00013144930495037795,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.005772812671939076,
+      "delta_f1": 0.0050570752543576125,
+      "delta_matched_fpr": -0.0003132853345391342,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.008397321949922154,
+      "delta_f1": 0.005094725948664447,
+      "delta_matched_fpr": -0.00028065144552464043,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.011065229119038733,
+      "delta_f1": 0.00886772909392508,
+      "delta_matched_fpr": -0.0004951213641278896,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.014488051042849781,
+      "delta_f1": 0.008937425946929256,
+      "delta_matched_fpr": -0.0005026924263792521,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.01116464875144485,
+      "delta_f1": 0.0064485878477105185,
+      "delta_matched_fpr": -0.0003906929192815118,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 0.00029913679140392,
+      "delta_f1": 9.577298296281622e-05,
+      "delta_matched_fpr": -6.396242246841169e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 7.692180463825249e-05,
+      "delta_f1": 3.199663104536121e-05,
+      "delta_matched_fpr": -1.9580333408698164e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0021768085621924893,
+      "delta_f1": 0.000866509821878747,
+      "delta_matched_fpr": -6.813956026226198e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.00485366041185864,
+      "delta_f1": 0.0027605243258683743,
+      "delta_matched_fpr": -0.00016499694285727722,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.00691199416006727,
+      "delta_f1": 0.004200476852544988,
+      "delta_matched_fpr": -0.00024436256094052464,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.01130938294742756,
+      "delta_f1": 0.009379383759840154,
+      "delta_matched_fpr": -0.000530235428707484,
+      "detector": "d2_vgg16_unet",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0019654605605365916,
+      "delta_f1": 0.0018158716685253706,
+      "delta_matched_fpr": -0.0001141171345589902,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.00280237693546892,
+      "delta_f1": 0.0034661382836796983,
+      "delta_matched_fpr": -0.00024223735897218636,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.009037506684289043,
+      "delta_f1": 0.006941479977433329,
+      "delta_matched_fpr": -0.0004406949427680036,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.013549513750066411,
+      "delta_f1": 0.009503133696098343,
+      "delta_matched_fpr": -0.000572678088520291,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.01672389611816527,
+      "delta_f1": 0.011475090742170124,
+      "delta_matched_fpr": -0.000673435953448257,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.019856194438052865,
+      "delta_f1": 0.013360778194734135,
+      "delta_matched_fpr": -0.0007900478913720772,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.021328021937055186,
+      "delta_f1": 0.013052399189464658,
+      "delta_matched_fpr": -0.0007696065992860521,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 1.448374941537267e-06,
+      "delta_f1": -1.8792726304006635e-06,
+      "delta_matched_fpr": 2.414325836926079e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -4.1501613728733844e-05,
+      "delta_f1": -3.5969439182936824e-05,
+      "delta_matched_fpr": 2.011938197443025e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.002407571932826702,
+      "delta_f1": 0.0014115729636653418,
+      "delta_matched_fpr": -9.005435371756739e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.007712295017314075,
+      "delta_f1": 0.005443659136070256,
+      "delta_matched_fpr": -0.00031957626328191126,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.01291777874135469,
+      "delta_f1": 0.009176421823674175,
+      "delta_matched_fpr": -0.0005483738750951747,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.01858394874998237,
+      "delta_f1": 0.012492081594172477,
+      "delta_matched_fpr": -0.0007383813184617307,
+      "detector": "d2_vgg16_unet",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0016097702101970368,
+      "delta_f1": -0.0010617416513873934,
+      "delta_matched_fpr": 9.59041208832799e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.00024791540096469333,
+      "delta_f1": 0.0011216554025275105,
+      "delta_matched_fpr": -8.94885793490622e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.0035804927938160036,
+      "delta_f1": 0.00041682033714018907,
+      "delta_matched_fpr": 6.580042599194091e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.0027195072608720006,
+      "delta_f1": -0.0018058094231996336,
+      "delta_matched_fpr": 0.00021269987701900452,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.003182773677013695,
+      "delta_f1": -0.004015403287768504,
+      "delta_matched_fpr": 0.00041816170717889206,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.0065538026249067904,
+      "delta_f1": -0.005480714249974206,
+      "delta_matched_fpr": 0.0005599616251915612,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.013104432837230062,
+      "delta_f1": -0.00858936392980103,
+      "delta_matched_fpr": 0.0008738296571732009,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -8.050338108467336e-06,
+      "delta_f1": -1.0469764344600563e-05,
+      "delta_matched_fpr": 1.8095117147801099e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.00022925509273985512,
+      "delta_f1": -2.5360783898698003e-05,
+      "delta_matched_fpr": 2.3030149097196667e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0007038283394550371,
+      "delta_f1": -0.0004386953420435491,
+      "delta_matched_fpr": 5.280484185854646e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.001248325142496176,
+      "delta_f1": -0.0011044926692534984,
+      "delta_matched_fpr": 0.00012140178595516221,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0009985975976073425,
+      "delta_f1": -0.002077627090607548,
+      "delta_matched_fpr": 0.0002191154185532205,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.0019981295356242823,
+      "delta_f1": -0.0036091305683118025,
+      "delta_matched_fpr": 0.000404343617720581,
+      "detector": "d2_vgg16_unet",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0033875957451946492,
+      "delta_f1": -0.0007018930383597688,
+      "delta_matched_fpr": 2.8338057917326465e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.013666720193339366,
+      "delta_f1": -0.002136143230153764,
+      "delta_matched_fpr": -9.760886615965692e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.022800287111497064,
+      "delta_f1": -0.0033039380927736284,
+      "delta_matched_fpr": 6.927080824234433e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.020985326772213764,
+      "delta_f1": -0.0035931294742345132,
+      "delta_matched_fpr": 2.5189384815403615e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.03594300627769553,
+      "delta_f1": -0.006834099724668752,
+      "delta_matched_fpr": 0.00014247745786209742,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.045539605104290004,
+      "delta_f1": -0.008971651482525544,
+      "delta_matched_fpr": 0.0003068381937825701,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.04985810943982116,
+      "delta_f1": -0.01195661679797333,
+      "delta_matched_fpr": 0.0005052045992038276,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 0.00014073724394148002,
+      "delta_f1": -7.602011835139422e-06,
+      "delta_matched_fpr": 2.0466375162536687e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0011048528507361377,
+      "delta_f1": -9.840190405396854e-05,
+      "delta_matched_fpr": -4.723009652887744e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0014222862905536315,
+      "delta_f1": -0.0002134616781973575,
+      "delta_matched_fpr": -9.60345296086712e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.004678686371636043,
+      "delta_f1": -0.0009634089878843843,
+      "delta_matched_fpr": 1.6530533785107104e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.023560871383574322,
+      "delta_f1": -0.003958154674870373,
+      "delta_matched_fpr": -3.2431332949819924e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.03927875754458576,
+      "delta_f1": -0.008030986849469457,
+      "delta_matched_fpr": 0.00017868719853423448,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0036",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00043371096485889105,
+      "delta_f1": 0.0005219756433276768,
+      "delta_matched_fpr": -4.5301995037714746e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.007710512569080286,
+      "delta_f1": 0.005746610723023626,
+      "delta_matched_fpr": -0.0004651222884016603,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.004132677759666192,
+      "delta_f1": 0.005530665743852747,
+      "delta_matched_fpr": -0.0004728089084983112,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.007342199884290412,
+      "delta_f1": 0.008631009795749711,
+      "delta_matched_fpr": -0.0007088044999763688,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.004246372884018967,
+      "delta_f1": 0.00601882820512889,
+      "delta_matched_fpr": -0.00048425706608907007,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.0013331113910786119,
+      "delta_f1": 0.004003458722903308,
+      "delta_matched_fpr": -0.0003310152994813499,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.004043517044547418,
+      "delta_f1": 0.007392530880158454,
+      "delta_matched_fpr": -0.0006311205734676525,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -2.700107844089139e-05,
+      "delta_f1": -1.2509020715922858e-06,
+      "delta_matched_fpr": 4.906353253172208e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0001252917925228525,
+      "delta_f1": -5.9817621110402897e-05,
+      "delta_matched_fpr": 6.214714120695783e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 7.979243827294091e-05,
+      "delta_f1": -0.0004608095809004453,
+      "delta_matched_fpr": 3.05829352781669e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0007533039585085888,
+      "delta_f1": 0.001446029575458474,
+      "delta_matched_fpr": -0.0001138273954738242,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.005653250287822487,
+      "delta_f1": 0.006989161409777345,
+      "delta_matched_fpr": -0.0006067523523101814,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.0038941952655235923,
+      "delta_f1": 0.006913098560312081,
+      "delta_matched_fpr": -0.0005693005224775595,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0037",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0019623562491618562,
+      "delta_f1": 0.0012821340729702868,
+      "delta_matched_fpr": -0.00014724410723339267,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.020986613157032763,
+      "delta_f1": -0.0025935203672136087,
+      "delta_matched_fpr": 0.00012727216715652332,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.020213319551923625,
+      "delta_f1": -0.0028980961621627443,
+      "delta_matched_fpr": 0.00011186897154168238,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.028935794249134617,
+      "delta_f1": -0.008475882184946881,
+      "delta_matched_fpr": 0.0004575271239831936,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.02879137966587919,
+      "delta_f1": -0.008673001178014061,
+      "delta_matched_fpr": 2.07551534132178e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.028191365280521796,
+      "delta_f1": -0.005311916960273,
+      "delta_matched_fpr": -3.7724775700753894e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.027956281373444636,
+      "delta_f1": -0.006725828926520738,
+      "delta_matched_fpr": 9.58130981465518e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -3.6212324282858255e-05,
+      "delta_f1": 2.3319726246140426e-05,
+      "delta_matched_fpr": -9.137488924055095e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -8.826766974501243e-05,
+      "delta_f1": -0.00026092209730055327,
+      "delta_matched_fpr": 7.3099911392466785e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0005165143806522554,
+      "delta_f1": 0.0022549841389931657,
+      "delta_matched_fpr": -0.00012870805827316055,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.00047686695885174046,
+      "delta_f1": 0.0016171181373899612,
+      "delta_matched_fpr": -0.0001368012627487548,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.024334658056865077,
+      "delta_f1": -0.005986821154955191,
+      "delta_matched_fpr": 5.7566180221566184e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.0224426572543468,
+      "delta_f1": -0.004523892933099294,
+      "delta_matched_fpr": -0.00021316456304266897,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0038",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0007215323340382662,
+      "delta_f1": -0.0014763014161093269,
+      "delta_matched_fpr": 2.2453230283468045e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.00042649137961314754,
+      "delta_f1": -0.0009661461127112858,
+      "delta_matched_fpr": -2.0924157253417175e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0038948107807291743,
+      "delta_f1": -0.004062256206800119,
+      "delta_matched_fpr": 7.878749981188315e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.004803163058011095,
+      "delta_f1": -0.007260736414592572,
+      "delta_matched_fpr": 0.0002085977523109319,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.004763685556272601,
+      "delta_f1": -0.007505211785363786,
+      "delta_matched_fpr": 0.00025430898815684624,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.0090685403077444,
+      "delta_f1": -0.013077450501341348,
+      "delta_matched_fpr": 0.00044986938094834523,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.013873836259082117,
+      "delta_f1": -0.017182525308144236,
+      "delta_matched_fpr": 0.0006457516838514355,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.529171921321737e-05,
+      "delta_f1": 4.368003249799468e-05,
+      "delta_matched_fpr": -5.633426952847756e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00041504662113234225,
+      "delta_f1": -0.00044452458214927493,
+      "delta_matched_fpr": 2.4223735897218462e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0007310427139094466,
+      "delta_f1": -0.0008715435409194505,
+      "delta_matched_fpr": 2.462612353670672e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 4.1765039235586165e-05,
+      "delta_f1": -0.0007780547593768672,
+      "delta_matched_fpr": 3.21910111590433e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0037883791341866146,
+      "delta_f1": -0.005441399208984676,
+      "delta_matched_fpr": 0.00012852261205268441,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.005410238710509052,
+      "delta_f1": -0.009077477282607216,
+      "delta_matched_fpr": 0.0002848099712300881,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0039",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.005133519139402187,
+      "delta_f1": -0.0026784403819326563,
+      "delta_matched_fpr": 0.0002041458216400496,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.002812142684865071,
+      "delta_f1": 0.0007604665855560633,
+      "delta_matched_fpr": -2.4839660811963767e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0035665314218276123,
+      "delta_f1": -0.0026887473579917387,
+      "delta_matched_fpr": 0.0002768552923611634,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.010891775410431292,
+      "delta_f1": -0.006690722300608409,
+      "delta_matched_fpr": 0.0006196755117792632,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.01060039516857425,
+      "delta_f1": -0.00644137988636595,
+      "delta_matched_fpr": 0.0006116149595952487,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.01129744560446988,
+      "delta_f1": -0.005208696515560884,
+      "delta_matched_fpr": 0.0005606196294514814,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.014689480658106158,
+      "delta_f1": -0.00901464994288037,
+      "delta_matched_fpr": 0.0008621500815596279,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 0.00010124962798352399,
+      "delta_f1": 3.7515644136565385e-05,
+      "delta_matched_fpr": -2.796518104657489e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0003027053123224599,
+      "delta_f1": -6.219307573651633e-05,
+      "delta_matched_fpr": 3.4545223645777653e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0006112807833353884,
+      "delta_f1": -0.0005772281317057981,
+      "delta_matched_fpr": 4.984382268890825e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0018760373479296266,
+      "delta_f1": -0.001932571625041568,
+      "delta_matched_fpr": 0.00015068297552158372,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.011280263762783904,
+      "delta_f1": -0.0068196893190336505,
+      "delta_matched_fpr": 0.0006196755117792632,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.00866708208473621,
+      "delta_f1": -0.006507990076485837,
+      "delta_matched_fpr": 0.0005930263392525201,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0040",
+      "tunnel": "A"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0030454120476379742,
+      "delta_f1": -0.0036012867702776563,
+      "delta_matched_fpr": 5.66147471916861e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.00572730768280999,
+      "delta_f1": -0.003157721961649318,
+      "delta_matched_fpr": 8.374030200917386e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.007384230542053061,
+      "delta_f1": -0.001615058491998389,
+      "delta_matched_fpr": 6.078487916673977e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.007928061805119513,
+      "delta_f1": 5.3327195504937475e-05,
+      "delta_matched_fpr": 7.40043663589136e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.017613241570167693,
+      "delta_f1": 0.0020069026015704927,
+      "delta_matched_fpr": 0.0001658654516879291,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.016534924764495695,
+      "delta_f1": 0.01081549036525059,
+      "delta_matched_fpr": 0.00010615546483864558,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.020497246101228217,
+      "delta_f1": 0.013882519809408411,
+      "delta_matched_fpr": 0.014828482809528554,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 6.110558910210617e-05,
+      "delta_f1": 2.8501329514929452e-05,
+      "delta_matched_fpr": -6.190479315227801e-08,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0001532724271537944,
+      "delta_f1": -0.000642960199008169,
+      "delta_matched_fpr": 1.1294810895995117e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -4.38040032270659e-05,
+      "delta_f1": 0.00039446120968816833,
+      "delta_matched_fpr": 4.063205514154636e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0020704892243673667,
+      "delta_f1": -0.0008338578914543482,
+      "delta_matched_fpr": 2.533594352454975e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.009732126430973043,
+      "delta_f1": 0.00193616929917384,
+      "delta_matched_fpr": 7.890610043485412e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.014490521475695683,
+      "delta_f1": 0.0046370598805889895,
+      "delta_matched_fpr": 0.00012824984828542106,
+      "detector": "d2_resnet34_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00018717554596808794,
+      "delta_f1": 0.0012517737870820778,
+      "delta_matched_fpr": -1.2645460928401497e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0009742422386551097,
+      "delta_f1": -0.0043958156497389544,
+      "delta_matched_fpr": 5.483076360721659e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.003406478208367869,
+      "delta_f1": -0.005873820043029276,
+      "delta_matched_fpr": 7.095414836906359e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0030666567243342047,
+      "delta_f1": -0.003965755927872683,
+      "delta_matched_fpr": 4.628790215224841e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.0013802493580763464,
+      "delta_f1": 0.002580246283816534,
+      "delta_matched_fpr": -2.6033779374626427e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.006420290351908775,
+      "delta_f1": 0.004469994309190373,
+      "delta_matched_fpr": -4.638920090467894e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.00891742551275107,
+      "delta_f1": 0.010616686053669389,
+      "delta_matched_fpr": -0.00011367971106084128,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -0.00013619001064013592,
+      "delta_f1": -0.00010981545371063772,
+      "delta_matched_fpr": 1.4519487848364734e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00040984572411914555,
+      "delta_f1": -0.0003132214073294226,
+      "delta_matched_fpr": 4.046322388749765e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0005421121650124316,
+      "delta_f1": 3.305776072576316e-05,
+      "delta_matched_fpr": 1.1818187783539831e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0008746906519722375,
+      "delta_f1": -4.960902244466325e-05,
+      "delta_matched_fpr": 3.0164517390400547e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.002906088726055578,
+      "delta_f1": -0.002281188418561564,
+      "delta_matched_fpr": 2.6956723563437103e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.001813217362170605,
+      "delta_f1": 0.003081520912945279,
+      "delta_matched_fpr": -3.360304726456845e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00733468402632903,
+      "delta_f1": 0.004054460925373871,
+      "delta_matched_fpr": -3.7193525267381275e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.012553012958094967,
+      "delta_f1": 0.016932704957970612,
+      "delta_matched_fpr": -0.00014788492313152417,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.01790792663248464,
+      "delta_f1": 0.02066230422873805,
+      "delta_matched_fpr": -0.00017598969922250638,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.021331757734329215,
+      "delta_f1": 0.02803749387123411,
+      "delta_matched_fpr": -0.000237871981540576,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.01628156357521726,
+      "delta_f1": 0.02501471224120011,
+      "delta_matched_fpr": -9.989745302183147e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.025806674290182796,
+      "delta_f1": 0.03281072873485141,
+      "delta_matched_fpr": -0.00022659405376998574,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.03590235673741038,
+      "delta_f1": 0.03196684925052151,
+      "delta_matched_fpr": -0.00027209970444513226,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 7.938497510151521e-05,
+      "delta_f1": -5.60660148103409e-05,
+      "delta_matched_fpr": 6.865804331396622e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0003986432905420667,
+      "delta_f1": 2.6969476438987172e-05,
+      "delta_matched_fpr": -1.91342087924257e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0012361638066628045,
+      "delta_f1": 0.0003098356596742402,
+      "delta_matched_fpr": -1.4575764933049806e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0037164297239390964,
+      "delta_f1": 0.0021382654546424074,
+      "delta_matched_fpr": -2.0833776749863264e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.018779507415398577,
+      "delta_f1": 0.026894531656138032,
+      "delta_matched_fpr": -0.00020462347990951417,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.02031050610894586,
+      "delta_f1": 0.028280914709578442,
+      "delta_matched_fpr": -0.00013952777605601174,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0055",
+      "tunnel": "B"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0055018446609403915,
+      "delta_f1": 0.003954085756700865,
+      "delta_matched_fpr": -0.0003508373533446744,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.005074896557082376,
+      "delta_f1": 0.0028680898238372388,
+      "delta_matched_fpr": -0.00026771140085980055,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.003612834643683893,
+      "delta_f1": 0.0025656892628610484,
+      "delta_matched_fpr": -0.00023604437134175545,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.0061376240027373186,
+      "delta_f1": 0.0047675744033418566,
+      "delta_matched_fpr": -0.0004468801205013799,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.002064493325141248,
+      "delta_f1": 0.002185328001310105,
+      "delta_matched_fpr": -0.00021208576348270662,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.003814239625707483,
+      "delta_f1": 0.0017333718273638832,
+      "delta_matched_fpr": -0.00015666846182612465,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.004903109049889887,
+      "delta_f1": 0.001901799609421495,
+      "delta_matched_fpr": -0.0001904188485493067,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 7.609921172535561e-05,
+      "delta_f1": 4.958735471305431e-05,
+      "delta_matched_fpr": -1.2500143230804311e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0004355660418330354,
+      "delta_f1": 0.00026728056217228957,
+      "delta_matched_fpr": -2.5000286461615562e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0030315201271050585,
+      "delta_f1": 0.0013392710318423928,
+      "delta_matched_fpr": -0.00013020982532091496,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.006319926939939768,
+      "delta_f1": 0.003931522303543655,
+      "delta_matched_fpr": -0.00035542073919597045,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0036989555418448505,
+      "delta_f1": 0.002204194074446497,
+      "delta_matched_fpr": -0.00021229409920322032,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.00264142850647453,
+      "delta_f1": 0.0018472749220554974,
+      "delta_matched_fpr": -0.00017083529082104025,
+      "detector": "d2_resnet34_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0007828714888016286,
+      "delta_f1": 0.0011302035981399783,
+      "delta_matched_fpr": -8.794257365076982e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0015188512175613456,
+      "delta_f1": -0.00039255655850978233,
+      "delta_matched_fpr": 3.9051951810496754e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.002307919460386776,
+      "delta_f1": -0.0002563216960037584,
+      "delta_matched_fpr": 2.300735145424615e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0011696962601093208,
+      "delta_f1": 0.0015378700417977287,
+      "delta_matched_fpr": -0.00012593497638113682,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.00022046890841054267,
+      "delta_f1": 0.0014828025663622402,
+      "delta_matched_fpr": -0.00011412857234540524,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0005505571041656276,
+      "delta_f1": 0.0018643146818163592,
+      "delta_matched_fpr": -0.00014909369198968722,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0007464303658293314,
+      "delta_f1": 0.0013094695311465232,
+      "delta_matched_fpr": -0.00010640900047588844,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -6.959446730792074e-06,
+      "delta_f1": -1.729746708301061e-05,
+      "delta_matched_fpr": 2.5731906231722668e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00023679968315715172,
+      "delta_f1": -0.0003180663795109284,
+      "delta_matched_fpr": 2.603463454033117e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0007454226852722234,
+      "delta_f1": -0.00043703728878774495,
+      "delta_matched_fpr": 4.192787074227752e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.001068591577672362,
+      "delta_f1": 0.0008486404004608428,
+      "delta_matched_fpr": -6.705432035678319e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0007240510612750439,
+      "delta_f1": 0.0015980605725508523,
+      "delta_matched_fpr": -0.0001306272651645686,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.00019039667863773868,
+      "delta_f1": 0.002032665439694603,
+      "delta_matched_fpr": -0.0001457636805949937,
+      "detector": "d2_resnet34_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.001311306629409592,
+      "delta_f1": 0.0015623508713751288,
+      "delta_matched_fpr": -6.868178388402986e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.000434942187994114,
+      "delta_f1": 0.002141429236604986,
+      "delta_matched_fpr": -0.00017150125916603857,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0025153080160974506,
+      "delta_f1": 0.0030791798196562192,
+      "delta_matched_fpr": -0.0002496657351050615,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.004880544801217024,
+      "delta_f1": 0.0025180362964828396,
+      "delta_matched_fpr": -0.0002292102136721456,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.011206611566155655,
+      "delta_f1": -0.0020963449248465604,
+      "delta_matched_fpr": 4.795532839239891e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.010925399766642196,
+      "delta_f1": 0.0006720842563682217,
+      "delta_matched_fpr": -0.00013804090291484432,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.016801707960459322,
+      "delta_f1": -0.004163954239914558,
+      "delta_matched_fpr": 0.0001416985127074841,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 7.56713661480557e-05,
+      "delta_f1": 0.00011824867351106771,
+      "delta_matched_fpr": -4.876813056854494e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 4.893132723138294e-05,
+      "delta_f1": 2.9827709609131503e-05,
+      "delta_matched_fpr": -1.8965384109993072e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0006580812169530992,
+      "delta_f1": -4.293234508367938e-05,
+      "delta_matched_fpr": 5.689615232996187e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.001943721779893215,
+      "delta_f1": 0.0012240601105526494,
+      "delta_matched_fpr": -6.434683894460374e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.006729365577555879,
+      "delta_f1": -0.0001776866844863667,
+      "delta_matched_fpr": -6.285670162167571e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.011157387405721919,
+      "delta_f1": -0.0027523687665697016,
+      "delta_matched_fpr": 6.746258061981515e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00015844708773504745,
+      "delta_f1": 8.045209750129345e-05,
+      "delta_matched_fpr": -3.3448840766985705e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0019232389238030834,
+      "delta_f1": 0.0009495843846765162,
+      "delta_matched_fpr": -0.00010188440003737042,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.00046242826579268037,
+      "delta_f1": 0.0016823880423313398,
+      "delta_matched_fpr": -0.00018031616459444118,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.007129851069463622,
+      "delta_f1": 0.006973955693417078,
+      "delta_matched_fpr": -0.0005486378824653875,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.0037200212956386425,
+      "delta_f1": 0.005951786299121187,
+      "delta_matched_fpr": -0.00046328566809445814,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.005504153274442647,
+      "delta_f1": 0.00743564894896398,
+      "delta_matched_fpr": -0.0005778575594572368,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0045547520360320615,
+      "delta_f1": 0.007315048061685925,
+      "delta_matched_fpr": -0.0006100248354438788,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 1.7117268273691977e-05,
+      "delta_f1": -1.8894739773012148e-05,
+      "delta_matched_fpr": 3.5883813849632226e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00024378519504042462,
+      "delta_f1": -0.0002757998092091096,
+      "delta_matched_fpr": 1.5506933842165255e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.00013780953065922752,
+      "delta_f1": 2.9337861166323087e-05,
+      "delta_matched_fpr": -1.1405926545064553e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0026410294911234367,
+      "delta_f1": 0.0012477789026815733,
+      "delta_matched_fpr": -9.996205286685444e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.00539207974009448,
+      "delta_f1": 0.006051993833599223,
+      "delta_matched_fpr": -0.00047123136973259254,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.002889828044455367,
+      "delta_f1": 0.005473116769358133,
+      "delta_matched_fpr": -0.00043509124292688377,
+      "detector": "d2_resnet34_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.002696136896163881,
+      "delta_f1": -0.0025905921846691715,
+      "delta_matched_fpr": 0.0002386140093376555,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0073924849292537065,
+      "delta_f1": -0.005327223723554431,
+      "delta_matched_fpr": 0.0005033883585694732,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.003832943358741292,
+      "delta_f1": -0.002742439006427899,
+      "delta_matched_fpr": 0.0002001662370689633,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.005436137668775487,
+      "delta_f1": -0.003115774549309447,
+      "delta_matched_fpr": 0.00021298216115852794,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.007576431157284791,
+      "delta_f1": -0.00394934654229917,
+      "delta_matched_fpr": 0.0003166986602338665,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.010796960397525646,
+      "delta_f1": -0.00546211689569065,
+      "delta_matched_fpr": 0.00038302437047057873,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.010631581048358485,
+      "delta_f1": -0.00583370791315263,
+      "delta_matched_fpr": 0.0004504070641373585,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -5.4108310634903845e-05,
+      "delta_f1": -0.00023756026252996776,
+      "delta_matched_fpr": 2.5499725250370184e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.00040411009260676867,
+      "delta_f1": 0.00029099829036427494,
+      "delta_matched_fpr": -2.9595536041879603e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -1.4432803906450076e-05,
+      "delta_f1": 0.0003912102950233143,
+      "delta_matched_fpr": -2.8934921398087593e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 8.58093448083963e-05,
+      "delta_f1": 0.00017436269668735793,
+      "delta_matched_fpr": -1.6118997308522953e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.005419218554589933,
+      "delta_f1": -0.002029686830513855,
+      "delta_matched_fpr": 0.00014982740121201668,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.008993737884990916,
+      "delta_f1": -0.004727445761455673,
+      "delta_matched_fpr": 0.00041684784023272685,
+      "detector": "d2_resnet34_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0018630729220170394,
+      "delta_f1": -0.0009778141549335873,
+      "delta_matched_fpr": 0.0001535434260184227,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.00349380241577657,
+      "delta_f1": -0.002025925073679047,
+      "delta_matched_fpr": 0.0002789615297675279,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.002972576930555748,
+      "delta_f1": -0.001456870187968362,
+      "delta_matched_fpr": 0.0002422944429571576,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.00541617948040829,
+      "delta_f1": -0.0019685600545026327,
+      "delta_matched_fpr": 0.00030458682339068455,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.009939148333245607,
+      "delta_f1": -0.003813962970358409,
+      "delta_matched_fpr": 0.0005987568607556965,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.012541131054465526,
+      "delta_f1": -0.005613975879556254,
+      "delta_matched_fpr": 0.0009381357494721281,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.015292237805011988,
+      "delta_f1": -0.008716030160065058,
+      "delta_matched_fpr": 0.0015975183048972438,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -2.0305363638617457e-05,
+      "delta_f1": -1.4796948979656221e-05,
+      "delta_matched_fpr": 3.1250358077019452e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00013975193876347713,
+      "delta_f1": -0.00017910889494021642,
+      "delta_matched_fpr": 2.9583672312911632e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0006017205199189135,
+      "delta_f1": -0.0003535928084662521,
+      "delta_matched_fpr": 5.041724436425851e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0008282709990848902,
+      "delta_f1": -0.00028475233366753727,
+      "delta_matched_fpr": 4.375050130782723e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0059023897442809226,
+      "delta_f1": -0.002618557393964327,
+      "delta_matched_fpr": 0.00040354629063458006,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.008053087031950401,
+      "delta_f1": -0.0034398185217209276,
+      "delta_matched_fpr": 0.000597715182153128,
+      "detector": "d2_vgg16_unet",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.002325140533845249,
+      "delta_f1": 0.001610207275314246,
+      "delta_matched_fpr": -0.00012759998207848445,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.002612317201991954,
+      "delta_f1": 0.0031833454816241336,
+      "delta_matched_fpr": -0.00028622961578934035,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.0019272693301501942,
+      "delta_f1": 0.003418167595183652,
+      "delta_matched_fpr": -0.00031438334848993103,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.005545489325841424,
+      "delta_f1": 0.0065976057620247275,
+      "delta_matched_fpr": -0.0005959206754958387,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.005599837721589007,
+      "delta_f1": 0.006519798285859912,
+      "delta_matched_fpr": -0.000600310235970662,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0027321039679181203,
+      "delta_f1": 0.0047674090122201696,
+      "delta_matched_fpr": -0.0004392587757909381,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0033341859178269706,
+      "delta_f1": 0.0049094998945674595,
+      "delta_matched_fpr": -0.000485122114545127,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -4.61349884683937e-06,
+      "delta_f1": -7.5295590217239194e-06,
+      "delta_matched_fpr": 7.568207715212549e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0004165958927981883,
+      "delta_f1": -0.00035441416539583326,
+      "delta_matched_fpr": 2.6942819466156676e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00045607321264340417,
+      "delta_f1": -0.0002803259853133566,
+      "delta_matched_fpr": 2.0434160831073883e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -8.024151812846547e-05,
+      "delta_f1": -2.4068525031339938e-05,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.006161491547188591,
+      "delta_f1": 0.007313329286878445,
+      "delta_matched_fpr": -0.0006434490199473735,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.005294026054800893,
+      "delta_f1": 0.006824860136323774,
+      "delta_matched_fpr": -0.0006059107096799193,
+      "detector": "d2_vgg16_unet",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0051120067290607585,
+      "delta_f1": -0.005024328623735808,
+      "delta_matched_fpr": 0.000496622129622982,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.00446921214800422,
+      "delta_f1": -0.0052517260278440725,
+      "delta_matched_fpr": 0.00044947960340672565,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.008021858191765374,
+      "delta_f1": -0.007652131045863708,
+      "delta_matched_fpr": 0.0006568796253523844,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.01014254033548545,
+      "delta_f1": -0.013660614717127095,
+      "delta_matched_fpr": 0.0011682676611752844,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.015662508429990396,
+      "delta_f1": -0.019233782323388793,
+      "delta_matched_fpr": 0.0019385331900995282,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.018553512110851877,
+      "delta_f1": -0.016277294674183818,
+      "delta_matched_fpr": 0.0018992477515859798,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.0249647921230578,
+      "delta_f1": -0.020393132257141344,
+      "delta_matched_fpr": 0.0025018050981661837,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.1626385113761017e-05,
+      "delta_f1": -1.5380961916111602e-05,
+      "delta_matched_fpr": 1.2192032642138403e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00033232636026114815,
+      "delta_f1": -0.0004439571860701541,
+      "delta_matched_fpr": 4.334944939425947e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0007326632506204911,
+      "delta_f1": -0.00018706862349582298,
+      "delta_matched_fpr": 1.720431272834739e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.003992959761651482,
+      "delta_f1": -0.002602622832467816,
+      "delta_matched_fpr": 0.00023625449919871273,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.012040382166001895,
+      "delta_f1": -0.015365829709592549,
+      "delta_matched_fpr": 0.0014332411705976949,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.014975733840524308,
+      "delta_f1": -0.018268559247909377,
+      "delta_matched_fpr": 0.0017778692932820554,
+      "detector": "d2_vgg16_unet",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0008970688471721111,
+      "delta_f1": -0.0014231400203197353,
+      "delta_matched_fpr": 0.00016429660484013585,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0014105057644260288,
+      "delta_f1": -0.0018245071137823476,
+      "delta_matched_fpr": 0.00022337674121400766,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.001053800641710012,
+      "delta_f1": -0.0004921671637553304,
+      "delta_matched_fpr": 6.9076341660557e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0009057283724045462,
+      "delta_f1": -8.236431577635095e-05,
+      "delta_matched_fpr": 1.6404029188406277e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.0038285479341035877,
+      "delta_f1": -0.0016338878668121781,
+      "delta_matched_fpr": 0.00020748533793773886,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.006807159435560317,
+      "delta_f1": -0.002265315741240448,
+      "delta_matched_fpr": 0.00029322202174277175,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.007546188524891417,
+      "delta_f1": -0.0030998072099059915,
+      "delta_matched_fpr": 0.00039023647561483264,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 3.055680555585916e-05,
+      "delta_f1": 1.1297077520677767e-05,
+      "delta_matched_fpr": -3.8446943410354317e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -9.950534494773677e-05,
+      "delta_f1": -5.760992391312669e-05,
+      "delta_matched_fpr": 9.099109940444161e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00032997862879868833,
+      "delta_f1": -0.0006104697223691113,
+      "delta_matched_fpr": 7.202394065534794e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.001002973778759353,
+      "delta_f1": -0.0014274074835696204,
+      "delta_matched_fpr": 0.0001532751477291757,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0017533594015579634,
+      "delta_f1": -0.000530770134945624,
+      "delta_matched_fpr": 6.741030744610889e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.004870536958551663,
+      "delta_f1": -0.0015747132080413673,
+      "delta_matched_fpr": 0.00019505415956839849,
+      "detector": "d2_vgg16_unet",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0019707828165381747,
+      "delta_f1": -0.0013531177205817757,
+      "delta_matched_fpr": 0.0001635681858028898,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.002925138534379701,
+      "delta_f1": -0.0021601362521295187,
+      "delta_matched_fpr": 0.0003165665373051074,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0037757427339278893,
+      "delta_f1": -0.0023637016221910168,
+      "delta_matched_fpr": 0.0003398201727665851,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0035634942852769136,
+      "delta_f1": -0.0015672583020562847,
+      "delta_matched_fpr": 0.0002401994844827577,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.005064186631303924,
+      "delta_f1": -0.004312618588036998,
+      "delta_matched_fpr": 0.0006400034669056514,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.008544282781351109,
+      "delta_f1": -0.006492897986787982,
+      "delta_matched_fpr": 0.0009573627417833082,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.014335933274566948,
+      "delta_f1": -0.009439226815551538,
+      "delta_matched_fpr": 0.0014536164621998283,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -0.00012184031623863056,
+      "delta_f1": -0.00012521269568011029,
+      "delta_matched_fpr": 1.3212292875840193e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0003662125287851037,
+      "delta_f1": -0.00016956005551937992,
+      "delta_matched_fpr": 2.563184817912928e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.00023199403733131785,
+      "delta_f1": -0.000737630691788338,
+      "delta_matched_fpr": 8.601202662171341e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -3.35108645688198e-05,
+      "delta_f1": -0.0005927773824299098,
+      "delta_matched_fpr": 7.438520889097543e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.004329676500202551,
+      "delta_f1": -0.0022906479791432455,
+      "delta_matched_fpr": 0.0003715296756685981,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.005393705074142385,
+      "delta_f1": -0.004438855934044139,
+      "delta_matched_fpr": 0.0007034224727096791,
+      "detector": "d2_vgg16_unet",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0012061461883844382,
+      "delta_f1": -0.002670384478656751,
+      "delta_matched_fpr": 7.312583790022604e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0013347226381946742,
+      "delta_f1": -0.0018432455283918792,
+      "delta_matched_fpr": 5.9584016066850654e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 1.1431224004043727e-05,
+      "delta_f1": -0.0023023858646269435,
+      "delta_matched_fpr": 7.479252366433386e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0009384638239081644,
+      "delta_f1": -0.003720678629391627,
+      "delta_matched_fpr": 0.00010479286741827288,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.010604010041054046,
+      "delta_f1": -0.01052378464668191,
+      "delta_matched_fpr": 0.0003910461474037723,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.011573238783390227,
+      "delta_f1": -0.011191077062940313,
+      "delta_matched_fpr": 0.0004206298197166839,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.014991658677734998,
+      "delta_f1": -0.01254277955790517,
+      "delta_matched_fpr": 0.00044563010617830034,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 2.1205668827350976e-05,
+      "delta_f1": 2.204145729844953e-05,
+      "delta_matched_fpr": -1.4583500435941255e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00024923305822943664,
+      "delta_f1": -0.00032199537608668116,
+      "delta_matched_fpr": 8.958435982079314e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0011610168076207072,
+      "delta_f1": -0.0013991912302678822,
+      "delta_matched_fpr": 2.4791950741101867e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0022825407030645506,
+      "delta_f1": -0.003380937460951694,
+      "delta_matched_fpr": 7.291750217971234e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0027879240376527115,
+      "delta_f1": -0.006859768536668809,
+      "delta_matched_fpr": 0.00023583603562124175,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.010021654207049147,
+      "delta_f1": -0.010463724310124434,
+      "delta_matched_fpr": 0.0004339633058295456,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0116",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00015261196968663349,
+      "delta_f1": 0.0011427122926167543,
+      "delta_matched_fpr": -0.00013274636332482898,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.0029586738405655844,
+      "delta_f1": 0.003996802753451267,
+      "delta_matched_fpr": -0.0003033337652257207,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.004182649384087078,
+      "delta_f1": 0.0041482073606486924,
+      "delta_matched_fpr": -0.000287743257332382,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.007114107923970492,
+      "delta_f1": 0.005619332444402048,
+      "delta_matched_fpr": -0.0004101968581645219,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.004597151891747697,
+      "delta_f1": 0.005828603375231611,
+      "delta_matched_fpr": -0.0004666556877200075,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.0038905576793225594,
+      "delta_f1": 0.007502969664457848,
+      "delta_matched_fpr": -0.0006172630212527381,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.0009034866884343185,
+      "delta_f1": 0.006341741694417813,
+      "delta_matched_fpr": -0.0006219553100361699,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -2.866167612969317e-05,
+      "delta_f1": 2.733266753041086e-06,
+      "delta_matched_fpr": 1.5136415430425099e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0009520605215996847,
+      "delta_f1": -0.0004604898134085156,
+      "delta_matched_fpr": 3.05755591694587e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0005322322966674342,
+      "delta_f1": 0.0004079106453829251,
+      "delta_matched_fpr": -3.950604427340951e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0010754668936356904,
+      "delta_f1": 0.0013493710669153502,
+      "delta_matched_fpr": -0.00014863959952677534,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0064837332104183965,
+      "delta_f1": 0.006925308889011328,
+      "delta_matched_fpr": -0.000520692690806626,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.005102453578063826,
+      "delta_f1": 0.006226402369390427,
+      "delta_matched_fpr": -0.00048572757116234315,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0117",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0037305610123972155,
+      "delta_f1": -0.0033915187101531963,
+      "delta_matched_fpr": 8.588609661237551e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0065029381408673315,
+      "delta_f1": -0.005246168082135294,
+      "delta_matched_fpr": 0.00021092216470894234,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.008338667203992234,
+      "delta_f1": -0.006621408503396764,
+      "delta_matched_fpr": 0.00017827461063389064,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.01300660087743899,
+      "delta_f1": -0.00911246165442725,
+      "delta_matched_fpr": 0.0002400475760207096,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.02299163621410405,
+      "delta_f1": -0.015533910907800319,
+      "delta_matched_fpr": 0.0005615108366850132,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.030922206692277854,
+      "delta_f1": -0.021721507568808862,
+      "delta_matched_fpr": 0.0007884181108580883,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.04383329062913299,
+      "delta_f1": -0.026549099523032527,
+      "delta_matched_fpr": 0.0010349681042879375,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.655293541569236e-05,
+      "delta_f1": -2.2894648530114026e-05,
+      "delta_matched_fpr": 1.0837362348558796e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.0012223689812269622,
+      "delta_f1": -0.0003806399830869056,
+      "delta_matched_fpr": 1.9236318168702055e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00221259829736975,
+      "delta_f1": -0.0024716032200258198,
+      "delta_matched_fpr": 9.062744263987291e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0011990262502681315,
+      "delta_f1": -0.0021268974152083286,
+      "delta_matched_fpr": 4.362038345297279e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.016119955088541138,
+      "delta_f1": -0.01094731909318114,
+      "delta_matched_fpr": 0.00034435718862564635,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.023890526918154076,
+      "delta_f1": -0.01627921193089965,
+      "delta_matched_fpr": 0.000574922072591362,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0118",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0023606017439102844,
+      "delta_f1": -0.002420216669236197,
+      "delta_matched_fpr": -5.126259121377135e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.0033414470700785515,
+      "delta_f1": -0.001231806774235178,
+      "delta_matched_fpr": -3.58838138496409e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.004460868718597855,
+      "delta_f1": -0.0026826597978582,
+      "delta_matched_fpr": 2.319632252423178e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0061256142303335315,
+      "delta_f1": -0.006240088778204256,
+      "delta_matched_fpr": 9.227266418478791e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.012288124005441103,
+      "delta_f1": -0.009712400902938234,
+      "delta_matched_fpr": 0.0002710509510428158,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.016942768068657577,
+      "delta_f1": -0.017949644185805247,
+      "delta_matched_fpr": 0.0006626971479160287,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.023896516841948046,
+      "delta_f1": -0.022592460905099476,
+      "delta_matched_fpr": 0.0009256742408426753,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.3385591335235425e-05,
+      "delta_f1": -1.1169301934454978e-06,
+      "delta_matched_fpr": 1.4097212583785018e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00022784183031310246,
+      "delta_f1": -0.00044254178210678674,
+      "delta_matched_fpr": 7.561232204030856e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0013595911891731705,
+      "delta_f1": -0.0016102252952919782,
+      "delta_matched_fpr": 3.537118793750255e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0018824158939798608,
+      "delta_f1": -0.0012092375931732624,
+      "delta_matched_fpr": -2.088950591961139e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.008116444280251378,
+      "delta_f1": -0.00788548687411128,
+      "delta_matched_fpr": 0.00017467727956092544,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.012686824284283915,
+      "delta_f1": -0.013468069469055433,
+      "delta_matched_fpr": 0.0004168930230459946,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0119",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.005645910692633871,
+      "delta_f1": -0.0029058243376771653,
+      "delta_matched_fpr": -2.2989389603959506e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.003248418636550565,
+      "delta_f1": -0.0027256408547066124,
+      "delta_matched_fpr": 0.00011032264551325867,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0073714836555738295,
+      "delta_f1": -0.005181160641619109,
+      "delta_matched_fpr": 0.0002678131765932613,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.007837264831481061,
+      "delta_f1": -0.004414885354471987,
+      "delta_matched_fpr": 2.3385758390236794e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.010322359184990137,
+      "delta_f1": -0.004608804778767794,
+      "delta_matched_fpr": -2.1271791530099934e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.012415527132770832,
+      "delta_f1": -0.005602026759851553,
+      "delta_matched_fpr": -0.00013978605862637744,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.012964347303212942,
+      "delta_f1": -0.009017129272478996,
+      "delta_matched_fpr": 3.289860926083965e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 8.308945626533948e-06,
+      "delta_f1": 8.589048694052082e-06,
+      "delta_matched_fpr": -1.3212292875840193e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.000143255745545523,
+      "delta_f1": -0.0005195488719729191,
+      "delta_matched_fpr": 3.527682197849123e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.002737100381591029,
+      "delta_f1": -0.0005837925978110503,
+      "delta_matched_fpr": -9.777096728121049e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.0007404584891648192,
+      "delta_f1": -0.0009455243781544276,
+      "delta_matched_fpr": -6.910029174063761e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.007269578959241296,
+      "delta_f1": -0.0036203479662744176,
+      "delta_matched_fpr": -6.20977765164437e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.01190671232449747,
+      "delta_f1": -0.005185051755279613,
+      "delta_matched_fpr": -4.6243025065437204e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0120",
+      "tunnel": "C"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.00430568101324702,
+      "delta_f1": -0.001790716553982663,
+      "delta_matched_fpr": 7.639032970336245e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.025717305556955394,
+      "delta_f1": -0.013535299517194344,
+      "delta_matched_fpr": 6.195083429928332e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.028599332194933935,
+      "delta_f1": -0.019222792763017527,
+      "delta_matched_fpr": 7.76424418744402e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.031513552738282935,
+      "delta_f1": -0.01722094313023037,
+      "delta_matched_fpr": 8.72687721438263e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.024298724444421382,
+      "delta_f1": -0.018266109949911957,
+      "delta_matched_fpr": 8.163426737397677e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.019939660836875817,
+      "delta_f1": -0.017432904213877443,
+      "delta_matched_fpr": 7.31049711627367e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.01628283736990077,
+      "delta_f1": -0.010079231581378023,
+      "delta_matched_fpr": 4.280155916913214e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 1.9976819797262735e-06,
+      "delta_f1": -7.635586179444154e-06,
+      "delta_matched_fpr": 7.466723955969201e-08,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -2.3000816784524147e-05,
+      "delta_f1": -2.455508972065701e-05,
+      "delta_matched_fpr": 1.8379628199304216e-07,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -8.28410803336288e-05,
+      "delta_f1": -2.165757046712624e-05,
+      "delta_matched_fpr": 1.3210357768252785e-07,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.00013415190781651543,
+      "delta_f1": 0.0016523724127619488,
+      "delta_matched_fpr": -5.904455559026798e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.034392675008124596,
+      "delta_f1": -0.021438955309967422,
+      "delta_matched_fpr": 0.00011421215835724538,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.024837811332373616,
+      "delta_f1": -0.0194511790998827,
+      "delta_matched_fpr": 9.51720122695276e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.008363617582246796,
+      "delta_f1": -0.005814376375869568,
+      "delta_matched_fpr": 0.00013744000334744598,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.0009573039196098532,
+      "delta_f1": 0.000654135433471259,
+      "delta_matched_fpr": -8.596473457300703e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.0021899727899310495,
+      "delta_f1": -0.0110695334198187,
+      "delta_matched_fpr": 0.00014914363588569872,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.01899168275551666,
+      "delta_f1": -0.02405216574555491,
+      "delta_matched_fpr": 0.0003867377336091659,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.005588872047347038,
+      "delta_f1": -2.3661088424220544e-05,
+      "delta_matched_fpr": -5.2407416498724806e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.01769898977795148,
+      "delta_f1": 0.01572193689756607,
+      "delta_matched_fpr": -0.00034178749890472664,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.03773423129137399,
+      "delta_f1": 0.03494111424993407,
+      "delta_matched_fpr": -0.000605171017000096,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.1463968773162136e-06,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 5.178598468250431e-07,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -4.566418913609649e-05,
+      "delta_f1": -5.441480092172046e-05,
+      "delta_matched_fpr": 2.382155295396326e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00016116294566437261,
+      "delta_f1": -0.00022306941979743922,
+      "delta_matched_fpr": 6.7321780087294635e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.000872122238929296,
+      "delta_f1": -0.0008903169721532489,
+      "delta_matched_fpr": 2.3096549168410193e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.009132333010322125,
+      "delta_f1": -0.01748954005647574,
+      "delta_matched_fpr": 0.00023200121137775332,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.014437381511955838,
+      "delta_f1": 0.00918462315191837,
+      "delta_matched_fpr": -0.00020414035161855047,
+      "detector": "d2_resnet34_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0031267029220858333,
+      "delta_f1": -0.00517556568459826,
+      "delta_matched_fpr": 1.5475229873568568e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.01113508573649813,
+      "delta_f1": -0.012689443949730483,
+      "delta_matched_fpr": 0.00032428690660433156,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.001499309221627776,
+      "delta_f1": -0.0022335218919247724,
+      "delta_matched_fpr": 7.460446640541237e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.0038679215006246492,
+      "delta_f1": -0.013571924564571403,
+      "delta_matched_fpr": 0.000202679316627707,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.004645768357715796,
+      "delta_f1": 0.0045988893424266375,
+      "delta_matched_fpr": 4.007391616513622e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.015588032018171438,
+      "delta_f1": 0.01533402325458505,
+      "delta_matched_fpr": -0.00021226472020611153,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.019325519925967594,
+      "delta_f1": 0.016149152727071014,
+      "delta_matched_fpr": -0.00024044349699081863,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 1.2432428047048916e-06,
+      "delta_f1": -3.105568478550813e-05,
+      "delta_matched_fpr": 8.084075307085437e-07,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 1.7514026858456155e-05,
+      "delta_f1": 0.00021412256796177198,
+      "delta_matched_fpr": -4.157524443645488e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.0002376517477751805,
+      "delta_f1": -6.690998791497593e-05,
+      "delta_matched_fpr": -5.65885271496154e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.00074238950795108,
+      "delta_f1": -0.0004871342527494882,
+      "delta_matched_fpr": 7.39115456648053e-06,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0036289498302501944,
+      "delta_f1": -0.0013451063973202726,
+      "delta_matched_fpr": 3.5685418141288665e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.006022589086816299,
+      "delta_f1": 0.005277481810913254,
+      "delta_matched_fpr": 2.9218157895618147e-05,
+      "detector": "d2_resnet34_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.004191059843563938,
+      "delta_f1": 0.0018999728126334325,
+      "delta_matched_fpr": -5.904455559026852e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.01611621446048883,
+      "delta_f1": 0.01474632575734669,
+      "delta_matched_fpr": -6.034261683184413e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.01725959804798516,
+      "delta_f1": 0.01273634147625613,
+      "delta_matched_fpr": -4.94239689546943e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.019483133996921143,
+      "delta_f1": 0.01431838768228666,
+      "delta_matched_fpr": -5.467365025912089e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.02834915557776163,
+      "delta_f1": 0.02396905107307823,
+      "delta_matched_fpr": -9.012910178234323e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.03409299886381245,
+      "delta_f1": 0.02157490509723481,
+      "delta_matched_fpr": -8.215119441708224e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.04078204958848575,
+      "delta_f1": 0.02533093893056093,
+      "delta_matched_fpr": -9.58382737917524e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 4.005145138974431e-05,
+      "delta_f1": 8.598802349590873e-05,
+      "delta_matched_fpr": -3.1589985967557e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0007010033571250851,
+      "delta_f1": 0.0010552484961090514,
+      "delta_matched_fpr": -4.077980006720857e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.001180535551610573,
+      "delta_f1": 0.0018693623028549489,
+      "delta_matched_fpr": -6.633897053186753e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0031067654094814046,
+      "delta_f1": 0.002766514456848168,
+      "delta_matched_fpr": -7.62754570271171e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.021474045283987997,
+      "delta_f1": 0.017086081801064523,
+      "delta_matched_fpr": -6.613794334843753e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.029358490830842632,
+      "delta_f1": 0.023278960955079198,
+      "delta_matched_fpr": -8.871042423070935e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.0006439202623192419,
+      "delta_f1": -0.00103202062488289,
+      "delta_matched_fpr": 2.7757287789838617e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.008087567240265492,
+      "delta_f1": -0.0012013324101853295,
+      "delta_matched_fpr": 6.214318161905721e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.003980995862416459,
+      "delta_f1": -0.009203952585753017,
+      "delta_matched_fpr": 0.00024712271890505377,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.005876355146729406,
+      "delta_f1": -0.010474885835992875,
+      "delta_matched_fpr": 0.0002992194194956833,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.018734119880021438,
+      "delta_f1": -0.0017182139308484223,
+      "delta_matched_fpr": 4.671095818364586e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.02511470816060718,
+      "delta_f1": 0.0018540473099113997,
+      "delta_matched_fpr": -5.6032435426502276e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.03419442770908382,
+      "delta_f1": 0.002619858980885459,
+      "delta_matched_fpr": -6.038245813983498e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 9.533604064526635e-07,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -1.232521911392892e-05,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -2.2646251899127723e-05,
+      "delta_f1": -9.279381079863036e-06,
+      "delta_matched_fpr": 2.071439387301907e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": -0.00020944907958442283,
+      "delta_f1": -0.0005661784691493033,
+      "delta_matched_fpr": 1.3567927986824022e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.012643793737850906,
+      "delta_f1": -0.004148718439019261,
+      "delta_matched_fpr": 8.990046940887978e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.024431815834633608,
+      "delta_f1": 0.002103717963740759,
+      "delta_matched_fpr": -5.862173466062879e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.003240553665806556,
+      "delta_f1": 0.007609956190454459,
+      "delta_matched_fpr": -0.00023074260662231307,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.001299105855119942,
+      "delta_f1": 0.0051042247911777805,
+      "delta_matched_fpr": -0.00017092044934986133,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.0044214338566284095,
+      "delta_f1": 0.004402095545183615,
+      "delta_matched_fpr": -0.0001332717557768516,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.00034722474158044303,
+      "delta_f1": 0.0025792452752668726,
+      "delta_matched_fpr": -6.571198356761579e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.004976328244785666,
+      "delta_f1": 0.004473163387768875,
+      "delta_matched_fpr": -0.00012241599750733353,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.011854661545151968,
+      "delta_f1": 0.0008818364100214304,
+      "delta_matched_fpr": -1.5013282713163562e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.011438484040163177,
+      "delta_f1": -0.0008279259855859533,
+      "delta_matched_fpr": 2.2866384440048664e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": 5.7201131296591434e-06,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 2.30973580202503e-07,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 4.268829965514698e-06,
+      "delta_f1": -8.802542622449172e-05,
+      "delta_matched_fpr": 4.503984813949025e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00016267895193233795,
+      "delta_f1": -0.00015712465753409122,
+      "delta_matched_fpr": 6.582747035771552e-06,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.00019961973145610212,
+      "delta_f1": 0.0008339806001371741,
+      "delta_matched_fpr": -4.59637424603007e-05,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.0037026580309383883,
+      "delta_f1": 0.003943106764557336,
+      "delta_matched_fpr": -0.00010058899417819548,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.007969572901487254,
+      "delta_f1": 0.008152742643719013,
+      "delta_matched_fpr": -0.00021803905971117454,
+      "detector": "d2_vgg16_unet",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.00544394087644362,
+      "delta_f1": 0.004517520140486564,
+      "delta_matched_fpr": -7.099131391981653e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.03275504400753271,
+      "delta_f1": -0.03241651282116931,
+      "delta_matched_fpr": 7.853844874915634e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.026362222600725627,
+      "delta_f1": -0.027161859281039313,
+      "delta_matched_fpr": 5.521929547128775e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": -0.02082767648941397,
+      "delta_f1": -0.009741287426678347,
+      "delta_matched_fpr": 2.3577616799421266e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.014399084282117114,
+      "delta_f1": -0.010592278015414847,
+      "delta_matched_fpr": 2.892493987865667e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.005288425849612199,
+      "delta_f1": -0.008824388186546073,
+      "delta_matched_fpr": 2.57889158171502e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.00861836304629382,
+      "delta_f1": -0.0006203715906777374,
+      "delta_matched_fpr": 1.447395720695268e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -4.192998282470661e-06,
+      "delta_f1": -9.614469919982938e-06,
+      "delta_matched_fpr": 8.041087337195933e-08,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 5.7531081815054286e-05,
+      "delta_f1": -8.812124298751556e-05,
+      "delta_matched_fpr": 3.561052963615497e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.00013112141109572484,
+      "delta_f1": -0.00023669328113529176,
+      "delta_matched_fpr": 1.2635994387022258e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0032826722545471476,
+      "delta_f1": 0.0035407787938963597,
+      "delta_matched_fpr": -5.5828120655389605e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.022653199591633588,
+      "delta_f1": -0.015183552709615133,
+      "delta_matched_fpr": 3.7540390597081016e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.014812345938755467,
+      "delta_f1": -0.012715158690175588,
+      "delta_matched_fpr": 3.093521171295565e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0211",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": 0.016919638794510472,
+      "delta_f1": 0.01888014607019428,
+      "delta_matched_fpr": -0.0002868943551412404,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": 0.012912328953395058,
+      "delta_f1": -0.06862008648460588,
+      "delta_matched_fpr": 0.0004023771009832914,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": 0.019111737301097387,
+      "delta_f1": -0.0373337568669635,
+      "delta_matched_fpr": 0.00021615470006489806,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.02822239933119769,
+      "delta_f1": -0.0003970060697254252,
+      "delta_matched_fpr": -3.490375367602846e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": 0.025079669225784307,
+      "delta_f1": -0.014339386352344385,
+      "delta_matched_fpr": -8.49290148793565e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": 0.017643324475070055,
+      "delta_f1": 0.006238405139356917,
+      "delta_matched_fpr": -0.00018570454107156827,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": 0.02517710166964171,
+      "delta_f1": 0.010066842911706009,
+      "delta_matched_fpr": -0.00023831910150902327,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -3.337050619822701e-05,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 3.107159080948524e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": 0.0005188943989544725,
+      "delta_f1": 1.2944250614599362e-05,
+      "delta_matched_fpr": -5.178598468254768e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": 0.0005350022549027722,
+      "delta_f1": 0.000674996349431356,
+      "delta_matched_fpr": -1.2946496170633884e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.002167746391390002,
+      "delta_f1": 0.0033294296784749933,
+      "delta_matched_fpr": -7.291466643300848e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": 0.033509406729352986,
+      "delta_f1": 0.004831411093748905,
+      "delta_matched_fpr": -0.0001464507646822071,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": 0.026321017750658038,
+      "delta_f1": -0.012625569427242744,
+      "delta_matched_fpr": 6.9393219474592205e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0212",
+      "tunnel": "D"
+    },
+    {
+      "condition": "identity",
+      "delta_auprc": 0.0,
+      "delta_f1": 0.0,
+      "delta_matched_fpr": 0.0,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0125",
+      "delta_auprc": -0.0014885464852304464,
+      "delta_f1": 0.03675150331230792,
+      "delta_matched_fpr": -0.0001930939130493027,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0250",
+      "delta_auprc": -0.01239928931141654,
+      "delta_f1": -0.015757835133853537,
+      "delta_matched_fpr": 0.00012611157479057336,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0375",
+      "delta_auprc": -0.010884753480440823,
+      "delta_f1": 0.023878695862584065,
+      "delta_matched_fpr": -8.984872269877844e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0500",
+      "delta_auprc": 0.003706995045001271,
+      "delta_f1": 0.04055603279679082,
+      "delta_matched_fpr": -0.00020787622218226376,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv0750",
+      "delta_auprc": -0.0062560379571166,
+      "delta_f1": 0.03978016796164946,
+      "delta_matched_fpr": -0.00014216423861464818,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1000",
+      "delta_auprc": -0.012462347626921388,
+      "delta_f1": 0.041122056262967666,
+      "delta_matched_fpr": -0.00011236864676852378,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "inv1250",
+      "delta_auprc": -0.011141561795827593,
+      "delta_f1": 0.030047528094880593,
+      "delta_matched_fpr": 8.084075307087605e-07,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0025",
+      "delta_auprc": -1.4114503277706802e-05,
+      "delta_f1": -6.297989522563441e-05,
+      "delta_matched_fpr": 1.0393811109112635e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0050",
+      "delta_auprc": -0.00039069847014550074,
+      "delta_f1": -0.0007968721793715772,
+      "delta_matched_fpr": 7.968588516986787e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0075",
+      "delta_auprc": -0.00013155448027268868,
+      "delta_f1": 0.0015699647485200585,
+      "delta_matched_fpr": -8.19956209718929e-06,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "sharp0100",
+      "delta_auprc": 0.002413381942378723,
+      "delta_f1": 0.009830734497144555,
+      "delta_matched_fpr": -4.815799147222448e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a050_g005",
+      "delta_auprc": -0.0009451521452638056,
+      "delta_f1": 0.034045649699514846,
+      "delta_matched_fpr": -6.663587788842558e-05,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    },
+    {
+      "condition": "combo_a075_g005",
+      "delta_auprc": -0.006446844433163623,
+      "delta_f1": 0.04429300478895587,
+      "delta_matched_fpr": -0.0001892828489759614,
+      "detector": "d2_deeplabv3_resnet50",
+      "parent": "0213",
+      "tunnel": "D"
+    }
+  ],
+  "payload_sha256": "f6cdefc77eefe7f1bae9dde21e9b9e1f493c72bb570949a9710654bfa26961a0",
+  "protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "schema_version": "MERIT-C016-DETECTION-SCREEN-v1",
+  "scientific_status": "UNBLINDED_CROSSFIT_DEVELOPMENT_SCREEN",
+  "selection_seed": 0,
+  "status": "PASS_COMPLETE",
+  "tiles": 1703
+}

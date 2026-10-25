@@ -1,0 +1,60 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 36367.46522310004,
+  "eligible_frames": 974,
+  "legacy_raw_baseline_path": "<LOCAL_PATH_REDACTED>",
+  "legacy_raw_baseline_sha256": "0ada95e1d07c18b55bc7c6ab4d8d70b4cccb5f0a5a0a36a4077cadde5bb0880a",
+  "model_id": "wp1__restormer__base__seed1",
+  "payload_sha256": "8f1c0ebb4777dd7e7adca81454ba06a84284d3c135018793c619c703e5c891e3",
+  "progress_files": 974,
+  "progress_manifest_sha256": "a4fd90901e4c50afdbf46ab31f88f4b0913bc93dd781f6812a452416a8ebc273",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "ccce4a221b56526025534743726b2e58fc59c855a27919fb08575334188c9d76",
+    "completion_payload_sha256": "ba6fa11fbf26b1094e5f087f7bd9a4854aac7a790cfaf1900d2c855a767fd5a2",
+    "model": {
+      "class": "Restormer",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "family": "restormer",
+      "kwargs": {
+        "LayerNorm_type": "WithBias",
+        "bias": false,
+        "dim": 48,
+        "dual_pixel_task": false,
+        "ffn_expansion_factor": 2.66,
+        "heads": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "inp_channels": 3,
+        "num_blocks": [
+          4,
+          6,
+          6,
+          8
+        ],
+        "num_refinement_blocks": 4,
+        "out_channels": 3
+      },
+      "module": "basicsr.models.archs.restormer_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 26126644,
+      "repository": "https://github.com/swz30/Restormer",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "trainable_parameters": 26126644
+    },
+    "model_id": "wp1__restormer__base__seed1"
+  },
+  "schema_version": "MERIT-C009-D3-FULLFRAME-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "base",
+    "family": "restormer",
+    "kind": "wp1",
+    "seed": 1
+  },
+  "status": "PASS"
+}

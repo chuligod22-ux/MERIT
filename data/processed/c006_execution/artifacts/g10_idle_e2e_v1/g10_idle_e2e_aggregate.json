@@ -1,0 +1,46 @@
+{
+  "schema_version": "MERIT-C006-G09-E2E-AGGREGATE-v1",
+  "created_utc": "2026-09-20T06:01:50.887257+00:00",
+  "mode": "PRODUCTION",
+  "d3_read_or_used": false,
+  "protocol_sha256": "379862b87d80c7eca47005f6a8421538ae20992ecd5d1d72e185d789b525aceb",
+  "results": [
+    {
+      "seed": 0,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7e6386ef7f1318507ab36e0687cbe5d1ce12db040e0fe42eaf6145036e7c63e0"
+    },
+    {
+      "seed": 1,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "5d36d4193cb300943a072125e67101526fde2e34cd721a65e72601c99f34cd5a"
+    },
+    {
+      "seed": 2,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "c9c68168dfc244e9262d578a281c58bbbad7e0a4c91107fef29b292feb689f4c"
+    }
+  ],
+  "projection": {
+    "cohort_frames": 988,
+    "raw_runs": 1,
+    "off_runs": 3,
+    "on_runs": 3,
+    "raw_max_seconds": 13.496059299912304,
+    "off_sum_seconds": 89.02866929979064,
+    "on_sum_seconds": 89.02554610022344,
+    "per_frame_all_seven_maps_seconds": 191.55027469992638,
+    "projected_total_seconds": 189251.67140352726,
+    "projected_total_hours": 52.56990872320202
+  },
+  "peak_gpu_memory_delta_mb": 22312,
+  "no_oom": true,
+  "gate": {
+    "stop_if_projected_hours_gt": 12.0,
+    "complete_by_kst": "2026-09-23T06:00:00+09:00",
+    "completed_before_deadline": true,
+    "memory_measurement_available": true,
+    "pass": false
+  },
+  "legacy_runner_gate_note": "Per-seed runner date flags use the superseded 2026-09-15 deadline and are not the G09 decision."
+}

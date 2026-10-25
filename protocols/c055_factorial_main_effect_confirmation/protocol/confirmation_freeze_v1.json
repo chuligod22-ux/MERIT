@@ -1,0 +1,245 @@
+{
+  "bootstrap": {
+    "cluster": "physical parent within tunnel",
+    "replicates": 10000,
+    "seed": 20261056
+  },
+  "code_sha256": {
+    "scripts/c055_common.py": "5b865234966db08224efbeee19ae088cdda0a4b168055f21858f7bd602bd0d7c",
+    "scripts/c055_confirm.py": "7e17e1ca43ce00181816fd0e2fcf883245ac6d42b574089eda0a6a903fd11f8b",
+    "scripts/c055_queue.py": "f4207d43c8055e62dca30ff96a821b69d6144122d5121e6ae13b5c758e550dee",
+    "scripts/c055_summarize.py": "5777b1beb3cefb47fe91c83a4a5745cce08b94fe5ec29e41cc4dd246316bfed6",
+    "scripts/test_c055.py": "55f2ab92fb7d2fe5222e312aa159bd57e7f8ad30ceb7f7c2e806aabdcacdce76"
+  },
+  "conditional_sensitivity_is_gate": false,
+  "confirmation_seeds": [
+    1,
+    2
+  ],
+  "detector_seeds": {
+    "1": 20260922,
+    "2": 20260923
+  },
+  "development_payload_sha256": "a56777c26470989f558a42be7b43c8ece0fc71c64baae444abf7c6d0196a809d",
+  "estimands": {
+    "backbone_main": "max_pairwise(abs(mean_level(raw, framework)_b1 - mean_level(raw, framework)_b2))",
+    "conditional_sensitivity": "framework_main - max_pairwise_framework_level_contrast",
+    "factorial_dominance": "framework_main - backbone_main",
+    "framework_main": "mean_backbone(framework_cell - raw_cell)"
+  },
+  "payload_sha256": "f195ea49e40a44b8b3b81c0d85ef5acde0584e327dfd328605123eb5f7a5730e",
+  "policy": "specific_mean",
+  "primary_gates": {
+    "backbone_consistency": "4/4 pooled backbone full gains > 0",
+    "detector_consistency": "3/3 pooled detector gains > 0",
+    "factorial_dominance": "parent-bootstrap 95% CI lower > 0",
+    "framework_positive": "parent-bootstrap 95% CI lower > 0",
+    "seed_replication": "seed 1 and seed 2 point framework gains and factorial dominance > 0",
+    "tunnel_consistency": "4/4 pooled tunnel gains > 0"
+  },
+  "schema_version": "MERIT-C055-CONFIRMATION-FREEZE-v1",
+  "selection": {
+    "mamba": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "nafnet": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max_raw_off",
+          "d2_resnet34_unet": "max_raw_off",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "plainunet": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max_raw_off"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    "restormer": {
+      "A": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max_raw_off",
+          "d2_resnet34_unet": "max_raw_off",
+          "d2_vgg16_unet": "mean3"
+        },
+        "training_tunnels": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "B": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "C": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "D": {
+        "conditions": {
+          "d2_deeplabv3_resnet50": "max3",
+          "d2_resnet34_unet": "max3",
+          "d2_vgg16_unet": "max3"
+        },
+        "training_tunnels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    }
+  },
+  "source_c054_payload_sha256": "0eae81bd89dad4e424f817f0086b3d6d950f6a04a9aaf05f111cb182a8aa1666",
+  "status": "FROZEN_BEFORE_CONFIRMATION"
+}

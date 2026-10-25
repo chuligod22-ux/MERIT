@@ -1,0 +1,15 @@
+{
+  "checked_at_kst": "2026-09-27T01:06:21+09:00",
+  "checks": {
+    "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+    "global_step": 8000,
+    "initial_state_sha256": "6c8c6c6d781aade2bf2beaaa28a1b2085ce2688963e253a5e1be347870545af8",
+    "stream_sha256": "e7e61861c1f86e78b87deee00285b714dbd6f15957408772b86cd51a96978b6d",
+    "trainable_parameters": 20127073
+  },
+  "family": "mprnet",
+  "payload_sha256": "414528529d8506330641b2d4337cb898654f065f069c128ede8e0449cc101d6c",
+  "schema_version": "MERIT-C009-WP1-PAIRED-CHECK-v1",
+  "seed": 1,
+  "status": "PASS"
+}

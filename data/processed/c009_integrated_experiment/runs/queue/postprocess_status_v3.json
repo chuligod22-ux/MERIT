@@ -1,0 +1,20 @@
+{
+  "active_command": [
+    "<LOCAL_PATH_REDACTED>",
+    "<LOCAL_PATH_REDACTED>"
+  ],
+  "active_step": 1,
+  "error": "Postprocess step 1 failed: Traceback (most recent call last):\n  File \"<LOCAL_PATH_REDACTED>", line 710, in <module>\n    main()\n    ~~~~^^\n  File \"<LOCAL_PATH_REDACTED>", line 681, in main\n    d3 = summarize_d3(contract)\n  File \"<LOCAL_PATH_REDACTED>", line 603, in summarize_d3\n    \"raw_any\": int(bool(baseline[\"any_eligible_component\"])),\n                        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'any_eligible_component'\n",
+  "error_type": "EvaluationError",
+  "failed_at_kst": "2026-10-11T20:35:40+09:00",
+  "freeze_sha256": "b342feba51479e952a704fda5ea081313d7d61963e82912b470db66a8ee5a95f",
+  "full_evaluation_status": "complete",
+  "pid": 30664,
+  "schema_version": "MERIT-C009-POSTPROCESS-STATUS-v3",
+  "started_at_kst": "2026-10-11T20:35:33+09:00",
+  "status": "failed",
+  "step_1_returncode": 1,
+  "step_1_stderr": "Traceback (most recent call last):\n  File \"<LOCAL_PATH_REDACTED>", line 710, in <module>\n    main()\n    ~~~~^^\n  File \"<LOCAL_PATH_REDACTED>", line 681, in main\n    d3 = summarize_d3(contract)\n  File \"<LOCAL_PATH_REDACTED>", line 603, in summarize_d3\n    \"raw_any\": int(bool(baseline[\"any_eligible_component\"])),\n                        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'any_eligible_component'\n",
+  "step_1_stdout": "",
+  "updated_at_kst": "2026-10-11T20:35:33+09:00"
+}

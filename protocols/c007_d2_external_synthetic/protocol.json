@@ -1,0 +1,127 @@
+{
+  "schema_version": "MERIT-C007-D2-EXTERNAL-SYNTHETIC-v1",
+  "protocol_id": "MERIT-D2-EXTERNAL-SYNTHETIC-POSTHOC-20260923",
+  "status": "frozen before D2 restoration outputs",
+  "analysis_role": "post-hoc external-content synthetic-degradation restoration validation",
+  "design_disclosure": "Designed after the negative D3 field endpoint and after the D2 detector-only tunnel CV; cannot replace either frozen primary analysis.",
+  "data": {
+    "root": "<LOCAL_PATH_REDACTED>",
+    "cv_protocol_path": "<LOCAL_PATH_REDACTED>",
+    "cv_protocol_sha256": "6500883908ee5d22e4dbc77ccfe2de8a34e4effc8cd1cd748f332570a66c852a",
+    "cv_code_path": "<LOCAL_PATH_REDACTED>",
+    "cv_code_sha256": "d7acc31f31bd7b8e65552c312b8e7784b55d1281f3920f73a830ff18ec2e670c",
+    "d2_code_path": "<LOCAL_PATH_REDACTED>",
+    "d2_code_sha256": "4fc81efb9e08bf09fffb56be1af2c5b9e2288e1e60bab7e8d85c78500a7cc1ec",
+    "d2_protocol_path": "<LOCAL_PATH_REDACTED>",
+    "d2_protocol_sha256": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3",
+    "upstream_audit_path": "<LOCAL_PATH_REDACTED>",
+    "upstream_audit_sha256": "bdde9febf80fea5cc2db1d06c519a9ead8e08fc97393dc3ca32130c34b3366dd",
+    "upstream_manifest_path": "<LOCAL_PATH_REDACTED>",
+    "upstream_manifest_sha256": "5c22a8284673b671832574d1b143d8c822748df3ccae2935381d8a3db2bcdfbe",
+    "selection": {
+      "positive_enriched_overlap": "select row modulo 4 equals 0 and column modulo 4 equals 0, converting the fixed 128-pixel lattice to a non-overlapping 512-pixel lattice without using image, mask, model, or outcome content",
+      "full_grid": "use every already eligible non-overlapping tile",
+      "expected_tiles": 1703,
+      "expected_parents": 14,
+      "expected_tunnels": 4,
+      "expected_per_parent": {
+        "0036": 25,
+        "0037": 24,
+        "0038": 30,
+        "0039": 49,
+        "0040": 24,
+        "0055": 679,
+        "0116": 19,
+        "0117": 26,
+        "0118": 29,
+        "0119": 31,
+        "0120": 30,
+        "0211": 665,
+        "0212": 38,
+        "0213": 34
+      }
+    }
+  },
+  "degradation": {
+    "profile_id": "joint_ref",
+    "sigma_h_px": 2.6,
+    "sigma_v_px": 2.4,
+    "noise_std_dn": 2.5,
+    "noise_replicates": 1,
+    "base_seed": 20260923,
+    "implementation": "scipy.ndimage.gaussian_filter(mode=reflect) followed by deterministic zero-mean Gaussian noise in 8-bit DN and clipping/rounding to uint8",
+    "reference": "the unmodified D2 grayscale tile before added synthetic degradation"
+  },
+  "image_contract": {
+    "tile_size": 512,
+    "color_handling": "OpenCV RGB-to-gray; replicate the same grayscale image to three normalized detector channels for reference, degraded, task-OFF, and task-ON",
+    "reason": "avoid a color-versus-grayscale arm confound because the fixed MERIT restorer outputs one grayscale channel",
+    "restorer_input": "grayscale in channel 0 plus two zero-valued prompt maps",
+    "restorer_output": "clip to [0,1], round to uint8 before detector evaluation"
+  },
+  "restoration": {
+    "source_protocol_path": "<LOCAL_PATH_REDACTED>",
+    "source_protocol_sha256": "c141abb91235de9a1fd91895d360806de3959a48e8ee9c7dd9570a3a2b6b7d43",
+    "model_code_path": "<LOCAL_PATH_REDACTED>",
+    "model_code_sha256": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618",
+    "model_width": 32,
+    "amp_dtype": "bfloat16",
+    "batch_size": 32,
+    "arms": ["task_off", "task_on"],
+    "seeds": [0, 1, 2]
+  },
+  "detectors": {
+    "architecture": "fold-specific ResNet34-UNet trained on the other three D2 tunnels",
+    "fixed_threshold": 0.5,
+    "histogram_bins": 4096,
+    "batch_size": 32,
+    "workers": 4,
+    "seed_pairing": [
+      {"chain": 0, "detector_seed": 20260921, "restorer_seed": 0},
+      {"chain": 1, "detector_seed": 20260922, "restorer_seed": 1},
+      {"chain": 2, "detector_seed": 20260923, "restorer_seed": 2}
+    ],
+    "checkpoints": {
+      "A": {
+        "20260921": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "1ea22dafc4312b67ca8582cc0af68a20d4120ec0fa0b7b757eea06390ca3a8f6"},
+        "20260922": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "52c09851153c4c8b900b301d2d305d80d98146bb7868a244f2a1bb7e629e5110"},
+        "20260923": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "8080949bec1ab3385553ee17af7e8d2d20c5784938614365404116238cc4c0cd"}
+      },
+      "B": {
+        "20260921": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "8efd0eb3e8975349347a4d09526d5d2b9d1d13020d281896d24283ef4609e33d"},
+        "20260922": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "e4d571d29bbcf3e2c1312aaa1e5263f3455aace8b7731977f1da0fe57f3e6693"},
+        "20260923": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "0576f0fb486739a28949c64abedbc532577519825fd73903f948237e4930e2ff"}
+      },
+      "C": {
+        "20260921": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "098d79f19937646fe8c3aae437f48e0bf29df8e596ff2cdfb8ec496ea1adf4fc"},
+        "20260922": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "939b1f7526cfb36af034038c411ef0c560b4c642991b0a73f5bf1fafbf57a1c6"},
+        "20260923": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "39d5b69eab8d8c40862ff3be397154dff679e2dcdd5085d58ceae4c8506bf4cd"}
+      },
+      "D": {
+        "20260921": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "184417a7696219597c808a52873faf074681c0aa4041b568c0f91144dc602b96"},
+        "20260922": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "78602eabfb124fe77dab0bc00dac5e42cc2fbf4b1d3174be5f3f8bc236e9bcb2"},
+        "20260923": {"path": "<LOCAL_PATH_REDACTED>", "sha256": "2779531b4dc12027c54b098e1c04279641402d7a70520c0502f2c1ce26ece455"}
+      }
+    }
+  },
+  "statistics": {
+    "conditions": ["reference", "degraded", "task_off", "task_on"],
+    "primary_metric": "covered-region pixel AUPRC",
+    "secondary_metrics": ["precision at 0.5", "recall at 0.5", "F1 at 0.5", "paired PSNR", "paired gradient MAE"],
+    "aggregation": "compute each parent continuous-lining segment first; average the three paired detector-restorer chains within parent; average parents within tunnel; report four-tunnel equal-weight macro",
+    "bootstrap": "10000 stratified parent-cluster resamples within tunnel, then equal-weight the four tunnel macros",
+    "bootstrap_seed": 20260923,
+    "no_pseudoreplication": "tile count describes image coverage only; inferential resampling unit is the parent continuous-lining segment",
+    "gates": {
+      "degradation_manipulation": "reference minus degraded AUPRC is positive in at least three of four tunnel macros",
+      "task_on_primary": "task_on minus degraded equal-tunnel AUPRC delta is positive, its stratified parent-bootstrap 95% lower bound is above zero, and at least three of four tunnel deltas are positive",
+      "task_loss_increment": "task_on minus task_off is claimed only if the same AUPRC point, lower-bound, and three-of-four-tunnels rule passes",
+      "fixed_threshold_secondary": "F1 at 0.5 is secondary and never overrides a failed primary AUPRC gate"
+    }
+  },
+  "claim_boundary": {
+    "allowed_if_primary_passes": "MERIT improves detector AUPRC on expert-annotated imagery from four previously unseen tunnels after the manuscript's fixed synthetic joint blur-noise degradation, using tunnel-held-out detectors.",
+    "forbidden": "Natural-degradation recovery on the different D2 camera, actual cross-device optical calibration, physical crack-width recovery, field safety, zero hallucination, full-grid specificity for all four tunnels, or confirmatory replacement of the earlier frozen endpoints.",
+    "positive_enrichment": "Only parents 0055 and 0211 are full-grid. Other parents remain positive-enriched covered regions even after non-overlap subsampling."
+  }
+}

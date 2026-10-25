@@ -1,0 +1,153 @@
+{
+  "anchor_crosscheck": {
+    "max_abs_off_difference": 0.0,
+    "max_abs_raw_difference": 0.0,
+    "observed_unique_rows": 336,
+    "reference_rows": 336,
+    "tolerance": 1e-12
+  },
+  "evidence_status": "frozen seed 1/2 confirmation on the four reviewer-added external tunnels",
+  "freeze_payload_sha256": "f195ea49e40a44b8b3b81c0d85ef5acde0584e327dfd328605123eb5f7a5730e",
+  "payload_sha256": "73cf5c63369d3b77ea7702cc460700afdfda6f8356c6041cb04ff5e764607a13",
+  "per_seed": {
+    "1": {
+      "conditional_sensitivity_dominance": -0.037282338473020676,
+      "factorial_dominance": 0.018782965437824428,
+      "framework_main": 0.07484826934866956,
+      "max_backbone_conditional": 0.11213060782169024,
+      "max_backbone_main": 0.05606530391084513,
+      "within_backbone_full_gain": {
+        "mamba": 0.15116516387792592,
+        "nafnet": 0.03903455605623568,
+        "plainunet": 0.048044007963384205,
+        "restormer": 0.06114934949713241
+      }
+    },
+    "2": {
+      "conditional_sensitivity_dominance": 0.020501810261206455,
+      "factorial_dominance": 0.06423463278610178,
+      "framework_main": 0.1079674553109971,
+      "max_backbone_conditional": 0.08746564504979065,
+      "max_backbone_main": 0.043732822524895326,
+      "within_backbone_full_gain": {
+        "mamba": 0.1599676362974244,
+        "nafnet": 0.07250199124763373,
+        "plainunet": 0.10707783803642179,
+        "restormer": 0.09232235566250852
+      }
+    }
+  },
+  "result": {
+    "backbone_marginal": {
+      "mamba": 0.2733070620234727,
+      "nafnet": 0.22340799880560241,
+      "plainunet": 0.23430432347958663,
+      "restormer": 0.23389178826954532
+    },
+    "by_detector": {
+      "d2_deeplabv3_resnet50": 0.0958013179404622,
+      "d2_resnet34_unet": 0.12789543134832448,
+      "d2_vgg16_unet": 0.05052683770071344
+    },
+    "by_tunnel": {
+      "A": 0.12142342625750681,
+      "B": 0.02756920389625302,
+      "C": 0.19863653878476656,
+      "D": 0.018002280380807117
+    },
+    "conditional_sensitivity": {
+      "conditional_sensitivity_dominance": {
+        "ci95_high": 0.0022234344093525317,
+        "ci95_low": -0.019096132215032542,
+        "estimate": -0.00839026410590718
+      },
+      "max_backbone_conditional": {
+        "ci95_high": 0.11320856927951387,
+        "ci95_low": 0.0876906036571718,
+        "estimate": 0.09979812643574054
+      }
+    },
+    "framework_cells": {
+      "mamba": 0.3510902620673103,
+      "nafnet": 0.25129213563156977,
+      "plainunet": 0.27308478497953814,
+      "restormer": 0.2722597145594556
+    },
+    "gates": {
+      "backbone_consistency": true,
+      "detector_consistency": true,
+      "factorial_dominance": true,
+      "framework_positive": true,
+      "seed_replication": true,
+      "tunnel_consistency": true
+    },
+    "primary": {
+      "factorial_dominance": {
+        "ci95_high": 0.049350087252041215,
+        "ci95_low": 0.033897905690289706,
+        "estimate": 0.04150879911196306
+      },
+      "framework_main": {
+        "ci95_high": 0.10081379380346359,
+        "ci95_low": 0.08203568470256815,
+        "estimate": 0.09140786232983336
+      },
+      "max_backbone_main": {
+        "ci95_high": 0.056604284639756954,
+        "ci95_low": 0.0438453018285859,
+        "estimate": 0.0498990632178703
+      }
+    },
+    "raw_cells": {
+      "mamba": 0.1955238619796351,
+      "nafnet": 0.1955238619796351,
+      "plainunet": 0.1955238619796351,
+      "restormer": 0.1955238619796351
+    },
+    "status": "PASS",
+    "within_backbone_full_gain": {
+      "mamba": 0.15556640008767522,
+      "nafnet": 0.05576827365193468,
+      "plainunet": 0.07756092299990305,
+      "restormer": 0.07673585257982049
+    }
+  },
+  "result_payload_count": 32,
+  "result_payload_sha256": [
+    "7b0b9246a9223e4f387ebe967ab27380eaccf094ab9b9eb1f9762bcb22da2965",
+    "2efcbff1c49cc73760f5426f2de92e9441d58a2e50d7a98c3a4dbdae2bc0d193",
+    "58ad5ff6cce467773827490d6f252b7b07bf4d10e0eb937ab1c60b3787ba74b2",
+    "3307e54494340db538bddf49cd66a1ed862f4bba54a871169996d4995e2a4af7",
+    "af347c2fb2e36773c64cb03b05e5fd12e48cdceb13edca633ff7f435a04323b9",
+    "ecda555fdb3024352a64d0b73aee1dfc763d9a4e6476259bfe6fb0b9d4fa2f8d",
+    "96731859489322f36dd16eff142cf418b40b871d025c084026f9a9f5f78c8bf3",
+    "a0c22a65788708c23d21791583236af12f783425542d0830ddf728f0b58cc9b6",
+    "765f5ac72a73b8a08057643b83291823c9fbdabf5f593fcc7f7f7def82d72d33",
+    "e0b6ec73ae7474ee18d39bd616bed45dd3a89cf73dfafff32bb6b357ce2ec10d",
+    "ff680ee240366fff44dc52bc83c169256462685600eadef9aa8e23f8dac3e99e",
+    "13601d9a666013f755027acab531ee66035fed0219188fa8f90efd33986e2c54",
+    "0e2ecf5c5855f7ee7bb834ec98afc48ca5c261d68f251493326999d4aec24670",
+    "5da4e28c7ab513b7756e61db7932eba778eb55c44a1aa94528a673a57783baef",
+    "3046e3e30c7089da4f2ae108597a44ff9a91cf61e61b36f299d11da9e31b091d",
+    "06bbeddde3defd9b951a8eb4de0d6a543d8c8fad69b9f7beb00699400e56907a",
+    "fc38ee08739b0606308543e4fec6fdc3e9e123f9ad3c82dcabda2fbe095d5859",
+    "384c8b958d06bdf2a4a1e601a069340ecb5b6d7cb8ad29b1a5ca31b89a85948f",
+    "d181ee021be985221a5843089e8e2f6abf50cbcf2121ca36c27df68640f9f558",
+    "8f736bbcb641d9dcccd2d6f4d890ca14070e0473b36aacc3e2f9c6b6dbe8aee9",
+    "c6b5a13eb5bb8bdeee537580882274247d58ded8c9fc0c355e1fc9162106990c",
+    "035360e303a5907e25627715fc341002c3adc33544c982fab3e9410d30772701",
+    "57d146d96d9f27f1dff589dc855faeb9b79a36f850ff613de8946087b3091a00",
+    "083f40052c4f1feddb2ed59a27b9b5b85d9135a05851a97ae94a33bdeb305a4b",
+    "1687485389d5d430e1782c0a5ba34b0008d9bdfdf90a0217dfe0021e2b549a7a",
+    "c1821aaf6f1abd5db9a1805b79c51d6a9efc49aa878c90dacdc44a8df3c9011d",
+    "d016a251484a03254a288be819a85dabccfc1c521a24508d9f1ede18d540c3d9",
+    "c530c557d581d25d2183369274fb708e924fcbb8bfbb64ae3242a64135166ec6",
+    "6d5ab4b87308082d2163fe3830bbf8cc4c167d98939f5b27f9126d83049be3f4",
+    "934dc93c04a47aa3e6d5ba5e839624d4060af29cfd8efaa093cfced1016cce48",
+    "b2a65e78d12c7d0c7061a0883a64e2395f278092579620365b821e78207ad8fc",
+    "dbf178cf472804a249afc79e3208a0330f3e352b8d24c8eed33330c7e508697b"
+  ],
+  "row_count": 336,
+  "schema_version": "MERIT-C055-CONFIRMATION-SUMMARY-v1",
+  "status": "PASS"
+}

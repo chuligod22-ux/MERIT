@@ -1,0 +1,122 @@
+{
+  "assets": {
+    "cycle1_final_summary": {
+      "bytes": 12311,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "52e53b83b6499ae53cbae30baa3d16943c83a2d1883095c22f35c7a7a67d28cf"
+    },
+    "seed0_screen": {
+      "bytes": 158140,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ac0ca48b78f116653021853dc608122ba03773dc948ace2ddc78771f955e3242"
+    },
+    "v23_c014_summary": {
+      "bytes": 3817,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d614550c90a00a4dc6e775a56814317f14c553af8dd50f4d5e6b0bf82b45917"
+    }
+  },
+  "code": {
+    "cycle2": {
+      "bytes": 15290,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "11e11040cc51dca607abebc0c10f087255fff884a270c9a54887ce46e1f9a2b7"
+    },
+    "frozen_cycle1_pipeline": {
+      "bytes": 57988,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "315e12aac127582626230349a03042ecb1857bdeaff1692815032ceb72e545cf"
+    },
+    "profiles": {
+      "bytes": 4729,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "60ee8c6ec3d41b53263a4c219cb6999710d9f76936c7b2a0f69d8aed10299a51"
+    }
+  },
+  "development_reason": "Cycle-1 outer-fold coefficient selection failed to transfer. Replace it with a single conservative detector-panel route selected on seed 0 under four-tunnel panel positivity and false-positive constraints.",
+  "evaluation_data": "same four tunnels with restorer/detector seeds 1 and 2; seed 0 retained in final aggregate",
+  "final_gate": "three-seed panel delta AUPRC mean and 95% CI lower >0; all four tunnels positive; panel matched-sensitivity delta FPR mean <=0; every detector mean delta AUPRC >=0",
+  "parent_protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "payload_sha256": "90ede96eeb41bb65dadbcf1c0658074c38e4774e6ce28e7dfc41a6a986111239",
+  "schema_version": "MERIT-C016-V24-DETECTION-CYCLE2-PROTOCOL-v1",
+  "scientific_role": "All four sites are development data for route selection; seeds 1 and 2 are stochastic replication, not new-site external validation.",
+  "selection": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": {
+        "condition": "sharp0100",
+        "delta_auprc": 0.0010211493405020181,
+        "delta_matched_fpr": -2.602230420296199e-05,
+        "per_tunnel_delta_auprc": {
+          "A": -0.0012473043361346469,
+          "B": 0.0037164297239390964,
+          "C": -0.0010057948885683343,
+          "D": 0.0026212668627719573
+        },
+        "per_tunnel_delta_matched_fpr": {
+          "A": -1.6618647760859548e-05,
+          "B": -2.0833776749863264e-05,
+          "C": -2.4418302310867843e-05,
+          "D": -4.221848999025731e-05
+        },
+        "positive_tunnels": 2
+      },
+      "d2_resnet34_unet": {
+        "condition": "sharp0100",
+        "delta_auprc": 0.0005181737558728686,
+        "delta_matched_fpr": -4.829043958615663e-05,
+        "per_tunnel_delta_auprc": {
+          "A": 0.0022248217008593585,
+          "B": -0.0020704892243673667,
+          "C": 0.002411815826687436,
+          "D": -0.0004934532796879535
+        },
+        "per_tunnel_delta_matched_fpr": {
+          "A": -0.00010611152819325065,
+          "B": 2.533594352454975e-05,
+          "C": -0.00012058058973454695,
+          "D": 8.194416058621308e-06
+        },
+        "positive_tunnels": 2
+      },
+      "d2_vgg16_unet": {
+        "condition": "sharp0100",
+        "delta_auprc": 0.0005291633535686963,
+        "delta_matched_fpr": 1.522444158223647e-06,
+        "per_tunnel_delta_auprc": {
+          "A": 0.0031466234302345965,
+          "B": -0.0008746906519722375,
+          "C": -0.001187591384438602,
+          "D": 0.0010323120204510279
+        },
+        "per_tunnel_delta_matched_fpr": {
+          "A": -8.511862647275423e-05,
+          "B": 3.0164517390400547e-06,
+          "C": 0.00010153307142533822,
+          "D": -1.3341120058729463e-05
+        },
+        "positive_tunnels": 2
+      }
+    },
+    "magnitude": 0.30000000000000004,
+    "panel_delta_auprc": 0.0006894954833145277,
+    "panel_delta_matched_fpr": -2.4263433210298327e-05,
+    "panel_per_tunnel_delta_auprc": {
+      "A": 0.0013747135983197694,
+      "B": 0.0002570832825331641,
+      "C": 7.280985122683316e-05,
+      "D": 0.0010533752011783438
+    },
+    "routes": {
+      "d2_deeplabv3_resnet50": "sharp0100",
+      "d2_resnet34_unet": "sharp0100",
+      "d2_vgg16_unet": "sharp0100"
+    }
+  },
+  "selection_data": "seed-0 all-four-tunnel screen only",
+  "selection_rule": {
+    "constraints": "seed-0 panel delta matched FPR <=0; every tunnel panel delta AUPRC >0; every detector mean delta AUPRC >=0; each active detector route positive on at least 2/4 tunnels",
+    "objective": "maximize equal-detector, equal-tunnel panel delta AUPRC",
+    "tie_break": "smaller summed profile magnitude"
+  },
+  "status": "FROZEN_BEFORE_CYCLE2_SEED1_SEED2_OUTPUTS"
+}

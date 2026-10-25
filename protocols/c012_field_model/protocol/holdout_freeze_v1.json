@@ -1,0 +1,131 @@
+{
+  "aggregation": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed_base": 20261031,
+    "d2": "Average seed within detector-parent, detector within parent, then tunnel-stratified parent bootstrap.",
+    "width": "Pair RAW/profile within seed-source-nominal, average seeds, then source-cluster bootstrap."
+  },
+  "code": {
+    "evaluation": {
+      "bytes": 12480,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "5b3240724066751555437f3dd3ca43a72632a095bdf4434393139f7e041bc2de"
+    },
+    "profile_tests": {
+      "bytes": 1702,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "abbf55e4dfeb58a15cc3b9e7ecc46c9743a83e6029b6265d31f1e0c3efde5400"
+    },
+    "profiles": {
+      "bytes": 2724,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "fb11ae3c8af43c1c00e38cdedf5308ee97d22e7a1d85e3bb5ff8552b7e5b45ae"
+    },
+    "summarizer": {
+      "bytes": 12300,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "709358b64a1745784f28bc50241cc928c8ff3819329f46309902898eb31afae5"
+    }
+  },
+  "created_utc": "2026-10-11T14:07:30.840889+00:00",
+  "development_summary": {
+    "bytes": 7600,
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "3d2c7fed7b9cea13e5b73f4da61ea46cbafb888bbae46d5443830c2876689bf6"
+  },
+  "gates": {
+    "d2": "panel delta AUPRC mean and CI lower >0; every holdout tunnel positive; matched FPR mean <=0; every detector mean delta AUPRC >=0",
+    "global": "D2 and width gates both pass",
+    "width": "delta absolute error mean and CI upper <0; >=6/8 nominal widths improve; non-estimable increase <=2 percentage points"
+  },
+  "payload_sha256": "7d2edf81d983bd7de44879574b4119859fdc33457fb1c6a187d8413fc572510b",
+  "profiles": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": "unsharp_0p10",
+      "d2_resnet34_unet": "identity",
+      "d2_vgg16_unet": "inverse_base_residual_0p25"
+    },
+    "width": "inverse_base_residual_0p50"
+  },
+  "schema_version": "MERIT-C012-HOLDOUT-FREEZE-v1",
+  "scientific_boundary": {
+    "claim": "A pass is internal heldout field evidence only; prospective external acquisition remains mandatory.",
+    "development": "Tunnels A/B and W001-W025 were used for adaptive candidate selection.",
+    "holdout": "Tunnels C/D and W026-W050 are sealed internal holdout assets not used for C012 selection.",
+    "natural_crack_physical_width": "CANNOT_DETERMINE_WITH_AVAILABLE_ASSETS"
+  },
+  "splits": {
+    "development": {
+      "tunnels": [
+        "A",
+        "B"
+      ],
+      "width_sources": [
+        "W001",
+        "W002",
+        "W003",
+        "W004",
+        "W005",
+        "W006",
+        "W007",
+        "W008",
+        "W009",
+        "W010",
+        "W011",
+        "W012",
+        "W013",
+        "W014",
+        "W015",
+        "W016",
+        "W017",
+        "W018",
+        "W019",
+        "W020",
+        "W021",
+        "W022",
+        "W023",
+        "W024",
+        "W025"
+      ]
+    },
+    "holdout": {
+      "tunnels": [
+        "C",
+        "D"
+      ],
+      "width_sources": [
+        "W026",
+        "W027",
+        "W028",
+        "W029",
+        "W030",
+        "W031",
+        "W032",
+        "W033",
+        "W034",
+        "W035",
+        "W036",
+        "W037",
+        "W038",
+        "W039",
+        "W040",
+        "W041",
+        "W042",
+        "W043",
+        "W044",
+        "W045",
+        "W046",
+        "W047",
+        "W048",
+        "W049",
+        "W050"
+      ]
+    }
+  },
+  "status": "FROZEN_BEFORE_HOLDOUT_OUTPUTS",
+  "upstream_c011_protocol": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "payload_sha256": "24bdd2b607da280e89f281f2f6e9398a3e3dc90d294118966383561b612b6cdf",
+    "sha256": "be55493dc3e8eda368b54784d62a894e37c4c4c578adad8e62a5d2e4e492c644"
+  }
+}

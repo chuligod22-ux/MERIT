@@ -1,0 +1,267 @@
+{
+  "schema_version": "MERIT-C009-G11-IMPLEMENTATION-v1",
+  "created_date": "2026-09-25",
+  "gate": "G11",
+  "status": "BLOCKED",
+  "full_training_allowed": false,
+  "source_identity_status": "CONFIRMED",
+  "local_snapshot_status": "VERIFIED_PASS",
+  "paired_training_stream_status": "FROZEN_PASS",
+  "official_smoke_status": "NOT_RUN",
+  "blocking_reason": "Exact upstream identities, clean local source snapshots, native architecture templates, and source-tree hashes are frozen, but the isolated dependency build, adapter-to-upstream integration hashes, parameter/FLOP audit, and official forward/backward memory-time smoke are not yet available.",
+  "primary_design": {
+    "comparison": "within-backbone paired base package versus MERIT full package",
+    "capacity_policy": "use one frozen native official configuration per family; disclose parameters/FLOPs and do not claim cross-family architectural superiority",
+    "package_parameter_rule": "within each backbone, base and MERIT arms must have identical trainable parameter count",
+    "input": {
+      "channels": 3,
+      "channel_0": "degraded grayscale image in [0,1]",
+      "channel_1": "directional blur prompt map; zero for base, correct frozen oracle for MERIT",
+      "channel_2": "noise prompt map; zero for base, correct frozen oracle for MERIT"
+    },
+    "adapter": {
+      "policy": "do not edit upstream source; wrap the unchanged official 3-to-3 residual model, retain output channel 0 as the restored grayscale result, and apply the original MERIT [0,1] output clamp",
+      "path": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/g11_official_backbone_adapter.py",
+      "sha256": "8634463fdeb50c2bacf3ce0641cb72dc255d1fa9892bf539f6d72f937449e795",
+      "trainable_parameters": 0,
+      "base_full_identity_rule": "the exact same wrapper and official architecture instance definition is used in both package arms",
+      "safety_audit": "forward_preclip exposes the unclipped first channel only for out-of-range and saturation accounting; forward returns the clamped training/evaluation image"
+    },
+    "training": {
+      "seeds": [0, 1, 2],
+      "steps": 8000,
+      "batch_size": 4,
+      "patch_size": 448,
+      "optimizer": "AdamW",
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "scheduler": "CosineAnnealingLR with T_max=8000",
+      "precision": "bfloat16 mixed precision",
+      "checkpoint_selection": "fixed final step only; recovery checkpoints cannot be selected by outcome",
+      "early_stopping": false,
+      "base_loss": "L1 + gradient + 0.1*FFT",
+      "merit_full_loss": "L1 + gradient + 0.1*FFT + 5.0*DeepCrack probability L1",
+      "data_order": "same frozen D0 parent-disjoint bank and seed-specific stream within every paired arm"
+    }
+  },
+  "official_candidates": {
+    "nafnet": {
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "branch": "main",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "license": "MIT for NAFNet code; bundled BasicSR Apache-2.0 notices retained",
+      "official_task": "GoPro single-image motion deblurring",
+      "configuration_path": "options/train/GoPro/NAFNet-width32.yml",
+      "architecture": {
+        "type": "NAFNetLocal",
+        "width": 32,
+        "enc_blk_nums": [1, 1, 1, 28],
+        "middle_blk_num": 1,
+        "dec_blk_nums": [1, 1, 1, 1]
+      },
+      "factory": {
+        "module": "basicsr.models.archs.NAFNet_arch",
+        "class": "NAFNetLocal",
+        "kwargs": {
+          "img_channel": 3,
+          "width": 32,
+          "middle_blk_num": 1,
+          "enc_blk_nums": [1, 1, 1, 28],
+          "dec_blk_nums": [1, 1, 1, 1]
+        },
+        "runtime_adaptations": [],
+        "note": "The official NAFNetLocal default train_size=(1,3,256,256) is retained; the C009 448 crop is accepted by the official padded forward path."
+      },
+      "selection_reason": "official deblurring configuration and the lower-capacity official width32 variant, frozen before C009 results",
+      "local_snapshot": "05_MERIT_revision/40_수정본/c009_integrated_experiment/third_party/NAFNet",
+      "local_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    },
+    "restormer": {
+      "repository": "https://github.com/swz30/Restormer",
+      "branch": "main",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "license": "MIT",
+      "official_task": "single-image motion deblurring",
+      "configuration_path": "Motion_Deblurring/Options/Deblurring_Restormer.yml",
+      "architecture": {
+        "type": "Restormer",
+        "inp_channels": 3,
+        "out_channels": 3,
+        "dim": 48,
+        "num_blocks": [4, 6, 6, 8],
+        "num_refinement_blocks": 4,
+        "heads": [1, 2, 4, 8],
+        "ffn_expansion_factor": 2.66,
+        "bias": false,
+        "LayerNorm_type": "WithBias",
+        "dual_pixel_task": false
+      },
+      "factory": {
+        "module": "basicsr.models.archs.restormer_arch",
+        "class": "Restormer",
+        "kwargs": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [4, 6, 6, 8],
+          "num_refinement_blocks": 4,
+          "heads": [1, 2, 4, 8],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "WithBias",
+          "dual_pixel_task": false
+        },
+        "runtime_adaptations": []
+      },
+      "selection_reason": "official motion-deblurring architecture configuration, frozen before C009 results",
+      "local_snapshot": "05_MERIT_revision/40_수정본/c009_integrated_experiment/third_party/Restormer",
+      "local_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    },
+    "mambair": {
+      "repository": "https://github.com/csguoh/MambaIR",
+      "branch": "mambair",
+      "commit": "19d88bb6f8d74d42e278cf30e08bee7ba124887a",
+      "license": "Apache-2.0",
+      "official_task": "no official motion-deblurring recipe; x1 color-denoising architecture is used only as the native one-to-one MambaIR template",
+      "configuration_path": "options/train/train_MambaIR_ColorDN_level25.yml",
+      "architecture": {
+        "type": "MambaIR",
+        "upscale": 1,
+        "in_chans": 3,
+        "img_size": 128,
+        "img_range": 1.0,
+        "d_state": 16,
+        "depths": [6, 6, 6, 6, 6, 6],
+        "embed_dim": 180,
+        "mlp_ratio": 1.2,
+        "upsampler": ""
+      },
+      "factory": {
+        "module": "basicsr.archs.mambair_arch",
+        "class": "MambaIR",
+        "kwargs": {
+          "img_size": 128,
+          "patch_size": 1,
+          "in_chans": 3,
+          "embed_dim": 180,
+          "depths": [6, 6, 6, 6, 6, 6],
+          "drop_rate": 0.0,
+          "d_state": 16,
+          "mlp_ratio": 1.2,
+          "drop_path_rate": 0.1,
+          "patch_norm": true,
+          "use_checkpoint": false,
+          "upscale": 1,
+          "img_range": 1.0,
+          "upsampler": "",
+          "resi_connection": "1conv"
+        },
+        "runtime_adaptations": [
+          "Set the non-trainable three-channel RGB mean tensor to exact zeros before training because C009 channels are grayscale, blur prompt, and noise prompt rather than RGB."
+        ],
+        "adaptation_boundary": "Official source and trainable architecture remain unchanged; this task-specific input-centering constant is disclosed and applied identically to base and merit_full."
+      },
+      "selection_reason": "official ECCV 2024 MambaIR original branch and native scale-1 restoration path; task data, objective, and 448 crop are MERIT adaptations and must not be described as an official deblurring recipe",
+      "dependency_reference": {
+        "official_environment": "Python 3.8, PyTorch 2.0.1, CUDA 11.7",
+        "official_pins": ["mamba_ssm==1.0.1", "causal_conv1d==1.0.0"],
+        "host_compatibility": "UNVERIFIED"
+      },
+      "local_snapshot": "05_MERIT_revision/40_수정본/c009_integrated_experiment/third_party/MambaIR",
+      "local_tree_sha256": "36ad84b77b2daea9733f1be1723f1896a99d6556eae3e0bfbaee92972da18eca",
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    }
+  },
+  "host_runtime_audit": {
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "driver": "572.83",
+    "gpu_memory_mib": 97887,
+    "project": "<LOCAL_PATH_REDACTED>",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "einops": "0.8.2",
+    "timm": "1.0.27",
+    "missing_imports": ["mamba_ssm", "causal_conv1d", "fvcore"],
+    "isolation_rule": "do not alter the established tunnelscanning environment; build and freeze a separate G11 environment",
+    "network_acquisition": "Shell TCP 443 failed for github.com, raw.githubusercontent.com, codeload.github.com, and api.github.com on 2026-09-25; public repository metadata was independently verified, but no web content was treated as a local source snapshot"
+  },
+  "paired_training_stream_freeze": {
+    "contract": "05_MERIT_revision/40_수정본/c009_integrated_experiment/protocol/g11_training_contract_v1.json",
+    "contract_sha256": "7c466aef52b905ad583d1ac11eab6fcee55178d7c57262c179547ba10727213d",
+    "stream_freeze": "05_MERIT_revision/40_수정본/c009_integrated_experiment/protocol/g11_training_stream_freeze_v1.json",
+    "stream_freeze_sha256": "86fc15b95f8645c742975683b3242b8a5f0630a16fe6f62bac19d8e163629b2e",
+    "generator": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/g11_training_stream.py",
+    "generator_sha256": "568e9177349906e34b9d2ca392c820b8835255ac6482f261e0fb7458d9e14ef7",
+    "result": "PASS",
+    "bank_rows": {"train": 161, "synthetic_holdout": 50},
+    "physical_parent_sets": {"train": 108, "synthetic_holdout": 33, "overlap": 0},
+    "seeds": [0, 1, 2],
+    "prefix_batches_per_seed": 2,
+    "pairing_result": "channel 0, target, sample order, and degradation metadata are frozen per seed; only prompt channels differ between base and merit_full",
+    "authorization_effect": "This closes the paired-stream subgate only and does not authorize full training."
+  },
+  "official_model_factory": {
+    "path": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/g11_official_model_factory.py",
+    "sha256": "1a729d95851dafe20cdd9be50594d877920729d1789a3567c148e9a2041fb779",
+    "one_family_per_process": true,
+    "reason": "All three snapshots expose a top-level basicsr package; process isolation prevents cross-repository module contamination.",
+    "execution_status": "READY_SOURCE_PREFLIGHT_PASS_DEPENDENCY_IMPORT_PENDING"
+  },
+  "official_smoke_runner": {
+    "path": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/g11_official_smoke.py",
+    "sha256": "bc617e6860fe72987405aa43aa5e3560f59e103c536ffa863925c226c9de74da",
+    "scope": "one-family-per-process paired base/full initial-state equality, trainable-parameter equality, bf16 forward/backward, finite loss/gradient, preclip range, peak VRAM, step time, and fvcore FLOPs at 448x448",
+    "execution_status": "NOT_RUN_ISOLATED_DEPENDENCIES_AND_FVCORE_MISSING",
+    "full_training_authorization": false
+  },
+  "acquisition": {
+    "script": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/fetch_g11_official_sources.ps1",
+    "script_sha256": "09db9b93887d2128348e9003fc4aef32c37bfd4d05e8d256fce0b167c15ce897",
+    "destination": "05_MERIT_revision/40_수정본/c009_integrated_experiment/third_party",
+    "overwrite_policy": "reuse an existing named target only when exact commit, clean worktree, and license all verify; otherwise refuse without overwriting",
+    "transaction_safety": "fetch missing repositories under a unique staging root, verify commit and license, create independent final worktrees by local clone rather than recursive Move-Item, and reverify all final targets",
+    "postcondition": "exact detached HEAD and retained license SHA-256 for all three repositories",
+    "source_freeze_manifest": "05_MERIT_revision/40_수정본/c009_integrated_experiment/third_party/g11_source_freeze_v1.json",
+    "source_freeze_sha256": "6dd4de50513769905ce09e58946900caa0796ae2abacecec0c4b7b77ff7c567e",
+    "read_only_preflight": {
+      "script": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/g11_source_preflight.py",
+      "script_sha256": "af944d319d4e0bba3fec88a2508df5e8f6066ddd2c38a6e7a9f22108d3a611dc",
+      "latest_status": "PASS_ALL_THREE_EXACT_CLEAN_SNAPSHOTS"
+    }
+  },
+  "adapter_unit_test": {
+    "path": "05_MERIT_revision/40_수정본/c009_integrated_experiment/scripts/test_g11_official_backbone_adapter.py",
+    "result": "PASS",
+    "tests": 3,
+    "scope": "dummy 3-to-3 backbone shape, first-channel selection, [0,1] clamp, preclip safety access, gradient propagation, and wrong-channel rejection only; not an official-backbone smoke"
+  },
+  "preparation_unit_tests": {
+    "result": "PASS",
+    "tests": 12,
+    "groups": {
+      "adapter": 3,
+      "official_model_factory": 3,
+      "paired_training_stream": 4,
+      "official_smoke_helpers": 2
+    },
+    "separate_source_preflight_tests": 3,
+    "note": "Helper tests do not substitute for official source import or GPU smoke."
+  },
+  "closure_requirements": [
+    "Retain the verified source-freeze manifest and source-preflight tree hashes without editing upstream source.",
+    "Hash the common wrapper and integration files without editing upstream source.",
+    "Build an isolated dependency environment; record all versions and any compatibility deviations from the MambaIR reference environment.",
+    "Record exact trainable parameter count, FLOPs at 448x448, and base/full equality for each official backbone.",
+    "Pass forward/backward bfloat16 smoke for base and MERIT arms without OOM and record peak memory and step time.",
+    "Recompute G13 from official-model timings before any full run."
+  ]
+}

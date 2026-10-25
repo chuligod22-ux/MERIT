@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-22T14:51:30+00:00",
+  "elapsed_seconds": 2.0754348998889327,
+  "events": 7,
+  "expected_events": 7,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "peak_cuda_memory_bytes": 2162011136,
+  "schema_version": "MERIT-D0-CAM2-50COND-v1",
+  "scope": "1024x1024 plumbing test only; not an analysis result",
+  "status": "PASS"
+}

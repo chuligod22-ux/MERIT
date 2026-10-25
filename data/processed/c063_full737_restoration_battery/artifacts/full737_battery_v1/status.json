@@ -1,0 +1,20 @@
+{
+  "schema_version": "MERIT-C063-FULL737-BATTERY-v1",
+  "state": "COMPLETE_CLAIM_BOUNDED",
+  "created_utc": "2026-10-24T05:12:17+00:00",
+  "execution_freeze_sha256": "a4fd40fbd7efa49d7c6d55fe4f961b5653ac7a9fd810c63220a12ce4f9491a48",
+  "counts": {
+    "frames": 737,
+    "condition_cells": 50,
+    "primary_condition_cells": 45,
+    "primary_frames": 667
+  },
+  "checks": {
+    "all_737_frames": true,
+    "all_50_conditions": true,
+    "all_45_primary_conditions": true,
+    "all_methods_present": true,
+    "all_values_finite": true
+  },
+  "claim_boundary": "This is a controlled detector-response restoration comparison against an operational source reference. It is not human-mask detection accuracy or proof that 737 frames are independent."
+}

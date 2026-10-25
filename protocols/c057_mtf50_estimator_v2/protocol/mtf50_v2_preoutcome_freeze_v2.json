@@ -1,0 +1,35 @@
+{
+  "schema_version": "MERIT-C057-MTF50-V2-PREOUTCOME-FREEZE-v2",
+  "created_utc": "2026-10-20T07:28:00Z",
+  "state": "FROZEN_AFTER_DEVELOPMENT_BEFORE_OFFICIAL_HOLDOUT_AND_RESTORATION_OUTPUTS",
+  "development_contract": {
+    "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_development_contract_v2.json",
+    "sha256": "3da4d7a7c74a2052035ff9b606c3267fc45e19ad888f29fa03d4885fbca253f6"
+  },
+  "selected_candidate": {
+    "localization_gaussian_sigma_px": 0.75,
+    "polarity": "select signed-gradient polarity with greater line support",
+    "line_fit": "existing two-stage ordinary least squares",
+    "esf_input": "unaltered RAW pixels",
+    "selection_rule": "first lowest-sigma candidate passing amended development gates"
+  },
+  "development_only_result": {
+    "roi_records": 335,
+    "valid_roi_count": 333,
+    "valid_roi_fraction": 0.9940298507462687,
+    "minimum_distance_valid_fraction": 0.9696969696969697,
+    "roi_spearman_vs_imatest": 0.936184,
+    "frame_spearman_vs_imatest_mean": 0.902616,
+    "roi_mean_absolute_error_cy_px": 0.0077935,
+    "common_roi_mae_change_vs_v1_cy_px": -0.0000704,
+    "common_roi_spearman_change_vs_v1": -0.000557,
+    "gate": "PASS_UNDER_AMENDED_DEVELOPMENT_THRESHOLD"
+  },
+  "holdout_gate_unchanged": true,
+  "prohibitions": [
+    "No parameter change after official holdout evaluation.",
+    "No restoration-arm output may be used before estimator code and tests are frozen.",
+    "No condition-specific fallback or forced finite MTF50 value."
+  ],
+  "disclosure": "An exploratory worker completed a full-cohort diagnostic before receiving the partition instruction. Those aggregate values were not delivered to the primary analyst before this freeze and were not used for candidate selection. The study remains retrospective measurement-method validation rather than analyst-blind confirmation."
+}

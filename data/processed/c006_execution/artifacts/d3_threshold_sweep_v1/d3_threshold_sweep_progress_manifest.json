@@ -1,0 +1,4881 @@
+{
+  "schema_version": "MERIT-C006-D3-THRESHOLD-SWEEP-v1",
+  "created_utc": "2026-09-22T03:54:09.865749+00:00",
+  "record_count": 974,
+  "split_counts": {
+    "calibration_nonR": 496,
+    "evaluation_R": 478
+  },
+  "records": [
+    {
+      "cohort_id": "D3-CAM101-2-000169",
+      "path": "progress\\0001_D3-CAM101-2-000169.json",
+      "sha256": "ac4ead0f0097f9ea1944a79220bee469ab11455656070952e895c5c779fdb960"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000179",
+      "path": "progress\\0002_D3-CAM101-2-000179.json",
+      "sha256": "3037b47c33546ddc206ae057cd87058bb1badff63db95dc47e760f1e86e22665"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000189",
+      "path": "progress\\0003_D3-CAM101-2-000189.json",
+      "sha256": "d32b007b5fb7d306d46a33f97ea7bc952a83a47738553043104f318349d72561"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000199",
+      "path": "progress\\0004_D3-CAM101-2-000199.json",
+      "sha256": "27c9ada6a8a6cbf25432cd1496532c82e92680feecfbb3b36e66986b300ce280"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000209",
+      "path": "progress\\0005_D3-CAM101-2-000209.json",
+      "sha256": "2f0a35f8c5af939ea626035908adbca21f2e69679b9d8ea426f4a1879d4eae00"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000219",
+      "path": "progress\\0006_D3-CAM101-2-000219.json",
+      "sha256": "662f4eb6a0f0aef33ad2b8a317c8b79fd2223f30bc8adce9baa6537f85077b68"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000229",
+      "path": "progress\\0007_D3-CAM101-2-000229.json",
+      "sha256": "daf5fc804d3732f80c650f32b36400f1dfb5e7e376f703ae96077fcc3793a7f5"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000239",
+      "path": "progress\\0008_D3-CAM101-2-000239.json",
+      "sha256": "8e9c2f2e49c1b4ccd2976a776bd783430ceb3e63706546721a75e1c153d777f3"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000249",
+      "path": "progress\\0009_D3-CAM101-2-000249.json",
+      "sha256": "5522d73178ef7941b825e235e5d7a40fd52e9045cb7e7d514af43defb79432d7"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000259",
+      "path": "progress\\0010_D3-CAM101-2-000259.json",
+      "sha256": "8d89338ffc0ec05ba170a34bf65f10c765217e18d9eaff37e1caceb4a1676e69"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000269",
+      "path": "progress\\0011_D3-CAM101-2-000269.json",
+      "sha256": "cd4db919fb431ebac8f16e3c88ab51b162a41e5f370ec6d63a0b8898171a2d1a"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000279",
+      "path": "progress\\0012_D3-CAM101-2-000279.json",
+      "sha256": "1757b220d94a3b2ec2b57f45d66529dc0bdebcf6f3ca7025c9a7c45e9450afa1"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000289",
+      "path": "progress\\0013_D3-CAM101-2-000289.json",
+      "sha256": "6286565cb5582494d489047e45ff7f2a1d6ec7e51ee3f9fa16b1fb86b7d0f472"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000299",
+      "path": "progress\\0014_D3-CAM101-2-000299.json",
+      "sha256": "e4bcd091239f1ec491bd0fa60430244951867e3d60abc1687f33583133f0f13f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000309",
+      "path": "progress\\0015_D3-CAM101-2-000309.json",
+      "sha256": "607b4a43dcc1f4bf7f0f196bd6733bde6ae18e98503c4ecc0216633bc64f4089"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000319",
+      "path": "progress\\0016_D3-CAM101-2-000319.json",
+      "sha256": "44ba17c46a0f36d2e9558e370ce96e78e856287d58fac17569a51bc8da2e9bca"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000329",
+      "path": "progress\\0017_D3-CAM101-2-000329.json",
+      "sha256": "3664d9c1a1ced75bf21ee5cc70a97e6823a91bd0680da7ee1c5f4ac9cf40e6e0"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000339",
+      "path": "progress\\0018_D3-CAM101-2-000339.json",
+      "sha256": "ff83f487bce252a454376b0eb5b7a4ec8cbf93066b01510d4026a31d46c703a1"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000349",
+      "path": "progress\\0019_D3-CAM101-2-000349.json",
+      "sha256": "e75031520517675fee4ecebe3df562db31bf527aba2186a39442681ac9c72a17"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000359",
+      "path": "progress\\0020_D3-CAM101-2-000359.json",
+      "sha256": "c326c702d6a71b728b58d7e11fc70c388534b137164b676512adcf8ddc74def4"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000369",
+      "path": "progress\\0021_D3-CAM101-2-000369.json",
+      "sha256": "8c978c7da588a641a77a6c9e7a6fc51fa0e801bc3f2bc4bcf847e946277a76cc"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000379",
+      "path": "progress\\0022_D3-CAM101-2-000379.json",
+      "sha256": "b26d10de0fc9848a3f3e89e862fe34a7907d2c2e5249d5cd5f1b6a63989ba4c2"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000389",
+      "path": "progress\\0023_D3-CAM101-2-000389.json",
+      "sha256": "1cd9276d061a54fe7be05b9186ad218fcf6aa7349096c066ee973e8ceab50c51"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000399",
+      "path": "progress\\0024_D3-CAM101-2-000399.json",
+      "sha256": "00419adafaba47b831d23ffb2c60002312a1a8f5aa0f65654fd78d5059eeb0d6"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000409",
+      "path": "progress\\0025_D3-CAM101-2-000409.json",
+      "sha256": "1dd7fda2638603feb539a54cb2ac7dab7d72bcc964231f592eb253f21bd7c305"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000419",
+      "path": "progress\\0026_D3-CAM101-2-000419.json",
+      "sha256": "a581493591fe0854820eb06c5637ce4da8fe51a7c3d4dc6fa7fc83809cc19261"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000429",
+      "path": "progress\\0027_D3-CAM101-2-000429.json",
+      "sha256": "66608d8ba18b7c23851c57264ac18d9d6e7ebb935886f1c801e5f8ca002772f3"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000439",
+      "path": "progress\\0028_D3-CAM101-2-000439.json",
+      "sha256": "5c5a96208154b79e45171e03fd752dedf3dcf20545fdbd5797f6fede29558803"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000449",
+      "path": "progress\\0029_D3-CAM101-2-000449.json",
+      "sha256": "628b1e659e8cfe0fd5ec429898cd30e910c084e00743c365cdadb837a680e903"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000459",
+      "path": "progress\\0030_D3-CAM101-2-000459.json",
+      "sha256": "7633e76c1c942c22226d8858cd6452d895ef7283f8f3134a2f9fa2995b8dc354"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000469",
+      "path": "progress\\0031_D3-CAM101-2-000469.json",
+      "sha256": "d2673f9c594eda0bb4610668e80d865927aba7922fe9a6443e86f3737f9873c9"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000479",
+      "path": "progress\\0032_D3-CAM101-2-000479.json",
+      "sha256": "47a11889e2308beec5d1fce137276aef64e6af94db685dd4d0e143602326178d"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000489",
+      "path": "progress\\0033_D3-CAM101-2-000489.json",
+      "sha256": "4dbe889de245f5f8d931419ea46c4b169698c7ae106c26674c7a0a62aead478c"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000499",
+      "path": "progress\\0034_D3-CAM101-2-000499.json",
+      "sha256": "c968c980392ff1c5cbf43af9b579172f63c74581d2047d9abfe21a14339a61b2"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000509",
+      "path": "progress\\0035_D3-CAM101-2-000509.json",
+      "sha256": "a1c4df9f88f39410d13c5b6379e61e20050410e7ec9014fb9f8fb5361173ad8c"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000519",
+      "path": "progress\\0036_D3-CAM101-2-000519.json",
+      "sha256": "9d20929caac556fb59ea3d0333f910a8e5257bdeed7c84a8123856d2270a1ab4"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000529",
+      "path": "progress\\0037_D3-CAM101-2-000529.json",
+      "sha256": "10fe43f097e12a40c15ba679c1120151f144fb61031eb57a4ff485fc7ec91cca"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000539",
+      "path": "progress\\0038_D3-CAM101-2-000539.json",
+      "sha256": "0254fabaa5a66ef732fcb8757a9fbdd495449d31eeafeb1d7c15d831ee0162bf"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000549",
+      "path": "progress\\0039_D3-CAM101-2-000549.json",
+      "sha256": "753c4b5b482727d75f472cc897cdc53daa552524cc78b75ee6ead6263e967f7b"
+    },
+    {
+      "cohort_id": "D3-CAM101-2-000559",
+      "path": "progress\\0040_D3-CAM101-2-000559.json",
+      "sha256": "a294c7ae457562ae5d2f2515dc92e561e161893359cb9e4d3059a8b397a4fbfb"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000080",
+      "path": "progress\\0041_D3-CAM101-2R-000080.json",
+      "sha256": "d7b5533d9bda019c80d457d60685607b35515aefa0c0428f6e14214644d4395f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000090",
+      "path": "progress\\0042_D3-CAM101-2R-000090.json",
+      "sha256": "b347ba3ce297345fcf246366d12935bfccba8cca63cc5decc473a16f276db742"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000100",
+      "path": "progress\\0043_D3-CAM101-2R-000100.json",
+      "sha256": "9739cf2b94da74baf4aebf44141102e19af747b75f2efdf7339e9d3aac25b8ca"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000110",
+      "path": "progress\\0044_D3-CAM101-2R-000110.json",
+      "sha256": "844ee34da0c7705ed6fdf819428213d8c393d56bad1d5d6e46920adef4da54c2"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000120",
+      "path": "progress\\0045_D3-CAM101-2R-000120.json",
+      "sha256": "b7cafc9961a4f73f93060decb5f8ec583f34b59f2a9f25350b1276417542e48d"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000130",
+      "path": "progress\\0046_D3-CAM101-2R-000130.json",
+      "sha256": "cfcf1990ecc310325354197d5c993833528d4e8ea5239b8e72f01718f9fd1355"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000140",
+      "path": "progress\\0047_D3-CAM101-2R-000140.json",
+      "sha256": "e176a7a474c54fa59c20e7af5be7e37e65ad6d26bdfb7c561d3044eee8849e46"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000150",
+      "path": "progress\\0048_D3-CAM101-2R-000150.json",
+      "sha256": "3c8d1a3b5e0caf98eeb85b16ce5752fff18553bedadbab370513d292afdf47c0"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000160",
+      "path": "progress\\0049_D3-CAM101-2R-000160.json",
+      "sha256": "e5bf354149dde95cc0d65c794f41237635aa7ca6f5d6b326ca4725dd29d9ecc4"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000170",
+      "path": "progress\\0050_D3-CAM101-2R-000170.json",
+      "sha256": "fa4418440b502698dc57a7d5ee67361f6b57233bce6d3a67930dfbfe3c1cf36f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000180",
+      "path": "progress\\0051_D3-CAM101-2R-000180.json",
+      "sha256": "945e991ee0ffb28a3c7f65425acc764fc57e3086cf1279ab9f5e6af29dfe5052"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000190",
+      "path": "progress\\0052_D3-CAM101-2R-000190.json",
+      "sha256": "612f5e85e85575ebce7ec389f585a8c48bec7604e44bb502c61a455f39670dee"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000200",
+      "path": "progress\\0053_D3-CAM101-2R-000200.json",
+      "sha256": "0303d8aa9784d3ef6460191568fad973128e32f32fb6ebcce6033cab5c2deb07"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000210",
+      "path": "progress\\0054_D3-CAM101-2R-000210.json",
+      "sha256": "58867dae1dc6ab2f51bfe1b454c9413bb1a137bdd74294dcccccb800c9383bfb"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000220",
+      "path": "progress\\0055_D3-CAM101-2R-000220.json",
+      "sha256": "24d1d6fe50cf90da9cff8830ba3fc205e21a86eff35d71c5a512a6fe42d0d787"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000230",
+      "path": "progress\\0056_D3-CAM101-2R-000230.json",
+      "sha256": "fa1928d23532f6569c2bc648261f50e72f642bfaa4cba345e10ab30b03c04d84"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000240",
+      "path": "progress\\0057_D3-CAM101-2R-000240.json",
+      "sha256": "6fb323ae1607824bbd938427d6966f09c08d72eb3f2932d88a017500c6b56c18"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000250",
+      "path": "progress\\0058_D3-CAM101-2R-000250.json",
+      "sha256": "87c6f6e461c0e6aed3edc553d3c84c3325cdafe11fc5a3348495d2a278ba7504"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000260",
+      "path": "progress\\0059_D3-CAM101-2R-000260.json",
+      "sha256": "193557d501418607713ba9ec2067b035b814cd2e5d02fbb8f945f81b1e52a6ad"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000270",
+      "path": "progress\\0060_D3-CAM101-2R-000270.json",
+      "sha256": "10238f3c79b7643454edc0bab05a5056b7bf03731aa782338e80489353b428c3"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000280",
+      "path": "progress\\0061_D3-CAM101-2R-000280.json",
+      "sha256": "5e8c95f3e8d68a346a567eca0ef341a66289d55150e9880b6d33ffb5936d117e"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000290",
+      "path": "progress\\0062_D3-CAM101-2R-000290.json",
+      "sha256": "a4aa0f186b7b2b856ac27bb8a75a2bcc8a0f3af5a4bbcb0575cdc0cc5a9d9f9f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000300",
+      "path": "progress\\0063_D3-CAM101-2R-000300.json",
+      "sha256": "a5846997685fe3a484c025055d5bbf1cf529dce582be7fd5793b241a45f99511"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000310",
+      "path": "progress\\0064_D3-CAM101-2R-000310.json",
+      "sha256": "8dcb5cb84df7f5e4a3e479f410385ba4745b70db60dd847d17a83493373ccf70"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000320",
+      "path": "progress\\0065_D3-CAM101-2R-000320.json",
+      "sha256": "82f25d05aa6dd5bbc397df15d6d7de0ce90ccc22f50494eedc777db836d37850"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000330",
+      "path": "progress\\0066_D3-CAM101-2R-000330.json",
+      "sha256": "828e46b702865be7b7b565fefef6f9a2a62305cd2c3b70788763a98c902dc17f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000340",
+      "path": "progress\\0067_D3-CAM101-2R-000340.json",
+      "sha256": "7324049edda7be04e915cc423ec75eb443d2921ba3c6887a2547aec621b3fc93"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000350",
+      "path": "progress\\0068_D3-CAM101-2R-000350.json",
+      "sha256": "424ce76549504ecdae7a4dbd69923f5dc4ea6478bb5a6fb21bbb503dacb3a963"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000360",
+      "path": "progress\\0069_D3-CAM101-2R-000360.json",
+      "sha256": "418aca4cab3d3c71feb4b06da6b88b0213770913008d002ce24142e3cfaf5c8f"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000370",
+      "path": "progress\\0070_D3-CAM101-2R-000370.json",
+      "sha256": "84270e85b39efaee08c9262ba40bb30fb5975a76304ba0bccef0cc5d044766c0"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000380",
+      "path": "progress\\0071_D3-CAM101-2R-000380.json",
+      "sha256": "a9c8808c528c46db33ebd25a1cb1fb75158b2677e0707f500094cc965c39ab63"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000390",
+      "path": "progress\\0072_D3-CAM101-2R-000390.json",
+      "sha256": "3c67d6dc47371d4e8fcb7af99ac9406510fc270a21a0b842715a258fc9b7a35d"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000400",
+      "path": "progress\\0073_D3-CAM101-2R-000400.json",
+      "sha256": "fb54c9cd03b560351e02117fa24e88bc85a330420ea06c68e7b015e5fc6936ed"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000410",
+      "path": "progress\\0074_D3-CAM101-2R-000410.json",
+      "sha256": "dc89ce39ff44aa484f7dd0a7486bc8dd041f2ff24586a2074b3c7b421290a130"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000420",
+      "path": "progress\\0075_D3-CAM101-2R-000420.json",
+      "sha256": "0a9f3621b758fabdc40a17b0c91b19bc17ab4418c947782674e6936b830ee33e"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000430",
+      "path": "progress\\0076_D3-CAM101-2R-000430.json",
+      "sha256": "888d42db857e4f4def96f1c95ab375c3e1734edeac14a670467ebdc45a91c321"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000440",
+      "path": "progress\\0077_D3-CAM101-2R-000440.json",
+      "sha256": "bb819507a1bca8d3495834090e9f28ec86d7afb498d98612ae1b6b6938f0f6a4"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000450",
+      "path": "progress\\0078_D3-CAM101-2R-000450.json",
+      "sha256": "13d761035d569547562851a2759e8970a688e90593ed58f2879858b6779b5c75"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000460",
+      "path": "progress\\0079_D3-CAM101-2R-000460.json",
+      "sha256": "e361c79810496ce9eb7d6c1cb4bd5083d986e3934c9cd1185c0c83e3eceae648"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000470",
+      "path": "progress\\0080_D3-CAM101-2R-000470.json",
+      "sha256": "77429e1e6f99b981a9532083bf495813def0600995ce7ad6c4cc10b7b7a14c45"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000480",
+      "path": "progress\\0081_D3-CAM101-2R-000480.json",
+      "sha256": "552cd7fe2b04befae48cbd64a3c8cd1f24ea746950c18e6a7f54ccf3c3e46478"
+    },
+    {
+      "cohort_id": "D3-CAM101-2R-000490",
+      "path": "progress\\0082_D3-CAM101-2R-000490.json",
+      "sha256": "fd76de95afa1721e45fb220873c1bb8b73350f38296c9ed4e38250cb74953cab"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000094",
+      "path": "progress\\0083_D3-CAM101-3-000094.json",
+      "sha256": "1ba7a2768f30d5665e22166156075a9ffb330514494f4c957061666376492937"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000104",
+      "path": "progress\\0084_D3-CAM101-3-000104.json",
+      "sha256": "1c8935f3415ce9551ebf60fda14b15fa2c21972f34ff41415f98ee10dea64d17"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000114",
+      "path": "progress\\0085_D3-CAM101-3-000114.json",
+      "sha256": "8f620dfe9c64b176bb65a806683089b63a5c6d555dfb4b25ed20db20c0490908"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000124",
+      "path": "progress\\0086_D3-CAM101-3-000124.json",
+      "sha256": "1771c9ff7101015d0a53fb6ab101b2b99d7ee4c62bbb618c9d7208634480ba47"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000134",
+      "path": "progress\\0087_D3-CAM101-3-000134.json",
+      "sha256": "34322f5d4b307d4b42bbe7e035165278d84448b117d8586b0586cc21d42f28d3"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000144",
+      "path": "progress\\0088_D3-CAM101-3-000144.json",
+      "sha256": "f9c97a0830ddd82852653fa001bbfcd54ad660851c33c1334be2d47ff8b2f22c"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000154",
+      "path": "progress\\0089_D3-CAM101-3-000154.json",
+      "sha256": "f3d56c217a03e757b2e32f65598292ba4c3dc5a609ca9f313a1ed1dda7f8e5d5"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000164",
+      "path": "progress\\0090_D3-CAM101-3-000164.json",
+      "sha256": "eee4ee7ff55c1dae31d40ecd5bc20dd2a96e2ee59361342051539a248b1e73af"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000174",
+      "path": "progress\\0091_D3-CAM101-3-000174.json",
+      "sha256": "0ee1eb1fd58d8d73c84bf1d41b72d9f5bbfb67ff768ad14aaf694cd2232c3856"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000184",
+      "path": "progress\\0092_D3-CAM101-3-000184.json",
+      "sha256": "59346715b2f892771565b210564f448680470cadf457d9a419a4a62f2399460b"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000194",
+      "path": "progress\\0093_D3-CAM101-3-000194.json",
+      "sha256": "c757c04280be526c900b1e338e01473038d940eb695af4ae5991daea7ad2fc5e"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000204",
+      "path": "progress\\0094_D3-CAM101-3-000204.json",
+      "sha256": "c1c5a5d2c2baf0b01374451dd7a8f6c9f2ae55d092a5f220e898c919ff95a2c7"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000214",
+      "path": "progress\\0095_D3-CAM101-3-000214.json",
+      "sha256": "3bb54444cf2538f04451250e74b7db43f9b21605b3cd33a9b416158655ce14ec"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000224",
+      "path": "progress\\0096_D3-CAM101-3-000224.json",
+      "sha256": "d0a1a50b7e057b241cc55423211feb46ee546a7df4a1640d4ce8107362d5784c"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000234",
+      "path": "progress\\0097_D3-CAM101-3-000234.json",
+      "sha256": "918979fd12d295c72234765461141b5f8559adbd7787cd5da0d01614d0fcda37"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000244",
+      "path": "progress\\0098_D3-CAM101-3-000244.json",
+      "sha256": "90b4ffa2c6fc8826e99125f2d528b05b741434dce2aafa07c4d55663a712f6e2"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000254",
+      "path": "progress\\0099_D3-CAM101-3-000254.json",
+      "sha256": "176ecc38ef4dd855d8f8b4f8278bbc9c628bd640229d0d52afe0a4395967b8ae"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000264",
+      "path": "progress\\0100_D3-CAM101-3-000264.json",
+      "sha256": "21647c90003772c6a1e5202234efaa9c8911abd5108a774759dc49970be2d4d7"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000274",
+      "path": "progress\\0101_D3-CAM101-3-000274.json",
+      "sha256": "ef7874ca2e8b7c3c88ad0dc3b4ee4cb36c217c5c4234a1761e0daaa549d27d7d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000284",
+      "path": "progress\\0102_D3-CAM101-3-000284.json",
+      "sha256": "6e250a7bcc703afdbe3428a7c7f62c1478796a2c3c60c37f017a754a5d7d6d84"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000294",
+      "path": "progress\\0103_D3-CAM101-3-000294.json",
+      "sha256": "b53007eec732b47cae2012b0bb32c9189692b1146c20342b4c7a100b658871b5"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000304",
+      "path": "progress\\0104_D3-CAM101-3-000304.json",
+      "sha256": "637620b736e99973617881e47a2f3285e0bcf68aa80fdaedfb53369174059ed2"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000314",
+      "path": "progress\\0105_D3-CAM101-3-000314.json",
+      "sha256": "21d28361d88849f65eb80638e2a6ea4c52069fc78716cb69b7acafb145aab371"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000324",
+      "path": "progress\\0106_D3-CAM101-3-000324.json",
+      "sha256": "ddff0bebbd8bbe90dcfe2b9ce989cc29a6d5f70d7de7342f6455855832b0c44a"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000334",
+      "path": "progress\\0107_D3-CAM101-3-000334.json",
+      "sha256": "f6c0fdb17cd8245d7a214dfc8453b245ccd4b829c1c2b2116caa9e64f1ba4cd4"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000344",
+      "path": "progress\\0108_D3-CAM101-3-000344.json",
+      "sha256": "c1ce87c0542ffb616279ffa595b9da7f03c94678c5dc1a8a0be52a91b33c25ec"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000354",
+      "path": "progress\\0109_D3-CAM101-3-000354.json",
+      "sha256": "ad1264bdb8bef8c509b1a22afbc1d9ecf6596ab8ba6e774c0d80e3780b63bb1a"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000364",
+      "path": "progress\\0110_D3-CAM101-3-000364.json",
+      "sha256": "322a69b5c5604ae6861910eec7ad0d8d9d6e4a7dfcdf97adf94427c42b76465e"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000374",
+      "path": "progress\\0111_D3-CAM101-3-000374.json",
+      "sha256": "5be934dcac5a0e88a25ed0c068a8f252dcf5e74ce3948e60c8e0974e7b11e6b7"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000384",
+      "path": "progress\\0112_D3-CAM101-3-000384.json",
+      "sha256": "1a27b054119fcd6410a7bb378adc266ad2fdfe18506e7d59632d44f9efe538ed"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000394",
+      "path": "progress\\0113_D3-CAM101-3-000394.json",
+      "sha256": "0738e9f2362c17f7b5480921d8f60e564aef6a841112a07aa78c20b6356f76ca"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000404",
+      "path": "progress\\0114_D3-CAM101-3-000404.json",
+      "sha256": "1f414734224444a6b5832f9749984bf0624d8d674f649765a4fd6c2c64e9ce3a"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000414",
+      "path": "progress\\0115_D3-CAM101-3-000414.json",
+      "sha256": "0168808731cb655b939fd4251d1795be2a962d1b0531ee6a9a8c4603a5bb84d8"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000424",
+      "path": "progress\\0116_D3-CAM101-3-000424.json",
+      "sha256": "0aaaf3b3618e04605714d8d7fc3203e8545ed87816fa197f15775bb6cb5acf48"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000434",
+      "path": "progress\\0117_D3-CAM101-3-000434.json",
+      "sha256": "83216e7c3760168a069208f4abdd6d05a429ecb0afb6a31794e036cca623716d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000444",
+      "path": "progress\\0118_D3-CAM101-3-000444.json",
+      "sha256": "fefd8ec2a667ee217dcfa84c3de9bde16f4845d800144aa96225c9984b90df54"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000454",
+      "path": "progress\\0119_D3-CAM101-3-000454.json",
+      "sha256": "693ba1e6b9ee941d1388f83c990a87356e4dce6c17c69e590bb820903003bbd9"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000464",
+      "path": "progress\\0120_D3-CAM101-3-000464.json",
+      "sha256": "0554575a00a79b3e0e5f065e367c4ba0dbd7d778a9c18018d7cf93e8207995ce"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000474",
+      "path": "progress\\0121_D3-CAM101-3-000474.json",
+      "sha256": "50411ac72ac783c97fbb4d1b33653660bf842c1312bfb883abc9f69680046a2a"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000484",
+      "path": "progress\\0122_D3-CAM101-3-000484.json",
+      "sha256": "400ef3c7488b3b219349b3d6ab5f939792972d0f528bd829d679d0e3ecc78921"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000494",
+      "path": "progress\\0123_D3-CAM101-3-000494.json",
+      "sha256": "0a2ed17eab9cb214e98a8f737a378f5e11ae667a93c5361fcadd1185afc42174"
+    },
+    {
+      "cohort_id": "D3-CAM101-3-000504",
+      "path": "progress\\0124_D3-CAM101-3-000504.json",
+      "sha256": "94e93642c5ee5e587530f1b45f2aa80e884137ba2e06e8d604c0e43c212f0927"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000060",
+      "path": "progress\\0125_D3-CAM101-3R-000060.json",
+      "sha256": "c0c84e659ed83af4644e8a42edda0e182e307ea841b108e33e68ccefeb2b6ec2"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000070",
+      "path": "progress\\0126_D3-CAM101-3R-000070.json",
+      "sha256": "034b180e0e026766d186197d77f9ff22546e5a8f3cab5807074176dba49daec2"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000080",
+      "path": "progress\\0127_D3-CAM101-3R-000080.json",
+      "sha256": "7a975b8a3f5f1720801b023ec0e3f88e19c586bbdfa5d40c2e24e1dc1b55ef86"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000090",
+      "path": "progress\\0128_D3-CAM101-3R-000090.json",
+      "sha256": "5950c7fd603542564c4c80c5ed0bd269afbb595f6375ead50a3d5e84599ea969"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000100",
+      "path": "progress\\0129_D3-CAM101-3R-000100.json",
+      "sha256": "aa7ed0ac94c05ba7ac040c262bcdfcefcdb3ba856b4d648637a49419f6dc5d39"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000110",
+      "path": "progress\\0130_D3-CAM101-3R-000110.json",
+      "sha256": "08b702e0023b01eb5e11bd943958d56103729f3982936df131ad4a6db9b237d0"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000120",
+      "path": "progress\\0131_D3-CAM101-3R-000120.json",
+      "sha256": "8713be231c592c2975c57bfdb10e1f212a701abd48d8aa8d635c69c87972598b"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000130",
+      "path": "progress\\0132_D3-CAM101-3R-000130.json",
+      "sha256": "d8fcf02c60b31a7d6864346a1414cc5f591510d411ff539cc9164210f4d323c7"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000140",
+      "path": "progress\\0133_D3-CAM101-3R-000140.json",
+      "sha256": "55f5d675b616017f92248506bb162f8f24d8bf744288f28842bdde33d503c8a1"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000150",
+      "path": "progress\\0134_D3-CAM101-3R-000150.json",
+      "sha256": "7a5aad26cb63067ecaaf64c779801b8139a5370d13f30cfff13500493fa57d1f"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000160",
+      "path": "progress\\0135_D3-CAM101-3R-000160.json",
+      "sha256": "2acd967cfcbc166f744c653d8bf33d3623853b53e525494346579f7ae103bf26"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000170",
+      "path": "progress\\0136_D3-CAM101-3R-000170.json",
+      "sha256": "ddf3b32037e3480100ed21b15395fb0016595fded0444e6bd8f320b34e5ca621"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000180",
+      "path": "progress\\0137_D3-CAM101-3R-000180.json",
+      "sha256": "c1ff6af09967a52fee7472243582a30ac3bb017f8aac064954c601c01c5c02ad"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000190",
+      "path": "progress\\0138_D3-CAM101-3R-000190.json",
+      "sha256": "c3be66af090b0d41eed8c91db6856788229e03b01f79d31f8b7fac461caa676c"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000200",
+      "path": "progress\\0139_D3-CAM101-3R-000200.json",
+      "sha256": "1deff396029efd562519eb8d713f3822e7ee8e1090b6a0248549a8a473992f92"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000210",
+      "path": "progress\\0140_D3-CAM101-3R-000210.json",
+      "sha256": "f241fdf535e9716f02c3977a5a86ccede91f9b87a5899a69629126de28ec8ec6"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000220",
+      "path": "progress\\0141_D3-CAM101-3R-000220.json",
+      "sha256": "b468081206cbef76f896e6290ad4511de7529f38bec33b4cabb279e2e8130d86"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000230",
+      "path": "progress\\0142_D3-CAM101-3R-000230.json",
+      "sha256": "1486da23435ea602d2f003ffec065f359a6ca37b6ba8cf8fd3d3f444c8aae7fc"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000240",
+      "path": "progress\\0143_D3-CAM101-3R-000240.json",
+      "sha256": "df79946bda76614be40d48857c586d4d3e683dc75dfd5caa9fe00f0d1280f55c"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000250",
+      "path": "progress\\0144_D3-CAM101-3R-000250.json",
+      "sha256": "fbcc21685b6f9dcb82c70c97c113506ba6b9f806e13c0bf78b36d91a30fb63cd"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000260",
+      "path": "progress\\0145_D3-CAM101-3R-000260.json",
+      "sha256": "f550d7bcdd032fbf43f6730a75b1ba977827c2f4a99af06818727a6e32819fd1"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000270",
+      "path": "progress\\0146_D3-CAM101-3R-000270.json",
+      "sha256": "6e87e86d59c6500d240cbbec5aec061377fb891dfd719072238692b22233ba2d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000280",
+      "path": "progress\\0147_D3-CAM101-3R-000280.json",
+      "sha256": "2703445e2ea58f2be8d0a18eea7e0f45e04bfe992c41002f6426d2f81218e790"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000290",
+      "path": "progress\\0148_D3-CAM101-3R-000290.json",
+      "sha256": "9cdf876fb4dafdc588c6316621994f5dd35610d19d97a55981a0d878490d580d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000300",
+      "path": "progress\\0149_D3-CAM101-3R-000300.json",
+      "sha256": "fcc3ff594632fb95698fb7931b1f09a1081cd67fca8e9c2cda52f3416137cd6d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000310",
+      "path": "progress\\0150_D3-CAM101-3R-000310.json",
+      "sha256": "75511e7ea55314a2865959f5d05ee067e80b4a77fef36a885ddfd27bdce224a4"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000320",
+      "path": "progress\\0151_D3-CAM101-3R-000320.json",
+      "sha256": "54ca62fb5aad790a6699364c162f9550a579166c94f689f9a2a094e2d48dd121"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000330",
+      "path": "progress\\0152_D3-CAM101-3R-000330.json",
+      "sha256": "975911ad94dbfe791d09b215f708240a6246ee7cd482db7cfe59f446b836b5c6"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000340",
+      "path": "progress\\0153_D3-CAM101-3R-000340.json",
+      "sha256": "d40aee29dc6d4aad15a7372f683a8b59266e845fd233d074c184e52ff41ca37a"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000350",
+      "path": "progress\\0154_D3-CAM101-3R-000350.json",
+      "sha256": "98f105d9058408fb09d578ed51f823d9c36e8bc2a56dc670d4262d717f699da9"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000360",
+      "path": "progress\\0155_D3-CAM101-3R-000360.json",
+      "sha256": "a3751314c42f7c1dcbeb8c2ffd1e3698ba71f4dc74e6802cd613e55c54bd7b4c"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000370",
+      "path": "progress\\0156_D3-CAM101-3R-000370.json",
+      "sha256": "74d9351f91c892dd052f78fc5e2dbcc2cb2331aaeb788b22faaf1b2caa90e933"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000380",
+      "path": "progress\\0157_D3-CAM101-3R-000380.json",
+      "sha256": "85ffe5080e2e95006f288aba68d06648914f42ec9ca0180f7335a385b8142eac"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000390",
+      "path": "progress\\0158_D3-CAM101-3R-000390.json",
+      "sha256": "e1a70feed1facc041b7f5c869e7ce74edbbecf96780d9dddc0d6fafb7add6f89"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000400",
+      "path": "progress\\0159_D3-CAM101-3R-000400.json",
+      "sha256": "f9777b8fd9997daf60185e3a3aa1f8c1e2192f4a87b4ce1d989b8c0ea2174c1e"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000410",
+      "path": "progress\\0160_D3-CAM101-3R-000410.json",
+      "sha256": "8b08bf3a1fc10b81f05afb034cb7f325368947974a3cea9ab0c749e0f0fe9b19"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000420",
+      "path": "progress\\0161_D3-CAM101-3R-000420.json",
+      "sha256": "8f3012486f5c4fc3228feffefa2125cdb1420984974b5d4bd7b0133be7d650b6"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000430",
+      "path": "progress\\0162_D3-CAM101-3R-000430.json",
+      "sha256": "139c26df0b2b292f5e2c03ea7f325a4065d26da35a6598738a4111135cdef32d"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000440",
+      "path": "progress\\0163_D3-CAM101-3R-000440.json",
+      "sha256": "2cf824c04499ce6863ed45f8f23388be28d664c58bc8e1d1665c96bab5a8c9d4"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000450",
+      "path": "progress\\0164_D3-CAM101-3R-000450.json",
+      "sha256": "c76a38fe4cd25da675ffa6cf18eae3068f624fc1e405f97ce5496777dc20dcd1"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000460",
+      "path": "progress\\0165_D3-CAM101-3R-000460.json",
+      "sha256": "97b92c84d8eedff5ae2e82fa8326c8b9639ed0e023ad321a99314f0bc4047406"
+    },
+    {
+      "cohort_id": "D3-CAM101-3R-000470",
+      "path": "progress\\0166_D3-CAM101-3R-000470.json",
+      "sha256": "fabff8ecf446d01cdf4d26d128e395044dc724e592fa1131ab0f0afd25247f6c"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000089",
+      "path": "progress\\0167_D3-CAM101-4-000089.json",
+      "sha256": "ba3dbaeb5e09d9830c12ab15832b0bbe5c02eaa594e321f86412829d6e15fcf3"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000099",
+      "path": "progress\\0168_D3-CAM101-4-000099.json",
+      "sha256": "37fbef934395ef186049b93681e17b90085c4fa7fe928956d857dd27b4861285"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000109",
+      "path": "progress\\0169_D3-CAM101-4-000109.json",
+      "sha256": "8374a840bb9834cc9e836c0817d264240f723ce8a0fe1af5a6324505fe0b182e"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000119",
+      "path": "progress\\0170_D3-CAM101-4-000119.json",
+      "sha256": "24ac0080f89c2eab78bed2ed9020bf79b3d6c70b9ac0f99f7f4098e0a8c8e32a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000129",
+      "path": "progress\\0171_D3-CAM101-4-000129.json",
+      "sha256": "599963b716e60f474faa9b148fb8f848a9713f632d78f0fd3e6bbe5598e406e1"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000139",
+      "path": "progress\\0172_D3-CAM101-4-000139.json",
+      "sha256": "b8a53bbda2e5e88785c29682c2d83f4381ed4935f93a6c65882308feb49ec8fb"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000149",
+      "path": "progress\\0173_D3-CAM101-4-000149.json",
+      "sha256": "f920ea650bfd6a524a5fc7ff07100ddc9f37cfd4c5eff60cd9cd5f5d3eaf3ce2"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000159",
+      "path": "progress\\0174_D3-CAM101-4-000159.json",
+      "sha256": "6420368b8db732e80c3eabafb31f8c56a819ec8854cc70891a67588cd00dbf63"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000169",
+      "path": "progress\\0175_D3-CAM101-4-000169.json",
+      "sha256": "c91873291319a04ebc4f27b37b76a0a800bc12011d87163557d99cf942291029"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000179",
+      "path": "progress\\0176_D3-CAM101-4-000179.json",
+      "sha256": "15aa76f8c297d5a90c6cbb9c35655a079aa11c716bb86a0a4adb48c56c6d0a3a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000189",
+      "path": "progress\\0177_D3-CAM101-4-000189.json",
+      "sha256": "fea6cfd3060555f0f613ed8ed78cf5816a89dd0861fef5ecdd1bb4cfe5643e79"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000199",
+      "path": "progress\\0178_D3-CAM101-4-000199.json",
+      "sha256": "797b67c4f922b7fb54701d914a577e6881ececb872cfd3b2e558e6527d91872b"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000209",
+      "path": "progress\\0179_D3-CAM101-4-000209.json",
+      "sha256": "6b93ae4397a3347c485867d251966ae6793523c346ba803891d8c29dcfa1052a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000219",
+      "path": "progress\\0180_D3-CAM101-4-000219.json",
+      "sha256": "bb2f4a72aa3c10938fc164acabd8f7fd531e94462f64db315b21746a0f39a359"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000229",
+      "path": "progress\\0181_D3-CAM101-4-000229.json",
+      "sha256": "a53b330b7732129ad01e19a42798eded327358491b2601ac6a73641389c59395"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000239",
+      "path": "progress\\0182_D3-CAM101-4-000239.json",
+      "sha256": "87fb7c21d10cff378825dc653f0de5728c6e1352940db4706a1f06f9af1c8bf8"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000249",
+      "path": "progress\\0183_D3-CAM101-4-000249.json",
+      "sha256": "1a64aff5c255c87f5a319fa2a57d83f10d3d6b5d64da6b3ae5b0ffccdf293da5"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000259",
+      "path": "progress\\0184_D3-CAM101-4-000259.json",
+      "sha256": "a20b157525bf286f85c0f051cc7b73e9c4104c1b88856214342624b4e712a24a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000269",
+      "path": "progress\\0185_D3-CAM101-4-000269.json",
+      "sha256": "c9c506dda4b8b863008e0f5888d26eae4e82363cea1903977a6f0d86c7733f42"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000279",
+      "path": "progress\\0186_D3-CAM101-4-000279.json",
+      "sha256": "fda0b9e9beb0fce8f342b1c9d0bb21932bc3c4bdb4d7b98c0b5530ede48a570f"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000289",
+      "path": "progress\\0187_D3-CAM101-4-000289.json",
+      "sha256": "0a40a649b06bf4412e23e0b4d13ab3da28c4c4b4faa0da8198a5f0a5c42ed55e"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000299",
+      "path": "progress\\0188_D3-CAM101-4-000299.json",
+      "sha256": "8c429f113f82e75e84d57eb735c86f235b8447e8473192ddd60cb6585eb1446b"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000309",
+      "path": "progress\\0189_D3-CAM101-4-000309.json",
+      "sha256": "7365cea1fdfd45172e7bc6369fbd6954f873a8eae771dbe4d6ac2731c7510ec0"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000319",
+      "path": "progress\\0190_D3-CAM101-4-000319.json",
+      "sha256": "899ad316f14bacccc725d3cf554e76b324aa4dd07afcb2cbcb0993bc4d2d355a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000329",
+      "path": "progress\\0191_D3-CAM101-4-000329.json",
+      "sha256": "c0527206430fdb2a111f227dae997fac522639425d478235b024663e85225a28"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000339",
+      "path": "progress\\0192_D3-CAM101-4-000339.json",
+      "sha256": "40ac983f80e0718d3d29bf6629cd0eab015df136503e4323a14c53308a0c1ed5"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000349",
+      "path": "progress\\0193_D3-CAM101-4-000349.json",
+      "sha256": "b757a72c5ef0f86d2edde8bbb0da6cfb57fecab07b0028138326bcfd3abc72c5"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000359",
+      "path": "progress\\0194_D3-CAM101-4-000359.json",
+      "sha256": "bac73988969c68958a85b71f409a5e177f00ff0cf500073946472a034e83c874"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000369",
+      "path": "progress\\0195_D3-CAM101-4-000369.json",
+      "sha256": "4951253ee6c5fca3b02cc585e3b2e1e469ca2db6dff550c01effdcfea5105466"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000379",
+      "path": "progress\\0196_D3-CAM101-4-000379.json",
+      "sha256": "3092eaaa1ced6ac524937d4d0e55137cd93fbf26c322c5d828c569f993e5f6c2"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000389",
+      "path": "progress\\0197_D3-CAM101-4-000389.json",
+      "sha256": "53176ec9364783414341cef949da16ba45ac27b3f4371c1c6f4ae7b1d56d7efe"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000399",
+      "path": "progress\\0198_D3-CAM101-4-000399.json",
+      "sha256": "5e67a4eded6035dd27ee1ae00623c32f5c5439a6db1f924ee8bf553ebac62a54"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000409",
+      "path": "progress\\0199_D3-CAM101-4-000409.json",
+      "sha256": "b68e3233484f963ca3c418eca89e04f50b4faafdf829b644d4417b59f8fb7145"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000419",
+      "path": "progress\\0200_D3-CAM101-4-000419.json",
+      "sha256": "ec37db9e1c49a5d738605730e9318c75dd460ec7379466ed9e0af836df7e38c8"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000429",
+      "path": "progress\\0201_D3-CAM101-4-000429.json",
+      "sha256": "baa5ef588b20e2f5ec9b516cac6d5649a1bfeab920cc1a47cd52820bb4d153c8"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000439",
+      "path": "progress\\0202_D3-CAM101-4-000439.json",
+      "sha256": "825a1248954856be2d4c21914302dd0750d917f0dde7abb58d8f011c2c95b074"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000449",
+      "path": "progress\\0203_D3-CAM101-4-000449.json",
+      "sha256": "3e9f85c52ae7a26d2fd3339d48c379013bcd05a3fc1146f3dbb26affb7b0bf28"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000459",
+      "path": "progress\\0204_D3-CAM101-4-000459.json",
+      "sha256": "86cc37d97af930e7cac58ebd792b95fc9bd1aec5f960c01dee90e668e1540fc7"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000469",
+      "path": "progress\\0205_D3-CAM101-4-000469.json",
+      "sha256": "814eedbedb17281db3adf3c518ea86edbbf5f14ba574bf3f4245906617c8c476"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000479",
+      "path": "progress\\0206_D3-CAM101-4-000479.json",
+      "sha256": "fb0bc19348ad2375a81d9fe32602d7b988d69102f348ad096efa2a2ccfaa09f3"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000489",
+      "path": "progress\\0207_D3-CAM101-4-000489.json",
+      "sha256": "36968d2cfad17c2f4002ab53d9f751d1fb1b277046ad4a5d75f6f4bf06181639"
+    },
+    {
+      "cohort_id": "D3-CAM101-4-000499",
+      "path": "progress\\0208_D3-CAM101-4-000499.json",
+      "sha256": "8f455a06e24ec6e314879173dbe1bf3a759d296e8ea4ea56317cda5fd064b3b1"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000090",
+      "path": "progress\\0209_D3-CAM101-4R-000090.json",
+      "sha256": "f023e7c11a389bb30bcfa2488f217a6823a8613b260326a03e4a4be5e299f127"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000100",
+      "path": "progress\\0210_D3-CAM101-4R-000100.json",
+      "sha256": "c13dde325830b6cb54c70f645fcbca03f09ced184e220c5ef1785eb57598722c"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000110",
+      "path": "progress\\0211_D3-CAM101-4R-000110.json",
+      "sha256": "e752f8ef94e55401a2a0ea165082deeba8cf0d908ef82fdc41f668f7f696cd8a"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000120",
+      "path": "progress\\0212_D3-CAM101-4R-000120.json",
+      "sha256": "7a452bca1207790a08b39bdb8b57ea0e6b4e75ce06bb138c33e77075d4cbf2b6"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000130",
+      "path": "progress\\0213_D3-CAM101-4R-000130.json",
+      "sha256": "713c78c5b6f04af48abeafdbe74b652add5263c6ab30bcf97113f041113ae387"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000140",
+      "path": "progress\\0214_D3-CAM101-4R-000140.json",
+      "sha256": "f38a9618b5fef1a3ee1bbdd36e8504fdff9717ab6d908d27375d83e16094bf7d"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000150",
+      "path": "progress\\0215_D3-CAM101-4R-000150.json",
+      "sha256": "8ebfb696d5c94a116fa2c196f463ef6233955726b278ba21ecb1e016ec77666c"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000160",
+      "path": "progress\\0216_D3-CAM101-4R-000160.json",
+      "sha256": "2a90e8769759254463bfd324f6fc3c93ac60ed887329856e8c9a21cb1b80c5a3"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000170",
+      "path": "progress\\0217_D3-CAM101-4R-000170.json",
+      "sha256": "da4df4468c002d50248ada12f845a8b62ec2afcc87cb4dd0bb759f63912120e2"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000180",
+      "path": "progress\\0218_D3-CAM101-4R-000180.json",
+      "sha256": "64ae92167b8bc7a66e75a025e3b2be2e79482a44112756e4ad84c069a7e117bf"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000190",
+      "path": "progress\\0219_D3-CAM101-4R-000190.json",
+      "sha256": "4df723e6098eecbd932abe10e6c697c8f1b71eb879f2fab0fbc961e4d61362ed"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000200",
+      "path": "progress\\0220_D3-CAM101-4R-000200.json",
+      "sha256": "6e6e0eb85c10ff0716b0b3b57c4d39133bf4d31c1cd3f2b675496a5cb151002e"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000210",
+      "path": "progress\\0221_D3-CAM101-4R-000210.json",
+      "sha256": "da7523995f95c9e28fb327dd5cc40daba00d763f562e0c3e547ec84de12b5565"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000220",
+      "path": "progress\\0222_D3-CAM101-4R-000220.json",
+      "sha256": "90f9eef1c6dba62c74bd267356409ba6f2ce9feffaf25e2b80843b0b196092f2"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000230",
+      "path": "progress\\0223_D3-CAM101-4R-000230.json",
+      "sha256": "052873baabb3250b704e50b5c4f661e9a1a0a6c6657c8273c8b93f0012252f35"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000240",
+      "path": "progress\\0224_D3-CAM101-4R-000240.json",
+      "sha256": "395a5fc4ffd47a8b4474e4718b16eb271c050525e9eb0ed4f3032a1e9d283f76"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000250",
+      "path": "progress\\0225_D3-CAM101-4R-000250.json",
+      "sha256": "f58d15dcba21dec1ece50a17bd774b71e33119d63eb7eacac910dad089c67c89"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000260",
+      "path": "progress\\0226_D3-CAM101-4R-000260.json",
+      "sha256": "11dd881a549a7bcced77b509da1160f97f8ba56e2d7ef8f7ca907672394999eb"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000270",
+      "path": "progress\\0227_D3-CAM101-4R-000270.json",
+      "sha256": "73809fac4cc7920e25aa07f9dea78422f3b83ab6bec6de623adfe8823c02e865"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000280",
+      "path": "progress\\0228_D3-CAM101-4R-000280.json",
+      "sha256": "03a6a4a9e192e586f3908306daae3bc95204f5429ea8a7dc9e16d1f504c3ffea"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000290",
+      "path": "progress\\0229_D3-CAM101-4R-000290.json",
+      "sha256": "16c770a611181b8484218dd33958d152a854cf7d87b4a3133ea9e7a2aa454253"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000300",
+      "path": "progress\\0230_D3-CAM101-4R-000300.json",
+      "sha256": "92ae790e4e504b161330f1096e6a3129139c3317e9a64edfe8e09e471fec7b9c"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000310",
+      "path": "progress\\0231_D3-CAM101-4R-000310.json",
+      "sha256": "2579881b91530f132a1aaa530e2951f9a482dc2979da1588969368f4c6c79554"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000320",
+      "path": "progress\\0232_D3-CAM101-4R-000320.json",
+      "sha256": "4529f03251d58ffa5a99eee3ff176bd87401348853c417ce74d99fc977fb3917"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000330",
+      "path": "progress\\0233_D3-CAM101-4R-000330.json",
+      "sha256": "3e405a86b156ea6ae37b90f5b15bd7c58fb6ac38b565320960f07efc2545b5da"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000340",
+      "path": "progress\\0234_D3-CAM101-4R-000340.json",
+      "sha256": "652b522bb1a9f63812cc02bce961cb833a7217fe856a9d94ec77895be9d01c68"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000350",
+      "path": "progress\\0235_D3-CAM101-4R-000350.json",
+      "sha256": "65ab10f76f31b060136d7e411a542279ae12605fe16ad4839e4d0d666b9c3127"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000360",
+      "path": "progress\\0236_D3-CAM101-4R-000360.json",
+      "sha256": "2a42faa3af4633bee535a1962529555c2d0d042f5b00a03e3fdd4272c8b05227"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000370",
+      "path": "progress\\0237_D3-CAM101-4R-000370.json",
+      "sha256": "8555b7d09fe79606cf6d8ddc396ea561e016053e1c675da6c641dbcd559d3769"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000380",
+      "path": "progress\\0238_D3-CAM101-4R-000380.json",
+      "sha256": "0be88173f2433c81cf260263952ed3377938f6a7bbb69f1d6a0d358286d821f2"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000390",
+      "path": "progress\\0239_D3-CAM101-4R-000390.json",
+      "sha256": "a47f87df76c6276fb42be5bbdd5d41987f3719950e39bbabff569ea3dffdf19e"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000400",
+      "path": "progress\\0240_D3-CAM101-4R-000400.json",
+      "sha256": "b8ab63eb5fb4e3e13717bcd69985f6fbd91413722ec527d43458cea3a6f9fd2f"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000410",
+      "path": "progress\\0241_D3-CAM101-4R-000410.json",
+      "sha256": "79ebd4a0b2cac7612412cc80382d50f23840801959410b370d50b805ae9d5519"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000420",
+      "path": "progress\\0242_D3-CAM101-4R-000420.json",
+      "sha256": "63a368f9ee12af8d003acfe35d6fa6e2091b3a0fd722f865ec50c860a677c85b"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000430",
+      "path": "progress\\0243_D3-CAM101-4R-000430.json",
+      "sha256": "1e48d1cc03613533c6aebe2afbf4f7f002b00a911b20e20576034da0d7485700"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000440",
+      "path": "progress\\0244_D3-CAM101-4R-000440.json",
+      "sha256": "2c39a345343cfaa05abaca18b27f9d1a8694bb47d7c90b5cda81fb9ff619c82c"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000450",
+      "path": "progress\\0245_D3-CAM101-4R-000450.json",
+      "sha256": "41f646ed8aef80f3d1e28e3d13bc551e32faf11d7610beb55bae032691e7b4fd"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000460",
+      "path": "progress\\0246_D3-CAM101-4R-000460.json",
+      "sha256": "2691ee033f45481b69f9be3c1c833e50ded0ef9a76252ea03321007cd4147ef3"
+    },
+    {
+      "cohort_id": "D3-CAM101-4R-000470",
+      "path": "progress\\0247_D3-CAM101-4R-000470.json",
+      "sha256": "f4e8840f0260a59d12146d355aded327a060bf47c995801799676fbfd17cc021"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000085",
+      "path": "progress\\0248_D3-CAM101-5-000085.json",
+      "sha256": "763edcbca622796c757dcc375f54fe9c16796ddf3cb6b9a825412f9965f9c0c0"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000095",
+      "path": "progress\\0249_D3-CAM101-5-000095.json",
+      "sha256": "e6de6b84178cbcf6a986098a4b31fdf52073c34136e4fe91083aec4c21eb9c61"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000105",
+      "path": "progress\\0250_D3-CAM101-5-000105.json",
+      "sha256": "06089c489656ea38b5927ec2266df6859f3272ab4404895c25f55c87b6bc8570"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000115",
+      "path": "progress\\0251_D3-CAM101-5-000115.json",
+      "sha256": "53966ccaf10594874cb00d182f3c11e674b8b81eb904b1bae8565ae96fbb2c0d"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000125",
+      "path": "progress\\0252_D3-CAM101-5-000125.json",
+      "sha256": "d8ddc8579ad67b223249fc2056f7f4e2ca26ca30a2f603f7a824a369004efb24"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000135",
+      "path": "progress\\0253_D3-CAM101-5-000135.json",
+      "sha256": "dec8dec8e0faacd329d6b3170be8daf00e9804546d3ae53cd28bef7c1f5d94c7"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000145",
+      "path": "progress\\0254_D3-CAM101-5-000145.json",
+      "sha256": "a750b2ba0ee3730d9aa1f4922717e366df940165e43d24b475caab33ba6aa2a0"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000155",
+      "path": "progress\\0255_D3-CAM101-5-000155.json",
+      "sha256": "30a143eb21a441c71b6b65629825f04bb0a4ee16b0fd3c50a05caea94370d6ea"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000165",
+      "path": "progress\\0256_D3-CAM101-5-000165.json",
+      "sha256": "6aa2331d39d1a925d07bcced6dbfe853b4e5e5da9a337ec6a8985faf10b743d0"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000175",
+      "path": "progress\\0257_D3-CAM101-5-000175.json",
+      "sha256": "4610c5bdd973afaf5ba71d7fef41951a6c227fcdf7e35c3ca5e95fd3b3f814ad"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000185",
+      "path": "progress\\0258_D3-CAM101-5-000185.json",
+      "sha256": "781d74dd8ba31b2f3a70269d31a92a1a6639cac168467baa6eebab4a67e93c57"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000195",
+      "path": "progress\\0259_D3-CAM101-5-000195.json",
+      "sha256": "8969b2b7be263e7fa61a0c486f6283a505eed1fa67fd7e65fc76c6313f9a994d"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000205",
+      "path": "progress\\0260_D3-CAM101-5-000205.json",
+      "sha256": "c49a1f3e61cc6f9113fab85b2ad0efaf33f2a16203a247ccbb840a71e9fcb8a7"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000215",
+      "path": "progress\\0261_D3-CAM101-5-000215.json",
+      "sha256": "138a61246481a8cc233e34d60f9de0d9fde5d37392885106e4f6aaecbce5804b"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000225",
+      "path": "progress\\0262_D3-CAM101-5-000225.json",
+      "sha256": "30d386d5695266ddb59435d78af452e18c81638f1bd0b6af8c82a9463ab8163c"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000235",
+      "path": "progress\\0263_D3-CAM101-5-000235.json",
+      "sha256": "5168e9ea8eeb521a6e99deec0357bf0d83bfa028357140fa044d10381d9234ae"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000245",
+      "path": "progress\\0264_D3-CAM101-5-000245.json",
+      "sha256": "2c4ea1d2194a741227abb6178db6b3564779e401240e44b59a8b91ff05cc2b4f"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000255",
+      "path": "progress\\0265_D3-CAM101-5-000255.json",
+      "sha256": "d8f8f819526378c171aad51f21dbfcef909c231fbf9d6b8c0eec676b9cdde9bd"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000265",
+      "path": "progress\\0266_D3-CAM101-5-000265.json",
+      "sha256": "98ac4cfc3e025ae81dd744fb95d9e73d9896200dcaf9823efa46c0781fe1853a"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000275",
+      "path": "progress\\0267_D3-CAM101-5-000275.json",
+      "sha256": "3310cf8a17b687c56e55c0ce0d23e5d652903f3ce9c0265bf529936187690a49"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000285",
+      "path": "progress\\0268_D3-CAM101-5-000285.json",
+      "sha256": "6225432930b3f55a6897ac01c961ea0d10b48bd21b1cecd860e44082eb1bcbd5"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000295",
+      "path": "progress\\0269_D3-CAM101-5-000295.json",
+      "sha256": "869329fc58f87a0edb9196dc2ec90d361f16de75d62badea32c26e3414849953"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000305",
+      "path": "progress\\0270_D3-CAM101-5-000305.json",
+      "sha256": "7f44774682825d9cef2928ac3c3e6b31870689d3c2e09a40bf999f1d16e2e128"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000315",
+      "path": "progress\\0271_D3-CAM101-5-000315.json",
+      "sha256": "1fb1a535b94fa704727a2a8e826d853e0b69b751bd6b7e1a4995b51107df1280"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000325",
+      "path": "progress\\0272_D3-CAM101-5-000325.json",
+      "sha256": "cad912b65cb7baeb74a67a0a0fed0f6dcfd635621dab015749a5d9da8d79d1de"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000335",
+      "path": "progress\\0273_D3-CAM101-5-000335.json",
+      "sha256": "c551c34b06b4e92fa8c8b83eeffb8a641f6b62316629a426fc9ac9a94a24cea0"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000345",
+      "path": "progress\\0274_D3-CAM101-5-000345.json",
+      "sha256": "a6435995795e63e41c3d9ec3f561d91cd1b9f9e3564a909f58c1890e00a4354b"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000355",
+      "path": "progress\\0275_D3-CAM101-5-000355.json",
+      "sha256": "932866199feccd54d0fc0dd06867bcc6c4a95bfe0c9b81423a6318a37892e666"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000365",
+      "path": "progress\\0276_D3-CAM101-5-000365.json",
+      "sha256": "19a005a3d52dd1f2a5ba6eebfc3f62137ab170964eb64e4852efe5c87f42487b"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000375",
+      "path": "progress\\0277_D3-CAM101-5-000375.json",
+      "sha256": "f0b286f8e89faaeb983ae4a6eafcb32829bdc8c4910185da2c86ccc72da7e2b7"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000385",
+      "path": "progress\\0278_D3-CAM101-5-000385.json",
+      "sha256": "9bae8ff05844a23495334b16eeec4c0397a8ec16fc68f2f6218aabcc66e5b493"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000395",
+      "path": "progress\\0279_D3-CAM101-5-000395.json",
+      "sha256": "af3c8b6671761a07fb537ef46e6032fbf5433e83340a57b6a333acfb50789355"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000405",
+      "path": "progress\\0280_D3-CAM101-5-000405.json",
+      "sha256": "3b41fadc6020a858df6cf7b3bce9cc3f0b0aaaa29756932859ab1dd96da180d5"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000415",
+      "path": "progress\\0281_D3-CAM101-5-000415.json",
+      "sha256": "5da7ac79e39ee30208cb95c8354b436d81b8d1b0503c658a23512a04e006f2d5"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000425",
+      "path": "progress\\0282_D3-CAM101-5-000425.json",
+      "sha256": "6e44cdbde106a68884f255d253e4c578ac024ee4f49b3d6243bb97884358e58a"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000435",
+      "path": "progress\\0283_D3-CAM101-5-000435.json",
+      "sha256": "02d7bbbef8cf749819e2d6794dbdf3a4bdc1fc96e18b5a5eb7180e5cb07d20f6"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000445",
+      "path": "progress\\0284_D3-CAM101-5-000445.json",
+      "sha256": "eb5dc95ac0ce2d8fe4baaabef21207291f4587a5dc612c5d389a460cc878ddeb"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000455",
+      "path": "progress\\0285_D3-CAM101-5-000455.json",
+      "sha256": "281b4c1e19a7ce87f0236757eda4a5fac1e96cc929bbf6e272e272953c797d32"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000465",
+      "path": "progress\\0286_D3-CAM101-5-000465.json",
+      "sha256": "eab3f2771929ea127de3f3fd4a8e1f56b28e501d7ff249bdb321929d9f009020"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000475",
+      "path": "progress\\0287_D3-CAM101-5-000475.json",
+      "sha256": "8f49db1ce3b9a0478ed031d5d2a32c5057856ca0b988f7febd552c88989f85ed"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000485",
+      "path": "progress\\0288_D3-CAM101-5-000485.json",
+      "sha256": "b41851097c54b883b999fd2bac4393160283a19b0739ec06814a2d230a76fdd6"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000495",
+      "path": "progress\\0289_D3-CAM101-5-000495.json",
+      "sha256": "356d18366aaf32f40b5b043eebb71f86367d78ea883c38151361258a0d9d6808"
+    },
+    {
+      "cohort_id": "D3-CAM101-5-000505",
+      "path": "progress\\0290_D3-CAM101-5-000505.json",
+      "sha256": "a7c8de16d7cf26738da215d86a7d4f5be0ed2d8445571182f9d8c6471f533b12"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000088",
+      "path": "progress\\0291_D3-CAM101-5R-000088.json",
+      "sha256": "e04d4e87845a5751bc1c6cff5f6144b67824803671f3749f420ceeb3d0d5c745"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000098",
+      "path": "progress\\0292_D3-CAM101-5R-000098.json",
+      "sha256": "6bd2749aadd15750a98ba545d7697378e66185aadd060d5db20fe1b53630c3aa"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000108",
+      "path": "progress\\0293_D3-CAM101-5R-000108.json",
+      "sha256": "40254fcdfd756fbf6ed9d6807a4302e0f00c92ff280b50eef23638253d634f3f"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000118",
+      "path": "progress\\0294_D3-CAM101-5R-000118.json",
+      "sha256": "6bf4902b9ace8fafdbb752957f9e880907e9ef314960dd92bc857226b46a4de4"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000128",
+      "path": "progress\\0295_D3-CAM101-5R-000128.json",
+      "sha256": "15700e987650744baccae4ec04a6d7a54c8229f977dc54bafc3314f836c75aad"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000138",
+      "path": "progress\\0296_D3-CAM101-5R-000138.json",
+      "sha256": "e28a5a0d6f5e928afdf3a5a28e578b14e9b82beb260a8cef9c7da8d84b5fff71"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000148",
+      "path": "progress\\0297_D3-CAM101-5R-000148.json",
+      "sha256": "662933354f2b189b3dbbaf890523ad328a71137dd981c6abe18f2e7281f1d6b5"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000158",
+      "path": "progress\\0298_D3-CAM101-5R-000158.json",
+      "sha256": "ec367a479ff1588b4d52729cd60a539f3337b4d42212abaf5b10026b9f0a790c"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000168",
+      "path": "progress\\0299_D3-CAM101-5R-000168.json",
+      "sha256": "aaf84dac491cc039ebbb887cb67e87c79a45f8879e66218b5ee6b11c59301d5d"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000178",
+      "path": "progress\\0300_D3-CAM101-5R-000178.json",
+      "sha256": "6f94305199715b43f888999e943845a641d6330364c3f782c111b8825c009ffd"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000188",
+      "path": "progress\\0301_D3-CAM101-5R-000188.json",
+      "sha256": "75408d513412732a35ccc8a15920ef2a29cb61c9ff633a3b1866076450abd218"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000198",
+      "path": "progress\\0302_D3-CAM101-5R-000198.json",
+      "sha256": "81a4a72b70fbe159f59a376e2433d01df65cc995e4838c0430e65749e960b6e8"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000208",
+      "path": "progress\\0303_D3-CAM101-5R-000208.json",
+      "sha256": "64730bd4436f0e5a6689a9dd0d36d5df5e11cf097a328a547f8dc298fd1535c8"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000218",
+      "path": "progress\\0304_D3-CAM101-5R-000218.json",
+      "sha256": "e3f8f8fb463290d27d834f18dcfadb1ea4e77cfcac89f34a893badc6ab297460"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000228",
+      "path": "progress\\0305_D3-CAM101-5R-000228.json",
+      "sha256": "064b3a1507eab2cecb4abb4bff04c7697cbf617b7a174726aca67a62765a6740"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000238",
+      "path": "progress\\0306_D3-CAM101-5R-000238.json",
+      "sha256": "376b2e3bc57ee9d0d538b397ee87f1bc4eb87a76db81eb3616072fd2f99ed33c"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000248",
+      "path": "progress\\0307_D3-CAM101-5R-000248.json",
+      "sha256": "fa0a40b81c1d20b61e6085d8cc042f844d7100734fcb9cb1d28d1c9fbc092415"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000258",
+      "path": "progress\\0308_D3-CAM101-5R-000258.json",
+      "sha256": "1f7219bbc823caa527a0de67a529fdb4d61f6590e56c8c44ea4b3c9262a16f42"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000268",
+      "path": "progress\\0309_D3-CAM101-5R-000268.json",
+      "sha256": "a6d54ba41b2ef25aa74b1640f095e4b0f7006e2ff2c37d6200acfc87111a5d38"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000278",
+      "path": "progress\\0310_D3-CAM101-5R-000278.json",
+      "sha256": "cef9eddd9e8e82dcecd440fd16c9a05ec8957f10164d026042cdd75aeac397de"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000288",
+      "path": "progress\\0311_D3-CAM101-5R-000288.json",
+      "sha256": "a1888e994a96979577834a953e92e43bbee153c7a7f337284d38b95565a4d3d8"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000298",
+      "path": "progress\\0312_D3-CAM101-5R-000298.json",
+      "sha256": "fbece863d826385f580f6655537dec67921b3768ba8f8bac890b0f2d7de2d315"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000308",
+      "path": "progress\\0313_D3-CAM101-5R-000308.json",
+      "sha256": "3a6d64ff940a331f8175a7dd8ba64635e55ed70c4aeb63cbc156d36a9ddd84da"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000318",
+      "path": "progress\\0314_D3-CAM101-5R-000318.json",
+      "sha256": "3b5d492e886ffa3a0b660d6f1bb74368fec2203c5e3e096dfd934c82801ce1d1"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000328",
+      "path": "progress\\0315_D3-CAM101-5R-000328.json",
+      "sha256": "f36f8744b67f77c3104d5cacee76dc30a62ab2cd18a3bc12df77571dc207a0cc"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000338",
+      "path": "progress\\0316_D3-CAM101-5R-000338.json",
+      "sha256": "fbedf671d93e149024e2cbd8a31f121bd850001159e39e990dcee020dc0025a4"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000348",
+      "path": "progress\\0317_D3-CAM101-5R-000348.json",
+      "sha256": "c839811fe5bcb90b07306d967987da530ba47bbc9d9b8253ea616665cd3180bb"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000358",
+      "path": "progress\\0318_D3-CAM101-5R-000358.json",
+      "sha256": "cdd3b137a5ad8894e931a65b356f4fa46ec75f6166540a26636a6934ed890aad"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000368",
+      "path": "progress\\0319_D3-CAM101-5R-000368.json",
+      "sha256": "a480b7a40c36f758aa87808760ab66abc5a465c148d29fbe18a2dda98cc7dc48"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000378",
+      "path": "progress\\0320_D3-CAM101-5R-000378.json",
+      "sha256": "1e66017cca6d9d716fa870aef3ecf209f8ce36193f13f40fde2ce4e6275470b6"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000388",
+      "path": "progress\\0321_D3-CAM101-5R-000388.json",
+      "sha256": "ae2ca9083d91eea6597d359b2ddd361d65b0d994feb0cd1e9db689f671cbab9c"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000398",
+      "path": "progress\\0322_D3-CAM101-5R-000398.json",
+      "sha256": "3c3baf60542bbd5710a8bdaadf9486e81c1f8bd95b7fe6489794e9e46ba2fadc"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000408",
+      "path": "progress\\0323_D3-CAM101-5R-000408.json",
+      "sha256": "520d6c9adf0474d3e7e73377e5f5ce47aa2cf51ca8737a6f782eac66ec145ce1"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000418",
+      "path": "progress\\0324_D3-CAM101-5R-000418.json",
+      "sha256": "75ea2bc2e7e5e6667af22ad9c4b98150c9df47e80e538820d0ebefcb40a74632"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000428",
+      "path": "progress\\0325_D3-CAM101-5R-000428.json",
+      "sha256": "18ddd5c6cea9e964222425dc5d89254131adce3a04db3ad5125ede68e6823515"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000438",
+      "path": "progress\\0326_D3-CAM101-5R-000438.json",
+      "sha256": "2b7e08b72a8b7a455d281476d6ac69334867035080db07c327c23d3bbd43282c"
+    },
+    {
+      "cohort_id": "D3-CAM101-5R-000448",
+      "path": "progress\\0327_D3-CAM101-5R-000448.json",
+      "sha256": "111a702b8f5812ab35f753551c4d5438176b6c25894137314c5ec8b3bc231258"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000164",
+      "path": "progress\\0328_D3-CAM102-2-000164.json",
+      "sha256": "9ff598e116378ad68b90f30645b515d174a9937a6fe94782d058f5f594643f4f"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000174",
+      "path": "progress\\0329_D3-CAM102-2-000174.json",
+      "sha256": "87b8984f235eb25c91240f2cd50aeda8bbf598295acf2213812cb26937fa2698"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000184",
+      "path": "progress\\0330_D3-CAM102-2-000184.json",
+      "sha256": "174dd95a8e54e36787bf16bb476e2675edf77170e09ea2c0955ef7a2c7a4ef9f"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000194",
+      "path": "progress\\0331_D3-CAM102-2-000194.json",
+      "sha256": "89c6fbfa8121d789f3e6c106c955dc192a81f242e91ea10afc7d8d668535d3a2"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000204",
+      "path": "progress\\0332_D3-CAM102-2-000204.json",
+      "sha256": "2275d8f9a79b7bf4547fae3c4b9ad95215b1879bb3d27e096dae4cd4350af3c1"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000214",
+      "path": "progress\\0333_D3-CAM102-2-000214.json",
+      "sha256": "ab20b003a4ba43a723a817ab68da55c2e3044a24aa13e841324c2080fe88be4c"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000224",
+      "path": "progress\\0334_D3-CAM102-2-000224.json",
+      "sha256": "587036d44b0528d838f63c4f7fd879832c931eaaac373a0c515f43dffd23731e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000234",
+      "path": "progress\\0335_D3-CAM102-2-000234.json",
+      "sha256": "fbdffacf6b9303176a502eb05e8adf8e3ebb3144a0ef8a66e7b201a1625c49ad"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000244",
+      "path": "progress\\0336_D3-CAM102-2-000244.json",
+      "sha256": "8fb9c4066cb5f47590edd156adacfe783b9c16a1e2d8bfb12e31afce4d30365d"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000254",
+      "path": "progress\\0337_D3-CAM102-2-000254.json",
+      "sha256": "8e557b89eb9bacd39eeccd57cdaa40dfb15104461da483d2e120a1acb0672cb5"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000264",
+      "path": "progress\\0338_D3-CAM102-2-000264.json",
+      "sha256": "9a1ae2dfd5a966c779cbdca7b61c3952eb6c3b4ba7558086f336aed9ff69cf19"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000274",
+      "path": "progress\\0339_D3-CAM102-2-000274.json",
+      "sha256": "e8833f84caad4bdd43178cb482ce41f4ba7094b1ccc61a0dff4c317e894f408c"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000284",
+      "path": "progress\\0340_D3-CAM102-2-000284.json",
+      "sha256": "99c7440c1e7643eab33585f4e5e962e0a2d65ea1a9f5ca9258e569c783107e4e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000294",
+      "path": "progress\\0341_D3-CAM102-2-000294.json",
+      "sha256": "2c7695e3b5e9d1c112518f16c369e6b2758c00f4368889ff6d62913f069abe8e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000304",
+      "path": "progress\\0342_D3-CAM102-2-000304.json",
+      "sha256": "e8640196b33835052675b9f0c496d511092bf7f4637cb79ce2e48a794814a9ec"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000314",
+      "path": "progress\\0343_D3-CAM102-2-000314.json",
+      "sha256": "de6782b3fe80767df6a5c3752c8cdc9436e117e6454be0bc957bda5ef1ee625d"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000324",
+      "path": "progress\\0344_D3-CAM102-2-000324.json",
+      "sha256": "d8e45a35027f43e504143b837e489640219fc42927f0d094a5557931847dc9d2"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000334",
+      "path": "progress\\0345_D3-CAM102-2-000334.json",
+      "sha256": "57ef1828ffe9d4976ccf0bb5e625349381d4883e1d57d53ea4e933cf8990ae0e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000344",
+      "path": "progress\\0346_D3-CAM102-2-000344.json",
+      "sha256": "7e33aa665fb76e2ad49cd0eba6ef1138756dc7fc7df008a850b98b949347e683"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000354",
+      "path": "progress\\0347_D3-CAM102-2-000354.json",
+      "sha256": "4364a8e53989a03c9a1cbb97ddc389e610f161e46dfad8bc5d33f510e4925790"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000364",
+      "path": "progress\\0348_D3-CAM102-2-000364.json",
+      "sha256": "391ffe76b1e3df9f78df170f76c14f053c6979be751528c010240c650954f03a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000374",
+      "path": "progress\\0349_D3-CAM102-2-000374.json",
+      "sha256": "b770217b555b78f948377dda9677a577487921ce6f51e841bdd22c37a37f75c2"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000384",
+      "path": "progress\\0350_D3-CAM102-2-000384.json",
+      "sha256": "4ac8ba98311ff4b1628e17e68c70be9c2061d65d450d80aa4c38776af908789c"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000394",
+      "path": "progress\\0351_D3-CAM102-2-000394.json",
+      "sha256": "d6733daed8f2f7b92b7dcfd406df17c6955480a4b42a2368f2658e5f6737fbe6"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000404",
+      "path": "progress\\0352_D3-CAM102-2-000404.json",
+      "sha256": "151cc6a71baa5cd617ceeb791e716ffaaadce6121d93d2752234152cf8ec53ff"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000414",
+      "path": "progress\\0353_D3-CAM102-2-000414.json",
+      "sha256": "75415550926d3620ed9ac7d1009862a379ccffbdeab8b003516ad1ff583660a4"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000424",
+      "path": "progress\\0354_D3-CAM102-2-000424.json",
+      "sha256": "7427c8164d343faaff11945532b14a2b998c21eb6edcc984c9fffaba46c51472"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000434",
+      "path": "progress\\0355_D3-CAM102-2-000434.json",
+      "sha256": "ab830d40ef879d400a4d3bb39caa64d755bf57e3683019b74315e0b990ddb713"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000444",
+      "path": "progress\\0356_D3-CAM102-2-000444.json",
+      "sha256": "25b0fc823a7156157d2b5057d4b47ad5effa42628dce056bf2da089971a48fc7"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000454",
+      "path": "progress\\0357_D3-CAM102-2-000454.json",
+      "sha256": "f82d23b5a5da9ecfe4a7918d4a534d4ab0fa09cb67b0fb9b20ece0a802c227c9"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000464",
+      "path": "progress\\0358_D3-CAM102-2-000464.json",
+      "sha256": "c4216f13cb9c78818f0aa9ac5b71ac1640fc50217d43c90731fee6ac246677f7"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000474",
+      "path": "progress\\0359_D3-CAM102-2-000474.json",
+      "sha256": "59642804b3c04210b1ffb87f2fd622e33a38af3dd40d847b1c33d3510a8f82e8"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000484",
+      "path": "progress\\0360_D3-CAM102-2-000484.json",
+      "sha256": "d1ce96cd95b024c7194047cf9a5ab5209124aac3df8f8cf8cc84143164230bc0"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000494",
+      "path": "progress\\0361_D3-CAM102-2-000494.json",
+      "sha256": "27568d9e84abee687c5ff5d9355b65930c1c4d5cd104e661a3f0fa9184be8cd9"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000504",
+      "path": "progress\\0362_D3-CAM102-2-000504.json",
+      "sha256": "cc3e9d04877f6639b22c12c5a91e1b449a2dbeab2a5c3b5a07a6c37d1cb8b5e9"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000514",
+      "path": "progress\\0363_D3-CAM102-2-000514.json",
+      "sha256": "3809b2a5ccee50a0044dda097cb40fbafe5555ba008c7f964972048e8ad43d9a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000524",
+      "path": "progress\\0364_D3-CAM102-2-000524.json",
+      "sha256": "ebf314da115583bdcdeff7ddeefef19dcc0204d885041ce2683eee4214f715d7"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000534",
+      "path": "progress\\0365_D3-CAM102-2-000534.json",
+      "sha256": "a1fc616e091be7fc7aaf1788ba7ace1fbaba69b8797f891ae4f27cfdce9a9f8a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000544",
+      "path": "progress\\0366_D3-CAM102-2-000544.json",
+      "sha256": "c905ca61827d2d6393d739de80382be45c0ffbf0e3b280f7809aa658f42a5bde"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000554",
+      "path": "progress\\0367_D3-CAM102-2-000554.json",
+      "sha256": "e6f3bb805da7008c956ea4a3006548ab532a1b72e0ed57830ec4fc03fb7ba69a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2-000564",
+      "path": "progress\\0368_D3-CAM102-2-000564.json",
+      "sha256": "ec9707667f63a8ad19a741001c307d15a4ac4e0175642697461a64a25c8b595d"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000091",
+      "path": "progress\\0369_D3-CAM102-2R-000091.json",
+      "sha256": "4b256e88a63b10bca463d4068c133f843a7784c0c664591b8a6bc55837d6cc79"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000101",
+      "path": "progress\\0370_D3-CAM102-2R-000101.json",
+      "sha256": "0015821e2fe9f7715ba787e00155a2d7c46c6c582fb1e1086565b9bd13785762"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000111",
+      "path": "progress\\0371_D3-CAM102-2R-000111.json",
+      "sha256": "9361f5d6f9aaaad1d9ef80d689de220abaf4549da53157788f1dd65c415ed59e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000121",
+      "path": "progress\\0372_D3-CAM102-2R-000121.json",
+      "sha256": "2f12b9af53d3d617779e84ddabdb0c1c49d0c2baccea455316e318ba397312ae"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000131",
+      "path": "progress\\0373_D3-CAM102-2R-000131.json",
+      "sha256": "877c65710650e5f90106f02de28b750389ed6d74d8cabf231ce82a0469520d62"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000141",
+      "path": "progress\\0374_D3-CAM102-2R-000141.json",
+      "sha256": "42049e0ac1698680d184123666217dcf94bec4396e1daa7d2961e9dc1989ae44"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000151",
+      "path": "progress\\0375_D3-CAM102-2R-000151.json",
+      "sha256": "7f43457c0b3e3811a3b6aecb85bea81859d235e9ea49e3a0549c96e7b04978c0"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000161",
+      "path": "progress\\0376_D3-CAM102-2R-000161.json",
+      "sha256": "1097f5e4a757797e8791bc639749b035c05a91e35cb8ce2696f17caaeea73904"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000171",
+      "path": "progress\\0377_D3-CAM102-2R-000171.json",
+      "sha256": "195c99c877e8bc899fd20283e14e6dd2c838946bb0578738a6e7632738c7cc24"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000181",
+      "path": "progress\\0378_D3-CAM102-2R-000181.json",
+      "sha256": "c72faeeff66c10346fef76f7079b22d08b1d4c42c0ba7e94c3c9ebec11e3d607"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000191",
+      "path": "progress\\0379_D3-CAM102-2R-000191.json",
+      "sha256": "7de1842512bcf61c4ca3a6fe64db29a8371abe43e7a66a4ca62333295bb65885"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000201",
+      "path": "progress\\0380_D3-CAM102-2R-000201.json",
+      "sha256": "d80f1ff35466fb95da95b575fa36c80dddef218f1d216209eb92ed844b5c24f8"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000211",
+      "path": "progress\\0381_D3-CAM102-2R-000211.json",
+      "sha256": "bfd8bdb2484b85a5fc4508e41d5c30c04bcb289774761a58e008a9aaeaa94954"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000221",
+      "path": "progress\\0382_D3-CAM102-2R-000221.json",
+      "sha256": "e475dac258dfa422b786802d58708837839f8626583de0cbafb66f058bebf42a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000231",
+      "path": "progress\\0383_D3-CAM102-2R-000231.json",
+      "sha256": "93ec103eeffac6b0c5a294b4d5f1fb5e0eaf6a5c9fe139b27fac88482ff64bbf"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000241",
+      "path": "progress\\0384_D3-CAM102-2R-000241.json",
+      "sha256": "69a32b0b930a656928a2537bdc87b127d5f577ef217edebf3d0f8efe441ad9be"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000251",
+      "path": "progress\\0385_D3-CAM102-2R-000251.json",
+      "sha256": "6f7003380a28f5a1c7bf12080a4b18a5d8771541b589bc6d9e45a2cacee0f36d"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000261",
+      "path": "progress\\0386_D3-CAM102-2R-000261.json",
+      "sha256": "dc78c76945a9bc81ee8b6cc9ea98addd372bc6ee5d871f8e939a8dfee64d641f"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000271",
+      "path": "progress\\0387_D3-CAM102-2R-000271.json",
+      "sha256": "4a75b02aad4a235fc94c0f0a0f5879f42e5658fdd4a29eb5787da74b5ac0d68c"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000281",
+      "path": "progress\\0388_D3-CAM102-2R-000281.json",
+      "sha256": "e5fa3bd3c0644b089db7e91755d1421129e5412f778d53c91518c21871be4202"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000291",
+      "path": "progress\\0389_D3-CAM102-2R-000291.json",
+      "sha256": "e4f1f35e0d7039327daa00af2d2d982642ad64b45f0226c014e900b53e1ae14c"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000301",
+      "path": "progress\\0390_D3-CAM102-2R-000301.json",
+      "sha256": "58a2cd85e480dfa68dcb8b5957485ad1d0cf9cc4d3ef172f3a22984562b4d392"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000311",
+      "path": "progress\\0391_D3-CAM102-2R-000311.json",
+      "sha256": "48491816e98a7343e20db8ff2dec1ed4af7ee48dba0e60e0fffa4a550b7083e5"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000321",
+      "path": "progress\\0392_D3-CAM102-2R-000321.json",
+      "sha256": "35f64523801d15eafe8d100bdbb695e9c6279868f26f73e6c5b55bf2941b2532"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000331",
+      "path": "progress\\0393_D3-CAM102-2R-000331.json",
+      "sha256": "742beb016817d4c1cd931c01c09168a3dac09d95816fab8a29eeb7a86f9ed245"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000341",
+      "path": "progress\\0394_D3-CAM102-2R-000341.json",
+      "sha256": "1587b0156f1b00ff8f2aa59b95fc351327c59be8c986510357a8264844817e82"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000351",
+      "path": "progress\\0395_D3-CAM102-2R-000351.json",
+      "sha256": "1fa86de322fe5cd8a53123bc9e90a481144383571fe52e47b0c3e1e293b9788e"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000361",
+      "path": "progress\\0396_D3-CAM102-2R-000361.json",
+      "sha256": "b72f0118de215bfd1cd30d96c8972680be2e4f89f4390fff42d7a151edfa33e0"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000371",
+      "path": "progress\\0397_D3-CAM102-2R-000371.json",
+      "sha256": "004b6d71ee7534b434a5335b6b98842ba5164dc45c7b95af0a6c5ee0a5201377"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000381",
+      "path": "progress\\0398_D3-CAM102-2R-000381.json",
+      "sha256": "c874d751ad9dcc89ecd20dfae47f5610be62a71bbdec06800e480f542dde406a"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000391",
+      "path": "progress\\0399_D3-CAM102-2R-000391.json",
+      "sha256": "6a62ee8744ecf60a0351df322ff47e63600d9e644421c8580724c343963b1c5d"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000401",
+      "path": "progress\\0400_D3-CAM102-2R-000401.json",
+      "sha256": "85ae45355d8a0b91868dd3607513f1dd6aa353519d775fe763c3c7a548b80e68"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000411",
+      "path": "progress\\0401_D3-CAM102-2R-000411.json",
+      "sha256": "80d79485aac8dcce8976cc740baf7c9d1a4122b54d8f8252a4fa6467f8402df5"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000421",
+      "path": "progress\\0402_D3-CAM102-2R-000421.json",
+      "sha256": "b2bf5373a7d7182a5714514b92dea624c1389430f2a223badf881277e058ced4"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000431",
+      "path": "progress\\0403_D3-CAM102-2R-000431.json",
+      "sha256": "cac1f3ee5f3930f4cb3b5ab9f01bee9f5ce8a50d0f2b666b080480569d1ff6b0"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000441",
+      "path": "progress\\0404_D3-CAM102-2R-000441.json",
+      "sha256": "4f5fc04cb39d9292878467f68609cbee5a21226d4f7f08e92d031b703259efd0"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000451",
+      "path": "progress\\0405_D3-CAM102-2R-000451.json",
+      "sha256": "ba435614e21ca2b2f081888b0e0dc7e3ed92f737958d9e93ba458dedfa386164"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000461",
+      "path": "progress\\0406_D3-CAM102-2R-000461.json",
+      "sha256": "b867dc2f4bd7063500fc480556ffa556ebe45c28b4e9aa89f85c3ec1419646bf"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000471",
+      "path": "progress\\0407_D3-CAM102-2R-000471.json",
+      "sha256": "c741e80ef8829b306f8348b750f2665bc078d478780b6e8666eecfe41fbcb9ce"
+    },
+    {
+      "cohort_id": "D3-CAM102-2R-000481",
+      "path": "progress\\0408_D3-CAM102-2R-000481.json",
+      "sha256": "044ff4fef7c3eea7074b559e20f362bac4d2bd70affc8285c41d7d991741dad2"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000093",
+      "path": "progress\\0409_D3-CAM102-3-000093.json",
+      "sha256": "1d75eb4886d98d44a9c49eacaa3f54199c20ce4ce147250ec4d2c36d1fb382c1"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000103",
+      "path": "progress\\0410_D3-CAM102-3-000103.json",
+      "sha256": "b8c1b9b428679c47c9bda9f72eeeae455efaf86b37503eff3d2d8395c433fe97"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000113",
+      "path": "progress\\0411_D3-CAM102-3-000113.json",
+      "sha256": "14efec3b6014c1187fc7a04050dfed525ff59d9101864cfc1df9729997f242dc"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000123",
+      "path": "progress\\0412_D3-CAM102-3-000123.json",
+      "sha256": "37dfa13433660568f77fb47c403ed691fab426c0dc7f5265701c47947181becb"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000133",
+      "path": "progress\\0413_D3-CAM102-3-000133.json",
+      "sha256": "7670f03abc6798aa392b20565efca06996007b02627137225809c3ff4165e799"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000143",
+      "path": "progress\\0414_D3-CAM102-3-000143.json",
+      "sha256": "27733e29c511a9660c5392b32c81afb641b51267d5873b82da3ec9a1b6f317a3"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000153",
+      "path": "progress\\0415_D3-CAM102-3-000153.json",
+      "sha256": "cd64abbf21b69ef3c6393a791b755f1a8670e245df0af78ddcc232412dbb8377"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000163",
+      "path": "progress\\0416_D3-CAM102-3-000163.json",
+      "sha256": "8675856009b07d0375f4847d2e3caee84fce930c17701d88e75423b4bad82334"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000173",
+      "path": "progress\\0417_D3-CAM102-3-000173.json",
+      "sha256": "c5e0e38752adf620cc7e813f9e96a18772b852e2352e79e16e48c9c3a8453f63"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000183",
+      "path": "progress\\0418_D3-CAM102-3-000183.json",
+      "sha256": "12f5660afb8e63e6441f55a04530d3ccad93d6d8dbdc6397de51ef72cb11048e"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000193",
+      "path": "progress\\0419_D3-CAM102-3-000193.json",
+      "sha256": "5eb5f7349395149e1657575b3ae1f4a66e23f6207c04f8305fea26381e84489f"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000203",
+      "path": "progress\\0420_D3-CAM102-3-000203.json",
+      "sha256": "0fbd71841922a2c49a70f239b5513e82bc53a9636f128c7dc6e50199fee5e1df"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000213",
+      "path": "progress\\0421_D3-CAM102-3-000213.json",
+      "sha256": "955fb4446a80084a1a30a7c7bd97d4a6c305fb78fc1b228e9f059d1dcd8ebcc3"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000223",
+      "path": "progress\\0422_D3-CAM102-3-000223.json",
+      "sha256": "56202ec238430a29fba1fa9ec526eb7d4dfa2b505c4fe5d5ea485f255abcec31"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000233",
+      "path": "progress\\0423_D3-CAM102-3-000233.json",
+      "sha256": "e91bd6de2d9b36aa6340b42152ff6f2fd7d3cb655dec63a5b1b602a610df7daa"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000243",
+      "path": "progress\\0424_D3-CAM102-3-000243.json",
+      "sha256": "0f38b6847d2a9a05cde0b30daca1eee3e22bcca6da5c9d7e3f0e4a388c59cb4a"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000253",
+      "path": "progress\\0425_D3-CAM102-3-000253.json",
+      "sha256": "ab8b76bd96c5cb6e069a0f1ba9648d06ac00307657e827ed9ef686999d96fb6e"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000263",
+      "path": "progress\\0426_D3-CAM102-3-000263.json",
+      "sha256": "55c075dd23cf00d9b2f5045ae35788b710c0fbb8c0d6906762ae7bab44cb5697"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000273",
+      "path": "progress\\0427_D3-CAM102-3-000273.json",
+      "sha256": "3faa67e427fdeb98df36a5ac300eacaf0719ce8e07eb366d6cf1258e4c1e4b78"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000283",
+      "path": "progress\\0428_D3-CAM102-3-000283.json",
+      "sha256": "981783208c0d356fb32c874f7ac588e24a7681b9ffe6ae53ec276dd0f3068daa"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000293",
+      "path": "progress\\0429_D3-CAM102-3-000293.json",
+      "sha256": "f64f10beae33d963fc1d812637d989448da4e7f1c85bfb65067d98f77f9e9da4"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000303",
+      "path": "progress\\0430_D3-CAM102-3-000303.json",
+      "sha256": "758305470517e062e65be2dc83b8b1d86937140930e6a023261d9599402f3ddf"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000313",
+      "path": "progress\\0431_D3-CAM102-3-000313.json",
+      "sha256": "ec17a2e2b1e58ae80fdd03be9eaa5d41f6d9edc08e591f93222ddd436b83d87c"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000323",
+      "path": "progress\\0432_D3-CAM102-3-000323.json",
+      "sha256": "9bb945126f9cab86b84610c6bcf8d08924ac5eaaa101e6658a46c655c9b559b8"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000333",
+      "path": "progress\\0433_D3-CAM102-3-000333.json",
+      "sha256": "9bc7e3e16dfc20beddf9ae26fbe289f5646a26288dcedf1b3d567a8954043bd0"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000343",
+      "path": "progress\\0434_D3-CAM102-3-000343.json",
+      "sha256": "57a7c98b3299f412b318831e0ba3951f2a98709e73646fcab20705832deb24ee"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000353",
+      "path": "progress\\0435_D3-CAM102-3-000353.json",
+      "sha256": "b44f9a117ca5f7681c8138eeaf4323e9403a6c114ba3513bdc2fca10b7fc3351"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000363",
+      "path": "progress\\0436_D3-CAM102-3-000363.json",
+      "sha256": "8801283c413a1d0fca91ef7a5820d1a9796402e000182e9ab88d5478382537bd"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000373",
+      "path": "progress\\0437_D3-CAM102-3-000373.json",
+      "sha256": "dd749f97d11d807c1c5c533f4daea7d6e253ace65154b8402037171a8aa4dc6d"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000383",
+      "path": "progress\\0438_D3-CAM102-3-000383.json",
+      "sha256": "269cb6a332633568e5c62d83a239fd5fc4b5d390395fcf793f714c8848e469dd"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000393",
+      "path": "progress\\0439_D3-CAM102-3-000393.json",
+      "sha256": "5944e3698628cf4b6a7b6af579004c23b0cfb4568e8fc5350e1bdffc8fb6d12c"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000403",
+      "path": "progress\\0440_D3-CAM102-3-000403.json",
+      "sha256": "14667f78e0ea9288d0c0ef148fa91feab905cbf9b178d2bd042f85396cc302ea"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000413",
+      "path": "progress\\0441_D3-CAM102-3-000413.json",
+      "sha256": "07755cc73ce557f0d0d908fd91200efedff4bec3b3b84a06df0daf963febcd70"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000423",
+      "path": "progress\\0442_D3-CAM102-3-000423.json",
+      "sha256": "42c88a1805c0621df535b4f6900326eeee8ac90f5ffe550003ca354a2a1d00e0"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000433",
+      "path": "progress\\0443_D3-CAM102-3-000433.json",
+      "sha256": "a5a479a77d507c628636b17294e924ba1136d092df0ae34b2effae1651baf66f"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000443",
+      "path": "progress\\0444_D3-CAM102-3-000443.json",
+      "sha256": "e3c7e9cf90a735acc892785b17813e51007f7ff3cdf671a626a3ca3311d6586d"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000453",
+      "path": "progress\\0445_D3-CAM102-3-000453.json",
+      "sha256": "db595e707866e23f6b951c2dc70d2992e047a8631a2c6e7f58d9275159738495"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000463",
+      "path": "progress\\0446_D3-CAM102-3-000463.json",
+      "sha256": "7a5e4f4fd70d9b9e54d255fe0dd2de367a6bd30b370e0ad95aa4aa1e1eac8d42"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000473",
+      "path": "progress\\0447_D3-CAM102-3-000473.json",
+      "sha256": "3763630194e7432da6542c252271bbc68d9b3f9394c753bc3d1c086f90726935"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000483",
+      "path": "progress\\0448_D3-CAM102-3-000483.json",
+      "sha256": "b0d9dbb3e2e1fcc7328effac67dc62dededd9155731ac3ffafbbd912bce70243"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000493",
+      "path": "progress\\0449_D3-CAM102-3-000493.json",
+      "sha256": "d45f0a5fc61ff667ea9d4e212afd5942445a1d9f55a4bfd93d3635571dff30cd"
+    },
+    {
+      "cohort_id": "D3-CAM102-3-000503",
+      "path": "progress\\0450_D3-CAM102-3-000503.json",
+      "sha256": "897a1f7340a0c82ebe460ef3291a617d71e3f73e6323822b0deb0bd0ec215e91"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000090",
+      "path": "progress\\0451_D3-CAM102-3R-000090.json",
+      "sha256": "e52b3c0ee00c04422110f4a1544ea87bc775470e4a64d0358a793bc9a16c677a"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000100",
+      "path": "progress\\0452_D3-CAM102-3R-000100.json",
+      "sha256": "f0a6bbb562086f7e680141818f1413502c772abc6388fc34507283992bb467a4"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000110",
+      "path": "progress\\0453_D3-CAM102-3R-000110.json",
+      "sha256": "01a64c383f6ad1db50a3b096d98ffe2435f87da30d541b2ff30ea266c6d10876"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000120",
+      "path": "progress\\0454_D3-CAM102-3R-000120.json",
+      "sha256": "c95b98299cd0c0703acabd327ad28be3e8320f850fd739b6f6be0d2a63e6bed2"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000130",
+      "path": "progress\\0455_D3-CAM102-3R-000130.json",
+      "sha256": "cdceabf75e502619a120619d5ac0c7b34564a568b7e0de0a412d7c2787279c64"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000140",
+      "path": "progress\\0456_D3-CAM102-3R-000140.json",
+      "sha256": "f829f9361a50b261cd7d0a7e26d1053258c596f34accab072fc2bfecf6320ad6"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000150",
+      "path": "progress\\0457_D3-CAM102-3R-000150.json",
+      "sha256": "a73f371bd97c0193e27d8d14657b3ebab791f0bb36a700a7f50f650854d5ffcf"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000160",
+      "path": "progress\\0458_D3-CAM102-3R-000160.json",
+      "sha256": "95697cd2bd93db81a1d691913bf6cbdaab5e542a6e473192815e8e6d51543988"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000170",
+      "path": "progress\\0459_D3-CAM102-3R-000170.json",
+      "sha256": "8f07d1d507a0c4664be64e4c7eb193b33ad869ac2d76dc7d209d745dabcc0034"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000180",
+      "path": "progress\\0460_D3-CAM102-3R-000180.json",
+      "sha256": "a64fd97df2d748cc43e8cfa24fb385ce823c47dde2bc427b7951acbc2b7caf2d"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000190",
+      "path": "progress\\0461_D3-CAM102-3R-000190.json",
+      "sha256": "7b624ded938822fdc18a0d2607f3252699b22f5ecb8454d1a51015b1cc7c877b"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000200",
+      "path": "progress\\0462_D3-CAM102-3R-000200.json",
+      "sha256": "b8090826895fc8976024de4b499eb03b42296d43d9bd62c4c94dd790839632ce"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000210",
+      "path": "progress\\0463_D3-CAM102-3R-000210.json",
+      "sha256": "d535865e82124601b3e5771b72282944deb993eabb73e0c3ea6f322f35b33f6f"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000220",
+      "path": "progress\\0464_D3-CAM102-3R-000220.json",
+      "sha256": "8aa702ed95bfe50ff5ceab49357dc9fdf5d069687a3440c6fb84b2e44d38ccbc"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000230",
+      "path": "progress\\0465_D3-CAM102-3R-000230.json",
+      "sha256": "4eb2fe185dbe16b0585b231c1d75c17e5eb51398b2366daf682b6a5db69909f8"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000240",
+      "path": "progress\\0466_D3-CAM102-3R-000240.json",
+      "sha256": "66fb82017aad5a27e9c5c0025d4e9d356607fd15c963923c8a63103dd0cbcd50"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000250",
+      "path": "progress\\0467_D3-CAM102-3R-000250.json",
+      "sha256": "e7736c1cd99c0b96da2b0ea67fdb3c8fd0694a05dbcef7208504f249665660e1"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000260",
+      "path": "progress\\0468_D3-CAM102-3R-000260.json",
+      "sha256": "d24d93e2df3c47d62b14d6820315d2934dfe666ea00e2164f1b6106fe4890c21"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000270",
+      "path": "progress\\0469_D3-CAM102-3R-000270.json",
+      "sha256": "3b2484a9eda76e45c43d8e0ad7c2d8616bc0711d9461f398f0d7e3862202c62c"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000280",
+      "path": "progress\\0470_D3-CAM102-3R-000280.json",
+      "sha256": "5a43c7dc85a572524102e040f532b4f6c6c0d0ca1f06bbd2b7ad6a439c8d0a3c"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000290",
+      "path": "progress\\0471_D3-CAM102-3R-000290.json",
+      "sha256": "034f561e2f763c155d53e2ff1c7794d6b5288db960787091aec06c358f550870"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000300",
+      "path": "progress\\0472_D3-CAM102-3R-000300.json",
+      "sha256": "136822edea6627631e6089714ef5669efe5e814cb7c1d3994720bfb01dff36a6"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000310",
+      "path": "progress\\0473_D3-CAM102-3R-000310.json",
+      "sha256": "2d71c413ae4bb22c7c0a04e95503b7dd3c7c5cca2586e507e1a567de0f68c952"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000320",
+      "path": "progress\\0474_D3-CAM102-3R-000320.json",
+      "sha256": "85fe7a1fec0432d839dfcb5b8bb5a9b885dbace53fe53df2010c428f60c09d14"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000330",
+      "path": "progress\\0475_D3-CAM102-3R-000330.json",
+      "sha256": "76f00737bd848053cf0a28a30c3be040f339dd2a86c18f1014cc1215887d7480"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000340",
+      "path": "progress\\0476_D3-CAM102-3R-000340.json",
+      "sha256": "779c9859ebd50ea2d267c06954f074283df64d94d10a17fa0cb39649188d089f"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000350",
+      "path": "progress\\0477_D3-CAM102-3R-000350.json",
+      "sha256": "c718f6de94f762f87c2e6af3f0f329e3f6bc91d84ae068312b20c32bf82c258a"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000360",
+      "path": "progress\\0478_D3-CAM102-3R-000360.json",
+      "sha256": "78eab6122d3f44ea140c9c390a292e66adc70dde43197e87c5d33b40f490b5b0"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000370",
+      "path": "progress\\0479_D3-CAM102-3R-000370.json",
+      "sha256": "a626dec536f3aa1f6112587ecfa1d96af328725dc1866e8cbefd31465a03f212"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000380",
+      "path": "progress\\0480_D3-CAM102-3R-000380.json",
+      "sha256": "41cc8968ac756c7c5591340b35529df26b3c9a58b33dc06878445a3102434851"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000390",
+      "path": "progress\\0481_D3-CAM102-3R-000390.json",
+      "sha256": "deadf5035c7591293d1855799f16e9ac44cdf36679578747d78f066cd9b81d81"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000400",
+      "path": "progress\\0482_D3-CAM102-3R-000400.json",
+      "sha256": "08048268ea1dc66cb422903c2fe0b5bb36bfb9399578dc1e43f6e1fbde2be98a"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000410",
+      "path": "progress\\0483_D3-CAM102-3R-000410.json",
+      "sha256": "c6d55c438d1635e7b1e814105f8a7026b464284bc28ce4c0f444be555c4c2a05"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000420",
+      "path": "progress\\0484_D3-CAM102-3R-000420.json",
+      "sha256": "23b9f75630303a7182d0a331e0697cb25b9b87b1e628e84ee560fc0a416ec0d9"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000430",
+      "path": "progress\\0485_D3-CAM102-3R-000430.json",
+      "sha256": "166b1b49bd219e53a16c9f5b51edcbca614c3ca2109f0b6d2b0d33cc71e62621"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000440",
+      "path": "progress\\0486_D3-CAM102-3R-000440.json",
+      "sha256": "e5af528ab602ba96cb25496dd0d175edb177eb5c4d8f821d5efcb12c39a82e43"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000450",
+      "path": "progress\\0487_D3-CAM102-3R-000450.json",
+      "sha256": "e98f7bdfd7e927c24154159df4a5cbe067ab4df235edafffa447d9a1772dc927"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000460",
+      "path": "progress\\0488_D3-CAM102-3R-000460.json",
+      "sha256": "d9144d95cd80ccce60f58d8bfebc2b1a39b9eab7d35db14da5688f629c5f70d5"
+    },
+    {
+      "cohort_id": "D3-CAM102-3R-000470",
+      "path": "progress\\0489_D3-CAM102-3R-000470.json",
+      "sha256": "d55b4a8cbf61df2e134958e7ada6d0179e972f64e47cc20a914a37c329a229fe"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000089",
+      "path": "progress\\0490_D3-CAM102-4-000089.json",
+      "sha256": "15818d355adb1b1d286ba6cef2353b5d3ed4196e9c82e68cb001e9ee5d6df46a"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000099",
+      "path": "progress\\0491_D3-CAM102-4-000099.json",
+      "sha256": "a7de43b473012ef071240cdf4152a8bb6e77544b8b9619f3e47a2384a5d23324"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000109",
+      "path": "progress\\0492_D3-CAM102-4-000109.json",
+      "sha256": "84849d48be83e457ae3d4d69cfa546f4250bd1bf9249079c6b11b952e1bcf0b4"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000119",
+      "path": "progress\\0493_D3-CAM102-4-000119.json",
+      "sha256": "7ba91070a4a9460949435f23678950ce72f32c5841450356b64c4f2cb64a5dc6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000129",
+      "path": "progress\\0494_D3-CAM102-4-000129.json",
+      "sha256": "2e4fc5edac729c56c60fd0a9a58613a1cecda0297dcede49d6dc56dba4151ecf"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000139",
+      "path": "progress\\0495_D3-CAM102-4-000139.json",
+      "sha256": "ac72371d6b6d7a6739688b333f0a1278cd0a520c508b3728b1cb5d797925d351"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000149",
+      "path": "progress\\0496_D3-CAM102-4-000149.json",
+      "sha256": "82db1def5f933ffbf31398ef74887672ed7d601947a243e26d294bed8c0c6837"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000159",
+      "path": "progress\\0497_D3-CAM102-4-000159.json",
+      "sha256": "72c30776bed521c0cdc7a5329334f21549e0bc5ca6bb3614d8c3e9d69cb3f496"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000169",
+      "path": "progress\\0498_D3-CAM102-4-000169.json",
+      "sha256": "8ec01b573af02cc80b85ab05e0d2eef189310d194cb091a4ec7521330fec0bc8"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000179",
+      "path": "progress\\0499_D3-CAM102-4-000179.json",
+      "sha256": "75f921d945fa11ecfa1131e47484a9632ab3f5cb6dce785189a17c0b84256adf"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000189",
+      "path": "progress\\0500_D3-CAM102-4-000189.json",
+      "sha256": "571674b12e5e5a69f7f97f35f453c25d790a07f66b7cea2c56eea44ff4f5fac2"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000199",
+      "path": "progress\\0501_D3-CAM102-4-000199.json",
+      "sha256": "608f333e8adc2c116ba83bb006223c8cdc8d3ff227d20276ef650294417ccac4"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000209",
+      "path": "progress\\0502_D3-CAM102-4-000209.json",
+      "sha256": "4ea6494ee4b4d7224bf8d4c5515c022dd0da3f047b6a08862bbf8423837268d3"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000219",
+      "path": "progress\\0503_D3-CAM102-4-000219.json",
+      "sha256": "adeb50f3e4b1f8a99942f0116876bc17849aa3fee36cf44a94d4283352fea104"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000229",
+      "path": "progress\\0504_D3-CAM102-4-000229.json",
+      "sha256": "2d604a1928bc99c7538095bbb1a53b9c6c66377065a677fe193146418628a04f"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000239",
+      "path": "progress\\0505_D3-CAM102-4-000239.json",
+      "sha256": "0de4543fed20e6adb53a1cc69d289255c563969b170f12a4bcfb37244a4789ce"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000249",
+      "path": "progress\\0506_D3-CAM102-4-000249.json",
+      "sha256": "0d9175b704c15350f82bdaae2780cea0433f5c1bb242985aab4a01a90444da21"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000259",
+      "path": "progress\\0507_D3-CAM102-4-000259.json",
+      "sha256": "c87a5e4b22dfc84e90ceb82d795db01b539610d9bbf9eeb5fadeeb3054a61d41"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000269",
+      "path": "progress\\0508_D3-CAM102-4-000269.json",
+      "sha256": "29bce12a3d5225bf9997ff45f36e680d239d143720de1ab7d28b1968393cf90e"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000279",
+      "path": "progress\\0509_D3-CAM102-4-000279.json",
+      "sha256": "c821bf91807abdcd597bf9a33efa3d33341be8469b7516e4e2bacacac7d91d6b"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000289",
+      "path": "progress\\0510_D3-CAM102-4-000289.json",
+      "sha256": "1d32937f4ea1ff583e122c5f9802f1aac29f36aa0edfb67be5e706437a65cc66"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000299",
+      "path": "progress\\0511_D3-CAM102-4-000299.json",
+      "sha256": "b66b3b2eb50b35aad4a3b05bb07bb3965df017965c857f44a39aaa55da93331a"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000309",
+      "path": "progress\\0512_D3-CAM102-4-000309.json",
+      "sha256": "b32b0ca636e9eeec52c39e9bac37c403e7cf8d3d60ed805117b86d421763bfc5"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000319",
+      "path": "progress\\0513_D3-CAM102-4-000319.json",
+      "sha256": "c4f6fb2d05c56451a894ed5e64d6e92300f30262c2f91d80025b802cf3bdfb6e"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000329",
+      "path": "progress\\0514_D3-CAM102-4-000329.json",
+      "sha256": "f0be35d2d14df124c119c2b0cb21847f2bbae01d5307251c01f2582835eb95a6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000339",
+      "path": "progress\\0515_D3-CAM102-4-000339.json",
+      "sha256": "097e2de05a8ba88b87de410aa5a6a73c8e45a19607811f5ffcace36be16f1fc2"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000349",
+      "path": "progress\\0516_D3-CAM102-4-000349.json",
+      "sha256": "3a8e7b072c85f52a8bc20f182b5b49347f7ca563c85145276dafcc20a2a81667"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000359",
+      "path": "progress\\0517_D3-CAM102-4-000359.json",
+      "sha256": "2d2515a161d5f0c8db25ac63ac65c53b536cb6bf4590217fdcaa7fe89bbcaa86"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000369",
+      "path": "progress\\0518_D3-CAM102-4-000369.json",
+      "sha256": "38e60f5d4f61f50487d7394aa2d2fb33eeb67919e8f7327935f9442c1f333b34"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000379",
+      "path": "progress\\0519_D3-CAM102-4-000379.json",
+      "sha256": "a8ad598fefad80375ddee3490fada56027d786961f0881f010e3bc454f03a92d"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000389",
+      "path": "progress\\0520_D3-CAM102-4-000389.json",
+      "sha256": "1a30f34ad07758a63d3a08d043a2a07a92d5b97a26f37e9abcaccbe70d17c6b4"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000399",
+      "path": "progress\\0521_D3-CAM102-4-000399.json",
+      "sha256": "07814f49f93a62301d5e69f0398260b816333ca306a0b5475f5d5873c538986f"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000409",
+      "path": "progress\\0522_D3-CAM102-4-000409.json",
+      "sha256": "54481a3f342e75698669ecd8d0932412d54f8e3adff60aa0b648377b9c12daa6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000419",
+      "path": "progress\\0523_D3-CAM102-4-000419.json",
+      "sha256": "08f8e5c6b5bb80f515dff33b33ef19bfd1c1cf574e6d1b81dec0fca8fed279db"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000429",
+      "path": "progress\\0524_D3-CAM102-4-000429.json",
+      "sha256": "2727248162068fa5093c6984d77a139553638baea599f71ed3a53b410b6cc421"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000439",
+      "path": "progress\\0525_D3-CAM102-4-000439.json",
+      "sha256": "ab5a37048d1021bc1f1d3d5a0f860382944c5db180f4954c5e8aa6b65532fb26"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000449",
+      "path": "progress\\0526_D3-CAM102-4-000449.json",
+      "sha256": "928250a6f398df6b0209f5977422df43ffb63f8e777b9c998a16866c20e9ffd6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000459",
+      "path": "progress\\0527_D3-CAM102-4-000459.json",
+      "sha256": "c239fdd11d714472bede65b02c7d6ccae7979e8cf106afbc9920ad5763473e46"
+    },
+    {
+      "cohort_id": "D3-CAM102-4-000469",
+      "path": "progress\\0528_D3-CAM102-4-000469.json",
+      "sha256": "3b9964e44a5a595db920bd7c9d328c39151d226d73de747f69cb4b63a470ac0d"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000090",
+      "path": "progress\\0529_D3-CAM102-4R-000090.json",
+      "sha256": "b1dc517f4ea13ce8d839aea1c20dbe16048602860dd2a0042cb3203765402db2"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000100",
+      "path": "progress\\0530_D3-CAM102-4R-000100.json",
+      "sha256": "010618f5ccbd28932fa00a42f74abc9c68356e57ee755256017ba9476980268c"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000110",
+      "path": "progress\\0531_D3-CAM102-4R-000110.json",
+      "sha256": "42d6657065c049c2244d0cb380647532898eb791967e90ed5b649c0fbb5f2f2d"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000120",
+      "path": "progress\\0532_D3-CAM102-4R-000120.json",
+      "sha256": "1913d27bec6418ec91987970c132877fd36f742791e28d5b62adbd6c62f13713"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000130",
+      "path": "progress\\0533_D3-CAM102-4R-000130.json",
+      "sha256": "c446fecb08caac8fb1c95ab6278909f6ae712bae975c77c0974a5855f8d5d005"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000140",
+      "path": "progress\\0534_D3-CAM102-4R-000140.json",
+      "sha256": "f909aee93a03c5bdcc28e3ee17d72dbaa6b5a21d2c8e707f037da5cc20b43e3e"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000150",
+      "path": "progress\\0535_D3-CAM102-4R-000150.json",
+      "sha256": "50162fdf2518bd473b58d014192ab6b19ab4f6e0351b3278084037df6c0bcfb7"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000160",
+      "path": "progress\\0536_D3-CAM102-4R-000160.json",
+      "sha256": "8c72aa228028d120192d68a7c6376fc8060789315f2e9ec74267604833dd0915"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000170",
+      "path": "progress\\0537_D3-CAM102-4R-000170.json",
+      "sha256": "5db8338f453fb86c466d18b755ff67cb74f619965f5fedf400f77ee3bab80552"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000180",
+      "path": "progress\\0538_D3-CAM102-4R-000180.json",
+      "sha256": "00626640d1e58d096b04f915f60bceb926d53112498e1eeb4953e8b9d7efc113"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000190",
+      "path": "progress\\0539_D3-CAM102-4R-000190.json",
+      "sha256": "183b7cf995e1a04ebc48131759d59c0bde6b5a9f0d8b8c6cfa7cd9ee6b3630f4"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000200",
+      "path": "progress\\0540_D3-CAM102-4R-000200.json",
+      "sha256": "c5f7e68d84ed8ed9872facc7fe43e6b8d14c96a0e2ecafe31dbd2a54a6f07181"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000210",
+      "path": "progress\\0541_D3-CAM102-4R-000210.json",
+      "sha256": "9d7ac2c436a5bce0b64d0c71b71849ef4bcc8d889de0370c6f2efcf4dd985cb9"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000220",
+      "path": "progress\\0542_D3-CAM102-4R-000220.json",
+      "sha256": "b85096107d27351787e611a0b01488a8e97993a3a4533c549103a3e57b383d82"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000230",
+      "path": "progress\\0543_D3-CAM102-4R-000230.json",
+      "sha256": "8078bcb73908be177e27a15103e8d364da634fd4818aca3a17cd0d08f01f2d7c"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000240",
+      "path": "progress\\0544_D3-CAM102-4R-000240.json",
+      "sha256": "df55e885cd701ca31650010a84b91633a55166039c5c7ecccdc63af8bf882dbf"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000250",
+      "path": "progress\\0545_D3-CAM102-4R-000250.json",
+      "sha256": "cdfb3fb6e2b4c12426d74b98823ef6a8baa95d9679bc05aefc354f57a3c727d0"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000260",
+      "path": "progress\\0546_D3-CAM102-4R-000260.json",
+      "sha256": "650078511652e5eec53f1829f8a8dd06c2e388adf6e5349578d614fbe819a8fb"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000270",
+      "path": "progress\\0547_D3-CAM102-4R-000270.json",
+      "sha256": "2b9fbb6a0effbffd22e9635a789912dfa6a236fa7468b7680010fd133c7ef80b"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000280",
+      "path": "progress\\0548_D3-CAM102-4R-000280.json",
+      "sha256": "113419b04fc34fd77d027b4d867539dfad19a12941d9ed3a5bf8356273ae68d7"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000290",
+      "path": "progress\\0549_D3-CAM102-4R-000290.json",
+      "sha256": "608b2b0de0625bb96d0e5dd750020d31e073ac8d4ea6cd9510739145c84bf294"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000300",
+      "path": "progress\\0550_D3-CAM102-4R-000300.json",
+      "sha256": "22d84cb0c3838016528b3197745e91bf402fa9838ffa084860066ee6d67ff7eb"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000310",
+      "path": "progress\\0551_D3-CAM102-4R-000310.json",
+      "sha256": "673ebfee25544e8177779c3d274b8f4736dc1fd069ed5fc222ab828bb91d07a8"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000320",
+      "path": "progress\\0552_D3-CAM102-4R-000320.json",
+      "sha256": "2cdb50d72ce3d10696143c8db3ffb5dce69d830f5f90f9313523861eca4acf8b"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000330",
+      "path": "progress\\0553_D3-CAM102-4R-000330.json",
+      "sha256": "2fdd0f6ecf198b99d947434bc1f4c71b6d4464f7b24860a39aa842a2222df708"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000340",
+      "path": "progress\\0554_D3-CAM102-4R-000340.json",
+      "sha256": "ccaade2eabcbe60814dadf60895dc427b46a860cd38364d1b4e1bace2aefb076"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000350",
+      "path": "progress\\0555_D3-CAM102-4R-000350.json",
+      "sha256": "012770b1d57ce09119e25e7d9840c45a7be733a4eec8beac3ced3e9868dd7334"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000360",
+      "path": "progress\\0556_D3-CAM102-4R-000360.json",
+      "sha256": "c87f3b9a0621eeb8db9691b44fe31086c95c30dc15cb8d77e8c814f7aa319cf2"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000370",
+      "path": "progress\\0557_D3-CAM102-4R-000370.json",
+      "sha256": "9b46bee20be647117d8ed5c8ca10ccf21dc5c3a4211987d49e186c613f91add6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000380",
+      "path": "progress\\0558_D3-CAM102-4R-000380.json",
+      "sha256": "b8f140a2a6994d71fca4e0d29ea8ada1f40e6396b1a603cd07b2f5e10ebed919"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000390",
+      "path": "progress\\0559_D3-CAM102-4R-000390.json",
+      "sha256": "74e4c728907e3f163c12051ea5c1594ddd6d7aa40da5c9c5eff5611c29007fc6"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000400",
+      "path": "progress\\0560_D3-CAM102-4R-000400.json",
+      "sha256": "56fe8182bec832aadfd0fa07a7d42610433951fa59098e6f5c06715606c12623"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000410",
+      "path": "progress\\0561_D3-CAM102-4R-000410.json",
+      "sha256": "8b61eb4a93245a6550be2f908f1ec66da4cd11ceaaaf45083290b4bcc65e3cbb"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000420",
+      "path": "progress\\0562_D3-CAM102-4R-000420.json",
+      "sha256": "5f581140d38695dbae0e3934a7e101d5a9b0643cab5a7cbf965d61c128271724"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000430",
+      "path": "progress\\0563_D3-CAM102-4R-000430.json",
+      "sha256": "ba30cf19b8dec6e533b9f61c1c2a8fe7bdabe6c7cf243507cdbdb7ceeeaf56ca"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000440",
+      "path": "progress\\0564_D3-CAM102-4R-000440.json",
+      "sha256": "d733b8cfa4dc3c5f99e2c4373851f1eb1df503c661f95e51429a1b2bc8bf05f0"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000450",
+      "path": "progress\\0565_D3-CAM102-4R-000450.json",
+      "sha256": "09395319ad7353256589ff41f0f17c3fec53ed2ebfb96ad8e2db8b602fb96d72"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000460",
+      "path": "progress\\0566_D3-CAM102-4R-000460.json",
+      "sha256": "f926c7597979b0bdc8673e7bb8e143cec95b27d2b9dc421696701d5daa2f2411"
+    },
+    {
+      "cohort_id": "D3-CAM102-4R-000470",
+      "path": "progress\\0567_D3-CAM102-4R-000470.json",
+      "sha256": "29b87ac03c6c5aa49e1c744d82d1c196cafb20fc4986f5b379a0cbc09ed2196e"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000104",
+      "path": "progress\\0568_D3-CAM102-5-000104.json",
+      "sha256": "22342dd2c20e9cafe9f9d317c09a0bedf3946e874eed850ea4fee224c716e8d2"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000114",
+      "path": "progress\\0569_D3-CAM102-5-000114.json",
+      "sha256": "667a06f6a5bbdc1cee9529a6975c3de3f64f061cc9257bebce42694d79d70d17"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000124",
+      "path": "progress\\0570_D3-CAM102-5-000124.json",
+      "sha256": "30cceb919321615ceb8e55d0e74b3d2f4fd1dde322f0ca599a007a5c0745aa06"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000134",
+      "path": "progress\\0571_D3-CAM102-5-000134.json",
+      "sha256": "2add81cea07a445f77bcf9cfd513ac0ff6e393884598b95adec162522dbfa82c"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000144",
+      "path": "progress\\0572_D3-CAM102-5-000144.json",
+      "sha256": "f94e5f84173e2183efbb75fc70cd4280b58cbc14335c1aaa59cd257c8decbfc5"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000154",
+      "path": "progress\\0573_D3-CAM102-5-000154.json",
+      "sha256": "033ad7ea834034de6999d599f36ec2f1c650121efc3bc463222bac93d0f0880d"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000164",
+      "path": "progress\\0574_D3-CAM102-5-000164.json",
+      "sha256": "99088e8b98a8f633d16d24d9c2e7e65876e7ab3c89174ba3c82c3b4d097bccd7"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000174",
+      "path": "progress\\0575_D3-CAM102-5-000174.json",
+      "sha256": "808d4eab0258e795c4f16bb69e85a004849c79e670a1a12bc356ccc3afb4ca1c"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000184",
+      "path": "progress\\0576_D3-CAM102-5-000184.json",
+      "sha256": "0cd8fcc2deea6fda5a93fff11202d57a6f242aacfeeb857955dcab9f9140365e"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000194",
+      "path": "progress\\0577_D3-CAM102-5-000194.json",
+      "sha256": "4f4278024fb45e23b3ac0b8efe085f7308b4536927e9df70b91cdfa117177951"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000204",
+      "path": "progress\\0578_D3-CAM102-5-000204.json",
+      "sha256": "08e9e01aaa8eaf4d76590424ee21b9898cd185830b5b4740ab046fb5648b2b2c"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000214",
+      "path": "progress\\0579_D3-CAM102-5-000214.json",
+      "sha256": "293127c77e85380c6f86275ec8d9f8d7746f8b0b9c81f03ac57b39d109af47a9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000224",
+      "path": "progress\\0580_D3-CAM102-5-000224.json",
+      "sha256": "a3e96fb5f45b40bb8207eff5c437424159e2399d35d76444aa95b7034c4dfff2"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000234",
+      "path": "progress\\0581_D3-CAM102-5-000234.json",
+      "sha256": "706be6b7cce7ca19bc218367060bbc91e6cd0890f292d9fab21bd7596eab9dc9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000244",
+      "path": "progress\\0582_D3-CAM102-5-000244.json",
+      "sha256": "9343c0ace022741fd3ce19b2deb643080aa37357d7686767a704abc3c7aa284a"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000254",
+      "path": "progress\\0583_D3-CAM102-5-000254.json",
+      "sha256": "ee1833dd3d68db3b45a186bc70e9fa2f2d0de0ad9972c16ae007a1feae65df48"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000264",
+      "path": "progress\\0584_D3-CAM102-5-000264.json",
+      "sha256": "be88d866470c0804c9c066e9e0d3e56a41697c83de3b48898060e094875b5c83"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000274",
+      "path": "progress\\0585_D3-CAM102-5-000274.json",
+      "sha256": "774e1c75aa5e7bd87b5577b0b48917dd45b84840fe6a06741760b46c57c3205d"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000284",
+      "path": "progress\\0586_D3-CAM102-5-000284.json",
+      "sha256": "3f7b9d8013f63c054845f8cf8e04fb40356742215d6a9d6c8bd33bbcb170e766"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000294",
+      "path": "progress\\0587_D3-CAM102-5-000294.json",
+      "sha256": "fc0c3e14454bb3560b43aa151934641ab19232b37bd505f0156d69b7b82079bd"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000304",
+      "path": "progress\\0588_D3-CAM102-5-000304.json",
+      "sha256": "4eb8d201489b008c8f750897c8f1d1ebc23a274cae1e3d3a21931d04e5f79111"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000314",
+      "path": "progress\\0589_D3-CAM102-5-000314.json",
+      "sha256": "92e5ce76944d8f16e9e03b94dcd7c79a383d9a3b0b7badce3f6c048f5743cac9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000324",
+      "path": "progress\\0590_D3-CAM102-5-000324.json",
+      "sha256": "f7d44a4e3d9e55e064568ef63a0bca3377b60dd215deb62b11174228f18459be"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000334",
+      "path": "progress\\0591_D3-CAM102-5-000334.json",
+      "sha256": "843bd6cd026730c69b7b47fc37241c7854a06fa16d11ce79bc46c8549e030e01"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000344",
+      "path": "progress\\0592_D3-CAM102-5-000344.json",
+      "sha256": "384e74046dae2de95bd753cd247a12521a992263b298374d76ddc0df9f746ccb"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000354",
+      "path": "progress\\0593_D3-CAM102-5-000354.json",
+      "sha256": "e81db2f946df1931b3e9a69285770df6c76e48d0ee6d0c99f1ba268940c1549c"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000364",
+      "path": "progress\\0594_D3-CAM102-5-000364.json",
+      "sha256": "58d4dd2ec0d68a2e21abf2af9dafed3590b5740961e24cf2c9959470ad0bc5b2"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000374",
+      "path": "progress\\0595_D3-CAM102-5-000374.json",
+      "sha256": "17957f71c78b13fa30906f11fcf2532203c36ad4c146e0281c20d3bd80403594"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000384",
+      "path": "progress\\0596_D3-CAM102-5-000384.json",
+      "sha256": "be682bc2e84de4c577b269c1d69988eef8be2c086705330ccb8d884aabe648f3"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000394",
+      "path": "progress\\0597_D3-CAM102-5-000394.json",
+      "sha256": "c2c5d2530c6064f808576e8cca6f93f88c759d690268e5b6227f2b815fe8770f"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000404",
+      "path": "progress\\0598_D3-CAM102-5-000404.json",
+      "sha256": "d9f9af40502f9a4288b47c9dc1725d56871e87d49d24f86c7f37d4bb3958fc1e"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000414",
+      "path": "progress\\0599_D3-CAM102-5-000414.json",
+      "sha256": "7b309b08139335dceb71927f00bf1832ee3d506f2fa3ca1133772c6977b5a4fe"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000424",
+      "path": "progress\\0600_D3-CAM102-5-000424.json",
+      "sha256": "58d7c93a63e99c3ac6f4f35c57e845af9624a58fc6aa4a78fb2aa7e5355874b1"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000434",
+      "path": "progress\\0601_D3-CAM102-5-000434.json",
+      "sha256": "eeda3b300f3648eea2ecf5fd52dd541d28aa6709c7107e47078d4d5414044a4b"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000444",
+      "path": "progress\\0602_D3-CAM102-5-000444.json",
+      "sha256": "08618a9710f8bdc0f84fd74df57ff0faee5d7fe10784ef2b3cb2a7c674cebb89"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000454",
+      "path": "progress\\0603_D3-CAM102-5-000454.json",
+      "sha256": "93b838ba4ada2ab6d0078b3b0327a65dd92cf03d53ebeb4a3f8db3c36c32bfbb"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000464",
+      "path": "progress\\0604_D3-CAM102-5-000464.json",
+      "sha256": "b73737333641f76ab12dd131b7a395f0cd94b3f6ba523306f1d9bc45ddb3cf2d"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000474",
+      "path": "progress\\0605_D3-CAM102-5-000474.json",
+      "sha256": "59a4d8d82ed2b02c696e3396cfd2b31a182e6dbaf202262096346b3c1159fe62"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000484",
+      "path": "progress\\0606_D3-CAM102-5-000484.json",
+      "sha256": "45cbff1a2886ebbb58d76a393c24525a2e42acf36e3fd386a83e011503f712e7"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000494",
+      "path": "progress\\0607_D3-CAM102-5-000494.json",
+      "sha256": "b4b5a3a0d89b974854e72bc6fb471579796bf6d99747201ef8ce8b5eadb13d82"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000504",
+      "path": "progress\\0608_D3-CAM102-5-000504.json",
+      "sha256": "de112aceb3da1ffba560d55eaeb586637f5cc32b8ed65997ded8bca5f1129036"
+    },
+    {
+      "cohort_id": "D3-CAM102-5-000514",
+      "path": "progress\\0609_D3-CAM102-5-000514.json",
+      "sha256": "7115a6c339421ecc49db8f9bb1c94cc1060e7a7d490f432b1384415f606a5622"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000089",
+      "path": "progress\\0610_D3-CAM102-5R-000089.json",
+      "sha256": "8b4d0d6717433cb5a2e86c54143dc56369d3320ba96f1b415dcf2735a71522d6"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000099",
+      "path": "progress\\0611_D3-CAM102-5R-000099.json",
+      "sha256": "eab91ada17bc449dc4a97d6f50f097635a9aaf7d95ed09013ac617364cf1ed0b"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000109",
+      "path": "progress\\0612_D3-CAM102-5R-000109.json",
+      "sha256": "365950fa87b00960c5a842a60a55d0f3aecacd21359b68aa57fc619e8e05a307"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000119",
+      "path": "progress\\0613_D3-CAM102-5R-000119.json",
+      "sha256": "93706dfb1e230a2b3c1823b37f14c7cfe417343de6551f7303356beba1bf5161"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000129",
+      "path": "progress\\0614_D3-CAM102-5R-000129.json",
+      "sha256": "341b025e26205d4c8209053af75649d321e3c743bb49449a5c9cb6601f7ae737"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000139",
+      "path": "progress\\0615_D3-CAM102-5R-000139.json",
+      "sha256": "c7b10e922dbab628b2780c6774d0f7f3aece6660cc715379ccfbc4d77ce6ed35"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000149",
+      "path": "progress\\0616_D3-CAM102-5R-000149.json",
+      "sha256": "f1fd664001e100cfc5b3eb63ce270b08afeca267591fac33cf02d095e1d9a346"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000159",
+      "path": "progress\\0617_D3-CAM102-5R-000159.json",
+      "sha256": "dc8b15ea4ff718cc53d8aa1b5ecd16e6f7fde1eabd3d2e3e55c83ea7538aa7b0"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000169",
+      "path": "progress\\0618_D3-CAM102-5R-000169.json",
+      "sha256": "38c690d16fbbe6b17cdf3f986485193e218729a39e83bebaa9c8b7036f95a280"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000179",
+      "path": "progress\\0619_D3-CAM102-5R-000179.json",
+      "sha256": "8e94436b1bc5c72b54d84808902c05f384912c7fc56a3fbcc9eb6101b85ab3fa"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000189",
+      "path": "progress\\0620_D3-CAM102-5R-000189.json",
+      "sha256": "12fc67c7e2431c4f517aed9fcf79d12e2cc58707435596d0f1c7cc79e039f800"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000199",
+      "path": "progress\\0621_D3-CAM102-5R-000199.json",
+      "sha256": "611accbaa929f9dddf27cc2137394658e94ba18998c82aa137272a7dc9eec889"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000209",
+      "path": "progress\\0622_D3-CAM102-5R-000209.json",
+      "sha256": "5c0b585b19df3fce8c92a93a965b0d7b7d6c508533aaed6a84027e38cd15bc2b"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000219",
+      "path": "progress\\0623_D3-CAM102-5R-000219.json",
+      "sha256": "f4c69639a95e60b58d6f417d61be5548422d0275b101f0b04ccc8e609b86df37"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000229",
+      "path": "progress\\0624_D3-CAM102-5R-000229.json",
+      "sha256": "e78b1e66e53a1a80e202eb8a7605fac054d71999028f24478b0e7c1663065a92"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000239",
+      "path": "progress\\0625_D3-CAM102-5R-000239.json",
+      "sha256": "0fb1a4b7e47586097f75d956a2ce58379133067a7e2ba47928744a7f2a62101e"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000249",
+      "path": "progress\\0626_D3-CAM102-5R-000249.json",
+      "sha256": "1622f8b2a49e33a91f34a29f4fba2d3c5a1c411737c90383d15512c891e50460"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000259",
+      "path": "progress\\0627_D3-CAM102-5R-000259.json",
+      "sha256": "9bc14dfab8708f5bde32afa73790ebabc839f6ea7b7ac3103dfe4a0d756e7820"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000269",
+      "path": "progress\\0628_D3-CAM102-5R-000269.json",
+      "sha256": "e9296def48ff515b73cc6596a10c3c55b9b50945f4c2d8a420e65af2bcfc0028"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000279",
+      "path": "progress\\0629_D3-CAM102-5R-000279.json",
+      "sha256": "bd842a3c29b575c96290b8cf00db751b262f964458cc9e9d9c641de8654732ee"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000289",
+      "path": "progress\\0630_D3-CAM102-5R-000289.json",
+      "sha256": "370a425ee394735f967e4090fcb672d0be2e5fda244ebe9f9f457af4e2153d54"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000299",
+      "path": "progress\\0631_D3-CAM102-5R-000299.json",
+      "sha256": "f3a538c4779f510d1800ba54a993fa44920ea2c8631ede4c6974ec8841cf4a19"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000309",
+      "path": "progress\\0632_D3-CAM102-5R-000309.json",
+      "sha256": "a8278a7d1b69933ad201ad96a6d3c9ba67821f505111075d9e25a67e893dd4b9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000319",
+      "path": "progress\\0633_D3-CAM102-5R-000319.json",
+      "sha256": "67f2a1e0d7c02f1d230ad2226042a856dc75dcede12c3892f44dd4bdbac2ef58"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000329",
+      "path": "progress\\0634_D3-CAM102-5R-000329.json",
+      "sha256": "da4ef52f6047c4b379a5d4bb50ffa4ce741339cb150f37fa84cc82910ee10458"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000339",
+      "path": "progress\\0635_D3-CAM102-5R-000339.json",
+      "sha256": "564c035eda842cf381c16e9080d04c53365561258583810a1d243e2011893301"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000349",
+      "path": "progress\\0636_D3-CAM102-5R-000349.json",
+      "sha256": "e89ba9e24c5c0502c39ce2f912795ca38ed709718c042acae621db1f75561782"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000359",
+      "path": "progress\\0637_D3-CAM102-5R-000359.json",
+      "sha256": "46420d4125ed2e2d2e8bb0e77c0966a57da6bff01fcb0253e36344b72980b9d2"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000369",
+      "path": "progress\\0638_D3-CAM102-5R-000369.json",
+      "sha256": "ce777e2c4b8b83b5f2999f77fbd5a1ee9466f806d1745751670fff10c1d90665"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000379",
+      "path": "progress\\0639_D3-CAM102-5R-000379.json",
+      "sha256": "9c1893559b8f48d95de7c6fe645809b6d885246a77610949b1b0a28433c55ed9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000389",
+      "path": "progress\\0640_D3-CAM102-5R-000389.json",
+      "sha256": "668edaea7a0e7d63108637bdd76ef31947e366a9aabaad6f3332db2b33789c46"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000399",
+      "path": "progress\\0641_D3-CAM102-5R-000399.json",
+      "sha256": "9084e45428ff28e65f0dee9d1e4a2397d6abf1bacb9eb3dfaed909c0155e23bd"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000409",
+      "path": "progress\\0642_D3-CAM102-5R-000409.json",
+      "sha256": "b802216d032254c1c3e29573cd9dbb6cfc8876e4c15e61252ea5a29f011dfed8"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000419",
+      "path": "progress\\0643_D3-CAM102-5R-000419.json",
+      "sha256": "dca8ff918f66a40e35614e4f6dfacb17ce221dc1c36c0c8d296e1a2a07833e46"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000429",
+      "path": "progress\\0644_D3-CAM102-5R-000429.json",
+      "sha256": "b18ff2424d4061a29ddb2aeb028d1da24999fb5a24afc76ae28f4c9f2d5222b7"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000439",
+      "path": "progress\\0645_D3-CAM102-5R-000439.json",
+      "sha256": "dc89629b80d75d04454673a70a6f103a53b80c8efa7530bc929b930356655218"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000449",
+      "path": "progress\\0646_D3-CAM102-5R-000449.json",
+      "sha256": "7a67e897edb4dd808e53b4f26702eebacab36dd84e10d3a0c54f8c47e815c28b"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000459",
+      "path": "progress\\0647_D3-CAM102-5R-000459.json",
+      "sha256": "4137493840225092edb80348260eed68be12f1ad56221894f193b62242c0e0e9"
+    },
+    {
+      "cohort_id": "D3-CAM102-5R-000469",
+      "path": "progress\\0648_D3-CAM102-5R-000469.json",
+      "sha256": "62087dca1e554d8bbfbef427d6df19145e616f74c3eaf218131b6cbb83790f7a"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000169",
+      "path": "progress\\0649_D3-CAM103-2-000169.json",
+      "sha256": "d8177296fcbf2687adc0f603d20614a0639cc549ab8e4576afc8e9955d5078ab"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000179",
+      "path": "progress\\0650_D3-CAM103-2-000179.json",
+      "sha256": "b367e5a1926165c3574a8247820aa465ff861bc6c31c74c177600cb76ac3ffef"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000189",
+      "path": "progress\\0651_D3-CAM103-2-000189.json",
+      "sha256": "6898444b8e4684b792cd0cd2bab8aa3d7bc483504590666e3082a7404b6159ac"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000199",
+      "path": "progress\\0652_D3-CAM103-2-000199.json",
+      "sha256": "4560e66c64199c46a80d27e8fe0b983578c3077eff122b3c9c90978bd6fc6db0"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000209",
+      "path": "progress\\0653_D3-CAM103-2-000209.json",
+      "sha256": "11d93554545e55e4101571eb5f993775dc70f047b4c5bf12d11b77d6858b3691"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000219",
+      "path": "progress\\0654_D3-CAM103-2-000219.json",
+      "sha256": "7fcdf9326831a7a412093c415a576497defafcb62c86c2cacb7b1919c74e698d"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000229",
+      "path": "progress\\0655_D3-CAM103-2-000229.json",
+      "sha256": "93d607817899f17f8ed6350abcad6ddeae9e8422c842c0a58845bebffd849074"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000239",
+      "path": "progress\\0656_D3-CAM103-2-000239.json",
+      "sha256": "e32a002dd0f12c4117799a1afcb8ddf89f546ebd10ae3452b6fc1661ebe89989"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000249",
+      "path": "progress\\0657_D3-CAM103-2-000249.json",
+      "sha256": "2f00111f62fadc87fd42bf0eac09fcc958e038b0c0a37114d3a75e346256d4d4"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000259",
+      "path": "progress\\0658_D3-CAM103-2-000259.json",
+      "sha256": "05659b796eae36691f46965ed214a67ae53f7fdd6f88bb495b2c618b4e4509ec"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000269",
+      "path": "progress\\0659_D3-CAM103-2-000269.json",
+      "sha256": "5925d46fcb07a37e74ddf0cdadfdf635faf514ab1d279fb40202b828821f4f01"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000279",
+      "path": "progress\\0660_D3-CAM103-2-000279.json",
+      "sha256": "7c0e1b3864ba6886ed6e1cff1679da69a383e048439bf66b0a69029f870a47b8"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000289",
+      "path": "progress\\0661_D3-CAM103-2-000289.json",
+      "sha256": "16c669c3678e6a419e0a293baca8abe97f9a322badc9b794abd46879df22d15d"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000299",
+      "path": "progress\\0662_D3-CAM103-2-000299.json",
+      "sha256": "6f12f13610b2e142c7164c44df2d6a41a6698b200d37322152da2e91422db0f0"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000309",
+      "path": "progress\\0663_D3-CAM103-2-000309.json",
+      "sha256": "61b26390ef33c5de478716ba82a79cf7dc8b5397c1873f831992995b27fcf904"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000319",
+      "path": "progress\\0664_D3-CAM103-2-000319.json",
+      "sha256": "c59b4e7f9b80375a564d2ff7c8ec869ff2cdb6d48e1b6b1f960c26a4187af891"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000329",
+      "path": "progress\\0665_D3-CAM103-2-000329.json",
+      "sha256": "9a2ab981caf07ddd369667dc08b5ca0b3e687751db38986999c803834bac240e"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000339",
+      "path": "progress\\0666_D3-CAM103-2-000339.json",
+      "sha256": "98c199affa0d1e6c6e8ffb9a02bd7684ea7eb3808574c270a0c8ab95c45ce647"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000349",
+      "path": "progress\\0667_D3-CAM103-2-000349.json",
+      "sha256": "7d072ea7942c7ef834fc5a99de58cc4d475081cfba0c476556a1c82c866aab8d"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000359",
+      "path": "progress\\0668_D3-CAM103-2-000359.json",
+      "sha256": "6e2e93b6e674b65bfaf82ce052e629da4401f4f14fc40a2eece53780701a5659"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000369",
+      "path": "progress\\0669_D3-CAM103-2-000369.json",
+      "sha256": "10d1d5aca76755e5446825468cdf4b2da02eddb3822c9d3bcf0285d4eb2bccbe"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000379",
+      "path": "progress\\0670_D3-CAM103-2-000379.json",
+      "sha256": "23a749c995f62045e055c3d110b7e8592b50934ea3e3ecd0a7eb643fdccf02ae"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000389",
+      "path": "progress\\0671_D3-CAM103-2-000389.json",
+      "sha256": "f3691c6b7466b670311ea09ece9c8bf51e2b975704ed12dc890a87554e154d27"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000399",
+      "path": "progress\\0672_D3-CAM103-2-000399.json",
+      "sha256": "e5930f4fca4393c89ec0693940fdad933b402698b5a194054b077e6ed3cc87c7"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000409",
+      "path": "progress\\0673_D3-CAM103-2-000409.json",
+      "sha256": "6cb55b95f6374fadf1e0df47cd3c8a9f9dd6ebb4cc2a76c44b677c50120d9809"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000419",
+      "path": "progress\\0674_D3-CAM103-2-000419.json",
+      "sha256": "80865402395f91a88affef383fecfc31961af95d707b4455d690498dd0901b04"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000429",
+      "path": "progress\\0675_D3-CAM103-2-000429.json",
+      "sha256": "decc027b30b7de26c44893b88081c442962df5af0f570ddbf9886165800897ea"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000439",
+      "path": "progress\\0676_D3-CAM103-2-000439.json",
+      "sha256": "d71af929b16903588bf22907fbb565b7fdd86aca5732203743c79f56913c462b"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000449",
+      "path": "progress\\0677_D3-CAM103-2-000449.json",
+      "sha256": "805ed6404064d130061585298d62e29d9e566a9d700c2c72c29acc0cc48a2d7c"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000459",
+      "path": "progress\\0678_D3-CAM103-2-000459.json",
+      "sha256": "10c53dc64204c5998b748ae1bf03a745810d6f7baf024e79d7a9ce2f9ced2dd3"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000469",
+      "path": "progress\\0679_D3-CAM103-2-000469.json",
+      "sha256": "1842814abf588afd3ea22d114fafe54674fa6f344d7df89d0bdc194f39ee0ef2"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000479",
+      "path": "progress\\0680_D3-CAM103-2-000479.json",
+      "sha256": "3712fb7c7b03d43eb8ffe053fb6bdf482571782ad3239536c212ed09ce712663"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000489",
+      "path": "progress\\0681_D3-CAM103-2-000489.json",
+      "sha256": "7568453a38cbc19853d00445b00e8d0ff987dbb0f7a6f95392cd9042826f96cc"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000499",
+      "path": "progress\\0682_D3-CAM103-2-000499.json",
+      "sha256": "9cc894d814fc6bf6ec3d8294258ec2d748d807912e140dd4a981c01a07958192"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000509",
+      "path": "progress\\0683_D3-CAM103-2-000509.json",
+      "sha256": "34e0eb35fe1f612b24376215433c95ce17270c350afa64c92102caef2031d808"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000519",
+      "path": "progress\\0684_D3-CAM103-2-000519.json",
+      "sha256": "2ca855073b12e5d5d8f857dd9f7cfbbe7b0bd15df740b132b634500297fba16c"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000529",
+      "path": "progress\\0685_D3-CAM103-2-000529.json",
+      "sha256": "02fec7e0592011d3cadc3b05fa09229033474824352759770fc2c570237cdad8"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000539",
+      "path": "progress\\0686_D3-CAM103-2-000539.json",
+      "sha256": "f0e1b36468dc8786d5adab19e17cb30064214382d934f6e753c790aef432e6fd"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000549",
+      "path": "progress\\0687_D3-CAM103-2-000549.json",
+      "sha256": "f2b10f733f5366df612bb6c188de473199e05e824f142946bc6178522a3ca0f8"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000559",
+      "path": "progress\\0688_D3-CAM103-2-000559.json",
+      "sha256": "71aded8d2ab42ea319f8c86394eba77ee079f4a994079a35db98a8bd6d77b785"
+    },
+    {
+      "cohort_id": "D3-CAM103-2-000569",
+      "path": "progress\\0689_D3-CAM103-2-000569.json",
+      "sha256": "a5b50891fc81238f7d5e36c6059b0f90ffe2669a49a3eb2c6181ad034fed1ba5"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000092",
+      "path": "progress\\0690_D3-CAM103-2R-000092.json",
+      "sha256": "5258bbd51b6fba505d296d6b9d1c6ff3b9544b81012736e78e4539893f356388"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000102",
+      "path": "progress\\0691_D3-CAM103-2R-000102.json",
+      "sha256": "2df11737becd5e7ced59d78946081454cdbe8eb91f11c37b4a3e5dd9c008cd8c"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000112",
+      "path": "progress\\0692_D3-CAM103-2R-000112.json",
+      "sha256": "7e102990bc9464fdbe7faaefcad7aeb439e7eb2c5b0e6b20e92e2692102e4c6d"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000122",
+      "path": "progress\\0693_D3-CAM103-2R-000122.json",
+      "sha256": "7a8f4acfac981435545999f3f374e0a4dd3a94bca5cdbdfddd2cfdf9edc526cd"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000132",
+      "path": "progress\\0694_D3-CAM103-2R-000132.json",
+      "sha256": "6bc05e31cd581091238300466dbc10f8bab845df5e63a1f851eb185cb8a6a071"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000142",
+      "path": "progress\\0695_D3-CAM103-2R-000142.json",
+      "sha256": "f200c8c9234e16c64214440d796c07fb69855f12482494a08d35688596f0aa20"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000152",
+      "path": "progress\\0696_D3-CAM103-2R-000152.json",
+      "sha256": "551de113e9d4cfb1374b10584feec785e9fe0669c34368acfe18c34367e05aff"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000162",
+      "path": "progress\\0697_D3-CAM103-2R-000162.json",
+      "sha256": "4448d6dccc5db2c19dd06b7ae29a8c6ad24335061665f2841f3e606879e6d7f6"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000172",
+      "path": "progress\\0698_D3-CAM103-2R-000172.json",
+      "sha256": "e2a1fe14c10513895a96c65c6dcb0e29abf42f4ed96421293b6ba0d28048c711"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000182",
+      "path": "progress\\0699_D3-CAM103-2R-000182.json",
+      "sha256": "238686faca12fecfee5f691bcdf4031c0964c5fa9fb3c65f448d3b8e8f775a4c"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000192",
+      "path": "progress\\0700_D3-CAM103-2R-000192.json",
+      "sha256": "d30d582d87341ddc313037b558deb36e2239998793cf404e8fcdb057171a71d5"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000202",
+      "path": "progress\\0701_D3-CAM103-2R-000202.json",
+      "sha256": "d1f495374d1b738c6968986b86b8b95d43a7a16ba0c0f7c17289e73af64b3067"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000212",
+      "path": "progress\\0702_D3-CAM103-2R-000212.json",
+      "sha256": "bbce11da0563c717a8b8ccc8a6bf479e5b3c064ced93d235ccbaaeffc5d17002"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000222",
+      "path": "progress\\0703_D3-CAM103-2R-000222.json",
+      "sha256": "36aa314d021f55a539761a752fbfd9dcf29f5358cd4f3a2d5dd87f7000376cd7"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000232",
+      "path": "progress\\0704_D3-CAM103-2R-000232.json",
+      "sha256": "ca8bb54ea795656177e6d1b21f967b912fc8f56970d0d506bc76c6e55c5ef2e3"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000242",
+      "path": "progress\\0705_D3-CAM103-2R-000242.json",
+      "sha256": "b15244f80233fb81f53afed14b0f23d8ebb6b655a1bc6f5207bb1fbb87db5cfb"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000252",
+      "path": "progress\\0706_D3-CAM103-2R-000252.json",
+      "sha256": "ae1ba87d5c6843bbed8c5ae6f87652db3b930f31d6da52f4062edb043841861a"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000262",
+      "path": "progress\\0707_D3-CAM103-2R-000262.json",
+      "sha256": "a8b05b4b1b884280702f825f64513bc36d072eee3dc0c250ee54644fc407620f"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000272",
+      "path": "progress\\0708_D3-CAM103-2R-000272.json",
+      "sha256": "4a5907338b334f4239f81bb3bd0f8c43e5642b9f4809ec3cf239b9d33820c522"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000282",
+      "path": "progress\\0709_D3-CAM103-2R-000282.json",
+      "sha256": "5da744e1c19a759af04eabe5f9c00f99cbc76e16a49e058e51d2089ef0d05956"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000292",
+      "path": "progress\\0710_D3-CAM103-2R-000292.json",
+      "sha256": "5770407aec1561399a485566789c825f6567abf64798c73de5473f0d394df545"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000302",
+      "path": "progress\\0711_D3-CAM103-2R-000302.json",
+      "sha256": "af6f88b976260fb4e59f5214d0c1f4a889857adcccc606b119939f7551f967b6"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000312",
+      "path": "progress\\0712_D3-CAM103-2R-000312.json",
+      "sha256": "c6a275689aea14a0eed76141320ff7865135f5f53dfb899e55fec8cf67270f21"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000322",
+      "path": "progress\\0713_D3-CAM103-2R-000322.json",
+      "sha256": "70cc85c956ae9e1748f9b7229b9fa544172ebfef2601b4ba6bc03b0a9c0c14a7"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000332",
+      "path": "progress\\0714_D3-CAM103-2R-000332.json",
+      "sha256": "a17a59cace4610d940c8f3f79e6172b3173dfdd08c8c130aa6126c185fdc6176"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000342",
+      "path": "progress\\0715_D3-CAM103-2R-000342.json",
+      "sha256": "7d6c4e0967a692a458138ac139432f390d33a1dda83492df574d6d180d6a7c6b"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000352",
+      "path": "progress\\0716_D3-CAM103-2R-000352.json",
+      "sha256": "d1832785ecd2e2846442a0037026a57821401a4e3ddc75ff1c8fc6f4512a459b"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000362",
+      "path": "progress\\0717_D3-CAM103-2R-000362.json",
+      "sha256": "f53f4946b83ea099dbc0e414b8a4491dfc2713fcad15c49ae47a02c5c854148a"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000372",
+      "path": "progress\\0718_D3-CAM103-2R-000372.json",
+      "sha256": "d0b1569cd27f60a8d40d5f2c080f58bb8d73a96b484b4e957a4136001844bcaf"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000382",
+      "path": "progress\\0719_D3-CAM103-2R-000382.json",
+      "sha256": "7a9c275328859b05ff7c6bd4e9a7fcaa46a5ebee461c91110f41c16bb352ea04"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000392",
+      "path": "progress\\0720_D3-CAM103-2R-000392.json",
+      "sha256": "53309ce5d64ff035a9a0c33e351a59f6042169de1eb366b73e2b3dd4fa1fb131"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000402",
+      "path": "progress\\0721_D3-CAM103-2R-000402.json",
+      "sha256": "902dbf7b93e5f0a7c1608290b5fc451d7dc5a2d48aa0847d5dfd85bb7581fa53"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000412",
+      "path": "progress\\0722_D3-CAM103-2R-000412.json",
+      "sha256": "450bdecd198cf27769d196c7bf8d5aea7f4d8b73d48e723653e430d4669aef4e"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000422",
+      "path": "progress\\0723_D3-CAM103-2R-000422.json",
+      "sha256": "fdeaef2205ee5a8fba445dc620482d7114e83c5ad53158e2a75541cb5891b2fd"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000432",
+      "path": "progress\\0724_D3-CAM103-2R-000432.json",
+      "sha256": "b4d46ad2abdc2d8ac5800ea46735cdd7da36bfbb099b70989f5ae27c7c626050"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000442",
+      "path": "progress\\0725_D3-CAM103-2R-000442.json",
+      "sha256": "f55a703f1a676543e5e327ae5fa2bb525330fca43b8d2bdc51da9956b0d0c486"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000452",
+      "path": "progress\\0726_D3-CAM103-2R-000452.json",
+      "sha256": "967e31c00b6536d9381d107a2923a1ce41bd609b4d7551ad5ba040587a351301"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000462",
+      "path": "progress\\0727_D3-CAM103-2R-000462.json",
+      "sha256": "f2f74feb2f33c40b37deecda96a3d80c928e0209b18e173605ed6f917111fd39"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000472",
+      "path": "progress\\0728_D3-CAM103-2R-000472.json",
+      "sha256": "98d318839285c62778fb327af7cbd2d8dc1ca0fdbde39d924429396c31bc6e23"
+    },
+    {
+      "cohort_id": "D3-CAM103-2R-000482",
+      "path": "progress\\0729_D3-CAM103-2R-000482.json",
+      "sha256": "af837cd9ecae247b82b6fdb355bc97310334edcd6e6752a16d8146458c01ac33"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000094",
+      "path": "progress\\0730_D3-CAM103-3-000094.json",
+      "sha256": "88bcfb70ce9d560f8098080d22e1fe60290ca06fcdc83bcd07fb44f28f9dfd40"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000104",
+      "path": "progress\\0731_D3-CAM103-3-000104.json",
+      "sha256": "6b18b42f5ce0015a920fc890f676de786629ccb13335a23053a4f52e9ae1ba4c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000114",
+      "path": "progress\\0732_D3-CAM103-3-000114.json",
+      "sha256": "7293ef94222cd21d95501dec3fe82f0add43e5c38dd430dbee7a47412c666945"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000124",
+      "path": "progress\\0733_D3-CAM103-3-000124.json",
+      "sha256": "7e491968efba88826df9e444e9282670115069f72b8ccfca938b939547c6550b"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000134",
+      "path": "progress\\0734_D3-CAM103-3-000134.json",
+      "sha256": "94b867089222bca385551feaf16a23cd59eb6b19916d713d7497fe0dfa0983b9"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000144",
+      "path": "progress\\0735_D3-CAM103-3-000144.json",
+      "sha256": "07ee38ae72c3f417386968cd4b394d38a1af79dc61404a3fc74fab8b0104daec"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000154",
+      "path": "progress\\0736_D3-CAM103-3-000154.json",
+      "sha256": "d77c9b7ba6805de0476f1166bfb66b1d296416bd1df16aed44e486e4347a5e38"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000164",
+      "path": "progress\\0737_D3-CAM103-3-000164.json",
+      "sha256": "de802c8fb6c010b9123ca0cf461966f03a85fee6aadefcf37da634093df8cf43"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000174",
+      "path": "progress\\0738_D3-CAM103-3-000174.json",
+      "sha256": "3f4ccf0f8365cbccc66161c0ad197579aecc7ee9106e4420b9a5eceb745ae3fc"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000184",
+      "path": "progress\\0739_D3-CAM103-3-000184.json",
+      "sha256": "f6a6e8bb79d06dfccea6ad551bf6b1fa965d8d3097e50f794628979d8efe98da"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000194",
+      "path": "progress\\0740_D3-CAM103-3-000194.json",
+      "sha256": "433b23e2cbdc9d51d36ed75e95a55adcd90f1029d188a91e2b827ac35c9a7661"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000204",
+      "path": "progress\\0741_D3-CAM103-3-000204.json",
+      "sha256": "c25edcb522d1136e2a672252d638cf8918d6822f724fd3838b62bde43437a9e8"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000214",
+      "path": "progress\\0742_D3-CAM103-3-000214.json",
+      "sha256": "29fdf721b9973286adc67ad7d2fb7517b4b23cf5dab4159fa63f8db176ba933e"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000224",
+      "path": "progress\\0743_D3-CAM103-3-000224.json",
+      "sha256": "d9f5bb65dceab8f06e6886a46e3a0b746f215264e31f36dac3a23e9ba8319945"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000234",
+      "path": "progress\\0744_D3-CAM103-3-000234.json",
+      "sha256": "5dbd0bdc0b76f0cc3073a203d9fbf52a6e3fb5ee1675bc81f9799b2fa83c73e7"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000244",
+      "path": "progress\\0745_D3-CAM103-3-000244.json",
+      "sha256": "34c4bca1821673c581e87816439ade49bbd032bcf69e68da72f1ddf718fa479a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000254",
+      "path": "progress\\0746_D3-CAM103-3-000254.json",
+      "sha256": "cd8729d0c492180afc95e7234ebf3c273e0642f4c8a789fc120630b498dd129c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000264",
+      "path": "progress\\0747_D3-CAM103-3-000264.json",
+      "sha256": "8dce6f2c683f20fca96de59c87f75fcaddaaa85e8eb9de7deccdcc4794a53e39"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000274",
+      "path": "progress\\0748_D3-CAM103-3-000274.json",
+      "sha256": "434dedaf7acab03bd7935d7d16d94e6d4be5aa190553c52dbff657c26654f20b"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000284",
+      "path": "progress\\0749_D3-CAM103-3-000284.json",
+      "sha256": "e46f164ad025e3fac6030f86a9db68487bf8a2cedfaf4aebca257d54a41f6883"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000294",
+      "path": "progress\\0750_D3-CAM103-3-000294.json",
+      "sha256": "de31a463f74843d454a03df8f99f2d724d152c96efa9e603e4fb3f6826b8cdf2"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000304",
+      "path": "progress\\0751_D3-CAM103-3-000304.json",
+      "sha256": "87b2e0b78171bc0291a38b548c7861b58a2217100c7a643195c37ef3789958b2"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000314",
+      "path": "progress\\0752_D3-CAM103-3-000314.json",
+      "sha256": "41472335c2322787b3a2d9dbf251511238e9ec80b9a60a067dc611514d6fa172"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000324",
+      "path": "progress\\0753_D3-CAM103-3-000324.json",
+      "sha256": "0da005ebe0abf9495314e24f2e1fc5f2920531fa25f6c953f058ca4d055e8515"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000334",
+      "path": "progress\\0754_D3-CAM103-3-000334.json",
+      "sha256": "606e0a4820f14b3541f033b81b9a65691b7e0a939abc6e8c356b5953b8a05fe6"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000344",
+      "path": "progress\\0755_D3-CAM103-3-000344.json",
+      "sha256": "3f837a5ed3afbac9959009f81579a975b0d6aeb96eecc0514a988c0f67c44393"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000354",
+      "path": "progress\\0756_D3-CAM103-3-000354.json",
+      "sha256": "ea8b702d6fb9316b57fa6a4b27ea8571f0d3d326e719750bd6ad787d2f576686"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000364",
+      "path": "progress\\0757_D3-CAM103-3-000364.json",
+      "sha256": "ce0adf781706f4a6820b7d15a6330ba2afef0e4ab8c9de66ceb89d06184aaeab"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000374",
+      "path": "progress\\0758_D3-CAM103-3-000374.json",
+      "sha256": "3774afeb31ac16b22610e96885a4a53b184c312e1d5c95944b248534b9dfef5c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000384",
+      "path": "progress\\0759_D3-CAM103-3-000384.json",
+      "sha256": "5bbd1fcb11192a00529165edc3f79160c897c5043b13b420330fe333f0d1b432"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000394",
+      "path": "progress\\0760_D3-CAM103-3-000394.json",
+      "sha256": "3e3d879ac9c90af18eab24ab19bf85b76a95c3684d710c7ad49e73a189ad3788"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000404",
+      "path": "progress\\0761_D3-CAM103-3-000404.json",
+      "sha256": "44a3c26a6a23e851385cbca0c40f9dc9516bed4b30effc61bf644e9296535ad3"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000414",
+      "path": "progress\\0762_D3-CAM103-3-000414.json",
+      "sha256": "a8eadcf445ebf365ec5b89bd4d5d56acf77cdad7161ab6054e1f3ed7a239d3a6"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000424",
+      "path": "progress\\0763_D3-CAM103-3-000424.json",
+      "sha256": "594ba1bc276f16ae9960e0a85ab35e3f94f941728f85e7c9bc598c16742e3b0c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000434",
+      "path": "progress\\0764_D3-CAM103-3-000434.json",
+      "sha256": "0569b65788382611b1543c75f517868eef2a00a6b3b246a03fbcdccfa06824af"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000444",
+      "path": "progress\\0765_D3-CAM103-3-000444.json",
+      "sha256": "37a04af89b5b1f7faee5402f3601db55d739b5b48229fc8a2df27584bdeba450"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000454",
+      "path": "progress\\0766_D3-CAM103-3-000454.json",
+      "sha256": "63baadaaaee214887fda49c3baae5127d115df4d55d4184646c53297424d5166"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000464",
+      "path": "progress\\0767_D3-CAM103-3-000464.json",
+      "sha256": "483bf313e15aa8b5837c4322c7b7f5f529383615e16836d2c973a7a4a8789864"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000474",
+      "path": "progress\\0768_D3-CAM103-3-000474.json",
+      "sha256": "3a87266cef208b5f9e5a31d795ddaaff05ec636f0183a48972f36f85e293f901"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000484",
+      "path": "progress\\0769_D3-CAM103-3-000484.json",
+      "sha256": "f2dfd17907a658513b16fc2bd3c0ce99fdaee10554e56f1c30de8a7b6784c8f1"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000494",
+      "path": "progress\\0770_D3-CAM103-3-000494.json",
+      "sha256": "86a7852a75f76e136aa3216e495b01250c7910a7a024a5bdf79e679783e16625"
+    },
+    {
+      "cohort_id": "D3-CAM103-3-000504",
+      "path": "progress\\0771_D3-CAM103-3-000504.json",
+      "sha256": "0cf54715009600f4c825cad2e999162bd461d6bda8c98b18184192825bd99087"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000091",
+      "path": "progress\\0772_D3-CAM103-3R-000091.json",
+      "sha256": "0f5401834c58898de0ed0518c1f2dbd48ccb5451fd8293b2262acfe57876fdba"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000101",
+      "path": "progress\\0773_D3-CAM103-3R-000101.json",
+      "sha256": "86b2948f71c101da3b0c41fe77de30cf5a93d0a5de928b6bb3de00168a80d793"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000111",
+      "path": "progress\\0774_D3-CAM103-3R-000111.json",
+      "sha256": "90da72fce763b5fcb05b39035657e7a55ab72821faee404f5d77b3666259bffa"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000121",
+      "path": "progress\\0775_D3-CAM103-3R-000121.json",
+      "sha256": "91d321b5329af0bbff8a7bd35192daa0d0bcb307d29944090e1561da9c43af97"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000131",
+      "path": "progress\\0776_D3-CAM103-3R-000131.json",
+      "sha256": "3ab98f74938108730982cfcb978b0e72f9a52dafd67c7a08d4e189c1611bed8a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000141",
+      "path": "progress\\0777_D3-CAM103-3R-000141.json",
+      "sha256": "a0defec1f661227b8267efe9275c31fa59e773d7e456a3f95213c9c0567a368f"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000151",
+      "path": "progress\\0778_D3-CAM103-3R-000151.json",
+      "sha256": "86668efc3ffe850e40fa50373f4947ee06a85afbd69d7e5fefa7fdbbe64f7511"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000161",
+      "path": "progress\\0779_D3-CAM103-3R-000161.json",
+      "sha256": "f5cc0fb3ba57edbf387b59bbd02931301516153ed202802bd2520b364801472a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000171",
+      "path": "progress\\0780_D3-CAM103-3R-000171.json",
+      "sha256": "41002fd7dbf0261f004b0752b21df6c949cec7f1b8581e48330157fed696c78a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000181",
+      "path": "progress\\0781_D3-CAM103-3R-000181.json",
+      "sha256": "44da597c8ce28db1ffaacfd362c9fc6fc942c498cfdd16c4d910700673f0185b"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000191",
+      "path": "progress\\0782_D3-CAM103-3R-000191.json",
+      "sha256": "c3ac6b0966759201b677cec3035daff2787e4951777a8ea8d68347cae458b622"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000201",
+      "path": "progress\\0783_D3-CAM103-3R-000201.json",
+      "sha256": "787c0c708485f2517c6e6c329f943b77d84a25148e16644568578937765c296f"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000211",
+      "path": "progress\\0784_D3-CAM103-3R-000211.json",
+      "sha256": "f4e92624e6a04471797bc03e20d380ec77be663b47191d92e650428bca681094"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000221",
+      "path": "progress\\0785_D3-CAM103-3R-000221.json",
+      "sha256": "903413e5ceddd01a8a080a2c40bdf24af2212e91b98a75b9a46955f1ac2d5db6"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000231",
+      "path": "progress\\0786_D3-CAM103-3R-000231.json",
+      "sha256": "5a23d591d77fe84869c224f197012c21e722d8e97bf9fb646c3c348465959973"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000241",
+      "path": "progress\\0787_D3-CAM103-3R-000241.json",
+      "sha256": "507c2cd76caf3498c0d8e475b683d1fea9cf2c6a6dd0e6bdaa94dc7ed573b51d"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000251",
+      "path": "progress\\0788_D3-CAM103-3R-000251.json",
+      "sha256": "0c4b2c0889a4c3ed31a14f25e2972399b30eddee1128c648ca4cd2c005ff8fa5"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000261",
+      "path": "progress\\0789_D3-CAM103-3R-000261.json",
+      "sha256": "cef7f2afed04de2e489bc68633940e0888f87bd13738ae78084e0bb220bc400f"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000271",
+      "path": "progress\\0790_D3-CAM103-3R-000271.json",
+      "sha256": "453e330c003ba4a1540fb1db039a6c0cecd844734eb444611f6e2f2c5a677383"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000281",
+      "path": "progress\\0791_D3-CAM103-3R-000281.json",
+      "sha256": "d60806df87fe3491ff23aef956c60d5c0d9259cdaf4d0ef6751a3ebe871d3591"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000291",
+      "path": "progress\\0792_D3-CAM103-3R-000291.json",
+      "sha256": "3079a7b3ca31911882eb75719d493c784a471074322da7f909d7e9499d9b0d1f"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000301",
+      "path": "progress\\0793_D3-CAM103-3R-000301.json",
+      "sha256": "dd47412c0a5b4f41b96cf71d240f2fd2b37688914d1134c11e9eb5cebec9ed97"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000311",
+      "path": "progress\\0794_D3-CAM103-3R-000311.json",
+      "sha256": "fb909f41a28b7818b48afb455bb9b26a61c2a5afb31242006b14cdc14a6239df"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000321",
+      "path": "progress\\0795_D3-CAM103-3R-000321.json",
+      "sha256": "eb5e5b10586d1ba9554063d90a09710929af36c2d28daded789ebad26d26ca6e"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000331",
+      "path": "progress\\0796_D3-CAM103-3R-000331.json",
+      "sha256": "dd3113e56e993817856701180fd9e8c33ec3b044ad00900943b8b4eafe360f18"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000341",
+      "path": "progress\\0797_D3-CAM103-3R-000341.json",
+      "sha256": "a6cfb7fb2d50b06e8dc08ea8ec22da3b00830e3981ff44c4684831f1fb1c662a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000351",
+      "path": "progress\\0798_D3-CAM103-3R-000351.json",
+      "sha256": "9d7389c743ce92dd447b9f2be040808ea5f2dfb59ffda87bcee84ead6c6a510e"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000361",
+      "path": "progress\\0799_D3-CAM103-3R-000361.json",
+      "sha256": "46a1e145493a6dbe3bfa0fe69fbb279ef3191b6b0d4554f1215307cf969f8be0"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000371",
+      "path": "progress\\0800_D3-CAM103-3R-000371.json",
+      "sha256": "ea3155d38ed9723ffbc7def2bc82b4eddbfda6bab5f8e4fff3cd558cf88402cf"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000381",
+      "path": "progress\\0801_D3-CAM103-3R-000381.json",
+      "sha256": "4cbe4c70e4e00695b85223b2f0849865f1d42adf61f92134182b4d785ff36718"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000391",
+      "path": "progress\\0802_D3-CAM103-3R-000391.json",
+      "sha256": "1da0ccd38b2e0abef4d5ee871e24253f33fd4919bfc5dc616d72bce00b6986df"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000401",
+      "path": "progress\\0803_D3-CAM103-3R-000401.json",
+      "sha256": "f6552d8de0be69e5db66ecc4fe9b1386b6e62a32203742db30c2e322a469fd9d"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000411",
+      "path": "progress\\0804_D3-CAM103-3R-000411.json",
+      "sha256": "0b017d01fced89170c57bcb1271042d5b32cf8ce75f93396f8c82d81dd0794d1"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000421",
+      "path": "progress\\0805_D3-CAM103-3R-000421.json",
+      "sha256": "6cc1a8c70dd7b9087216e4d7781662622ab60997fed428fb6258df07de5de9c1"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000431",
+      "path": "progress\\0806_D3-CAM103-3R-000431.json",
+      "sha256": "981e174edb218ede8ae74534335a5ef74bde56e947eb65dd3fefb6225b8cbc21"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000441",
+      "path": "progress\\0807_D3-CAM103-3R-000441.json",
+      "sha256": "fb900986ca2b3466f0dbeceb49276beac6f1c584795ce2df9bdeafb049b06a8a"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000451",
+      "path": "progress\\0808_D3-CAM103-3R-000451.json",
+      "sha256": "479f8874c349fa8170c4f63587dbef61e14a9a5b7398436899014756656dbc3c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000461",
+      "path": "progress\\0809_D3-CAM103-3R-000461.json",
+      "sha256": "3861ab487113a1b76c21d481654031b4e5fe16f585c5b4b947f1cb509de9945c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000471",
+      "path": "progress\\0810_D3-CAM103-3R-000471.json",
+      "sha256": "8a4228799026e78c38bf3bba16931ee157c48a667d83b0d3e8ba51acf596911c"
+    },
+    {
+      "cohort_id": "D3-CAM103-3R-000481",
+      "path": "progress\\0811_D3-CAM103-3R-000481.json",
+      "sha256": "bf1c63cd0db8475549622db5e4dd8ec768223344cae5fee22d82820497ed6579"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000089",
+      "path": "progress\\0812_D3-CAM103-4-000089.json",
+      "sha256": "0ea3fd0d7011a403c96c447c7753ce738851748799b24ea96d408de9d273ccf1"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000099",
+      "path": "progress\\0813_D3-CAM103-4-000099.json",
+      "sha256": "6a6aaaf2d14579b1115413af015e57bbb8d01d7ee56ed1d1fceaf2c74541225c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000109",
+      "path": "progress\\0814_D3-CAM103-4-000109.json",
+      "sha256": "483bf3388b4ad1abecbc215c1d52626c812735638393d25a593b057c9a0190ed"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000119",
+      "path": "progress\\0815_D3-CAM103-4-000119.json",
+      "sha256": "63629ac7a6cc9ee18cdedc3519f91fed46d073352033e4c4ccb075c9944aa067"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000129",
+      "path": "progress\\0816_D3-CAM103-4-000129.json",
+      "sha256": "03f59b6f3b06551f5c48801eb06d80654d9e73e9c63e86b4f18f9267abe3c6f0"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000139",
+      "path": "progress\\0817_D3-CAM103-4-000139.json",
+      "sha256": "dfa98fbd2d239ce6cd5986f5654bb865e9a6f462079db8b8083024302eba1241"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000149",
+      "path": "progress\\0818_D3-CAM103-4-000149.json",
+      "sha256": "0bf9b60f4e51aa14c0f1358dfa26446ba92f8f1e9a828731474211bb7b80e4fa"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000159",
+      "path": "progress\\0819_D3-CAM103-4-000159.json",
+      "sha256": "8791d33ec77feb56a7ecdfe7f3e85920a356ee89bc8e721523da426594d56de4"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000169",
+      "path": "progress\\0820_D3-CAM103-4-000169.json",
+      "sha256": "a9fd09a920e689783fe6579b809410cb45130c7b47778add062db0aafb6f88e6"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000179",
+      "path": "progress\\0821_D3-CAM103-4-000179.json",
+      "sha256": "f19757a8c84ab129c4bc35f575786b931b4014f96450a702ae491b0c5fc618c2"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000189",
+      "path": "progress\\0822_D3-CAM103-4-000189.json",
+      "sha256": "e0d3bc4691d80bd1651aa727bb13e7eb49e5722e970f0c6fea2b8aa9aee12c4c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000199",
+      "path": "progress\\0823_D3-CAM103-4-000199.json",
+      "sha256": "2ce1c7c1703c87500d058b90e2817d6fed9d70834a33f5268d643d416f8560e7"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000209",
+      "path": "progress\\0824_D3-CAM103-4-000209.json",
+      "sha256": "d576e86b4b4a496722eedcd44b1915b8283e0c7681fbfd3c4c1a79d4aca02613"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000219",
+      "path": "progress\\0825_D3-CAM103-4-000219.json",
+      "sha256": "f76e41bf866a24e56b0b1dd72a20a38c8183b83714650fbf90ca7871d0234cec"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000229",
+      "path": "progress\\0826_D3-CAM103-4-000229.json",
+      "sha256": "5255b94ecb70e0c3b2bc9e23ab831349d73518895ce0178cf2904156968db3b2"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000239",
+      "path": "progress\\0827_D3-CAM103-4-000239.json",
+      "sha256": "2e465fda9e4e80c5938166207f48d6ac4d391b5c03d7594fd18b067ed919994d"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000249",
+      "path": "progress\\0828_D3-CAM103-4-000249.json",
+      "sha256": "31064ea06fd7eb7ee94dd6d142e0415c9b913ce4ad7671bf12d55843c3df50a5"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000259",
+      "path": "progress\\0829_D3-CAM103-4-000259.json",
+      "sha256": "8f9cacf9b7c123e8e80287166ed219f0f06933a3042469bf2e94492b74922cd9"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000269",
+      "path": "progress\\0830_D3-CAM103-4-000269.json",
+      "sha256": "58464dda0d934e15cd5320b627c122e99a65db5d1665647cb8ea0cc15b465af3"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000279",
+      "path": "progress\\0831_D3-CAM103-4-000279.json",
+      "sha256": "8f4d6c1b1127da112cd2d9890db5a9c4c8615b696d25cdf9cb78b00fd1668e8b"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000289",
+      "path": "progress\\0832_D3-CAM103-4-000289.json",
+      "sha256": "80345eb8be1a4212c03bde6ffbce6be7f0ae6a4ebdf078189b03dae4aef0375c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000299",
+      "path": "progress\\0833_D3-CAM103-4-000299.json",
+      "sha256": "ef4fbe31300a5a846d51ad6056190d2761f8aae58baa63be723dc3ea532e4cfc"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000309",
+      "path": "progress\\0834_D3-CAM103-4-000309.json",
+      "sha256": "c445a06d41cffb1199417467342b55b357bb6776cbcd23586d64e354bc575ff5"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000319",
+      "path": "progress\\0835_D3-CAM103-4-000319.json",
+      "sha256": "0dfc053c61da0dd749af40d35696489f55af9d5a7da4302247d2168d4357ac59"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000329",
+      "path": "progress\\0836_D3-CAM103-4-000329.json",
+      "sha256": "3669523c15e91a878293243cc9f16c6a1e1c7769bbd887658f29717ab874863f"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000339",
+      "path": "progress\\0837_D3-CAM103-4-000339.json",
+      "sha256": "64f964e33c0301b6e5d2b1faeee48f1f46f988bb398f02d46fb6198be16b32fd"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000349",
+      "path": "progress\\0838_D3-CAM103-4-000349.json",
+      "sha256": "20edf2e250aed3f50ecba11a88f0e3696904133fe143c16d1633f79662c00dc1"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000359",
+      "path": "progress\\0839_D3-CAM103-4-000359.json",
+      "sha256": "4d11ff53c1c5a967f409ed00a249d0f0d5a5da29569e3fa6c21d31b3b0a52f45"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000369",
+      "path": "progress\\0840_D3-CAM103-4-000369.json",
+      "sha256": "47645aafa2fb944fb1257740f9344990d2eeeb7058888e26b868541ceec38b0c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000379",
+      "path": "progress\\0841_D3-CAM103-4-000379.json",
+      "sha256": "3bf7f9f65275fe4a1bbb2014a75388fac1f27eb464049f50ce734068d083cf76"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000389",
+      "path": "progress\\0842_D3-CAM103-4-000389.json",
+      "sha256": "1be79c218fbe19ddc78e38731cf855389ab696e52795836a0d7cb3988ac54ebc"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000399",
+      "path": "progress\\0843_D3-CAM103-4-000399.json",
+      "sha256": "2bd051dff308e6eb53631f3207fa080a1f56bb6bd8dab2518de8cfc97834985a"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000409",
+      "path": "progress\\0844_D3-CAM103-4-000409.json",
+      "sha256": "87dc0488bad6d9a83be2591c461e196ebbc41380427757bf1ce442a19e88d525"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000419",
+      "path": "progress\\0845_D3-CAM103-4-000419.json",
+      "sha256": "c054888313b166a5d7460739dc3e6f671d31e32bcb5b5423307d789ee1aa5024"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000429",
+      "path": "progress\\0846_D3-CAM103-4-000429.json",
+      "sha256": "eac2b738952a089fd4d1d736d200a99f3447f9543ba5518fc3a602ff2f25a3a9"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000439",
+      "path": "progress\\0847_D3-CAM103-4-000439.json",
+      "sha256": "f893782935b3456dd9cdcd19b91baf64ee8977245dbda2d8bc742cb1ee274ed5"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000449",
+      "path": "progress\\0848_D3-CAM103-4-000449.json",
+      "sha256": "50a15f949061a3d0fdec1a2394c7c897a639b7b18d5ba07ee4e0c359b87189d5"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000459",
+      "path": "progress\\0849_D3-CAM103-4-000459.json",
+      "sha256": "e4c2af157f28014d3d93243243f748d2e3b27ef85ba1b7bd6e1021cac6e0dc29"
+    },
+    {
+      "cohort_id": "D3-CAM103-4-000469",
+      "path": "progress\\0850_D3-CAM103-4-000469.json",
+      "sha256": "069e40f53146276de95e4e03a0947fa19ab040ee83f51b1b967d7c97d0c963f1"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000090",
+      "path": "progress\\0851_D3-CAM103-4R-000090.json",
+      "sha256": "86a3fb4bf2fa7677fe19ea53e8960b0ba9bfeba9b62a50f7b37fc140521ac1a8"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000100",
+      "path": "progress\\0852_D3-CAM103-4R-000100.json",
+      "sha256": "f1502312162bff57cad87893f791d65beb49e9a879c36ba6f1f8585b457b212a"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000110",
+      "path": "progress\\0853_D3-CAM103-4R-000110.json",
+      "sha256": "5b733ccb5685ecf1dd35ff2ed288dc6166934b44246b0a88c2ffb1a538357a3f"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000120",
+      "path": "progress\\0854_D3-CAM103-4R-000120.json",
+      "sha256": "2f596c7ae2e42769d3e7fce89fc67a48fb849cfdcd522c9d7be856201174a49e"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000130",
+      "path": "progress\\0855_D3-CAM103-4R-000130.json",
+      "sha256": "c8d56695e3c566bab8621811feb4db679cbddca24e34731733c4e59cdb57b62c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000140",
+      "path": "progress\\0856_D3-CAM103-4R-000140.json",
+      "sha256": "f78d3328bc35c741ff3ce09edf71c1fd78bba432dc233e079f0a89b05c46ae7b"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000150",
+      "path": "progress\\0857_D3-CAM103-4R-000150.json",
+      "sha256": "fd3ef652127db70adabb1c916bc015d1b99946aeea416f02f129509861b19981"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000160",
+      "path": "progress\\0858_D3-CAM103-4R-000160.json",
+      "sha256": "4cd1268fe54966b1573657d80e76b090a14733a36040687e61d054def7e3d63e"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000170",
+      "path": "progress\\0859_D3-CAM103-4R-000170.json",
+      "sha256": "f0f71c440af94babb54de211c745865d2f992382d5d8a0ead6556b61b15b1238"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000180",
+      "path": "progress\\0860_D3-CAM103-4R-000180.json",
+      "sha256": "9932845d1ba161bf136aead76f6b05ee0cfa2229e581189111589df02f8c55c5"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000190",
+      "path": "progress\\0861_D3-CAM103-4R-000190.json",
+      "sha256": "672e6b90718ff2597912789944f0b5d10c30c9e6a440815594baa78ca28be720"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000200",
+      "path": "progress\\0862_D3-CAM103-4R-000200.json",
+      "sha256": "2fb87040d44cc5c6eaa3ea5de52fd0f5edda13077dfeec5bde7a3e4c09d7dd6b"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000210",
+      "path": "progress\\0863_D3-CAM103-4R-000210.json",
+      "sha256": "49702d3d889feb9357248cc9e8c8f16aca2bdd0fea1a39a2f2b8da091bc86271"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000220",
+      "path": "progress\\0864_D3-CAM103-4R-000220.json",
+      "sha256": "832881f5fd05145fe7323cb27dd9410677f58e83a3ce742c8800ff87a27ede39"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000230",
+      "path": "progress\\0865_D3-CAM103-4R-000230.json",
+      "sha256": "f7e3d80442431ac573f61eb7925cf1b5edcabb19458b3f4e31e771e1eac990ec"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000240",
+      "path": "progress\\0866_D3-CAM103-4R-000240.json",
+      "sha256": "b75e3455cc73f1ed3b1c6e6e037e202cc03ae520f7f8ed086b2dbe23532631a6"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000250",
+      "path": "progress\\0867_D3-CAM103-4R-000250.json",
+      "sha256": "bf4538aabbba3f10866aee04b4cd302b700d85b00eb4cb10b5568ab35167d6f7"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000260",
+      "path": "progress\\0868_D3-CAM103-4R-000260.json",
+      "sha256": "4ca6f89699a50d56ffde2c4dce800489915ce345c2bf189a502578ff385c9848"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000270",
+      "path": "progress\\0869_D3-CAM103-4R-000270.json",
+      "sha256": "86776ef321464d185da75479326e441458dd2c9f6798714a230fbd8f6c0523cb"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000280",
+      "path": "progress\\0870_D3-CAM103-4R-000280.json",
+      "sha256": "6461cd078f4d4a23b35de71c48d97a71dadd6be2f9c0b4e65ad06c7042e6922f"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000290",
+      "path": "progress\\0871_D3-CAM103-4R-000290.json",
+      "sha256": "a6882e3f8db40c6acfe91799995d5a183c0ecfa26edc42d167cab64152f12c1e"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000300",
+      "path": "progress\\0872_D3-CAM103-4R-000300.json",
+      "sha256": "506027af2b1b76b7a971fd9770a498a29480f79336c011d369b1880eb5ea8df9"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000310",
+      "path": "progress\\0873_D3-CAM103-4R-000310.json",
+      "sha256": "ca48963ad2882ca87a3fd7ec8309671e94984594cee69dfd7b23a39cc31832a7"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000320",
+      "path": "progress\\0874_D3-CAM103-4R-000320.json",
+      "sha256": "1088adc21f368ebda6b47c2d30ca8fc77ff99d6f80612070f9e517f112f2dee6"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000330",
+      "path": "progress\\0875_D3-CAM103-4R-000330.json",
+      "sha256": "b0cb41a5dff12226bad79d5d718a777e2e96dffe85286fb4d185a631d3fa37d1"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000340",
+      "path": "progress\\0876_D3-CAM103-4R-000340.json",
+      "sha256": "20bfbb7f515796555ed98e05ad6ded8b991f0621a18932e72c9801f388248f07"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000350",
+      "path": "progress\\0877_D3-CAM103-4R-000350.json",
+      "sha256": "08c2dc9cdaa30918181fa1ddfdb610aa74ae48f583763566d57c309edb0722dc"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000360",
+      "path": "progress\\0878_D3-CAM103-4R-000360.json",
+      "sha256": "0259b93114a28fd97668e2b3e105bc48380f03dc75e18921b1250fcd944ea8de"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000370",
+      "path": "progress\\0879_D3-CAM103-4R-000370.json",
+      "sha256": "89f74ac9b5ad4d12f7a1faaa3f2b38021653d3e7572501e2920462c086408e9c"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000380",
+      "path": "progress\\0880_D3-CAM103-4R-000380.json",
+      "sha256": "1870efc951f749fb559140f3ebb6c5f5a380f4cb2b998da1fd95538a7de1fccc"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000390",
+      "path": "progress\\0881_D3-CAM103-4R-000390.json",
+      "sha256": "e634aae23e9f24efc63da44d703fe65335c5e22b41b086246bdb7dca14ca923b"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000400",
+      "path": "progress\\0882_D3-CAM103-4R-000400.json",
+      "sha256": "8c981a011f7c21b1e06e1f2e31968ba7d9588ed03dfba0437cab8b8eeff2dcce"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000410",
+      "path": "progress\\0883_D3-CAM103-4R-000410.json",
+      "sha256": "1923f938f0483231c19ce6066397d8624379ace623fbdf6822e1d994b3b247ad"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000420",
+      "path": "progress\\0884_D3-CAM103-4R-000420.json",
+      "sha256": "2c995989696da423a26d18d3e8914c0fb0cc54f2a569fd46bafdfe30a5f3e607"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000430",
+      "path": "progress\\0885_D3-CAM103-4R-000430.json",
+      "sha256": "e3c902cb6f40348615fa21624ad110ccf78be2a0bbdb1c7e40305012604fa3bb"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000440",
+      "path": "progress\\0886_D3-CAM103-4R-000440.json",
+      "sha256": "8be6c07b52d603ea1493c51cd71ced6a24dff14c8f3d4f4edc8e2ceb84fbf21b"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000450",
+      "path": "progress\\0887_D3-CAM103-4R-000450.json",
+      "sha256": "9902e61862b0a88450a92dc1482c507ea3423884423522328c96ecf37001777f"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000460",
+      "path": "progress\\0888_D3-CAM103-4R-000460.json",
+      "sha256": "5904417f237b0f619d78754ea2322541a55da240b250b396097f3805d2717c11"
+    },
+    {
+      "cohort_id": "D3-CAM103-4R-000470",
+      "path": "progress\\0889_D3-CAM103-4R-000470.json",
+      "sha256": "14bd92393e4ef5c8f087b4bfb51882ee2aa7257b68bc7d2bb977682d51e3379e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000104",
+      "path": "progress\\0890_D3-CAM103-5-000104.json",
+      "sha256": "96c7d875a7c09948ad1a9e93ebcf752d947205fe2f795ce79d1f86852359f367"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000114",
+      "path": "progress\\0891_D3-CAM103-5-000114.json",
+      "sha256": "fda0948d4a7995007f683ffbc896316c8728c9e8fa31e5d8202f0564a373c3c8"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000124",
+      "path": "progress\\0892_D3-CAM103-5-000124.json",
+      "sha256": "96a6744846d2036d0e5835812c47bde5a1dcc36ccedbdd3373e6a284b9641827"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000134",
+      "path": "progress\\0893_D3-CAM103-5-000134.json",
+      "sha256": "1f62ca4712eceffed3044f5dd58df87ba1b72b69c5bcf015cb1d9f67a2bab365"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000144",
+      "path": "progress\\0894_D3-CAM103-5-000144.json",
+      "sha256": "38e012d25e57c50422ce62761c99d56a5d9e44af5f747a3443651a159535bd19"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000154",
+      "path": "progress\\0895_D3-CAM103-5-000154.json",
+      "sha256": "790901855e28c87f0b0cbbb7e65620420323a2365a6ffdb14e504776d5827606"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000164",
+      "path": "progress\\0896_D3-CAM103-5-000164.json",
+      "sha256": "856352b9ce1ecc14a95e4c743109ba54579b4f3ee6935c8895e3a3f5addd3c57"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000174",
+      "path": "progress\\0897_D3-CAM103-5-000174.json",
+      "sha256": "c74dcde466208ae66aae81ad29f4052afad5813df40adb4d1b5e2b5aa33056cb"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000184",
+      "path": "progress\\0898_D3-CAM103-5-000184.json",
+      "sha256": "49b0618d6d56a1ecdba1517cf61b9e76af6030275baa54a19cf86cfc91afaa28"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000194",
+      "path": "progress\\0899_D3-CAM103-5-000194.json",
+      "sha256": "32555869f2b47802d4cc2decdfe35e632d4b20ccb4a8ea097e9d9cfb41b90627"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000204",
+      "path": "progress\\0900_D3-CAM103-5-000204.json",
+      "sha256": "7f42892a4b7a170b0cafc7ce7c4f590cbbe215e5a797a228832495ebabe81784"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000214",
+      "path": "progress\\0901_D3-CAM103-5-000214.json",
+      "sha256": "d02c0619f62e5c3396d1befc5b5dafdee70751d7db4afae35e9ac89ab32f916f"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000224",
+      "path": "progress\\0902_D3-CAM103-5-000224.json",
+      "sha256": "e8fe9a4f04f89cef1d9e7b735e027d909dc4eb3faf419657a7a9a268652ac8d0"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000234",
+      "path": "progress\\0903_D3-CAM103-5-000234.json",
+      "sha256": "410620cc349fc6503e65d4e131360c1a612851171b1daab0b2d4fd818740bb4b"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000244",
+      "path": "progress\\0904_D3-CAM103-5-000244.json",
+      "sha256": "0ad588c4176306d68f118b9541ebd5b547c78618b9ae68fa55e80561bb36c14d"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000254",
+      "path": "progress\\0905_D3-CAM103-5-000254.json",
+      "sha256": "841448a49f4ac962a3cb4a105c9ab3ff387b72d0f7a4dbc418c4961a5bf5d422"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000264",
+      "path": "progress\\0906_D3-CAM103-5-000264.json",
+      "sha256": "1ba02f49924e133e112a40c8015289add3652267f3819253ebe8f905071592ee"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000274",
+      "path": "progress\\0907_D3-CAM103-5-000274.json",
+      "sha256": "7f6522c35bae549c7658963228a7581fbc930b32655b8e460787ad6bff86494e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000284",
+      "path": "progress\\0908_D3-CAM103-5-000284.json",
+      "sha256": "15a6db4bc195d74716aefc5a8036d102798cdc60800f80091f71c2b27c79a7e3"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000294",
+      "path": "progress\\0909_D3-CAM103-5-000294.json",
+      "sha256": "3e2d2075d316bf5488863a5e44d1bae9b82010b3f8a43d27514edb04b26946e4"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000304",
+      "path": "progress\\0910_D3-CAM103-5-000304.json",
+      "sha256": "dd2f3ce6cedfaf62e6a0c8f725a32cc4707bf95261e641a9209d4dd1a844f59c"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000314",
+      "path": "progress\\0911_D3-CAM103-5-000314.json",
+      "sha256": "5515c44456d3ac35532fa5a5967bc383539c9310a3d31e7d98d0c8b26e7766ee"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000324",
+      "path": "progress\\0912_D3-CAM103-5-000324.json",
+      "sha256": "898e11b2646da962cebc8ff0c8624fdf6b01111f4ecdb01080cdb9e78f0e9cf2"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000334",
+      "path": "progress\\0913_D3-CAM103-5-000334.json",
+      "sha256": "5c64347af38524f9501ba08fa1ef0c7954e16e65c423999583e3e0250ff84ebb"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000344",
+      "path": "progress\\0914_D3-CAM103-5-000344.json",
+      "sha256": "7ecb85580ba914a16cd6461cd88af265c153a1aff0005b6a66706f6ddce3206e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000354",
+      "path": "progress\\0915_D3-CAM103-5-000354.json",
+      "sha256": "44a5f65985e3a594f11a98b312609a2295e8e1db26b4aee91562af0ca4ad220f"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000364",
+      "path": "progress\\0916_D3-CAM103-5-000364.json",
+      "sha256": "f8c4b1e164891a04c9a88d866f6f1a96ed8c14b7a4754bb95556d1a94ce79a71"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000374",
+      "path": "progress\\0917_D3-CAM103-5-000374.json",
+      "sha256": "fc4f7bed44af884eb3d59d5094d10d323edac21557c7d38ae40713fc06281624"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000384",
+      "path": "progress\\0918_D3-CAM103-5-000384.json",
+      "sha256": "89ac75861b7439506f9a081a9e163014ab1dc684a8d4598c5a5f427f8d64ab2f"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000394",
+      "path": "progress\\0919_D3-CAM103-5-000394.json",
+      "sha256": "e34f033e96dddcae2ad5d0d09ba2ac550daac10f5ff28b87e06f722795b55b44"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000404",
+      "path": "progress\\0920_D3-CAM103-5-000404.json",
+      "sha256": "0346f7a77abf9aff9180c934b4e21e302f06804915f9523e9c6e45b7d204eaed"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000414",
+      "path": "progress\\0921_D3-CAM103-5-000414.json",
+      "sha256": "886b8be16caf2745b81658a7500a0c6ee9a62c95b196f175983d565c32d51b71"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000424",
+      "path": "progress\\0922_D3-CAM103-5-000424.json",
+      "sha256": "1e3704054648981ff71689e3afaeeca3564bc6637d40a69df3ce5d147d311e2e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000434",
+      "path": "progress\\0923_D3-CAM103-5-000434.json",
+      "sha256": "e633ea432cddf5b83435f9beb88ef4902e1d60a7f9b6644f7ab94e60e2d76448"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000444",
+      "path": "progress\\0924_D3-CAM103-5-000444.json",
+      "sha256": "7f80685cfca25d8fc1bd5fc64a40a92e9d89ed7c298ca077ea46d4ea6459a6e4"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000454",
+      "path": "progress\\0925_D3-CAM103-5-000454.json",
+      "sha256": "f55fc9f4a94ad702ab2d62abd25fa92d40e94a5aa7b1dbb65ef07e2ee480f523"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000464",
+      "path": "progress\\0926_D3-CAM103-5-000464.json",
+      "sha256": "e465694dc75a2c65e9fcc18c80b9c52cc875178f57cfe2e807581812e23e69b9"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000474",
+      "path": "progress\\0927_D3-CAM103-5-000474.json",
+      "sha256": "c765be229ddbc55f0685255b169a04d87185f9717bd113a8c4df8f98992555ef"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000484",
+      "path": "progress\\0928_D3-CAM103-5-000484.json",
+      "sha256": "82859ab2812cb7cc9427b990c58f4781dbe5743fe5f1f6f9a2d519c30fc7fa52"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000494",
+      "path": "progress\\0929_D3-CAM103-5-000494.json",
+      "sha256": "116f4065aa283b3d77951e18078018a08d36fdf44fb9abe5173a20fb6498bc98"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000504",
+      "path": "progress\\0930_D3-CAM103-5-000504.json",
+      "sha256": "d35db81571a00a802535ed07c9119a7d0ea0938f1221ea53899cd60e5eca4daa"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000514",
+      "path": "progress\\0931_D3-CAM103-5-000514.json",
+      "sha256": "52434cf157aded2cf85342877d2939ed6398d7588b176df35ba895ed2120dc69"
+    },
+    {
+      "cohort_id": "D3-CAM103-5-000524",
+      "path": "progress\\0932_D3-CAM103-5-000524.json",
+      "sha256": "ca9623809ad370ed2440c97664ce7b78abf2000096248b6569696f8fffffc572"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000089",
+      "path": "progress\\0933_D3-CAM103-5R-000089.json",
+      "sha256": "c2b0a3ab7c168baae05d9e7627365676c6689702716e92f27d694eff0a8ea7bc"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000099",
+      "path": "progress\\0934_D3-CAM103-5R-000099.json",
+      "sha256": "fbf43b66ae1bc4b0d8108254ba07d710c07caae6c3429a93ced4de43b2306c44"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000109",
+      "path": "progress\\0935_D3-CAM103-5R-000109.json",
+      "sha256": "7c3dadb4f1d7e43ec5cc435051dd7f641d02c7383f90778ab75a088604befaf0"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000119",
+      "path": "progress\\0936_D3-CAM103-5R-000119.json",
+      "sha256": "1386fbf3be3a0f4156d44cd9be7fc85086bb5a0c77684295bc48dbe441e959da"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000129",
+      "path": "progress\\0937_D3-CAM103-5R-000129.json",
+      "sha256": "7979090093d3ab103d364d7d16ca1ab1b6c57f3e3d09132882ae21c5c3623d8c"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000139",
+      "path": "progress\\0938_D3-CAM103-5R-000139.json",
+      "sha256": "102241947c0f5e522c5a8a34ec04bc1b9e8c7a2bc59d7a91263c1cfcf0d31df7"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000149",
+      "path": "progress\\0939_D3-CAM103-5R-000149.json",
+      "sha256": "e23539dfec0e08d7284c5f7384bc24381df80ee206ee5310f267f5b221a4fbb5"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000159",
+      "path": "progress\\0940_D3-CAM103-5R-000159.json",
+      "sha256": "3ed2738488be5e80ab0fcbb22ff604845adde9a9bc01808ad1f98e7e8ae5384a"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000169",
+      "path": "progress\\0941_D3-CAM103-5R-000169.json",
+      "sha256": "8299362f858474e6a9c73d06ae84ce3e054c88c1234bf292f73ea328c01625ed"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000179",
+      "path": "progress\\0942_D3-CAM103-5R-000179.json",
+      "sha256": "7aafdeb4089fae124faaada384f6dcffa850cf133dcda8f584c20eb2955e36cb"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000189",
+      "path": "progress\\0943_D3-CAM103-5R-000189.json",
+      "sha256": "92bac2633a2aca386ce5159ccbf90a4a247f336dc3f8a1b1c2cc48e128c446fd"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000199",
+      "path": "progress\\0944_D3-CAM103-5R-000199.json",
+      "sha256": "c3d066e4dc13624ec0666849dc5119918bf4b29bf43acee1f6a0e01639c9fdc0"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000209",
+      "path": "progress\\0945_D3-CAM103-5R-000209.json",
+      "sha256": "6c500b73a5e7c1a509345def434268276f4bab4af10a49ae1aa947a8325b2dbb"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000219",
+      "path": "progress\\0946_D3-CAM103-5R-000219.json",
+      "sha256": "9b67194ede06975df76b86c7f380e2b5c2d89e5f3ee9f0ba89a4fd1ff47623bf"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000229",
+      "path": "progress\\0947_D3-CAM103-5R-000229.json",
+      "sha256": "07feb377c7f7adde7c100ce24325503c2ee842889daff6338aaedc9230522b85"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000239",
+      "path": "progress\\0948_D3-CAM103-5R-000239.json",
+      "sha256": "5643a010a80603c9c46175c5db01b88251e28b1ed8ae15508c9e68fd152e198e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000249",
+      "path": "progress\\0949_D3-CAM103-5R-000249.json",
+      "sha256": "2f78f3c4974aaacf4af6169260928a9d46a459ffebc217c048cc380fe5e07f0d"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000259",
+      "path": "progress\\0950_D3-CAM103-5R-000259.json",
+      "sha256": "45cf30d3dec2933b5a60ca0ae9d724f370cc2e82c66327b0fdeb8aa1436968ef"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000269",
+      "path": "progress\\0951_D3-CAM103-5R-000269.json",
+      "sha256": "307384a13a93a133afac7f46bf3aa516d5cc870421eaa4e4c34ac32a2568047d"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000279",
+      "path": "progress\\0952_D3-CAM103-5R-000279.json",
+      "sha256": "49e6618836b358e34a22ce0a7531ab2b062f51a94e61ea323f7f5b049e7a63a0"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000289",
+      "path": "progress\\0953_D3-CAM103-5R-000289.json",
+      "sha256": "68d62f2e118f118f889e66087913228c9f661296cc3686721d3d288844a17914"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000299",
+      "path": "progress\\0954_D3-CAM103-5R-000299.json",
+      "sha256": "30d5fd29bcf9d10cfb147baa0f568524b3d4a99f3bccd64d20ed40f758d71b29"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000309",
+      "path": "progress\\0955_D3-CAM103-5R-000309.json",
+      "sha256": "5f02903ac367de686ba3ab422de72ba89a4b23efb8eadc1d653eb7ea657b6505"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000319",
+      "path": "progress\\0956_D3-CAM103-5R-000319.json",
+      "sha256": "e2991264193b55c01f8355e8c48a3ec61c3814a91a8a7af8db35cb9c04688cb1"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000329",
+      "path": "progress\\0957_D3-CAM103-5R-000329.json",
+      "sha256": "1b8af8a85285679069cb42032c5221f9b2543804dd228b789f39f72641b8f437"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000339",
+      "path": "progress\\0958_D3-CAM103-5R-000339.json",
+      "sha256": "13d3eca1cb924c2598c6425faee601ccf19cbdf992165496236d615e5e19db96"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000349",
+      "path": "progress\\0959_D3-CAM103-5R-000349.json",
+      "sha256": "6a04d7de19fd6931e4da726ac65f0a5a84e270b708a07f185b60ca66e1208904"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000359",
+      "path": "progress\\0960_D3-CAM103-5R-000359.json",
+      "sha256": "37cdcbf0bd2c0f079daa4916ae824d2b759f4f6f7908c7e502a250ce6ffa453f"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000369",
+      "path": "progress\\0961_D3-CAM103-5R-000369.json",
+      "sha256": "593f049168e65f1921a8ecaa6ea11e7d1c203952c1e633d413e47ab98e7cebcc"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000379",
+      "path": "progress\\0962_D3-CAM103-5R-000379.json",
+      "sha256": "7df4bfe49aa7b20065cfe74f295166e07feb227157bd2ad9abb3b63937a3fb41"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000389",
+      "path": "progress\\0963_D3-CAM103-5R-000389.json",
+      "sha256": "e3f146da9aef9d30bc02714912601d2847cf8e75f0773ea1e50e2e9c248d6ce7"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000399",
+      "path": "progress\\0964_D3-CAM103-5R-000399.json",
+      "sha256": "5f24de5992ea46c96cc6e72c3e3adae2bf158f5f642efaed861fb427ad7eda14"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000409",
+      "path": "progress\\0965_D3-CAM103-5R-000409.json",
+      "sha256": "b2f8860e66f59eea9839a6e114a1267f5ee5d1402a3c48f0bb630963b2d22158"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000419",
+      "path": "progress\\0966_D3-CAM103-5R-000419.json",
+      "sha256": "8b0f575c6b8bb110709c22e7d611847fa66e980471687f54f1f9f30b63ba221d"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000429",
+      "path": "progress\\0967_D3-CAM103-5R-000429.json",
+      "sha256": "ff20d4e6903512e606b87e9e6c6f994fb0f75a76da8cdb8ef14121bf526e82b8"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000439",
+      "path": "progress\\0968_D3-CAM103-5R-000439.json",
+      "sha256": "2d91b533978284e67e9110cf2d81790afcf448d26a46e8a908a6e69396ea81f6"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000449",
+      "path": "progress\\0969_D3-CAM103-5R-000449.json",
+      "sha256": "15322f490b1405f9351b7657ad8128e5894e8dbb73a487fb3462abc549f64529"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000459",
+      "path": "progress\\0970_D3-CAM103-5R-000459.json",
+      "sha256": "21b4e18a67f6481c48246e3589e2acd887fecefb563e463b2b007af516ff2b94"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000469",
+      "path": "progress\\0971_D3-CAM103-5R-000469.json",
+      "sha256": "37fb9e59f77532048ce703f0ba150fb57696ea5b086e31753b364c7e842161b0"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000479",
+      "path": "progress\\0972_D3-CAM103-5R-000479.json",
+      "sha256": "53277d7a2ebbdaa2f9ad9c89f87511730938ba15c77ee24870c364776199a72f"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000489",
+      "path": "progress\\0973_D3-CAM103-5R-000489.json",
+      "sha256": "ed4f51012858882795cbbe51c466a9a9b3a50928a11f1e61cb953fab7b121b7e"
+    },
+    {
+      "cohort_id": "D3-CAM103-5R-000499",
+      "path": "progress\\0974_D3-CAM103-5R-000499.json",
+      "sha256": "5e5cfbf9ca4cc9526df7de9d8a6d303c048838c733a08b0c35a55bbe15f708c7"
+    }
+  ]
+}

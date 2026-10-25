@@ -1,0 +1,62 @@
+{
+  "c049_restormer_delta_max_abs_difference": 0.0,
+  "cell_checks": [
+    {
+      "cell": "nafnet_seed0",
+      "passed": true
+    },
+    {
+      "cell": "nafnet_seed1",
+      "passed": true
+    },
+    {
+      "cell": "nafnet_seed2",
+      "passed": true
+    },
+    {
+      "cell": "mprnet_seed0",
+      "passed": true
+    },
+    {
+      "cell": "mprnet_seed1",
+      "passed": true
+    },
+    {
+      "cell": "mprnet_seed2",
+      "passed": true
+    },
+    {
+      "cell": "restormer_seed0",
+      "passed": true
+    },
+    {
+      "cell": "restormer_seed1",
+      "passed": true
+    },
+    {
+      "cell": "restormer_seed2",
+      "passed": true
+    }
+  ],
+  "legacy_table5_descriptive_factorial": {
+    "framework_effect_range_percentage_points": [
+      33.0,
+      72.0
+    ],
+    "framework_main_contrast_percentage_points": 51.75,
+    "framework_to_backbone_point_ratio": 2.7972972972972974,
+    "max_backbone_marginal_contrast_percentage_points": 18.5,
+    "status": "DESCRIPTIVE_ONLY_NO_REPLICATE_CI"
+  },
+  "legacy_table5_limitation": "The manuscript table contains one detector-region value per cell and does not provide independent replicate units for a confidence interval.",
+  "legacy_table5_source": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "9f328485683bde911ddb0cd77a821c797914f987785f0b8f1742dd16b57567ff"
+  },
+  "maximum_recalculation_difference": 0.0,
+  "parents": 302,
+  "records": 12150,
+  "schema_version": "MERIT-C050-INDEPENDENT-AUDIT-v1",
+  "status": "PASS",
+  "summary_sha256": "ada299ac1e5621b038c506192641edd6a3d852db58a03469a446e53b5188552d"
+}

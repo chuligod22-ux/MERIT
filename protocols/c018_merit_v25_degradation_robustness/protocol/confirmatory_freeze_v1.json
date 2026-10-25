@@ -1,0 +1,169 @@
+{
+  "claim_boundary": "Retrospective parent-disjoint synthetic OOD confirmation. It does not establish blind degradation estimation, new acquisition, physical-width metrology, or cross-site field restoration accuracy.",
+  "comparison": "Frozen C018 candidate versus the original C009 NAFNet base seed 0 on matched samples",
+  "families": {
+    "illumination_gradient_vignetting": [
+      {
+        "edge_gain": 0.85,
+        "vertical_gain": 0.95
+      },
+      {
+        "edge_gain": 0.65,
+        "vertical_gain": 0.85
+      },
+      {
+        "edge_gain": 0.45,
+        "vertical_gain": 0.7
+      }
+    ],
+    "linear_motion_psf": [
+      {
+        "angle_deg": 0.0,
+        "length_px": 3
+      },
+      {
+        "angle_deg": 5.0,
+        "length_px": 7
+      },
+      {
+        "angle_deg": 10.0,
+        "length_px": 13
+      }
+    ],
+    "poisson_gaussian": [
+      {
+        "additive_std_8bit": 1.0,
+        "peak_photons": 160.0
+      },
+      {
+        "additive_std_8bit": 2.0,
+        "peak_photons": 80.0
+      },
+      {
+        "additive_std_8bit": 3.0,
+        "peak_photons": 40.0
+      }
+    ],
+    "saturation_clipping": [
+      {
+        "clip_high": 0.98,
+        "gain": 1.05
+      },
+      {
+        "clip_high": 0.94,
+        "gain": 1.2
+      },
+      {
+        "clip_high": 0.88,
+        "gain": 1.4
+      }
+    ],
+    "spatially_varying_blur": [
+      {
+        "sigma_left_px": 0.4,
+        "sigma_right_px": 1.4
+      },
+      {
+        "sigma_left_px": 0.5,
+        "sigma_right_px": 2.8
+      },
+      {
+        "sigma_left_px": 0.6,
+        "sigma_right_px": 4.2
+      }
+    ],
+    "veiling_scattering": [
+      {
+        "contrast": 0.9,
+        "veil": 0.04
+      },
+      {
+        "contrast": 0.75,
+        "veil": 0.1
+      },
+      {
+        "contrast": 0.55,
+        "veil": 0.18
+      }
+    ]
+  },
+  "files": {
+    "bank": {
+      "bytes": 19669120,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d274000c7364e04c5acdf73913ca2e4f9b42a56b548b7d75dafd77b0be89f82d"
+    },
+    "common": {
+      "bytes": 6847,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "893ad9d7a307ab500564d1d7378ed483ee1da903cc9109dd7d68237ded59a061"
+    },
+    "development_helper": {
+      "bytes": 12966,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "cc6fbfb259b0f34b7d7b345ea81cbfc7e9eb618b24261ad87692123ffc0bd3e0"
+    },
+    "development_protocol": {
+      "bytes": 1980,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d7dd43d390aad8246b4cb515c202df4ac91931ead40c40822e652a539056fa82"
+    },
+    "development_result": {
+      "bytes": 21113,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "c754eca02667b2ff15e728ed6b12a420ae28eb80ecfcab5a4a53904c2dda7f47"
+    },
+    "evaluator": {
+      "bytes": 13467,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "afd54a65287f6d99b9c5e28f5db319aabb94f7eb4372155bd4e53b62e9deeb3f"
+    },
+    "manifest": {
+      "bytes": 45220,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "147d76ce9d523f72a81d31d5f11bf7efb289ca5ce7664bcbfad47b8ed5ff0fb1"
+    },
+    "physics_scan": {
+      "bytes": 26912,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ad73a7244ab5c8a06fa46d20c190fab1e10ac533aecf209b8717395ebece5f5e"
+    },
+    "poisson_checkpoint": {
+      "bytes": 68692431,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "cee4b79b67aa63b7769fe559a5b5e3a08e69de0b44d5c37833eb68d2d8dc8598"
+    },
+    "poisson_mild_fusion": {
+      "bytes": 54743,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "c6ed1406fe545c44df241b3e8ed47bf4d3c18784801b7f7bcb6edf4428d97df9"
+    }
+  },
+  "frozen_at_kst": "2026-10-15T12:07:42+09:00",
+  "gates": {
+    "bootstrap_replicates": 10000,
+    "broad_success": "all six families pass and at least four of six severity-3 cells pass",
+    "cluster": "physical parent SHA-256",
+    "delta_gradient_ci95_high_lte": 0.0,
+    "delta_lpips_ci95_high_lt": 0.0,
+    "delta_lpips_mean_lte": -0.005,
+    "delta_overshoot_ci95_high_lte": 0.01,
+    "delta_psnr_ci95_low_gt_db": 0.0,
+    "delta_psnr_mean_gte_db": 0.1,
+    "family_success": "severity 1 and severity 2 both pass"
+  },
+  "identity": "Exact source bypass; mean and p99 absolute change must equal zero",
+  "schema_version": "MERIT-C018-CONFIRMATORY-FREEZE-v1",
+  "source": {
+    "crops": 98,
+    "description": "C010 parent-disjoint 98-crop, 68-parent source cohort with OOD draws never evaluated during C018 development",
+    "parents": 68,
+    "relationship_to_c009": "parent SHA-256 overlap 0 as recorded by the existing C010 freeze"
+  },
+  "status": "FROZEN_BEFORE_ANY_C018_CONFIRMATORY_OUTPUT",
+  "stochastic_seeds": [
+    202610150,
+    202610151,
+    202610152
+  ]
+}

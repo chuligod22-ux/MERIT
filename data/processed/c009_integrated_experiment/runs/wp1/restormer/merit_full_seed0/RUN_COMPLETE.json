@@ -1,0 +1,13 @@
+{
+  "arm": "merit_full",
+  "family": "restormer",
+  "final_checkpoint_sha256": "38a9f5faf2758380b4611a91238d5ec18f1e3b64f8d6248f4ea418bbaefab693",
+  "final_state_sha256": "3e5d6f7f3ccdac3725dbdce98c620bb10a35c637b448fe10a65d67ba8a12a157",
+  "global_step": 8000,
+  "payload_sha256": "d6ccb7291e6500b99b6997d33d22adde3728b1541dc588e15cefa04a526d7609",
+  "run_manifest_sha256": "2d56989a3d732e57ab0b478d44d73688d6351d87d52f5a9cf02d3fe4d24b6330",
+  "schema_version": "MERIT-C009-WP1-RUN-COMPLETE-v1",
+  "seed": 0,
+  "status": "PASS",
+  "stream_sha256": "9c238c18b484310b1a32e0397cf5669a623b596168b48b4e6ef6179f93bda5f2"
+}

@@ -1,0 +1,80 @@
+{
+  "architecture": "d2_vgg16_unet",
+  "checkpoint": "final_epoch.pt",
+  "checkpoint_sha256": "924bc85a1e1439e5e52939e521fbcbb80538fcdcc025afac776cfc4f57e4b8aa",
+  "completed_utc": "2026-09-23T17:26:34.679851+00:00",
+  "elapsed_seconds": 6988.91801959998,
+  "encoder_sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+  "epochs": [
+    {
+      "elapsed_seconds": 583.5195182999596,
+      "epoch": 1,
+      "train_loss": 0.7480502257552981
+    },
+    {
+      "elapsed_seconds": 582.0842815998476,
+      "epoch": 2,
+      "train_loss": 0.41314559283814745
+    },
+    {
+      "elapsed_seconds": 580.8699324000627,
+      "epoch": 3,
+      "train_loss": 0.3844037753411771
+    },
+    {
+      "elapsed_seconds": 585.377913699951,
+      "epoch": 4,
+      "train_loss": 0.36841413751886737
+    },
+    {
+      "elapsed_seconds": 580.929654999869,
+      "epoch": 5,
+      "train_loss": 0.35485296648902365
+    },
+    {
+      "elapsed_seconds": 582.4094905001111,
+      "epoch": 6,
+      "train_loss": 0.3443798605055481
+    },
+    {
+      "elapsed_seconds": 582.3380438999739,
+      "epoch": 7,
+      "train_loss": 0.33525077525285174
+    },
+    {
+      "elapsed_seconds": 581.962847399991,
+      "epoch": 8,
+      "train_loss": 0.3302750934900264
+    },
+    {
+      "elapsed_seconds": 581.604844099842,
+      "epoch": 9,
+      "train_loss": 0.3264609629075517
+    },
+    {
+      "elapsed_seconds": 583.1860916998703,
+      "epoch": 10,
+      "train_loss": 0.32183911293731027
+    },
+    {
+      "elapsed_seconds": 583.0706881999504,
+      "epoch": 11,
+      "train_loss": 0.3126723112600049
+    },
+    {
+      "elapsed_seconds": 581.251707999967,
+      "epoch": 12,
+      "train_loss": 0.30565547381256686
+    }
+  ],
+  "fold": "B",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "heldout_parents": [
+    "0055"
+  ],
+  "peak_cuda_memory_bytes": 60938348544,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "seed": 20260922,
+  "started_utc": "2026-09-23T15:30:05.760110+00:00",
+  "training_tiles": 6381
+}

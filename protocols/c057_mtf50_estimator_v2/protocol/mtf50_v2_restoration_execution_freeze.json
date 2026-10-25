@@ -1,0 +1,125 @@
+{
+  "complete_case_gate": {
+    "minimum_each_distance_fraction": 0.9,
+    "minimum_overall_fraction": 0.95,
+    "runs": [
+      "raw_none",
+      "off_0",
+      "on_0",
+      "off_1",
+      "on_1",
+      "off_2",
+      "on_2"
+    ]
+  },
+  "created_utc": "2026-10-20T12:04:31+00:00",
+  "endpoint": "42 primary condition cells; distance-specific 60 km/h ISO100 RAW reference; restored-minus-RAW absolute MTF50 error; negative is improvement",
+  "expected_counts": {
+    "condition_cells": 50,
+    "frames": 479,
+    "primary_condition_cells": 42,
+    "roi_identities": 1737,
+    "runs_including_raw": 7
+  },
+  "files": {
+    "checkpoint:off_seed0": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_off_seed0/final.pt",
+      "sha256": "10466a39dbb50d0d4b959b79e6c802ef47177f406f01869980668c11cd8d857c"
+    },
+    "checkpoint:off_seed1": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_off_seed1/final.pt",
+      "sha256": "f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b"
+    },
+    "checkpoint:off_seed2": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_off_seed2/final.pt",
+      "sha256": "507038a52ba73cd6a8413a6c4be86e227ba97f0e97e63b8a35239cf472be8d4e"
+    },
+    "checkpoint:on_seed0": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_on_seed0/final.pt",
+      "sha256": "10f105d19280f1f91a6022eeb51f05a17c5596c3d9261cbff6bfa561d4bdc65d"
+    },
+    "checkpoint:on_seed1": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_on_seed1/final.pt",
+      "sha256": "8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd"
+    },
+    "checkpoint:on_seed2": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/runs/final/task_on_seed2/final.pt",
+      "sha256": "7980d0034f81355d4a5bab09453bc9d7bf7ce6460510977c730c935ddee82107"
+    },
+    "development_results": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/development_v2/development_roi_results.csv",
+      "sha256": "fc94f2b7a7812cc8446ac112b8e16f761fcd20b33a75978834c41ea5fa4b55f1"
+    },
+    "development_summary": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/development_v2/development_summary.json",
+      "sha256": "dabad3a96744185de2a85d5f9537b277456fc7883d886eb126f35cc09109ca32"
+    },
+    "holdout_results": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/holdout_v2/holdout_roi_results.csv",
+      "sha256": "b93591b2d9fb0c12a65e5b55304ae37fb38739639c007d6f9c9155fe996c1653"
+    },
+    "holdout_summary": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/artifacts/holdout_v2/holdout_summary.json",
+      "sha256": "bbaadc493d90daf5ae4d5368be8f5465d8cdfd5439395fe52700b5f01a0cb5e9"
+    },
+    "model_code": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/c006_model.py",
+      "sha256": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618"
+    },
+    "mtf50_estimator": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/mtf50_estimator.py",
+      "sha256": "edd89b2e9ad93017d18df4ef9d8cd1d4902f9da9bf9ea0eeef68ae26a72b75a9"
+    },
+    "operational_code": {
+      "path": "05_MERIT_revision/40_수정본/c006_execution/c006_operational_inference.py",
+      "sha256": "4e421d2083fe23953945973d71bebaf1f523903ba3f137d29d815f8f404b1335"
+    },
+    "original_cohort": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+      "sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274"
+    },
+    "original_cohort_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_freeze.json",
+      "sha256": "f2e9ecd89295b7f4725244041cf917b7625fb746333c8afb06d1c478679cf755"
+    },
+    "original_evaluator": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/d0_cam1_eval.py",
+      "sha256": "b4e377630985d0e1115519365adc95a24c6c022c66d4cd1cab08c762cd271623"
+    },
+    "original_protocol": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/d0_cam1_protocol.json",
+      "sha256": "df66bc10df5019529c2a9cdaee78a19dfce941be3f750ed6a75d4f2cfe695136"
+    },
+    "raw_execution_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_execution_freeze.json",
+      "sha256": "ef6caed381f42b6432168e823c33e80aec9a7b85f100cf137b743c718375e128"
+    },
+    "raw_execution_freeze_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_execution_freeze.json.sha256",
+      "sha256": "9106b5b691fe516a233804fb90752ede5614fabc084d9caa1a61a581254455ab"
+    },
+    "raw_runner": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_mtf50_v2.py",
+      "sha256": "9ad2f36fc28f1baaf529dd47bf3037e498dc97c08c4275c9ef0790026bdb0fba"
+    },
+    "restoration_runner": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_restoration_mtf50_v2.py",
+      "sha256": "3cbd4d08865b01ec3919a852a7d8fa89b83f378113c27d071008f28c7ea8903b"
+    },
+    "restoration_tests": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/tests/test_restoration_mtf50_v2.py",
+      "sha256": "389f800dc8143bd85a0b71912132b3519402d5459664bc1ff8557b1f6df6fdfb"
+    }
+  },
+  "prohibitions": [
+    "No estimator, model, checkpoint, cohort, ROI, gate, or endpoint change after this freeze.",
+    "No seed selection by outcome.",
+    "No claim of prospective confirmation, ISO 12233 compliance, or natural-crack efficacy."
+  ],
+  "schema_version": "MERIT-C057-MTF50-V2-RESTORATION-FREEZE-v1",
+  "selected_candidate": {
+    "esf_input": "unaltered pixels for RAW and every restored arm",
+    "localization_gaussian_sigma_px": 0.75
+  },
+  "state": "FROZEN_AFTER_RAW_HOLDOUT_PASS_BEFORE_RESTORATION_OUTPUTS"
+}

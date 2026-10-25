@@ -1,0 +1,131 @@
+{
+  "bank_payload_sha256": "0c40aa2083c29c30b797066a2f3de7331f960e5d2fcfd8b887a397f2e1655f09",
+  "claim_authorized": true,
+  "conditions": {
+    "id_high": {
+      "metrics": {
+        "delta_gradient_mae": {
+          "ci95_lower": -5.822879238882684e-05,
+          "ci95_upper": -4.896819760491476e-05,
+          "mean": -5.3496591625509004e-05
+        },
+        "delta_lpips_alex": {
+          "ci95_lower": -0.0010109738605076377,
+          "ci95_upper": -0.0004245261456118384,
+          "mean": -0.0007272906288932228
+        },
+        "delta_overshoot_p95": {
+          "ci95_lower": 1.015943799128809e-06,
+          "ci95_upper": 8.222469648168468e-06,
+          "mean": 4.627793399251126e-06
+        },
+        "delta_psnr_db": {
+          "ci95_lower": 0.014104597232452047,
+          "ci95_upper": 0.015878105816731474,
+          "mean": 0.014968411932571446
+        }
+      },
+      "parents": 302,
+      "seed_delta_psnr_means": {
+        "0": 0.013607562982001456,
+        "1": 0.012423325319609104,
+        "2": 0.01755346066420736
+      },
+      "status": "PASS"
+    },
+    "id_low": {
+      "metrics": {
+        "delta_gradient_mae": {
+          "ci95_lower": -0.0002954250629981013,
+          "ci95_upper": -0.0002923010794430967,
+          "mean": -0.0002938750517096116
+        },
+        "delta_lpips_alex": {
+          "ci95_lower": -0.0335064954617807,
+          "ci95_upper": -0.03213499547814987,
+          "mean": -0.03280782984121483
+        },
+        "delta_overshoot_p95": {
+          "ci95_lower": -0.00042286392101963,
+          "ci95_upper": -0.0003604594568097984,
+          "mean": -0.00039198424419898043
+        },
+        "delta_psnr_db": {
+          "ci95_lower": 0.5274659987251787,
+          "ci95_upper": 0.5382829763059851,
+          "mean": 0.5326866664601942
+        }
+      },
+      "parents": 302,
+      "seed_delta_psnr_means": {
+        "0": 0.5031971978335753,
+        "1": 0.5293584031162992,
+        "2": 0.5620500917131134
+      },
+      "status": "PASS"
+    },
+    "id_mid": {
+      "metrics": {
+        "delta_gradient_mae": {
+          "ci95_lower": -3.33710351833461e-05,
+          "ci95_upper": -2.9706691961507285e-05,
+          "mean": -3.1460881969227435e-05
+        },
+        "delta_lpips_alex": {
+          "ci95_lower": -0.008476173275748625,
+          "ci95_upper": -0.007423417473717636,
+          "mean": -0.007945942431359364
+        },
+        "delta_overshoot_p95": {
+          "ci95_lower": -2.4565798741231816e-05,
+          "ci95_upper": -6.268793432027619e-06,
+          "mean": -1.5119054055593859e-05
+        },
+        "delta_psnr_db": {
+          "ci95_lower": 0.03665871735785597,
+          "ci95_upper": 0.043851052641655536,
+          "mean": 0.04011929500450987
+        }
+      },
+      "parents": 302,
+      "seed_delta_psnr_means": {
+        "0": 0.04416116156102096,
+        "1": 0.048404608619486866,
+        "2": 0.03721891173846837
+      },
+      "status": "PASS"
+    }
+  },
+  "diagnostic_metrics_are_not_acceptance_gates": [
+    "delta_lpips_alex",
+    "delta_gradient_mae",
+    "delta_overshoot_p95"
+  ],
+  "identity_max_abs_error": 0.0,
+  "parents": 302,
+  "protocol_payload_sha256": "7809ac82932d86abf61da217d7ed4f9f4215f2bfaa5575837ccc1250fb4ca061",
+  "psnr_gate_failures": [],
+  "records": 4050,
+  "routes": {
+    "id_high": {
+      "alpha": 1.0,
+      "constraint_penalty": 10.0,
+      "kind": "bounded_adapter",
+      "source": "C046"
+    },
+    "id_low": {
+      "alpha": 0.35,
+      "kind": "static_residual",
+      "sigma_px": 0.0,
+      "source": "C041"
+    },
+    "id_mid": {
+      "alpha": 0.375,
+      "kind": "static_residual",
+      "sigma_px": 0.0,
+      "source": "C042"
+    }
+  },
+  "schema_version": "MERIT-C049-INDEPENDENT-CONFIRMATION-SUMMARY-v1",
+  "status": "PASS"
+}

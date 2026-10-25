@@ -1,0 +1,118 @@
+{
+  "authorization": "FULL_SCOPE_AT_AUTHOR_RISK_PENDING_JOURNAL_EXTENSION",
+  "contract": {
+    "bytes": 32217,
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8"
+  },
+  "created_utc": "2026-09-25T00:09:14.760588+00:00",
+  "frozen_files": {
+    "c009_controlled_eval.py": "e17c0b2c18a31b8caee9e13a5de1403a99c680e0c0fbdc0bd10ef51e85189eae",
+    "c009_d2_external_eval.py": "eb49c8ccd7899b1ca266dc5e7617a126e8692640d8378e7fe3678c52587e68b2",
+    "c009_d3_fullframe_eval.py": "24d06dde3af51db34d8cef6ece6fefd331b23fe6a1d98c844c4e3b8c0b83b9a0",
+    "c009_evaluation_common.py": "346936787b5b3afd5290f4646986d33641bb1ad88c9483ad39eab46460c1e519",
+    "c009_full_evaluation_queue.py": "63fad62ad968166859c67cb79c5a6edfed6b0d8bf7e9bfc6e88231868556b633",
+    "c009_prompt_eval.py": "f4d21c25dafeb417fc1dc6a804ae84a1f20a000164858dd9b3acecdaa65ffdc1",
+    "c009_width_eval.py": "7b15d75eddff03387dc14c5ac1cfb7c05f4022f65b1c62b382684e1237d27e1f",
+    "test_c009_full_evaluation.py": "5e6a14397c0fe951a2f9a5dd2357b44a2cd53deea91004fcb0d29f6e023f242a"
+  },
+  "generator": {
+    "bytes": 7723,
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "a9a15b5f96617ed18710f84409b0f457c3a9136febd1378174538594ede00a2f"
+  },
+  "gpu_monitor": {
+    "accounting": "sum full-run manifest elapsed_seconds plus sequential evaluation command wall time",
+    "action": "terminate active evaluation and fail closed at the hard budget",
+    "hard_budget_hours": 240.0,
+    "poll_seconds": 30
+  },
+  "hard_stops": [
+    "Any frozen execution file or scientific asset hash mismatch.",
+    "Any incomplete upstream training block or non-final checkpoint.",
+    "Any incomplete predeclared evaluation block presented as complete.",
+    "Any non-finite output, coverage mismatch, or 240 GPU-hour budget hit.",
+    "Any outcome-based change to model, seed, condition, prompt, detector, tunnel, frame, or width inclusion."
+  ],
+  "payload_sha256": "e0bbc336d8208353f47bcb2fbcdf1a60a68aa4783a2267ff65add1ea005184f5",
+  "queue": {
+    "controlled_wp1_wp3_ood_items": 27,
+    "order": [
+      "controlled_wp1_wp3_and_ood",
+      "wp2_prompt_perturbation",
+      "wp5_external_four_tunnel",
+      "wp8_printed_width",
+      "wp6_different_tunnel_same_system_974"
+    ],
+    "result_blinding": "queue checks process exit and coverage markers only; it does not select by performance",
+    "resume": "completed model/fold/frame artifacts are hash/identity checked and skipped; incomplete atomic units may be recomputed",
+    "total_items": 84,
+    "wp2_prompt_items": 3,
+    "wp5_external_items": 18,
+    "wp6_d3_items": 18,
+    "wp8_width_items": 18
+  },
+  "queue_item_count": 84,
+  "result_access_at_freeze": "WP1 remained in its first nafnet/base_seed0 training run. No WP1 fixed-final checkpoint, WP2/WP3 endpoint, or C009 evaluation result existed.",
+  "schema_version": "MERIT-C009-FULL-EVALUATION-EXECUTION-FREEZE-v1",
+  "scientific_addendum": {
+    "lpips": {
+      "alexnet_weight": {
+        "bytes": 244408911,
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+      },
+      "input": "grayscale replicated to RGB, scaled to [-1,1]",
+      "lpips_linear_weight": {
+        "bytes": 6009,
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      },
+      "network": "AlexNet"
+    },
+    "overshoot_metric": "At clean Sobel-edge pixels above the 75th percentile, sample clean and candidate at +/-1.5 px along the clean gradient normal and report the 95th percentile excursion outside the clean endpoint envelope.",
+    "reason": "The parent contract fixed WP8 scope but did not spell out the controlled degradation or the implementation binding for LPIPS and frozen RAW traces. These details are fixed here before any C009 endpoint result.",
+    "width_raw_trace": {
+      "bytes": 1054947,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "70a14795f9cb859df7f320dc30487635653b8f54b47e4c6181d687bc184dde16"
+    },
+    "wp6_raw_baseline_reuse": {
+      "asset": {
+        "bytes": 1857659,
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "0ada95e1d07c18b55bc7c6ab4d8d70b4cccb5f0a5a0a36a4077cadde5bb0880a"
+      },
+      "rule": "reuse only the frozen raw detector endpoint; all 18 C009 restored endpoints are recomputed"
+    },
+    "wp8_controlled_degradation": {
+      "base_seed": 20260924,
+      "implementation": "scipy gaussian_filter reflect then deterministic Gaussian noise and uint8 round/clip",
+      "noise_std_8bit": 2.5,
+      "per_source_seed": "uint32 big-endian sha256('20260924:'+source_id)[0:4]",
+      "prompt_base": [
+        0.0,
+        0.0
+      ],
+      "prompt_merit_full": [
+        0.8333333333333334,
+        0.8333333333333334
+      ],
+      "sigma_h_px": 2.6,
+      "sigma_v_px": 2.4,
+      "trace_rule": "reuse the frozen RAW v2 orientation and stored trace for both controlled-degraded and restored variants"
+    }
+  },
+  "status": "PASS_FROZEN_BEFORE_C009_ENDPOINT_RESULTS",
+  "test_evidence": {
+    "command": "pytest -q scripts/test_c009_full_evaluation.py",
+    "result": "4 passed",
+    "scope": [
+      "27-model matrix and 6 OOD families",
+      "all OOD operators finite and bounded",
+      "nine exact prompt perturbations",
+      "frozen RAW trace reuse on an actual width ROI",
+      "84-item queue and 240 GPU-hour monitor declaration"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "apparent_width": {
+    "ci95": [
+      -0.41466601094181094,
+      -0.2191534804305088
+    ],
+    "paired_estimable_rate": 0.7010406811731315,
+    "per_tunnel": {
+      "A": -0.4797688174318403,
+      "B": -0.023166179510389035,
+      "C": -0.43393552317156325,
+      "D": -0.29201829067414137
+    },
+    "pooled_delta_absolute_error_px": -0.30722220269698347
+  },
+  "artifacts": {
+    "fig14.pdf": "8903b12c01c1fd0b4f484b51c32b24360804c0f52e7abfd412d9869c0d5aea7f",
+    "fig14.png": "c4ecea09b8cddfc01a3266c87117b4cbb54418477fa74d26c0333be637161410"
+  },
+  "detection": {
+    "delta_equal_tunnel_mean": 0.09140786225,
+    "merit_equal_tunnel_mean": 0.28693172425,
+    "per_tunnel_delta": {
+      "A": 0.121423426,
+      "B": 0.027569204000000014,
+      "C": 0.198636539,
+      "D": 0.01800228
+    },
+    "raw_equal_tunnel_mean": 0.19552386200000002
+  },
+  "schema_version": "MERIT-R3-6-FIG14-v4",
+  "selected_examples": [
+    {
+      "display_crop_xyxy_px": [
+        116,
+        90,
+        308,
+        282
+      ],
+      "displayed_roi_id": "0037_104_36.png::R01",
+      "image_id": "0037_104_36.png",
+      "image_sha256": "0554478861549be7d04ebcd9901b18bde2f0bd53010b019f060889eb6cf55ec2",
+      "mask_sha256": "45fd87680724c6612201ac1bdcea99f8e5823b0da0d3ad120de236a9228de0f6",
+      "parent": "0037",
+      "reference_width_px": 1.0,
+      "tunnel": "A"
+    },
+    {
+      "display_crop_xyxy_px": [
+        284,
+        320,
+        476,
+        512
+      ],
+      "displayed_roi_id": "0055_5_7.png::R01",
+      "image_id": "0055_5_7.png",
+      "image_sha256": "02642fa59dfb547d4eb9223052fc94f115262512144e6c49efc3c5d6e4ae5891",
+      "mask_sha256": "8de42229d9628b550505c9395efbd2a395fafb29c73542e0e18866ff7ed0cfba",
+      "parent": "0055",
+      "reference_width_px": 1.00673401,
+      "tunnel": "B"
+    },
+    {
+      "display_crop_xyxy_px": [
+        320,
+        0,
+        512,
+        192
+      ],
+      "displayed_roi_id": "0117_100_24.png::R01",
+      "image_id": "0117_100_24.png",
+      "image_sha256": "0288e7d29dbabc9e1cb077d04c8a1e8da917c2a1b3ef86b7d71423e106d781fa",
+      "mask_sha256": "fd2cced7529cbeac73c0cf0feefb064667021274ec777bf4b7d18e9408f10234",
+      "parent": "0117",
+      "reference_width_px": 1.15351994,
+      "tunnel": "C"
+    },
+    {
+      "display_crop_xyxy_px": [
+        34,
+        157,
+        226,
+        349
+      ],
+      "displayed_roi_id": "0213_28_56.png::R01",
+      "image_id": "0213_28_56.png",
+      "image_sha256": "01ba566659c96a4e0ef73f939e49aeeaf971b76c6fe1578b6496c3faa53366f9",
+      "mask_sha256": "6405d32219d5f5b8d8e6b04252c5bf7c6c22e00421f345d07bc6a118467b3a37",
+      "parent": "0213",
+      "reference_width_px": 1.66337386,
+      "tunnel": "D"
+    }
+  ],
+  "selection_rule": "For each tunnel, select the unique frozen-manifest image with the lexicographically smallest recorded image SHA-256; display the first ROI by roi_id. No image, detector, restoration, or width outcome is used for selection.",
+  "source_assets": {
+    "cross_sections": {
+      "path": "c014_existing_four_tunnel_validation\\protocol\\natural_width_cross_sections_v1.csv",
+      "sha256": "fd3a4c92b33014c1ac881f15ed53c26bfc99ae1e7690321ebbcf51f6c35bd431"
+    },
+    "detection_tunnels": {
+      "path": "c055_factorial_main_effect_confirmation\\runs\\r3_3_tunnel_summary.csv",
+      "sha256": "5bbcdf4be84e3182e728027c1f79a2e2c8267ec9c3f6ba73fd516518a34f2a6c"
+    },
+    "width_release": {
+      "path": "c016_merit_v24_development\\runs\\c016_release_v24_summary.json",
+      "sha256": "3787796c5136d394c2b05f08af3bb36afc586e1e4e4c0f5db16cc47b7cf7a9c1"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds_this_invocation": 252.57524530001683,
+  "payload_sha256": "e35105a6449d7f787ee403da08019fdb165dd3594e189fb65ca04955f7d90878",
+  "schema_version": "MERIT-C012-FIELD-MODEL-EVAL-v1",
+  "stage": "holdout",
+  "status": "PASS",
+  "units": 6
+}

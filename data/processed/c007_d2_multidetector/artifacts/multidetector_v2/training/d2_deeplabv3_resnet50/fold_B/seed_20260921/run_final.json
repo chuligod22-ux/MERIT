@@ -1,0 +1,80 @@
+{
+  "architecture": "d2_deeplabv3_resnet50",
+  "checkpoint": "final_epoch.pt",
+  "checkpoint_sha256": "28fd8153d04902312ef26fdef875aea6e446fd5e9e88f8a5c83ab98ad708e7a4",
+  "completed_utc": "2026-09-24T06:01:28.659698+00:00",
+  "elapsed_seconds": 1324.7028956001159,
+  "encoder_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "epochs": [
+    {
+      "elapsed_seconds": 110.46774769993499,
+      "epoch": 1,
+      "train_loss": 1.0701739763768932
+    },
+    {
+      "elapsed_seconds": 110.15944830002263,
+      "epoch": 2,
+      "train_loss": 0.7522927806811205
+    },
+    {
+      "elapsed_seconds": 110.36181309982203,
+      "epoch": 3,
+      "train_loss": 0.6155077794599152
+    },
+    {
+      "elapsed_seconds": 110.33770320005715,
+      "epoch": 4,
+      "train_loss": 0.5113703419358505
+    },
+    {
+      "elapsed_seconds": 109.87561119999737,
+      "epoch": 5,
+      "train_loss": 0.4429159305710681
+    },
+    {
+      "elapsed_seconds": 110.43946840008721,
+      "epoch": 6,
+      "train_loss": 0.39763589308209935
+    },
+    {
+      "elapsed_seconds": 109.91734939999878,
+      "epoch": 7,
+      "train_loss": 0.36835599882048586
+    },
+    {
+      "elapsed_seconds": 110.03431809996255,
+      "epoch": 8,
+      "train_loss": 0.3485014366423555
+    },
+    {
+      "elapsed_seconds": 110.01059410022572,
+      "epoch": 9,
+      "train_loss": 0.3325365980653026
+    },
+    {
+      "elapsed_seconds": 109.97601950005628,
+      "epoch": 10,
+      "train_loss": 0.3197914697340786
+    },
+    {
+      "elapsed_seconds": 110.18501099990681,
+      "epoch": 11,
+      "train_loss": 0.3111101898036768
+    },
+    {
+      "elapsed_seconds": 112.5861769001931,
+      "epoch": 12,
+      "train_loss": 0.3013537467609583
+    }
+  ],
+  "fold": "B",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "heldout_parents": [
+    "0055"
+  ],
+  "peak_cuda_memory_bytes": 19417247232,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "seed": 20260921,
+  "started_utc": "2026-09-24T05:39:23.955603+00:00",
+  "training_tiles": 6381
+}

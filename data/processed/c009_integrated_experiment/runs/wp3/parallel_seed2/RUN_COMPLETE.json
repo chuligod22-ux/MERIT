@@ -1,0 +1,13 @@
+{
+  "final_checkpoint_sha256": "df068c1aabf7dca7d56506e0881ce963542de1828cc0d0ce76584b11f680cf04",
+  "final_state_sha256": "292be40c18a64ab0d98648de32f9be4be6b4ae227bc2da4cee5b64404aed3c8e",
+  "global_step": 8000,
+  "payload_sha256": "52851d2098a65b449ca47d1a0dff924d7a797c60f7c743cd58f981ebf555ca3c",
+  "run_manifest_sha256": "acbf3efd7518a668aed89f4049cceeb055a29e979bbca5b014dfa2b6f4ce3a11",
+  "schema_version": "MERIT-C009-WP23-RUN-COMPLETE-v1",
+  "seed": 2,
+  "status": "PASS",
+  "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821",
+  "structure": "parallel",
+  "wp": "wp3"
+}

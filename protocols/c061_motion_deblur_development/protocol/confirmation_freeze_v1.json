@@ -1,0 +1,88 @@
+{
+  "schema_version": "MERIT-C061-CONFIRMATION-FREEZE-v1",
+  "status": "FROZEN_BEFORE_ANY_C061_CONFIRMATION_OUTPUT",
+  "created_date": "2026-10-24",
+  "scientific_status": "The motion route, severity mapping, code, inputs, and gates are frozen after C006 development and before any C061 route output is computed on C010.",
+  "files": {
+    "scanner": {
+      "path": "scripts/c061_scan_motion.py",
+      "sha256": "28d2b527f3fddb8d04db385799e74ab658a3666d8129cc13c5bfb6c9fed29035"
+    },
+    "confirmation_evaluator": {
+      "path": "scripts/c061_confirm.py",
+      "sha256": "5140fcc8d43e0f321297fe0713d2e7710a11fe6d6616a49d0dc335e4da46daaf"
+    },
+    "development_scan_protocol": {
+      "path": "protocol/development_v1a.json",
+      "sha256": "bc2bedd7f887f5c897afe70eaa4da81d3a2b397b1ec6eaa0fccc512669ef152e"
+    },
+    "development_evaluation_protocol": {
+      "path": "protocol/development_evaluation_v1.json",
+      "sha256": "f7d0417e440fbaa1f04eb3768323e8ef26c1a079720c36370cd3774f5788c71b"
+    },
+    "development_scan": {
+      "path": "runs/development_v1/motion_scan.json",
+      "sha256": "fc2cc5a9c46f31232a8b9788a787152508406f0318b018b099138c5685f7dfaf"
+    },
+    "development_selection": {
+      "path": "runs/development_v1/selection_complete.json",
+      "sha256": "9e2e1d197dd02d1c0d942532bae7cff15de158ec32fc1d00cb45b61f3f68dc8b"
+    },
+    "development_sample_metrics": {
+      "path": "runs/development_v1/selection_sample_metrics.jsonl",
+      "sha256": "8c9165c8d56f5cc5b83182065b7ee45d6f93ffb273894f55ec03c90b28faf2b8"
+    },
+    "confirmation_bank": {
+      "path": "../c010_merit_v2_development/artifacts/confirmatory_v1/d0_bank_448.npy",
+      "sha256": "d274000c7364e04c5acdf73913ca2e4f9b42a56b548b7d75dafd77b0be89f82d"
+    },
+    "confirmation_manifest": {
+      "path": "../c010_merit_v2_development/artifacts/confirmatory_v1/d0_bank_manifest.csv",
+      "sha256": "147d76ce9d523f72a81d31d5f11bf7efb289ca5ce7664bcbfad47b8ed5ff0fb1"
+    }
+  },
+  "confirmation_cohort": {
+    "crops": 98,
+    "physical_parents": 68,
+    "development_confirmation_parent_overlap": 0,
+    "role": "Route-specific parent-disjoint held-out confirmation. The cohort itself predates C061 and is not described as newly acquired."
+  },
+  "families": {
+    "linear_motion_psf": [
+      {"length_px": 3, "angle_deg": 0.0},
+      {"length_px": 7, "angle_deg": 5.0},
+      {"length_px": 13, "angle_deg": 10.0}
+    ]
+  },
+  "selected_routes": {
+    "1": {
+      "parameters": {"length_px": 3, "angle_deg": 0.0},
+      "specification": {"algorithm": "wiener", "alpha": 1.0, "regularization": 0.003}
+    },
+    "2": {
+      "parameters": {"length_px": 7, "angle_deg": 5.0},
+      "specification": {"algorithm": "wiener", "alpha": 1.0, "regularization": 0.003}
+    },
+    "3": {
+      "parameters": {"length_px": 13, "angle_deg": 10.0},
+      "specification": {"algorithm": "landweber", "alpha": 1.0, "iterations": 32, "step": 1.5}
+    }
+  },
+  "confirmation_gates": {
+    "delta_psnr_mean_gte_db": 0.1,
+    "delta_psnr_ci95_low_gt_db": 0.0,
+    "delta_lpips_mean_lte": -0.005,
+    "delta_lpips_ci95_high_lt": 0.0,
+    "delta_gradient_ci95_high_lte": 0.0,
+    "delta_overshoot_ci95_high_lte": 0.01,
+    "bootstrap_unit": "physical parent",
+    "bootstrap_replicates": 10000,
+    "all_three_severities_must_pass": true,
+    "identity_maximum_absolute_change_eq": 0.0
+  },
+  "scientific_boundary": {
+    "operator": "The true synthetic PSF length and angle are supplied to the route. This is non-blind synthetic deconvolution.",
+    "field": "Passing confirmation does not establish unknown-PSF or real-tunnel motion deblurring.",
+    "claim": "A passing result supports only the three evaluated synthetic linear-motion conditions on the frozen C010 cohort."
+  }
+}

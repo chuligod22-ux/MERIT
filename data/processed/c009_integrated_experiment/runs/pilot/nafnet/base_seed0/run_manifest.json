@@ -1,0 +1,94 @@
+{
+  "arm": "base",
+  "authorization": {
+    "g13_status": "CLOSED_GO_FULL_SCOPE_AT_AUTHOR_RISK",
+    "journal_extension_decision": "PENDING"
+  },
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "elapsed_seconds": 3.935256799682975,
+  "environment": {
+    "allow_tf32_cudnn": false,
+    "allow_tf32_matmul": false,
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "deterministic_algorithms": true,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "numpy": "2.3.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128"
+  },
+  "execution_freeze_sha256": "7b77612c677aafa4a531dc9336ffd08eab538d0591c14d1536b18f5910db63c9",
+  "factory": {
+    "class": "NAFNetLocal",
+    "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+    "family": "nafnet",
+    "kwargs": {
+      "dec_blk_nums": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enc_blk_nums": [
+        1,
+        1,
+        1,
+        28
+      ],
+      "img_channel": 3,
+      "middle_blk_num": 1,
+      "width": 32
+    },
+    "module": "basicsr.models.archs.NAFNet_arch",
+    "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+    "output_selector": "tensor",
+    "parameters": 17111907,
+    "repository": "https://github.com/megvii-research/NAFNet",
+    "runtime_adaptations": [],
+    "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+    "trainable_parameters": 17111907
+  },
+  "family": "nafnet",
+  "fidelity_output_domain": "unclipped selected output (preclip)",
+  "freeze_schema": "MERIT-C009-WP1-EXECUTION-FREEZE-v1",
+  "g11_sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+  "g13_sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803",
+  "global_step": 5,
+  "initial_state_sha256": "aabcd2bc127bf5424319cb5f503c831b65a3866b48d3d8401c5f91ab86d2502a",
+  "manifest_sha256": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+  "parameters": 17111907,
+  "patch_size": 448,
+  "precision": "bfloat16 mixed precision",
+  "preflight_sha256": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+  "recovery_checkpoint_sha256": "052fda2ff9daa3ac1899fb3aada142f885b7b7636a13dc42902a4274f1661062",
+  "resume_count": 0,
+  "run_kind": "pilot",
+  "runner_sha256": "0f94e252c9104b033a848336d5754ab6ee39770b84002f5af5dea563a627fd31",
+  "schema_version": "MERIT-C009-WP1-RUN-v1",
+  "seed": 0,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-25T08:21:45+09:00",
+  "status": "paused_after_pilot_boundary",
+  "stream_block_hashes": [
+    {
+      "end_step": 5,
+      "sha256": "8b89f6c1ceafdfcd439238d6a9e4e2421894c8d37be2b372c659331effdc334b",
+      "start_step": 1
+    }
+  ],
+  "task_output_domain": "selected output clamped to [0,1] before frozen DeepCrack inference",
+  "total_steps": 20,
+  "train_rows": 161,
+  "trainable_parameters": 17111907
+}

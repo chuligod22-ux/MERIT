@@ -1,0 +1,10 @@
+{
+  "completed_frames": 92,
+  "last_frame_id": "80km_6.5m_ISO100/frame_000150.png",
+  "remaining_frames": 0,
+  "session_average_seconds": 4.484887067393055,
+  "state": "INFERENCE_COMPLETE",
+  "study": "development_iso100",
+  "total_frames": 92,
+  "updated_utc": "2026-10-20T13:59:04+00:00"
+}

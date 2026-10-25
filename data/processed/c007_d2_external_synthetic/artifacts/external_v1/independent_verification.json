@@ -1,0 +1,164 @@
+{
+  "comparisons": {
+    "reference_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": 0.4068041469934222,
+        "ci_upper": 0.4761298430827042,
+        "per_tunnel": {
+          "A": 0.5192047678922106,
+          "B": 0.17167653065758215,
+          "C": 0.5738393243604885,
+          "D": 0.4960940104014143
+        },
+        "point": 0.4402036583279239,
+        "positive_tunnels": 4
+      },
+      "pixel_auprc": {
+        "ci_lower": 0.37064331527571387,
+        "ci_upper": 0.4424578281935271,
+        "per_tunnel": {
+          "A": 0.4790215762554159,
+          "B": 0.17638579401040388,
+          "C": 0.5578980330494807,
+          "D": 0.40826320254512405
+        },
+        "point": 0.4053921514651061,
+        "positive_tunnels": 4
+      }
+    },
+    "task_off_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": -0.020578472541621276,
+        "ci_upper": 0.008467651890789128,
+        "per_tunnel": {
+          "A": -0.008103253306335573,
+          "B": -0.03513665860802101,
+          "C": 0.029108378058673973,
+          "D": -0.013880653279645029
+        },
+        "point": -0.007003046783831902,
+        "positive_tunnels": 1
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.006420265771220324,
+        "ci_upper": 0.018838519018003538,
+        "per_tunnel": {
+          "A": 0.0008388507684681246,
+          "B": -0.018280997016718217,
+          "C": 0.04696142266090597,
+          "D": -0.007716947273141962
+        },
+        "point": 0.005450582284878465,
+        "positive_tunnels": 2
+      }
+    },
+    "task_on_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": -0.040273879980371005,
+        "ci_upper": -0.015935226816538865,
+        "per_tunnel": {
+          "A": -0.02962043591889088,
+          "B": -0.05524430355285079,
+          "C": -0.013233742973463886,
+          "D": -0.014285509460979161
+        },
+        "point": -0.02809599797654617,
+        "positive_tunnels": 0
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.02652551598931692,
+        "ci_upper": -0.0058736454979257426,
+        "per_tunnel": {
+          "A": -0.029053548999478124,
+          "B": -0.03170493813122127,
+          "C": 0.0012864839220838586,
+          "D": -0.007089823752500585
+        },
+        "point": -0.016640456740279044,
+        "positive_tunnels": 1
+      }
+    },
+    "task_on_minus_task_off": {
+      "f1_at_0_5": {
+        "ci_lower": -0.026299767557289168,
+        "ci_upper": -0.01627128015425644,
+        "per_tunnel": {
+          "A": -0.021517182612555308,
+          "B": -0.020107644944829778,
+          "C": -0.04234212103213786,
+          "D": -0.0004048561813341322
+        },
+        "point": -0.02109295119271427,
+        "positive_tunnels": 0
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.027095742718639747,
+        "ci_upper": -0.017539276583684444,
+        "per_tunnel": {
+          "A": -0.02989239976794625,
+          "B": -0.013423941114503055,
+          "C": -0.04567493873882211,
+          "D": 0.0006271235206413775
+        },
+        "point": -0.022091039025157508,
+        "positive_tunnels": 1
+      }
+    }
+  },
+  "equal_tunnel_macro": {
+    "degraded": {
+      "f1_at_0_5": 0.16981732326509988,
+      "pixel_auprc": 0.15278586788858203
+    },
+    "reference": {
+      "f1_at_0_5": 0.6100209815930238,
+      "pixel_auprc": 0.5581780193536882
+    },
+    "task_off": {
+      "f1_at_0_5": 0.16281427648126798,
+      "pixel_auprc": 0.1582364501734605
+    },
+    "task_on": {
+      "f1_at_0_5": 0.1417213252885537,
+      "pixel_auprc": 0.136145411148303
+    }
+  },
+  "final_summary_sha256": "7ffe657ce4fb24395f563a556a1abcf11e33b8b406c6ba548d5e61f724f5a3af",
+  "gates": {
+    "degradation_manipulation": true,
+    "task_loss_increment": false,
+    "task_on_primary": false
+  },
+  "method": "Independent recomputation from 12 progress JSONs; main analysis module not imported.",
+  "observed_tiles_by_fold_chain": {
+    "A_chain0": 152,
+    "A_chain1": 152,
+    "A_chain2": 152,
+    "B_chain0": 679,
+    "B_chain1": 679,
+    "B_chain2": 679,
+    "C_chain0": 135,
+    "C_chain1": 135,
+    "C_chain2": 135,
+    "D_chain0": 737,
+    "D_chain1": 737,
+    "D_chain2": 737
+  },
+  "progress_files": 12,
+  "progress_sha256": {
+    "fold_A_chain0.json": "18b002c9dafd86acd59d1ca54b05c285d4580734bc979e1b3922e16a33a82e3d",
+    "fold_A_chain1.json": "4de09edc730a344263a06a2d7df70f8f5edd207e989a6871ce6c10fbfd8a7eb5",
+    "fold_A_chain2.json": "67a04ffd9b0d5ef5ca3e134cdd1284268d8962073a37005bd29ca9a673fee7ce",
+    "fold_B_chain0.json": "6b9353665c1825b4b4daf79250f541e8f2e52a596801a29f146bda71aedf8dd2",
+    "fold_B_chain1.json": "072829faae95dd428a2c2a0246c35b52e8bfab654cab54cacb79526590f4b80f",
+    "fold_B_chain2.json": "4c7fb357cc25c923c87ed14620761a943ad90af7620dfe69827111ada70b29a7",
+    "fold_C_chain0.json": "1c94883912703826ec3e20d2785dcda3fa5ced908c3279248fd21d73e2c5e63a",
+    "fold_C_chain1.json": "753dfe4b33cc8cebe58373a2f941dcbce9884567567c109a2ae0efd4c753153d",
+    "fold_C_chain2.json": "4f13b4cbae48c361df0ee7360ff3936aaa8bd63173b6b30bea075f18ad9000f3",
+    "fold_D_chain0.json": "85ad6979335a31f595a3cb577198d649c2319ab20a25ac5d8151d3febaaa6a7c",
+    "fold_D_chain1.json": "ea7f8841524b9f96e7d6cf2d702a86182520642fa3dfced675c3f8e5e550a2dd",
+    "fold_D_chain2.json": "ecf3fee293025c8806038ac1f3fd37a0f986e7b1aa911262057fed7b6fda6b60"
+  },
+  "status": "PASS",
+  "stored_verdict": "NOT_SUPPORTED"
+}

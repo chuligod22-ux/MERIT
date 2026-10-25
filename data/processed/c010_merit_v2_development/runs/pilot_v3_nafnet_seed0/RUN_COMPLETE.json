@@ -1,0 +1,88 @@
+{
+  "calibration_state_path": "<LOCAL_PATH_REDACTED>",
+  "calibration_state_sha256": "8620eef9b0186f9678cbd1a0b80a74b846a1906fc699b8f66b0d4456c8bfc438",
+  "completed_at_kst": "2026-10-11T21:07:44+09:00",
+  "development": {
+    "delta_gradient_mae": {
+      "ci_high": -7.048980642567934e-05,
+      "ci_low": -8.368811457220352e-05,
+      "mean": -7.674444673789873e-05,
+      "parents": 33
+    },
+    "delta_overshoot_p95": {
+      "ci_high": -7.371767309395541e-05,
+      "ci_low": -0.00010310380274421293,
+      "mean": -8.816138162318405e-05,
+      "parents": 33
+    },
+    "delta_psnr_db": {
+      "ci_high": 0.2608475404348705,
+      "ci_low": 0.2520278073474179,
+      "mean": 0.25625361041758943,
+      "parents": 33
+    },
+    "gates": {
+      "gradient": true,
+      "identity": true,
+      "overshoot": true,
+      "psnr": true
+    },
+    "identity": {
+      "max_mean_absolute_change": 0.0,
+      "max_p99_absolute_change": 0.0
+    },
+    "identity_records": 50,
+    "metrics_path": "<LOCAL_PATH_REDACTED>",
+    "metrics_sha256": "0ef21850faea4ca4c0b4749e86b394cc9533cd2e2bb8e6398a6af15d416238b4",
+    "records": 500,
+    "restoration_records": 450,
+    "schema_version": "MERIT-C010-V2-PILOT-RESULT-v1",
+    "scientific_status": "EXPLORATORY_UNBLINDED_DEVELOPMENT_ONLY",
+    "status": "PASS_DEVELOPMENT_TARGETS"
+  },
+  "elapsed_seconds": 26.476138499972876,
+  "model_sha256": "78bf0f74d4e73739a37905d07eb29e16d7764e0e92813408366748bc913430ff",
+  "peak_cuda_memory_bytes": 3318402560,
+  "protocol_path": "<LOCAL_PATH_REDACTED>",
+  "protocol_sha256": "0b4b4df6a34eeca46409bb3c7b939ce34d04b5da1ae1ce94fbd2d91a4c46ea04",
+  "provenance": {
+    "base_checkpoint": "<LOCAL_PATH_REDACTED>",
+    "base_checkpoint_sha256": "8b6b528ade6e02e28adee4f826354e89df7fe88adcfa566d0c5be5384d64dd13",
+    "base_metadata": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "frozen_parameters": 17111907,
+    "trainable_parameters": 32637
+  },
+  "runner_sha256": "766d9d41f9b71f22b55f55dec60a4fa68ad2082506dda6c9e5877917083999cf",
+  "schema_version": "MERIT-C010-V2-PILOT-COMPLETE-v3",
+  "scientific_status": "EXPLORATORY_UNBLINDED_DEVELOPMENT_ONLY",
+  "status": "PASS"
+}

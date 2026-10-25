@@ -1,0 +1,10 @@
+{
+  "arm": "task_off",
+  "error": "CUDA was requested but is unavailable",
+  "error_type": "RuntimeError",
+  "failed_at_kst": "2026-09-19T17:52:53+09:00",
+  "seed": 0,
+  "smoke": true,
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"<LOCAL_PATH_REDACTED>", line 657, in main\n    result = run_training(args)\n  File \"<LOCAL_PATH_REDACTED>", line 387, in run_training\n    raise RuntimeError(\"CUDA was requested but is unavailable\")\nRuntimeError: CUDA was requested but is unavailable\n"
+}

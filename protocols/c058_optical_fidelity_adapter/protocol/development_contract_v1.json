@@ -1,0 +1,279 @@
+{
+  "bindings": {
+    "adapter_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter.py",
+      "sha256": "7de6ee23f211cef41af68843dc69edf4cbad093a7a54e42b3b3130cb0a833ac2"
+    },
+    "adapter_tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_adapter.py",
+      "sha256": "10339328c328c7c5675cdcdca7f82f9b7538c3c89f06c4f91c4151172f3569ab"
+    },
+    "c057_estimator": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/mtf50_estimator.py",
+      "sha256": "edd89b2e9ad93017d18df4ef9d8cd1d4902f9da9bf9ea0eeef68ae26a72b75a9"
+    },
+    "c057_restoration_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_restoration_execution_freeze.json",
+      "sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719"
+    },
+    "c057_restoration_freeze_sidecar": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_restoration_execution_freeze.json.sha256",
+      "sha256": "52f562f59f331f0e18204172597cf2477e9835f4cc41277756d0a9f9c080d14f"
+    },
+    "c057_runner": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_restoration_mtf50_v2.py",
+      "sha256": "3cbd4d08865b01ec3919a852a7d8fa89b83f378113c27d071008f28c7ea8903b"
+    },
+    "development_code": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_development.py",
+      "sha256": "385d219468be4e1665f46cf55ff590fd70c216da7e39072e03409749cfdfc5f8"
+    },
+    "development_tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_development.py",
+      "sha256": "6b6c21ef393c8aa747db26d5fb8887c1a5c03cbfcee442e1662e3f610d80131d"
+    }
+  },
+  "bootstrap": {
+    "cluster": "condition",
+    "count": 10000,
+    "seed": 20261058
+  },
+  "candidate_grid": [
+    {
+      "alpha": 0.0,
+      "cap_dn": 8.0,
+      "route_id": "identity",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "plain_inverse_a0.500_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "plain_inverse_a0.250_cap4",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "plain_inverse_a0.125_cap2",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": 0.125,
+      "cap_dn": 2.0,
+      "route_id": "plain_forward_a0.125_cap2",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": 0.25,
+      "cap_dn": 4.0,
+      "route_id": "plain_forward_a0.250_cap4",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": 0.5,
+      "cap_dn": 8.0,
+      "route_id": "plain_forward_a0.500_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 0.0
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "band_inverse_a0.500_s0.75_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 0.75
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "band_inverse_a0.500_s1.50_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "band_inverse_a0.500_s3.00_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 3.0
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "band_inverse_a0.250_s0.75_cap4",
+      "sharp_gain": 0.0,
+      "sigma": 0.75
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "band_inverse_a0.250_s1.50_cap4",
+      "sharp_gain": 0.0,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "band_inverse_a0.250_s3.00_cap4",
+      "sharp_gain": 0.0,
+      "sigma": 3.0
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "band_inverse_a0.125_s0.75_cap2",
+      "sharp_gain": 0.0,
+      "sigma": 0.75
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "band_inverse_a0.125_s1.50_cap2",
+      "sharp_gain": 0.0,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "band_inverse_a0.125_s3.00_cap2",
+      "sharp_gain": 0.0,
+      "sigma": 3.0
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "lowsharp_inverse_a0.500_s1.50_g0.025_cap8",
+      "sharp_gain": 0.025,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.5,
+      "cap_dn": 8.0,
+      "route_id": "lowsharp_inverse_a0.500_s1.50_g0.050_cap8",
+      "sharp_gain": 0.05,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "lowsharp_inverse_a0.250_s1.50_g0.025_cap4",
+      "sharp_gain": 0.025,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.25,
+      "cap_dn": 4.0,
+      "route_id": "lowsharp_inverse_a0.250_s1.50_g0.050_cap4",
+      "sharp_gain": 0.05,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "lowsharp_inverse_a0.125_s1.50_g0.025_cap2",
+      "sharp_gain": 0.025,
+      "sigma": 1.5
+    },
+    {
+      "alpha": -0.125,
+      "cap_dn": 2.0,
+      "route_id": "lowsharp_inverse_a0.125_s1.50_g0.050_cap2",
+      "sharp_gain": 0.05,
+      "sigma": 1.5
+    },
+    {
+      "alpha": 0.0,
+      "cap_dn": 8.0,
+      "route_id": "raw_only_unsharp_g0.025",
+      "sharp_gain": 0.025,
+      "sigma": 0.0
+    },
+    {
+      "alpha": 0.0,
+      "cap_dn": 8.0,
+      "route_id": "raw_only_unsharp_g0.050",
+      "sharp_gain": 0.05,
+      "sigma": 0.0
+    }
+  ],
+  "candidate_grid_sha256": "df7ded07d3c7dbc657630ed112bd4b8dd01d41ea7078168a22e106f447f154f7",
+  "confirmation_existing_40": {
+    "allowed_only_after_development_pass_and_selection_freeze": true,
+    "condition_cells": 40,
+    "evidence_label": "adapter-level held-out conditions, not independent data; C057 model outputs were previously observed",
+    "iso_values": [
+      200,
+      400,
+      800,
+      1600
+    ],
+    "minimum_improved_conditions": 32,
+    "same_mean_ci_seed_safety_gates": true
+  },
+  "created_utc": "2026-10-20T13:28:37+00:00",
+  "development_endpoint": {
+    "aggregation": "ROI mean per frame, frame median per condition, then three-seed mean",
+    "conditions": "80km_{2.5,3.5,4.5,5.5,6.5}m_ISO100",
+    "distance_specific_reference": "60km_same-distance_ISO100 RAW",
+    "improvement_direction": "negative",
+    "metric": "restored-minus-RAW absolute MTF50 error in cycles/pixel"
+  },
+  "expected_development": {
+    "condition_cells": 10,
+    "endpoint_condition_cells": 5,
+    "frames": 92,
+    "reference_condition_cells": 5,
+    "roi_identities": 335,
+    "task_on_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "prohibitions": [
+    "No selection of one favorable seed.",
+    "No confirmation run after a development FAIL.",
+    "Do not describe the existing 40-condition confirmation as independent data.",
+    "Do not modify C006 or C057 code, checkpoints, cohorts, or outputs."
+  ],
+  "purpose": "Develop a bounded adapter using ISO100 only, with 80 km/h cells as the efficacy endpoint and 60 km/h cells as exact-bypass references.",
+  "safety": {
+    "maximum_abs_change_dn": 12.0,
+    "maximum_introduced_clipping_fraction": 0.005,
+    "maximum_preclip_overshoot_fraction": 0.01,
+    "minimum_valid_fraction": 0.95,
+    "reference_exact_bypass_required": true
+  },
+  "schema_version": "MERIT-C058-OPTICAL-FIDELITY-DEVELOPMENT-v1",
+  "selection": {
+    "eligibility": "technical PASS and alpha != 0",
+    "fallback": "If no MERIT-dependent route passes, preserve the best technical route for diagnosis but set overall gate to FAIL.",
+    "fixed_tie_break": [
+      "mean delta ascending",
+      "introduced clipping ascending",
+      "maximum absolute change DN ascending",
+      "route_id lexicographic ascending"
+    ],
+    "seed_outcome_selection": "prohibited"
+  },
+  "state": "FROZEN_BEFORE_C058_MODEL_OUTPUTS",
+  "success_gate": {
+    "all_three_seed_means_nonpositive": true,
+    "condition_cluster_bootstrap_95pct_ci_upper_lt_zero": true,
+    "mean_delta_lt_zero": true,
+    "merit_residual_dependency_alpha_nonzero": true,
+    "minimum_improved_endpoint_conditions": 4
+  }
+}

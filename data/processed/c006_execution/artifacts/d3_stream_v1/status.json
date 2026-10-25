@@ -1,0 +1,37 @@
+{
+  "schema_version": "MERIT-C006-D3-STREAM-v1",
+  "state": "INFERENCE_COMPLETE",
+  "completed": 974,
+  "eligible": 974,
+  "remaining": 0,
+  "last_cohort_id": "D3-CAM103-5R-000499",
+  "last_frame_seconds": 56.39046870009042,
+  "session_average_seconds": 57.52897405852153,
+  "session_projected_remaining_seconds": 0.0,
+  "updated_utc": "2026-09-20T21:40:02.752026+00:00",
+  "verified_asset_hashes": {
+    "cohort": "6274b67d6c1da7a82b921c307e83a59422537aeb1eacf467c79bac7e91c43421",
+    "consensus": "5c9e00335c8c05f722f41f0a926b4c32eb1b2159efbb66d803612e7cf5859560",
+    "endpoint_code": "3baad33f7a685f4157c07a9c56a6a08db156720078d7d04c502715f42541284b",
+    "runner": "ec6a3c1224b2610c7006cbc5f6daedd1f51a3373e22fc4d7c3400e2f193f5683",
+    "model_code": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618",
+    "idle_benchmark": "3eec11a170a81bc4166cbf4bb19bace94e3b33550651813f03ec8e109397fe5c",
+    "restoration:task_off_seed0": "10466a39dbb50d0d4b959b79e6c802ef47177f406f01869980668c11cd8d857c",
+    "restoration:task_on_seed0": "10f105d19280f1f91a6022eeb51f05a17c5596c3d9261cbff6bfa561d4bdc65d",
+    "restoration:task_off_seed1": "f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b",
+    "restoration:task_on_seed1": "8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd",
+    "restoration:task_off_seed2": "507038a52ba73cd6a8413a6c4be86e227ba97f0e97e63b8a35239cf472be8d4e",
+    "restoration:task_on_seed2": "7980d0034f81355d4a5bab09453bc9d7bf7ce6460510977c730c935ddee82107",
+    "detector:code": "4fc81efb9e08bf09fffb56be1af2c5b9e2288e1e60bab7e8d85c78500a7cc1ec",
+    "detector:protocol": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3",
+    "detector:checkpoint": "aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc",
+    "detector:ledger": "734016ab5f77f0353a1178ef4d8a0efb5e35252bbf1cce0d33a699707dbfd92a",
+    "detector:imagenet_weight": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+  },
+  "detector_identity": {
+    "freeze_sha256": "734016ab5f77f0353a1178ef4d8a0efb5e35252bbf1cce0d33a699707dbfd92a",
+    "operating_threshold": 0.55,
+    "checkpoint_sha256": "aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc",
+    "initialization_weight_sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+  }
+}

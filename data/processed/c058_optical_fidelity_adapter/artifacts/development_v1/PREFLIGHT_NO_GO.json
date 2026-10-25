@@ -1,0 +1,33 @@
+{
+  "schema_version": "MERIT-C058-V1-PREFLIGHT-NO-GO-v1",
+  "state": "V1_STOPPED_AND_PRESERVED_FOR_AUDIT",
+  "created_utc": "2026-10-20T13:41:30Z",
+  "decision": "NO_GO",
+  "reason": "The first 30 of 92 lexicographically ordered frames were all 60 km/h ISO100 exact-bypass references, so no 80 km/h endpoint model output had been produced. The v1 release path also lacked one all-run common complete-case ROI lock and sufficiently strong release/progress verification.",
+  "observed_execution": {
+    "completed_frames": 30,
+    "planned_frames": 92,
+    "reference_bypass_frames": 30,
+    "endpoint_output_frames": 0,
+    "first_frame_id": "60km_2.5m_ISO100/frame_000102.png",
+    "last_frame_id": "60km_4.5m_ISO100/frame_000158.png"
+  },
+  "frozen_audit_bindings": {
+    "development_contract_v1_sha256": "f1224ab6871cd831b4b53f249f644f663b8cd23c1faae0a47ff1008cb9983f2e",
+    "c058_development_v1_code_sha256": "385d219468be4e1665f46cf55ff590fd70c216da7e39072e03409749cfdfc5f8",
+    "development_v1_status_sha256": "e3ab1c41d6cba977746c9b4776032968c858f0c00fefe6bf1b7f1fda72c2c8df"
+  },
+  "defects_requiring_v2": [
+    "Development must use one RAW-plus-24-routes-by-3-seeds common complete-case ROI set.",
+    "Confirmation must use one RAW-plus-selected-route-by-3-seeds common complete-case ROI set.",
+    "Selection freeze must verify the final sidecar, protocol bindings, all artifact hashes, condition-to-summary recomputation, gate, ranking, and selected route.",
+    "Progress validation must verify C057 and selection bindings, frozen candidate specifications, finite/ranged diagnostics, and ROI identity/orientation.",
+    "MERIT-plus-unsharp routes require significant incremental contribution over matching raw-only unsharp.",
+    "Confirmation CLI must default to a separate confirmation output directory."
+  ],
+  "prohibitions": [
+    "Do not resume development_v1.",
+    "Do not delete or modify the 30 v1 progress records.",
+    "Do not use v1 progress or outputs as C058 efficacy evidence."
+  ]
+}

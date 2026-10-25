@@ -1,0 +1,109 @@
+{
+  "artifacts": {
+    "condition": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/holdout_280_one_shot/holdout_condition_results.csv",
+      "sha256": "94608ada45f79459627cbc5ca58e1957f2d7a1e5d846cf763803fe4f8e7521fa"
+    },
+    "coverage": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/holdout_280_one_shot/holdout_complete_case.json",
+      "sha256": "2ce1630baaac4ce6e69cf263afb14aaea7b27f68f989706a2fa11ed4139c0587"
+    },
+    "diagnostics": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/holdout_280_one_shot/holdout_pixel_diagnostics.csv",
+      "sha256": "b97089784c368ba55cd8e49db27e6a047dc46f8648a71ebdb0f725402dc09421"
+    },
+    "roi": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3g/holdout_280_one_shot/holdout_roi_results.csv",
+      "sha256": "505289d789245be34862545a4fa5c03393579839ae4c7edb178ca2b956fe5033"
+    }
+  },
+  "completed_utc": "2026-10-21T01:48:03+00:00",
+  "counts": {
+    "active_condition_cells": 6,
+    "active_distance_cells": 3,
+    "condition_cells": 29,
+    "frames": 280,
+    "inactive_condition_cells": 23
+  },
+  "coverage": {
+    "common_roi_identities": 470,
+    "expected_roi_identities": 1120,
+    "fraction": 0.41964285714285715,
+    "minimum_distance_fraction": 0.3333333333333333,
+    "per_distance": [
+      {
+        "common_roi_identities": 104,
+        "distance_m": 2.5,
+        "expected_roi_identities": 312,
+        "fraction": 0.3333333333333333
+      },
+      {
+        "common_roi_identities": 117,
+        "distance_m": 3.5,
+        "expected_roi_identities": 296,
+        "fraction": 0.3952702702702703
+      },
+      {
+        "common_roi_identities": 95,
+        "distance_m": 4.5,
+        "expected_roi_identities": 240,
+        "fraction": 0.3958333333333333
+      },
+      {
+        "common_roi_identities": 72,
+        "distance_m": 5.5,
+        "expected_roi_identities": 128,
+        "fraction": 0.5625
+      },
+      {
+        "common_roi_identities": 82,
+        "distance_m": 6.5,
+        "expected_roi_identities": 144,
+        "fraction": 0.5694444444444444
+      }
+    ]
+  },
+  "evidence_label": "strict parent-disjoint endpoint holdout with 6/10 active conditions and 3/5 active distances; all 280 frames were pixel-unread before the v3g execution freeze",
+  "execution_freeze_sha256": "d2acb780cd9e4ffd1993b7bf2625987993cf2576dfdefc23e916c7a65d94b14b",
+  "execution_manifest_sha256": "c5ad32bb38b3ec8da1b034a273c9778e704dffc74f333c3565893541eb1252d6",
+  "inventory_sha256": "e66f4100158304e067ccca2dbfe2dd373b1b926dbc564e703b49f7bbe31086a8",
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-HOLDOUT-RESULT-v3g",
+  "selection_sha256": "3a7201d01206e7a7e411a113aaccec39cce3d90bb528616193ae6cd22e3a2f54",
+  "state": "ONE_SHOT_HOLDOUT_COMPLETE",
+  "summary": {
+    "active_condition_cluster_bootstrap_95pct_ci": [
+      -0.0071169517209057525,
+      0.0031143413006727017
+    ],
+    "active_expert_seed_means_descriptive": {
+      "0": 0.0013548068525688212,
+      "1": -0.0029615815507440303
+    },
+    "active_mean_delta_abs_error_cy_px": -0.0022421834835252216,
+    "condition_cluster_bootstrap_95pct_ci": [
+      -0.0016745231443213208,
+      0.0006394292138204472
+    ],
+    "condition_mean_delta_abs_error_cy_px": -0.0004639000310741838,
+    "gate": "FAIL",
+    "gate_checks": {
+      "active_6_conditions_3_distances": true,
+      "active_ci_upper_lt_zero": false,
+      "active_mean_lt_zero": true,
+      "all_active_condition_means_lt_zero": false,
+      "all_five_distances_coverage_reported": true,
+      "ci_upper_lt_zero": false,
+      "common_complete_case_coverage": false,
+      "each_distance_complete_case_coverage": false,
+      "exact_280_frames_29_conditions": true,
+      "inactive_23_conditions_exact_tie": true,
+      "inactive_exact_identity": true,
+      "introduced_clipping": false,
+      "locator_coverage": false,
+      "maximum_abs_change_dn": true,
+      "mean_delta_lt_zero": true,
+      "preclip_overshoot": false,
+      "zero_prior_sha256_overlap": true
+    }
+  }
+}

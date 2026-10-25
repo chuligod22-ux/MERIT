@@ -1,0 +1,99 @@
+{
+  "schema_version": "width-raw-measurement-v2",
+  "created_at": "2026-09-25T00:35:30+09:00",
+  "supersedes": "v1 measurement for orientation handling; v1 retained as failed diagnostic",
+  "change_reason": "Five raw frames contain vertically oriented target lines; v1 assumed horizontal only.",
+  "scope": "RAW-only printed nominal apparent-width measurement",
+  "claim_limit": "Not traceable physical metrology and not natural-crack width accuracy",
+  "calibration": {
+    "type": "acquisition-system design GSD",
+    "mm_per_sensor_pixel": 0.3,
+    "relative_sensitivity": 0.05,
+    "nominal_widths_are_not_used_to_calibrate_scale": true
+  },
+  "orientation_selection": {
+    "candidates": [
+      "HORIZONTAL",
+      "VERTICAL"
+    ],
+    "selector": "maximum RAW-only continuous-trace median SNR",
+    "counts": {
+      "HORIZONTAL": 450,
+      "VERTICAL": 50
+    },
+    "does_not_use": [
+      "nominal width",
+      "restoration output",
+      "endpoint outcome"
+    ]
+  },
+  "predeclared_subpixel_non_estimable_mm": [
+    0.1,
+    0.2
+  ],
+  "input": {
+    "ledger": "<LOCAL_PATH_REDACTED>",
+    "ledger_sha256": "ce46cf8249a8666c38a7b9b1ee02899423677ac584643e46bbe2654a32c2fd9f",
+    "source_root": "<LOCAL_PATH_REDACTED>",
+    "rows": 500
+  },
+  "counts": {
+    "rows": 500,
+    "status": {
+      "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 100,
+      "ESTIMABLE": 387,
+      "QC_NON_ESTIMABLE": 4,
+      "UNCERTAINTY_NON_ESTIMABLE": 9
+    },
+    "orientation": {
+      "HORIZONTAL": 450,
+      "VERTICAL": 50
+    },
+    "per_width": {
+      "0.1": {
+        "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 50
+      },
+      "0.2": {
+        "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 50
+      },
+      "0.3": {
+        "ESTIMABLE": 40,
+        "QC_NON_ESTIMABLE": 2,
+        "UNCERTAINTY_NON_ESTIMABLE": 8
+      },
+      "0.4": {
+        "ESTIMABLE": 47,
+        "UNCERTAINTY_NON_ESTIMABLE": 1,
+        "QC_NON_ESTIMABLE": 2
+      },
+      "0.5": {
+        "ESTIMABLE": 50
+      },
+      "0.6": {
+        "ESTIMABLE": 50
+      },
+      "0.7": {
+        "ESTIMABLE": 50
+      },
+      "0.8": {
+        "ESTIMABLE": 50
+      },
+      "0.9": {
+        "ESTIMABLE": 50
+      },
+      "1.0": {
+        "ESTIMABLE": 50
+      }
+    }
+  },
+  "outputs": {
+    "measurements_csv": "<LOCAL_PATH_REDACTED>",
+    "measurements_csv_sha256": "6f9ea415d2654588498b2eb61eab031a3276f357e67d10663f7a67d8b784dadf",
+    "traces_jsonl": "<LOCAL_PATH_REDACTED>",
+    "traces_jsonl_sha256": "70a14795f9cb859df7f320dc30487635653b8f54b47e4c6181d687bc184dde16"
+  },
+  "script": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "c588b977a25279e9f4feb25ff3b3f5d6d2ac86961940e17be52687257f8bf07a"
+  }
+}

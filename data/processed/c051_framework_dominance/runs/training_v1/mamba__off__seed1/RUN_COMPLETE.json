@@ -1,0 +1,23 @@
+{
+  "checkpoint": "<LOCAL_PATH_REDACTED>",
+  "checkpoint_sha256": "23b346bd7456c728c682e838e9c0b36faecc2ecb24d572afca1c203f3d4e5e68",
+  "elapsed_seconds_this_invocation": 572.2329223998822,
+  "log": "<LOCAL_PATH_REDACTED>",
+  "log_sha256": "df50faaeeaa92e2f2671099b599a8c8bcd24d99be198221fb4c8f7754865a2c7",
+  "model_id": "mamba__off__seed1",
+  "payload_sha256": "58d45f3f886689cb3cc042bc5072340999f9ff87e98c79c31ba76d68a6e6d86d",
+  "peak_cuda_memory_bytes": 9461152256,
+  "schema_version": "MERIT-C051-TRAINING-RUN-v1",
+  "specification": {
+    "arm": "off",
+    "asset_manifest_payload_sha256": "b20126cb738b301a622063a533a28efef8ec2049d98db6f54b3cc61da9152600",
+    "backbone": "mamba",
+    "batch_size": 4,
+    "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+    "seed": 1,
+    "steps": 4000,
+    "width": 128
+  },
+  "status": "PASS_COMPLETE",
+  "trainable_parameters": 1635625
+}

@@ -1,0 +1,12 @@
+{
+  "completed": 974,
+  "eligible": 974,
+  "last_cohort_id": "D3-CAM103-5R-000499",
+  "model_id": "wp1__mprnet__base__seed2",
+  "remaining": 0,
+  "schema_version": "MERIT-C009-D3-FULLFRAME-STATUS-v1",
+  "session_average_seconds": 30.531612008624244,
+  "session_projected_remaining_seconds": 0.0,
+  "status": "inference_complete",
+  "updated_utc": "2026-10-08T09:53:40.221880+00:00"
+}

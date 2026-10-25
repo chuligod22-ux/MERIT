@@ -1,0 +1,63 @@
+{
+  "completed_folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 147.9239250998944,
+  "fold_sha256": {
+    "A": "66da6e78e4dcbde771fe86c502eb1d3c5a5c4a323ef5c844884e5170b3fa3f1c",
+    "B": "5acbf9c4a2281834d68f78d4266399a722cf20dc9b7b2db5732c012853a48cc6",
+    "C": "b543f02e6566ca136cdf4cb37e8c6dc3a3f55c0318b4723783783b6289d668c4",
+    "D": "b1922b4af7e66654ba9351744ff570ce5c51a2400c444b4252e80e9ba602eb45"
+  },
+  "model_id": "wp1__nafnet__base__seed1",
+  "payload_sha256": "08cb9be3d3374ac8e31a7c69f1f478844dd3707156c8ff053108dd3e16598c61",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "d91fc1c72ec9c4deeceeb1fd5e411093bf3fe4c2fcaccdd8bf64ad1a0bdfb46b",
+    "completion_payload_sha256": "aad2a33d2c28dfe1a65160a99054607c7fe375fa152f77ca8e5ac73a7a92b3c3",
+    "model": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "model_id": "wp1__nafnet__base__seed1"
+  },
+  "schema_version": "MERIT-C009-D2-EXTERNAL-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "base",
+    "family": "nafnet",
+    "kind": "wp1",
+    "seed": 1
+  },
+  "status": "PASS",
+  "tile_count": 1703
+}

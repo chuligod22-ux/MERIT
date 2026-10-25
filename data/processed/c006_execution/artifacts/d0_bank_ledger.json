@@ -1,0 +1,51 @@
+{
+  "audit_contact_sheets": {
+    "audit_cam1_lower_right_wall.jpg": "0df151dc9990be0e516db0a29412946a8afba5a1f58e7fe4440f021146eb7e68",
+    "audit_cam2_upper_center_crack.jpg": "e955cab1ba03e4a1335a59952cdb6b6f83a4163c3b0783db36b61ba32ca08d7a",
+    "audit_cam2_upper_left_wall.jpg": "a153a15c96dbf14b89f4039d43b894c611f7523a8d089144c56c1535584280ca"
+  },
+  "bank_content_hash_definition": "SHA-256 over manifest-order repetitions of uint64 big-endian bank_index followed by contiguous uint8 crop bytes",
+  "bank_content_sha256": "93250d8d7ce2fbbaefb5a2f153d05ec6e03de54eb723059c3924cda64d587d90",
+  "bank_dtype": "uint8",
+  "bank_npy_sha256": "72184370f07e825d4ec6ac386b040f14758c09e49cde3ddee588ba8a6f0f82c3",
+  "bank_shape": [
+    211,
+    448,
+    448
+  ],
+  "builder_code_sha256": "b2f19296979e686c55c085c7f7df9e47e4552aae279a85064deada2ab2dd745e",
+  "forbidden_source_check": {
+    "D1_rows": 0,
+    "D2_rows": 0,
+    "D3_rows": 0,
+    "DQ1_rows": 0,
+    "legacy_crack_bank_rows": 0
+  },
+  "generated_at_kst": "2026-09-19T15:28:18+09:00",
+  "ledger_payload_sha256": "8f9acec5fd64237f8cb7bba95782c1a035b84fbb686b225b246c1bca0aa544d1",
+  "manifest_csv_sha256": "37339f67ebb536043a8429671fc1e1a710a0621d12028d2c95d5d48ea8471c5f",
+  "parent_count": 141,
+  "parent_counts_by_camera": {
+    "cam1": 71,
+    "cam2": 70
+  },
+  "protocol_id": "MERIT-C006-ZP-TASK-AB-v1",
+  "protocol_json_sha256": "570a835e90f5ceac01ded2c30b95930a10f6229c091a5236aa82e99d9420b2d6",
+  "role_assignment_used_model_output": false,
+  "role_counts": {
+    "crack": 70,
+    "wall": 141
+  },
+  "rule_counts": {
+    "cam1_lower_right_wall": 71,
+    "cam2_upper_center_crack": 70,
+    "cam2_upper_left_wall": 70
+  },
+  "selection_used_model_output": false,
+  "source_dataset": "D0 only",
+  "split_counts": {
+    "synthetic_holdout": 50,
+    "train": 161
+  },
+  "unique_parent_hash_count": 141
+}

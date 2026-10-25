@@ -1,0 +1,13 @@
+{
+  "arm": "merit_full",
+  "family": "mprnet",
+  "final_checkpoint_sha256": "eaeac4fd293ebb1a7bb623a61bb01a6845a8be5194f36dd4b595145ec62c68cb",
+  "final_state_sha256": "8dc0d2d8f30fde7ed9dc2f1252dcb7dd866789379ea1a96575494f80a477f054",
+  "global_step": 8000,
+  "payload_sha256": "7c52910ef2c8a95d364147c4d9d0c48d68c89cfde499ccddacf1bed9f2b0e615",
+  "run_manifest_sha256": "dd11ecf9861ccad88b0acf1466e06956b92158fb4efdccc80d10533aac9f8e2b",
+  "schema_version": "MERIT-C009-WP1-RUN-COMPLETE-v1",
+  "seed": 1,
+  "status": "PASS",
+  "stream_sha256": "e7e61861c1f86e78b87deee00285b714dbd6f15957408772b86cd51a96978b6d"
+}

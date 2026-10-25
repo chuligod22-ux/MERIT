@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds_this_invocation": 28.68296939996071,
+  "payload_sha256": "bf39702433b0773700fff8307c46dc257940cb0d0e701b805c3325997141539a",
+  "schema_version": "MERIT-C016-WIDTH-EVAL-COMPLETE-v1",
+  "selection_payload_sha256": "9edfd87ad4b57813b25c8440614ff68b0baecf03ae5d82f082c260ec60076634",
+  "status": "PASS_COMPLETE",
+  "units": 42
+}

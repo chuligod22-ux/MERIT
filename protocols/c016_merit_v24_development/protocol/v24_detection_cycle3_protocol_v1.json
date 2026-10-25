@@ -1,0 +1,156 @@
+{
+  "assets": {
+    "cycle2_summary": {
+      "bytes": 9275,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "eb3df21848b266f9e85159f5d662cd8237bf42478a0fd9073a1bd6339b1fd075"
+    },
+    "seed0_screen": {
+      "bytes": 158140,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ac0ca48b78f116653021853dc608122ba03773dc948ace2ddc78771f955e3242"
+    },
+    "v23_c014_summary": {
+      "bytes": 3817,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d614550c90a00a4dc6e775a56814317f14c553af8dd50f4d5e6b0bf82b45917"
+    }
+  },
+  "code": {
+    "cycle3": {
+      "bytes": 16372,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "21217d414ac28cd010610c36c86c4b770d126d2262ad25d12f6264169a1356a4"
+    },
+    "frozen_base_pipeline": {
+      "bytes": 57988,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "315e12aac127582626230349a03042ecb1857bdeaff1692815032ceb72e545cf"
+    },
+    "profiles": {
+      "bytes": 4729,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "60ee8c6ec3d41b53263a4c219cb6999710d9f76936c7b2a0f69d8aed10299a51"
+    }
+  },
+  "development_reason": "Retain the validated v2.3 VGG and DeepLab routes. Activate ResNet only with sharp0025, the smallest non-identity profile and the only screened ResNet route with positive seed-0 AUPRC deltas on all four tunnels.",
+  "evaluation": {
+    "aggregation": "seed -> physical parent -> equal tunnel -> equal detector panel",
+    "development_seed": 0,
+    "held_replication_seeds": [
+      1,
+      2
+    ],
+    "tunnels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "final_gate": "All-seed and held-seed panels must each have delta AUPRC mean and CI lower >0, all four tunnels positive, matched-sensitivity delta FPR mean <=0, every detector mean delta AUPRC >=0, and panel delta AUPRC above the matched v2.3 route. The all-seed panel must also exceed the frozen C014 v2.3 four-tunnel mean.",
+  "matched_reference_routes": {
+    "d2_deeplabv3_resnet50": "sharp0100",
+    "d2_resnet34_unet": "identity",
+    "d2_vgg16_unet": "inv0250"
+  },
+  "parent_protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "payload_sha256": "979b208eff4f26d48e0ae2e4c5a472a4f4a06b1236ddac98a185fa8a68e58076",
+  "routes": {
+    "d2_deeplabv3_resnet50": "sharp0100",
+    "d2_resnet34_unet": "sharp0025",
+    "d2_vgg16_unet": "inv0250"
+  },
+  "schema_version": "MERIT-C016-V24-DETECTION-CYCLE3-PROTOCOL-v1",
+  "scientific_role": "Seed 0 is route-development evidence. Seeds 1 and 2 are held stochastic replications on the same four development tunnels, not prospective external sites.",
+  "seed0_route_scores": {
+    "d2_deeplabv3_resnet50": {
+      "condition": "sharp0100",
+      "delta_auprc": 0.0010211493405020181,
+      "delta_f1": 0.0015801059391189235,
+      "delta_matched_fpr": -2.602230420296199e-05,
+      "per_tunnel": {
+        "A": {
+          "delta_auprc": -0.0012473043361346469,
+          "delta_f1": -0.0001221775318908769,
+          "delta_matched_fpr": -1.6618647760859548e-05
+        },
+        "B": {
+          "delta_auprc": 0.0037164297239390964,
+          "delta_f1": 0.0021382654546424074,
+          "delta_matched_fpr": -2.0833776749863264e-05
+        },
+        "C": {
+          "delta_auprc": -0.0010057948885683343,
+          "delta_f1": -0.0012626451561144724,
+          "delta_matched_fpr": -2.4418302310867843e-05
+        },
+        "D": {
+          "delta_auprc": 0.0026212668627719573,
+          "delta_f1": 0.005566980989838636,
+          "delta_matched_fpr": -4.221848999025731e-05
+        }
+      },
+      "positive_tunnels": 2
+    },
+    "d2_resnet34_unet": {
+      "condition": "sharp0025",
+      "delta_auprc": 3.209780410409202e-05,
+      "delta_f1": 7.109803084456858e-06,
+      "delta_matched_fpr": 1.0241719474330111e-06,
+      "per_tunnel": {
+        "A": {
+          "delta_auprc": 4.502343358894212e-05,
+          "delta_f1": 3.401826137692243e-05,
+          "delta_matched_fpr": -1.415279598527587e-06
+        },
+        "B": {
+          "delta_auprc": 6.110558910210617e-05,
+          "delta_f1": 2.8501329514929452e-05,
+          "delta_matched_fpr": -6.190479315227801e-08
+        },
+        "C": {
+          "delta_auprc": 2.1564017756281473e-05,
+          "delta_f1": -2.11832882323737e-05,
+          "delta_matched_fpr": 5.10689397571415e-06
+        },
+        "D": {
+          "delta_auprc": 6.981759690383171e-07,
+          "delta_f1": -1.2897090321650762e-05,
+          "delta_matched_fpr": 4.669782056977596e-07
+        }
+      },
+      "positive_tunnels": 4
+    },
+    "d2_vgg16_unet": {
+      "condition": "inv0250",
+      "delta_auprc": 0.001828237946006353,
+      "delta_f1": 0.0006220520594145389,
+      "delta_matched_fpr": 1.8512730036336662e-06,
+      "per_tunnel": {
+        "A": {
+          "delta_auprc": 0.0017234998361746801,
+          "delta_f1": 0.0022834076384462333,
+          "delta_matched_fpr": -0.0001669760859849826
+        },
+        "B": {
+          "delta_auprc": -0.0009742422386551097,
+          "delta_f1": -0.0043958156497389544,
+          "delta_matched_fpr": 5.483076360721659e-05
+        },
+        "C": {
+          "delta_auprc": -0.0019372683321189133,
+          "delta_f1": -0.0016157897971621703,
+          "delta_matched_fpr": 0.00019643095918080565
+        },
+        "D": {
+          "delta_auprc": 0.008500962518624755,
+          "delta_f1": 0.006216406046113047,
+          "delta_matched_fpr": -7.688054478850497e-05
+        }
+      },
+      "positive_tunnels": 2
+    }
+  },
+  "status": "FROZEN_BEFORE_CYCLE3_SEED1_SEED2_OUTPUTS"
+}

@@ -1,0 +1,359 @@
+{
+  "aggregation_code_sha256": "99132302f1be53b63bc8ae4b757d41cbbb957634c2726c4d22468f30176dd5c8",
+  "aggregation_fix": "Mapping-key access for area_fraction_at_0.55; no input, endpoint, model, threshold, cohort, or numeric rule changed.",
+  "claim_boundary": "No independent human cam2 mask or registered physical crack ground truth was found. This experiment measures an independent detector's response, not crack-detection accuracy, sensitivity, false-positive rate, or human superiority.",
+  "counts": {
+    "condition_cells": 50,
+    "primary_condition_cells": 42,
+    "runs_per_frame": 7,
+    "selected_frames": 50
+  },
+  "created_utc": "2026-09-22T15:15:41+00:00",
+  "detector": {
+    "architecture": "ResNet34-UNet",
+    "operating_threshold": 0.55,
+    "role": "independent response probe trained from external-expert masks on four other tunnels and a different acquisition system; not used in MERIT training or loss"
+  },
+  "fixed_run_and_arm_summaries": [
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 20,
+      "conditions_farther_from_reference": 22,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -7.761762050312402e-05,
+        7.990712854223669e-05
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -1.1941074943600881e-06,
+      "mean_restored_minus_raw_response": -3.5475696282438744e-06,
+      "metric": "mean_probability",
+      "seed": "0"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.1171154818219033,
+        0.006564513997069471
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.04370334988925606,
+      "mean_restored_minus_raw_response": -0.05033192177680099,
+      "metric": "maximum_probability",
+      "seed": "0"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 10,
+      "conditions_farther_from_reference": 16,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -4.646548130282264e-05,
+        0.00011447744803675671
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 3.1152362913314345e-05,
+      "mean_restored_minus_raw_response": 3.1152362913314366e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "0"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 22,
+      "conditions_farther_from_reference": 20,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -8.590201049027428e-05,
+        9.127311238952673e-05
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -1.9572800643579205e-06,
+      "mean_restored_minus_raw_response": -4.229432043661032e-06,
+      "metric": "mean_probability",
+      "seed": "1"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.1168008365768141,
+        0.008663474552200309
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.04261627749517737,
+      "mean_restored_minus_raw_response": -0.05140948990204682,
+      "metric": "maximum_probability",
+      "seed": "1"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 13,
+      "conditions_farther_from_reference": 13,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -5.4234674873930966e-05,
+        0.00012757657149398217
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 3.129342619960643e-05,
+      "mean_restored_minus_raw_response": 3.129342619960643e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "1"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 19,
+      "conditions_farther_from_reference": 23,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -7.043578449702892e-05,
+        0.00010981265307404361
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 1.6023298257155643e-05,
+      "mean_restored_minus_raw_response": 1.3712295727857575e-05,
+      "metric": "mean_probability",
+      "seed": "2"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.11715497077301343,
+        0.008156819199766255
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.04300334658806345,
+      "mean_restored_minus_raw_response": -0.05141694461815946,
+      "metric": "maximum_probability",
+      "seed": "2"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 11,
+      "conditions_farther_from_reference": 15,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -3.890335798970533e-05,
+        0.00014597791122471118
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 4.997499613326897e-05,
+      "mean_restored_minus_raw_response": 4.997499613326897e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "2"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 20,
+      "conditions_farther_from_reference": 22,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -5.8801349198593274e-05,
+        0.00011104657947101206
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 2.315773916782989e-05,
+      "mean_restored_minus_raw_response": 2.0926706635818425e-05,
+      "metric": "mean_probability",
+      "seed": "0"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 27,
+      "conditions_farther_from_reference": 15,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.11705106209071042,
+        0.00881725552206349
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.04255222030804448,
+      "mean_restored_minus_raw_response": -0.051386096010295056,
+      "metric": "maximum_probability",
+      "seed": "0"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 10,
+      "conditions_farther_from_reference": 16,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -2.6269477220099834e-05,
+        0.00014671203916700388
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 5.668215616074149e-05,
+      "mean_restored_minus_raw_response": 5.668215616074151e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "0"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 22,
+      "conditions_farther_from_reference": 20,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -6.724329081209488e-05,
+        7.945459073788031e-05
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 1.6632789651741547e-06,
+      "mean_restored_minus_raw_response": -6.610055493960579e-07,
+      "metric": "mean_probability",
+      "seed": "1"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.07064840779958537,
+        0.013276158431212284
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.019012587311278497,
+      "mean_restored_minus_raw_response": -0.027899551804044416,
+      "metric": "maximum_probability",
+      "seed": "1"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 12,
+      "conditions_farther_from_reference": 14,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -3.566306111036162e-05,
+        0.00011654093110413732
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 3.58287439324688e-05,
+      "mean_restored_minus_raw_response": 3.58287439324688e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "1"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 19,
+      "conditions_farther_from_reference": 23,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -6.098771939364756e-05,
+        0.00010929201686923897
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 2.0204961866573917e-05,
+      "mean_restored_minus_raw_response": 1.8089878720328468e-05,
+      "metric": "mean_probability",
+      "seed": "2"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.06987989950173955,
+        0.012430586877218002
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.01910685387528723,
+      "mean_restored_minus_raw_response": -0.027686481829732656,
+      "metric": "maximum_probability",
+      "seed": "2"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 10,
+      "conditions_farther_from_reference": 16,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -2.5666032435485255e-05,
+        0.00014986417149241495
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 5.75365205928124e-05,
+      "mean_restored_minus_raw_response": 5.753652059281242e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "2"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 20,
+      "conditions_farther_from_reference": 22,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -7.731395866195812e-05,
+        9.254658222796826e-05
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 4.290636899479204e-06,
+      "mean_restored_minus_raw_response": 1.9784313519842204e-06,
+      "metric": "mean_probability",
+      "seed": "three_seed_mean"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 25,
+      "conditions_farther_from_reference": 17,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.1170216590365199,
+        0.007803512024249705
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.043107657990832306,
+      "mean_restored_minus_raw_response": -0.05105278543233575,
+      "metric": "maximum_probability",
+      "seed": "three_seed_mean"
+    },
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 11,
+      "conditions_farther_from_reference": 15,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -4.5678920403172316e-05,
+        0.00012839746666520166
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 3.7473595082063255e-05,
+      "mean_restored_minus_raw_response": 3.7473595082063255e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "three_seed_mean"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 19,
+      "conditions_farther_from_reference": 23,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -5.971773282070232e-05,
+        9.741660221017046e-05
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 1.5008659999859316e-05,
+      "mean_restored_minus_raw_response": 1.278519326891694e-05,
+      "metric": "mean_probability",
+      "seed": "three_seed_mean"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 26,
+      "conditions_farther_from_reference": 16,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -0.07769526555609431,
+        0.008788297067734503
+      ],
+      "mean_restored_minus_raw_abs_reference_error": -0.026890553831536743,
+      "mean_restored_minus_raw_response": -0.03565737654802405,
+      "metric": "maximum_probability",
+      "seed": "three_seed_mean"
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_closer_to_reference": 10,
+      "conditions_farther_from_reference": 16,
+      "mean_delta_abs_reference_error_95pct_condition_bootstrap_ci": [
+        -2.6198479801951864e-05,
+        0.00013534277079722113
+      ],
+      "mean_restored_minus_raw_abs_reference_error": 5.001580689534091e-05,
+      "mean_restored_minus_raw_response": 5.001580689534093e-05,
+      "metric": "area_fraction_at_0.55",
+      "seed": "three_seed_mean"
+    }
+  ],
+  "frozen_evaluator_sha256": "ee3a1e064aaf0a5047624f55c200801df1170fe697bc4deca44dbed300cc777d",
+  "interpretation": "These values can show whether MERIT changes or preserves an independent detector's response across actual acquisition conditions. They cannot establish detection accuracy or distinguish recovered cracks from newly induced detector responses.",
+  "schema_version": "MERIT-D0-CAM2-50COND-v1",
+  "status": "DESCRIPTIVE_RESPONSE_ONLY_NO_ACCURACY_GT"
+}

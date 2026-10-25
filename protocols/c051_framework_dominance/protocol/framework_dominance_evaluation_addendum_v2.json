@@ -1,0 +1,37 @@
+{
+  "code_sha256": {
+    "c051_analyze_v2.py": "91242d6f99cbea363cd1a4f6c9a3118c70619d42794106a625bcc9aa98ff7391",
+    "c051_audit_v2.py": "5d6f91fa17ab19ad7d4bb95bd7e457cdae80106f2ef3a96b28bd183a79a3ebf6",
+    "c051_evaluate_v2.py": "e064ad6aadf54112240006b4c4a0e7309f8fc27a0e939ef46185f66f8b59f363",
+    "c051_evaluation_queue_v2.py": "86424d1138b08cb66646101ccbb1b9c96f2f5d44e30e178054cb3ec844e8b0f7",
+    "c051_v2_common.py": "e4a12fc7e1b2742108c54b9db743c53306d3e8b06bd1ba14591c7eb4df929797",
+    "test_c051_v2.py": "6ae5f25540ea57dc97d833cd5f17d24389b9209791539ef5211ceb55cfe5dcdd"
+  },
+  "correction": "Convert finite restorer output from float [0,1] to round(clip(x,0,1)*255) uint8 before the unchanged detector preprocessing.",
+  "created_date": "2026-10-19",
+  "environment": {
+    "cuda_available": true,
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu128"
+  },
+  "forbidden": [
+    "retraining or checkpoint selection",
+    "changing cohort, detector, endpoint, aggregation, or gates",
+    "using the invalid v1 gate result as evidence"
+  ],
+  "output_root": "<LOCAL_PATH_REDACTED>",
+  "payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "schema_version": "MERIT-C051-EVALUATION-ADDENDUM-v2",
+  "status": "FROZEN_BEFORE_CORRECTED_EVALUATION_V2",
+  "supersedes_protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "unchanged": [
+    "24 trained fixed-final checkpoints",
+    "four backbones, two arms, and three seeds",
+    "frozen four-tunnel cohort and degradation",
+    "three detector families and checkpoint pairing",
+    "physical-parent aggregation, estimands, bootstrap, and gates"
+  ],
+  "v1_invalidation_payload_sha256": "b8661edb91ac49226be50302a0d21a31279e27daa9cee11f8260e2071df1daed"
+}

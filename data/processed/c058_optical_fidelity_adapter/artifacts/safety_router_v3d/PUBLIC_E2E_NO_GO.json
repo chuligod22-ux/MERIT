@@ -1,0 +1,20 @@
+{
+    "schema_version":  "MERIT-C058-SAFETY-ROUTER-PUBLIC-NO-GO-v3d",
+    "state":  "PRESERVED_PUBLIC_EXECUTION_FAILURE",
+    "created_utc":  "2026-10-20T16:10:32Z",
+    "contract_sha256":  "15a1bced737898aaa50fe357246d4e4d91ea0b0b08cc2b6d4bc1eb2d58219993",
+    "runner_sha256":  "64b443ec0d9da59a34368da6c0f3a6e9376f926fb6b7359316b32e9ead2833df",
+    "frames_total":  137,
+    "frames_ok":  67,
+    "frames_failed":  70,
+    "amp_dtype_key_failures":  44,
+    "locator_failures":  26,
+    "common_complete_case_fraction":  0.33576642335766421,
+    "active_condition_rows":  0,
+    "holdout_png_accessed":  false,
+    "diagnosis":  [
+                      "AMP dtype was read from restoration.tiling although the frozen C057 protocol stores it at restoration.amp_dtype.",
+                      "The public runner sent C057 cohort extract images to a locator frozen and validated on full 8K RAW, so locator scores were not comparable."
+                  ],
+    "disposition":  "NO_GO; preserve v3d and develop v3e before any holdout access"
+}

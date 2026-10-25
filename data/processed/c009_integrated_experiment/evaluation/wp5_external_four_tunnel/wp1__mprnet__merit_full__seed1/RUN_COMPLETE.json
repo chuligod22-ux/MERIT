@@ -1,0 +1,57 @@
+{
+  "completed_folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 236.7362470002845,
+  "fold_sha256": {
+    "A": "f267559a4945cc2d04c3dc520d55583b3e8273bd5b92a2b972d147b77393618a",
+    "B": "b3bbd5b69f83fbad257848c3df5986dd457d14ad048af97388f6de1bce4a3f9a",
+    "C": "3149a0100acb64cf8ae2701f99ba478e54296340050658042bad6664a180c5e3",
+    "D": "2ac256145db7b8e4efd0b29e94cae1d62ff36e59e3ce904057884c7e5d155d8b"
+  },
+  "model_id": "wp1__mprnet__merit_full__seed1",
+  "payload_sha256": "3d8324920f5c9ec8ea3de11db78492c722cc8e3049f3e8b59f175aa542d4df25",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "eaeac4fd293ebb1a7bb623a61bb01a6845a8be5194f36dd4b595145ec62c68cb",
+    "completion_payload_sha256": "7c52910ef2c8a95d364147c4d9d0c48d68c89cfde499ccddacf1bed9f2b0e615",
+    "model": {
+      "class": "MPRNet",
+      "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+      "family": "mprnet",
+      "kwargs": {
+        "bias": false,
+        "in_c": 3,
+        "kernel_size": 3,
+        "n_feat": 96,
+        "num_cab": 8,
+        "out_c": 3,
+        "reduction": 4,
+        "scale_orsnetfeats": 32,
+        "scale_unetfeats": 48
+      },
+      "module": "Deblurring.MPRNet",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "sequence_index_0",
+      "parameters": 20127073,
+      "repository": "https://github.com/swz30/MPRNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+      "trainable_parameters": 20127073
+    },
+    "model_id": "wp1__mprnet__merit_full__seed1"
+  },
+  "schema_version": "MERIT-C009-D2-EXTERNAL-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "merit_full",
+    "family": "mprnet",
+    "kind": "wp1",
+    "seed": 1
+  },
+  "status": "PASS",
+  "tile_count": 1703
+}

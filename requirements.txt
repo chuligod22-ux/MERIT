@@ -1,10 +1,13 @@
 # Core (analysis + figures, CPU-only is enough to reproduce tables/figures from data/processed/)
 numpy>=1.24
+pandas>=2.0
 scipy>=1.10
 opencv-python>=4.8
 scikit-image>=0.21
 matplotlib>=3.7
 pillow>=10.0
+PyMuPDF>=1.23
+lpips>=0.1.4
 
 # Deep learning (needed for training and for the diffusion baselines; CUDA GPU recommended)
 torch>=2.1
@@ -14,5 +17,8 @@ torchvision>=0.16
 diffusers>=0.27
 transformers>=4.40
 huggingface_hub>=1.5,<2
+
+# Verification
+pytest>=8.0
 
 # Python 3.10+ recommended.

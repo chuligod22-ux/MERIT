@@ -1,0 +1,23 @@
+{
+  "arm": "on",
+  "backbone": "mamba",
+  "elapsed_seconds_this_invocation": 142.02552749984898,
+  "fold_sha256": {
+    "A": "f4f3aa9b5bcd8801158be948b9d8f37433dcdc32d22cf018b309407d769e91a6",
+    "B": "f201a4c40a94f4faf4c3bda723ac766c2878c5b505ebb751a4d611d6c811c6d8",
+    "C": "daeeaa83aa315c076281eab400c4739bcb94ebe731d558c17a45dffdc2d18a8c",
+    "D": "ed2baa9b8dab4fa1ef9f9fca1c54609147ac87dd89edb1672cad43b229b3484a"
+  },
+  "model_id": "mamba__on__seed1",
+  "payload_sha256": "486b0c00185d247286a9e4130530f3b1d42aec86363f310791e6606dfac5e967",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "provenance": {
+    "checkpoint": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "afc7539764ab0c0133d12300232dcd9e9ac51f9709b60f81c392adb77c6f3e21",
+    "training_payload_sha256": "825186f066b6f364004137c7fdbda62e111bf2a6fccd0744a3483bbd157f6dd6"
+  },
+  "schema_version": "MERIT-C051-EVALUATION-RUN-v1",
+  "seed": 1,
+  "status": "PASS_COMPLETE",
+  "tile_count": 1703
+}

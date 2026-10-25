@@ -1,0 +1,540 @@
+{
+  "authorization_note": "G11 closure does not authorize full training; G13 must close independently.",
+  "contract": {
+    "path": "protocol/g11_training_contract_v2.json",
+    "sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969"
+  },
+  "created_utc": "2026-09-24T17:44:13.420487+00:00",
+  "families": [
+    {
+      "checks": [
+        {
+          "check": "smoke_schema_v3",
+          "observed": "MERIT-C009-G11-OFFICIAL-SMOKE-v3",
+          "status": "PASS"
+        },
+        {
+          "check": "manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "contract_hash_match",
+          "observed": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+          "status": "PASS"
+        },
+        {
+          "check": "smoke_runner_hash_match",
+          "observed": "b4829ca42e639781b92f0e41ac6826ba584d0a062525fd0af68f08553a10d976",
+          "status": "PASS"
+        },
+        {
+          "check": "paired_initial_state_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "paired_trainable_parameters_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "two_arms_present",
+          "observed": [
+            "base",
+            "merit_full"
+          ],
+          "status": "PASS"
+        },
+        {
+          "check": "base_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "base_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "base_parameter_count",
+          "observed": 17111907,
+          "status": "PASS"
+        },
+        {
+          "check": "base_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "base_not_fully_clamp_saturated",
+          "observed": 0.0015071945963427424,
+          "status": "PASS"
+        },
+        {
+          "check": "base_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "base_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_parameter_count",
+          "observed": 17111907,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_not_fully_clamp_saturated",
+          "observed": 0.007154814898967743,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_runner_hash_match",
+          "observed": "d26a4577bc2342bad6efc8fcd0d70fcce3220093c180ad0260a0ea07a0073cba",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_partial_coverage_disclosed",
+          "observed": "PARTIAL_SUPPORTED_OPS",
+          "status": "PASS"
+        },
+        {
+          "check": "supported_operation_flops_positive",
+          "observed": 112514662400,
+          "status": "PASS"
+        }
+      ],
+      "family": "nafnet",
+      "flop_artifact": "smoke/g11_nafnet_torch_flops_v1.json",
+      "flop_coverage": "PARTIAL_SUPPORTED_OPS_LOWER_BOUND",
+      "flop_sha256": "b13fb3574eeeed8bdfd35672e99e1a59c9deaa4a686d8f13088f420f47c3d5a4",
+      "parameters": 17111907,
+      "smoke_artifact": "smoke/g11_official_nafnet_smoke_v3.json",
+      "smoke_sha256": "9a4e5b424bebca13a14dd8b0eaad931aa81e2c0a4d58c05757c6c0d892b10721",
+      "smoke_status": "PARTIAL_FLOPS_BLOCKED",
+      "status": "PASS",
+      "supported_operation_gflops": 112.5146624
+    },
+    {
+      "checks": [
+        {
+          "check": "smoke_schema_v3",
+          "observed": "MERIT-C009-G11-OFFICIAL-SMOKE-v3",
+          "status": "PASS"
+        },
+        {
+          "check": "manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "contract_hash_match",
+          "observed": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+          "status": "PASS"
+        },
+        {
+          "check": "smoke_runner_hash_match",
+          "observed": "b4829ca42e639781b92f0e41ac6826ba584d0a062525fd0af68f08553a10d976",
+          "status": "PASS"
+        },
+        {
+          "check": "paired_initial_state_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "paired_trainable_parameters_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "two_arms_present",
+          "observed": [
+            "base",
+            "merit_full"
+          ],
+          "status": "PASS"
+        },
+        {
+          "check": "base_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "base_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "base_parameter_count",
+          "observed": 26126644,
+          "status": "PASS"
+        },
+        {
+          "check": "base_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "base_not_fully_clamp_saturated",
+          "observed": 0.0,
+          "status": "PASS"
+        },
+        {
+          "check": "base_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "base_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_parameter_count",
+          "observed": 26126644,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_not_fully_clamp_saturated",
+          "observed": 1.3701769603358116e-05,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_runner_hash_match",
+          "observed": "d26a4577bc2342bad6efc8fcd0d70fcce3220093c180ad0260a0ea07a0073cba",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_partial_coverage_disclosed",
+          "observed": "PARTIAL_SUPPORTED_OPS",
+          "status": "PASS"
+        },
+        {
+          "check": "supported_operation_flops_positive",
+          "observed": 948652443648,
+          "status": "PASS"
+        }
+      ],
+      "family": "restormer",
+      "flop_artifact": "smoke/g11_restormer_torch_flops_v1.json",
+      "flop_coverage": "PARTIAL_SUPPORTED_OPS_LOWER_BOUND",
+      "flop_sha256": "6d98e889afa2778bd34b62e048c06804af181fe375e1b8e206d352e45782821a",
+      "parameters": 26126644,
+      "smoke_artifact": "smoke/g11_official_restormer_smoke_v3.json",
+      "smoke_sha256": "6b45d94df2b5ba1cbbdd019a9c42773c53a0e5f762232398912701f5173d377f",
+      "smoke_status": "PARTIAL_FLOPS_BLOCKED",
+      "status": "PASS",
+      "supported_operation_gflops": 948.652443648
+    },
+    {
+      "checks": [
+        {
+          "check": "smoke_schema_v3",
+          "observed": "MERIT-C009-G11-OFFICIAL-SMOKE-v3",
+          "status": "PASS"
+        },
+        {
+          "check": "manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "contract_hash_match",
+          "observed": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+          "status": "PASS"
+        },
+        {
+          "check": "smoke_runner_hash_match",
+          "observed": "b4829ca42e639781b92f0e41ac6826ba584d0a062525fd0af68f08553a10d976",
+          "status": "PASS"
+        },
+        {
+          "check": "paired_initial_state_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "paired_trainable_parameters_equal",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "two_arms_present",
+          "observed": [
+            "base",
+            "merit_full"
+          ],
+          "status": "PASS"
+        },
+        {
+          "check": "base_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "base_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "base_parameter_count",
+          "observed": 20127073,
+          "status": "PASS"
+        },
+        {
+          "check": "base_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "base_not_fully_clamp_saturated",
+          "observed": 0.0,
+          "status": "PASS"
+        },
+        {
+          "check": "base_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "base_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_technical_pass",
+          "observed": "PASS",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_finite",
+          "observed": true,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_parameter_count",
+          "observed": 20127073,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_timing_window",
+          "observed": {
+            "timed": 5,
+            "warmup": 2
+          },
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_not_fully_clamp_saturated",
+          "observed": 0.03691505640745163,
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_preclip_optimization",
+          "observed": "unclipped selected official output",
+          "status": "PASS"
+        },
+        {
+          "check": "merit_full_clamped_task_evaluation",
+          "observed": "clamped to [0,1]",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_manifest_hash_match",
+          "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_preflight_hash_match",
+          "observed": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_runner_hash_match",
+          "observed": "d26a4577bc2342bad6efc8fcd0d70fcce3220093c180ad0260a0ea07a0073cba",
+          "status": "PASS"
+        },
+        {
+          "check": "flop_partial_coverage_disclosed",
+          "observed": "PARTIAL_SUPPORTED_OPS",
+          "status": "PASS"
+        },
+        {
+          "check": "supported_operation_flops_positive",
+          "observed": 4651389203712,
+          "status": "PASS"
+        }
+      ],
+      "family": "mprnet",
+      "flop_artifact": "smoke/g11_mprnet_torch_flops_v1.json",
+      "flop_coverage": "PARTIAL_SUPPORTED_OPS_LOWER_BOUND",
+      "flop_sha256": "6a55cb018a46b45df0f6c4c80094bbd91f27df9d51ed04a61b3d0ccf3e425b9a",
+      "parameters": 20127073,
+      "smoke_artifact": "smoke/g11_official_mprnet_smoke_v3.json",
+      "smoke_sha256": "67381aafca1204ad04e2bf14aded5fe48a42b4ce83253b487f1b90d1698c36ca",
+      "smoke_status": "PARTIAL_FLOPS_BLOCKED",
+      "status": "PASS",
+      "supported_operation_gflops": 4651.389203712
+    }
+  ],
+  "flop_interpretation": "Reported PyTorch eager counts are supported-operation lower bounds with multiply-add counted as two FLOPs. They are not complete total-compute estimates and cannot be used for cross-family efficiency ranking.",
+  "full_training_allowed": false,
+  "gate": "G11",
+  "global_checks": [
+    {
+      "check": "active_manifest_v3",
+      "observed": "MERIT-C009-G11-IMPLEMENTATION-v3",
+      "status": "PASS"
+    },
+    {
+      "check": "source_preflight_pass",
+      "observed": "PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "preflight_manifest_hash_match",
+      "observed": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+      "status": "PASS"
+    },
+    {
+      "check": "training_contract_hash_match",
+      "observed": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+      "status": "PASS"
+    },
+    {
+      "check": "paired_stream_pass",
+      "observed": "PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "paired_stream_hash_match",
+      "observed": "9ab32f8442836551c0ad87a3f36457cc716ac81c28035e86682fd2da55bfcc97",
+      "status": "PASS"
+    },
+    {
+      "check": "smoke_runner_frozen",
+      "observed": "b4829ca42e639781b92f0e41ac6826ba584d0a062525fd0af68f08553a10d976",
+      "status": "PASS"
+    }
+  ],
+  "manifest": {
+    "path": "protocol/g11_implementation_manifest_v3.json",
+    "sha256": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee"
+  },
+  "paired_stream": {
+    "path": "protocol/g11_training_stream_freeze_v2.json",
+    "sha256": "9ab32f8442836551c0ad87a3f36457cc716ac81c28035e86682fd2da55bfcc97"
+  },
+  "preflight": {
+    "path": "protocol/g11_source_preflight_v3.json",
+    "sha256": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13"
+  },
+  "schema_version": "MERIT-C009-G11-CLOSURE-v1",
+  "status": "CLOSED_WITH_DISCLOSED_PARTIAL_FLOP_COVERAGE",
+  "technical_smoke_verdict": "PASS",
+  "verifier_sha256": "aebcde5850c847702727d962ac775fdf2c76fdc056602349eb976399f2f3a047"
+}

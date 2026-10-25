@@ -1,0 +1,29 @@
+{
+  "analysis_code_path": "<LOCAL_PATH_REDACTED>",
+  "analysis_code_sha256": "ee3a1e064aaf0a5047624f55c200801df1170fe697bc4deca44dbed300cc777d",
+  "available_frame_count": 737,
+  "claim_boundary": "No independent human cam2 mask or registered physical crack ground truth was found. This experiment measures an independent detector's response, not crack-detection accuracy, sensitivity, false-positive rate, or human superiority.",
+  "cohort_path": "<LOCAL_PATH_REDACTED>",
+  "cohort_sha256": "a8aa5a3feccaf8983ac66ac0f843156daad2897b792f4bff8fdde1cf5455466b",
+  "condition_cells": 50,
+  "created_utc": "2026-09-22T14:50:57+00:00",
+  "primary_condition_cells": 42,
+  "protocol_path": "<LOCAL_PATH_REDACTED>",
+  "protocol_sha256": "c57403a58e468d3944078ddf7f61d5df05baab8467e05675bec409b7b45add5a",
+  "schema_version": "MERIT-D0-CAM2-50COND-v1",
+  "selected_frames": 50,
+  "static_asset_hashes": {
+    "checkpoint:off_seed0": "10466a39dbb50d0d4b959b79e6c802ef47177f406f01869980668c11cd8d857c",
+    "checkpoint:off_seed1": "f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b",
+    "checkpoint:off_seed2": "507038a52ba73cd6a8413a6c4be86e227ba97f0e97e63b8a35239cf472be8d4e",
+    "checkpoint:on_seed0": "10f105d19280f1f91a6022eeb51f05a17c5596c3d9261cbff6bfa561d4bdc65d",
+    "checkpoint:on_seed1": "8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd",
+    "checkpoint:on_seed2": "7980d0034f81355d4a5bab09453bc9d7bf7ce6460510977c730c935ddee82107",
+    "detector:checkpoint": "aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc",
+    "detector:code": "4fc81efb9e08bf09fffb56be1af2c5b9e2288e1e60bab7e8d85c78500a7cc1ec",
+    "detector:protocol": "b2031a9bf51bd0309e57b44f24f169355053948f5f3db04e967cfd40666929b3",
+    "historical_selection_csv": "6629c8361110dca7b04ed4d5c61b80587c2b2c08095c3d881cb5a35b366588c3",
+    "model_code": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618",
+    "operational_code": "4e421d2083fe23953945973d71bebaf1f523903ba3f137d29d815f8f404b1335"
+  }
+}

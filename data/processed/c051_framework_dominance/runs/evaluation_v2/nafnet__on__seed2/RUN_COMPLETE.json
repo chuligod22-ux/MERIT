@@ -1,0 +1,25 @@
+{
+  "arm": "on",
+  "backbone": "nafnet",
+  "detector_input_contract": "uint8 [0,255]",
+  "elapsed_seconds_this_invocation": 142.95727999997325,
+  "evaluation_addendum_payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "fold_sha256": {
+    "A": "6a40c0783bd901712219030beb645428b363b47eb34a6a5470783686dc828e9e",
+    "B": "79b03dd4c3522dd31b26e6916cdafd90dd39930054e85d4c57ff45ac0bb5fcd5",
+    "C": "f8e155fff811b630b6ceea02e1be883f2aefb565ffbbc5e64ab1522ad4686238",
+    "D": "d516bf4040e6f818e65c30a3fdcd70d11130ca219d5a3fb24b1556df92e3926b"
+  },
+  "model_id": "nafnet__on__seed2",
+  "payload_sha256": "0a56c4b0fa9cddbf4ed8eb99bd3ca83e9ee60fa471146e2478935a6a44eca9e3",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "provenance": {
+    "checkpoint": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "a3c2e287df259ff47f3caba25209fa658bd53dc02be8871832fee513aa5ebd83",
+    "training_payload_sha256": "fcc653397cd422720513a3c60f49164deabe6a21df273a0e8b31cd7b253e19ec"
+  },
+  "schema_version": "MERIT-C051-EVALUATION-RUN-v2",
+  "seed": 2,
+  "status": "PASS_COMPLETE",
+  "tile_count": 1703
+}

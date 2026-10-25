@@ -1,0 +1,104 @@
+{
+  "c010_psnr_reproduction_max_abs_error": 3.942436266335392e-09,
+  "completed_at_kst": "2026-10-21T16:21:37+09:00",
+  "conditions": [
+    "id_low",
+    "id_mid",
+    "id_high"
+  ],
+  "crops": 98,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "parents": 68,
+  "provenance": {
+    "c010_freeze": "<LOCAL_PATH_REDACTED>",
+    "c010_freeze_sha256": "af7a1a16c34d2191a8bc88278decf1ca550ae271807dcbd1f81b7e504439926b",
+    "c010_run_complete_sha256": "dd507e0d6ba8205f87769443c2fcdb5501d350409ccf02a9eef75b4178901ffd",
+    "lpips": "AlexNet LPIPS; grayscale repeated to RGB; input scaled to [-1,1]"
+  },
+  "records": 2646,
+  "schema_version": "MERIT-C060-NAFNET-LPIPS-v1",
+  "status": "PASS",
+  "summary": {
+    "conditions": {
+      "id_high": {
+        "delta_lpips_alex": {
+          "ci_high": 0.024259326072848017,
+          "ci_low": 0.022764748288318516,
+          "mean": 0.02351505183949579,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "ci_high": 0.08363190881382795,
+          "ci_low": 0.08058691667235524,
+          "mean": 0.08208842082463381,
+          "parents": 68
+        },
+        "parents": 68,
+        "seed_delta_psnr_means": {
+          "0": 0.08545169999557427,
+          "1": 0.07846307361065044,
+          "2": 0.07635180103169406
+        }
+      },
+      "id_low": {
+        "delta_lpips_alex": {
+          "ci_high": -0.047840247170853556,
+          "ci_low": -0.050967739371497636,
+          "mean": -0.04940645113051717,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "ci_high": 0.6680929405682979,
+          "ci_low": 0.6652021726569274,
+          "mean": 0.6666542456654118,
+          "parents": 68
+        },
+        "parents": 68,
+        "seed_delta_psnr_means": {
+          "0": 0.6757162446545579,
+          "1": 0.6328012133418904,
+          "2": 0.6920256941121276
+        }
+      },
+      "id_mid": {
+        "delta_lpips_alex": {
+          "ci_high": 0.002061142987309912,
+          "ci_low": 0.00197440209810689,
+          "mean": 0.002017766967707989,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "ci_high": 0.0037636837596416567,
+          "ci_low": 0.003471729292097979,
+          "mean": 0.0036175170907397254,
+          "parents": 68
+        },
+        "parents": 68,
+        "seed_delta_psnr_means": {
+          "0": 0.0037767262101580283,
+          "1": 0.003581228009817653,
+          "2": 0.002908033866272764
+        }
+      }
+    },
+    "pooled": {
+      "delta_lpips_alex": {
+        "ci_high": -0.007681483432573464,
+        "ci_low": -0.008229778007622443,
+        "mean": -0.007957877441104459,
+        "parents": 68
+      },
+      "delta_psnr_db": {
+        "ci_high": 0.25143527503314433,
+        "ci_low": 0.2501269113042245,
+        "mean": 0.2507867278602618,
+        "parents": 68
+      },
+      "parents": 68
+    }
+  }
+}

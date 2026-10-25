@@ -1,0 +1,168 @@
+{
+  "arm": "off",
+  "backbone": "mamba",
+  "detector_seed": 20260921,
+  "detectors": {
+    "d2_deeplabv3_resnet50": {
+      "0055": {
+        "degraded": {
+          "f1_at_0_5": 0.09720372377953296,
+          "fn": 232948,
+          "fp": 1078657,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 0.17795275590551182,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.14982376127293578,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.06143916078683195,
+          "recall_at_0_5": 0.23260793653931044,
+          "tile_count": 679,
+          "tn": 176613561,
+          "tp": 70610
+        },
+        "restored": {
+          "f1_at_0_5": 0.0132371714377185,
+          "fn": 237568,
+          "fp": 9600860,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 0.2692913385826772,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.126175600758345,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.0068264222575089096,
+          "recall_at_0_5": 0.21738843977098282,
+          "tile_count": 679,
+          "tn": 168091358,
+          "tp": 65990
+        }
+      }
+    },
+    "d2_resnet34_unet": {
+      "0055": {
+        "degraded": {
+          "f1_at_0_5": 0.25687047346898556,
+          "fn": 251421,
+          "fp": 50245,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 0.08661417322834646,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.11985412661556147,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.5092399054521303,
+          "recall_at_0_5": 0.17175300930958828,
+          "tile_count": 679,
+          "tn": 177641973,
+          "tp": 52137
+        },
+        "restored": {
+          "f1_at_0_5": 0.2676416414199873,
+          "fn": 250376,
+          "fp": 40672,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 0.025196850393700787,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.13176054185843938,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.566646067296013,
+          "recall_at_0_5": 0.17519551453099572,
+          "tile_count": 679,
+          "tn": 177651546,
+          "tp": 53182
+        }
+      }
+    },
+    "d2_vgg16_unet": {
+      "0055": {
+        "degraded": {
+          "f1_at_0_5": 0.34039664223699995,
+          "fn": 231358,
+          "fp": 48453,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 1.0,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.2287569594361872,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.598410317190621,
+          "recall_at_0_5": 0.2378458152972414,
+          "tile_count": 679,
+          "tn": 177643765,
+          "tp": 72200
+        },
+        "restored": {
+          "f1_at_0_5": 0.33398646315640584,
+          "fn": 223274,
+          "fp": 96920,
+          "negative_pixels": 177692218,
+          "negative_tile_any_positive_rate_at_0_5": 1.0,
+          "negative_tiles": 635,
+          "paired_gradient_mae_dn": null,
+          "paired_psnr_db": null,
+          "pixel_auprc": 0.2134006311838957,
+          "positive_pixels": 303558,
+          "precision_at_0_5": 0.453059750344236,
+          "recall_at_0_5": 0.264476640378445,
+          "tile_count": 679,
+          "tn": 177595298,
+          "tp": 80284
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 51.809656199999154,
+  "fold": "B",
+  "matched_sensitivity_burden": {
+    "d2_deeplabv3_resnet50": {
+      "0055": {
+        "degraded_false_positive_pixel_rate_at_0_5": 0.006070367133354146,
+        "delta_false_positive_pixel_rate_restored_minus_degraded": 0.07314299492845545,
+        "matching_rule": "highest histogram threshold attaining at least degraded recall@0.5",
+        "restored_achieved_sensitivity": 0.2326244078561593,
+        "restored_false_positive_pixel_rate_at_matched_sensitivity": 0.0792133620618096,
+        "restored_threshold_approx": 0.3758241758241758,
+        "restored_threshold_bin": 1539,
+        "target_degraded_sensitivity_at_0_5": 0.23260793653931044
+      }
+    },
+    "d2_resnet34_unet": {
+      "0055": {
+        "degraded_false_positive_pixel_rate_at_0_5": 0.0002827642119926715,
+        "delta_false_positive_pixel_rate_restored_minus_degraded": -6.365501048560267e-05,
+        "matching_rule": "highest histogram threshold attaining at least degraded recall@0.5",
+        "restored_achieved_sensitivity": 0.17175959783632783,
+        "restored_false_positive_pixel_rate_at_matched_sensitivity": 0.0002191092015070688,
+        "restored_threshold_approx": 0.5648351648351648,
+        "restored_threshold_bin": 2313,
+        "target_degraded_sensitivity_at_0_5": 0.17175300930958828
+      }
+    },
+    "d2_vgg16_unet": {
+      "0055": {
+        "degraded_false_positive_pixel_rate_at_0_5": 0.0002726793584173731,
+        "delta_false_positive_pixel_rate_restored_minus_degraded": 0.00016712043067637324,
+        "matching_rule": "highest histogram threshold attaining at least degraded recall@0.5",
+        "restored_achieved_sensitivity": 0.23810276784008327,
+        "restored_false_positive_pixel_rate_at_matched_sensitivity": 0.00043979978909374634,
+        "restored_threshold_approx": 0.8446886446886447,
+        "restored_threshold_bin": 3459,
+        "target_degraded_sensitivity_at_0_5": 0.2378458152972414
+      }
+    }
+  },
+  "model_id": "mamba__off__seed0",
+  "payload_sha256": "a47610b2849368821c8a2159bcf41633ddded819a10e0851a6f8bd152af70767",
+  "peak_cuda_memory_bytes": 5613745664,
+  "schema_version": "MERIT-C051-EVALUATION-FOLD-v2",
+  "seed": 0,
+  "status": "PASS",
+  "tile_count": 679
+}

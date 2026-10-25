@@ -1,0 +1,181 @@
+{
+  "bindings": {
+    "adapter": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter.py",
+      "sha256": "7de6ee23f211cef41af68843dc69edf4cbad093a7a54e42b3b3130cb0a833ac2"
+    },
+    "c057_restoration_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_restoration_execution_freeze.json",
+      "sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719"
+    },
+    "c057_runner": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_restoration_mtf50_v2.py",
+      "sha256": "3cbd4d08865b01ec3919a852a7d8fa89b83f378113c27d071008f28c7ea8903b"
+    },
+    "exposed_cohort": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+      "sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274"
+    },
+    "inventory": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/holdout_inventory_v3g.json",
+      "sha256": "e66f4100158304e067ccca2dbfe2dd373b1b926dbc564e703b49f7bbe31086a8"
+    },
+    "locator": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_raw_locator.py",
+      "sha256": "1c9dc9627115ada3a57404427a0d921bef95c0017189bf7336f5d9092c6e4755"
+    },
+    "locator_execution_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/locator_development_v1/locator_execution_freeze_v2.json",
+      "sha256": "3ed49aa0c3d0cef80da47805dd8541294fa88185bd5a32c07e2eb15c1c9d53fb"
+    },
+    "public_raw_manifest": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/public_full_raw_manifest_v3e.json",
+      "sha256": "fd402bbd2a6fa44d25a35861333688552e23bee7387515b25cd566872a3509dc"
+    },
+    "retrospective_profile": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3b/retrospective_profile_v3b.json",
+      "sha256": "d8c6adf525b39be8c7890525ccb5983fcdd2f6273f179eb172523ac03bde4041"
+    },
+    "runner": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_safety_router_v3.py",
+      "sha256": "ce55c7b6e7bce4771bab4dbc6bdb1f71ba6425205af51e19501ab71d5ef9b785"
+    },
+    "tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_safety_router_v3.py",
+      "sha256": "53c13612653ed5cd762110f078632b7e4ccf182bc4ba6498b45b05ddbe8395cb"
+    },
+    "v3e_public_calibration_final": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3e/public_e2e_development/public_e2e_development_final.json",
+      "sha256": "6503091747ddf49d4499c9c6f3bb5bc756055d62d023c650c8326b5eec92748c"
+    },
+    "v3f_public_diagnostic": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3f/v3f_diagnostic_reconstruction.json",
+      "sha256": "136ac3e0df7dbc57a6fb27ea8763cd1cf5f0299ec959137d7e1797304f56019c"
+    }
+  },
+  "bootstrap": {
+    "count": 10000,
+    "seed": 20261058,
+    "unit": "condition cell"
+  },
+  "coordinate_pipeline": {
+    "leakage_control": "Reuse the same RAW LocatorResult translated to crop coordinates for RAW and all routed outputs; never re-localize outputs",
+    "localization": "Run frozen RAW locator once on full 8K RAW before restoration",
+    "measurement": "Frozen affine normalization to 1024 canonical pixels, fixed four half-open ROIs, MTF50-v2 sigma 0.75; valid only when canonical and native MTF50 are finite and in (0,0.5] cy/px",
+    "native_context": "center +/- 1.05 locator radii, clipped to sensor bounds",
+    "restoration": "C057-frozen C006 task-ON model and adapter in native crop coordinates",
+    "scale": "mtf_native_cy_px = mtf_canonical_cy_px * (320.0 / raw_locator_radius_px)"
+  },
+  "created_utc": "2026-10-21T01:34:39+00:00",
+  "development_timing": "The metadata-conditioned experts were calibrated from the preserved v3e public full-RAW result. After v3f showed a strong negative mean and CI but slightly overshot the 4.5m/ISO100 reference, only that condition's alpha was reduced from -1.5 to -0.9. This remains outcome-driven development; the parent-disjoint holdout has not been decoded and is reserved for one-shot independent confirmation after this v3g route is frozen.",
+  "gates": {
+    "all_active_condition_means_lt_zero": true,
+    "all_active_conditioned_expert_means_lt_zero": true,
+    "canonical_mtf50_nyquist_max_cy_px": 0.5,
+    "common_complete_case_minimum": 0.95,
+    "condition_bootstrap_95pct_ci_upper_lt_zero": true,
+    "each_distance_complete_case_minimum": 0.9,
+    "inactive_exact_identity": true,
+    "locator_coverage_minimum": 0.95,
+    "maximum_abs_change_dn": 12.0,
+    "maximum_introduced_clipping_fraction": 0.005,
+    "maximum_preclip_overshoot_fraction": 0.01,
+    "mean_delta_abs_error_lt_zero": true,
+    "native_mtf50_nyquist_max_cy_px": 0.5
+  },
+  "prospective_holdout": {
+    "active_condition_cells": 6,
+    "active_distance_cells": 3,
+    "active_frames": 47,
+    "condition_cells": 29,
+    "evidence_label": "strict parent-disjoint endpoint holdout with 6/10 active conditions and 3/5 active distances",
+    "failure_policy": "preserve every failure; no manual ROI, exclusion, threshold change, or outcome-based retry",
+    "frames": 280,
+    "hash_overlap_audit_after_access": "zero overlap with C057 exposed and C006 bank parent SHA-256 sets",
+    "inactive_condition_cells": 23,
+    "inventory_sha256": "e66f4100158304e067ccca2dbfe2dd373b1b926dbc564e703b49f7bbe31086a8",
+    "one_shot": "One attempt identity; interrupted execution may resume only with the same execution-freeze, inventory, code, and validated immutable progress."
+  },
+  "public_end_to_end_development": {
+    "active_conditions": "80km/h ISO100/200 at 2.5/3.5/4.5 m (six cells)",
+    "active_frames": 51,
+    "condition_cells": 15,
+    "frames": 137,
+    "inactive_safety_conditions": "80km/h ISO100/200 at 5.5/6.5 m (four exact-bypass cells)",
+    "inactive_safety_frames": 34,
+    "reference_conditions": "60km/h ISO100 at five distances",
+    "reference_frames": 52
+  },
+  "router": {
+    "active_distance_m_values": [
+      2.5,
+      3.5,
+      4.5
+    ],
+    "active_iso_values": [
+      100,
+      200
+    ],
+    "active_route": {
+      "cap_dn": 8.0,
+      "expert_table": [
+        {
+          "alpha": -0.2,
+          "cap_dn": 8.0,
+          "distance_m": 2.5,
+          "expert_seed": 1,
+          "iso": 100,
+          "sigma": 0.75
+        },
+        {
+          "alpha": -1.0,
+          "cap_dn": 8.0,
+          "distance_m": 2.5,
+          "expert_seed": 1,
+          "iso": 200,
+          "sigma": 0.75
+        },
+        {
+          "alpha": -1.5,
+          "cap_dn": 8.0,
+          "distance_m": 3.5,
+          "expert_seed": 1,
+          "iso": 100,
+          "sigma": 0.75
+        },
+        {
+          "alpha": -1.5,
+          "cap_dn": 8.0,
+          "distance_m": 3.5,
+          "expert_seed": 1,
+          "iso": 200,
+          "sigma": 0.75
+        },
+        {
+          "alpha": -0.9,
+          "cap_dn": 8.0,
+          "distance_m": 4.5,
+          "expert_seed": 0,
+          "iso": 100,
+          "sigma": 0.75
+        },
+        {
+          "alpha": -1.5,
+          "cap_dn": 8.0,
+          "distance_m": 4.5,
+          "expert_seed": 1,
+          "iso": 200,
+          "sigma": 0.75
+        }
+      ],
+      "route_id": "conditioned_expert_band_inverse_s0.75_cap8",
+      "sharp_gain": 0.0,
+      "sigma": 0.75
+    },
+    "active_speed_kmh": 80,
+    "expert_selection": "Frozen by distance and ISO from v3e public development before any holdout pixel access; no per-frame or holdout outcome selection",
+    "inactive_route": "model-free byte-exact RAW bypass for all other strata"
+  },
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-DEVELOPMENT-v3g",
+  "state": "V3G_FROZEN_BEFORE_PUBLIC_NATIVE_E2E_MODEL_OUTPUTS_AND_UNEXPOSED_PNG_ACCESS"
+}

@@ -1,0 +1,239 @@
+{
+  "claim_boundary": "C012 reuses C011 assets split into development and internal holdout. It cannot establish prospective external field efficacy or natural-crack physical-width accuracy.",
+  "d2": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261043,
+          "ci95_high": 0.001737589239809742,
+          "ci95_low": 0.0003863791802403714,
+          "clusters": 6,
+          "mean": 0.0009832663471189987,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 0.0001571510993840268,
+            "B": 0.0018093815948539704
+          },
+          "positive_tunnels": 2
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261053,
+          "ci95_high": 0.0016369354306299063,
+          "ci95_low": 0.0010334932894083106,
+          "clusters": 6,
+          "mean": 0.0013050576383632515,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 0.00018469686618259498,
+            "B": 0.002425418410543908
+          },
+          "positive_tunnels": 2
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261063,
+          "ci95_high": 0.00010753715106299834,
+          "ci95_low": 2.5496115189942228e-05,
+          "clusters": 6,
+          "mean": 6.343885717419108e-05,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 2.7927592252057854e-05,
+            "B": 9.89501220963243e-05
+          },
+          "positive_tunnels": 2
+        }
+      },
+      "d2_resnet34_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261041,
+          "ci95_high": 0.0001693896849284468,
+          "ci95_low": -0.0003789345533497135,
+          "clusters": 6,
+          "mean": -5.652067372755764e-05,
+          "negative_or_zero_tunnels": 1,
+          "per_tunnel": {
+            "A": 0.0009312350153472575,
+            "B": -0.0010442763628023728
+          },
+          "positive_tunnels": 1
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261051,
+          "ci95_high": 0.0011382986258941482,
+          "ci95_low": 0.0005934791756260918,
+          "clusters": 6,
+          "mean": 0.0009110646772701791,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 0.0009393965658482494,
+            "B": 0.0008827327886921088
+          },
+          "positive_tunnels": 2
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261061,
+          "ci95_high": -1.7724781394791237e-05,
+          "ci95_low": -7.15585665227444e-05,
+          "clusters": 6,
+          "mean": -4.753684762487493e-05,
+          "negative_or_zero_tunnels": 2,
+          "per_tunnel": {
+            "A": -9.028826714882234e-05,
+            "B": -4.785428100927526e-06
+          },
+          "positive_tunnels": 0
+        }
+      },
+      "d2_vgg16_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261042,
+          "ci95_high": 0.0037587228422147484,
+          "ci95_low": 0.0021189157741903766,
+          "clusters": 6,
+          "mean": 0.0028126662232754573,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 0.0033435518564644885,
+            "B": 0.002281780590086426
+          },
+          "positive_tunnels": 2
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261052,
+          "ci95_high": 0.004370367183993599,
+          "ci95_low": 0.0036176830647061307,
+          "clusters": 6,
+          "mean": 0.0039836389373980674,
+          "negative_or_zero_tunnels": 0,
+          "per_tunnel": {
+            "A": 0.0021935367497064374,
+            "B": 0.005773741125089697
+          },
+          "positive_tunnels": 2
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261062,
+          "ci95_high": -8.882143623720721e-05,
+          "ci95_low": -0.00012797254748228887,
+          "clusters": 6,
+          "mean": -0.00010792514754421538,
+          "negative_or_zero_tunnels": 2,
+          "per_tunnel": {
+            "A": -0.00014500870088873414,
+            "B": -7.084159419969663e-05
+          },
+          "positive_tunnels": 0
+        }
+      }
+    },
+    "files": 6,
+    "gate": {
+      "pass": false,
+      "requirements": "panel delta AUPRC mean and CI lower >0; every tunnel positive; matched FPR mean <=0; every detector mean delta AUPRC >=0"
+    },
+    "panel": {
+      "delta_auprc": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261031,
+        "ci95_high": 0.001624790284942714,
+        "ci95_low": 0.0008821757199187707,
+        "clusters": 6,
+        "mean": 0.0012464706322222994,
+        "negative_or_zero_tunnels": 0,
+        "per_tunnel": {
+          "A": 0.0014773126570652576,
+          "B": 0.0010156286073793412
+        },
+        "positive_tunnels": 2
+      },
+      "delta_f1": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261032,
+        "ci95_high": 0.002185861407965393,
+        "ci95_low": 0.0019473127607222722,
+        "clusters": 6,
+        "mean": 0.002066587084343832,
+        "negative_or_zero_tunnels": 0,
+        "per_tunnel": {
+          "A": 0.0011058767272457606,
+          "B": 0.0030272974414419043
+        },
+        "positive_tunnels": 2
+      },
+      "delta_matched_fpr": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261033,
+        "ci95_high": -1.5022717421993652e-05,
+        "ci95_low": -4.0692760831383155e-05,
+        "clusters": 6,
+        "mean": -3.067437933163308e-05,
+        "negative_or_zero_tunnels": 1,
+        "per_tunnel": {
+          "A": -6.912312526183287e-05,
+          "B": 7.774366598566713e-06
+        },
+        "positive_tunnels": 1
+      }
+    },
+    "parent_detector_clusters": 18,
+    "stage": "development",
+    "tiles": 2493
+  },
+  "global_gate_pass": false,
+  "payload_sha256": "453870ed8d5711950aee7f50d6e931dc2c3e250f73adf905f453b23eadec07e9",
+  "profiles": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": "unsharp_0p10",
+      "d2_resnet34_unet": "unsharp_0p10",
+      "d2_vgg16_unet": "inverse_base_residual_0p25"
+    },
+    "width": "inverse_base_residual_0p50"
+  },
+  "schema_version": "MERIT-C012-FIELD-MODEL-SUMMARY-v1",
+  "scientific_status": "DEVELOPMENT_ONLY",
+  "stage": "development",
+  "status": "COMPLETE_GATE_FAIL",
+  "width": {
+    "delta_absolute_error_mm": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261131,
+      "ci95_high": -0.060315555787142,
+      "ci95_low": -0.07145998228603802,
+      "clusters": 25,
+      "mean": -0.06649190871263871
+    },
+    "field_nonestimable_rate": 0.03,
+    "files": 75,
+    "gate": {
+      "pass": true,
+      "requirements": "delta absolute error mean and CI upper <0; at least 6/8 nominal widths improve; non-estimable rate increase <=2 percentage points"
+    },
+    "improved_nominal_widths": 8,
+    "nominal_width_delta_mm": {
+      "0.3": -0.07628729654423484,
+      "0.4": -0.07719830159966602,
+      "0.5": -0.07281897124247498,
+      "0.6": -0.06936596730746683,
+      "0.7": -0.06827081022794554,
+      "0.8": -0.06284716192730261,
+      "0.9": -0.05706845241435312,
+      "1.0": -0.053690378656929515
+    },
+    "paired_seed_rows": 582,
+    "primary_nominal_widths": 8,
+    "raw_mean_absolute_error_mm": 0.5171282894023793,
+    "raw_nonestimable_rate": 0.025,
+    "relative_error_reduction_percent": 12.857913611626289,
+    "source_nominal_clusters": 195,
+    "stage": "development"
+  }
+}

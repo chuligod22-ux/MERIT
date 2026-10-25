@@ -1,0 +1,12 @@
+{
+  "schema_version": "MERIT-C006-G09-FAILED-ATTEMPT-v1",
+  "attempt": 2,
+  "seed": 0,
+  "stage": "restoration_off checkpoint load",
+  "result_file_created": false,
+  "d3_read_or_used": false,
+  "failure": "torch.load(weights_only=True) rejected torch.torch_version.TorchVersion metadata",
+  "cause": "The locally generated, SHA-256-bound C006 checkpoint stores PyTorch version metadata using TorchVersion.",
+  "disposition": "Retain weights_only=True and allowlist only TorchVersion, matching the already-tested c006_smoke verifier; create a new v3 pre-run freeze because the adapter hash changes.",
+  "command_exit_code": 1
+}

@@ -1,0 +1,170 @@
+{
+  "all_three_severities_pass": true,
+  "cells": {
+    "1": {
+      "parameters": {
+        "angle_deg": 0.0,
+        "length_px": 3
+      },
+      "pass": true,
+      "scan_reproduction_absolute_error": {
+        "delta_gradient_parent_mean": 0.0,
+        "delta_overshoot_parent_mean": 0.0,
+        "delta_psnr_parent_mean_db": 0.0
+      },
+      "specification": {
+        "algorithm": "wiener",
+        "alpha": 1.0,
+        "regularization": 0.003
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.002228903937198497,
+          "ci95_low": -0.0023654111196899042,
+          "mean": -0.00229284771326506,
+          "parents": 33
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0589982124652262,
+          "ci95_low": -0.06901620538820596,
+          "mean": -0.0637936055321585,
+          "parents": 33
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0006387895263315208,
+          "ci95_low": -0.00079424827329631,
+          "mean": -0.0007146612765747263,
+          "parents": 33
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 8.703825457671378,
+          "ci95_low": 8.27642021959795,
+          "mean": 8.492731298917562,
+          "parents": 33
+        }
+      }
+    },
+    "2": {
+      "parameters": {
+        "angle_deg": 5.0,
+        "length_px": 7
+      },
+      "pass": true,
+      "scan_reproduction_absolute_error": {
+        "delta_gradient_parent_mean": 0.0,
+        "delta_overshoot_parent_mean": 0.0,
+        "delta_psnr_parent_mean_db": 0.0
+      },
+      "specification": {
+        "algorithm": "wiener",
+        "alpha": 1.0,
+        "regularization": 0.003
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.001993626101863232,
+          "ci95_low": -0.0021815436216649797,
+          "mean": -0.0020839002135096853,
+          "parents": 33
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.18214762994850223,
+          "ci95_low": -0.19678240390776686,
+          "mean": -0.18926335216471643,
+          "parents": 33
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.00028051621964991536,
+          "ci95_low": -0.0003738802265919124,
+          "mean": -6.465544698364806e-05,
+          "parents": 33
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 5.673745328566281,
+          "ci95_low": 4.603161759864624,
+          "mean": 5.1819570712902365,
+          "parents": 33
+        }
+      }
+    },
+    "3": {
+      "parameters": {
+        "angle_deg": 10.0,
+        "length_px": 13
+      },
+      "pass": true,
+      "scan_reproduction_absolute_error": {
+        "delta_gradient_parent_mean": 0.0,
+        "delta_overshoot_parent_mean": 0.0,
+        "delta_psnr_parent_mean_db": 0.0
+      },
+      "specification": {
+        "algorithm": "landweber",
+        "alpha": 1.0,
+        "iterations": 32,
+        "step": 1.5
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0009419596335977655,
+          "ci95_low": -0.0010514158997190835,
+          "mean": -0.00099310127199825,
+          "parents": 33
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.16715328622270714,
+          "ci95_low": -0.1786940917542035,
+          "mean": -0.17267285422845322,
+          "parents": 33
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0011659548111669156,
+          "ci95_low": -0.0021141912691139924,
+          "mean": -0.0016252425336984522,
+          "parents": 33
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 3.9190060723333313,
+          "ci95_low": 3.7736364957072754,
+          "mean": 3.8469193569873625,
+          "parents": 33
+        }
+      }
+    }
+  },
+  "completed_at_kst": "2026-10-24T01:29:14+09:00",
+  "crops": 50,
+  "device": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "identity_route": {
+    "maximum_absolute_change": 0.0,
+    "pass": true,
+    "rule": "Exact input bypass when a supported synthetic motion kernel is not supplied."
+  },
+  "max_scan_reproduction_absolute_error": {
+    "delta_gradient_parent_mean": 0.0,
+    "delta_overshoot_parent_mean": 0.0,
+    "delta_psnr_parent_mean_db": 0.0
+  },
+  "parents": 33,
+  "protocol_sha256": "f7d0417e440fbaa1f04eb3768323e8ef26c1a079720c36370cd3774f5788c71b",
+  "records": 150,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "8c9165c8d56f5cc5b83182065b7ee45d6f93ffb273894f55ec03c90b28faf2b8",
+  "scan_sha256": "fc2cc5a9c46f31232a8b9788a787152508406f0318b018b099138c5685f7dfaf",
+  "schema_version": "MERIT-C061-DEVELOPMENT-SELECTION-v1",
+  "scientific_status": "C006_33_PARENT_DEVELOPMENT_SELECTION",
+  "status": "PASS",
+  "torch_version": "2.11.0+cu128"
+}

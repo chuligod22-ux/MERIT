@@ -1,0 +1,5 @@
+tunnel,parent_count,raw_auprc,complete_path_auprc,delta_auprc,statistical_role
+A,5,0.344952516,0.466375942,0.121423426,top-level tunnel cluster; equal tunnel weight
+B,1,0.120061854,0.147631058,0.027569204,top-level tunnel cluster; equal tunnel weight
+C,5,0.293104156,0.491740695,0.198636539,top-level tunnel cluster; equal tunnel weight
+D,3,0.023976922,0.041979202,0.018002280,top-level tunnel cluster; equal tunnel weight

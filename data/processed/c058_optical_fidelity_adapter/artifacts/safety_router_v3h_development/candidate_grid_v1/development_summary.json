@@ -1,0 +1,146 @@
+{
+  "state": "DEVELOPMENT_COMPLETE",
+  "evidence_label": "development_only_former_holdout_exposed",
+  "frames": 84,
+  "reference_frames": 45,
+  "active_frames": 39,
+  "reference_mtf50_native_cy_px_by_distance": {
+    "2.5": 0.11485446666536983,
+    "3.5": 0.12082726167790189,
+    "4.5": 0.11391910212892131,
+    "5.5": 0.1054637669879041,
+    "6.5": 0.11447823556316264
+  },
+  "best_candidates": [
+    {
+      "run_key": "safe_s1_am0.75",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.003925851251089224,
+      "condition_bootstrap_95pct_ci": [
+        -0.00488624786578148,
+        -0.0028210066340231773
+      ],
+      "improved_conditions": 6,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 4.0
+    },
+    {
+      "run_key": "safe_s1_am0.50",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0026272500574480904,
+      "condition_bootstrap_95pct_ci": [
+        -0.0032733846409588783,
+        -0.001981282943881439
+      ],
+      "improved_conditions": 6,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 3.0
+    },
+    {
+      "run_key": "safe_s1_am0.25",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0005246590904786977,
+      "condition_bootstrap_95pct_ci": [
+        -0.0007958207232897271,
+        -0.0002651593781778233
+      ],
+      "improved_conditions": 6,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 1.0
+    },
+    {
+      "run_key": "safe_s1_am1.00",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.002507003704740838,
+      "condition_bootstrap_95pct_ci": [
+        -0.0042614057230837485,
+        -0.0007526016863979278
+      ],
+      "improved_conditions": 5,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 6.0
+    },
+    {
+      "run_key": "safe_s2_ap1.00",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0005874978137579909,
+      "condition_bootstrap_95pct_ci": [
+        -0.0016930139666086767,
+        0.0005185553239724061
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 4.0
+    },
+    {
+      "run_key": "safe_s2_ap0.50",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0005808366158210979,
+      "condition_bootstrap_95pct_ci": [
+        -0.0012317483141760163,
+        3.991675203247197e-05
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 2.0
+    },
+    {
+      "run_key": "safe_s2_ap0.75",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0005300030318316611,
+      "condition_bootstrap_95pct_ci": [
+        -0.0014369440827840128,
+        0.0004133011044846248
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 3.0
+    },
+    {
+      "run_key": "safe_s0_ap0.75",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.00040047156270659026,
+      "condition_bootstrap_95pct_ci": [
+        -0.00144260279873915,
+        0.0007864984484263771
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 4.0
+    },
+    {
+      "run_key": "safe_s0_ap1.00",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.0003346573769914552,
+      "condition_bootstrap_95pct_ci": [
+        -0.001784095179558946,
+        0.0012605606088737867
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 5.0
+    },
+    {
+      "run_key": "safe_s2_ap1.50",
+      "condition_cells": 6,
+      "mean_delta_abs_error_cy_px": -0.00033115440971390994,
+      "condition_bootstrap_95pct_ci": [
+        -0.0018511575395112358,
+        0.0012895302545395393
+      ],
+      "improved_conditions": 4,
+      "maximum_introduced_clipping_fraction": 0.0,
+      "maximum_headroom_limited_fraction": 0.0,
+      "maximum_abs_change_dn": 6.0
+    }
+  ]
+}

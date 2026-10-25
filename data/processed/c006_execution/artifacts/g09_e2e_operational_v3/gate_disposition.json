@@ -1,0 +1,16 @@
+{
+  "schema_version": "MERIT-C006-G09-ATTEMPT-DISPOSITION-v1",
+  "attempt_version": 3,
+  "seed_completed": 0,
+  "d3_read_or_used": false,
+  "condition_seconds": {
+    "raw": 16.227163899922743,
+    "off": 40.73791450005956,
+    "on": 41.41497249971144
+  },
+  "legacy_single_seed_projection_hours": 72.09266527790136,
+  "peak_gpu_memory_delta_mb": 3415,
+  "decision": "STOP remaining v3 seeds and revise only the operational batch size",
+  "rationale": "The 12-hour gate failed while measured incremental GPU memory was only 3.4 GiB. Increasing batch size from 8 to 64 is an operational throughput adjustment based solely on the non-evaluator synthetic benchmark and does not use D3 content or outcomes.",
+  "next_attempt": "Re-freeze all specifications as v4 with restoration and detector batch size 64. No other inference rule changes."
+}

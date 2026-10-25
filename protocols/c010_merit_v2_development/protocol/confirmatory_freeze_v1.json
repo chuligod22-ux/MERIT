@@ -1,0 +1,66 @@
+{
+  "bank_path": "<LOCAL_PATH_REDACTED>",
+  "bank_sha256": "d274000c7364e04c5acdf73913ca2e4f9b42a56b548b7d75dafd77b0be89f82d",
+  "base_checkpoints": {
+    "seed0": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "8b6b528ade6e02e28adee4f826354e89df7fe88adcfa566d0c5be5384d64dd13"
+    },
+    "seed1": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d91fc1c72ec9c4deeceeb1fd5e411093bf3fe4c2fcaccdd8bf64ad1a0bdfb46b"
+    },
+    "seed2": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6445800bbae0b23305c5b85a4685779c4d6e8f9d76448c63e03c318002e60f63"
+    }
+  },
+  "base_seeds": [
+    0,
+    1,
+    2
+  ],
+  "c006_c009_parent_overlap": 0,
+  "calibration": {
+    "blend_anchors": [
+      0.75,
+      1.0125,
+      1.075
+    ],
+    "outside_range": "Clamp to nearest anchor",
+    "severity_anchors": [
+      0.23333333333333334,
+      0.49166666666666664,
+      0.875
+    ],
+    "severity_definition": "mean(normalized blur prompt, normalized noise prompt)",
+    "spatial_residual": "disabled",
+    "task_loss": "disabled"
+  },
+  "claim_boundary": "Retrospective unused-condition, parent-disjoint synthetic paired confirmation. It is not new acquisition, real-field recovery, downstream crack-detection efficacy, physical-width recovery, or cross-site validation.",
+  "crops": 98,
+  "design_path": "<LOCAL_PATH_REDACTED>",
+  "design_sha256": "338ef95ad9bd68cc6aabd8ccdf73d76d17e0fdd3ea12e2cff5a8e82683111a86",
+  "evaluator_sha256": "b7aa22bb4df76ae0c0abdd1c1142bc37b9113e96fdd8ce8ab7372e34ada61cf8",
+  "frozen_at_kst": "2026-10-11T21:17:41+09:00",
+  "ledger_path": "<LOCAL_PATH_REDACTED>",
+  "ledger_sha256": "d72b63ffb78e5a08d79afcde595906fff329463d86f2707c46aeb84b01ad962f",
+  "manifest_path": "<LOCAL_PATH_REDACTED>",
+  "manifest_sha256": "147d76ce9d523f72a81d31d5f11bf7efb289ca5ce7664bcbfad47b8ed5ff0fb1",
+  "model_code_sha256": "78bf0f74d4e73739a37905d07eb29e16d7764e0e92813408366748bc913430ff",
+  "parents": 68,
+  "payload_sha256": "18c07c97bc3473528de331f9e15820d9103e72fd62fdf39b700666b7731d1a9a",
+  "schema_version": "MERIT-C010-V2-CONFIRMATORY-FREEZE-v1",
+  "status": "FROZEN_BEFORE_ANY_CONFIRMATORY_MODEL_OUTPUT",
+  "success_gates": {
+    "bootstrap_replicates": 5000,
+    "delta_gradient_mae_mean_lt": 0.0,
+    "delta_overshoot_p95_mean_lte": 0.0,
+    "delta_psnr_mean_gte_db": 0.1,
+    "delta_psnr_parent_bootstrap_ci_low_gt_db": 0.0,
+    "identity_mean_and_p99_lte": 1e-07,
+    "per_seed_required": true,
+    "unit": "physical parent after averaging crops, conditions, noise seeds, and where applicable model seeds"
+  },
+  "v3_protocol_sha256": "0b4b4df6a34eeca46409bb3c7b939ce34d04b5da1ae1ce94fbd2d91a4c46ea04"
+}

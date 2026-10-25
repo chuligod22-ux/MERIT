@@ -1,0 +1,15 @@
+{
+  "checked_at_kst": "2026-09-26T10:48:27+09:00",
+  "checks": {
+    "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+    "global_step": 8000,
+    "initial_state_sha256": "660010443b673f01f9a2e5e4898f514d7e91acec140830ab2e5d9d30afe05ae6",
+    "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821",
+    "trainable_parameters": 26126644
+  },
+  "family": "restormer",
+  "payload_sha256": "3ded0775e08f18b6809ff2c6b22884e6c3b874879ceddfef16ed2c1870adaaec",
+  "schema_version": "MERIT-C009-WP1-PAIRED-CHECK-v1",
+  "seed": 2,
+  "status": "PASS"
+}

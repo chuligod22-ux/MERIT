@@ -1,0 +1,31 @@
+{
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-PUBLIC-E2E-NO-GO-v2",
+  "state": "INFERENCE_COMPLETE_AGGREGATION_NO_GO",
+  "date": "2026-10-21",
+  "reason": "Two inactive RAW exact-bypass ROI measurements exceeded native-coordinate Nyquist after canonical-to-native scaling.",
+  "public_progress_files": 137,
+  "public_final_created": false,
+  "holdout_png_content_read": false,
+  "violations": [
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000068.png",
+      "roi_id": 1,
+      "locator_radius_px": 62.15669991296415,
+      "mtf50_canonical_cy_px": 0.1473093151222759,
+      "mtf50_native_cy_px": 0.758389375644707
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000072.png",
+      "roi_id": 1,
+      "locator_radius_px": 122.75909567527064,
+      "mtf50_canonical_cy_px": 0.4915657262586504,
+      "mtf50_native_cy_px": 1.2813798565188994
+    }
+  ],
+  "bindings": {
+    "runner_sha256": "32d2431af6a390a5df9a685cda6e48d01a6bc7ff4d2680e525b37edfec6abe85",
+    "test_sha256": "7db20f15cdf1601b39cd6ac1ccb3db29a8c5426de26ac53fee1abef2a24d9a9c",
+    "development_contract_sha256": "33b4b0c26354cd3494fedb91c52d09346287368ef7596f18f27cf2116e77c9e9"
+  },
+  "disposition": "Preserve v3c progress. Mark native-Nyquist-exceeding measurements invalid at measurement time, bind the correction to a new v3d contract, and rerun public E2E before any holdout access."
+}

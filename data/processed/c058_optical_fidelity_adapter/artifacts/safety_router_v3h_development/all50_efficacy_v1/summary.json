@@ -1,0 +1,37 @@
+{
+  "schema_version": "MERIT-C058-V3H-ALL50-EFFICACY-v1",
+  "state": "COMPLETE",
+  "created_utc": "2026-10-21T04:23:19+00:00",
+  "evidence_label": "existing-acquisition all-condition analysis; no parameter tuning from outputs",
+  "execution_freeze_sha256": "ba76a82a8d14660dcf608e63c1b6fa3844c2f3b8c5d7ecb5555bdb339a6d9650",
+  "frames_processed": 479,
+  "condition_cells": 50,
+  "measured_condition_cells": 50,
+  "roi_identities": 1737,
+  "paired_roi_identities": 1731,
+  "paired_frames": 479,
+  "improved_condition_cells": 32,
+  "tied_condition_cells": 4,
+  "worsened_condition_cells": 14,
+  "full50_mean_delta_abs_error_cy_px": 3.794726963748135e-05,
+  "full50_condition_bootstrap_95pct_ci": [
+    -0.00140452256202341,
+    0.001570293198622665
+  ],
+  "nonreference45_mean_delta_abs_error_cy_px": -0.0007765666249170981,
+  "reference5_mean_delta_abs_error_cy_px": 0.007368572320628697,
+  "safety_bypass_frames": 39,
+  "maximum_unprojected_overshoot_fraction": 0.5559820442408828,
+  "maximum_headroom_limited_fraction": 0.5565494948676117,
+  "maximum_introduced_clipping_fraction": 0.0,
+  "maximum_abs_change_dn": 6.0,
+  "integrity_checks": {
+    "all_50_conditions_measured": true,
+    "all_479_frames_processed": true,
+    "all_1737_roi_identities_present_per_arm": true,
+    "all_results_classified": true,
+    "no_introduced_clipping": true,
+    "route_unchanged_from_freeze": true
+  },
+  "interpretation": "All 50 condition cells were processed with one frozen route; report favorable and unfavorable cells without selection."
+}

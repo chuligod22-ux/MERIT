@@ -1,0 +1,179 @@
+{
+  "schema_version": "MERIT-C005-E2E-BENCHMARK-v1",
+  "mode": "PRODUCTION",
+  "created_utc": "2026-09-20T05:36:02.965959+00:00",
+  "spec_sha256": "878d099e2009c059221a5502b1f4a1270f385c466717790dba1ed8dfdf6fcc1a",
+  "input_shape": [
+    5460,
+    8192,
+    3
+  ],
+  "condition_seconds": {
+    "raw": 14.181012700079009,
+    "off": 30.879669499816373,
+    "on": 30.071566300233826
+  },
+  "stages": {
+    "detector_raw": {
+      "seconds": 13.781682499917224,
+      "command": [
+        "<LOCAL_PATH_REDACTED>",
+        "-X",
+        "utf8",
+        "<LOCAL_PATH_REDACTED>",
+        "--protocol",
+        "<LOCAL_PATH_REDACTED>",
+        "detect",
+        "--input",
+        "<LOCAL_PATH_REDACTED>",
+        "--output",
+        "<LOCAL_PATH_REDACTED>"
+      ],
+      "stdout_tail": "{\"checkpoint_sha256\": \"aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc\", \"output_shape\": [5460, 8192], \"peak_cuda_memory_bytes\": 9730049024, \"probability_max\": 0.004214329179376364, \"probability_min\": 3.2236697734333575e-05, \"stage\": \"detect\"}\n",
+      "stderr_tail": "",
+      "gpu_memory_baseline_mb": 14041,
+      "gpu_memory_peak_mb": 21938,
+      "gpu_memory_peak_delta_mb": 7897
+    },
+    "endpoint_raw": {
+      "seconds": 0.3993302001617849,
+      "result": {
+        "label": "crack_visible",
+        "eligible_component_count": 0,
+        "valid_pixels": 44728320,
+        "roi_count": 1,
+        "roi_hit_count": 0,
+        "frame_roi_hit_fraction": 0.0
+      }
+    },
+    "restoration_off": {
+      "seconds": 16.996407700004056,
+      "command": [
+        "<LOCAL_PATH_REDACTED>",
+        "-X",
+        "utf8",
+        "<LOCAL_PATH_REDACTED>",
+        "--protocol",
+        "<LOCAL_PATH_REDACTED>",
+        "restore",
+        "--arm",
+        "task_off",
+        "--seed",
+        "1",
+        "--input",
+        "<LOCAL_PATH_REDACTED>",
+        "--output",
+        "<LOCAL_PATH_REDACTED>"
+      ],
+      "stdout_tail": "{\"checkpoint_sha256\": \"f85662536c91977ed3d14b9a8d89aaf0da0ea74d0e7910e6076796cf159e368b\", \"output_shape\": [5460, 8192, 3], \"peak_cuda_memory_bytes\": 13893552640, \"run\": \"task_off_seed1\", \"stage\": \"restore\"}\n",
+      "stderr_tail": "",
+      "gpu_memory_baseline_mb": 1899,
+      "gpu_memory_peak_mb": 24194,
+      "gpu_memory_peak_delta_mb": 22295
+    },
+    "detector_off": {
+      "seconds": 13.513706999830902,
+      "command": [
+        "<LOCAL_PATH_REDACTED>",
+        "-X",
+        "utf8",
+        "<LOCAL_PATH_REDACTED>",
+        "--protocol",
+        "<LOCAL_PATH_REDACTED>",
+        "detect",
+        "--input",
+        "<LOCAL_PATH_REDACTED>",
+        "--output",
+        "<LOCAL_PATH_REDACTED>"
+      ],
+      "stdout_tail": "{\"checkpoint_sha256\": \"aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc\", \"output_shape\": [5460, 8192], \"peak_cuda_memory_bytes\": 9730049024, \"probability_max\": 0.00392732210457325, \"probability_min\": 9.153202881861944e-06, \"stage\": \"detect\"}\n",
+      "stderr_tail": "",
+      "gpu_memory_baseline_mb": 1877,
+      "gpu_memory_peak_mb": 21938,
+      "gpu_memory_peak_delta_mb": 20061
+    },
+    "endpoint_off": {
+      "seconds": 0.36955479998141527,
+      "result": {
+        "label": "crack_visible",
+        "eligible_component_count": 0,
+        "valid_pixels": 44728320,
+        "roi_count": 1,
+        "roi_hit_count": 0,
+        "frame_roi_hit_fraction": 0.0
+      }
+    },
+    "restoration_on": {
+      "seconds": 16.811733900103718,
+      "command": [
+        "<LOCAL_PATH_REDACTED>",
+        "-X",
+        "utf8",
+        "<LOCAL_PATH_REDACTED>",
+        "--protocol",
+        "<LOCAL_PATH_REDACTED>",
+        "restore",
+        "--arm",
+        "task_on",
+        "--seed",
+        "1",
+        "--input",
+        "<LOCAL_PATH_REDACTED>",
+        "--output",
+        "<LOCAL_PATH_REDACTED>"
+      ],
+      "stdout_tail": "{\"checkpoint_sha256\": \"8e5f1482376a8e4061627c0450f65c56c771aeeb6944c9e012e4b4092337dffd\", \"output_shape\": [5460, 8192, 3], \"peak_cuda_memory_bytes\": 13893552640, \"run\": \"task_on_seed1\", \"stage\": \"restore\"}\n",
+      "stderr_tail": "",
+      "gpu_memory_baseline_mb": 1899,
+      "gpu_memory_peak_mb": 24194,
+      "gpu_memory_peak_delta_mb": 22295
+    },
+    "detector_on": {
+      "seconds": 12.8915184000507,
+      "command": [
+        "<LOCAL_PATH_REDACTED>",
+        "-X",
+        "utf8",
+        "<LOCAL_PATH_REDACTED>",
+        "--protocol",
+        "<LOCAL_PATH_REDACTED>",
+        "detect",
+        "--input",
+        "<LOCAL_PATH_REDACTED>",
+        "--output",
+        "<LOCAL_PATH_REDACTED>"
+      ],
+      "stdout_tail": "{\"checkpoint_sha256\": \"aa5cf2bb42d042c9b3c4b2e92553844bc2ef79d8b8cbb30f72f7107f2c9393bc\", \"output_shape\": [5460, 8192], \"peak_cuda_memory_bytes\": 9730049024, \"probability_max\": 0.003951299004256725, \"probability_min\": 4.986236490367446e-06, \"stage\": \"detect\"}\n",
+      "stderr_tail": "",
+      "gpu_memory_baseline_mb": 1894,
+      "gpu_memory_peak_mb": 21948,
+      "gpu_memory_peak_delta_mb": 20054
+    },
+    "endpoint_on": {
+      "seconds": 0.3683140000794083,
+      "result": {
+        "label": "crack_visible",
+        "eligible_component_count": 0,
+        "valid_pixels": 44728320,
+        "roi_count": 1,
+        "roi_hit_count": 0,
+        "frame_roi_hit_fraction": 0.0
+      }
+    }
+  },
+  "projection": {
+    "cohort_frames": 988,
+    "raw_runs": 1,
+    "off_runs": 3,
+    "on_runs": 3,
+    "projected_total_seconds": 194670.30345902685,
+    "projected_total_hours": 54.075084294174125
+  },
+  "peak_gpu_memory_delta_mb": 22295,
+  "gate": {
+    "stop_if_projected_hours_gt": 12.0,
+    "stop_if_not_completed_by_kst": "2026-09-15T12:00:00+09:00",
+    "memory_measurement_available": true,
+    "pass": false
+  }
+}

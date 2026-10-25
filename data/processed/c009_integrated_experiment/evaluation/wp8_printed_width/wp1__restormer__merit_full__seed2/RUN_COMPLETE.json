@@ -1,0 +1,59 @@
+{
+  "conditions_per_roi": 2,
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 1799.5610829000361,
+  "model_id": "wp1__restormer__merit_full__seed2",
+  "payload_sha256": "7b525c46e17228e3ca648572ce4151ba8349aba569b82ae21eb586180a09fec3",
+  "progress_manifest_sha256": "22227258ba19cbd215bfb0692dfc6c1ef76cfa1480dc4015fa1b0549d8ac3b8b",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "1ac141c3c9afa2511aecbba6f1b1c2aa4214809171333efdcbc348e40e6a84e9",
+    "completion_payload_sha256": "3125f46a3a05f55ef3d3bd1e058834e0d1d192564ca5eab37ecad5dba2cdf64b",
+    "model": {
+      "class": "Restormer",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "family": "restormer",
+      "kwargs": {
+        "LayerNorm_type": "WithBias",
+        "bias": false,
+        "dim": 48,
+        "dual_pixel_task": false,
+        "ffn_expansion_factor": 2.66,
+        "heads": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "inp_channels": 3,
+        "num_blocks": [
+          4,
+          6,
+          6,
+          8
+        ],
+        "num_refinement_blocks": 4,
+        "out_channels": 3
+      },
+      "module": "basicsr.models.archs.restormer_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 26126644,
+      "repository": "https://github.com/swz30/Restormer",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "trainable_parameters": 26126644
+    },
+    "model_id": "wp1__restormer__merit_full__seed2"
+  },
+  "roi_per_frame": 10,
+  "schema_version": "MERIT-C009-WIDTH-RUN-COMPLETE-v1",
+  "source_frames": 50,
+  "specification": {
+    "arm": "merit_full",
+    "family": "restormer",
+    "kind": "wp1",
+    "seed": 2
+  },
+  "status": "PASS"
+}

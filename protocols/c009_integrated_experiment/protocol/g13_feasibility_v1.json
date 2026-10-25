@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-09-24T17:44:13.746515+00:00",
+  "current_scope_budget": {
+    "amount_over_ceiling_gpu_hours": 30.06428687418719,
+    "ceiling_gpu_hours": 144.0,
+    "reason": "The lower bound already exceeds the ceiling before detector inference, metrics, I/O, validation, retries, and writing/QA.",
+    "training_plus_restoration_forward_lower_bound_gpu_hours": 174.0642868741872,
+    "verdict": "NO_GO"
+  },
+  "deadline_state": {
+    "current_deadline_verdict": "NO_GO",
+    "current_official_deadline": "2026-09-27",
+    "journal_decision": "PENDING",
+    "requested_deadline": "2026-10-25",
+    "second_extension_request_sent": "2026-09-24"
+  },
+  "decision": {
+    "next_gate": "Author scope decision plus journal extension response, then end-to-end pilot of the approved scope.",
+    "start_full_training_now": false
+  },
+  "evidence": {
+    "mprnet": {
+      "inference_smoke": "smoke/g13_mprnet_inference_smoke_b32_v2.json",
+      "inference_smoke_sha256": "38e4be574220a88b9097aff6bf8529d334dac100168e8849c7d0810039ba2977",
+      "training_smoke": "smoke/g11_official_mprnet_smoke_v3.json",
+      "training_smoke_sha256": "67381aafca1204ad04e2bf14aded5fe48a42b4ce83253b487f1b90d1698c36ca"
+    },
+    "nafnet": {
+      "inference_smoke": "smoke/g13_nafnet_inference_smoke_b32_v2.json",
+      "inference_smoke_sha256": "7b342441e58d432bffc890d20f87dcdbc3b35a41951cbbe41661657dbadf9c45",
+      "training_smoke": "smoke/g11_official_nafnet_smoke_v3.json",
+      "training_smoke_sha256": "9a4e5b424bebca13a14dd8b0eaad931aa81e2c0a4d58c05757c6c0d892b10721"
+    },
+    "restormer": {
+      "inference_smoke": "smoke/g13_restormer_inference_smoke_b32_v2.json",
+      "inference_smoke_sha256": "16a1399e83ede82742a99add36cf3336429787914e2dd9e5745377f358f0241b",
+      "training_smoke": "smoke/g11_official_restormer_smoke_v3.json",
+      "training_smoke_sha256": "6b45d94df2b5ba1cbbdd019a9c42773c53a0e5f762232398912701f5173d377f"
+    }
+  },
+  "full_training_allowed": false,
+  "g11_closure": {
+    "path": "protocol/g11_closure_v1.json",
+    "sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+    "status": "CLOSED_WITH_DISCLOSED_PARTIAL_FLOP_COVERAGE"
+  },
+  "gate": "G13",
+  "official_full_frame_inference_projection_gpu_hours": {
+    "checkpoints_per_family": 6,
+    "cohort_frames": 974,
+    "coverage": "restoration model forward only; image decode, tiling/blending, detector inference, metrics, artifact I/O, and process startup excluded",
+    "families": {
+      "mprnet": {
+        "batch_size": 32,
+        "peak_cuda_memory_bytes": 51171190272,
+        "seconds_per_frame_per_checkpoint": 31.27755384091288,
+        "six_checkpoints_times_974_frames_gpu_hours": 50.773895735081915,
+        "tile_count_per_frame": 400
+      },
+      "nafnet": {
+        "batch_size": 32,
+        "peak_cuda_memory_bytes": 6397715968,
+        "seconds_per_frame_per_checkpoint": 5.779536360409111,
+        "six_checkpoints_times_974_frames_gpu_hours": 9.382114025064123,
+        "tile_count_per_frame": 400
+      },
+      "restormer": {
+        "batch_size": 32,
+        "peak_cuda_memory_bytes": 30584861184,
+        "seconds_per_frame_per_checkpoint": 29.826115018874408,
+        "six_checkpoints_times_974_frames_gpu_hours": 48.41772671397279,
+        "tile_count_per_frame": 400
+      }
+    },
+    "total": 108.57373647411883
+  },
+  "official_training_projection_gpu_hours": {
+    "coverage": "model and frozen loss only; dataloader, checkpoint I/O, validation, retries, and process startup excluded",
+    "total": 65.49055040006836,
+    "wp1_18_runs": 47.92223320032159,
+    "wp2_additional_zero_prompt_full_3_runs": 5.019519199927648,
+    "wp3_two_additional_structures_6_runs_at_1_25x_nafnet_full": 12.548797999819119
+  },
+  "result_blind_amendment_candidate": {
+    "model_only_lower_bound_gpu_hours": 74.87266442513248,
+    "remaining_ceiling_reserve_gpu_hours": 69.12733557486752,
+    "required_before_execution": [
+      "Author approval of the scientific scope change before any full result is observed.",
+      "A versioned d5690 addendum and amended G13 artifact with exact evaluation cohorts and hashes.",
+      "A measured end-to-end pilot including decode, tile blend, detector, metrics, and artifact I/O.",
+      "Explicit journal approval of a deadline that leaves at least 10 calendar days after numerical freeze for writing and QA."
+    ],
+    "scientific_change": "Retain three-backbone paired training and controlled D0/D1 comparisons, but run the full 974-frame high-resolution field stream only for the predeclared primary NAFNet family. Evaluate Restormer and MPRNet on the frozen controlled endpoints and independent external tile endpoint, not on all 974 full frames.",
+    "status": "NOT_APPROVED_NOT_FROZEN",
+    "what_is_preserved": [
+      "three official backbone paired comparison on controlled paired endpoints",
+      "NAFNet full-cohort field evaluation",
+      "independent external four-tunnel crack endpoint",
+      "prompt, architecture, OOD, and printed-width endpoints"
+    ],
+    "what_is_reduced": "Restormer and MPRNet are not run through every one of the 974 high-resolution D3 frames."
+  },
+  "schema_version": "MERIT-C009-G13-FEASIBILITY-v1",
+  "status": "BLOCKED_NO_GO_CURRENT_SCOPE",
+  "verifier_sha256": "8b5abb78b22c9160fb7acd174bc7d79807047449aac3e9afea786139d2c6d0cd"
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "MERIT-C058-RAW-LOCATOR-DEVELOPMENT-CONTRACT-v1",
+  "state": "FROZEN_AFTER_50_CELL_REPRESENTATIVE_BEFORE_479_FRAME_VALIDATION",
+  "scope": {
+    "development_frames": 479,
+    "development_roi_records": 1737,
+    "condition_cells": 50,
+    "prohibited_input": "Any frame absent from the frozen C057 cohort, including the same-acquisition unexposed frame holdout",
+    "claim_boundary": "Development validation only; neither an independent acquisition nor an external confirmation"
+  },
+  "inputs": {
+    "cohort_path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+    "cohort_sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274",
+    "raw_root": "<LOCAL_PATH_REDACTED>",
+    "locator_input": "8K RAW grayscale pixels only",
+    "validation_only": "Pre-existing extract pixels, Imatest ROI boxes, and Imatest MTF50 are accessed only after RAW localization"
+  },
+  "finite_locator": {
+    "working_size_width_height": [1024, 683],
+    "search_width_height": [420, 280],
+    "top_edge_padding_px": 120,
+    "radius_grid_px_at_working_size": [25, 32, 40, 50, 62, 76, 92, 110],
+    "angle_grid_degrees": [-15, -10, -5, 0, 5, 10, 15],
+    "synthetic_template": "two-light/two-dark diagonal checker inside 0.88R; axes within 0.08R excluded",
+    "candidate_score": "absolute TM_CCOEFF_NORMED",
+    "minimum_accepted_score": 0.45,
+    "failure_policy": "fail closed"
+  },
+  "normalization": {
+    "method": "rotation-and-isotropic-scale affine rectification around the detected circle",
+    "canonical_size_px": 1024,
+    "canonical_radius_px": 320,
+    "limitation": "The top-clipped target does not expose four board corners, so full projective board homography is not estimated"
+  },
+  "four_roi_geometry_in_canonical_radius_units": [
+    {"roi_id": 1, "orientation": "vertical_edge", "center_dx": 0.0, "center_dy": -0.50, "width": 0.36, "height": 0.62},
+    {"roi_id": 2, "orientation": "vertical_edge", "center_dx": 0.0, "center_dy": 0.50, "width": 0.36, "height": 0.62},
+    {"roi_id": 3, "orientation": "horizontal_edge", "center_dx": -0.53, "center_dy": 0.0, "width": 0.62, "height": 0.36},
+    {"roi_id": 4, "orientation": "horizontal_edge", "center_dx": 0.53, "center_dy": 0.0, "width": 0.62, "height": 0.36}
+  ],
+  "development_gates": {
+    "localization_coverage_minimum": 0.95,
+    "condition_cells_required": 50,
+    "median_center_error_maximum_radii": 0.15,
+    "p95_center_error_maximum_radii": 0.35,
+    "roi_mtf50_valid_fraction_minimum": 0.95,
+    "exact_crop_fraction_minimum": 0.95,
+    "roi_mtf50_spearman_vs_imatest_minimum": 0.80,
+    "roi_mtf50_mae_vs_imatest_maximum_cy_px": 0.03
+  },
+  "pre_full_validation_evidence": {
+    "representative_frames": 50,
+    "representative_condition_cells": 50,
+    "localization_coverage": 1.0,
+    "median_center_error_radii": 0.0326897999596215,
+    "p95_center_error_radii": 0.0971013468144646,
+    "roi_mtf50_valid_fraction": 1.0,
+    "roi_mtf50_spearman_vs_imatest": 0.8908070858510643,
+    "roi_mtf50_mae_vs_imatest_cy_px": 0.016994772547071626
+  },
+  "source": {
+    "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_raw_locator.py",
+    "sha256_before_full_validation": "73e2bc9d8d449a1a8e75b8c91dfc675f1dda756912347f8923e94cd0add40354"
+  }
+}

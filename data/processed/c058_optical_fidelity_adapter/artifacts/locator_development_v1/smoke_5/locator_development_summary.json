@@ -1,0 +1,69 @@
+{
+  "schema_version": "MERIT-C058-RAW-LOCATOR-DEVELOPMENT-v1",
+  "created_utc": "2026-10-20T13:39:42+00:00",
+  "scope": "479 exposed C057 frames only; same-acquisition development validation",
+  "raw_only_locator": true,
+  "reference_used_only_after_localization": true,
+  "frames_expected": 5,
+  "frames_located": 5,
+  "localization_coverage": 1.0,
+  "condition_cells_located": 5,
+  "extract_shape_counts": [
+    {
+      "extract_width": 1850,
+      "extract_height": 1233,
+      "count": 1
+    },
+    {
+      "extract_width": 2012,
+      "extract_height": 1341,
+      "count": 1
+    },
+    {
+      "extract_width": 2016,
+      "extract_height": 1344,
+      "count": 1
+    },
+    {
+      "extract_width": 2028,
+      "extract_height": 1352,
+      "count": 1
+    },
+    {
+      "extract_width": 2040,
+      "extract_height": 1360,
+      "count": 1
+    }
+  ],
+  "crop_origin": {
+    "x_min": 335,
+    "x_max": 1511,
+    "y_min": 0,
+    "y_max": 0,
+    "maximum_sparse_mae": 0.0
+  },
+  "center_error_radii": {
+    "median": 0.08256099419865374,
+    "p95": 0.10024371551493239,
+    "maximum": 0.10125759641646664
+  },
+  "radius_error_fraction": {
+    "median": 0.09199339661637895,
+    "p95": 0.13633727902670467
+  },
+  "mtf50_cross_validation": {
+    "roi_attempts": 20,
+    "roi_valid": 20,
+    "valid_fraction": 1.0,
+    "spearman_rho_vs_imatest": 0.9624060150375938,
+    "mae_cy_px_vs_imatest": 0.01908251331767076
+  },
+  "gates": {
+    "coverage_at_least_0_95": true,
+    "condition_cells_equal_50": false,
+    "median_center_error_at_most_0_15_radius": true,
+    "p95_center_error_at_most_0_35_radius": true,
+    "roi_valid_fraction_at_least_0_95": true,
+    "crop_sparse_mae_equal_0": true
+  }
+}

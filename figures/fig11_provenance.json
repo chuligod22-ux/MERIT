@@ -1,0 +1,85 @@
+{
+  "artifacts": {
+    "fig11.pdf": "645e07a3d7c4a556e7e8e3d8f9585f9e1b0f44999ac56ee51d1a2037b75225f7",
+    "fig11.png": "a2329ffec1d97fc94bc50007473261a1474058e74307f9bfe9e83cef2c1aa44d"
+  },
+  "claim_boundary": "Descriptive dataset context only; quantitative performance and expert annotations are reported in Figures 12--14 and Tables 5--6.",
+  "schema_version": "MERIT-R3-6-FIG11-FOUR-TUNNEL-v4",
+  "selected_unfoldings": [
+    {
+      "display_crop": "none",
+      "display_rotation_degrees_clockwise": 90,
+      "evaluated_parent_ids": [
+        "0036",
+        "0037",
+        "0038",
+        "0039",
+        "0040"
+      ],
+      "parent": "0038",
+      "source_dimensions_px": [
+        8704,
+        23040
+      ],
+      "source_relative_path": "01.Bigeye_data\\img\\0038.bmp",
+      "source_sha256": "298c8d6248aad00cc28ef592fd1dc48bcf646ff401c7ef214e1c68a9685ccc36",
+      "tunnel": "A"
+    },
+    {
+      "display_crop": "none",
+      "display_rotation_degrees_clockwise": 90,
+      "evaluated_parent_ids": [
+        "0055"
+      ],
+      "parent": "0055",
+      "source_dimensions_px": [
+        8704,
+        20480
+      ],
+      "source_relative_path": "01.Bigeye_data\\img\\0055.bmp",
+      "source_sha256": "4528c6a5e4bd7ddc8966d4a92ad5a9935fadfb12888a96662474b276c1575ce9",
+      "tunnel": "B"
+    },
+    {
+      "display_crop": "none",
+      "display_rotation_degrees_clockwise": 90,
+      "evaluated_parent_ids": [
+        "0116",
+        "0117",
+        "0118",
+        "0119",
+        "0120"
+      ],
+      "parent": "0118",
+      "source_dimensions_px": [
+        9728,
+        23040
+      ],
+      "source_relative_path": "01.Bigeye_data\\img\\0118.bmp",
+      "source_sha256": "ca92e27aa1694b6f900b17e5a2fd1e43f8d3efb584a1aa8fc8ffee2bcd3caeab",
+      "tunnel": "C"
+    },
+    {
+      "display_crop": "none",
+      "display_rotation_degrees_clockwise": 90,
+      "evaluated_parent_ids": [
+        "0211",
+        "0212",
+        "0213"
+      ],
+      "parent": "0212",
+      "source_dimensions_px": [
+        9728,
+        17920
+      ],
+      "source_relative_path": "01.Bigeye_data\\img\\0212.bmp",
+      "source_sha256": "69345f999f142d135393cc571da64cda4fceb63c82fac14918304f6b1d97ff5a",
+      "tunnel": "D"
+    }
+  ],
+  "selection_rule": "Within each tunnel, sort the evaluated physical parent identifiers and select the central identifier (upper median for an even count). Display the complete parent-level lining unfolding with a 90-degree clockwise display rotation and no spatial crop. No restoration, detector, crack, or width outcome is used.",
+  "source": {
+    "path": "c014_existing_four_tunnel_validation\\protocol\\natural_width_cross_sections_v1.csv",
+    "sha256": "fd3a4c92b33014c1ac881f15ed53c26bfc99ae1e7690321ebbcf51f6c35bd431"
+  }
+}

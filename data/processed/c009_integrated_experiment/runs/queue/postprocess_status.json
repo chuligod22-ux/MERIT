@@ -1,0 +1,9 @@
+{
+  "freeze_sha256": "d9c7a69e57dc506ede7753df83854353d91c25084e3c27b6766b8a41693ba19a",
+  "full_evaluation_status": "waiting_for_training",
+  "pid": 29772,
+  "schema_version": "MERIT-C009-POSTPROCESS-STATUS-v1",
+  "started_at_kst": "2026-09-25T09:19:24+09:00",
+  "status": "waiting_for_full_evaluation",
+  "updated_at_kst": "2026-09-25T09:27:24+09:00"
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "MERIT-C009-G11-IMPLEMENTATION-v0",
+  "created_date": "2026-09-24",
+  "gate": "G11",
+  "status": "BLOCKED",
+  "full_training_allowed": false,
+  "blocking_reason": "The official source snapshots are not present locally, and the exact MambaIR branch commit, dependency build, adapter diff, parameter counts, FLOPs, and official-implementation smoke have not been frozen.",
+  "primary_design": {
+    "comparison": "within-backbone paired base package versus MERIT full package",
+    "capacity_policy": "native official family configurations; disclose parameters/FLOPs and do not claim cross-family architectural superiority",
+    "package_parameter_rule": "within each backbone, base and MERIT arms must have identical trainable parameter count",
+    "input": {
+      "channels": 3,
+      "channel_0": "degraded grayscale image in [0,1]",
+      "channel_1": "directional blur prompt map; zero for base, correct frozen oracle for MERIT",
+      "channel_2": "noise prompt map; zero for base, correct frozen oracle for MERIT"
+    },
+    "output": {
+      "channels": 1,
+      "rule": "residual added to degraded channel then clipped to [0,1]",
+      "patch_requirement": "the same adapter contract must be applied and diffed for all three official backbones"
+    },
+    "training": {
+      "seeds": [0, 1, 2],
+      "steps": 8000,
+      "batch_size": 4,
+      "patch_size": 448,
+      "optimizer": "AdamW",
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "scheduler": "CosineAnnealingLR with T_max=8000",
+      "precision": "bfloat16 mixed precision",
+      "checkpoint_selection": "fixed final step only; recovery checkpoints cannot be selected by outcome",
+      "early_stopping": false,
+      "base_loss": "L1 + gradient + 0.1*FFT",
+      "merit_full_loss": "L1 + gradient + 0.1*FFT + 5.0*DeepCrack probability L1",
+      "data_order": "same frozen D0 parent-disjoint bank and seed-specific stream within every paired arm"
+    }
+  },
+  "official_candidates": {
+    "nafnet": {
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "branch": "main",
+      "candidate_commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "candidate_version": "1.2.0",
+      "license": "MIT for NAFNet code; bundled BasicSR notices must be retained",
+      "candidate_configuration": "official NAFNet GoPro width32 architecture as the deblurring-capable native configuration",
+      "local_snapshot": null,
+      "local_tree_sha256": null,
+      "adapter_patch_sha256": null,
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    },
+    "restormer": {
+      "repository": "https://github.com/swz30/Restormer",
+      "branch": "main",
+      "candidate_commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "license": "MIT",
+      "candidate_configuration": "official single-image motion-deblurring Restormer configuration; exact YAML and architecture arguments pending local snapshot",
+      "local_snapshot": null,
+      "local_tree_sha256": null,
+      "adapter_patch_sha256": null,
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    },
+    "mambair": {
+      "repository": "https://github.com/csguoh/MambaIR",
+      "branch": "mambair",
+      "candidate_commit": null,
+      "license": "Apache-2.0",
+      "candidate_configuration": "ECCV 2024 MambaIR original branch, one-to-one restoration configuration; do not substitute MambaIRv2 or local MambaLite",
+      "dependencies_to_freeze": ["mamba_ssm", "causal_conv1d", "PyTorch", "CUDA"],
+      "local_snapshot": null,
+      "local_tree_sha256": null,
+      "adapter_patch_sha256": null,
+      "parameters": null,
+      "flops_448": null,
+      "smoke_status": "NOT_RUN"
+    }
+  },
+  "local_surrogate_audit": {
+    "repository_head": "4e27a2a45a3479b108f455e327d2da045fecde08",
+    "source_files_clean": true,
+    "license": "MIT",
+    "nafnet_c006": {
+      "path": "40_수정본/c006_execution/c006_model.py",
+      "sha256": "f857022b0ca885b7cfb3dc5f71706cc64a5ba8c515ccfcd1d6111b9776ba0618",
+      "status": "local C006 implementation; not an official upstream snapshot"
+    },
+    "restormer_lite_and_mamba_lite": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "source_commit": "883085abf10c92b9c07d009514fcc6559c1dfc9a",
+      "sha256": "7d49a4cd044ac2c84f7d27b94111131e7a89d4b6c749e5144838afa48c9790d5",
+      "status": "local reimplementations; forbidden as confirmatory official-backbone evidence"
+    },
+    "training_script": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4c954a2d2b783c8dd76ab61af3c29723edbe94ad7c5cd768bcde68b3ad881fb9"
+    },
+    "evaluation_script": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ddc398a278d1450e26a62ad89dd8337e7f009991a6323cc0a03d7fba3baa2daf"
+    },
+    "smoke_artifact": {
+      "path": "40_수정본/c009_integrated_experiment/smoke/local_surrogate_smoke_v1.json",
+      "confirmatory_use": false,
+      "status": "lower-bound timing only"
+    }
+  },
+  "closure_requirements": [
+    "Place read-only official source snapshots under c009_integrated_experiment/third_party and record tree hashes and retained licenses.",
+    "Resolve and record the exact MambaIR mambair-branch commit.",
+    "Generate a minimal reviewable adapter patch for 3-channel prompt input and 1-channel residual output for each family.",
+    "Record exact architecture arguments, trainable parameter count, FLOPs at 448x448, and package-arm equality.",
+    "Freeze all dependency versions and show a forward/backward smoke for base and MERIT arms without OOM.",
+    "Recompute G13 with official-model timings before any full run."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "MERIT-C058-RAW-LOCATOR-FINAL-AUDIT-v2",
+  "result": "PASS",
+  "raw_locator_frames": {
+    "attempted": 479,
+    "score_gate_passed": 479,
+    "coverage": 1.0
+  },
+  "reference_validation": {
+    "eligible_frames": 478,
+    "coverage_over_all_exposed_frames": 0.9979123173277662,
+    "excluded_frames": [
+      {
+        "frame_id": "60km_5.5m_ISO100/frame_000147.png",
+        "reason": "The frozen C057 cohort has only one Imatest edge orientation for this frame",
+        "raw_locator_score": 0.7117385268211365,
+        "raw_locator_center_x": 2596.0,
+        "raw_locator_center_y": 235.8272327964861,
+        "raw_locator_radius": 735.7305509702853,
+        "raw_locator_angle_deg": 5.0
+      }
+    ]
+  },
+  "single_invalid_predicted_roi": {
+    "frame_id": "60km_3.5m_ISO400/frame_000140.png",
+    "roi_id": 3,
+    "reason": "insufficient_line_support_both_polarities"
+  },
+  "metrics": {
+    "median_center_error_radii": 0.04366013166017647,
+    "p95_center_error_radii": 0.10213353268131928,
+    "maximum_center_error_radii": 0.4842761202930818,
+    "roi_valid_fraction": 0.9994216310005783,
+    "mtf_spearman_vs_imatest": 0.8077828340387182,
+    "mtf_mae_cy_px_vs_imatest": 0.02182229832823164,
+    "exact_crop_fraction": 0.99581589958159
+  },
+  "gates": {
+    "coverage_at_least_0_95": true,
+    "condition_cells_equal_50": true,
+    "median_center_error_at_most_0_15_radius": true,
+    "p95_center_error_at_most_0_35_radius": true,
+    "roi_valid_fraction_at_least_0_95": true,
+    "exact_crop_fraction_at_least_0_95": true,
+    "mtf_spearman_at_least_0_80": true,
+    "mtf_mae_at_most_0_03_cy_px": true
+  },
+  "claim_boundary": "Development validation on the exposed C057 cohort; not independent acquisition evidence",
+  "unexposed_holdout_status": "403-frame candidate remains pixel-unread and sealed"
+}

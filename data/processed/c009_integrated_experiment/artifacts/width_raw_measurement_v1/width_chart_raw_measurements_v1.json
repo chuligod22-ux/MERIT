@@ -1,0 +1,110 @@
+{
+  "schema_version": "width-raw-measurement-v1",
+  "created_at": "2026-09-25T00:25:51+09:00",
+  "scope": "RAW-only printed nominal apparent-width measurement",
+  "claim_limit": "Not traceable physical metrology and not natural-crack width accuracy",
+  "calibration": {
+    "type": "acquisition-system design GSD",
+    "mm_per_sensor_pixel": 0.3,
+    "relative_sensitivity": 0.05,
+    "nominal_widths_are_not_used_to_calibrate_scale": true
+  },
+  "predeclared_subpixel_non_estimable_mm": [
+    0.1,
+    0.2
+  ],
+  "input": {
+    "ledger": "<LOCAL_PATH_REDACTED>",
+    "ledger_sha256": "ce46cf8249a8666c38a7b9b1ee02899423677ac584643e46bbe2654a32c2fd9f",
+    "source_root": "<LOCAL_PATH_REDACTED>",
+    "rows": 500
+  },
+  "algorithm": {
+    "trace_source": "RAW_ONLY",
+    "apparent_width_definition": "FWHM between linearly interpolated half-maximum edge crossings",
+    "same_trace_required_for_future_variants": true,
+    "parameters": {
+      "inner_x_fraction": [
+        0.12,
+        0.88
+      ],
+      "inner_y_fraction": [
+        0.15,
+        0.85
+      ],
+      "background_sigma_side_divisor": 22.0,
+      "ridge_sigma_px": 0.8,
+      "dp_max_step_px": 4,
+      "dp_smoothness_penalty": 0.22,
+      "profile_half_range_px": 16,
+      "profile_min_amplitude_dn": 1.5,
+      "profile_min_snr": 3.0,
+      "min_valid_profile_count": 50,
+      "min_valid_profile_fraction": 0.5,
+      "outlier_mad_multiplier": 3.5,
+      "bootstrap_replicates": 1000,
+      "bootstrap_block_width_px": 16
+    }
+  },
+  "counts": {
+    "rows": 500,
+    "status": {
+      "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 100,
+      "ESTIMABLE": 348,
+      "QC_NON_ESTIMABLE": 43,
+      "UNCERTAINTY_NON_ESTIMABLE": 9
+    },
+    "per_width": {
+      "0.1": {
+        "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 50
+      },
+      "0.2": {
+        "PREDECLARED_SUBPIXEL_NON_ESTIMABLE": 50
+      },
+      "0.3": {
+        "ESTIMABLE": 35,
+        "QC_NON_ESTIMABLE": 7,
+        "UNCERTAINTY_NON_ESTIMABLE": 8
+      },
+      "0.4": {
+        "ESTIMABLE": 43,
+        "QC_NON_ESTIMABLE": 6,
+        "UNCERTAINTY_NON_ESTIMABLE": 1
+      },
+      "0.5": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      },
+      "0.6": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      },
+      "0.7": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      },
+      "0.8": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      },
+      "0.9": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      },
+      "1.0": {
+        "ESTIMABLE": 45,
+        "QC_NON_ESTIMABLE": 5
+      }
+    }
+  },
+  "outputs": {
+    "measurements_csv": "<LOCAL_PATH_REDACTED>",
+    "measurements_csv_sha256": "8d6ff48653fca54076492fd19e48c0c0a382c0fbd6c6b663cbeda60bcce8a20b",
+    "traces_jsonl": "<LOCAL_PATH_REDACTED>",
+    "traces_jsonl_sha256": "fac18ca49c73ce8ec814b8226f818707df8d2c9d8491490823d695a2b881c6d7"
+  },
+  "script": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "b09ce6809f42da101fbaf938bf37f76119610c976c2366d200b0fec178e5bb35"
+  }
+}

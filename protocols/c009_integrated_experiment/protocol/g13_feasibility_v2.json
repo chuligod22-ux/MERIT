@@ -1,0 +1,59 @@
+{
+  "budget": {
+    "contingency_above_model_only_lower_bound_gpu_hours": 65.93571312581281,
+    "coverage_warning": "The v1 lower bound excludes detector inference, metrics, image decode, tiling/blending, artifact I/O, validation, retries, and writing.",
+    "hard_monitor": "Pause before exceeding 240 GPU-hours and report the measured cause; do not silently remove an arm, seed, backbone, or cohort.",
+    "monitored_execution_budget_gpu_hours": 240.0,
+    "v1_model_only_lower_bound_gpu_hours": 174.0642868741872
+  },
+  "created_utc": "2026-09-24T23:20:43.645029+00:00",
+  "deadline_state": {
+    "current_official_deadline": "2026-09-27",
+    "execution_mode": "AT_RISK_PENDING_JOURNAL_EXTENSION",
+    "journal_decision": "PENDING",
+    "requested_deadline": "2026-10-25",
+    "second_extension_request_sent": "2026-09-24",
+    "truthfulness_rule": "This gate closes compute authorization only and does not represent journal approval of the requested deadline."
+  },
+  "decision_basis": {
+    "author_decision_date": "2026-09-25",
+    "author_instruction": "Execute the complete predeclared scope without reduction.",
+    "decision_timing": "Recorded before any WP1 full-training performance result or endpoint result was inspected.",
+    "operational_change": "The former 144 GPU-hour planning ceiling is superseded by a 240 GPU-hour monitored execution budget.",
+    "scientific_scope_change": "NONE"
+  },
+  "full_training_allowed": true,
+  "gate": "G13",
+  "hard_stops": [
+    "Any frozen source, contract, implementation, preflight, stream, or G11 closure hash mismatch.",
+    "Any paired-arm initial-state, sample-stream, target, degradation, or output-domain mismatch.",
+    "Any unplanned model, arm, seed, checkpoint selection, or endpoint selection after result inspection.",
+    "Any non-finite loss or gradient, corrupted checkpoint, or unavailable recovery path.",
+    "Measured execution reaches 240 GPU-hours before numerical freeze."
+  ],
+  "payload_sha256": "9dc373c660504e191c79f827f151124096a353d4c7d8c977b396f3e1fc96b704",
+  "required_before_wp1": [
+    "Freeze the restart-capable WP1 runner and sequential queue by SHA-256.",
+    "Pass a bounded end-to-end checkpoint/resume pilot for all three families and both arms.",
+    "Verify adequate local storage and an idle CUDA device."
+  ],
+  "schema_version": "MERIT-C009-G13-FEASIBILITY-v2",
+  "scope": {
+    "field_evaluation": "All 974 frozen full-resolution frames for all six WP1 checkpoints per backbone; no family is removed from the field cohort.",
+    "result_blind_reduced_candidate_from_v1": "REJECTED_BY_AUTHOR",
+    "wp1": "3 official backbones x 2 arms x 3 seeds = 18 fixed-final runs",
+    "wp2": "3 predeclared zero-prompt MERIT-full NAFNet runs",
+    "wp3": "2 additional predeclared structures x 3 seeds"
+  },
+  "source_evidence": {
+    "g11_closure_path": "<LOCAL_PATH_REDACTED>",
+    "g11_closure_sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+    "g13_v1_path": "<LOCAL_PATH_REDACTED>",
+    "g13_v1_sha256": "187d88eea4d825baeff6457603194c13769aea795dc17ae9def4eb1eb96cb7c4",
+    "generator_path": "<LOCAL_PATH_REDACTED>",
+    "generator_sha256": "3662974dc8a76b3cc9135c5b67c2cdfba47eb4aec7ab8e0767d8ce0d49c4632e",
+    "training_contract_path": "<LOCAL_PATH_REDACTED>",
+    "training_contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969"
+  },
+  "status": "CLOSED_GO_FULL_SCOPE_AT_AUTHOR_RISK"
+}

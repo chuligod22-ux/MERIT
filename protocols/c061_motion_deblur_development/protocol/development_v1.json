@@ -1,0 +1,33 @@
+{
+  "schema_version": "MERIT-C061-MOTION-DEBLUR-DEVELOPMENT-v1",
+  "status": "FROZEN_BEFORE_C061_DEVELOPMENT_OUTPUT",
+  "created_date": "2026-10-24",
+  "objective": "Replace the C018 zero-gain linear-motion bypass with a bounded non-blind deblurring route while retaining exact fallback when development gates fail.",
+  "scientific_boundary": {
+    "development": "Only the C006 synthetic_holdout split (50 crops, 33 physical parents) is used to select an algorithm and parameters.",
+    "confirmation": "The C010 98-crop, 68-parent cohort is not evaluated until the route and gates are frozen.",
+    "operator": "The synthetic linear-motion kernel length and angle are supplied to the route; this is not blind field-PSF estimation.",
+    "field": "A positive synthetic result does not establish real-tunnel motion deblurring."
+  },
+  "families": {
+    "linear_motion_psf": [
+      {"length_px": 3, "angle_deg": 0.0},
+      {"length_px": 7, "angle_deg": 5.0},
+      {"length_px": 13, "angle_deg": 10.0}
+    ]
+  },
+  "candidate_grid": {
+    "wiener_regularization": [0.00001, 0.00003, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1],
+    "landweber_iterations": [1, 2, 4, 8, 16, 32],
+    "landweber_steps": [0.5, 1.0, 1.5],
+    "richardson_lucy_iterations": [1, 2, 4, 8, 16],
+    "blend_alpha": [0.25, 0.5, 0.75, 1.0]
+  },
+  "development_gates": {
+    "delta_psnr_parent_mean_gt_db": 0.1,
+    "delta_gradient_parent_mean_lte": 0.0,
+    "delta_overshoot_parent_mean_lte": 0.01,
+    "all_three_severities_must_pass": true
+  },
+  "selection": "Within each severity, select the eligible configuration with maximum parent-mean PSNR improvement. Prefer one shared algorithm family across severities; severity-specific regularization is allowed because kernel parameters are supplied."
+}

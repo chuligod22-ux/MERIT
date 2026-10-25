@@ -1,0 +1,92 @@
+{
+  "artifacts": {
+    "audit": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "fc048a314e8fdb9669bbbccece7b78fb639994e879efd008c2ac48c0facd6ec6"
+    },
+    "development": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "3d2c7fed7b9cea13e5b73f4da61ea46cbafb888bbae46d5443830c2876689bf6"
+    },
+    "holdout": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "57f47f59911aa4482069bd9391daf90637f1fc786153a8ef1eda4ed0fd19782a"
+    },
+    "inference": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4b0f9ade4a7d2b3f1f714762d923f3ec84fc31f0c12a2105e6c171687254c679"
+    },
+    "protocol": {
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d50355f31cb839148840df58f9387ea63885f2910f6242925e80bbc1c111ed8"
+    }
+  },
+  "claim_boundary": "Detector/task-conditioned support on a sealed internal split of existing C011 assets. New prospective external field acquisition and traceable natural-crack physical-width metrology remain required.",
+  "holdout": {
+    "delta_absolute_error_mm": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261131,
+      "ci95_high": -0.05493699764712213,
+      "ci95_low": -0.06890005200432132,
+      "clusters": 25,
+      "mean": -0.06309512391639874
+    },
+    "delta_auprc": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261031,
+      "ci95_high": 0.0015472235684241367,
+      "ci95_low": 0.0006287335980907976,
+      "clusters": 8,
+      "mean": 0.0010676590544892082,
+      "negative_or_zero_tunnels": 0,
+      "per_tunnel": {
+        "C": 0.0002697531055033157,
+        "D": 0.0018655650034751009
+      },
+      "positive_tunnels": 2
+    },
+    "delta_f1": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261032,
+      "ci95_high": 0.0015520970861434896,
+      "ci95_low": 0.0003996093357459852,
+      "clusters": 8,
+      "mean": 0.0010105739999882507,
+      "negative_or_zero_tunnels": 0,
+      "per_tunnel": {
+        "C": 0.00019260417322609265,
+        "D": 0.0018285438267504086
+      },
+      "positive_tunnels": 2
+    },
+    "delta_matched_fpr": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261033,
+      "ci95_high": 1.7547794925440197e-05,
+      "ci95_low": -6.529528201640757e-05,
+      "clusters": 8,
+      "mean": -2.8588316280689167e-05,
+      "negative_or_zero_tunnels": 2,
+      "per_tunnel": {
+        "C": -3.389767413879356e-05,
+        "D": -2.3278958422584775e-05
+      },
+      "positive_tunnels": 0
+    },
+    "global_gate_pass": true,
+    "improved_nominal_widths": 8,
+    "relative_error_reduction_percent": 11.739319517862658
+  },
+  "payload_sha256": "886af642403888f4c4ffa38f1dc0d30862c366dc7d4510d6cfe1c49aa408f194",
+  "profiles": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": "unsharp_0p10",
+      "d2_resnet34_unet": "identity",
+      "d2_vgg16_unet": "inverse_base_residual_0p25"
+    },
+    "width": "inverse_base_residual_0p50"
+  },
+  "schema_version": "MERIT-C012-FINAL-v1",
+  "scientific_status": "USABLE_INTERNAL_FIELD_PACKAGE_PROSPECTIVE_EXTERNAL_CONFIRMATION_REQUIRED",
+  "status": "PASS_COMPLETE_INTERNAL_HOLDOUT"
+}

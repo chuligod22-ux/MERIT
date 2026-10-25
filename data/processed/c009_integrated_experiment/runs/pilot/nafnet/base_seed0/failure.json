@@ -1,0 +1,10 @@
+{
+  "arm": "base",
+  "error": "RNG state must be a torch.ByteTensor",
+  "error_type": "TypeError",
+  "failed_at_kst": "2026-09-25T08:21:58+09:00",
+  "family": "nafnet",
+  "seed": 0,
+  "status": "FAILED",
+  "traceback": "Traceback (most recent call last):\n  File \"<LOCAL_PATH_REDACTED>", line 768, in main\n    result = run_training(args)\n  File \"<LOCAL_PATH_REDACTED>", line 485, in run_training\n    restore_rng(recovery[\"rng\"], device)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_PATH_REDACTED>", line 283, in restore_rng\n    torch.set_rng_state(payload[\"torch_cpu\"])\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_PATH_REDACTED>", line 19, in set_rng_state\n    default_generator.set_state(new_state)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\nTypeError: RNG state must be a torch.ByteTensor\n"
+}

@@ -1,0 +1,25 @@
+{
+  "arm": "off",
+  "backbone": "plainunet",
+  "detector_input_contract": "uint8 [0,255]",
+  "elapsed_seconds_this_invocation": 131.17121609998867,
+  "evaluation_addendum_payload_sha256": "a27386b8979ab4c248cff315bb6a2af0178c19e2fcd65af823b033e34ff85767",
+  "fold_sha256": {
+    "A": "0fe9171fe1abcd81bd54a4525b2ce3e680af9dc57aea33f8ef858b73b7277aa8",
+    "B": "a05d4d515429326e4ba9d52b212b06c1728b4f7e542b266ecb8762cdb78720cf",
+    "C": "fcfd14f0e9d5acfdcabdbcf331e4d05ade7da5f67a35e6177c9be8751374574a",
+    "D": "3a37084a54aa662cc09721843390522cd568e3a3905bf17096cddead1588e8b4"
+  },
+  "model_id": "plainunet__off__seed0",
+  "payload_sha256": "85627d22254bf2ca9e68cdcdf3a7071605c3031cc7bb7afecb68ef5596dd8604",
+  "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "provenance": {
+    "checkpoint": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "ed5406731da0652a870e8f3bbb323d7a59442668f288ff48408b823c7d7e7b87",
+    "training_payload_sha256": "3232b1cf49ae48a60ff77d2602dc32695057a62bdd88fbb11c7c8f80d283a0a8"
+  },
+  "schema_version": "MERIT-C051-EVALUATION-RUN-v2",
+  "seed": 0,
+  "status": "PASS_COMPLETE",
+  "tile_count": 1703
+}

@@ -1,0 +1,14 @@
+{
+  "completed_items": [],
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "deadline_state": "AT_RISK_PENDING_JOURNAL_EXTENSION",
+  "execution_freeze_sha256": "bdd0bc42e4e1437f6943129541cbf529a57c345e67b0c4cb190bb37537e7f987",
+  "hard_gpu_budget_hours": 240.0,
+  "queue_pid": 49148,
+  "schema_version": "MERIT-C009-FULL-EVALUATION-QUEUE-STATUS-v1",
+  "started_at_kst": "2026-09-25T09:09:34+09:00",
+  "status": "waiting_for_training",
+  "updated_at_kst": "2026-09-25T09:29:34+09:00",
+  "wp1_observed_status": "running",
+  "wp23_observed_status": "waiting_for_wp1"
+}

@@ -1,0 +1,130 @@
+{
+  "artifacts": {
+    "roi_results_csv": "<LOCAL_PATH_REDACTED>",
+    "roi_results_sha256": "fc94f2b7a7812cc8446ac112b8e16f761fcd20b33a75978834c41ea5fa4b55f1"
+  },
+  "created_utc": "2026-10-20T11:29:01+00:00",
+  "estimator": {
+    "esf_input": "unaltered RAW pixels",
+    "line_fit": "two-stage ordinary least squares; first-stage absolute residual < 6 px",
+    "localization_gaussian_sigma_px": 0.75,
+    "polarity": "signed-gradient polarity with greater two-stage OLS line support"
+  },
+  "gate": "PASS",
+  "gate_checks": {
+    "common_roi_mae_increase_vs_v1_cy_px": true,
+    "common_roi_spearman_decrease_vs_v1": true,
+    "each_distance_valid_fraction": true,
+    "frame_spearman_vs_imatest_mean": true,
+    "overall_valid_fraction": true,
+    "roi_mean_absolute_error_cy_px": true,
+    "roi_spearman_vs_imatest": true
+  },
+  "inputs": {
+    "cohort_sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274",
+    "contract_sha256": "3da4d7a7c74a2052035ff9b606c3267fc45e19ad888f29fa03d4885fbca253f6",
+    "estimator_code_sha256": "edd89b2e9ad93017d18df4ef9d8cd1d4902f9da9bf9ea0eeef68ae26a72b75a9",
+    "execution_freeze_sha256": "ef6caed381f42b6432168e823c33e80aec9a7b85f100cf137b743c718375e128",
+    "freeze_sha256": "59762f03f0b112c29bce9eb2cbe67c998a2508d23004890ccd6f89f524d586f6",
+    "runner_code_sha256": "9ad2f36fc28f1baaf529dd47bf3037e498dc97c08c4275c9ef0790026bdb0fba"
+  },
+  "metrics": {
+    "common_roi_count": 274,
+    "common_roi_mae_change_vs_v1_cy_px": -7.039068433269298e-05,
+    "common_roi_spearman_change_vs_v1": -0.0005568200761103537,
+    "common_roi_v1_mae_cy_px": 0.008301067946768577,
+    "common_roi_v1_spearman": 0.9324189894927422,
+    "common_roi_v2_mae_cy_px": 0.008230677262435884,
+    "common_roi_v2_spearman": 0.9318621694166318,
+    "frame_spearman_vs_imatest_mean": 0.9026162678956412,
+    "invalid_reason_counts": {
+      "insufficient_line_support_both_polarities": 2
+    },
+    "minimum_distance_valid_fraction": 0.9696969696969697,
+    "per_distance": [
+      {
+        "distance_m": 2.5,
+        "roi_records": 72,
+        "valid_roi_count": 72,
+        "valid_roi_fraction": 1.0
+      },
+      {
+        "distance_m": 3.5,
+        "roi_records": 64,
+        "valid_roi_count": 64,
+        "valid_roi_fraction": 1.0
+      },
+      {
+        "distance_m": 4.5,
+        "roi_records": 57,
+        "valid_roi_count": 57,
+        "valid_roi_fraction": 1.0
+      },
+      {
+        "distance_m": 5.5,
+        "roi_records": 66,
+        "valid_roi_count": 64,
+        "valid_roi_fraction": 0.9696969696969697
+      },
+      {
+        "distance_m": 6.5,
+        "roi_records": 76,
+        "valid_roi_count": 76,
+        "valid_roi_fraction": 1.0
+      }
+    ],
+    "roi_mean_absolute_error_cy_px": 0.007793504549987132,
+    "roi_records": 335,
+    "roi_spearman_vs_imatest": 0.9361838031535049,
+    "valid_roi_count": 333,
+    "valid_roi_fraction": 0.9940298507462687
+  },
+  "partition": "development",
+  "partition_validation": {
+    "development": {
+      "condition_cells": 10,
+      "distances_m": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "iso_set": [
+        100
+      ],
+      "roi_records": 335,
+      "speeds_kmh": [
+        60,
+        80
+      ]
+    },
+    "holdout": {
+      "condition_cells": 40,
+      "distances_m": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "iso_set": [
+        200,
+        400,
+        800,
+        1600
+      ],
+      "roi_records": 1402,
+      "speeds_kmh": [
+        60,
+        80
+      ]
+    },
+    "union": {
+      "condition_cells": 50,
+      "intersection_roi_records": 0,
+      "roi_records": 1737
+    }
+  },
+  "schema_version": "MERIT-C057-MTF50-V2-RAW-PARTITION-v1"
+}

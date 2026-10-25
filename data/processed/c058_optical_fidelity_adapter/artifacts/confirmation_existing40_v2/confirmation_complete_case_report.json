@@ -1,0 +1,49 @@
+{
+  "all_roi_identities": 1402,
+  "common_complete_case_fraction": 0.9971469329529244,
+  "common_complete_case_roi_identities": 1398,
+  "gate": "PASS",
+  "gate_checks": {
+    "each_distance_common_complete_case_fraction": true,
+    "overall_common_complete_case_fraction": true
+  },
+  "minimum_distance_common_complete_case_fraction": 0.9876543209876543,
+  "per_distance": [
+    {
+      "common_complete_case_fraction": 1.0,
+      "common_complete_case_roi_identities": 260,
+      "distance_m": 2.5,
+      "roi_identities": 260
+    },
+    {
+      "common_complete_case_fraction": 1.0,
+      "common_complete_case_roi_identities": 247,
+      "distance_m": 3.5,
+      "roi_identities": 247
+    },
+    {
+      "common_complete_case_fraction": 0.9876543209876543,
+      "common_complete_case_roi_identities": 240,
+      "distance_m": 4.5,
+      "roi_identities": 243
+    },
+    {
+      "common_complete_case_fraction": 1.0,
+      "common_complete_case_roi_identities": 312,
+      "distance_m": 5.5,
+      "roi_identities": 312
+    },
+    {
+      "common_complete_case_fraction": 0.9970588235294118,
+      "common_complete_case_roi_identities": 339,
+      "distance_m": 6.5,
+      "roi_identities": 340
+    }
+  ],
+  "run_keys": [
+    "raw_none",
+    "band_inverse_a0.500_s0.75_cap8_0",
+    "band_inverse_a0.500_s0.75_cap8_1",
+    "band_inverse_a0.500_s0.75_cap8_2"
+  ]
+}

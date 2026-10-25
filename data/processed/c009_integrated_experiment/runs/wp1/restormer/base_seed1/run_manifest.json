@@ -1,0 +1,139 @@
+{
+  "arm": "base",
+  "authorization": {
+    "g13_status": "CLOSED_GO_FULL_SCOPE_AT_AUTHOR_RISK",
+    "journal_extension_decision": "PENDING"
+  },
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "completed_at_kst": "2026-09-26T00:35:53+09:00",
+  "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "elapsed_seconds": 9947.059921999928,
+  "environment": {
+    "allow_tf32_cudnn": false,
+    "allow_tf32_matmul": false,
+    "cuda_runtime": "12.8",
+    "cudnn": 91900,
+    "deterministic_algorithms": true,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "numpy": "2.3.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128"
+  },
+  "execution_freeze_sha256": "728271b1ee17b261c0a3142b96383fae00968a54f19aa9ad6db61ed072a804e3",
+  "factory": {
+    "class": "Restormer",
+    "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+    "family": "restormer",
+    "kwargs": {
+      "LayerNorm_type": "WithBias",
+      "bias": false,
+      "dim": 48,
+      "dual_pixel_task": false,
+      "ffn_expansion_factor": 2.66,
+      "heads": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "inp_channels": 3,
+      "num_blocks": [
+        4,
+        6,
+        6,
+        8
+      ],
+      "num_refinement_blocks": 4,
+      "out_channels": 3
+    },
+    "module": "basicsr.models.archs.restormer_arch",
+    "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+    "output_selector": "tensor",
+    "parameters": 26126644,
+    "repository": "https://github.com/swz30/Restormer",
+    "runtime_adaptations": [],
+    "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+    "trainable_parameters": 26126644
+  },
+  "family": "restormer",
+  "fidelity_output_domain": "unclipped selected output (preclip)",
+  "final_checkpoint_sha256": "ccce4a221b56526025534743726b2e58fc59c855a27919fb08575334188c9d76",
+  "final_state_sha256": "692f34b53e78ebf3225b252e475bc3b81314ee688632845bced9fe0c7bf993b3",
+  "freeze_schema": "MERIT-C009-WP1-EXECUTION-FREEZE-v1",
+  "g11_sha256": "e1538a559f37f0680faafdd2e81f1d38e07534e33ebbe39f0f9c91e90f3210a0",
+  "g13_sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803",
+  "global_step": 8000,
+  "initial_state_sha256": "581cdd1f17cfa41142656e0464463f767d697d8ecaf5aa04d41cb48ee3134006",
+  "manifest_sha256": "9fd0c3be155c216a551344bebdd19972dbc0dc69de441cf168aeb9dd55eb1fee",
+  "parameters": 26126644,
+  "patch_size": 448,
+  "peak_cuda_memory_bytes_this_invocation": 78873532928,
+  "precision": "bfloat16 mixed precision",
+  "preflight_sha256": "c7e28b0c13f1dfa7393363b048ae3890a4550f077129033ebab7217386adef13",
+  "recovery_checkpoint_sha256": "03b8c64913591b77602724487a243e2195f5b00f6636b5073b24004a9a29516d",
+  "resume_count": 0,
+  "run_kind": "wp1",
+  "runner_sha256": "eccdc6d3d185098fffe8e91952e4e589033214ce27d575a734d390fce7b1a793",
+  "schema_version": "MERIT-C009-WP1-RUN-v1",
+  "seed": 1,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-25T21:50:05+09:00",
+  "status": "complete",
+  "stream_block_hashes": [
+    {
+      "end_step": 1000,
+      "sha256": "dad522c35e7ec39c0b93ad0c4cc5c7a872a04b3637a76de945956ff7575ec711",
+      "start_step": 1
+    },
+    {
+      "end_step": 2000,
+      "sha256": "df7325ed5f08f1a1c7feb7ba13377aa473d144af86c6eb350ae00026de289f47",
+      "start_step": 1001
+    },
+    {
+      "end_step": 3000,
+      "sha256": "69804b8ed9e35a5e62aea1ea0e23780b38375310beffbc01533761ecb820f563",
+      "start_step": 2001
+    },
+    {
+      "end_step": 4000,
+      "sha256": "89dbd655bbee7300fbee10322ea6c650fa8b42b427489f6b9e412a6cc29e2114",
+      "start_step": 3001
+    },
+    {
+      "end_step": 5000,
+      "sha256": "890e69861712fef22f2359b04d9f684f6f975d55a0652bc731cb02f04124bf64",
+      "start_step": 4001
+    },
+    {
+      "end_step": 6000,
+      "sha256": "9e3572eabf15fc994279a5a9e139af4c98ff943f3fd0b6fb9f33215630198f3c",
+      "start_step": 5001
+    },
+    {
+      "end_step": 7000,
+      "sha256": "c04a6c3b168b3db9b976dac880b8986ca62dd1d8f72575e1ad40b526a00cd62a",
+      "start_step": 6001
+    },
+    {
+      "end_step": 8000,
+      "sha256": "0d4324177e671bc04e50feec27f8b3b5b03fd3d8dcb6453168665dde8f98a4d3",
+      "start_step": 7001
+    }
+  ],
+  "stream_sha256": "e7e61861c1f86e78b87deee00285b714dbd6f15957408772b86cd51a96978b6d",
+  "task_output_domain": "selected output clamped to [0,1] before frozen DeepCrack inference",
+  "total_steps": 8000,
+  "train_rows": 161,
+  "trainable_parameters": 26126644
+}

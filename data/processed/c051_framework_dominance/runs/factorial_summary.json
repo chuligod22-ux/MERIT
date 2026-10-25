@@ -1,0 +1,93 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261051,
+    "unit": "physical parent stratified within tunnel"
+  },
+  "claim_boundary": "Detection AUPRC under the frozen synthetic degradation on the four revision-added tunnels; C050 optical PSNR remains a mandatory separate result.",
+  "claim_status": "FRAMEWORK_EFFECT_NOT_SUPPORTED",
+  "coverage": {
+    "arms": 2,
+    "backbones": 4,
+    "detectors": 3,
+    "model_detector_seeds": 3,
+    "physical_parents": 14,
+    "rows": 1008,
+    "tunnels": 4
+  },
+  "gates": {
+    "backbone_consistency": false,
+    "detector_consistency": false,
+    "dominance": false,
+    "framework_positive": false,
+    "tunnel_consistency": false
+  },
+  "payload_sha256": "4b5f0573616a8ed78024b1b2d8a8fb7700e658c969cd7e9753ee817fb0d8c910",
+  "primary": {
+    "dominance": {
+      "ci95_high": -7.726667777609859e-06,
+      "ci95_low": -2.3256732111475104e-05,
+      "estimate": -1.4138454561253566e-05
+    },
+    "framework_main": {
+      "ci95_high": 1.1070209619926345e-05,
+      "ci95_low": -7.86723335123801e-08,
+      "estimate": 5.4592852389359625e-06
+    },
+    "max_backbone": {
+      "ci95_high": 2.954954771294789e-05,
+      "ci95_low": 1.2286655731540402e-05,
+      "estimate": 1.959773980018953e-05
+    }
+  },
+  "schema_version": "MERIT-C051-FACTORIAL-SUMMARY-v1",
+  "secondary": {
+    "backbone_marginal": {
+      "mamba": 0.02144779539861342,
+      "nafnet": 0.02142819765881323,
+      "plainunet": 0.021430158116828038,
+      "restormer": 0.02144353770531704
+    },
+    "backbone_pairwise": {
+      "nafnet-minus-mamba": -1.959773980018953e-05,
+      "nafnet-minus-plainunet": -1.9604580148088746e-06,
+      "nafnet-minus-restormer": -1.5340046503810323e-05,
+      "plainunet-minus-mamba": -1.7637281785380654e-05,
+      "plainunet-minus-restormer": -1.3379588489001448e-05,
+      "restormer-minus-mamba": -4.257693296379206e-06
+    },
+    "by_detector": {
+      "d2_deeplabv3_resnet50": 2.5963482604038325e-06,
+      "d2_resnet34_unet": 1.3839458368303e-05,
+      "d2_vgg16_unet": -5.79509118997482e-08
+    },
+    "by_tunnel": {
+      "A": -5.690661214652511e-06,
+      "B": -7.185828792025797e-07,
+      "C": 2.275429197972231e-05,
+      "D": 5.492093069875561e-06
+    },
+    "cells": {
+      "mamba:off": 0.021453098485452956,
+      "mamba:on": 0.021442492311773878,
+      "nafnet:off": 0.021416388383676998,
+      "nafnet:on": 0.02144000693394946,
+      "plainunet:off": 0.021430100087824217,
+      "plainunet:on": 0.02143021614583186,
+      "restormer:off": 0.02143918335213968,
+      "restormer:on": 0.021447892058494396
+    },
+    "ss_ratio": {
+      "ci95_high": 0.32849821027225745,
+      "ci95_low": 0.0018119405927877062,
+      "estimate": 0.10536524845210211
+    },
+    "within_backbone": {
+      "mamba": -1.0606173679077874e-05,
+      "nafnet": 2.361855027246257e-05,
+      "plainunet": 1.1605800764175056e-07,
+      "restormer": 8.708706354717405e-06
+    }
+  },
+  "status": "FAIL"
+}

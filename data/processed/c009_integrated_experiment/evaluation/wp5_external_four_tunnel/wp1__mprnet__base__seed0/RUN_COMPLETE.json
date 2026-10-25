@@ -1,0 +1,57 @@
+{
+  "completed_folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 236.24856199976057,
+  "fold_sha256": {
+    "A": "ea8f009452eb05e542c75cab2fb647aca86d3805e135018e834dd7f492e7b729",
+    "B": "96f7b279b78fa867de50ddb543f551c5137d0947c92e5c0661be8432905bf83e",
+    "C": "285a0a4febe043e0dd2c336eb0747e5aa1dd949fbfbef61f0f16c85bd345574c",
+    "D": "3ecd46ee85afc539a433653652b293377ab52242c17f334643cc1cd1df0feff6"
+  },
+  "model_id": "wp1__mprnet__base__seed0",
+  "payload_sha256": "d10e219eec2bcc5e1b7fbe3a7bd1674e28581acf695bed9e30e07410b58723d4",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "9c27626bc51284425b0a3805e7fde8a27ed3c2a14d9e63869b8f9d71effb4e87",
+    "completion_payload_sha256": "741aa598148cfcc4643ca351a03c06265fba75f48cc329a541dde1b5212b8b18",
+    "model": {
+      "class": "MPRNet",
+      "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+      "family": "mprnet",
+      "kwargs": {
+        "bias": false,
+        "in_c": 3,
+        "kernel_size": 3,
+        "n_feat": 96,
+        "num_cab": 8,
+        "out_c": 3,
+        "reduction": 4,
+        "scale_orsnetfeats": 32,
+        "scale_unetfeats": 48
+      },
+      "module": "Deblurring.MPRNet",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "sequence_index_0",
+      "parameters": 20127073,
+      "repository": "https://github.com/swz30/MPRNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+      "trainable_parameters": 20127073
+    },
+    "model_id": "wp1__mprnet__base__seed0"
+  },
+  "schema_version": "MERIT-C009-D2-EXTERNAL-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "base",
+    "family": "mprnet",
+    "kind": "wp1",
+    "seed": 0
+  },
+  "status": "PASS",
+  "tile_count": 1703
+}

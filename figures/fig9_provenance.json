@@ -1,0 +1,46 @@
+{
+  "artifacts": {
+    "fig9.pdf": "c84b6bcdd124678089821f277ed3d861f21afb1e67ba6796f737cb7d95af9279",
+    "fig9.png": "bb90181d59429313cb02152abdee03b0f305d3a43da4d0a11f416a9fe18dba4e"
+  },
+  "claim_boundary": "Qualitative, outcome-blind example from the controlled C063 dataset. Full-dataset analysis remains in Table 4 and Figure 10; this panel is not human-mask detection accuracy or field confirmation.",
+  "footer_crop_fraction": 0.975,
+  "internal_title_removed": true,
+  "records": [
+    {
+      "condition_cell": "crack_d25_ISO200_V80",
+      "degradation_seed": 22797912014294178,
+      "display_residual_vmax_dn": 18.0,
+      "display_zoom_box_yxhw": [
+        512,
+        0,
+        384,
+        576
+      ],
+      "display_zoom_selection": "maximum mean Sobel magnitude over a fixed 3x3 source-only candidate grid",
+      "frame": "frame_000019.png",
+      "input_sha256": "0050fe94860ea402c0289c6f1aa2240e49fbe0826b2675e508a7382126ffc179",
+      "non_exact_regenerations": [
+        "unsupervised_wiener_oracle"
+      ],
+      "ordinal": 75,
+      "primary_condition": true,
+      "progress_json": "05_MERIT_revision/40_수정본/c063_full737_restoration_battery/artifacts/full737_battery_v1/progress/0075_crack_d25_ISO200_V80_frame_000019.png.json",
+      "progress_sha256": "58c3d1da9031f174ce77f0b59cd730328c5663fe6eb4c2f0323090129d7c4fee",
+      "route_active": true,
+      "verified_output_hashes": 11
+    }
+  ],
+  "redundant_footer_removed": true,
+  "regeneration": "Every deterministic plotted array matched the hash frozen during the original 737-frame run. The unsupervised-Wiener panel is a same-parameter stochastic rerun because its original internal random state was not persisted; no original per-frame metric is attached to that rerun.",
+  "schema_version": "MERIT-R3-6-FIG9-C063-v6",
+  "secondary_panel_annotations_removed": true,
+  "selection_rule": "One prespecified primary-analysis frame selected before outcome inspection; source-only high-structure display zoom.",
+  "selection_uses_model_outcomes": false,
+  "source_analysis": "c063_full737_restoration_battery/full737_battery_v1",
+  "subcaption_style": {
+    "alignment": "centered below each panel",
+    "color": "#101828",
+    "font": "DejaVu Sans Bold"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "completed_runs": 24,
+  "elapsed_seconds_this_invocation": 84743.6315148999,
+  "projected_remaining_seconds": 0.0,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "state": "TRAINING_COMPLETE",
+  "total_runs": 24,
+  "updated_utc": "2026-09-24T08:39:06.139343+00:00"
+}

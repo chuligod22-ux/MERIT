@@ -1,0 +1,75 @@
+{
+  "schema_version": "MERIT-C058-V3H-ALL50-EFFICACY-FREEZE-v1",
+  "state": "FROZEN_BEFORE_ALL50_OUTPUTS",
+  "created_utc": "2026-10-21T04:20:13+00:00",
+  "purpose": "Apply one unchanged frozen v3h route to all 50 condition cells without condition-level bypass.",
+  "analysis_unit": "condition_cell; frames and ROIs are clustered within condition",
+  "condition_independence": "author-designated 50 distinct acquisition-condition cells",
+  "evidence_label": "existing-acquisition all-condition analysis; no parameter tuning from outputs",
+  "route": {
+    "active_if": "speed_kmh == 80 and iso in {100,200} and distance_m in {2.5,3.5,4.5}",
+    "alpha": -0.75,
+    "maximum_headroom_limited_fraction": 0.01,
+    "model_condition": "task_on",
+    "model_seed": 1,
+    "otherwise": "raw_exact_bypass",
+    "residual_cap_dn": 8.0,
+    "run_key": "safe_s1_am0.75",
+    "sigma_px": 0.75
+  },
+  "endpoint": {
+    "conditions": "all 2 speeds x 5 distances x 5 ISO cells",
+    "reference": "distance-specific 60 km/h ISO100 RAW median MTF50",
+    "metric": "routed-minus-RAW absolute MTF50 error; negative is improvement",
+    "reference_cells": "included as preservation tests",
+    "aggregation": "paired valid ROI mean per frame, frame median per condition, condition-cell bootstrap",
+    "classification": "negative improved; zero tied; positive worsened"
+  },
+  "expected_counts": {
+    "condition_cells": 50,
+    "frames": 479,
+    "roi_identities": 1737
+  },
+  "policies": [
+    "Run task-ON seed 1 and alpha=-0.75, sigma=0.75 px, cap=8 DN unchanged in every cell.",
+    "Do not tune, drop, or activate conditions after output inspection.",
+    "Preserve improved, tied, worsened, safety-bypassed, invalid, and missing results.",
+    "Use identical C057-v2 ROI identities and estimator for RAW and routed output.",
+    "Do not interpret chart MTF50 as natural-crack truth or causal proof of downstream efficacy."
+  ],
+  "c057_restoration_freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719",
+  "files": {
+    "script": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_v3h_all50_efficacy.py",
+      "sha256": "50cbd3cdf630a57c34bd35a92ac34c67adf6225b12270fe7d11b3539827a9afb"
+    },
+    "tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_v3h_all50_efficacy.py",
+      "sha256": "c6229a6e24f2c6c1cdc276299e5019f18f16884ad17293f071bca97c4d1b6290"
+    },
+    "selection": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/selected_safety_router_v3h_development.json",
+      "sha256": "19b6bcfd992684eed0532ccc212003b86d2a3fa8c9403eb3777b3a0a163d7320"
+    },
+    "c057_runner": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/run_restoration_mtf50_v2.py",
+      "sha256": "3cbd4d08865b01ec3919a852a7d8fa89b83f378113c27d071008f28c7ea8903b"
+    },
+    "c057_restoration_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c057_mtf50_estimator_v2/protocol/mtf50_v2_restoration_execution_freeze.json",
+      "sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719"
+    },
+    "c057_cohort": {
+      "path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+      "sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274"
+    },
+    "adapter": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter_v2.py",
+      "sha256": "872d1d38d45c989b98b16a5f991462e7513269430120cdccc519325dd3418ea0"
+    },
+    "inference": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_inference_v3h.py",
+      "sha256": "e9eeb4e5c472ae4e965aff4565694377048884ceab8c72c033a33913a7e7b436"
+    }
+  }
+}

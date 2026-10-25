@@ -1,0 +1,43 @@
+{
+  "artifacts": {
+    "fig13.pdf": "83a8a922a831a415436d67ef2c184be699828ff90b5c76b5972ad99981f6387d",
+    "fig13.png": "04558ddc9d6967607b475e4e0ad7cf3599fd53741659c48aa8cbbc55ac2f9a60"
+  },
+  "claim_boundary": "Apparent width in expert-mask-referenced pixels on the paired estimable subset; not in-situ physical width in millimetres or a whole-dataset guarantee.",
+  "coverage": {
+    "mask_defined_regions": 1057,
+    "paired_estimable_rate": 0.7010406811731315,
+    "paired_estimable_regions": 741,
+    "tunnels": 4
+  },
+  "per_tunnel_delta_absolute_error_px": {
+    "A": -0.4797688174318403,
+    "B": -0.023166179510389035,
+    "C": -0.43393552317156325,
+    "D": -0.29201829067414137
+  },
+  "per_tunnel_paired_estimable_rate": {
+    "A": 0.7771739130434783,
+    "B": 0.514018691588785,
+    "C": 0.7339449541284404,
+    "D": 0.6274509803921569
+  },
+  "pooled_delta_absolute_error_px": -0.30722220269698347,
+  "schema_version": "MERIT-R3-6-FIG13-FOUR-TUNNEL-v3",
+  "sources": {
+    "tunnel_summary": {
+      "path": "c015_reviewer_closure\\r3\\outputs\\r3_6_width_tunnel_supplement.csv",
+      "sha256": "5e2a84f554940d4ac7136d6c7356f60d25a22c6d92475a460b07ba52c3d53f52"
+    },
+    "width_band_summary": {
+      "path": "c015_reviewer_closure\\r3\\outputs\\r3_6_width_band_supplement.csv",
+      "sha256": "e2bc33518d6a447a449d03b855715456a59aede88ac0bab8aa129001225c6676"
+    }
+  },
+  "width_band_delta_absolute_error_px": {
+    "1-<2 px": -0.7883030609176451,
+    "2-<5 px": -0.449661411402012,
+    "<1 px": -0.7941239050933471,
+    "≥5 px": 0.7485625247843809
+  }
+}

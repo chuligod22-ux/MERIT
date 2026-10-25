@@ -1,0 +1,123 @@
+{
+  "assets": {
+    "cycle3_protocol": {
+      "bytes": 6245,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e4daa2a2ac6fc4910b4b5eb5903c06483e83ab76abec2794c0ee3c1df28cd0fe"
+    },
+    "cycle3_summary": {
+      "bytes": 17657,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7f9efa6cc15fd5f856b033fc16ba4cf809f2e5cc62b34efb12e3fbe528fd5147"
+    },
+    "cycle4_summary": {
+      "bytes": 29109,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "dd9d15f1515bcd7bdc91cfcc0b7c95a0096f5439741be672d150d152074774e0"
+    },
+    "v23_c014_summary": {
+      "bytes": 3817,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6d614550c90a00a4dc6e775a56814317f14c553af8dd50f4d5e6b0bf82b45917"
+    }
+  },
+  "code": {
+    "cycle5": {
+      "bytes": 28890,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "8acc7b5696900f425d599e585e17a9c39d5ce03302a058071386931f64be8301"
+    },
+    "frozen_base_pipeline": {
+      "bytes": 57988,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "315e12aac127582626230349a03042ecb1857bdeaff1692815032ceb72e545cf"
+    },
+    "profiles": {
+      "bytes": 4729,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "60ee8c6ec3d41b53263a4c219cb6999710d9f76936c7b2a0f69d8aed10299a51"
+    }
+  },
+  "cycle3_reference_unit_sha256": {
+    "fold_A_seed0.json": "55eecb2009aa18ac0ae7c6c1be693e42a60fe874233c943798cc597d89912067",
+    "fold_A_seed1.json": "30cb7730da6606b0f80da32f41ce7b27bef3b461abc27d877cb42ea9849e195d",
+    "fold_A_seed2.json": "d463c29c9462b4eaa96781baa39f6d12959105c9ec2e671faa1942f13bbe6406",
+    "fold_B_seed0.json": "e7e3c55f55134340613754da21f3de4837549ce516dbd84b6473f84f936200a8",
+    "fold_B_seed1.json": "4e2f16dc9aeffe590702c8f3f963ca5f17672697554fc1efa75c30d783438c81",
+    "fold_B_seed2.json": "385afe5df8a9b1dd121738ac8ed956cad2e74630020272e14d2dbf2ebfe24f1f",
+    "fold_C_seed0.json": "8c634b5962d9ba0240b4a5f7287f85348a521b98e153b83d8106313ae36266bc",
+    "fold_C_seed1.json": "1d30bd4381cbd327d317af9914a4c7c43af0542ed96d0bec2a7f5a1e8c539cf3",
+    "fold_C_seed2.json": "abdb9f028b65740944abd8abfef0a5fd5fe7248b21329315218e3dd5be24c0b1",
+    "fold_D_seed0.json": "2afa9d4223d1ef6642d204830999738b1e7d6cf384081c6fd60120e5c833cbee",
+    "fold_D_seed1.json": "edf2958de920b12cff4de5014d2e657bcf2b1eb16f4985127b290a9710299892",
+    "fold_D_seed2.json": "01bf9b0f4fc9413c3410367cef55dd37969450197a1a575d76c4aa87b202adba"
+  },
+  "dark_gate": {
+    "formula": "clip((gaussian_blur_7x7_sigma1(raw)-raw)/0.04, 0, 1)",
+    "reference_or_gt_access": false
+  },
+  "development_reason": "Cycle 4 probability fusion of the conservative cycle-3 profiles failed held-seed superiority. The frozen seed-0 profile screen showed substantially larger raw AUPRC gains for VGG inv1250 and DeepLab inv0125, but with tunnel heterogeneity. Test reference-blind probability fusion as a safety control for these profiles.",
+  "final_gate": "All-seed and held-seed selected panels must pass positive-CI, four-tunnel-positive, FPR-nonworsening and every-detector-nonnegative gates. Paired selected-minus-cycle3 panel delta AUPRC must have mean and CI lower >0 in both analyses and improve at least 3/4 tunnels. All-seed selected panel must exceed frozen C014 v2.3.",
+  "fusions": {
+    "dark025": {
+      "family": "dark_bidir",
+      "weight": 0.25
+    },
+    "dark050": {
+      "family": "dark_bidir",
+      "weight": 0.5
+    },
+    "dark075": {
+      "family": "dark_bidir",
+      "weight": 0.75
+    },
+    "dark100": {
+      "family": "dark_bidir",
+      "weight": 1.0
+    },
+    "darkpos050": {
+      "family": "dark_positive",
+      "weight": 0.5
+    },
+    "darkpos100": {
+      "family": "dark_positive",
+      "weight": 1.0
+    },
+    "full": {
+      "family": "linear",
+      "weight": 1.0
+    },
+    "identity": {
+      "family": "identity",
+      "weight": 0.0
+    },
+    "linear025": {
+      "family": "linear",
+      "weight": 0.25
+    },
+    "linear050": {
+      "family": "linear",
+      "weight": 0.5
+    },
+    "linear075": {
+      "family": "linear",
+      "weight": 0.75
+    }
+  },
+  "parent_protocol_payload_sha256": "9256df9f6c6e6bc30e196f0401d1bd67e4e493c93224e727c8eccfe014e36410",
+  "payload_sha256": "461252ec301f148aba7fd8ef6d70b4cbc914961d96ea9bc9bcc78059971104e1",
+  "profiles": {
+    "d2_deeplabv3_resnet50": "inv0125",
+    "d2_resnet34_unet": "sharp0025",
+    "d2_vgg16_unet": "inv1250"
+  },
+  "schema_version": "MERIT-C016-V24-DETECTION-CYCLE5-PROTOCOL-v1",
+  "scientific_role": "All four tunnels remain iterative development data. Seed 0 selects one global detector-route tuple; seeds 1 and 2 are held stochastic replications.",
+  "selection": {
+    "constraints": "panel matched-sensitivity delta FPR <=0; every tunnel panel delta AUPRC >0; every detector mean delta AUPRC >=0; each active detector route positive on at least 2/4 tunnels; panel delta AUPRC greater than cycle 3 and selected-minus-cycle3 panel delta AUPRC positive on at least 3/4 tunnels",
+    "data": "seed 0, all four development tunnels",
+    "objective": "maximum equal-detector equal-tunnel panel delta AUPRC",
+    "tie_break": "smaller total fusion magnitude"
+  },
+  "status": "FROZEN_BEFORE_CYCLE5_PROBABILITY_OUTPUTS"
+}

@@ -1,0 +1,65 @@
+{
+  "condition_counts": {
+    "active": 6,
+    "active_improved": 6,
+    "active_worsened": 0,
+    "inactive": 39,
+    "overall": 45
+  },
+  "created_utc": "2026-10-20T15:43:17+00:00",
+  "decision": {
+    "headroom_projection_required": false,
+    "reason": "The restricted ISO100/200 active strata have zero observed preclip overshoot and introduced clipping; the high-ISO strata that triggered v2 overshoot are exact RAW bypasses."
+  },
+  "evidence_label": "Retrospective engineering profile after an outcome-blind name-availability correction; not independent confirmation.",
+  "metrics": {
+    "active_condition_bootstrap_95pct_ci": [
+      -0.0021393045696504447,
+      -0.0010758524242458056
+    ],
+    "active_mean_delta_abs_error_cy_px": -0.0016430802258796224,
+    "active_seed_means": {
+      "0": -0.0007988606884811834,
+      "1": -0.0038503649549021003,
+      "2": -0.00028001503425558366
+    },
+    "maximum_active_abs_change_dn": 2.736586570739746,
+    "maximum_active_introduced_clipping_fraction": 0.0,
+    "maximum_active_preclip_overshoot_fraction": 0.0,
+    "overall_condition_bootstrap_95pct_ci": [
+      -0.00041055557995118316,
+      -6.000185596620666e-05
+    ],
+    "overall_mean_delta_abs_error_cy_px": -0.00021907736345061634,
+    "overall_seed_means": {
+      "0": -0.00010651475846415779,
+      "1": -0.0005133819939869467,
+      "2": -3.733533790074449e-05
+    }
+  },
+  "router": {
+    "active_if": "speed_kmh == 80 and iso in {100,200} and distance_m in {2.5,3.5,4.5}",
+    "active_route_id": "band_inverse_a0.500_s0.75_cap8",
+    "otherwise": "byte-exact RAW bypass without model inference"
+  },
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-RETROSPECTIVE-v3b",
+  "source_bindings": [
+    {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_pixel_diagnostics.csv",
+      "sha256": "f6c70fcf1b1475a11559f693e4e4daebf5dd04c824b557398600cc6829a9e84b"
+    },
+    {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_pixel_diagnostics.csv",
+      "sha256": "1aed2f99350f2fe636b0786afb0a4ceabbcc33c9e6a673ad6eaa51592182f4b4"
+    },
+    {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/development_v2/development_condition_results.csv",
+      "sha256": "1a17328b093ed970f3a05c524d452ed43e8376e9a8d356fb7f84749dc0c67e0f"
+    },
+    {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/confirmation_existing40_v2/confirmation_condition_results.csv",
+      "sha256": "9fa226bad5daf238282025001426ebaacab2a6ef7a2aaec73c754121846a8231"
+    }
+  ],
+  "state": "OUTCOME_BLIND_AVAILABILITY_CORRECTION_BEFORE_HOLDOUT_PIXEL_ACCESS"
+}

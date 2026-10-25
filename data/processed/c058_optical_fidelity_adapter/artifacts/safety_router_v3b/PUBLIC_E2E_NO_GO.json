@@ -1,0 +1,18 @@
+{
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-PUBLIC-E2E-NO-GO-v1",
+  "state": "FAILED_BEFORE_FIRST_PUBLIC_IMAGE_EVALUATION",
+  "date": "2026-10-21",
+  "reason": "C057 load_verified_environment returned four values while the v3b runner attempted to unpack five.",
+  "exception": "ValueError: not enough values to unpack (expected 5, got 4)",
+  "public_progress_files": 0,
+  "holdout_png_content_read": false,
+  "holdout_png_hashes_computed": false,
+  "holdout_png_shapes_decoded": false,
+  "bindings": {
+    "runner_sha256": "8446aa66be5eed47731edecdc40db4f64ff12d3bf0f6eba761c8941b94bf25e8",
+    "test_sha256": "e4e826a9140663f17d7350bbdda2b86aeff49c24937e6110f6d4c63034086526",
+    "inventory_sha256": "433b8740bb42ef1446d52eacadbc9a8ed30768c417ac2a7287a1a1a06be1766e",
+    "development_contract_sha256": "e31659a6cfb83576055379d0e34319b909055f192fffe774eb564b4f469dbab3"
+  },
+  "disposition": "Preserve the failed v3b contract. Correct and test the interface, then bind the new runner to a new v3c contract before any public E2E or holdout access."
+}

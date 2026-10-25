@@ -1,0 +1,63 @@
+{
+  "schema_version": "MERIT-C058-V3I-MARGIN-ROUTER-FREEZE-v1",
+  "state": "DEVELOPMENT_ROUTER_FROZEN_BEFORE_V3I_OUTPUTS",
+  "created_utc": "2026-10-21T05:01:02+00:00",
+  "evidence_label": "all-50 condition-aware router development; not untouched confirmation",
+  "purpose": "Prevent target overshoot while preserving the positive v3h optical response.",
+  "router": {
+    "reference": "distance-specific 60 km/h ISO100 RAW condition median MTF50",
+    "optical_margin": "reference MTF50 minus RAW condition median MTF50",
+    "active_if": "non-reference condition and optical_margin_cy_px > 0.001",
+    "margin_threshold_cy_px": 0.001,
+    "active_route": "frozen v3h task-ON seed 1, alpha=-0.75, sigma=0.75 px, cap=8 DN",
+    "otherwise": "model-free byte-exact RAW bypass"
+  },
+  "required_gates": {
+    "condition_cells": 50,
+    "reference_conditions_exact": 5,
+    "worsened_conditions": 0,
+    "speed80_mean_delta_negative": true,
+    "speed80_bootstrap_ci_upper_negative": true,
+    "introduced_clipping_fraction": 0.0
+  },
+  "development_disclosure": "The 0.001 cy/px margin threshold was selected after inspecting the v3h all-50 development results. This rerouting analysis is development evidence and must not be described as a new untouched confirmation of optical efficacy.",
+  "source_progress_tree_sha256": "fc39e3033f940c5beab81559d7ff5d59056f355a12d7ef23c7a1fed3e0d0b329",
+  "files": {
+    "script": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_v3i_margin_router.py",
+      "sha256": "6ed37da83ec363e874310c40d89649be879a96fb682939bddee50d24dfddf52a"
+    },
+    "tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_v3i_margin_router.py",
+      "sha256": "68d66806700fee0f9d323ae94f517804a8fbb9b1e96cc371b2171f7cc1dd9c57"
+    },
+    "recalculator": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_v3i_recalculate.py",
+      "sha256": "15b6f4eabd6703aab68768e8a672e79711052470a46d88f58475f38f7d19ed33"
+    },
+    "source_summary": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/all50_efficacy_v1/summary.json",
+      "sha256": "607f3c9c38e0db1e67e1da0d15ba00a813948f2cc62a54d3c25f7a17894078b7"
+    },
+    "source_condition_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/all50_efficacy_v1/condition_results.csv",
+      "sha256": "d9e86e9361cc36e3dc1e8a8719fa4254f5d4ba24d863fe20814293a2b0eb5ad9"
+    },
+    "source_roi_results": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/safety_router_v3h_development/all50_efficacy_v1/roi_results.csv",
+      "sha256": "7e18ae31fd114f05503707a67dc9aabcd7314b574cc9b0ffa652740b647b0d0f"
+    },
+    "source_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/all50_efficacy_execution_freeze_v1.json",
+      "sha256": "ba76a82a8d14660dcf608e63c1b6fa3844c2f3b8c5d7ecb5555bdb339a6d9650"
+    },
+    "v3h_selection": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/selected_safety_router_v3h_development.json",
+      "sha256": "19b6bcfd992684eed0532ccc212003b86d2a3fa8c9403eb3777b3a0a163d7320"
+    },
+    "adapter": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_adapter_v2.py",
+      "sha256": "872d1d38d45c989b98b16a5f991462e7513269430120cdccc519325dd3418ea0"
+    }
+  }
+}

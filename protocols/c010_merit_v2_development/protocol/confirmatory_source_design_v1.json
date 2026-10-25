@@ -1,0 +1,81 @@
+{
+  "protocol_id": "MERIT-C010-V2-UNUSED-CONDITION-CONFIRMATORY-v1",
+  "status": "DESIGNED_BEFORE_ANY_V2_OUTPUT_ON_SELECTED_PARENTS",
+  "created_date": "2026-10-11",
+  "source_dataset": "D0 existing MERIT, conditions excluded from the C006/C009 bank",
+  "source_root": "<LOCAL_PATH_REDACTED>",
+  "patch_size": 448,
+  "selection_rule": "All lexicographically sorted files in the four named conditions; no content or model-output selection.",
+  "parent_split_rule": {
+    "description": "All selected parents are confirmatory; the reused C006 builder writes the legacy synthetic_holdout token.",
+    "holdout_modulus": 1,
+    "holdout_remainder": 0
+  },
+  "cam1": {
+    "conditions": [
+      "60km_4.5m_ISO100",
+      "80km_4.5m_ISO100"
+    ],
+    "glob": "frame_*.png",
+    "excluded_basenames": []
+  },
+  "cam2": {
+    "conditions": [
+      "crack_d45_ISO100_V60",
+      "crack_d45_ISO100_V80"
+    ],
+    "glob": "*.png",
+    "excluded_basenames": []
+  },
+  "crop_rules": [
+    {
+      "rule_id": "cam2_upper_center_crack",
+      "camera": "cam2",
+      "role": "crack",
+      "x_center_fraction": 0.5,
+      "y_top_fraction": 0.12,
+      "role_source": "Exact C006 content-independent fixed crop rule, reused without viewing C010 model output."
+    },
+    {
+      "rule_id": "cam2_upper_left_wall",
+      "camera": "cam2",
+      "role": "wall",
+      "x_center_fraction": 0.2,
+      "y_top_fraction": 0.12,
+      "role_source": "Exact C006 content-independent fixed crop rule, reused without viewing C010 model output."
+    },
+    {
+      "rule_id": "cam1_lower_right_wall",
+      "camera": "cam1",
+      "role": "wall",
+      "x_center_fraction": 0.75,
+      "y_top_fraction": 0.65,
+      "role_source": "Exact C006 content-independent fixed crop rule, reused without viewing C010 model output."
+    }
+  ],
+  "model_rule": {
+    "model": "MERIT v2.2 fixed calibrated blend",
+    "protocol": "pilot_v3.json",
+    "base_family": "nafnet",
+    "base_seeds": [0, 1, 2],
+    "retraining": false,
+    "recalibration": false
+  },
+  "synthetic_conditions": [
+    {"id": "id_low", "sigma_h_px": 0.7, "sigma_v_px": 0.6, "noise_std_8bit": 0.75},
+    {"id": "id_mid", "sigma_h_px": 1.6, "sigma_v_px": 1.3, "noise_std_8bit": 1.5},
+    {"id": "id_high", "sigma_h_px": 2.7, "sigma_v_px": 2.3, "noise_std_8bit": 2.75}
+  ],
+  "noise_seeds": [0, 1, 2],
+  "success_gates": {
+    "per_seed_required": true,
+    "delta_psnr_mean_gte_db": 0.1,
+    "delta_psnr_parent_bootstrap_ci_low_gt_db": 0.0,
+    "delta_gradient_mae_mean_lt": 0.0,
+    "delta_overshoot_p95_mean_lte": 0.0,
+    "identity_mean_and_p99_lte": 1e-7,
+    "bootstrap_replicates": 5000,
+    "unit": "physical parent after averaging crops, conditions, noise seeds, and where applicable model seeds"
+  },
+  "claim_boundary": "Retrospective unused-condition, parent-disjoint synthetic paired confirmation. It is not new acquisition, real-field recovery, downstream crack-detection efficacy, physical-width recovery, or cross-site validation."
+}

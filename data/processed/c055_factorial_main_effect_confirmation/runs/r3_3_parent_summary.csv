@@ -1,0 +1,15 @@
+tunnel,parent,seed_count,detector_count,backbone_count,raw_auprc,complete_path_auprc,delta_auprc,statistical_role
+A,0036,2,3,4,0.401868856,0.567155520,0.165286664,physical-parent unit nested within tunnel
+A,0037,2,3,4,0.459847151,0.599183868,0.139336717,physical-parent unit nested within tunnel
+A,0038,2,3,4,0.241797384,0.313654368,0.071856984,physical-parent unit nested within tunnel
+A,0039,2,3,4,0.303733171,0.407810906,0.104077735,physical-parent unit nested within tunnel
+A,0040,2,3,4,0.317516018,0.444075049,0.126559031,physical-parent unit nested within tunnel
+B,0055,2,3,4,0.120061854,0.147631058,0.027569204,physical-parent unit nested within tunnel
+C,0116,2,3,4,0.235754036,0.448692174,0.212938138,physical-parent unit nested within tunnel
+C,0117,2,3,4,0.410782083,0.605844048,0.195061966,physical-parent unit nested within tunnel
+C,0118,2,3,4,0.245595974,0.407571614,0.161975640,physical-parent unit nested within tunnel
+C,0119,2,3,4,0.254146603,0.490062400,0.235915797,physical-parent unit nested within tunnel
+C,0120,2,3,4,0.319242084,0.506533238,0.187291154,physical-parent unit nested within tunnel
+D,0211,2,3,4,0.006600165,0.041668650,0.035068485,physical-parent unit nested within tunnel
+D,0212,2,3,4,0.035463095,0.047467073,0.012003978,physical-parent unit nested within tunnel
+D,0213,2,3,4,0.029867506,0.036801884,0.006934378,physical-parent unit nested within tunnel

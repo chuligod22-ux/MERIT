@@ -1,0 +1,50 @@
+{
+  "schema_version": "MERIT-C005-E2E-BENCHMARK-v1",
+  "width": 8192,
+  "height": 5460,
+  "model_seed": 0,
+  "detector_threshold": 0.55,
+  "commands": {
+    "restoration_off": [
+      "<LOCAL_PATH_REDACTED>",
+      "<LOCAL_PATH_REDACTED>",
+      "--protocol",
+      "<LOCAL_PATH_REDACTED>",
+      "restore",
+      "--arm",
+      "task_off",
+      "--seed",
+      "0",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}"
+    ],
+    "restoration_on": [
+      "<LOCAL_PATH_REDACTED>",
+      "<LOCAL_PATH_REDACTED>",
+      "--protocol",
+      "<LOCAL_PATH_REDACTED>",
+      "restore",
+      "--arm",
+      "task_on",
+      "--seed",
+      "0",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}"
+    ],
+    "detector": [
+      "<LOCAL_PATH_REDACTED>",
+      "<LOCAL_PATH_REDACTED>",
+      "--protocol",
+      "<LOCAL_PATH_REDACTED>",
+      "detect",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}"
+    ]
+  }
+}

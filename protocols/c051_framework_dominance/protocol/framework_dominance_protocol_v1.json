@@ -1,0 +1,194 @@
+{
+  "assets": {
+    "field_cohort": {
+      "bytes": 703837,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028"
+    },
+    "field_protocol": {
+      "bytes": 10256,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "21b9fbb4124a20774b72536b084dbc0e432f96477dcd7c5d6ab7d1faeabff140"
+    },
+    "legacy_task_segmenter": {
+      "bytes": 117241281,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "b37880c241dc516f486f75d9aa63fe55f8f6c80b1d212b324eaf6bda7450d293"
+    },
+    "multidetector_protocol": {
+      "bytes": 7272,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "bd21e7f22dab69f636cadc41475cf59efad583c90c06a373eaf9299790d4fd1b"
+    },
+    "training_assets_manifest": {
+      "bytes": 18137,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "9d16c6766287577e697a26dcf4ef4e283594fddf5dae0204eb43ae457e4accd2"
+    }
+  },
+  "claim_policy": {
+    "all_gates_pass": "For crack-detection AUPRC under the tested calibrated degradation and four-tunnel protocol, the MERIT framework effect exceeded the restoration-backbone effect.",
+    "always_forbidden": "Unqualified dominance across PSNR, perceptual fidelity, width metrology, unseen sites, or all future architectures.",
+    "failure": "Framework-over-backbone importance is not supported by C051.",
+    "framework_only_pass": "The framework improved mean AUPRC, but dominance over backbone choice was not established."
+  },
+  "code": {
+    "c051_analyze.py": {
+      "bytes": 11821,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7e64a17644023b5d0dbfe9eb9c028e4059939b395805edd5c9aa46b659b73324"
+    },
+    "c051_audit.py": {
+      "bytes": 4024,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "c69ead729685cf65fb9c0daba6288d0052de4403abbb2e10c116ea9918fed7a3"
+    },
+    "c051_backbones.py": {
+      "bytes": 11364,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "069731b772e5eb62667dbccc1cc00e4d5dc0480ebc363e5450dfb02e42f1b476"
+    },
+    "c051_common.py": {
+      "bytes": 5230,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ea28e42a42f4a78158ade93a8aa80a55c59a4bb1a866fbdcd7177a587daa650e"
+    },
+    "c051_dataset.py": {
+      "bytes": 3925,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ae668c72d84ec4c4b1560cbd4683d645e5d334d51731efc8bfe6d3e4f273bc2a"
+    },
+    "c051_evaluate.py": {
+      "bytes": 9641,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "28b250358cd33c008a06fe11ff051fdc41cd264483cfdc75fbb2bca41a8d4627"
+    },
+    "c051_evaluation_queue.py": {
+      "bytes": 2825,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ed77631b659536c832e2a58408620ad613561505714323b2b63e94521525e643"
+    },
+    "c051_freeze_protocol.py": {
+      "bytes": 2785,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7b9271652b7699548ca6653266c1b3b929089b1bcce405fbb7524cff246fd9d9"
+    },
+    "c051_nafnet.py": {
+      "bytes": 4398,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "108e42c5fe209cb532f8b9937634819d380012c74e495786cd3b64878a189b58"
+    },
+    "c051_prepare.py": {
+      "bytes": 5370,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "48c93cbce04632a30d85115f3b9edcdc86a52140a9edc5828e50499120419286"
+    },
+    "c051_queue.py": {
+      "bytes": 2816,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "52b3241ca6038e880c33b6c34d8a51ec75f04ae5be6477c10fbf482cfc04f496"
+    },
+    "c051_train.py": {
+      "bytes": 10454,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "783dc83fee80ab4ebda06ec9efd1c28287826cb2acf96a6a0d4258ef61051333"
+    },
+    "test_c051.py": {
+      "bytes": 1910,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "08a3f5f3e9640def89b01354c46da3eeb36da2dcef961ce5dea562a556d6423c"
+    }
+  },
+  "created_date": "2026-10-19",
+  "environment": {
+    "cuda_available": true,
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu128"
+  },
+  "evidence_status": "matched retraining on revision-added external tunnels; not prospective result-unseen site confirmation",
+  "factorial": {
+    "backbones": [
+      "nafnet",
+      "plainunet",
+      "restormer",
+      "mamba"
+    ],
+    "framework_arms": [
+      "off",
+      "on"
+    ],
+    "model_seeds": [
+      0,
+      1,
+      2
+    ],
+    "paired_initialization": "All same-shape parameters are identical at initialization within backbone and seed. The ON prompt channels are zero-initialized while the degraded-image channel matches OFF.",
+    "paired_stream": "Within seed, every backbone and arm uses the same frozen clean-patch indices, blur, noise, and per-sample noise seeds.",
+    "runs": 24
+  },
+  "field_evaluation": {
+    "aggregation": "average paired model/detector seeds within detector-parent, average detectors within parent, average parents within tunnel, then equal-weight the four tunnels",
+    "cohort": "frozen C007 four-tunnel synthetic-degradation cohort",
+    "degradation": {
+      "noise_std_dn": 2.5,
+      "sigma_h_px": 2.6,
+      "sigma_v_px": 2.4
+    },
+    "detector_role": "All three are tunnel-held-out D2-trained checkpoints independent of the legacy segmenter used inside the ON training loss.",
+    "detectors": [
+      "d2_resnet34_unet",
+      "d2_vgg16_unet",
+      "d2_deeplabv3_resnet50"
+    ],
+    "independent_unit": "physical parent continuous-lining segment",
+    "physical_parents": 14,
+    "primary_metric": "pixel_auprc",
+    "secondary_metrics": [
+      "f1_at_0_5",
+      "matched_sensitivity_false_positive_pixel_rate"
+    ],
+    "tiles": 1703,
+    "tunnels": 4
+  },
+  "objective": "Test whether the MERIT framework main effect on external four-tunnel crack-detection AUPRC exceeds the maximum restoration-backbone marginal contrast.",
+  "payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+  "prior_result_disclosure": {
+    "c050": "A retrospective 302-parent optical PSNR factorial found a positive MERIT mean effect but framework dominance over backbone was not supported.",
+    "consequence": "C051 can support only an endpoint-scoped crack-detection dominance claim; it cannot overturn or hide the C050 PSNR result.",
+    "table5": "A prior one-seed single-region controlled experiment showed large ON-OFF detection-recovery contrasts but had no independent replicate or inferential interval."
+  },
+  "schema_version": "MERIT-C051-FRAMEWORK-DOMINANCE-v1",
+  "statistics": {
+    "backbone_effect": "maximum absolute pairwise contrast between backbone marginal means after averaging ON and OFF",
+    "bootstrap": "resample physical parents with replacement within each tunnel and recompute every contrast, including the selected maximum backbone contrast",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261051,
+    "framework_main_effect": "equal-backbone ON minus OFF AUPRC",
+    "gates": {
+      "backbone_consistency": "all four within-backbone ON-OFF point estimates > 0",
+      "detector_consistency": "all three detector-family ON-OFF point estimates > 0",
+      "dominance": "primary dominance-contrast 95% CI lower > 0",
+      "framework_positive": "framework main-effect 95% CI lower > 0",
+      "tunnel_consistency": "at least three of four tunnel ON-OFF point estimates > 0"
+    },
+    "primary_dominance_contrast": "framework_main_effect minus backbone_effect",
+    "secondary_factor_share": "framework sum-of-squares divided by backbone sum-of-squares, recomputed in each parent bootstrap; supportive only"
+  },
+  "status": "FROZEN_BEFORE_C051_TRAINING_OR_EVALUATION",
+  "training": {
+    "batch_size": 4,
+    "bundle_interpretation": "ON-OFF estimates the complete framework bundle and does not identify the causal contribution of an individual component.",
+    "checkpoint": "fixed final step; no early stopping or result-based checkpoint selection",
+    "gradient_clip_norm": 1.0,
+    "learning_rate": 0.0002,
+    "off_control": "1-channel degraded input plus plain L1 loss",
+    "on_bundle": "3-channel degraded/blur-prompt/noise-prompt input plus L1, gradient, focal-frequency, and frozen legacy segmenter task losses",
+    "optimizer": "AdamW",
+    "precision": "CUDA bfloat16 autocast; selective scan and losses may promote to float32",
+    "schedule": "CosineAnnealingLR over exactly 4000 steps",
+    "steps": 4000,
+    "weight_decay": 0.0001
+  }
+}

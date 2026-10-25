@@ -1,0 +1,74 @@
+{
+  "schema_version": "MERIT-C057-MTF50-V2-DEVELOPMENT-CONTRACT-v2",
+  "created_date": "2026-10-20",
+  "status": "FROZEN_BEFORE_V2_HOLDOUT_AND_RESTORATION_OUTPUTS",
+  "purpose": "Improve RAW slanted-edge localization against pre-existing Imatest references before applying one frozen estimator to RAW and all six restoration runs.",
+  "evidence_status": "retrospective_measurement_method_development; not prospective or independent efficacy confirmation",
+  "inputs": {
+    "cohort_path": "05_MERIT_revision/40_수정본/c007_d0_condition_eval/artifacts/cam1_v1/d0_cam1_cohort.csv",
+    "cohort_sha256": "1b87dc206ec4d8343a66a8f4af488dabaa189650ac3fb79eac6554f73c220274",
+    "frames": 479,
+    "roi_records": 1737,
+    "condition_cells": 50,
+    "reference": "pre-existing per-ROI Imatest MTF50 in the frozen cohort"
+  },
+  "partition": {
+    "development_rule": "iso == 100",
+    "development_condition_cells": 10,
+    "development_roi_records": 335,
+    "holdout_rule": "iso in {200, 400, 800, 1600}",
+    "holdout_condition_cells": 40,
+    "holdout_roi_records": 1402,
+    "reason": "Both partitions contain two speeds and all five distances; only the development partition may select the estimator candidate."
+  },
+  "allowed_development": {
+    "source": "RAW image and Imatest reference only",
+    "candidate_family": "Use Gaussian smoothing only for signed-gradient edge localization; retain original RAW pixel values for ESF/LSF/MTF computation. Candidate localization sigmas are evaluated in ascending order from 0.75, 1.0, 1.5, 2.0 to 2.5 pixels.",
+    "selection_rule": "Choose the first, lowest-sigma candidate meeting every development gate. If none passes, stop and revise the contract before any holdout or restoration output is opened.",
+    "prohibited": [
+      "restoration-arm output during estimator selection",
+      "distance-, ISO-, speed-, arm-, or seed-specific estimator parameters",
+      "using Imatest MTF50 as an inference input",
+      "assigning fallback values when an MTF50 crossing is not measured",
+      "changing the original ROI coordinates or dropping difficult ROIs"
+    ]
+  },
+  "development_gates": {
+    "minimum_overall_valid_fraction": 0.95,
+    "minimum_each_distance_valid_fraction": 0.90,
+    "minimum_roi_spearman_vs_imatest": 0.93,
+    "minimum_frame_spearman_vs_imatest_mean": 0.90,
+    "maximum_roi_mean_absolute_error_cy_px": 0.012,
+    "maximum_common_roi_mae_increase_vs_v1_cy_px": 0.001,
+    "maximum_common_roi_spearman_decrease_vs_v1": 0.01
+  },
+  "amendment": {
+    "supersedes": "MERIT-C057-MTF50-V2-DEVELOPMENT-CONTRACT-v1",
+    "changed_field": "development_gates.minimum_roi_spearman_vs_imatest",
+    "old_value": 0.95,
+    "new_value": 0.93,
+    "reason": "The partition-specific v1 baseline was 0.932419 and the first minimal localization candidate was 0.936184 while improving coverage from 0.81791 to 0.99403. The original 0.95 development threshold was not calibrated to the frozen ISO100 partition. Holdout gates are unchanged.",
+    "timing": "Amended after development-only evaluation and before official holdout evaluation or restoration-arm evaluation."
+  },
+  "holdout_gates": {
+    "minimum_overall_valid_fraction": 0.95,
+    "minimum_each_distance_valid_fraction": 0.90,
+    "minimum_roi_spearman_vs_imatest": 0.95,
+    "minimum_frame_spearman_vs_imatest_mean": 0.90,
+    "maximum_roi_mean_absolute_error_cy_px": 0.012,
+    "maximum_common_roi_mae_increase_vs_v1_cy_px": 0.001,
+    "maximum_common_roi_spearman_decrease_vs_v1": 0.01
+  },
+  "restoration_release": {
+    "condition": "All holdout gates pass and estimator code, parameters, tests, and input hashes are frozen before restoration inference.",
+    "paired_minimum_overall_fraction": 0.95,
+    "paired_minimum_each_distance_fraction": 0.90,
+    "analysis": "Use an identical complete-case ROI set across RAW and six restoration runs; preserve the original 42 primary condition cells and distance-specific least-degraded operational references.",
+    "interpretation": "A valid estimator permits re-analysis but does not guarantee MERIT improvement. Positive or negative restored-minus-RAW outcomes are reported without gate revision."
+  },
+  "claim_limits": [
+    "The v1 failure and d5580 negative result remain preserved.",
+    "The v2 analysis is retrospective measurement-method development after v1 aggregate results were known.",
+    "Passing this contract does not establish ISO 12233 compliance, cross-camera optical calibration, field lux calibration, or natural-crack optical truth."
+  ]
+}

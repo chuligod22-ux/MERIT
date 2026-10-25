@@ -1,0 +1,131 @@
+{
+  "analysis_exposure": "Retrospective matched factorial. Restormer C040 results existed before this analysis freeze; NAFNet and MPRNet C040 outputs did not. This is not a new prospective independent confirmation.",
+  "arms": [
+    "base",
+    "merit"
+  ],
+  "backbones": [
+    "nafnet",
+    "mprnet",
+    "restormer"
+  ],
+  "bank": {
+    "bank": {
+      "bytes": 90316928,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "0d1f4355aa319efedaed40d63d1cb07914e9f2fac4be06c1be83c4e1ea85d717"
+    },
+    "manifest": {
+      "bytes": 187581,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "a20f05b0604c96aa6967a462b905ea5ea97078a61991e3f82bd0b49a4ae3155c"
+    }
+  },
+  "bank_crops": 450,
+  "bank_parents": 302,
+  "bank_payload_sha256": "0c40aa2083c29c30b797066a2f3de7331f960e5d2fcfd8b887a397f2e1655f09",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 202610500,
+  "claim_boundary": "Inference is limited to NAFNet, MPRNet, and Restormer under the matched C040 synthetic low/mid/high degradation protocol. It does not establish backbone interchangeability, all-architecture dominance, real-field detection efficacy, or natural physical-width accuracy.",
+  "conditions": [
+    {
+      "id": "id_low",
+      "noise_std_8bit": 0.75,
+      "sigma_h_px": 0.7,
+      "sigma_v_px": 0.6
+    },
+    {
+      "id": "id_mid",
+      "noise_std_8bit": 1.5,
+      "sigma_h_px": 1.6,
+      "sigma_v_px": 1.3
+    },
+    {
+      "id": "id_high",
+      "noise_std_8bit": 2.75,
+      "sigma_h_px": 2.7,
+      "sigma_v_px": 2.3
+    }
+  ],
+  "created_utc": "2026-10-19T01:52:12.491898+00:00",
+  "degradation_seeds": [
+    202610490
+  ],
+  "factorial_estimands": {
+    "backbone_main_effect": "largest absolute pairwise contrast between backbone marginal means, averaged over base and MERIT arms",
+    "dominance_margin": "framework main effect minus largest backbone marginal contrast",
+    "factor_sums_of_squares": "framework, backbone, and interaction sums of squares from the 3x2 cell means",
+    "framework_main_effect": "mean over backbones of MERIT minus base"
+  },
+  "independent_unit": "physical parent; crops, model seeds, and the fixed degradation draw are averaged within parent before paired bootstrap",
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "objective": "Test whether the final MERIT framework configuration has a larger matched PSNR-gain effect than restoration-backbone choice.",
+  "payload_sha256": "a0c36357a6636e13a197655fbab8f1a4f051bc0bb2311efc59958920f5e7a88b",
+  "primary_endpoint": "PSNR(output, clean) - PSNR(identical degraded source, clean), in dB",
+  "reporting_rule": "Report PASS or FAIL without changing routes, seeds, cohort, estimands, or gates after C050 output. Preserve interaction and failed-cell results.",
+  "schema_version": "MERIT-C050-FRAMEWORK-BACKBONE-FACTORIAL-PROTOCOL-v1",
+  "source_assets": [
+    {
+      "bytes": 5856,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "0b1a09f82daae14fe7d6554e3e35a6c5c00293ae6c1e9b8329302951718833a6"
+    },
+    {
+      "bytes": 19124,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "7212bc35007f0f59eb06993013d8df29549f19c12f9174544ab20bb70121a64e"
+    },
+    {
+      "bytes": 3526,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "af7a1a16c34d2191a8bc88278decf1ca550ae271807dcbd1f81b7e504439926b"
+    },
+    {
+      "bytes": 12297,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "b7aa22bb4df76ae0c0abdd1c1142bc37b9113e96fdd8ce8ab7372e34ada61cf8"
+    },
+    {
+      "bytes": 7759,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "78bf0f74d4e73739a37905d07eb29e16d7764e0e92813408366748bc913430ff"
+    },
+    {
+      "bytes": 32124,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ff5db2c159aaa760e881fefbb7d8c8f038a7c093ed0635fd770f22d7e2f821e6"
+    },
+    {
+      "bytes": 10985,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "4d7c948453fbb8f3942c0e414f6ec17a04018bd438bdab87b91d289ea8a789cb"
+    },
+    {
+      "bytes": 6079,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ed41901378dfa4f9b081f71700d9111fa8a00d0ae60af7fe27672b2aaa904392"
+    },
+    {
+      "bytes": 1940,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "3c222d532ef4d7e9ed8e30bdb4455352d3733b4c9090e870fa1a0a3009e212a3"
+    },
+    {
+      "bytes": 13013,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "bfad3005b8f09408ae5b381e9973b424e437d0bfbae903267ed78773bbb15e30"
+    }
+  ],
+  "status": "FROZEN_BEFORE_C050_CROSS_BACKBONE_OUTPUT",
+  "success_gates": {
+    "each_backbone_condition_each_model_seed_mean_gt_db": 0.0,
+    "each_backbone_condition_parent_ci_lower_gt_db": 0.0,
+    "framework_main_effect_ci_lower_gt_db": 0.0,
+    "framework_minus_max_backbone_ci_lower_gt_db": 0.0,
+    "framework_to_backbone_ss_ratio_ci_lower_gt": 1.0
+  }
+}

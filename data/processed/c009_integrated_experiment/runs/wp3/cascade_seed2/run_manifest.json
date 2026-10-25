@@ -1,0 +1,113 @@
+{
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "completed_at_kst": "2026-09-27T19:32:05+09:00",
+  "elapsed_seconds": 7593.294666299596,
+  "execution_freeze_sha256": "a0cf384ea9245304e27d368cb725a3e1e0e68cb462769a85c5c616def972d0f5",
+  "final_checkpoint_sha256": "537a0e53a9676955779721c0d4a313165e60ead3f0a262bfbaab57193a46cead",
+  "final_state_sha256": "99d82a66be6bbfec2fe46946626ca8c157b84e5269eda1ad9eda7ccd5b3c6a47",
+  "freeze_schema": "MERIT-C009-WP23-EXECUTION-FREEZE-v1",
+  "g11_contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "global_step": 8000,
+  "initial_state_sha256": "52fff845ef0b7fa4f9513937c6fed8493e1dc92aa52954f9655e6b8ac2654377",
+  "input_arm": "merit_full",
+  "model": {
+    "branch_class": "basicsr.models.archs.NAFNet_arch.NAFNetLocal",
+    "branch_kwargs": {
+      "dec_blk_nums": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enc_blk_nums": [
+        1,
+        1,
+        1,
+        28
+      ],
+      "img_channel": 3,
+      "middle_blk_num": 1,
+      "width": 22
+    },
+    "parameters": 16296154,
+    "relative_to_single": -0.047671659272108036,
+    "single_parameters": 17111907,
+    "structure": "cascade",
+    "trainable_parameters": 16296154,
+    "wp": "wp3"
+  },
+  "parameters": 16296154,
+  "patch_size": 448,
+  "peak_cuda_memory_bytes_this_invocation": 23870821376,
+  "protocol_sha256": "293b9bf715f8a58922118bf550cc09cb6e635efee28c04230a0193c67996b8dd",
+  "recovery_checkpoint_sha256": "667412fd9d43af3a14d5dd6bfc74e9314f45c8be8a8390d02072d6b1f700eb63",
+  "resume_count": 0,
+  "run_kind": "wp3",
+  "runner_sha256": "d843bcf70b099ed9bf9a642990b4efd972c252b5a1f2d52b69d48d3eeb8345e2",
+  "schema_version": "MERIT-C009-WP23-RUN-v1",
+  "seed": 2,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-27T17:25:31+09:00",
+  "status": "complete",
+  "stream_block_hashes": [
+    {
+      "end_step": 1000,
+      "sha256": "700779dd273a48a4a5caa478a20bd144d5ddd2ef2a106907c6b51e59ca49c5d4",
+      "start_step": 1
+    },
+    {
+      "end_step": 2000,
+      "sha256": "af46774b2ad5251a8128dd3eab1a0cf41511fa8a54a95e97f55f90222245986c",
+      "start_step": 1001
+    },
+    {
+      "end_step": 3000,
+      "sha256": "ce7e7390f35662602a2826a137e0317c113e66793123028ba96bff83694b8a4a",
+      "start_step": 2001
+    },
+    {
+      "end_step": 4000,
+      "sha256": "791fb287f2629f6fd1a4243ad43b976ed427f1c18390640f055a25731581afae",
+      "start_step": 3001
+    },
+    {
+      "end_step": 5000,
+      "sha256": "8554450fd4005c699c0d77f6e336062464f0e39022cf0cecea3c1ca62bff68ef",
+      "start_step": 4001
+    },
+    {
+      "end_step": 6000,
+      "sha256": "06bccefec85d98cbe3c9aa08221ccb669bae94da166364514a5a2b74c78d4651",
+      "start_step": 5001
+    },
+    {
+      "end_step": 7000,
+      "sha256": "c0e51f82647a62f5e542cdbec262e2bca9b3ce4cdca7029e991395529e7d2aaf",
+      "start_step": 6001
+    },
+    {
+      "end_step": 8000,
+      "sha256": "6c0e57c385f97abf2bb6bbaa5f2383088ec2d9ea1cb016a78580042c22c912fd",
+      "start_step": 7001
+    }
+  ],
+  "stream_matches_wp1_nafnet": true,
+  "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821",
+  "structure": "cascade",
+  "task_loss_enabled": true,
+  "total_steps": 8000,
+  "train_rows": 161,
+  "trainable_parameters": 16296154,
+  "wp": "wp3",
+  "wp1_reference_manifest_sha256": "5c3eb4f21be5d91a2d7b2f7027400705ce10eea5b2b0737d96059306395b5c60",
+  "wp1_reference_stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821"
+}

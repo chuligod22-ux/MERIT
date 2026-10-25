@@ -1,0 +1,178 @@
+{
+  "final_json_sha256": "e6fccbeda69babdae2018cd3e12cfcc62a0471963efad4a3ec93af4c2a643af8",
+  "fold_tile_counts": {
+    "A": 152,
+    "B": 679,
+    "C": 135,
+    "D": 737
+  },
+  "method_independence": "Standalone implementation; reads only the 12 raw evaluation JSON files and the final JSON for comparison; does not import the analysis module or derived CSVs.",
+  "mismatches": [],
+  "parents_by_fold": {
+    "A": 5,
+    "B": 1,
+    "C": 5,
+    "D": 3
+  },
+  "raw_evaluation_files": 12,
+  "raw_evaluation_sha256": {
+    "fold_A_chain0.json": "e4cc04db4ffb8cd341f304608443e02985e6d72bb901be9e2ee4bfa0c4055499",
+    "fold_A_chain1.json": "2e59e5886fdb7921dcb52f6f8b7254012bd410319863be31f1f40b3ba2e85160",
+    "fold_A_chain2.json": "09fa8a4eda34863ed8a465ffa5669af09f0d21b7214feb60342a004942795da1",
+    "fold_B_chain0.json": "24470141f1ee6353669542cdb7b9b139249249de5ca7c06adfd0cc4a1821e9af",
+    "fold_B_chain1.json": "3ff39cc8c9a16f7bd192b2d8373fb1f38fe96392ac89628724b3a71c0090d491",
+    "fold_B_chain2.json": "13e904dd70163d5c9224da62e304b97031e3796887670751d006b41345d4defd",
+    "fold_C_chain0.json": "cdb6435e4e5e85486e7efb675f38d390d16c4ea04bddc32b81bd48a5a11af9c3",
+    "fold_C_chain1.json": "56b73e4b8fa24da4e4ccfeb24182466b3d8cc010ec60fa5ffc1c84e6b0a6f0d0",
+    "fold_C_chain2.json": "d4d68faeb57cd6c686b0467cb0c259c7b80d9b1e78208d40cdc5300a6d4f6cd3",
+    "fold_D_chain0.json": "ca810a25fc743d4728284d1655a6f6d614af10c0e745eabfb20ee50a93e80025",
+    "fold_D_chain1.json": "f1c417daed3030b91be5a3fb7f965da5faeb4155a06e5b54d32a1d2aa8674990",
+    "fold_D_chain2.json": "218c9970c17efdca882f1655b3cbcbcf377545c9f61b6630d78ab84a2fef01fe"
+  },
+  "recomputed_primary": {
+    "detectors": {
+      "d2_deeplabv3_resnet50": {
+        "f1_at_0_5": {
+          "ci_lower": 0.018816583127000703,
+          "ci_upper": 0.03761107206085569,
+          "per_tunnel": {
+            "A": 0.07799874666721529,
+            "B": -0.042495729435487475,
+            "C": 0.07733899672232399,
+            "D": 0.00017571052234026518
+          },
+          "point": 0.028254431119098016,
+          "positive_tunnels": 3
+        },
+        "pixel_auprc": {
+          "ci_lower": 0.019317189609876592,
+          "ci_upper": 0.035216892368312776,
+          "per_tunnel": {
+            "A": 0.07724159419028492,
+            "B": 0.0006925421109191809,
+            "C": 0.03449132182764412,
+            "D": -0.004297765543803373
+          },
+          "point": 0.02703192314626121,
+          "positive_tunnels": 3
+        }
+      },
+      "d2_resnet34_unet": {
+        "f1_at_0_5": {
+          "ci_lower": -0.04017540364049183,
+          "ci_upper": -0.015788944176549004,
+          "per_tunnel": {
+            "A": -0.029629656701044744,
+            "B": -0.05524933837716936,
+            "C": -0.013233742973463867,
+            "D": -0.014285509460979161
+          },
+          "point": -0.028099561878164283,
+          "positive_tunnels": 0
+        },
+        "pixel_auprc": {
+          "ci_lower": -0.02667710481677548,
+          "ci_upper": -0.005988991955658168,
+          "per_tunnel": {
+            "A": -0.029054641126029217,
+            "B": -0.03170956006575465,
+            "C": 0.0012864839220838615,
+            "D": -0.007089794895389916
+          },
+          "point": -0.01664187804127248,
+          "positive_tunnels": 1
+        }
+      },
+      "d2_vgg16_unet": {
+        "f1_at_0_5": {
+          "ci_lower": -0.05098062181186707,
+          "ci_upper": -0.0335083022318645,
+          "per_tunnel": {
+            "A": -0.1416456946014713,
+            "B": -0.06365139980081777,
+            "C": 0.03930409401620531,
+            "D": 0.00010606450668787757
+          },
+          "point": -0.04147173396984897,
+          "positive_tunnels": 2
+        },
+        "pixel_auprc": {
+          "ci_lower": -0.06387305287402614,
+          "ci_upper": -0.050201357039648065,
+          "per_tunnel": {
+            "A": -0.16181497400917833,
+            "B": -0.07817749883848536,
+            "C": 0.012075101421132207,
+            "D": 1.71075815334537e-05
+          },
+          "point": -0.05697506596124951,
+          "positive_tunnels": 2
+        }
+      },
+      "legacy_deepcrack_vgg16_unet": {
+        "f1_at_0_5": {
+          "ci_lower": 0.0002567795622694906,
+          "ci_upper": 0.001612956806232774,
+          "per_tunnel": {
+            "A": 0.0019187802797984536,
+            "B": 0.0007801953804614381,
+            "C": 0.0003912768630628488,
+            "D": 0.0
+          },
+          "point": 0.0007725631308306851,
+          "positive_tunnels": 3
+        },
+        "pixel_auprc": {
+          "ci_lower": 0.020381442386879257,
+          "ci_upper": 0.061717338875705983,
+          "per_tunnel": {
+            "A": 0.09921567726174323,
+            "B": 0.0024742511250633275,
+            "C": 0.05766245200343023,
+            "D": -7.366773270572977e-06
+          },
+          "point": 0.03983625340424155,
+          "positive_tunnels": 3
+        }
+      }
+    },
+    "panel": {
+      "f1_at_0_5": {
+        "ci_lower": -0.019521787002037373,
+        "ci_upper": -0.007790937537818289,
+        "per_tunnel": {
+          "A": -0.031092201545100263,
+          "B": -0.053798822537824864,
+          "C": 0.03446978258835514,
+          "D": -0.0046679114773170065
+        },
+        "point": -0.01377228824297175,
+        "positive_tunnels": 1
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.020376797580729113,
+        "ci_upper": -0.010460925007402894,
+        "per_tunnel": {
+          "A": -0.037876006981640876,
+          "B": -0.036398172264440275,
+          "C": 0.015950969056953396,
+          "D": -0.0037901509525532784
+        },
+        "point": -0.015528340285420258,
+        "positive_tunnels": 1
+      }
+    }
+  },
+  "recomputed_primary_detector_gates": {
+    "d2_deeplabv3_resnet50": true,
+    "d2_resnet34_unet": false,
+    "d2_vgg16_unet": false
+  },
+  "recomputed_primary_panel_gate": false,
+  "recomputed_verdict": "NOT_SUPPORTED",
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-INDEPENDENT-VERIFY-v1",
+  "status": "PASS",
+  "tolerance": 1e-12,
+  "total_tiles": 1703,
+  "verified_utc": "2026-09-24T09:48:09.050299+00:00"
+}

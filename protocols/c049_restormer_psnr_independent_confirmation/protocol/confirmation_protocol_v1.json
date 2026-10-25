@@ -1,0 +1,145 @@
+{
+  "bank": {
+    "bank": {
+      "bytes": 90316928,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "0d1f4355aa319efedaed40d63d1cb07914e9f2fac4be06c1be83c4e1ea85d717"
+    },
+    "manifest": {
+      "bytes": 187581,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "a20f05b0604c96aa6967a462b905ea5ea97078a61991e3f82bd0b49a4ae3155c"
+    }
+  },
+  "bank_crops": 450,
+  "bank_parents": 302,
+  "bank_payload_sha256": "0c40aa2083c29c30b797066a2f3de7331f960e5d2fcfd8b887a397f2e1655f09",
+  "bank_prior_parent_overlap": {
+    "c006_c009": 0,
+    "c010": 0,
+    "c030": 0,
+    "c033": 0,
+    "c036": 0
+  },
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 202610491,
+  "conditions": [
+    {
+      "id": "id_low",
+      "noise_std_8bit": 0.75,
+      "sigma_h_px": 0.7,
+      "sigma_v_px": 0.6
+    },
+    {
+      "id": "id_mid",
+      "noise_std_8bit": 1.5,
+      "sigma_h_px": 1.6,
+      "sigma_v_px": 1.3
+    },
+    {
+      "id": "id_high",
+      "noise_std_8bit": 2.75,
+      "sigma_h_px": 2.7,
+      "sigma_v_px": 2.3
+    }
+  ],
+  "created_utc": "2026-10-16T04:37:50.080946+00:00",
+  "degradation_seeds": [
+    202610490
+  ],
+  "development_protocol_payload_sha256": "01a0c8f5376d3fda96ae66fd3c737cbc2441f3743059e4a2a3f0e56ef2841913",
+  "development_summary_sha256": "aa8a87dfab178a843c0fdf9702d1f56950cc09bc679116a3367c18effbba959f",
+  "gate": {
+    "each_condition_each_model_seed_delta_psnr_mean_gt": 0.0,
+    "each_condition_parent_bootstrap_delta_psnr_ci_lower_gt": 0.0,
+    "identity_max_abs_error_eq": 0.0
+  },
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "objective": "One-shot independent confirmation of Restormer PSNR non-inferiority across low, mid, and high degradation.",
+  "one_shot_rule": "No route, threshold, model seed, or degradation seed may change after this freeze. Report PASS or FAIL without repair on C040.",
+  "payload_sha256": "7809ac82932d86abf61da217d7ed4f9f4215f2bfaa5575837ccc1250fb4ca061",
+  "routes": {
+    "id_high": {
+      "alpha": 1.0,
+      "constraint_penalty": 10.0,
+      "kind": "bounded_adapter",
+      "source": "C046"
+    },
+    "id_low": {
+      "alpha": 0.35,
+      "kind": "static_residual",
+      "sigma_px": 0.0,
+      "source": "C041"
+    },
+    "id_mid": {
+      "alpha": 0.375,
+      "kind": "static_residual",
+      "sigma_px": 0.0,
+      "source": "C042"
+    }
+  },
+  "schema_version": "MERIT-C049-RESTORMER-INDEPENDENT-CONFIRMATION-PROTOCOL-v1",
+  "scope": "PSNR is the primary endpoint. LPIPS and structural metrics are prespecified diagnostics.",
+  "source_assets": [
+    {
+      "bytes": 4017,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e36528ef9079b7849e65d4c9faa694f17159083d67032afa10beba7d502cc75d"
+    },
+    {
+      "bytes": 1940,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "3c222d532ef4d7e9ed8e30bdb4455352d3733b4c9090e870fa1a0a3009e212a3"
+    },
+    {
+      "bytes": 7664,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "e962ffd9a52bbe6e9004fe9b8b42254b92f9d76810469a4a9157aa6c47fe84ff"
+    },
+    {
+      "bytes": 2009,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "061512a5811ec16a3e1e8e52ab872d584b1dd3fc4d3ead64362b1e0d63998208"
+    },
+    {
+      "bytes": 13013,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "bfad3005b8f09408ae5b381e9973b424e437d0bfbae903267ed78773bbb15e30"
+    },
+    {
+      "bytes": 9227,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "fc9fd7ff183a35357cba93703efb7cc416cd2d56ffcee4e3700c6650dbffe4ec"
+    },
+    {
+      "bytes": 9908,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "aa8a87dfab178a843c0fdf9702d1f56950cc09bc679116a3367c18effbba959f"
+    },
+    {
+      "bytes": 2615,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "594e58584cd712d7176a81800017491481b669c2f2051d8aaf24b4bf330ba0a5"
+    },
+    {
+      "bytes": 90316928,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "0d1f4355aa319efedaed40d63d1cb07914e9f2fac4be06c1be83c4e1ea85d717"
+    },
+    {
+      "bytes": 187581,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "a20f05b0604c96aa6967a462b905ea5ea97078a61991e3f82bd0b49a4ae3155c"
+    },
+    {
+      "bytes": 45973,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "33a893ec65a64231e26933dd2345793ce1b32c150b21b59387001630236241e3"
+    }
+  ],
+  "status": "FROZEN_BEFORE_ANY_C040_MODEL_INFERENCE"
+}

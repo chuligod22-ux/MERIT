@@ -1,113 +1,115 @@
-# MERIT — Measurement-Fidelity Restoration for Inspection of Tunnels
+# MERIT — Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection
 
-Reproducibility package for the paper *"MERIT: Measurement-Fidelity Restoration for
-High-Speed Tunnel-Lining Inspection — Recovering Chart-Measured Resolution and Crack
-Detectability without Hallucination."*
+This repository is the revision reproducibility package for MERIT. It replaces the
+superseded v1 public package with the analyses, protocols, and evidence used in the
+revised manuscript.
 
-MERIT is a measurement-fidelity restoration **framework** (not a new network) built on the
-Measurement–Perception–Distortion (MPD) principle: a measurement-calibrated degradation model,
-a measurement-prompt–conditioned restorer (NAFNet backbone, interchangeable), a fidelity +
-frozen-segmenter-in-loop task loss, and an ISO 12233 chart-MTF50 hallucination test.
+## Reproducibility scope
 
-This package reproduces **all tables and figures** in the paper from the released code and
-processed data — no raw images required.
+The public package uses a mixed-access design.
+
+- **Public R1 statistical reproduction:** anonymized row-level results, frozen
+  protocols, analysis code, and provenance support recalculation of the reported
+  tables, figures, confidence intervals, and sensitivity analyses.
+- **Public R2 inference reproduction for controlled acquisitions:** release assets
+  provide the exact cam1 optical context crops, cam2 fixed analysis crops, printed-width
+  inputs, and essential author-trained checkpoints used by the revised analyses.
+- **Request-based R2 reproduction for the four-tunnel field study:** the 1,703 image
+  tiles and expert masks are not publicly redistributed. They are available from the
+  corresponding author on reasonable request, subject to the applicable data-use
+  conditions. Their anonymized result tables and analysis code are public.
+- **Full retraining is outside this release:** unused indoor data, the full detector
+  training archive, the full cousin-tunnel archive, intermediate checkpoints, failed
+  development candidates, caches, and third-party weights are excluded.
+
+The controlled and field endpoints answer different questions. Chart MTF50, PSNR,
+LPIPS, crack-detection AUPRC, matched-sensitivity false-positive rate, and
+expert-mask-referenced apparent width should not be combined into a single score.
 
 ## Repository layout
 
-```
+```text
 .
-├── src/                 # model / degradation / training / evaluation / figure code
+├── src/modules/          # revision analysis and inference source
+├── protocols/            # frozen JSON/CSV protocols and hashes
 ├── data/
-│   ├── processed/       # CSV + JSON results that back every table and figure
-│   └── samples/         # a few representative frames (added on release)
-├── third_party/FETCH.md # how to obtain the segmenter / DiffBIR / SD-x4 (not redistributed)
-├── requirements.txt     # Python dependencies
-├── CITATION.cff
+│   ├── processed/        # row-level public evidence; no field pixels or masks
+│   └── manifests/        # file hashes, public scope, and release inventory
+├── figures/              # final Figures 1–15 and provenance
+├── environment/          # environment notes
+├── third_party/FETCH.md  # official acquisition instructions; no redistribution
+├── tools/                # package assembly and verification
+├── DATASET_CARD.md
+├── ACCESS_REQUEST.md
 ├── ANONYMIZATION_LOG.md
-├── LICENSE-CODE         # MIT (code)
-└── LICENSE-DATA         # CC-BY 4.0 (data)
+├── LICENSE-CODE
+└── LICENSE-DATA
 ```
-Trained weights (MERIT + the eight backbone-transfer checkpoints + ablations, ~180 MB) are
-distributed as **GitHub Release assets**, not in the git tree.
 
-## Install
+## Key revision evidence
+
+| Evidence stream | Public material | Scale |
+|---|---|---:|
+| cam1 controlled optical analysis | row-level results; exact context crops in release assets | 50 conditions, 479 frames, 1,737 ROIs |
+| cam2 controlled detector-response comparison | row-level results; fixed crops in release assets | 50 conditions, 737 frames |
+| four-tunnel field evaluation | anonymized results and code; pixels and masks by request | 4 tunnels, 14 spans, 1,703 tiles |
+| printed-target width analysis | ROI ledger and traces; 50 inputs in release assets | 500 ROIs |
+| perturbed-degradation audit | protocols, summaries, and code | 6 families × 3 severities |
+| framework/backbone analyses | factorial rows, protocols, and code | CNN, Transformer, and state-space configurations |
+
+## Revision-v2 release set
+
+1. `revision-analysis-v2`
+2. `revision-cam2-crops-v2`
+3. `revision-cam1-optical-crops-v2`
+4. `revision-width-inputs-v2`
+5. `revision-models-essential-v2`
+6. `revision-samples-v2`
+
+Each release asset is accompanied by a manifest and SHA-256 checksums. The
+`revision-width-inputs-v2` payload is divided into three ZIP assets to remain below the
+GitHub per-asset size limit. The four-tunnel images and masks are intentionally absent
+from this list.
+
+## Install and verify
+
+Python 3.10 or later is recommended. A CUDA-capable GPU is required for model inference;
+the package-integrity and processed-result checks run on CPU.
 
 ```bash
-# Python 3.10+; a CUDA GPU is needed for training and for the diffusion baselines.
-pip install -r requirements.txt        # or: uv pip install -r requirements.txt
+python -m pip install -r requirements.txt
+python tools/verify_public_package.py
 ```
 
-## Configuration (paths)
+Release maintainers can build and verify the large controlled-input assets outside the
+Git tree with `tools/build_release_assets.py` and `tools/verify_release_assets.py`.
+The model release contains the six restoration checkpoints and one frozen detector
+needed for controlled cam1/cam2 inference; field-study pixels remain request-only.
 
-All paths default to locations inside this repository (resolved from each script's location) and
-can be overridden with environment variables — no machine-specific absolute paths are hard-coded:
-
-| Variable | Default | Holds |
-|----------|---------|-------|
-| `MERIT_DATA` | `data/processed/` | processed CSV/JSON inputs (back every table/figure) |
-| `MERIT_FIGS` | `figs/` | generated figures (output) |
-| `MERIT_WEIGHTS` | `weights/` | trained `.pt` checkpoints (downloaded from GitHub Releases) |
-| `MERIT_NRIQA` | `data/raw/` | raw cam1/cam2 frames + crack segmenter (available on request) |
-| `MERIT_TMP` | `tmp/` | scratch directory (e.g. DiffBIR outputs) |
-
-Figure scripts (`make_*.py`) reproduce all figures from `MERIT_DATA` alone. Training and
-evaluation scripts additionally require the weights, the raw frames, the segmenter, and a GPU.
-
-## Reproduce the results
-
-Numbers/figures are produced from `data/processed/` (already included). To regenerate from
-scratch, run training then evaluation (a GPU is required):
+The assembly script is retained for auditability. It accepts the internal revision root
+as an explicit argument and never downloads restricted data:
 
 ```bash
-# 1. backbone-transfer models (8 = 4 backbones x {ON, OFF})   -> data/processed/backbone_axes.csv
-python src/train_backbone.py        # writes weights/restorer_<backbone>_<on|off>.pt
-python src/eval_backbones.py
-
-# 2. classical / generative battery (Table 2)                  -> mpd_axes.csv
-python src/eval_classical.py
-python src/eval_diffusion.py         # SD-x4 (diffusers); DiffBIR via third_party/FETCH.md
-
-# 3. detection-fitness recovery (Table 3, Figs)                -> full_battery_downstream.csv
-python src/eval_detection.py
-python src/eval_falsecrack.py        # hallucination / false-crack test
-
-# 4. ablation (Table 4)                                        -> eval_disentangled.py outputs
-python src/eval_disentangled.py
-
-# 5. all figures
-python src/make_figures.py           # + the other make_*.py figure scripts
+python tools/assemble_revision_v2.py --source-root /path/to/revision/root
 ```
 
-See the per-script header comments for inputs/outputs. The reference degradation is
-σ_h ≈ 2.6 / σ_v ≈ 2.4 px blur with σ_n = 2.5 DN noise; the clean chart MTF50 is 0.077 cy/px.
+## Restricted four-tunnel data
 
-## Data
+See [ACCESS_REQUEST.md](ACCESS_REQUEST.md). Public cohort manifests use anonymous tunnel
+labels and request-only placeholders; they contain no tunnel pixels or mask pixels.
 
-- **Processed data** (`data/processed/`, CC-BY 4.0): all per-condition / per-method results
-  (MTF50, PSNR, LPIPS, noise, detection recovery, false-crack), which back every table and figure.
-- **Representative raw frames** (Release [`samples-v1`](https://github.com/chuligod22-ux/MERIT/releases/tag/samples-v1), CC-BY 4.0):
-  one full-resolution raw frame per acquisition condition for both cameras
-  (50 cam1 ISO 12233 chart + 50 cam2 tunnel-lining crack = 100 frames). `MANIFEST.csv`
-  maps each file to its camera and condition.
-- **Full raw archive** (cam1: 3,704 frames; cam2: 737 frames):
-  available from the corresponding author on reasonable request.
+## Third-party components
 
-## Third-party components (not redistributed)
+Comparator repositories and pretrained weights are not redistributed. See
+[third_party/FETCH.md](third_party/FETCH.md) for official sources, recorded model IDs,
+and provenance limitations.
 
-The crack segmenter (UNet-VGG16, DeepCrack family), DiffBIR, and the Stable-Diffusion ×4
-upscaler are used as baselines but **not** included here. See `third_party/FETCH.md` for
-download-and-run instructions.
+## License and citation
 
-## Reproducibility notes
+- Code: MIT; see [LICENSE-CODE](LICENSE-CODE).
+- Public data and figures: CC-BY 4.0, subject to the exclusions in
+  [LICENSE-DATA](LICENSE-DATA).
+- Four-tunnel images and expert masks: not covered by the public CC-BY license and
+  available only through the request process.
 
-- SD-x4 is seeded (`torch.Generator(...).manual_seed(0)`); DiffBIR is run via its own CLI.
-- Korean file paths: use a Unicode-aware image reader (`imread` + `imdecode`).
-
-## License
-
-- **Code** — MIT (`LICENSE-CODE`).
-- **Data** — CC-BY 4.0 (`LICENSE-DATA`).
-
-## Citation
-
-See `CITATION.cff`. Please cite the paper if you use this code or data.
+See [CITATION.cff](CITATION.cff) for citation metadata.

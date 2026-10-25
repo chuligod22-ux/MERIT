@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "id_high": {
+      "parent_macro_means": {
+        "delta_gradient_mae": -1.103768970135758e-06,
+        "delta_lpips_alex": -0.0019007886237867098,
+        "delta_overshoot_p95": -2.833473696097196e-05,
+        "delta_psnr_db": 0.006106663468917089
+      },
+      "parents": 133,
+      "records": 1719,
+      "seed_delta_psnr_means": {
+        "0": 0.0054486431708268,
+        "1": 0.004407556118535562,
+        "2": 0.0056731864473296015
+      },
+      "status": "PASS"
+    },
+    "id_low": {
+      "parent_macro_means": {
+        "delta_gradient_mae": -1.0774952476982684e-05,
+        "delta_lpips_alex": -0.0033890228024501057,
+        "delta_overshoot_p95": 1.126214354777508e-05,
+        "delta_psnr_db": 0.036667283198912326
+      },
+      "parents": 133,
+      "records": 1719,
+      "seed_delta_psnr_means": {
+        "0": 0.03650151220078299,
+        "1": 0.03433440994885714,
+        "2": 0.03501909477399142
+      },
+      "status": "PASS"
+    },
+    "id_mid": {
+      "parent_macro_means": {
+        "delta_gradient_mae": -1.7036994298299153e-06,
+        "delta_lpips_alex": -0.0012938854912468664,
+        "delta_overshoot_p95": -1.528661728446794e-05,
+        "delta_psnr_db": 0.010159851055438407
+      },
+      "parents": 133,
+      "records": 1719,
+      "seed_delta_psnr_means": {
+        "0": 0.007633850460236514,
+        "1": 0.010508716407947344,
+        "2": 0.006511175705912321
+      },
+      "status": "PASS"
+    }
+  },
+  "confirmation_freeze_payload_sha256": "a80295a8cf7634b94dc81e1803cc348bccd1300aee373bb0d5da277c8de1c675",
+  "identity_max_abs_error": 0.0,
+  "parents": 133,
+  "records": 5157,
+  "schema_version": "MERIT-C039-INDEPENDENT-AUDIT-v1",
+  "status": "PASS",
+  "summary_sha256": "0fc7ef57c1b66ac243e7272aecc0a00250dc892100ec9305ca9e0422b89aa342"
+}

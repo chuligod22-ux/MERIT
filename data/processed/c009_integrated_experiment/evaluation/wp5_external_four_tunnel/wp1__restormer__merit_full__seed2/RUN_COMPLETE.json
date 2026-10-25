@@ -1,0 +1,68 @@
+{
+  "completed_folds": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 285.83262019976974,
+  "fold_sha256": {
+    "A": "4e464bae4f15e0d0c2cb4fb42220d6c7674df1e24ff1dc1a512855cec01af228",
+    "B": "d465e283d963d338bf934a17ecd46774fca97f206e45dcc319d8c17b0469bed5",
+    "C": "0d8bdb8284e87cf3bc4708e29ac926f32db33ae309f0905f7392feb08ab3a4ca",
+    "D": "d7c25924ca684493cc7de3c6ee8c586e37b47b444012096363f13a9c9525de10"
+  },
+  "model_id": "wp1__restormer__merit_full__seed2",
+  "payload_sha256": "e8ba08ed2736083b1f657428991d31f1216baa1a5fd0651afc7b3af663187367",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "1ac141c3c9afa2511aecbba6f1b1c2aa4214809171333efdcbc348e40e6a84e9",
+    "completion_payload_sha256": "3125f46a3a05f55ef3d3bd1e058834e0d1d192564ca5eab37ecad5dba2cdf64b",
+    "model": {
+      "class": "Restormer",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "family": "restormer",
+      "kwargs": {
+        "LayerNorm_type": "WithBias",
+        "bias": false,
+        "dim": 48,
+        "dual_pixel_task": false,
+        "ffn_expansion_factor": 2.66,
+        "heads": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "inp_channels": 3,
+        "num_blocks": [
+          4,
+          6,
+          6,
+          8
+        ],
+        "num_refinement_blocks": 4,
+        "out_channels": 3
+      },
+      "module": "basicsr.models.archs.restormer_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 26126644,
+      "repository": "https://github.com/swz30/Restormer",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27",
+      "trainable_parameters": 26126644
+    },
+    "model_id": "wp1__restormer__merit_full__seed2"
+  },
+  "schema_version": "MERIT-C009-D2-EXTERNAL-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "merit_full",
+    "family": "restormer",
+    "kind": "wp1",
+    "seed": 2
+  },
+  "status": "PASS",
+  "tile_count": 1703
+}

@@ -1,0 +1,80 @@
+{
+  "architecture": "d2_deeplabv3_resnet50",
+  "checkpoint": "final_epoch.pt",
+  "checkpoint_sha256": "3fd28022de9093803c6d2d553cb0192a066d3728ef717e637213dbaf71042821",
+  "completed_utc": "2026-09-24T06:45:53.248809+00:00",
+  "elapsed_seconds": 1324.880953299813,
+  "encoder_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "epochs": [
+    {
+      "elapsed_seconds": 110.23682260001078,
+      "epoch": 1,
+      "train_loss": 1.0666334476614425
+    },
+    {
+      "elapsed_seconds": 109.62052090000361,
+      "epoch": 2,
+      "train_loss": 0.7731600121315174
+    },
+    {
+      "elapsed_seconds": 109.89121839986183,
+      "epoch": 3,
+      "train_loss": 0.636240396309452
+    },
+    {
+      "elapsed_seconds": 110.07996620004997,
+      "epoch": 4,
+      "train_loss": 0.5314587594255574
+    },
+    {
+      "elapsed_seconds": 109.79050779994577,
+      "epoch": 5,
+      "train_loss": 0.4567080471904613
+    },
+    {
+      "elapsed_seconds": 114.82574859983288,
+      "epoch": 6,
+      "train_loss": 0.40793807052403963
+    },
+    {
+      "elapsed_seconds": 109.97161840018816,
+      "epoch": 7,
+      "train_loss": 0.3778822654897639
+    },
+    {
+      "elapsed_seconds": 109.79100880003534,
+      "epoch": 8,
+      "train_loss": 0.35512431878745415
+    },
+    {
+      "elapsed_seconds": 110.04824670008384,
+      "epoch": 9,
+      "train_loss": 0.3382483698174304
+    },
+    {
+      "elapsed_seconds": 109.90452420013025,
+      "epoch": 10,
+      "train_loss": 0.32688835378146025
+    },
+    {
+      "elapsed_seconds": 109.88187250006013,
+      "epoch": 11,
+      "train_loss": 0.3137822991916891
+    },
+    {
+      "elapsed_seconds": 110.48252189997584,
+      "epoch": 12,
+      "train_loss": 0.30628658596428
+    }
+  ],
+  "fold": "B",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "heldout_parents": [
+    "0055"
+  ],
+  "peak_cuda_memory_bytes": 19417247232,
+  "schema_version": "MERIT-C007-D2-MULTIDETECTOR-v1",
+  "seed": 20260923,
+  "started_utc": "2026-09-24T06:23:48.366545+00:00",
+  "training_tiles": 6381
+}

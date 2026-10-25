@@ -1,0 +1,28 @@
+{
+    "schema_version":  "MERIT-C058-SAFETY-ROUTER-PUBLIC-NO-GO-v3e",
+    "state":  "PRESERVED_PUBLIC_EFFICACY_FAILURE",
+    "created_utc":  "2026-10-21T01:12:43Z",
+    "contract_sha256":  "01b9ff36cd901c674471a13f14d9d1245a6ecac5301b22c9c73a7a30ff5d5170",
+    "frames_total":  137,
+    "frames_located":  137,
+    "common_complete_case_fraction":  1.0,
+    "active_condition_cells":  6,
+    "active_mean_delta_abs_error_cy_px":  -0.00018266938566936477,
+    "active_condition_cluster_bootstrap_95pct_ci":  [
+                                                        -0.0005396484987003385,
+                                                        0.00018383918361446747
+                                                    ],
+    "active_seed_means":  {
+                              "0":  0.00020099010115045188,
+                              "1":  -0.0012204148312159717,
+                              "2":  0.00047141657305742557
+                          },
+    "failed_gate_checks":  [
+                               "active_ci_upper_lt_zero",
+                               "all_active_condition_means_lt_zero",
+                               "all_three_active_seed_means_nonpositive",
+                               "ci_upper_lt_zero"
+                           ],
+    "holdout_png_accessed":  false,
+    "disposition":  "NO_GO; public pipeline is valid but fixed three-seed v2 route lacks robust optical efficacy; develop a metadata-conditioned frozen expert route before holdout"
+}

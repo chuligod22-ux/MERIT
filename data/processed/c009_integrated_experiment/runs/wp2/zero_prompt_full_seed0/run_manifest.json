@@ -1,0 +1,119 @@
+{
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "completed_at_kst": "2026-09-27T09:55:40+09:00",
+  "elapsed_seconds": 5825.13235040009,
+  "execution_freeze_sha256": "a0cf384ea9245304e27d368cb725a3e1e0e68cb462769a85c5c616def972d0f5",
+  "final_checkpoint_sha256": "3720d3f804928be134ea3084db5cc714f18b544ca8ec4adcda45d3b267fc4d00",
+  "final_state_sha256": "f0fae21195367b175f86936593949193e807dfdc1c7e362b32a89ea5d7e50632",
+  "freeze_schema": "MERIT-C009-WP23-EXECUTION-FREEZE-v1",
+  "g11_contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "global_step": 8000,
+  "initial_state_sha256": "aabcd2bc127bf5424319cb5f503c831b65a3866b48d3d8401c5f91ab86d2502a",
+  "input_arm": "base",
+  "model": {
+    "class": "NAFNetLocal",
+    "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+    "family": "nafnet",
+    "kwargs": {
+      "dec_blk_nums": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enc_blk_nums": [
+        1,
+        1,
+        1,
+        28
+      ],
+      "img_channel": 3,
+      "middle_blk_num": 1,
+      "width": 32
+    },
+    "module": "basicsr.models.archs.NAFNet_arch",
+    "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+    "output_selector": "tensor",
+    "parameters": 17111907,
+    "repository": "https://github.com/megvii-research/NAFNet",
+    "runtime_adaptations": [],
+    "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+    "structure": "zero_prompt_full",
+    "trainable_parameters": 17111907,
+    "wp": "wp2"
+  },
+  "parameters": 17111907,
+  "patch_size": 448,
+  "peak_cuda_memory_bytes_this_invocation": 21107069952,
+  "protocol_sha256": "293b9bf715f8a58922118bf550cc09cb6e635efee28c04230a0193c67996b8dd",
+  "recovery_checkpoint_sha256": "2af3427fa1d15ba6b9f34661e602cb550d2524046d31400f1e87e2c5455b9402",
+  "resume_count": 0,
+  "run_kind": "wp2",
+  "runner_sha256": "d843bcf70b099ed9bf9a642990b4efd972c252b5a1f2d52b69d48d3eeb8345e2",
+  "schema_version": "MERIT-C009-WP23-RUN-v1",
+  "seed": 0,
+  "start_step_this_invocation": 0,
+  "started_or_resumed_at_kst": "2026-09-27T08:18:34+09:00",
+  "status": "complete",
+  "stream_block_hashes": [
+    {
+      "end_step": 1000,
+      "sha256": "0a6bdecad03b93063f3585997253e00bd0b39e8511d62d7e24ad280c036c768f",
+      "start_step": 1
+    },
+    {
+      "end_step": 2000,
+      "sha256": "25eadd0dc0d575021aabe18df0842f5ea6622f54d526de93c9febe863337048e",
+      "start_step": 1001
+    },
+    {
+      "end_step": 3000,
+      "sha256": "5b02cbbee4842132f51fd529a3aabda2c7ec4f8aad0cf06357606b79f2d413da",
+      "start_step": 2001
+    },
+    {
+      "end_step": 4000,
+      "sha256": "3ff26eccd300d1352053f3cc43832230ce16c5f283e83d7892c24cabac79b6a9",
+      "start_step": 3001
+    },
+    {
+      "end_step": 5000,
+      "sha256": "d7015977f0ea1b6a3d4ac6b1e7f150d9aaf43cc99b5e4ae84ac51be9ba06b292",
+      "start_step": 4001
+    },
+    {
+      "end_step": 6000,
+      "sha256": "0a810e8cf0ffc6d16e2bae955e8824700399a9d287a5863b2407aa1168c7f827",
+      "start_step": 5001
+    },
+    {
+      "end_step": 7000,
+      "sha256": "84a94cd6c60a4c8b582c500acf6d21176719daaaaffa4e5342a2c270fb13a881",
+      "start_step": 6001
+    },
+    {
+      "end_step": 8000,
+      "sha256": "81018d9f8240794b14149b93663b799e36e833ccdb774bd16cfa9ea401083b38",
+      "start_step": 7001
+    }
+  ],
+  "stream_matches_wp1_nafnet": true,
+  "stream_sha256": "9c238c18b484310b1a32e0397cf5669a623b596168b48b4e6ef6179f93bda5f2",
+  "structure": "zero_prompt_full",
+  "task_loss_enabled": true,
+  "total_steps": 8000,
+  "train_rows": 161,
+  "trainable_parameters": 17111907,
+  "wp": "wp2",
+  "wp1_reference_manifest_sha256": "3a1c17b9b596ee044438e7aa8ad3edb5772789bcc110b96be4a765ab08c52570",
+  "wp1_reference_stream_sha256": "9c238c18b484310b1a32e0397cf5669a623b596168b48b4e6ef6179f93bda5f2"
+}

@@ -1,0 +1,23 @@
+{
+  "checkpoint": "<LOCAL_PATH_REDACTED>",
+  "checkpoint_sha256": "d5ebea20df1df0d81f65400b90ecea2039149180b68bf79836ff5ea0760310f0",
+  "elapsed_seconds_this_invocation": 736.3766888000537,
+  "log": "<LOCAL_PATH_REDACTED>",
+  "log_sha256": "3e4e2cd1e872449d62ce16c6ac7b40b4eced102c6511afa1371bceba2732b364",
+  "model_id": "nafnet__off__seed2",
+  "payload_sha256": "afd3bb654ff5f350dfdcacced2c7148c264cc43084833e9814b3824fd8860ba7",
+  "peak_cuda_memory_bytes": 12419603968,
+  "schema_version": "MERIT-C051-TRAINING-RUN-v1",
+  "specification": {
+    "arm": "off",
+    "asset_manifest_payload_sha256": "b20126cb738b301a622063a533a28efef8ec2049d98db6f54b3cc61da9152600",
+    "backbone": "nafnet",
+    "batch_size": 4,
+    "protocol_payload_sha256": "8409e6f9303de1d46ec2097dedb793ff1bcfacf90fd8d4cdd8d3bc5c32a216c0",
+    "seed": 2,
+    "steps": 4000,
+    "width": 32
+  },
+  "status": "PASS_COMPLETE",
+  "trainable_parameters": 4953121
+}

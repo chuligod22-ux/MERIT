@@ -1,0 +1,2401 @@
+{
+  "created_utc": "2026-09-22T14:31:39+00:00",
+  "records": [
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000102.png",
+      "path": "progress\\0001_60km_2.5m_ISO100_frame_000102.png.json",
+      "sha256": "5ab70f22fd40724ca4d9b1e087abd3be9da9897299975d6811f326a2b055a909"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000103.png",
+      "path": "progress\\0002_60km_2.5m_ISO100_frame_000103.png.json",
+      "sha256": "c1a1cd3fe0413b2a48da422b686622c74dfe5fe24e6cea3b13417497a0291741"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000104.png",
+      "path": "progress\\0003_60km_2.5m_ISO100_frame_000104.png.json",
+      "sha256": "710fbeb6009c395b3e288a95e4e01d33f5acb495a1016369a6b3fa032db1b9fd"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000105.png",
+      "path": "progress\\0004_60km_2.5m_ISO100_frame_000105.png.json",
+      "sha256": "85bd8d0b85513a3564369234e34aa4ad880afbc0eb525db7e49077a29ed7fbef"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000106.png",
+      "path": "progress\\0005_60km_2.5m_ISO100_frame_000106.png.json",
+      "sha256": "342620d45446319af2bff2d7037e317ce4665bc438b5c102a74b8a47f8541554"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000107.png",
+      "path": "progress\\0006_60km_2.5m_ISO100_frame_000107.png.json",
+      "sha256": "4679eba79335535b5d79c3b5fccccc2e28a2f6a49feec5272a060b84bdca4d3e"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000154.png",
+      "path": "progress\\0007_60km_2.5m_ISO100_frame_000154.png.json",
+      "sha256": "dce704ae30a9f05dc99f708e0ad086149f23b490dddc38addaf5d34bf8577061"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000155.png",
+      "path": "progress\\0008_60km_2.5m_ISO100_frame_000155.png.json",
+      "sha256": "da58d409df7cd325ecefaf47f12fa9e9d4ec6dffeaa155887048811a72c18c01"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000156.png",
+      "path": "progress\\0009_60km_2.5m_ISO100_frame_000156.png.json",
+      "sha256": "adcc96f446c5e141ec8ec15609f3b6e69fe1301e3bd3f3a0e867f6fba0a9221e"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO100/frame_000157.png",
+      "path": "progress\\0010_60km_2.5m_ISO100_frame_000157.png.json",
+      "sha256": "b4cf3e76fe80dbd5052d94b119921c2f1f73e832f14fbdb0513a8d7752476253"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000081.png",
+      "path": "progress\\0011_60km_2.5m_ISO1600_frame_000081.png.json",
+      "sha256": "5120ca1f7f33e7ee812b5e47865f2f8689cf44473635831c9abc9a9a8a27ff95"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000082.png",
+      "path": "progress\\0012_60km_2.5m_ISO1600_frame_000082.png.json",
+      "sha256": "5809f49ae0f15e2b5ab56eb9312d071a021141d22d5aa1d0ad9a010db7ebeb52"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000083.png",
+      "path": "progress\\0013_60km_2.5m_ISO1600_frame_000083.png.json",
+      "sha256": "1e76c8e23d02e5e1e768a81a8422a94c33cd879c4c63d4f91ddb486f60812522"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000085.png",
+      "path": "progress\\0014_60km_2.5m_ISO1600_frame_000085.png.json",
+      "sha256": "1cefba87fa5abaa92af7806c325e3c074708360f646946921668e658a364f8f4"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000132.png",
+      "path": "progress\\0015_60km_2.5m_ISO1600_frame_000132.png.json",
+      "sha256": "68d40853352a1a24298699bc6c87693c6d35036b051ffc900914c2ee85449a4c"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000133.png",
+      "path": "progress\\0016_60km_2.5m_ISO1600_frame_000133.png.json",
+      "sha256": "56ded1b21b14324d5ec5874020d320ecfa3432d15786905920aa27cb6993954c"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000135.png",
+      "path": "progress\\0017_60km_2.5m_ISO1600_frame_000135.png.json",
+      "sha256": "09b352eb7c426e0133b49c4a7d949bbf53c5f379e2075d01de2481ca1cb533f7"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000136.png",
+      "path": "progress\\0018_60km_2.5m_ISO1600_frame_000136.png.json",
+      "sha256": "4dd4ac97b5797854a591199a79a9d3272c95b11e2ba9fb7ec580a5ade796948a"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO1600/frame_000137.png",
+      "path": "progress\\0019_60km_2.5m_ISO1600_frame_000137.png.json",
+      "sha256": "e8fca288301f3c34d068cd73c14d8db78895b0f4256a248d5cbba9b15e393394"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000098.png",
+      "path": "progress\\0020_60km_2.5m_ISO200_frame_000098.png.json",
+      "sha256": "c95c7d3d630b56d2c8df7989106111e1b8251d76c26e16f588a4be4b040b7807"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000099.png",
+      "path": "progress\\0021_60km_2.5m_ISO200_frame_000099.png.json",
+      "sha256": "cde40813de282f1eb0dc0e965f0ac6b776812313d4e2e7550af61828f99be442"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000100.png",
+      "path": "progress\\0022_60km_2.5m_ISO200_frame_000100.png.json",
+      "sha256": "7f5aea941fec6e06c50b828e0b0b7c9e90f1d4cbd530454194b7c919accb6752"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000101.png",
+      "path": "progress\\0023_60km_2.5m_ISO200_frame_000101.png.json",
+      "sha256": "be528c42d736a44f52edc1c04249e1d33ea521d7ff39462ff3d4fba8ac3ab240"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000151.png",
+      "path": "progress\\0024_60km_2.5m_ISO200_frame_000151.png.json",
+      "sha256": "ebc57a50ca44e2542527e5235387c332adcf2cd63d573f7400a5312203b5f554"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000152.png",
+      "path": "progress\\0025_60km_2.5m_ISO200_frame_000152.png.json",
+      "sha256": "57d1218cab2cb648e905ecb1044f90f5f52d64cbdbbfd9549b965a39d23a15af"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO200/frame_000153.png",
+      "path": "progress\\0026_60km_2.5m_ISO200_frame_000153.png.json",
+      "sha256": "fd491de6ce2abcbdca19f6b57ce72f45e27b7949bffaf9a9aa4727f5970a616d"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000094.png",
+      "path": "progress\\0027_60km_2.5m_ISO400_frame_000094.png.json",
+      "sha256": "edf9e0d1ce4fbde8840aa1642c861d644b15bf7ff82d2ff658194e74c802f5ac"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000095.png",
+      "path": "progress\\0028_60km_2.5m_ISO400_frame_000095.png.json",
+      "sha256": "ac16dd594f1c32a970150563648f079215c95ed085ada1d325edf3243c57e364"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000096.png",
+      "path": "progress\\0029_60km_2.5m_ISO400_frame_000096.png.json",
+      "sha256": "91e0d3b51afd1600b82401be7cb753a1c0f6df91d2b33b0a99b807cbd5062dd2"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000097.png",
+      "path": "progress\\0030_60km_2.5m_ISO400_frame_000097.png.json",
+      "sha256": "dc76600dd736dcb568438ee338949baa7d5257cc2cc18af391dc38a1fbf37e4c"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000145.png",
+      "path": "progress\\0031_60km_2.5m_ISO400_frame_000145.png.json",
+      "sha256": "9a505a60e67681f66652f0f68e02dbfc1d39fa59c603926abd17285d78f0591b"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000146.png",
+      "path": "progress\\0032_60km_2.5m_ISO400_frame_000146.png.json",
+      "sha256": "0c236f7e781473703b1c6ee39c70209f03364887c6703237fd50d7fe37c9bc88"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000147.png",
+      "path": "progress\\0033_60km_2.5m_ISO400_frame_000147.png.json",
+      "sha256": "0feedf4e59106e10834f920fe8bb0edb0f168a1c52210198cb62ff377ba37aa8"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO400/frame_000148.png",
+      "path": "progress\\0034_60km_2.5m_ISO400_frame_000148.png.json",
+      "sha256": "f4dde703cc3ebe197ced772ef41348c465b483a5501b53d7d2cac7eea45087bf"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000098.png",
+      "path": "progress\\0035_60km_2.5m_ISO800_frame_000098.png.json",
+      "sha256": "ea21a47392725e348d88abfcdb0d6862a7157f82f27e6c1103a08f10ed7cab2e"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000099.png",
+      "path": "progress\\0036_60km_2.5m_ISO800_frame_000099.png.json",
+      "sha256": "57cf0e8ccb3a9ba35b51103a33387990f529b492a9517d4fdc58db78d036016b"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000100.png",
+      "path": "progress\\0037_60km_2.5m_ISO800_frame_000100.png.json",
+      "sha256": "43f80dbc2db43bec286416d60a1a07b57cccd9def0773ada99aaf97e9c26be60"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000101.png",
+      "path": "progress\\0038_60km_2.5m_ISO800_frame_000101.png.json",
+      "sha256": "2deaa5e1faea6c5d3e80137f99d8979119559320bc3dff737b7157c04b2e2072"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000102.png",
+      "path": "progress\\0039_60km_2.5m_ISO800_frame_000102.png.json",
+      "sha256": "bdcc1d12fa5ce9192874c11d27f3db6e1175959c80fa66c17088c2f3f3c1367b"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000103.png",
+      "path": "progress\\0040_60km_2.5m_ISO800_frame_000103.png.json",
+      "sha256": "3a4077a77e489182532cefdba3e32a1120efae2306c559317abcfc0ab8deb09d"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000150.png",
+      "path": "progress\\0041_60km_2.5m_ISO800_frame_000150.png.json",
+      "sha256": "9486208aa90631da167a50f9f4b77f312e670075dcf8d1e2156fbdbfcd74202b"
+    },
+    {
+      "frame_id": "60km_2.5m_ISO800/frame_000151.png",
+      "path": "progress\\0042_60km_2.5m_ISO800_frame_000151.png.json",
+      "sha256": "d0a742a11840dcc3da9bec54ba8111fe92d56187d621db1aed66bcc0ef6c4bd9"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000093.png",
+      "path": "progress\\0043_60km_3.5m_ISO100_frame_000093.png.json",
+      "sha256": "5ab1b095bbd7e5e56f2b05fc739d7d49b588263ed172fe1f1ce82521b8d4763e"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000094.png",
+      "path": "progress\\0044_60km_3.5m_ISO100_frame_000094.png.json",
+      "sha256": "b4d7b8ce9f5930c8eae1c40ff6428d48679952c527418511ea74d427a43780a0"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000095.png",
+      "path": "progress\\0045_60km_3.5m_ISO100_frame_000095.png.json",
+      "sha256": "94f449799a0f6975f8ec442cca83ae0fcdd31aa797cc95a9c8d2b2cfd4ddfb6b"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000096.png",
+      "path": "progress\\0046_60km_3.5m_ISO100_frame_000096.png.json",
+      "sha256": "6bb1f2cfd7bc94074fba29e36a6e233d27d7b2d2ca3fcd46893b4c9b5112c1f7"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000097.png",
+      "path": "progress\\0047_60km_3.5m_ISO100_frame_000097.png.json",
+      "sha256": "0211498f9b3a311e9ff7c97d8aaeb46c3f243e2d558b8f9eeaff3954a81d4bae"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000098.png",
+      "path": "progress\\0048_60km_3.5m_ISO100_frame_000098.png.json",
+      "sha256": "223964b20d6183d62690edd935c1204fd9a248387f25ab27541b163fb6ab643a"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000145.png",
+      "path": "progress\\0049_60km_3.5m_ISO100_frame_000145.png.json",
+      "sha256": "d39ab0b41ab3f1709fb45f034963df2f1f5113ceaa005d8c273ddddcc08a130b"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000146.png",
+      "path": "progress\\0050_60km_3.5m_ISO100_frame_000146.png.json",
+      "sha256": "0f86da8cb8d1881a8043263ccbdad0b4aef30ed8b036391bf89cb3dee574bdc1"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000147.png",
+      "path": "progress\\0051_60km_3.5m_ISO100_frame_000147.png.json",
+      "sha256": "e0662e33076d6bad3b136f5287b97671d1bbd9e23f9e50bef27c6f34d9c27f20"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO100/frame_000148.png",
+      "path": "progress\\0052_60km_3.5m_ISO100_frame_000148.png.json",
+      "sha256": "a843402663fdc62267b283d6231f6afd59abfcfec87c50cfc8b7becdb57b89fe"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000091.png",
+      "path": "progress\\0053_60km_3.5m_ISO1600_frame_000091.png.json",
+      "sha256": "64d9cfd35e4a6cf30eac65d28e7d203133e25bd96db072aec1d42945060b8d27"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000092.png",
+      "path": "progress\\0054_60km_3.5m_ISO1600_frame_000092.png.json",
+      "sha256": "1ada1d706132c5eab29bf59cfc72d099caf49f33314a125184d4b8b3a9a59bb5"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000093.png",
+      "path": "progress\\0055_60km_3.5m_ISO1600_frame_000093.png.json",
+      "sha256": "f99cbc810a5343d1fbffc7f160d2b1ad55584a4bf06c5cb4e8f77330b6b4f289"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000094.png",
+      "path": "progress\\0056_60km_3.5m_ISO1600_frame_000094.png.json",
+      "sha256": "c1cb5aa7fb6c9198017e5836d2b614bc88203d1f36e2dee00ffa102f783286b5"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000095.png",
+      "path": "progress\\0057_60km_3.5m_ISO1600_frame_000095.png.json",
+      "sha256": "1603bcd1a89ddc14238cfa00c007e742e5bc913b38855675493c0a4c86f23fd4"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000142.png",
+      "path": "progress\\0058_60km_3.5m_ISO1600_frame_000142.png.json",
+      "sha256": "c6ebf76d66a9dbcebfac5b7b74da3168f41b25f028825a5852f6c87c9a782664"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000143.png",
+      "path": "progress\\0059_60km_3.5m_ISO1600_frame_000143.png.json",
+      "sha256": "fb277e6d17c7506957c4ac9b30939f5ad99824cc85d44348b7b44a6cb8065e3c"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000144.png",
+      "path": "progress\\0060_60km_3.5m_ISO1600_frame_000144.png.json",
+      "sha256": "39e2250e4ab562ab14dc6208b5cb8de46c20416d315ee35e8422841341bf5a0c"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000145.png",
+      "path": "progress\\0061_60km_3.5m_ISO1600_frame_000145.png.json",
+      "sha256": "c0bea413810e5b15b621fb2af59470045a214be9fc83357b12231d3cbe77879e"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO1600/frame_000146.png",
+      "path": "progress\\0062_60km_3.5m_ISO1600_frame_000146.png.json",
+      "sha256": "33a9a5355a1a89ced51c5a7cea04288464095f088978c39b14e7b7eaf311d88e"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000104.png",
+      "path": "progress\\0063_60km_3.5m_ISO200_frame_000104.png.json",
+      "sha256": "1314b54c5700a5dc12f4e06556b0b75f11bc975ff6b054798357879174d4fc9e"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000105.png",
+      "path": "progress\\0064_60km_3.5m_ISO200_frame_000105.png.json",
+      "sha256": "4e95618e6c56132bcb7239cd32a0ebe1aa88a16f5c9d4423aa9103f1eda9d243"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000106.png",
+      "path": "progress\\0065_60km_3.5m_ISO200_frame_000106.png.json",
+      "sha256": "afe471d9f45b1cd580e113d699d7951ce7e20863c79721a402ac079af051c7f3"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000107.png",
+      "path": "progress\\0066_60km_3.5m_ISO200_frame_000107.png.json",
+      "sha256": "c86ba8e232ed346ba22618bc1a5852cf093f6f9f4adbdd9ec2cd59486d2215f0"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000108.png",
+      "path": "progress\\0067_60km_3.5m_ISO200_frame_000108.png.json",
+      "sha256": "3e38a35a3a8b9625973a057e853eea272c3493da68c49c65072c94efb65b1b36"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000109.png",
+      "path": "progress\\0068_60km_3.5m_ISO200_frame_000109.png.json",
+      "sha256": "08e1212d989f15615fc5f05524e84dd7474bc4a2a57ac0aabb8b5ac16a95012e"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000155.png",
+      "path": "progress\\0069_60km_3.5m_ISO200_frame_000155.png.json",
+      "sha256": "39606d7dccf10f876565da7e5796dd9ff9338499c95e866bfcc9b560d93ee7c2"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000156.png",
+      "path": "progress\\0070_60km_3.5m_ISO200_frame_000156.png.json",
+      "sha256": "5f2434df545419601770fa560d3cef49403ff08d92b18ebcbee59363f9d41ad9"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000157.png",
+      "path": "progress\\0071_60km_3.5m_ISO200_frame_000157.png.json",
+      "sha256": "031292bd3df7229c7277a728c7799c37322ed67d30b46bb0ad2c17bab92f868a"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000158.png",
+      "path": "progress\\0072_60km_3.5m_ISO200_frame_000158.png.json",
+      "sha256": "a0f16c7311a27dae212da567dd8c2f725308be22762b4b42324d6c47cc802d07"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO200/frame_000159.png",
+      "path": "progress\\0073_60km_3.5m_ISO200_frame_000159.png.json",
+      "sha256": "5dcb67c9460caddcbb676747282dbf188590c6ba571dd95f3b194a53e6e6b3ec"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000093.png",
+      "path": "progress\\0074_60km_3.5m_ISO400_frame_000093.png.json",
+      "sha256": "3144e1509f53c1da7e45f2ca6d63d589123aa385f796e2fc261f3d01b1d2a362"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000094.png",
+      "path": "progress\\0075_60km_3.5m_ISO400_frame_000094.png.json",
+      "sha256": "23c93d17ad1d34670803da05261535f0b98b95065755d39b113781f7b2a14cbf"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000095.png",
+      "path": "progress\\0076_60km_3.5m_ISO400_frame_000095.png.json",
+      "sha256": "29dc83f09a30f85723f3575c17cbf97b7db0495f01e1101cd9abe04db453014d"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000096.png",
+      "path": "progress\\0077_60km_3.5m_ISO400_frame_000096.png.json",
+      "sha256": "48c5ed3b3b0177accf743ef63793d4f79828d1bd375e79ae20df36437c72f9cf"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000097.png",
+      "path": "progress\\0078_60km_3.5m_ISO400_frame_000097.png.json",
+      "sha256": "dd42e19b396444566c86066d5b2868b6ef320a01e5e231a0ecf912afcb5531b5"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000140.png",
+      "path": "progress\\0079_60km_3.5m_ISO400_frame_000140.png.json",
+      "sha256": "c29d53e9725c1d3da768eb68907f48a6bbc4045ebc158eeadab4f7eb707a0d48"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000141.png",
+      "path": "progress\\0080_60km_3.5m_ISO400_frame_000141.png.json",
+      "sha256": "35329a228fd454af7e7ed1ae7d105561da3b25b883effd808a7b2e63f0cb0420"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO400/frame_000142.png",
+      "path": "progress\\0081_60km_3.5m_ISO400_frame_000142.png.json",
+      "sha256": "dc5ff5d6e295dd9aa6daffdc444e389827c191a947c8bf9e853831b279ea1a67"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000104.png",
+      "path": "progress\\0082_60km_3.5m_ISO800_frame_000104.png.json",
+      "sha256": "8d84d1055f0c40624cba9a7e4e85e426c21cbf6569e4b839e39ea6d214b53bd6"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000105.png",
+      "path": "progress\\0083_60km_3.5m_ISO800_frame_000105.png.json",
+      "sha256": "dae8f95cbece5940a60902a12da89213ad7e31ed4910149eedb63062be3bd8ae"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000106.png",
+      "path": "progress\\0084_60km_3.5m_ISO800_frame_000106.png.json",
+      "sha256": "ccbf8fa614642bf54257fcf78aefe7bb2da15d8d775944b2bdaf9511e339be24"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000107.png",
+      "path": "progress\\0085_60km_3.5m_ISO800_frame_000107.png.json",
+      "sha256": "a6fa0cd5c47a51f9715026cdc792f5b73b7a3363b51b87fdf5d53cdb4f09b1f0"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000108.png",
+      "path": "progress\\0086_60km_3.5m_ISO800_frame_000108.png.json",
+      "sha256": "e94cd6295fae5a78e394e794514f481bf57749d873e1c627fd336bd020244d91"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000156.png",
+      "path": "progress\\0087_60km_3.5m_ISO800_frame_000156.png.json",
+      "sha256": "280f12018d2473490de60daae9c82d41d5c1889258bd3dbbacb926d8f119b6f3"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000157.png",
+      "path": "progress\\0088_60km_3.5m_ISO800_frame_000157.png.json",
+      "sha256": "08dc53a443e842416236a6744697ea2c009b21efbf70cf3ff84becac325e74b4"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000158.png",
+      "path": "progress\\0089_60km_3.5m_ISO800_frame_000158.png.json",
+      "sha256": "c48d4eaf793e5173fbb7271c705f5ce6f6d28c70748f99bb662139cbbdc6678b"
+    },
+    {
+      "frame_id": "60km_3.5m_ISO800/frame_000159.png",
+      "path": "progress\\0090_60km_3.5m_ISO800_frame_000159.png.json",
+      "sha256": "a4202cc08132597c77d2ebda2b82b01feba875d43c7e6bd58e806cf634a16b85"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000102.png",
+      "path": "progress\\0091_60km_4.5m_ISO100_frame_000102.png.json",
+      "sha256": "f7e67872581452ba3e09a1d92bb094500caf791880c90b22d22ede6d60210e7f"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000103.png",
+      "path": "progress\\0092_60km_4.5m_ISO100_frame_000103.png.json",
+      "sha256": "2b2db10399d26c7c549a6d749ef136e11185039b08a4175874430482a2e2b28c"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000104.png",
+      "path": "progress\\0093_60km_4.5m_ISO100_frame_000104.png.json",
+      "sha256": "2458b95511a56ac1f219a50e60a76c246867770a5452083bf5ce68f591eb7d48"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000105.png",
+      "path": "progress\\0094_60km_4.5m_ISO100_frame_000105.png.json",
+      "sha256": "85f31d2ecac2eb26ed1fd641cb5c7d936998287480b0304226e231878b185ed9"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000106.png",
+      "path": "progress\\0095_60km_4.5m_ISO100_frame_000106.png.json",
+      "sha256": "37f534c18c7ed7f4cbf11499002b6f58544fe92e813c1176dffed207c626728c"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000107.png",
+      "path": "progress\\0096_60km_4.5m_ISO100_frame_000107.png.json",
+      "sha256": "9011b9faa9a1a50e2f8fcbc4cc81c5927576ef322123baf6de770f7d39484f88"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000155.png",
+      "path": "progress\\0097_60km_4.5m_ISO100_frame_000155.png.json",
+      "sha256": "3e391ede49cfadaa5e63845076a0657e385b1ad6db4bf803c3a94583062ee2bb"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000156.png",
+      "path": "progress\\0098_60km_4.5m_ISO100_frame_000156.png.json",
+      "sha256": "23edc3c0dc422e247aa8f7a615d34622c12e97a7152be121e4213f8952ae798a"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000157.png",
+      "path": "progress\\0099_60km_4.5m_ISO100_frame_000157.png.json",
+      "sha256": "b20f593a6b5f7d7daf3c688eeb26a4fce2547891e520156f6977cbdd5d6386d4"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO100/frame_000158.png",
+      "path": "progress\\0100_60km_4.5m_ISO100_frame_000158.png.json",
+      "sha256": "644625d43fb71d2caa3ccd87ae4aa3c6a0ce30d4ee4f0f3e23ec4ae32432fac7"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000100.png",
+      "path": "progress\\0101_60km_4.5m_ISO1600_frame_000100.png.json",
+      "sha256": "dd45f6cb295eded18c8563a840f04831bcc4783db37ab2ef47a739f661609131"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000101.png",
+      "path": "progress\\0102_60km_4.5m_ISO1600_frame_000101.png.json",
+      "sha256": "ea5d1ed0a1722d25c89aeb5826c8df8a8adb5bc75fa44e9773f89c5fc21bf69f"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000102.png",
+      "path": "progress\\0103_60km_4.5m_ISO1600_frame_000102.png.json",
+      "sha256": "d43b0328c96b81bb30d8a11552383cab761b68b9a2222e3e4dbd8786bf3a0041"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000103.png",
+      "path": "progress\\0104_60km_4.5m_ISO1600_frame_000103.png.json",
+      "sha256": "2c3d0a468bfb0c4478ede68cb5772e4f58955adb3d9ddea5be0fd01137feb858"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000104.png",
+      "path": "progress\\0105_60km_4.5m_ISO1600_frame_000104.png.json",
+      "sha256": "36190246633bb1b21411ceb2e70c7870709a05001471902deb9ea0b3e715b80b"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000105.png",
+      "path": "progress\\0106_60km_4.5m_ISO1600_frame_000105.png.json",
+      "sha256": "adbba94c98296fa53c1a565ae2fe73eaa91bbc6f9ee94c721ef62d910e92ed25"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000152.png",
+      "path": "progress\\0107_60km_4.5m_ISO1600_frame_000152.png.json",
+      "sha256": "7a26b641319850d19ec741277c55230777bf4d874e4ec7d43db551c00dc2f281"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000153.png",
+      "path": "progress\\0108_60km_4.5m_ISO1600_frame_000153.png.json",
+      "sha256": "ac34481337f5a6eb04dde5ad588c879124635a48ca2eaccee0c08dfd94858e4d"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000154.png",
+      "path": "progress\\0109_60km_4.5m_ISO1600_frame_000154.png.json",
+      "sha256": "26e36f55c88c228f720ce6f76f2cdaeb2abc86a2153f7b02d344efaf8bccf684"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000155.png",
+      "path": "progress\\0110_60km_4.5m_ISO1600_frame_000155.png.json",
+      "sha256": "1abdd7bb7ba150f93aa2bac240b3f0fa7ec3d4807d91cfdcafd3484050c70edb"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO1600/frame_000156.png",
+      "path": "progress\\0111_60km_4.5m_ISO1600_frame_000156.png.json",
+      "sha256": "6425f58987c42edf8808e762877824602ca269897d50669b3732063b44bc7f66"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000105.png",
+      "path": "progress\\0112_60km_4.5m_ISO200_frame_000105.png.json",
+      "sha256": "9fc969b4f33ed970d3256ebe2de6446a0c83516b187b35714915fe5837450b2a"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000106.png",
+      "path": "progress\\0113_60km_4.5m_ISO200_frame_000106.png.json",
+      "sha256": "395b4e057f1fb3049c88084083736bfb4af6c06059b6836323cebac4fdda65bf"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000107.png",
+      "path": "progress\\0114_60km_4.5m_ISO200_frame_000107.png.json",
+      "sha256": "183a4255aa28df82f1227a4cf2d193776df46ae193bb8fe717323296c445af83"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000108.png",
+      "path": "progress\\0115_60km_4.5m_ISO200_frame_000108.png.json",
+      "sha256": "5f73562ea0ffc133a4f5f319e17d63db756e25c3c1a057585faa5b49a3fb222a"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000109.png",
+      "path": "progress\\0116_60km_4.5m_ISO200_frame_000109.png.json",
+      "sha256": "2b51bf9da14617265bd5e6b2926cc37c6e1986829dee722caa8020bcf25c1186"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000110.png",
+      "path": "progress\\0117_60km_4.5m_ISO200_frame_000110.png.json",
+      "sha256": "1ee5621575920ecb5e5862c9d869e90f929243a007ddbab42c65233173fbc472"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000155.png",
+      "path": "progress\\0118_60km_4.5m_ISO200_frame_000155.png.json",
+      "sha256": "14788a6bd0ffed22e9e9fe50d8590aa347a52bd71b42dd119e8d3db6a3a795d3"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000156.png",
+      "path": "progress\\0119_60km_4.5m_ISO200_frame_000156.png.json",
+      "sha256": "965dd6ed9f64fe8ad14d7ef312d252aa5f35547e4b870775d371d928e07f935b"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000157.png",
+      "path": "progress\\0120_60km_4.5m_ISO200_frame_000157.png.json",
+      "sha256": "09a249333d90db3f6f993bce88f48428f3781a7d6b5d9838bd55347d7fa4ee52"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000158.png",
+      "path": "progress\\0121_60km_4.5m_ISO200_frame_000158.png.json",
+      "sha256": "5b7d77a57c6c919ed57dab72ddacdcc446fc92c39e5611e8c90032b554e63953"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000159.png",
+      "path": "progress\\0122_60km_4.5m_ISO200_frame_000159.png.json",
+      "sha256": "845aebe79a1b02f0ebc7462aa0a5ccb1e5bab54fa3b768a8a194f59db95a6a51"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO200/frame_000160.png",
+      "path": "progress\\0123_60km_4.5m_ISO200_frame_000160.png.json",
+      "sha256": "b22985033c0b5035cd436560b507ea61e0ee6cfcf8f128e558df5ac9e7ceaf56"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO400/frame_000116.png",
+      "path": "progress\\0124_60km_4.5m_ISO400_frame_000116.png.json",
+      "sha256": "7a85089595de2a4f99f38f0bd015eb5bbf45e3b6acfee6395132023d2b85b06c"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO400/frame_000117.png",
+      "path": "progress\\0125_60km_4.5m_ISO400_frame_000117.png.json",
+      "sha256": "ef7330cc2ad8882fb45f71160d5b01c1d76766aa7ec2f8b99c0bafe4d31bba8e"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO400/frame_000119.png",
+      "path": "progress\\0126_60km_4.5m_ISO400_frame_000119.png.json",
+      "sha256": "e070fb3b3c1e03d2ea49aa491f761a36d484ebf510280546697918a8bb73ba37"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO400/frame_000120.png",
+      "path": "progress\\0127_60km_4.5m_ISO400_frame_000120.png.json",
+      "sha256": "7b91351c53e67092fe64adff4e23fc5f12fad0f469a327a6ad5c12d5147413fb"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO400/frame_000121.png",
+      "path": "progress\\0128_60km_4.5m_ISO400_frame_000121.png.json",
+      "sha256": "4aae332272693d9dc9750d77972f3b4d0cb9da751f65b6ca1e0b028b770a131b"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000100.png",
+      "path": "progress\\0129_60km_4.5m_ISO800_frame_000100.png.json",
+      "sha256": "b0657303a3a80481e89c311abb3eb974bc0425f14c25d1586cf09d855f1743c3"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000101.png",
+      "path": "progress\\0130_60km_4.5m_ISO800_frame_000101.png.json",
+      "sha256": "a2d294da83f110c99b7c851a634faaa96269fd2c898aaae62e8d560a3d330f89"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000102.png",
+      "path": "progress\\0131_60km_4.5m_ISO800_frame_000102.png.json",
+      "sha256": "a4d9f063e86f56719e33ad6ccd386ea0a641e2291257ec761047286c653d5038"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000103.png",
+      "path": "progress\\0132_60km_4.5m_ISO800_frame_000103.png.json",
+      "sha256": "a4b4a5ad5530543aafcabfabc9fa69d78d58194f399a0b8717f003f40750c588"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000104.png",
+      "path": "progress\\0133_60km_4.5m_ISO800_frame_000104.png.json",
+      "sha256": "f25bec2dd9969e6ba5140fd3f39bea0a7e42b102145c490031b7099faf0c7c03"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000105.png",
+      "path": "progress\\0134_60km_4.5m_ISO800_frame_000105.png.json",
+      "sha256": "1f6123efbcf544d71fd061a50515bb812fee1a6d7f3442effd925b32f26b2cfc"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000152.png",
+      "path": "progress\\0135_60km_4.5m_ISO800_frame_000152.png.json",
+      "sha256": "4855530b366b07be20d23fe6d9e8b3805ce26d793eef55430fe3d5751c4daad5"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000153.png",
+      "path": "progress\\0136_60km_4.5m_ISO800_frame_000153.png.json",
+      "sha256": "8d282ff1f6bbb6497326aa7f6cf86f233b26149342581aae315bd53e4cda5944"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000154.png",
+      "path": "progress\\0137_60km_4.5m_ISO800_frame_000154.png.json",
+      "sha256": "94bfc35df353cdb7a1363895fe91dc8357103e81f4c9f997250b174ed8cc7259"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000155.png",
+      "path": "progress\\0138_60km_4.5m_ISO800_frame_000155.png.json",
+      "sha256": "724ae836240ba240337e3b25ed654c69de372c2a220424cc06c5d21dd54fff84"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000156.png",
+      "path": "progress\\0139_60km_4.5m_ISO800_frame_000156.png.json",
+      "sha256": "aa1109eac519829f1c7e80108386acc46f8e47505686aad2e73136e810822f08"
+    },
+    {
+      "frame_id": "60km_4.5m_ISO800/frame_000157.png",
+      "path": "progress\\0140_60km_4.5m_ISO800_frame_000157.png.json",
+      "sha256": "90f5092eaf18b8e5c90f68cf41030932b56dceb47d21a665c46a151b29664298"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000095.png",
+      "path": "progress\\0141_60km_5.5m_ISO100_frame_000095.png.json",
+      "sha256": "0510e3d551ae03c6a1dd751f691dc1f37b322b7da58d9873c26c1f46f5e1af4a"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000096.png",
+      "path": "progress\\0142_60km_5.5m_ISO100_frame_000096.png.json",
+      "sha256": "4dec5ce01943742bbc5b060e8f6e9e05f84f2d0ad013a9f44a70753e178b4598"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000097.png",
+      "path": "progress\\0143_60km_5.5m_ISO100_frame_000097.png.json",
+      "sha256": "e64fa18cca5a368b27871647e37241b3d2956e6fd67b737603083c04d02a539f"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000098.png",
+      "path": "progress\\0144_60km_5.5m_ISO100_frame_000098.png.json",
+      "sha256": "b3521dbc7a08bd5650270ab8beecd035e11271fa6d4040c6ff64c7c3d1a990ca"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000099.png",
+      "path": "progress\\0145_60km_5.5m_ISO100_frame_000099.png.json",
+      "sha256": "b44fc5aa79dcb031679d29ebe3fcaca6c705f2656e79e2e4ac2bfe87e3bd7469"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000146.png",
+      "path": "progress\\0146_60km_5.5m_ISO100_frame_000146.png.json",
+      "sha256": "c60409f1659fe1c7a11e3224fb822866aa78710dadd7d02f488a9c3f0b0bf9a8"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000147.png",
+      "path": "progress\\0147_60km_5.5m_ISO100_frame_000147.png.json",
+      "sha256": "47963412cb06f1a00bcfbe2327cd506b47ba258d82854d4edb0a15ceec7eef7b"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000148.png",
+      "path": "progress\\0148_60km_5.5m_ISO100_frame_000148.png.json",
+      "sha256": "4bae970b592b0d6c3d46a0cc329dd258e6ef0f7d5c1e3205afbc8bf56a66dfb1"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000149.png",
+      "path": "progress\\0149_60km_5.5m_ISO100_frame_000149.png.json",
+      "sha256": "37d3a351bec59509e623acdcea10a13ac3131dddc7ffa4c2d0e426a32a74ba3c"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000150.png",
+      "path": "progress\\0150_60km_5.5m_ISO100_frame_000150.png.json",
+      "sha256": "6e4bc32947def93432cc79f195ed16e92f04feea3dd4be906b8cf27356425fb7"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO100/frame_000151.png",
+      "path": "progress\\0151_60km_5.5m_ISO100_frame_000151.png.json",
+      "sha256": "e8dce3d228bd66630d6642a57746a5433779bf58d237c72be9e888e030114344"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000094.png",
+      "path": "progress\\0152_60km_5.5m_ISO1600_frame_000094.png.json",
+      "sha256": "0cf7020c7f2d321a76f4e12d1c3c153e11499f63a1b06365c5f4878cbcbbd3ca"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000095.png",
+      "path": "progress\\0153_60km_5.5m_ISO1600_frame_000095.png.json",
+      "sha256": "e4749aaaeaa1ea855f63f0028d4bfac5d8dcff4aa68f8fb53ebbe3a38325d494"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000096.png",
+      "path": "progress\\0154_60km_5.5m_ISO1600_frame_000096.png.json",
+      "sha256": "8346e345cb368263624379f8a4da302490ecb90b8c6648d36dc56bbfe6a04c77"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000097.png",
+      "path": "progress\\0155_60km_5.5m_ISO1600_frame_000097.png.json",
+      "sha256": "759e8884b0704626eca359f3494f8560255272a162c53a9ee49eba40929bd143"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000098.png",
+      "path": "progress\\0156_60km_5.5m_ISO1600_frame_000098.png.json",
+      "sha256": "b7f2a782b070ec850848aaa41be718f53686bd717cbb2b779461b6724345939b"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000099.png",
+      "path": "progress\\0157_60km_5.5m_ISO1600_frame_000099.png.json",
+      "sha256": "179c68acc713294e59b277d88f226bfa4d7ddaa66eb3f1d55ee92a451334c45b"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000145.png",
+      "path": "progress\\0158_60km_5.5m_ISO1600_frame_000145.png.json",
+      "sha256": "8e293daf90a7273037d156f236c73b83d9eee5ab5e9bdd6b0b10bc824db5535e"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000146.png",
+      "path": "progress\\0159_60km_5.5m_ISO1600_frame_000146.png.json",
+      "sha256": "6ee37312cabe120e2755e16537f9932d05002e70278192711ba86e970eaa0a81"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000147.png",
+      "path": "progress\\0160_60km_5.5m_ISO1600_frame_000147.png.json",
+      "sha256": "e28000df9a8af15ffada203f4a47a610c78ce567ee6884425017ab8b2cc447cc"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000148.png",
+      "path": "progress\\0161_60km_5.5m_ISO1600_frame_000148.png.json",
+      "sha256": "00231ea55603b63b482643b047fbae50e6022d7185fd1929504750b61e8c97eb"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000149.png",
+      "path": "progress\\0162_60km_5.5m_ISO1600_frame_000149.png.json",
+      "sha256": "ae37ba06d02049f173e009e933807ed58efbf0e53c418a2fa05eef2f6bfb6a7c"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO1600/frame_000150.png",
+      "path": "progress\\0163_60km_5.5m_ISO1600_frame_000150.png.json",
+      "sha256": "46d387fa04368fb1a1f05237387a168e17bb2b95d97dd1495bb46ba885afd7cc"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000090.png",
+      "path": "progress\\0164_60km_5.5m_ISO200_frame_000090.png.json",
+      "sha256": "2ed2d3f287eaabc1bc523aa38dc18a519326270a7f26d0be4152c758b2f4955a"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000091.png",
+      "path": "progress\\0165_60km_5.5m_ISO200_frame_000091.png.json",
+      "sha256": "c8019ee50dc781bcf87cb37988a2fcf4d24ee62ccd65cf0180c40f033edded8f"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000092.png",
+      "path": "progress\\0166_60km_5.5m_ISO200_frame_000092.png.json",
+      "sha256": "e4928f381fb9fb82ffb849cf21cac95b54a3e3ad9b8cd98c27747e78b02dbfd5"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000093.png",
+      "path": "progress\\0167_60km_5.5m_ISO200_frame_000093.png.json",
+      "sha256": "8ad81970375f807d89c44422b456f42a63dbb9ab6230eeb677b8227292f1b632"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000094.png",
+      "path": "progress\\0168_60km_5.5m_ISO200_frame_000094.png.json",
+      "sha256": "79bb1e054b178e5cac10712847d85c1e6b8e039ef36da173fa0222290e85be56"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000095.png",
+      "path": "progress\\0169_60km_5.5m_ISO200_frame_000095.png.json",
+      "sha256": "ef545ba096b0f46aaf44d9ae86788d4d33f1432cf262a58956d83cfa3bb6c333"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000142.png",
+      "path": "progress\\0170_60km_5.5m_ISO200_frame_000142.png.json",
+      "sha256": "1f4a8bc09d4a40bd963eb78a99acd225d255d9121bbff7c3917b8d7591cf1b91"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000143.png",
+      "path": "progress\\0171_60km_5.5m_ISO200_frame_000143.png.json",
+      "sha256": "3f3624b56f91f389dd6b2b067bc464c0429f2b80424e0856f019c034ac2fd58f"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000144.png",
+      "path": "progress\\0172_60km_5.5m_ISO200_frame_000144.png.json",
+      "sha256": "4b136b9a19355e6d8f20aa347e569d16bd05ecfb96721deefef491fc313b2a8e"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000145.png",
+      "path": "progress\\0173_60km_5.5m_ISO200_frame_000145.png.json",
+      "sha256": "cd40f20f3a1c697ea8ed2b02aa12286df4542e5f18ecca2826c30bd0c3a29f31"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000146.png",
+      "path": "progress\\0174_60km_5.5m_ISO200_frame_000146.png.json",
+      "sha256": "20420174660a89ac53d2ee8fd519f16e236980a517ccfa16eb364ed2e916e772"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO200/frame_000147.png",
+      "path": "progress\\0175_60km_5.5m_ISO200_frame_000147.png.json",
+      "sha256": "17cca891bf86532ccba07ce267836f541b9550e43322c17ecd97cb645b3ee1e3"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000102.png",
+      "path": "progress\\0176_60km_5.5m_ISO400_frame_000102.png.json",
+      "sha256": "40fedc60b13e5284dac1550e48aa952f7d94240f0c2c99c748569988213a8ea1"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000103.png",
+      "path": "progress\\0177_60km_5.5m_ISO400_frame_000103.png.json",
+      "sha256": "b211bd410c7526ac1cb8fda664cb71cf034fa36bee7786eedeca81d5042cb317"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000104.png",
+      "path": "progress\\0178_60km_5.5m_ISO400_frame_000104.png.json",
+      "sha256": "a5e3dc0d46696dce1ae08c3a7edc1f89a9da3d201a6208b30fe120bb72033487"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000105.png",
+      "path": "progress\\0179_60km_5.5m_ISO400_frame_000105.png.json",
+      "sha256": "91efc1a8b162ed33c5e2e89966437148678d41f13e92e097b1bd4368febe0567"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000106.png",
+      "path": "progress\\0180_60km_5.5m_ISO400_frame_000106.png.json",
+      "sha256": "47857680b311f6ad51adba51c742153537c9f865d01542cbbc2fc3906512c128"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000107.png",
+      "path": "progress\\0181_60km_5.5m_ISO400_frame_000107.png.json",
+      "sha256": "3a391da01c15b352de51dd1eac435995d1f38570fc4ce59fb22962430ec17119"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000153.png",
+      "path": "progress\\0182_60km_5.5m_ISO400_frame_000153.png.json",
+      "sha256": "ec2e79cb12076ac0fbe87406a7c220359d681e3c0260e999f1804661cb37b783"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000154.png",
+      "path": "progress\\0183_60km_5.5m_ISO400_frame_000154.png.json",
+      "sha256": "11ac4b2ea38cff23d15a15755ea0b01b083ec1a452bf78637090eedc0bbd4c21"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000155.png",
+      "path": "progress\\0184_60km_5.5m_ISO400_frame_000155.png.json",
+      "sha256": "e0a2652cbdcd06079f0a52aa6952c12d844311170edba3503af743355876ae1f"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000156.png",
+      "path": "progress\\0185_60km_5.5m_ISO400_frame_000156.png.json",
+      "sha256": "80a5ca91ffda84ccc99b8a742f3cf6af9b5e0cfb86cb1edf493837442f6550a6"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000157.png",
+      "path": "progress\\0186_60km_5.5m_ISO400_frame_000157.png.json",
+      "sha256": "32a001604cfb96fd6821bc5f701e6b717721e9d0f963dd2156f0b01e49cdf1ac"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO400/frame_000158.png",
+      "path": "progress\\0187_60km_5.5m_ISO400_frame_000158.png.json",
+      "sha256": "d7560beba7a973cb44a9a25691e91a8dcb35dea78d1882b95ced940a2253f48c"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000095.png",
+      "path": "progress\\0188_60km_5.5m_ISO800_frame_000095.png.json",
+      "sha256": "3efc48204ca48f166f3d3c95c3a267c9c5a0a67774ce959d8d448473a1e48d72"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000096.png",
+      "path": "progress\\0189_60km_5.5m_ISO800_frame_000096.png.json",
+      "sha256": "1271bb0c2018e1741e474e26dc30e05d130724be0125e06f4538d2022d23cb25"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000097.png",
+      "path": "progress\\0190_60km_5.5m_ISO800_frame_000097.png.json",
+      "sha256": "3b36afe81802780bfa7354aa30897ad8e30b8f4b3a42959b4e9b9486bc3f1094"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000098.png",
+      "path": "progress\\0191_60km_5.5m_ISO800_frame_000098.png.json",
+      "sha256": "e028b255f56a7044eef94604b82ea6c4aac881b8015eaa4a8dbc65a5bad3698b"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000099.png",
+      "path": "progress\\0192_60km_5.5m_ISO800_frame_000099.png.json",
+      "sha256": "98fb07cf3892f010b85eb4397180512ae577997dcbbafe40a018afed37dea87b"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000100.png",
+      "path": "progress\\0193_60km_5.5m_ISO800_frame_000100.png.json",
+      "sha256": "ab56cadf06de7f5e68cc6607924b45d1748534573bfcc9367c8085a0a7fa8e0a"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000148.png",
+      "path": "progress\\0194_60km_5.5m_ISO800_frame_000148.png.json",
+      "sha256": "4acbb1d3cd1aeeab926aa4990b3b08b3d96dfdf6b4b20657398cd8e6083a4908"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000149.png",
+      "path": "progress\\0195_60km_5.5m_ISO800_frame_000149.png.json",
+      "sha256": "6657932bbd95cf1ac2dc2a1d13a2738fa90ee72a360d20c8811c5e7b55ae5945"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000150.png",
+      "path": "progress\\0196_60km_5.5m_ISO800_frame_000150.png.json",
+      "sha256": "d78a40e81a828654578063608c370510ceebe400c21c3f39c8def8d499e980f7"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000151.png",
+      "path": "progress\\0197_60km_5.5m_ISO800_frame_000151.png.json",
+      "sha256": "5568b37189e377068f7f1bbf8b089a45e97974b92e61deb6bf6de8826aca69e0"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000152.png",
+      "path": "progress\\0198_60km_5.5m_ISO800_frame_000152.png.json",
+      "sha256": "1f23ff91a2b8e06665c35ef53424225ee3d764e16d3b684a555d4a7f8f881104"
+    },
+    {
+      "frame_id": "60km_5.5m_ISO800/frame_000153.png",
+      "path": "progress\\0199_60km_5.5m_ISO800_frame_000153.png.json",
+      "sha256": "3e52c1275113caa965aff58ac18846f3e31fb0b622041786f44b7134368a5cd0"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000111.png",
+      "path": "progress\\0200_60km_6.5m_ISO100_frame_000111.png.json",
+      "sha256": "a1b9e1c722b0806bb11408715aae24a3140784ec0e57a6039ac5028e2098207b"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000112.png",
+      "path": "progress\\0201_60km_6.5m_ISO100_frame_000112.png.json",
+      "sha256": "3dc5d5ef712d2cc9ea4409934a253350c13a92d6c371d9bf0166e4d32122205e"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000113.png",
+      "path": "progress\\0202_60km_6.5m_ISO100_frame_000113.png.json",
+      "sha256": "9fbc5094dae5854ca3eac738252cd77b25ee2b2f70d75bf671ea7d1f4787ddbe"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000114.png",
+      "path": "progress\\0203_60km_6.5m_ISO100_frame_000114.png.json",
+      "sha256": "78b9cb89bc3ce13c14c65fdc65523d8ad0901d7035b00b3d1e2facf29860dbc3"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000115.png",
+      "path": "progress\\0204_60km_6.5m_ISO100_frame_000115.png.json",
+      "sha256": "0948078190f4d90ced7e6a3e4476f18950df058a594470402fd132e7d3eb14ae"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000163.png",
+      "path": "progress\\0205_60km_6.5m_ISO100_frame_000163.png.json",
+      "sha256": "385bce9fe83918c3b625332d005b8fd13b4ba0b5669f44bd48f316e750e8dc2b"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000164.png",
+      "path": "progress\\0206_60km_6.5m_ISO100_frame_000164.png.json",
+      "sha256": "b34f444e73d475c34e1212b66190f856b9733efd7c8ca04833087cdbd4f1a148"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000165.png",
+      "path": "progress\\0207_60km_6.5m_ISO100_frame_000165.png.json",
+      "sha256": "c67007239fe73df8324ec6209400c8e8d4fa2c527561ad084ba412ccd5813ae4"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000166.png",
+      "path": "progress\\0208_60km_6.5m_ISO100_frame_000166.png.json",
+      "sha256": "90436c08cbf208999170747c9cbe17be1717fcb627dbb842569995248bfe2a9d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000167.png",
+      "path": "progress\\0209_60km_6.5m_ISO100_frame_000167.png.json",
+      "sha256": "71fbd02dad24a6654955fa0c12eb80e54c2a5332270649116ef20c86321cccb5"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO100/frame_000168.png",
+      "path": "progress\\0210_60km_6.5m_ISO100_frame_000168.png.json",
+      "sha256": "9b78cd4db79f02401691ac0bb9fde0d49251761e3cf9b7b3806dfe51b2939293"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000095.png",
+      "path": "progress\\0211_60km_6.5m_ISO1600_frame_000095.png.json",
+      "sha256": "b61c8f268acb5b4a0051e15416679288447ef255894cac2bc3a14565cc0a8824"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000096.png",
+      "path": "progress\\0212_60km_6.5m_ISO1600_frame_000096.png.json",
+      "sha256": "b0df00d1a6d6ffa8c3d393babc44eb4d7e81fc30c7704fbae577b7e7b28b870d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000097.png",
+      "path": "progress\\0213_60km_6.5m_ISO1600_frame_000097.png.json",
+      "sha256": "f3d71e1fbe444effae8515018322100a9d0de60ee130fa7c48489aff08cc6141"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000098.png",
+      "path": "progress\\0214_60km_6.5m_ISO1600_frame_000098.png.json",
+      "sha256": "d92d98c6039ace48c13d549ffef56f8d8f13f0807ba79f02f080536db9c14832"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000099.png",
+      "path": "progress\\0215_60km_6.5m_ISO1600_frame_000099.png.json",
+      "sha256": "6077060101ed40d3916c6cc9388dd921657397c83bf5eb0ff1c1ceb0de258d3d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000100.png",
+      "path": "progress\\0216_60km_6.5m_ISO1600_frame_000100.png.json",
+      "sha256": "7cf14f33d62fe65e48123eb631a9ca1747a640c6cc3bcc6e858d993e2f3a5b78"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000145.png",
+      "path": "progress\\0217_60km_6.5m_ISO1600_frame_000145.png.json",
+      "sha256": "e323e6d782df2540a36830021227493a9630e7d2a004613a35ad6fecc1f3cac1"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000146.png",
+      "path": "progress\\0218_60km_6.5m_ISO1600_frame_000146.png.json",
+      "sha256": "566efc746f7afb95487167fc0447844c43766c73a455ec971e656fe1cedd90c0"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000147.png",
+      "path": "progress\\0219_60km_6.5m_ISO1600_frame_000147.png.json",
+      "sha256": "24b92ed888d43eeb08acae995483f49ddb907e5214555f840792546f805c7165"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000148.png",
+      "path": "progress\\0220_60km_6.5m_ISO1600_frame_000148.png.json",
+      "sha256": "d76b01f4d5e77abcf53c4f31a96c71413dc031a3d6dd02cfad399b3aa6099b1f"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000149.png",
+      "path": "progress\\0221_60km_6.5m_ISO1600_frame_000149.png.json",
+      "sha256": "9e82988e821f0488f3f991d7a35305a966719f087ff00f19cc673ba201687b9a"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO1600/frame_000150.png",
+      "path": "progress\\0222_60km_6.5m_ISO1600_frame_000150.png.json",
+      "sha256": "0f37c4d122865d47bd318b49a5771270b843288dd761f341db398f3116d2b8b1"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000107.png",
+      "path": "progress\\0223_60km_6.5m_ISO200_frame_000107.png.json",
+      "sha256": "c16311d328e81802c9120a6116ee97ba4bdba4e9649b421783e0d71ee3465d5c"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000108.png",
+      "path": "progress\\0224_60km_6.5m_ISO200_frame_000108.png.json",
+      "sha256": "1b093cfeea0269c5c3b02e444d3f32f10a76a06f1dcfcc6f56b0a57ec33b5107"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000109.png",
+      "path": "progress\\0225_60km_6.5m_ISO200_frame_000109.png.json",
+      "sha256": "3bf04a821509a67c2e08d4f06bff0ee9c9715abb38610758cd12529ed49c40f8"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000110.png",
+      "path": "progress\\0226_60km_6.5m_ISO200_frame_000110.png.json",
+      "sha256": "ca3ee923f7e812d03d2895f0304b04a45dbf49db53037d24be5b295e99ac2837"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000111.png",
+      "path": "progress\\0227_60km_6.5m_ISO200_frame_000111.png.json",
+      "sha256": "202bdff9032881bb068a8cc15050eb5f0eb94f07d113e83c99e1d3b8a3cca01d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000112.png",
+      "path": "progress\\0228_60km_6.5m_ISO200_frame_000112.png.json",
+      "sha256": "cf85cdfbc3e1e873c3e926e26f65c29ab91b0db62accbe72d0dfbd968c69ecc8"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000160.png",
+      "path": "progress\\0229_60km_6.5m_ISO200_frame_000160.png.json",
+      "sha256": "f8dd67a69099d9d3af669b9a74feabb9f185b13be293c19650619aefd002d845"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000161.png",
+      "path": "progress\\0230_60km_6.5m_ISO200_frame_000161.png.json",
+      "sha256": "eec9349788ea6c67ff27a1a1c19b9f4c4246ab9b899de22dc34b11fa02165541"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000162.png",
+      "path": "progress\\0231_60km_6.5m_ISO200_frame_000162.png.json",
+      "sha256": "8cb328beedf70287bacf5ff02cd90415b5b2058dea4309de37928fcdb669246d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000163.png",
+      "path": "progress\\0232_60km_6.5m_ISO200_frame_000163.png.json",
+      "sha256": "7b0a304d9430dd767566319f9e5fb812fd3237497a9cf894bf8ebfce3adf909e"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000164.png",
+      "path": "progress\\0233_60km_6.5m_ISO200_frame_000164.png.json",
+      "sha256": "b7bcbcf038ec5394740da128e45a964a3028b14609c25d29832a39f9e5468a0b"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO200/frame_000165.png",
+      "path": "progress\\0234_60km_6.5m_ISO200_frame_000165.png.json",
+      "sha256": "1f274582dfe9ef379c98a328ee9ec20d0ec4542007b76386fe48e97f64e913e1"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000105.png",
+      "path": "progress\\0235_60km_6.5m_ISO400_frame_000105.png.json",
+      "sha256": "29e680df8e498f1c814230144d2ce964624c29fbbae7738b699bf2820ded6696"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000106.png",
+      "path": "progress\\0236_60km_6.5m_ISO400_frame_000106.png.json",
+      "sha256": "29629b1ed708f23fc56b443470dc5f2b1fa5dc315c38cfbcf748536307320d6f"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000107.png",
+      "path": "progress\\0237_60km_6.5m_ISO400_frame_000107.png.json",
+      "sha256": "245e9027cd8193df142f96d4e6dbfa817521d0d0633c7ef29053ba322ecd9509"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000108.png",
+      "path": "progress\\0238_60km_6.5m_ISO400_frame_000108.png.json",
+      "sha256": "a04a12281b283d9fe056759b933a1df32be25f128d8b604498730df51346455e"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000109.png",
+      "path": "progress\\0239_60km_6.5m_ISO400_frame_000109.png.json",
+      "sha256": "27955934fbb6a54c01ee97e05933a44bca4976666bebe5481b488527bb3cd13d"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000110.png",
+      "path": "progress\\0240_60km_6.5m_ISO400_frame_000110.png.json",
+      "sha256": "3c480a159dc4ff5b3dd087e2c6818c68f525e3a49f6f3f0aab1a9e919b4a0271"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000159.png",
+      "path": "progress\\0241_60km_6.5m_ISO400_frame_000159.png.json",
+      "sha256": "72ebd16d10cae3e6de63a94d4810bcdfc41b38d0c363c2236c03e18602ce061a"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000160.png",
+      "path": "progress\\0242_60km_6.5m_ISO400_frame_000160.png.json",
+      "sha256": "039e7dbb6a519df53e696d7e20003dc7454a219a20076b74c8033111e7584c49"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000161.png",
+      "path": "progress\\0243_60km_6.5m_ISO400_frame_000161.png.json",
+      "sha256": "e2b91d89f8ac2c7b35d2d4815278aa0b1d1b968287f5505bd89c53d2953a1ddc"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000162.png",
+      "path": "progress\\0244_60km_6.5m_ISO400_frame_000162.png.json",
+      "sha256": "088fde1ec0f21919e8ca166b497cfbe5fc24d93b0de357d7dcf255907851c935"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000163.png",
+      "path": "progress\\0245_60km_6.5m_ISO400_frame_000163.png.json",
+      "sha256": "2d1476772477a25aa2ec435835a48722115b5668f5a45d870b3ac6bbbd6b3115"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO400/frame_000164.png",
+      "path": "progress\\0246_60km_6.5m_ISO400_frame_000164.png.json",
+      "sha256": "2bba8644be39c05e995ad1b892c7d7dc85b1876757ed4c7d3de76f2d66b6930c"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000101.png",
+      "path": "progress\\0247_60km_6.5m_ISO800_frame_000101.png.json",
+      "sha256": "4b73e8a5890c274896cd88686ab3ea3ab903a5ac9b32cd402712771dc2bea565"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000102.png",
+      "path": "progress\\0248_60km_6.5m_ISO800_frame_000102.png.json",
+      "sha256": "09175b72598544d0cfe032fb9697e4da6cedb0c69e221e09a5f49ec4e121b241"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000103.png",
+      "path": "progress\\0249_60km_6.5m_ISO800_frame_000103.png.json",
+      "sha256": "b050926b674aa8e30f848ed5694e2dc5858e7e1b155587d0b0749e8e122341ea"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000104.png",
+      "path": "progress\\0250_60km_6.5m_ISO800_frame_000104.png.json",
+      "sha256": "7bbbc0fa2149b5e28c2740d79a635390701408c23597ffceae4e1e192da56ab7"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000105.png",
+      "path": "progress\\0251_60km_6.5m_ISO800_frame_000105.png.json",
+      "sha256": "45208d7536665b1e3a900fd0cf800c44ee007611e2ff66bc15dec66413e4e48e"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000106.png",
+      "path": "progress\\0252_60km_6.5m_ISO800_frame_000106.png.json",
+      "sha256": "e688fb1e9d42da2de95a63e649e1a375c9379c52f753551525783ec4c2028c73"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000107.png",
+      "path": "progress\\0253_60km_6.5m_ISO800_frame_000107.png.json",
+      "sha256": "5b76ede1800d81f17e0f09798661fc07b700fb0119ca41fd53608a349e3fa753"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000153.png",
+      "path": "progress\\0254_60km_6.5m_ISO800_frame_000153.png.json",
+      "sha256": "1266145d2e2efa90a41e90627b5f551cd7eacb7db40d39e5cd0708663707d4ca"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000154.png",
+      "path": "progress\\0255_60km_6.5m_ISO800_frame_000154.png.json",
+      "sha256": "be77924808243dada4d26e246f3e6fe1650e488f7b17731b2ad447e29400a5e3"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000155.png",
+      "path": "progress\\0256_60km_6.5m_ISO800_frame_000155.png.json",
+      "sha256": "2422e8cdc6407e313bfb2819ef28aeb86f7cb3b8ca086229d6d802b2544b9918"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000156.png",
+      "path": "progress\\0257_60km_6.5m_ISO800_frame_000156.png.json",
+      "sha256": "e4639c6b1e7cccb78177b98053e1cb6194ceab41f6cb671f59bda57c7311937b"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000157.png",
+      "path": "progress\\0258_60km_6.5m_ISO800_frame_000157.png.json",
+      "sha256": "2016e56928044febc41aa02f9aefb915f77065d3506c0c4fd822741ce268f4b2"
+    },
+    {
+      "frame_id": "60km_6.5m_ISO800/frame_000158.png",
+      "path": "progress\\0259_60km_6.5m_ISO800_frame_000158.png.json",
+      "sha256": "28374ad235818f1be1c0149217067b9e0d3b4c474d2281fa6a59f76f7d4a66df"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000065.png",
+      "path": "progress\\0260_80km_2.5m_ISO100_frame_000065.png.json",
+      "sha256": "f481518400978d2bca7c85f0189ad3b2f0287a58fb46aca1d71aece1b0105741"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000066.png",
+      "path": "progress\\0261_80km_2.5m_ISO100_frame_000066.png.json",
+      "sha256": "ab4d116daadf756b2bfd9fee16708383484a9605679b6b6063edd9f106e1b2a2"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000067.png",
+      "path": "progress\\0262_80km_2.5m_ISO100_frame_000067.png.json",
+      "sha256": "8b0a451fd3f78cb17678bb5459adb664c3ef5edbc3e99181fff66bb200a5e574"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000068.png",
+      "path": "progress\\0263_80km_2.5m_ISO100_frame_000068.png.json",
+      "sha256": "77da3c2298990e7aa9b81c02db32bd01125de203e8311b59b13630c037f0932d"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000103.png",
+      "path": "progress\\0264_80km_2.5m_ISO100_frame_000103.png.json",
+      "sha256": "f4a79641bf44ed6919708518525a5dc2eda18a9e87e7cc253594662803b4cd49"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000104.png",
+      "path": "progress\\0265_80km_2.5m_ISO100_frame_000104.png.json",
+      "sha256": "2258aa1c27b883157c1b28733d40eee11b9911bed095163884348a5e2d326b96"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000105.png",
+      "path": "progress\\0266_80km_2.5m_ISO100_frame_000105.png.json",
+      "sha256": "422cfee62a332801904ceb95e541501f1731894f721efee6dfa38331120d0ab5"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO100/frame_000106.png",
+      "path": "progress\\0267_80km_2.5m_ISO100_frame_000106.png.json",
+      "sha256": "6c66d07539f3846f2cbd510024deba18e18b7cf9cddf84683c498475fb91addd"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000071.png",
+      "path": "progress\\0268_80km_2.5m_ISO1600_frame_000071.png.json",
+      "sha256": "e33d35c90c85fa2a8c08bf6c48909baafc8dcce5708fb96c72ac2c9f8c63f175"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000072.png",
+      "path": "progress\\0269_80km_2.5m_ISO1600_frame_000072.png.json",
+      "sha256": "47eba160c7acb6bafaae15ea8bd21518a3ebb7f3ff5a9a70196e3140b4aca7df"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000073.png",
+      "path": "progress\\0270_80km_2.5m_ISO1600_frame_000073.png.json",
+      "sha256": "968f4b36e9dd394ccad80318a527cb17566f1bfa1df3838d6b896ef9b9f96843"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000074.png",
+      "path": "progress\\0271_80km_2.5m_ISO1600_frame_000074.png.json",
+      "sha256": "0a7debd6a54f34ebb4149d1089f84e4e990bd66f0ef2f952680b68df1a0acd9a"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000075.png",
+      "path": "progress\\0272_80km_2.5m_ISO1600_frame_000075.png.json",
+      "sha256": "4ffa8b784dd0539ace94833d08eb035f410a2818f587d26f1057dfd0f2b3cabc"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000110.png",
+      "path": "progress\\0273_80km_2.5m_ISO1600_frame_000110.png.json",
+      "sha256": "b3bb8cc9b33d9be830faf2a9e18df5a5fcfe7338f7520e79e02dfbcd4f11456e"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000111.png",
+      "path": "progress\\0274_80km_2.5m_ISO1600_frame_000111.png.json",
+      "sha256": "4a98256540cbd09abc312d3eba858385ac5aeb46d9d8f82f841a1760a3d555bf"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000112.png",
+      "path": "progress\\0275_80km_2.5m_ISO1600_frame_000112.png.json",
+      "sha256": "b456e82892832636c2664aba4d0717ee26364634f69b219f76b46e84884d048e"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000113.png",
+      "path": "progress\\0276_80km_2.5m_ISO1600_frame_000113.png.json",
+      "sha256": "aa03d39dfde3cb0642d6c69890995e9905a1cbf422d889cb700867f1ca5dc100"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO1600/frame_000114.png",
+      "path": "progress\\0277_80km_2.5m_ISO1600_frame_000114.png.json",
+      "sha256": "eec750d18101d98ede04cab80bd5bd6f610072660d1c58164aed641cf05688da"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000062.png",
+      "path": "progress\\0278_80km_2.5m_ISO200_frame_000062.png.json",
+      "sha256": "29fa530d5c9a5726f3f75d5d950142948085a419dacaa84299b29336b8c52b77"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000063.png",
+      "path": "progress\\0279_80km_2.5m_ISO200_frame_000063.png.json",
+      "sha256": "aec9c83e6378e7075dd489e6e1ca6ef1ce5b03eabf6c9bc69c7c7371d71cc58d"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000064.png",
+      "path": "progress\\0280_80km_2.5m_ISO200_frame_000064.png.json",
+      "sha256": "71ed3fe939e44ed7f45a79741072359b218a379f29dd3dfe599a9b63829306e8"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000065.png",
+      "path": "progress\\0281_80km_2.5m_ISO200_frame_000065.png.json",
+      "sha256": "ee08f13ee13fdfcca60c3804e993e8417cd9437d0354d176747f8956b8ae84e2"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000101.png",
+      "path": "progress\\0282_80km_2.5m_ISO200_frame_000101.png.json",
+      "sha256": "eb1719c45e7becf06a3d4b39c973b99f6baac5cd09e6cae2e1567599591ac30d"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000102.png",
+      "path": "progress\\0283_80km_2.5m_ISO200_frame_000102.png.json",
+      "sha256": "85031fe9dd4717cb26977b4fd015c241f57d7f4a8a14197284bbefe605f7cf04"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000103.png",
+      "path": "progress\\0284_80km_2.5m_ISO200_frame_000103.png.json",
+      "sha256": "7ad3ceac2faa97e5d5a8898ae6ea5064e7222a890c384058aa895fa267a9b540"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO200/frame_000104.png",
+      "path": "progress\\0285_80km_2.5m_ISO200_frame_000104.png.json",
+      "sha256": "2bb9e534e489c9157a42e433002fd660e739c9aed44f6aa207331dc56aefbf92"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000065.png",
+      "path": "progress\\0286_80km_2.5m_ISO400_frame_000065.png.json",
+      "sha256": "a37e5e944069cf78c637919d945ffdefad566f9888d120c10b9197d93278f36e"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000066.png",
+      "path": "progress\\0287_80km_2.5m_ISO400_frame_000066.png.json",
+      "sha256": "efe790a0708d92a123937f5234459478bdb04bc5f27513758e57d13a9599a550"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000067.png",
+      "path": "progress\\0288_80km_2.5m_ISO400_frame_000067.png.json",
+      "sha256": "15efdada982f821b8e18d0d61a66e48482e948206caa91268f58aff977614da2"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000068.png",
+      "path": "progress\\0289_80km_2.5m_ISO400_frame_000068.png.json",
+      "sha256": "21f22885aa5d25c15d06d1e9813ae0750eacdafc06033c7c8c47cea711ef40c0"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000069.png",
+      "path": "progress\\0290_80km_2.5m_ISO400_frame_000069.png.json",
+      "sha256": "3ed3f124c623116e1aab5613f9b9a9dd5e3bb43ca51b992505f6aaabf19c3fa1"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000106.png",
+      "path": "progress\\0291_80km_2.5m_ISO400_frame_000106.png.json",
+      "sha256": "a358d07fa0860464be4d8876425d58397182c10b67e94900f41502ddbe821b54"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000107.png",
+      "path": "progress\\0292_80km_2.5m_ISO400_frame_000107.png.json",
+      "sha256": "acf5060f9fa916de5556000a14086d5628fddf7bc2ca9a28ad8f3656c7e57db2"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000108.png",
+      "path": "progress\\0293_80km_2.5m_ISO400_frame_000108.png.json",
+      "sha256": "cd370123d2de33ba5c30134029322646563d4ae77923146612b5db8a384ae9ba"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO400/frame_000109.png",
+      "path": "progress\\0294_80km_2.5m_ISO400_frame_000109.png.json",
+      "sha256": "65e11a81d0d4b73c8022a1824849e894b26102f00591d5c15fa0c75c4a36837d"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000064.png",
+      "path": "progress\\0295_80km_2.5m_ISO800_frame_000064.png.json",
+      "sha256": "6353dbfa42d26069d2f55923e0f21de12130f77a05675eee5a25a7a6364ca63a"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000065.png",
+      "path": "progress\\0296_80km_2.5m_ISO800_frame_000065.png.json",
+      "sha256": "83375a44589b1d24cc8dc87eb0b51cb0b3fb166ac26b22b95f199afab84734aa"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000066.png",
+      "path": "progress\\0297_80km_2.5m_ISO800_frame_000066.png.json",
+      "sha256": "492d3cdd1e81cb6154ab739e30426ef1f34a798f57aa6fb0c9fd6954f2ee8f90"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000067.png",
+      "path": "progress\\0298_80km_2.5m_ISO800_frame_000067.png.json",
+      "sha256": "2478a0b28efe045c0dc614b50c8e1bcadfd62a74b039748f494337a11ea7bed8"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000068.png",
+      "path": "progress\\0299_80km_2.5m_ISO800_frame_000068.png.json",
+      "sha256": "c57fbf8f87b29b549e57ed8e69da2651f02ec6f4be201f0b36e3edfb2c28b4e5"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000103.png",
+      "path": "progress\\0300_80km_2.5m_ISO800_frame_000103.png.json",
+      "sha256": "64d310e7acf87d9a50fe8d65dd142b825530f00a2ff563d47a148a26e6452b81"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000104.png",
+      "path": "progress\\0301_80km_2.5m_ISO800_frame_000104.png.json",
+      "sha256": "e34879534b932ae1c7e8ece8ba6bfe4718bc0466a8a02ae1c73b0d555730a0ae"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000105.png",
+      "path": "progress\\0302_80km_2.5m_ISO800_frame_000105.png.json",
+      "sha256": "6d167978173dcfd57487144355351ea3dbd6eae84d009b582cfdc71d5b299f12"
+    },
+    {
+      "frame_id": "80km_2.5m_ISO800/frame_000106.png",
+      "path": "progress\\0303_80km_2.5m_ISO800_frame_000106.png.json",
+      "sha256": "5f6ea39023dc27034576d5106ada9766b01b4fc61063c3d6d0e5b16537dccd28"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000083.png",
+      "path": "progress\\0304_80km_3.5m_ISO100_frame_000083.png.json",
+      "sha256": "132bb895fb87cc747f4fb588a632ef4a8b2a4f2cd69c540e4539e9e43e662c62"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000084.png",
+      "path": "progress\\0305_80km_3.5m_ISO100_frame_000084.png.json",
+      "sha256": "b9b21635f17736457e691ab6f4cde66cef5376ebd8b38801f2e8fdf3a99b830e"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000085.png",
+      "path": "progress\\0306_80km_3.5m_ISO100_frame_000085.png.json",
+      "sha256": "347b7d7f8d124f1dbe187333c11c7789e57d7b0dc76580cbf45d776096a3c6ea"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000086.png",
+      "path": "progress\\0307_80km_3.5m_ISO100_frame_000086.png.json",
+      "sha256": "295f0c48af1be727a1819b7f7b12bba2fd8ffc65ed8187e9772fb8c05be8f048"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000123.png",
+      "path": "progress\\0308_80km_3.5m_ISO100_frame_000123.png.json",
+      "sha256": "43fe51cc869b5d2c61b5305a107d068d0145e0d91e2b05101567f0fb54d88941"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000124.png",
+      "path": "progress\\0309_80km_3.5m_ISO100_frame_000124.png.json",
+      "sha256": "657e31fafdbbfebef9f112967f4cc56219072af5d0cb7517458ca3c2033ad4ef"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000125.png",
+      "path": "progress\\0310_80km_3.5m_ISO100_frame_000125.png.json",
+      "sha256": "2fc29eca001463f863d17f0bcf1db11bb8ce68dba767fba0be8f985f980dff82"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO100/frame_000126.png",
+      "path": "progress\\0311_80km_3.5m_ISO100_frame_000126.png.json",
+      "sha256": "18e410f14134c28190db1e0f902d8063f477fe48fe206987cc6a938ef57bff58"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000071.png",
+      "path": "progress\\0312_80km_3.5m_ISO1600_frame_000071.png.json",
+      "sha256": "3c533857313a5a989d0810925254476e696e4402f3f0fab42898f2cb6ea26c86"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000072.png",
+      "path": "progress\\0313_80km_3.5m_ISO1600_frame_000072.png.json",
+      "sha256": "87eb06923f164bccc25e3d62ba0a660b0cdb4e3e1f88192f92e9f671e2067ed8"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000073.png",
+      "path": "progress\\0314_80km_3.5m_ISO1600_frame_000073.png.json",
+      "sha256": "6171ab333fab22f72c48d175913bc548ef13f41434a2bcb7f7ab11a53a6af86e"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000074.png",
+      "path": "progress\\0315_80km_3.5m_ISO1600_frame_000074.png.json",
+      "sha256": "dccfe6ca8bc57770e4e167153ac9edd92ba0605c3b049ff6dffdb3dce4c6f443"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000075.png",
+      "path": "progress\\0316_80km_3.5m_ISO1600_frame_000075.png.json",
+      "sha256": "8ce5ea5714c3c58e7e5e8d68e2f8abee3a35d0bf153cfb9761b4ec4a2e7abe2a"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000076.png",
+      "path": "progress\\0317_80km_3.5m_ISO1600_frame_000076.png.json",
+      "sha256": "14d343fee67beb884e18f7eddd9651f5e7e5c9b8287d6a04a4f84774932a155b"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000111.png",
+      "path": "progress\\0318_80km_3.5m_ISO1600_frame_000111.png.json",
+      "sha256": "578a6beaadd493a1a0ac1b7467485b9a70d6e0ae44802763cea189ef4d18ca53"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000112.png",
+      "path": "progress\\0319_80km_3.5m_ISO1600_frame_000112.png.json",
+      "sha256": "0e529b56053e880d6a6ba372358f486eacf7aaabd4b88487e776248981ccd2cb"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000113.png",
+      "path": "progress\\0320_80km_3.5m_ISO1600_frame_000113.png.json",
+      "sha256": "477ceca7d33d88044f175466abadd6395949f247d9ae830d8e5f187cd003151c"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO1600/frame_000114.png",
+      "path": "progress\\0321_80km_3.5m_ISO1600_frame_000114.png.json",
+      "sha256": "dea9e1515a6935b4dc514e92ee7d5082e55e0fe1e73c584da49005fef1aa2cca"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000083.png",
+      "path": "progress\\0322_80km_3.5m_ISO200_frame_000083.png.json",
+      "sha256": "881eab87ea4655d7d4143fb683c7aa54d4f982c7e7fdee3c7043bbaf74efbe28"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000084.png",
+      "path": "progress\\0323_80km_3.5m_ISO200_frame_000084.png.json",
+      "sha256": "a4b281d234cc50f4fd0c98685e137f14619eb2b0c30d4fabba5ba2efd01b2ad5"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000085.png",
+      "path": "progress\\0324_80km_3.5m_ISO200_frame_000085.png.json",
+      "sha256": "228a69d46c24783aa49c5769396b3e92d6f619d47cb374c4ba75b03bf4fbdaac"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000086.png",
+      "path": "progress\\0325_80km_3.5m_ISO200_frame_000086.png.json",
+      "sha256": "17c075e46f5c3e4088eef9870e14687a912ebfc3b7ddcbbd4f26e8a1b1dfaab1"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000087.png",
+      "path": "progress\\0326_80km_3.5m_ISO200_frame_000087.png.json",
+      "sha256": "ba857dfb2a7dcf31e5e8ce99bcaf3af59d9004db1bfdbd5a7b20949f2037c693"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000123.png",
+      "path": "progress\\0327_80km_3.5m_ISO200_frame_000123.png.json",
+      "sha256": "26cb52a3793fcbc504baf8b7969bf413d4f58435451594b7ab0b7dc59210f9b3"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000125.png",
+      "path": "progress\\0328_80km_3.5m_ISO200_frame_000125.png.json",
+      "sha256": "5b086cdd7213d7db806addc34042dcc654fce0359a05106b2982a253a08ae724"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO200/frame_000126.png",
+      "path": "progress\\0329_80km_3.5m_ISO200_frame_000126.png.json",
+      "sha256": "9289d65cd3749f5471fed3aaf3f9355c8ed0d811fe717c747132bfc31b668e14"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000077.png",
+      "path": "progress\\0330_80km_3.5m_ISO400_frame_000077.png.json",
+      "sha256": "0e14836512f6c9a11c6a8101826c940f168af51206a5fe3c632c54bfd18263dd"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000078.png",
+      "path": "progress\\0331_80km_3.5m_ISO400_frame_000078.png.json",
+      "sha256": "456a41ff50e52ed551186c1bad2e309b83c1e553802dfafe457ac9b3a6631dd6"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000079.png",
+      "path": "progress\\0332_80km_3.5m_ISO400_frame_000079.png.json",
+      "sha256": "69076e864eb13bc68fe66d2baeec9aaa2358d5d4563fbaff2aa05774df6f10e8"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000080.png",
+      "path": "progress\\0333_80km_3.5m_ISO400_frame_000080.png.json",
+      "sha256": "fe402331503a74306bbab29d6a7aed712d63b6a27c50a3d3f3b905cc9ad399b8"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000116.png",
+      "path": "progress\\0334_80km_3.5m_ISO400_frame_000116.png.json",
+      "sha256": "4b4943c6d918230189cfc5bef71de4ff034d6e32ef0913b8212290d53bf45b6f"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000118.png",
+      "path": "progress\\0335_80km_3.5m_ISO400_frame_000118.png.json",
+      "sha256": "e75d4a9ff2862a34f37684ebfec4343467b610ffe210ea80014d1079a6597872"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO400/frame_000119.png",
+      "path": "progress\\0336_80km_3.5m_ISO400_frame_000119.png.json",
+      "sha256": "f3e1ea2e5a9213c96727013ac35c7ab44ef5613a0e05e4bf833b9cbf33067590"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000072.png",
+      "path": "progress\\0337_80km_3.5m_ISO800_frame_000072.png.json",
+      "sha256": "7486bc749633fcb1d098f8e965643cb14013ba363085849592a215187834e89c"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000073.png",
+      "path": "progress\\0338_80km_3.5m_ISO800_frame_000073.png.json",
+      "sha256": "b4c2bdef37fbaf9d4b0a2dc3aaa0672fb9cc0814d60eaead364fc1ccf0a8d43d"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000074.png",
+      "path": "progress\\0339_80km_3.5m_ISO800_frame_000074.png.json",
+      "sha256": "248fb6abbba788ffabd4f0c434a3b1cf3ae68d77e61ee7a011d36f6e0bf4a3e7"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000075.png",
+      "path": "progress\\0340_80km_3.5m_ISO800_frame_000075.png.json",
+      "sha256": "8ee05a2cb195edfa9235918b52e714d09a0861236735acf562e8dfa4365d5e28"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000076.png",
+      "path": "progress\\0341_80km_3.5m_ISO800_frame_000076.png.json",
+      "sha256": "9329b7da9fc15807f80fe830735e8a6354cde182f23681bc3b6bdec78c04272b"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000112.png",
+      "path": "progress\\0342_80km_3.5m_ISO800_frame_000112.png.json",
+      "sha256": "46a4ad6697d44cf8d8dc5bbcbfdd44fd698d6fab8b6649100c1e9c4f740a5d71"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000113.png",
+      "path": "progress\\0343_80km_3.5m_ISO800_frame_000113.png.json",
+      "sha256": "531bb96b0a6d1d79af950608049afe43d827615788aab5515213bc3dfe15a51c"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000114.png",
+      "path": "progress\\0344_80km_3.5m_ISO800_frame_000114.png.json",
+      "sha256": "36a5257d3bace7d0099a1db6addb000aae44e0ffa039e78e7a0d33ca273a953d"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000115.png",
+      "path": "progress\\0345_80km_3.5m_ISO800_frame_000115.png.json",
+      "sha256": "705ec63d3b50607869580ba922d7816d01f34f67b9ada94a4a4d05dd61dad6cd"
+    },
+    {
+      "frame_id": "80km_3.5m_ISO800/frame_000116.png",
+      "path": "progress\\0346_80km_3.5m_ISO800_frame_000116.png.json",
+      "sha256": "773d452b891a6b5c6e7966f72de144f8afb4d74ab1124a0d2bc7070ac8ee39c0"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000067.png",
+      "path": "progress\\0347_80km_4.5m_ISO100_frame_000067.png.json",
+      "sha256": "ce7a21eb4d047f0094d925e8b07c0f517e42902d1afe8d3eb8ef80e7ee50473e"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000068.png",
+      "path": "progress\\0348_80km_4.5m_ISO100_frame_000068.png.json",
+      "sha256": "cc50f3e1fcf501e940d2ae55c40f8564aa33fb7194d5a6c509c171296dbe6623"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000069.png",
+      "path": "progress\\0349_80km_4.5m_ISO100_frame_000069.png.json",
+      "sha256": "1879caa1e3482dd4e11c18ee452e2273edbf282aeae9fc42e3abbd46fc25d561"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000070.png",
+      "path": "progress\\0350_80km_4.5m_ISO100_frame_000070.png.json",
+      "sha256": "1c1d0908493788af6eadb4d7c8f515cb7dd4834b4d27e58c9dd3f2a5cc633b62"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000071.png",
+      "path": "progress\\0351_80km_4.5m_ISO100_frame_000071.png.json",
+      "sha256": "86d35f148bc74e368029d6ee0d48ed05b1d0339fe5f32080d64f8632d329a713"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000107.png",
+      "path": "progress\\0352_80km_4.5m_ISO100_frame_000107.png.json",
+      "sha256": "a6b4b570565a3b6fd488fb862b6a9be1584110d2707da1379fdf4fa28bd796e3"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000108.png",
+      "path": "progress\\0353_80km_4.5m_ISO100_frame_000108.png.json",
+      "sha256": "fe022f473cf68d39267499ba3ec6d2df1286c7177b5e3839cffd366e744ea7b8"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000109.png",
+      "path": "progress\\0354_80km_4.5m_ISO100_frame_000109.png.json",
+      "sha256": "589a8fd1f930d4620c75b3a72561aa81ad2d98337c03d7a8bf69305a624b0ebd"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO100/frame_000110.png",
+      "path": "progress\\0355_80km_4.5m_ISO100_frame_000110.png.json",
+      "sha256": "1e71704c527a1ba4cebab1050292c2b03c0911972dc254e65e4c8602acbc78d2"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000087.png",
+      "path": "progress\\0356_80km_4.5m_ISO1600_frame_000087.png.json",
+      "sha256": "14d481a554044c94c0135991d2c85d0485aed4f279148b346522d33bee0ceb25"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000088.png",
+      "path": "progress\\0357_80km_4.5m_ISO1600_frame_000088.png.json",
+      "sha256": "63a2783e05ee2ab63ef9545ff757ca5df151879827f1b15cc2af84052faa8d77"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000089.png",
+      "path": "progress\\0358_80km_4.5m_ISO1600_frame_000089.png.json",
+      "sha256": "40f9a6e59b7d154f987c6d7955837218f3cc6c15fb9e43b2dc3df81adbb866b3"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000090.png",
+      "path": "progress\\0359_80km_4.5m_ISO1600_frame_000090.png.json",
+      "sha256": "bb692846bd46858bf8dba69455b09fafed452824b6c7bc2623f9779d0f751a52"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000091.png",
+      "path": "progress\\0360_80km_4.5m_ISO1600_frame_000091.png.json",
+      "sha256": "52336114f38c62915bfb4dbf16a99bc0053f456b5eaece2f8166a43328d30d00"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000126.png",
+      "path": "progress\\0361_80km_4.5m_ISO1600_frame_000126.png.json",
+      "sha256": "363ca6758e77c0ab52c0dcb3470b59d5156027b10f8c89ce43616ddd13ad395c"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000127.png",
+      "path": "progress\\0362_80km_4.5m_ISO1600_frame_000127.png.json",
+      "sha256": "0f5bb3112194c322b9735c58fb9713ac6fdf15b9db93532559aa56e0d32ef37b"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000128.png",
+      "path": "progress\\0363_80km_4.5m_ISO1600_frame_000128.png.json",
+      "sha256": "c2d9b6ffff48f9ae13a623cdfee7570559e044d52851fd68c885dc635139635d"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000129.png",
+      "path": "progress\\0364_80km_4.5m_ISO1600_frame_000129.png.json",
+      "sha256": "026d1f37b081f099fb873c1ba7318f3568ee99a4a318f811097dbd962dbae83f"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO1600/frame_000130.png",
+      "path": "progress\\0365_80km_4.5m_ISO1600_frame_000130.png.json",
+      "sha256": "87e69b0b388763fd3c5385dd4fae0a1d497101be43000a5966a76dcee8094686"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000085.png",
+      "path": "progress\\0366_80km_4.5m_ISO200_frame_000085.png.json",
+      "sha256": "54e1e88d99e8ae11d87e55f5f52d615d86081101deea7c242607afb4af62f549"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000086.png",
+      "path": "progress\\0367_80km_4.5m_ISO200_frame_000086.png.json",
+      "sha256": "663b04d62f7f4a550dff5a6e164a8ce1506d02c2d22e241174b40ec78678e6a2"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000087.png",
+      "path": "progress\\0368_80km_4.5m_ISO200_frame_000087.png.json",
+      "sha256": "85bc02cf364c665be8d6da45b0ad68530aa579e77b0ab2e4a5fdd9d24129aaa9"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000088.png",
+      "path": "progress\\0369_80km_4.5m_ISO200_frame_000088.png.json",
+      "sha256": "191c2e1e7de06478998f6fda6882e070672a9008511cb04d90849c08d05ed978"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000089.png",
+      "path": "progress\\0370_80km_4.5m_ISO200_frame_000089.png.json",
+      "sha256": "8468127ed943c04a0ae2199bd6b253c12f0d3a38ea927ac36ada936317ba9c82"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000124.png",
+      "path": "progress\\0371_80km_4.5m_ISO200_frame_000124.png.json",
+      "sha256": "a71a9895c4c5ab9c6a9caf2c6b9e403af5c40b47862e0aafc9fe56c004762d49"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000125.png",
+      "path": "progress\\0372_80km_4.5m_ISO200_frame_000125.png.json",
+      "sha256": "37eec060e9b2a8c0652905c028acaa2db89da97c9085b59e56e099d94c7a1509"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000126.png",
+      "path": "progress\\0373_80km_4.5m_ISO200_frame_000126.png.json",
+      "sha256": "b13b774d557b42b2d799423ac73a9b9e71a84384581824b0f3f9d161f01c6e20"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000127.png",
+      "path": "progress\\0374_80km_4.5m_ISO200_frame_000127.png.json",
+      "sha256": "df69c129e57208a3dfa41929f8db17cd3ca56bcc873584778eafb2c05a55658d"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO200/frame_000128.png",
+      "path": "progress\\0375_80km_4.5m_ISO200_frame_000128.png.json",
+      "sha256": "c0b3cdb69a9e6d1e153cda6a89069f17dc605c9e885a2d07544997ca519ce1ab"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000075.png",
+      "path": "progress\\0376_80km_4.5m_ISO400_frame_000075.png.json",
+      "sha256": "153e56967a0defb0be40fc24a3c39e7089e6295b1f03cad3248b0fe8db170c2a"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000076.png",
+      "path": "progress\\0377_80km_4.5m_ISO400_frame_000076.png.json",
+      "sha256": "e4947d2b7a874c97f41c1ec0db87d65079bde4dc632bc36316198cc0fc834cf8"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000077.png",
+      "path": "progress\\0378_80km_4.5m_ISO400_frame_000077.png.json",
+      "sha256": "75b4d2365f5bec77a73594c2b93ff9d6989d0551bd4f1ef40586e334d6f78551"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000078.png",
+      "path": "progress\\0379_80km_4.5m_ISO400_frame_000078.png.json",
+      "sha256": "71bb1a1be12b2fb5b946c550a322b6874b3430dc9e1e8ef26b19f8245d417c76"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000079.png",
+      "path": "progress\\0380_80km_4.5m_ISO400_frame_000079.png.json",
+      "sha256": "07f6f8176477e90e26d1f585f6aa8b4aa5377974fb8cd21923a44a9df5e67edf"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000116.png",
+      "path": "progress\\0381_80km_4.5m_ISO400_frame_000116.png.json",
+      "sha256": "40ab0a75012a53266a510d556e00bfb24d33a55834949ae1ba252c29d6e9d419"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000117.png",
+      "path": "progress\\0382_80km_4.5m_ISO400_frame_000117.png.json",
+      "sha256": "ca189af5f352b941b036a068882eb822fd80ef99414bff641e5f116ddd55ac91"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO400/frame_000118.png",
+      "path": "progress\\0383_80km_4.5m_ISO400_frame_000118.png.json",
+      "sha256": "0ca97999f6daab3c4de341fdffec00f1b5fe6a75f047afeaa68d68d13d530ce6"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000071.png",
+      "path": "progress\\0384_80km_4.5m_ISO800_frame_000071.png.json",
+      "sha256": "37e2f7f41fdd286beeab20e28eb0636a2a8ac8c843c77477fc02658e5e0bbfdc"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000072.png",
+      "path": "progress\\0385_80km_4.5m_ISO800_frame_000072.png.json",
+      "sha256": "05b8171099e04a97ee335055656aec6d290a32328b7d48f7757c0e8f80e91439"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000073.png",
+      "path": "progress\\0386_80km_4.5m_ISO800_frame_000073.png.json",
+      "sha256": "ba8f0344a140c495e1e74bc843629cbb727c8e2c9948ecbb84815e9a9824a6fc"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000074.png",
+      "path": "progress\\0387_80km_4.5m_ISO800_frame_000074.png.json",
+      "sha256": "feeb7566c6abd7c1bf6892869d4cc071bdff7b21b3c59b987b88130e3d111c0b"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000075.png",
+      "path": "progress\\0388_80km_4.5m_ISO800_frame_000075.png.json",
+      "sha256": "d96aa749b976645cd0b060b9ae482424af773fa876c72125e295fdf9f1c1f3ae"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000111.png",
+      "path": "progress\\0389_80km_4.5m_ISO800_frame_000111.png.json",
+      "sha256": "f86fcf470d6f2751c6ded636c2c629ead9e1ef398392b45fef93c9e62d8c4b53"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000112.png",
+      "path": "progress\\0390_80km_4.5m_ISO800_frame_000112.png.json",
+      "sha256": "be485bda0cd9a4095762c9fd28db329ddef88c68bb2e8547e91ae444a8a6490e"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000113.png",
+      "path": "progress\\0391_80km_4.5m_ISO800_frame_000113.png.json",
+      "sha256": "3919282ab41bed530dbb3269dba0feee5ab6bc4d8b5825ff5cd0c441a1b7be5c"
+    },
+    {
+      "frame_id": "80km_4.5m_ISO800/frame_000114.png",
+      "path": "progress\\0392_80km_4.5m_ISO800_frame_000114.png.json",
+      "sha256": "4b1fa143b75683ba2fe6035a38037b35734655ad3243f122392cd4aa4d96d9ec"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000066.png",
+      "path": "progress\\0393_80km_5.5m_ISO100_frame_000066.png.json",
+      "sha256": "084e8ade68871f0216a1a38ae34f8b2b338d22006f4db10d6278e25b2cc503f7"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000067.png",
+      "path": "progress\\0394_80km_5.5m_ISO100_frame_000067.png.json",
+      "sha256": "88807fabab21ffa6010519b63a7d78a554a8e1bc2fd068f4dc1489aa04c63565"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000068.png",
+      "path": "progress\\0395_80km_5.5m_ISO100_frame_000068.png.json",
+      "sha256": "b3cc5d956c5fa58d92e6d3d87c45ea374e8c415b17e6df9b762c476307e90b52"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000069.png",
+      "path": "progress\\0396_80km_5.5m_ISO100_frame_000069.png.json",
+      "sha256": "88ac41b166b22e7664ebe63dec9cf11248694467f95e10443c4a03685dc1d7f5"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000107.png",
+      "path": "progress\\0397_80km_5.5m_ISO100_frame_000107.png.json",
+      "sha256": "0194da9e465e32390f42b33ae50dd204dbcaf18439eff352962f91bc3064abf7"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000108.png",
+      "path": "progress\\0398_80km_5.5m_ISO100_frame_000108.png.json",
+      "sha256": "0dd28dac4df52bf2a3d4d60ebb564c54f26950e15e220abd6fd9559b7ff421ae"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO100/frame_000109.png",
+      "path": "progress\\0399_80km_5.5m_ISO100_frame_000109.png.json",
+      "sha256": "a40dec18dc2886496017a34c5e5d2222b33bd8fb80be92b5622f9b1df9963c03"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000068.png",
+      "path": "progress\\0400_80km_5.5m_ISO1600_frame_000068.png.json",
+      "sha256": "4bd6ad8c1f97d4667a441aa977eebb3ee8aa6bd91b308206ce87e49c19b6ad4e"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000069.png",
+      "path": "progress\\0401_80km_5.5m_ISO1600_frame_000069.png.json",
+      "sha256": "5b09df61156e87e0de0862f0f17e2d867212aed0d8bd5636f8f4bf0eb796676a"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000070.png",
+      "path": "progress\\0402_80km_5.5m_ISO1600_frame_000070.png.json",
+      "sha256": "bf431fba49c30b5b88fb4dfcc199706c0b8beee4b8f5e87ba8e6d53d75ed80c0"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000071.png",
+      "path": "progress\\0403_80km_5.5m_ISO1600_frame_000071.png.json",
+      "sha256": "2f4c8be000e298f25364479807da5a2398c61dc37fecc7a4ee86f474e93a5ba9"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000072.png",
+      "path": "progress\\0404_80km_5.5m_ISO1600_frame_000072.png.json",
+      "sha256": "27e242cb884e3ce2c652182ab24c660fb6692d3026907657a48d3ef6d8ea8ee0"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000108.png",
+      "path": "progress\\0405_80km_5.5m_ISO1600_frame_000108.png.json",
+      "sha256": "f78ae034c513fcdd2b60359b15a7e9d107207c3f7f586f881a72ac6c4959e996"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000109.png",
+      "path": "progress\\0406_80km_5.5m_ISO1600_frame_000109.png.json",
+      "sha256": "3eeecea999957dfe08a30a078a3b683ad8471a814bca20bf91013fd230298645"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000110.png",
+      "path": "progress\\0407_80km_5.5m_ISO1600_frame_000110.png.json",
+      "sha256": "d7cd5bc719c6230796310099e9489eef521278033a72ff293a3bd906e2a84807"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO1600/frame_000111.png",
+      "path": "progress\\0408_80km_5.5m_ISO1600_frame_000111.png.json",
+      "sha256": "81fd544b94aae0df9954e2cc0c81b9c3f2f7787bb27b5cb97eb959c451fcba82"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000066.png",
+      "path": "progress\\0409_80km_5.5m_ISO200_frame_000066.png.json",
+      "sha256": "3f624b498320006db38e97d9096ee400545146183933b1904acad31a230d74e5"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000067.png",
+      "path": "progress\\0410_80km_5.5m_ISO200_frame_000067.png.json",
+      "sha256": "682b326304690b0c9201f6c3f2631736f895c6fa4f0839a039426c3263025fa8"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000068.png",
+      "path": "progress\\0411_80km_5.5m_ISO200_frame_000068.png.json",
+      "sha256": "de631c47b8bb41fe5d141a098e011151a0e76e54b2d9246b2fd61409636bf211"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000069.png",
+      "path": "progress\\0412_80km_5.5m_ISO200_frame_000069.png.json",
+      "sha256": "98ad8a39dcebeb92a815aaee4ebb7ad4ee605d39f1ad7a8c005e56554c49e830"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000070.png",
+      "path": "progress\\0413_80km_5.5m_ISO200_frame_000070.png.json",
+      "sha256": "d1a6acc2f7576f83a05a9890da62fa9d217157d8834b8f37078e11b912454803"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000105.png",
+      "path": "progress\\0414_80km_5.5m_ISO200_frame_000105.png.json",
+      "sha256": "f63aa2abb9ac26c721b584203d3ebc88be256f45c351af0aebc5131aa42a7f5f"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000106.png",
+      "path": "progress\\0415_80km_5.5m_ISO200_frame_000106.png.json",
+      "sha256": "e7b7595d54ffe63cf580dc46751160540f99da3cee9363daeaf30cfe34688bf0"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000107.png",
+      "path": "progress\\0416_80km_5.5m_ISO200_frame_000107.png.json",
+      "sha256": "d233fe9c833c57cb0a660f9085887236dab19e95d7723925ea7ed36f3206cc13"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO200/frame_000108.png",
+      "path": "progress\\0417_80km_5.5m_ISO200_frame_000108.png.json",
+      "sha256": "f90995d204371c9321903ab64709211dc48206ac17b47cf53d54611d8f5e04a7"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000078.png",
+      "path": "progress\\0418_80km_5.5m_ISO400_frame_000078.png.json",
+      "sha256": "4e040d4ff9f3e64905cc4a4139e18d6f6ad7399861ef6395ae51cf05a158beb7"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000079.png",
+      "path": "progress\\0419_80km_5.5m_ISO400_frame_000079.png.json",
+      "sha256": "c6b17978f7c4857c37a8dd048ef3cabac7125413ca3d397f79edabfda70a8612"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000080.png",
+      "path": "progress\\0420_80km_5.5m_ISO400_frame_000080.png.json",
+      "sha256": "07544f1a7c960c60b106bb6d6360cec4b38aad5d6172c68efcd5ff9a307e643c"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000081.png",
+      "path": "progress\\0421_80km_5.5m_ISO400_frame_000081.png.json",
+      "sha256": "beac3aac0edf6d00a97bf1ff5c1f57c3a51dbaf848d33b9c43a0e3d4a7bd482f"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000120.png",
+      "path": "progress\\0422_80km_5.5m_ISO400_frame_000120.png.json",
+      "sha256": "717a77ca86c13ecf03ad6f549bf2f9b5b5f2469d9503e876d68ee69d2896b515"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000121.png",
+      "path": "progress\\0423_80km_5.5m_ISO400_frame_000121.png.json",
+      "sha256": "57790a9fa03d2a853ae0ddab2257aef71b591eb0fa976c44284a9f3af483e45f"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000122.png",
+      "path": "progress\\0424_80km_5.5m_ISO400_frame_000122.png.json",
+      "sha256": "5586efad8d5726ffcbccc8fc29b1bb2cfabbe3c406e5ae3d0d02f82965d0d78f"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO400/frame_000123.png",
+      "path": "progress\\0425_80km_5.5m_ISO400_frame_000123.png.json",
+      "sha256": "7e3c69a45f78cfa390529c8c207615e8494b07721ce7fae731684bd489b1c1fc"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000092.png",
+      "path": "progress\\0426_80km_5.5m_ISO800_frame_000092.png.json",
+      "sha256": "1638bff1152477d2d14a7d4189ed1d6d113e76e2911db9368769c44ea8c6e117"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000093.png",
+      "path": "progress\\0427_80km_5.5m_ISO800_frame_000093.png.json",
+      "sha256": "8b081b92b7dd9e30a06df2cbd61e1c1619c63a8b550b1a6e88831e28ec10175a"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000094.png",
+      "path": "progress\\0428_80km_5.5m_ISO800_frame_000094.png.json",
+      "sha256": "5bdb38317b3a4e34f41c57b3042c5ea78e0fa5186755cc9d66f39cf0afea6e64"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000095.png",
+      "path": "progress\\0429_80km_5.5m_ISO800_frame_000095.png.json",
+      "sha256": "a9b645d7728285e478fa67ab555792eb28dbc9431ecdf93e9d57c522ff8b2163"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000096.png",
+      "path": "progress\\0430_80km_5.5m_ISO800_frame_000096.png.json",
+      "sha256": "0df9da04145f22b1afd8e4865e8ca6ee94b79098b06eda49c9d686f860488d64"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000132.png",
+      "path": "progress\\0431_80km_5.5m_ISO800_frame_000132.png.json",
+      "sha256": "124e83d798cb9b7865c50506a1598bb85f78bc71d95aac05191101f24b0ac368"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000133.png",
+      "path": "progress\\0432_80km_5.5m_ISO800_frame_000133.png.json",
+      "sha256": "0fb8e233756a923932d2057f939bcd5b03bbcc33e38e6350854171f6c1b1399c"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000134.png",
+      "path": "progress\\0433_80km_5.5m_ISO800_frame_000134.png.json",
+      "sha256": "b07e57553f2095779b01f1020f4d68547ec25604e6d3797daba2709cded16396"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000135.png",
+      "path": "progress\\0434_80km_5.5m_ISO800_frame_000135.png.json",
+      "sha256": "26856a8ec8eb3b7119adcd1a1b28ff4636a8192b25cc4ea991864a5d8a5e85da"
+    },
+    {
+      "frame_id": "80km_5.5m_ISO800/frame_000136.png",
+      "path": "progress\\0435_80km_5.5m_ISO800_frame_000136.png.json",
+      "sha256": "918e3441720ec8548196f1dcd92df646db45577bc6ba5a0fc63d6511d553f0f6"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000104.png",
+      "path": "progress\\0436_80km_6.5m_ISO100_frame_000104.png.json",
+      "sha256": "7240d660d5f2773cbb257c088b89876f662ee50f7f1a8a4bab9837f4cb74fa00"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000105.png",
+      "path": "progress\\0437_80km_6.5m_ISO100_frame_000105.png.json",
+      "sha256": "054788fd8796a7a8610d7ac4c9bcbd3e6ef51657d04410d4e8489c791ec77e49"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000106.png",
+      "path": "progress\\0438_80km_6.5m_ISO100_frame_000106.png.json",
+      "sha256": "ee13e21f26919bc72ccd194df7ed3ae0d84761c4355d8962e2e529aff1659efc"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000107.png",
+      "path": "progress\\0439_80km_6.5m_ISO100_frame_000107.png.json",
+      "sha256": "123d834091631bd9c1607dc28c9637547973f4f6ca1d40383f0881edeed62ee5"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000147.png",
+      "path": "progress\\0440_80km_6.5m_ISO100_frame_000147.png.json",
+      "sha256": "7d2848998c6aa481c3814bb126f5f5dc4be70d654ebe5b643cd37ae54dc830dd"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000148.png",
+      "path": "progress\\0441_80km_6.5m_ISO100_frame_000148.png.json",
+      "sha256": "028767f963dcfa44f0c99a04637c686b55afdc2c786b92ce7b25413e087e2d57"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000149.png",
+      "path": "progress\\0442_80km_6.5m_ISO100_frame_000149.png.json",
+      "sha256": "6a4b6eee27e4f7f23ebdc5cb5ff7f177934bba002324d891c9021bd25d7d8128"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO100/frame_000150.png",
+      "path": "progress\\0443_80km_6.5m_ISO100_frame_000150.png.json",
+      "sha256": "70002a633d17aa14e8362683b2e9f5e46a655c137ccaf37145b03672f83f690b"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000074.png",
+      "path": "progress\\0444_80km_6.5m_ISO1600_frame_000074.png.json",
+      "sha256": "3fb22dc66ab09072028cf239fbfafbf97d28ab56a9a7c7e89b38cc1ac7993ef4"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000075.png",
+      "path": "progress\\0445_80km_6.5m_ISO1600_frame_000075.png.json",
+      "sha256": "e8f176ce2f03695d3a5d4bcf3f838b5ee43551da0ade5cd8298bc567f5876e65"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000076.png",
+      "path": "progress\\0446_80km_6.5m_ISO1600_frame_000076.png.json",
+      "sha256": "5168df5fd23733d66a2b0a4b811c66b8e40f3800e1c044212d3ea389873ecfdf"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000077.png",
+      "path": "progress\\0447_80km_6.5m_ISO1600_frame_000077.png.json",
+      "sha256": "d48d2e691fedd90923539f31ea304dc6a4852c9be2d89ed0d0defe381fc80b50"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000078.png",
+      "path": "progress\\0448_80km_6.5m_ISO1600_frame_000078.png.json",
+      "sha256": "576953ce6dd7700bff47caf4c85d2b3da9b584416ed1d46eab38b4873f7ca162"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000113.png",
+      "path": "progress\\0449_80km_6.5m_ISO1600_frame_000113.png.json",
+      "sha256": "6ba3d748a684c6be8198feed0574f6163a84b1307a77a87a6f83bce519959c38"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000114.png",
+      "path": "progress\\0450_80km_6.5m_ISO1600_frame_000114.png.json",
+      "sha256": "d15602ce9dc9aa0ca8cdbf5ca7c435290b55b4d9a2cea5e22dbec2479481bb4a"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000115.png",
+      "path": "progress\\0451_80km_6.5m_ISO1600_frame_000115.png.json",
+      "sha256": "1d6b876aadc131099b98d777129020cb6ebbed7acbf8fbb8ea67db32e19a89ad"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO1600/frame_000116.png",
+      "path": "progress\\0452_80km_6.5m_ISO1600_frame_000116.png.json",
+      "sha256": "153631a612bff72d0e7ae993fa7c20ecbf0ac233f344e3d068e474fbc9ea8af9"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000068.png",
+      "path": "progress\\0453_80km_6.5m_ISO200_frame_000068.png.json",
+      "sha256": "8f87dbdf0cef34276de690b043147f790ff5b1a822ad084383c1c265203c564d"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000069.png",
+      "path": "progress\\0454_80km_6.5m_ISO200_frame_000069.png.json",
+      "sha256": "dfe27a9ee1531dc82a8ab9aae909027814f3084803e4b6d720a83d60e82ae796"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000070.png",
+      "path": "progress\\0455_80km_6.5m_ISO200_frame_000070.png.json",
+      "sha256": "3b6ac6dd0577ef128d76603578411bee9eba646b3e68fdbd26b1c6aa7061ca67"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000071.png",
+      "path": "progress\\0456_80km_6.5m_ISO200_frame_000071.png.json",
+      "sha256": "b753453f949cbf756cad69485d72a4677c7dc0d6798b1a3ef93749d9b71560af"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000072.png",
+      "path": "progress\\0457_80km_6.5m_ISO200_frame_000072.png.json",
+      "sha256": "363f27cac052c003228f6ebb52c5c5673eef43c8076c9c66c6de101840f14284"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000108.png",
+      "path": "progress\\0458_80km_6.5m_ISO200_frame_000108.png.json",
+      "sha256": "8d57072054b1bf89c11ff2baa52b09cbf42ffdb51f0bb7c73d0a6caabea10417"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000109.png",
+      "path": "progress\\0459_80km_6.5m_ISO200_frame_000109.png.json",
+      "sha256": "57e392e33e9d85aab689e4254a9a315ec988eab56ed5a81728d723d47c277d10"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000110.png",
+      "path": "progress\\0460_80km_6.5m_ISO200_frame_000110.png.json",
+      "sha256": "0aa027ae5d5c009677ecb54dff7c3b85d32b44e7a12e1c983720d6a586bd10a5"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000111.png",
+      "path": "progress\\0461_80km_6.5m_ISO200_frame_000111.png.json",
+      "sha256": "d752e179cb56dc7ef2c506ce8db9e20cd4fde33425addde1e42767ea70dcfb03"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO200/frame_000112.png",
+      "path": "progress\\0462_80km_6.5m_ISO200_frame_000112.png.json",
+      "sha256": "ac80951943ebb03794b7c5dd7f7b20ae2bfd3a4e57604396a8f329f917364715"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000068.png",
+      "path": "progress\\0463_80km_6.5m_ISO400_frame_000068.png.json",
+      "sha256": "43d58f7ae2542152c159b68ca1291bc049bc0237f17a446764f6b046bc7a8532"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000069.png",
+      "path": "progress\\0464_80km_6.5m_ISO400_frame_000069.png.json",
+      "sha256": "fbbfaff35cf778520737dfc03ce7142cd4e4dc63b89045c51ceb4e49dcf0b38b"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000070.png",
+      "path": "progress\\0465_80km_6.5m_ISO400_frame_000070.png.json",
+      "sha256": "115cce1c7b4f90aa330e03c409e8f5bf7922829782e64377535afea0288f1f86"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000071.png",
+      "path": "progress\\0466_80km_6.5m_ISO400_frame_000071.png.json",
+      "sha256": "5f0d7379baaad49a2a074e651368207384336bb76d86ea5c70b3ec5cc1ef7924"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000108.png",
+      "path": "progress\\0467_80km_6.5m_ISO400_frame_000108.png.json",
+      "sha256": "af4312376276dba133d26dbc0a653c9d127aaadb3564a35d303144ad92e4f56a"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000109.png",
+      "path": "progress\\0468_80km_6.5m_ISO400_frame_000109.png.json",
+      "sha256": "51114c0683ca1c7127baf3c7ec7b5e3031703fcd3b9bb4d6bee2cbc8938141db"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000110.png",
+      "path": "progress\\0469_80km_6.5m_ISO400_frame_000110.png.json",
+      "sha256": "0540e174063b0fe53b282e9fed06bb3a24d97049359e68a402a4fd5167d19735"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO400/frame_000111.png",
+      "path": "progress\\0470_80km_6.5m_ISO400_frame_000111.png.json",
+      "sha256": "3135e503ff923c5a62d58b345836c2dd3c49fb0df65c11d793ce243f544f82aa"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000071.png",
+      "path": "progress\\0471_80km_6.5m_ISO800_frame_000071.png.json",
+      "sha256": "588c177ca206b55c91d989bd50c5f6bc6fffe93cf67e18266464d006ec0b87fd"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000072.png",
+      "path": "progress\\0472_80km_6.5m_ISO800_frame_000072.png.json",
+      "sha256": "f74701441365511fb8597b0b53d3b184595a7d27a2406f26b91d464d6bd5b668"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000073.png",
+      "path": "progress\\0473_80km_6.5m_ISO800_frame_000073.png.json",
+      "sha256": "1a9e8ce8edd53b53eb79a672ed468d938bcbc819585d3c427b654a5f9184e75d"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000074.png",
+      "path": "progress\\0474_80km_6.5m_ISO800_frame_000074.png.json",
+      "sha256": "abed197234d47ac5d086a2fbb8a0072bd4f51b8edd6851512bfae278e17e8f0c"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000075.png",
+      "path": "progress\\0475_80km_6.5m_ISO800_frame_000075.png.json",
+      "sha256": "2d14923f0b633d366d6970a707d4f0f406cc31e3776738636351863dee1f2924"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000110.png",
+      "path": "progress\\0476_80km_6.5m_ISO800_frame_000110.png.json",
+      "sha256": "05cda0ec072f6c3a52f5fd24e5589decc56939ebe01dde39eea3b4fed2b929f0"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000111.png",
+      "path": "progress\\0477_80km_6.5m_ISO800_frame_000111.png.json",
+      "sha256": "eeec3b02a6a4661f50b8340f4196c307b33375d753db69d984a5f852c561d3ec"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000112.png",
+      "path": "progress\\0478_80km_6.5m_ISO800_frame_000112.png.json",
+      "sha256": "37bf24b8a35ebb85646059b9442ea7e95dd9ee9a8800a9d55d6288988cd97191"
+    },
+    {
+      "frame_id": "80km_6.5m_ISO800/frame_000113.png",
+      "path": "progress\\0479_80km_6.5m_ISO800_frame_000113.png.json",
+      "sha256": "a6b8d547ddad9429bca02e86498c34cdb1bdb7495ea0d2d02481df8c48b3abff"
+    }
+  ],
+  "schema_version": "MERIT-D0-CAM1-50COND-v1"
+}

@@ -1,0 +1,149 @@
+{
+  "all_three_severities_pass": true,
+  "cells": {
+    "1": {
+      "parameters": {
+        "angle_deg": 0.0,
+        "length_px": 3
+      },
+      "pass": true,
+      "specification": {
+        "algorithm": "wiener",
+        "alpha": 1.0,
+        "regularization": 0.003
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0023316706292997183,
+          "ci95_low": -0.002339487542785184,
+          "mean": -0.0023357367981054053,
+          "parents": 68
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.06525300130768515,
+          "ci95_low": -0.06717077878386002,
+          "mean": -0.06620040560579475,
+          "parents": 68
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0009346767793698852,
+          "ci95_low": -0.0010115170366428656,
+          "mean": -0.0009722579433240325,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 10.062364747436535,
+          "ci95_low": 9.942788295584721,
+          "mean": 10.0069057042776,
+          "parents": 68
+        }
+      }
+    },
+    "2": {
+      "parameters": {
+        "angle_deg": 5.0,
+        "length_px": 7
+      },
+      "pass": true,
+      "specification": {
+        "algorithm": "wiener",
+        "alpha": 1.0,
+        "regularization": 0.003
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.002112481436265893,
+          "ci95_low": -0.0021366721813512197,
+          "mean": -0.002125142371583292,
+          "parents": 68
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.17611554020413142,
+          "ci95_low": -0.18314093440661536,
+          "mean": -0.1796850759316893,
+          "parents": 68
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.00041652412630141696,
+          "ci95_low": -0.0007296989979830174,
+          "mean": -0.0005749271710074562,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 6.930634391578951,
+          "ci95_low": 6.438496397949766,
+          "mean": 6.702691206287211,
+          "parents": 68
+        }
+      }
+    },
+    "3": {
+      "parameters": {
+        "angle_deg": 10.0,
+        "length_px": 13
+      },
+      "pass": true,
+      "specification": {
+        "algorithm": "landweber",
+        "alpha": 1.0,
+        "iterations": 32,
+        "step": 1.5
+      },
+      "summaries": {
+        "delta_gradient": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0009212535077976474,
+          "ci95_low": -0.0009301303786153713,
+          "mean": -0.0009256133070106016,
+          "parents": 68
+        },
+        "delta_lpips": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.14072742173996042,
+          "ci95_low": -0.1459321471835103,
+          "mean": -0.1433127522468567,
+          "parents": 68
+        },
+        "delta_overshoot": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0009217575676944656,
+          "ci95_low": -0.0014012753226030755,
+          "mean": -0.0011591103530543692,
+          "parents": 68
+        },
+        "delta_psnr_db": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 3.7193510254265214,
+          "ci95_low": 3.527309418965463,
+          "mean": 3.6186127328955147,
+          "parents": 68
+        }
+      }
+    }
+  },
+  "completed_at_kst": "2026-10-24T01:31:16+09:00",
+  "crops": 98,
+  "development_confirmation_parent_overlap": 0,
+  "device": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "freeze_sha256": "0cea49cd68ed1100c5a86945cf5125a0259eeb5d0470de198c40b350aa65e6d1",
+  "identity_route": {
+    "maximum_absolute_change": 0.0,
+    "pass": true
+  },
+  "parents": 68,
+  "records": 294,
+  "sample_metrics_path": "<LOCAL_PATH_REDACTED>",
+  "sample_metrics_sha256": "8e05a47208dbd621f0a97cb069d18ce199dbd0a9528a11744c644489cd6337be",
+  "schema_version": "MERIT-C061-CONFIRMATION-v1",
+  "scientific_status": "ROUTE_SPECIFIC_PARENT_DISJOINT_HELD_OUT_CONFIRMATION",
+  "status": "PASS",
+  "torch_version": "2.11.0+cu128"
+}

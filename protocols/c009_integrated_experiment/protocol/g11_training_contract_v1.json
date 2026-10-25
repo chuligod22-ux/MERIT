@@ -1,0 +1,104 @@
+{
+  "schema_version": "MERIT-C009-G11-TRAINING-CONTRACT-v1",
+  "created_date": "2026-09-25",
+  "status": "FROZEN_BEFORE_G11_RESULTS",
+  "purpose": "Freeze the paired D0 data stream and training semantics shared by every official-backbone base versus MERIT-full comparison.",
+  "full_training_allowed": false,
+  "full_training_blocker": "The separate G11 implementation manifest remains BLOCKED until official source snapshots, isolated dependencies, parameter/FLOP audit, and official forward/backward smoke are complete.",
+  "source_bank": {
+    "reuse_policy": "Reuse the immutable C006 D0 bank without rebuilding or selecting new crops.",
+    "protocol_path": "05_MERIT_revision/40_수정본/c006_execution/c006_protocol.json",
+    "protocol_sha256": "570a835e90f5ceac01ded2c30b95930a10f6229c091a5236aa82e99d9420b2d6",
+    "bank_path": "05_MERIT_revision/40_수정본/c006_execution/artifacts/d0_bank_448.npy",
+    "bank_sha256": "72184370f07e825d4ec6ac386b040f14758c09e49cde3ddee588ba8a6f0f82c3",
+    "bank_content_sha256": "93250d8d7ce2fbbaefb5a2f153d05ec6e03de54eb723059c3924cda64d587d90",
+    "manifest_path": "05_MERIT_revision/40_수정본/c006_execution/artifacts/d0_bank_manifest.csv",
+    "manifest_sha256": "37339f67ebb536043a8429671fc1e1a710a0621d12028d2c95d5d48ea8471c5f",
+    "ledger_path": "05_MERIT_revision/40_수정본/c006_execution/artifacts/d0_bank_ledger.json",
+    "ledger_payload_sha256": "8f9acec5fd64237f8cb7bba95782c1a035b84fbb686b225b246c1bca0aa544d1",
+    "shape": [211, 448, 448],
+    "dtype": "uint8",
+    "train_rows": 161,
+    "synthetic_holdout_rows": 50,
+    "unique_physical_parents": 141,
+    "parent_split_rule": "Every crop from a physical parent inherits one split; parent SHA-256 sets must be disjoint between train and synthetic_holdout.",
+    "forbidden_sources": ["D1", "D2", "D3", "DQ1", "legacy crack_bank.npy", "model outputs used for crop selection"]
+  },
+  "paired_comparison": {
+    "backbones": ["nafnet", "restormer", "mambair"],
+    "arms": ["base", "merit_full"],
+    "seeds": [0, 1, 2],
+    "pair_key": "backbone + seed",
+    "same_within_pair": [
+      "official backbone class and constructor",
+      "trainable parameter count",
+      "initial model state",
+      "clean target",
+      "selected bank index",
+      "synthetic degraded channel 0",
+      "sigma_h, sigma_v, and noise_std draw",
+      "optimizer, scheduler, batch size, step count, and sample order"
+    ],
+    "allowed_arm_differences": {
+      "base": "Prompt channels are both zero and the loss is fidelity only.",
+      "merit_full": "Prompt channels carry the frozen oracle blur/noise scalars and the loss adds the frozen DeepCrack probability L1 term with weight 5.0. This is a package/bundle comparison, not a single-component causal ablation."
+    },
+    "initialization_rule": "Set all deterministic seeds, instantiate the official backbone and common adapter, hash the initial state, then load the frozen DeepCrack model only for merit_full. Matching arms must have the same initial-state hash.",
+    "stream_pairing_rule": "Generate the latent sample once per seed and step. Channel 0, target, bank index, degradation parameters, and noise draw must be byte-identical across arms; only input channels 1-2 may differ."
+  },
+  "stream": {
+    "rng": "numpy.random.RandomState(seed)",
+    "draw_order_per_batch": [
+      "bank indices for the whole batch via randint",
+      "for each selected sample: sigma_h uniform, sigma_v uniform, noise_std uniform, standard-normal noise array"
+    ],
+    "gaussian_filter": {
+      "implementation": "scipy.ndimage.gaussian_filter",
+      "sigma_order": ["sigma_v", "sigma_h"],
+      "mode": "reflect"
+    },
+    "degradation": {
+      "sigma_h_px": [0.2, 3.0],
+      "sigma_v_px": [0.2, 2.4],
+      "noise_std_8bit": [0.0, 3.0],
+      "clip": [0.0, 1.0]
+    },
+    "input_channels": {
+      "channel_0": "synthetic degraded grayscale in [0,1]",
+      "channel_1_base": "all zeros",
+      "channel_2_base": "all zeros",
+      "channel_1_merit_full": "constant p_b = 0.5*(sigma_h + sigma_v)/3.0",
+      "channel_2_merit_full": "constant p_n = noise_std_8bit/3.0"
+    },
+    "target": "clean grayscale crop in [0,1]",
+    "stream_freeze_output": "05_MERIT_revision/40_수정본/c009_integrated_experiment/protocol/g11_training_stream_freeze_v1.json",
+    "stream_prefix_batches_per_seed": 2
+  },
+  "training": {
+    "steps": 8000,
+    "batch_size": 4,
+    "patch_size": 448,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "cosine_t_max": 8000,
+    "precision": "bfloat16 mixed precision",
+    "fidelity_loss": "L1 + gradient L1 + 0.1*detached-weight FFT error",
+    "task_loss": "L1 between frozen DeepCrack probabilities of restored and clean target",
+    "task_lambda": 5.0,
+    "deepcrack_checkpoint_sha256": "b37880c241dc516f486f75d9aa63fe55f8f6c80b1d212b324eaf6bda7450d293",
+    "checkpoint_selection": "fixed final step only",
+    "recovery_checkpoint_interval_steps": 1000,
+    "early_stopping": false,
+    "result_selection_from_recovery_checkpoint": false
+  },
+  "hard_stops": [
+    "Any bank, manifest, ledger, protocol, or DeepCrack hash mismatch.",
+    "Any physical-parent SHA-256 present in both train and synthetic_holdout.",
+    "Any paired-arm mismatch in channel 0, target, metadata, degradation draw, sample order, or initial state.",
+    "Any base/full trainable-parameter mismatch within a backbone.",
+    "Any unapproved source dataset or model-output-based crop selection.",
+    "Any full run before both G11 and G13 are CLOSED."
+  ]
+}

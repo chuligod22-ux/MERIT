@@ -1,0 +1,85 @@
+{
+  "elapsed_seconds": 0.9646000999491662,
+  "fold": "A",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "pairing": {
+    "chain": 0,
+    "detector_seed": 20260921,
+    "restorer_seed": 0
+  },
+  "parents": {
+    "0036": {
+      "degraded": {
+        "f1_at_0_5": 0.3713250100684655,
+        "fn": 10228,
+        "fp": 699,
+        "negative_pixels": 510833,
+        "negative_tile_any_positive_rate_at_0_5": null,
+        "negative_tiles": 0,
+        "paired_gradient_mae_dn": 3.616874098777771,
+        "paired_psnr_db": 35.97359889005085,
+        "pixel_auprc": 0.5926676666929742,
+        "positive_pixels": 13455,
+        "precision_at_0_5": 0.8219561895058584,
+        "recall_at_0_5": 0.23983649201040505,
+        "tile_count": 2,
+        "tn": 510134,
+        "tp": 3227
+      },
+      "reference": {
+        "f1_at_0_5": 0.8281998166196897,
+        "fn": 1261,
+        "fp": 3798,
+        "negative_pixels": 510833,
+        "negative_tile_any_positive_rate_at_0_5": null,
+        "negative_tiles": 0,
+        "paired_gradient_mae_dn": null,
+        "paired_psnr_db": null,
+        "pixel_auprc": 0.8671051155444001,
+        "positive_pixels": 13455,
+        "precision_at_0_5": 0.7625062531265633,
+        "recall_at_0_5": 0.9062801932367149,
+        "tile_count": 2,
+        "tn": 507035,
+        "tp": 12194
+      },
+      "task_off": {
+        "f1_at_0_5": 0.2134852801519468,
+        "fn": 11769,
+        "fp": 654,
+        "negative_pixels": 510833,
+        "negative_tile_any_positive_rate_at_0_5": null,
+        "negative_tiles": 0,
+        "paired_gradient_mae_dn": 2.466717481613159,
+        "paired_psnr_db": 37.389193712199116,
+        "pixel_auprc": 0.5002994632866046,
+        "positive_pixels": 13455,
+        "precision_at_0_5": 0.7205128205128205,
+        "recall_at_0_5": 0.1253065774804905,
+        "tile_count": 2,
+        "tn": 510179,
+        "tp": 1686
+      },
+      "task_on": {
+        "f1_at_0_5": 0.25819621427687744,
+        "fn": 11368,
+        "fp": 624,
+        "negative_pixels": 510833,
+        "negative_tile_any_positive_rate_at_0_5": null,
+        "negative_tiles": 0,
+        "paired_gradient_mae_dn": 2.5702589750289917,
+        "paired_psnr_db": 37.11541209784971,
+        "pixel_auprc": 0.5228763491259512,
+        "positive_pixels": 13455,
+        "precision_at_0_5": 0.7698266322390261,
+        "recall_at_0_5": 0.15510962467484207,
+        "tile_count": 2,
+        "tn": 510209,
+        "tp": 2087
+      }
+    }
+  },
+  "peak_cuda_memory_bytes": 1612274688,
+  "schema_version": "MERIT-C007-D2-EXTERNAL-SYNTHETIC-v1",
+  "tile_count": 2
+}

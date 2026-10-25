@@ -1,0 +1,10 @@
+{
+  "completed_frames": 30,
+  "last_frame_id": "60km_4.5m_ISO100/frame_000158.png",
+  "remaining_frames": 62,
+  "session_average_seconds": 2.7655105233347665,
+  "state": "RUNNING",
+  "study": "development_iso100",
+  "total_frames": 92,
+  "updated_utc": "2026-10-20T13:34:57+00:00"
+}

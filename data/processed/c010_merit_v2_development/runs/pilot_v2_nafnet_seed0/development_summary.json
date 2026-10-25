@@ -1,0 +1,38 @@
+{
+  "delta_gradient_mae": {
+    "ci_high": 0.00016192325089253826,
+    "ci_low": 0.00012402766538424862,
+    "mean": 0.0001439537926693055,
+    "parents": 33
+  },
+  "delta_overshoot_p95": {
+    "ci_high": -3.0790771802993947e-05,
+    "ci_low": -7.991742839337474e-05,
+    "mean": -5.496900900257658e-05,
+    "parents": 33
+  },
+  "delta_psnr_db": {
+    "ci_high": 0.20558390116608993,
+    "ci_low": 0.1725754961281392,
+    "mean": 0.18845139463935895,
+    "parents": 33
+  },
+  "gates": {
+    "gradient": false,
+    "identity": true,
+    "overshoot": true,
+    "psnr": true
+  },
+  "identity": {
+    "max_mean_absolute_change": 0.0,
+    "max_p99_absolute_change": 0.0
+  },
+  "identity_records": 50,
+  "metrics_path": "<LOCAL_PATH_REDACTED>",
+  "metrics_sha256": "681679f652414281355125062df5384e0d0e2fc468008d0a257222e70eb54b53",
+  "records": 500,
+  "restoration_records": 450,
+  "schema_version": "MERIT-C010-V2-PILOT-RESULT-v1",
+  "scientific_status": "EXPLORATORY_UNBLINDED_DEVELOPMENT_ONLY",
+  "status": "ITERATE"
+}

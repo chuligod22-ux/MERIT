@@ -1,0 +1,2 @@
+﻿"frame_id","condition","roi_id","orientation","valid","reason","raw_scale_adjusted_mtf50","imatest_roi_mtf50"
+"60km_3.5m_ISO400/frame_000140.png","60km_3.5m_ISO400","3","horizontal_edge","False","insufficient_line_support_both_polarities","","0.1487"

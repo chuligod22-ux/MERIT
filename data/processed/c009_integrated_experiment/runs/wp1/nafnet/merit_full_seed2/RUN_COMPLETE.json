@@ -1,0 +1,13 @@
+{
+  "arm": "merit_full",
+  "family": "nafnet",
+  "final_checkpoint_sha256": "aba795472d478192c0b97997465bd79d25a75f24ae1b691d9455f024fe11584c",
+  "final_state_sha256": "e2c6b48913e6a1a577dc7bb3cba0ebe0b9c24f5d09cb05429ee036bdad7bc17e",
+  "global_step": 8000,
+  "payload_sha256": "76c13a56f2e19be660fc2ee644316074a92a9596c64480e61abad606d4277f3e",
+  "run_manifest_sha256": "5c3eb4f21be5d91a2d7b2f7027400705ce10eea5b2b0737d96059306395b5c60",
+  "schema_version": "MERIT-C009-WP1-RUN-COMPLETE-v1",
+  "seed": 2,
+  "status": "PASS",
+  "stream_sha256": "49bc0c57555d67aa2d690b46653e10edaa0953425367b57bbdce646295f7d821"
+}

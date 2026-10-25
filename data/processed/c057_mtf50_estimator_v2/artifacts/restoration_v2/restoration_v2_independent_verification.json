@@ -1,0 +1,52 @@
+{
+  "arm_results": [
+    {
+      "arm": "off",
+      "condition_cells": 42,
+      "conditions_improved": 13,
+      "conditions_worsened": 29,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0013563664470857542,
+        0.00527972241628491
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.003348892287585504
+    },
+    {
+      "arm": "on",
+      "condition_cells": 42,
+      "conditions_improved": 12,
+      "conditions_worsened": 30,
+      "mean_delta_95pct_condition_bootstrap_ci": [
+        0.0003059418335773202,
+        0.0022503177823515615
+      ],
+      "mean_restored_minus_raw_abs_error_cy_px": 0.0013072393148885874
+    }
+  ],
+  "complete_case_fraction": 0.9965457685664939,
+  "counts": {
+    "complete_case_roi_identities": 1731,
+    "primary_condition_cells": 42,
+    "progress_files": 479,
+    "roi_identities": 1737,
+    "roi_rows": 12159
+  },
+  "created_utc": "2026-10-20T12:33:46+00:00",
+  "inputs": {
+    "final_sha256": "8c9fa41dbdfd229855de7f11b98b2b05638c8a64df2b3f41af951838e73b7c04",
+    "freeze_sha256": "1fe842a562070a4a6bb2354b1d5c1d91216b04b88be79496525e0fc827404719",
+    "roi_results_sha256": "8f94c6ea2992b3ca2310113e4070dec1e5450087e79412c65a2d201350ad86d8",
+    "verification_code_sha256": "828ea12a7b28fb314f48c5242ee5f15922e908b10a2bf94a33fceccd468fdcc9"
+  },
+  "issues": [],
+  "per_distance_complete_case_fraction": {
+    "2.5": 1.0,
+    "3.5": 1.0,
+    "4.5": 0.99,
+    "5.5": 0.9947089947089947,
+    "6.5": 0.9975961538461539
+  },
+  "raw_reproduction_maximum_absolute_difference_cy_px": 0.0,
+  "schema_version": "MERIT-C057-MTF50-V2-INDEPENDENT-VERIFICATION-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,73 @@
+{
+  "accepted_prior_addendum_sha256s": [
+    "7e0187fe2a9446b88ba95e080e98a8543b2e521ae4d8e43fde340af820f60226"
+  ],
+  "base_execution_freeze": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "payload_sha256": "2dc1f43c9235075ae6bb9bd73020fcf226ee12ec06df6596917444b9e2bd49de",
+    "sha256": "f2184231a5585365897a6f87ae51d18770f04084a3480eb91791f6280901f7ad"
+  },
+  "created_utc": "2026-10-06T01:35:13.183019+00:00",
+  "frozen_file_overrides": {
+    "c009_full_evaluation_queue.py": {
+      "base_sha256": "ff360669e8a0f96fb84c86d86a2a939e0960ddbbaee40ac8188b662fa65d7d05",
+      "reason": "Preserve completed_items and cumulative GPU time across an interrupted restart.",
+      "resume_sha256": "a946d5de415e7bc873eac68a9388f80989583cdfade81e305a4a9fa7094ae3eb"
+    },
+    "test_c009_full_evaluation.py": {
+      "base_sha256": "5e6a14397c0fe951a2f9a5dd2357b44a2cd53deea91004fcb0d29f6e023f242a",
+      "reason": "Add regression coverage for resume accounting, completion order, and startup safety.",
+      "resume_sha256": "6466a6dc1c3252f33b77db9db59e4d769386849987a12b355d4633be1f7348a6"
+    }
+  },
+  "generator": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "126db173fa2ab182652f413a63e684127554cccf18f43d8cd49496bd6d8f3e51"
+  },
+  "interruption_state": {
+    "active_block": "wp6_different_tunnel_same_system_974",
+    "active_completed_frames": 467,
+    "active_elapsed_seconds": 17583.001031700056,
+    "active_item": "wp1__restormer__base__seed2",
+    "active_remaining_frames": 507,
+    "completed_items": 76,
+    "evaluation_elapsed_seconds": 255703.22364169685,
+    "hard_gpu_budget_hours": 240.0,
+    "last_cohort_id": "D3-CAM102-3R-000250",
+    "path": "<LOCAL_PATH_REDACTED>",
+    "recovered_evaluation_elapsed_seconds": 273286.2246733969,
+    "recovered_monitored_gpu_hours": 141.0452304342217,
+    "sha256": "3713a6b67bf911cc03f835fd2ccbdbe2e0a49bdcbe7e6ad78e69b23b923c674e",
+    "status": "running",
+    "training_gpu_seconds": 234476.60488980124
+  },
+  "payload_sha256": "2aef06c10958c58e691cc49bd99b75fc5214c88ca58379bdcd31ca3910a7f09e",
+  "reason": "Windows Update initiated a planned restart 17 seconds after the last atomic D3 frame commit. The original queue restart path discarded cumulative evaluation time and duplicated completion labels.",
+  "resume_contract": {
+    "carry_active_elapsed_into_evaluation_elapsed": true,
+    "enforce_budget_before_child_launch": true,
+    "first_missing_frame": 468,
+    "preserve_completed_prefix": true,
+    "reject_duplicate_or_nonprefix_completion": true,
+    "reject_nonfinite_or_negative_elapsed_time": true,
+    "skip_completed_items": true,
+    "validate_completed_marker_payloads": true
+  },
+  "schema_version": "MERIT-C009-FULL-EVALUATION-RESUME-ADDENDUM-v1",
+  "scientific_scope": {
+    "changed": false,
+    "result_access": "Recovery was derived from queue state, completion markers, file hashes, and coverage counts without inspecting endpoint values.",
+    "statement": "No model, checkpoint, seed, cohort, prompt, detector, endpoint, threshold, metric, or result-selection rule is changed."
+  },
+  "status": "PASS_OPERATIONAL_RESUME_ONLY",
+  "validation": {
+    "command": "python -m pytest -q scripts/test_c009_full_evaluation.py",
+    "required_checks": [
+      "base freeze and resume addendum hashes",
+      "141.0452304342217 GPU-hour recovery baseline",
+      "exact completed-label prefix and marker payload hashes",
+      "pre-launch 240 GPU-hour hard stop",
+      "startup verification failure leaves the interrupted state untouched"
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "claim_boundary": "Detection uses existing annotated tunnel data. Width is expert-mask-defined natural crack apparent width in pixels, not physical millimetre width or traceable metrology.",
+  "detection": {
+    "delta_over_v23": -0.000392727582510815,
+    "detectors": {
+      "d2_deeplabv3_resnet50": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261225,
+          "ci95_high": 0.0014538386495009598,
+          "ci95_low": 0.00048641373023438093,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": 0.0009824135772756339,
+          "per_tunnel": {
+            "A": -0.00012387620600518012,
+            "B": 0.003150670760975832,
+            "C": -0.00010641475333776159,
+            "D": 0.0010092745074696448
+          },
+          "positive_tunnels": 2
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261235,
+          "ci95_high": 0.001720327158818401,
+          "ci95_low": 0.0005727709803132895,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": 0.0011981820709329504,
+          "per_tunnel": {
+            "A": -0.0003451119365219653,
+            "B": 0.00381672004889679,
+            "C": -0.00027688097103978717,
+            "D": 0.0015980011423967645
+          },
+          "positive_tunnels": 2
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261245,
+          "ci95_high": 8.0804566147964e-05,
+          "ci95_low": -2.9504616761403214e-05,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": 1.8664497349817735e-05,
+          "per_tunnel": {
+            "A": 6.664279202849149e-05,
+            "B": 6.093870319820832e-05,
+            "C": -3.3485716901272554e-05,
+            "D": -1.9437788926156303e-05
+          },
+          "positive_tunnels": 2
+        }
+      },
+      "d2_resnet34_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261223,
+          "ci95_high": 0.00037725185956477504,
+          "ci95_low": -0.00037935227055899313,
+          "clusters": 14,
+          "improved_tunnels": 2,
+          "mean": -1.0191674904359439e-05,
+          "per_tunnel": {
+            "A": 0.0011986096777349148,
+            "B": -0.0017334491920314998,
+            "C": 0.0004963377459022015,
+            "D": -2.2649312230542296e-06
+          },
+          "positive_tunnels": 2
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261233,
+          "ci95_high": 0.0011659172124556438,
+          "ci95_low": 0.0003553324133544137,
+          "clusters": 14,
+          "improved_tunnels": 0,
+          "mean": 0.0007635584151027218,
+          "per_tunnel": {
+            "A": 0.0010542514792623394,
+            "B": 0.0006363421147485004,
+            "C": 0.0008591005563856575,
+            "D": 0.0005045395100143901
+          },
+          "positive_tunnels": 4
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261243,
+          "ci95_high": -2.533457631799697e-06,
+          "ci95_low": -7.811829555211466e-05,
+          "clusters": 14,
+          "improved_tunnels": 4,
+          "mean": -4.125032011298946e-05,
+          "per_tunnel": {
+            "A": -0.0001082937397056328,
+            "B": -4.404619827901993e-06,
+            "C": -4.7649716866458444e-05,
+            "D": -4.653204051964616e-06
+          },
+          "positive_tunnels": 0
+        }
+      },
+      "d2_vgg16_unet": {
+        "delta_auprc": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261224,
+          "ci95_high": 0.0019216512234121275,
+          "ci95_low": 0.0008228520680859018,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.001349050217027321,
+          "per_tunnel": {
+            "A": 0.003016964635029177,
+            "B": 0.0009720713381686971,
+            "C": -0.00019773612538377027,
+            "D": 0.0016049010202951802
+          },
+          "positive_tunnels": 3
+        },
+        "delta_f1": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261234,
+          "ci95_high": 0.0020382658131473724,
+          "ci95_low": 0.0007924955419851995,
+          "clusters": 14,
+          "improved_tunnels": 1,
+          "mean": 0.001418365586612212,
+          "per_tunnel": {
+            "A": 0.001778537743690589,
+            "B": 0.0018189006675463637,
+            "C": -0.0001363942947776457,
+            "D": 0.00221241822998954
+          },
+          "positive_tunnels": 3
+        },
+        "delta_matched_fpr": {
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 20261244,
+          "ci95_high": -1.3760879144274629e-05,
+          "ci95_low": -5.8685796780304934e-05,
+          "clusters": 14,
+          "improved_tunnels": 3,
+          "mean": -3.5126844928261826e-05,
+          "per_tunnel": {
+            "A": -0.00010744056574986619,
+            "B": -1.9830168739672532e-05,
+            "C": 1.6188148290264354e-05,
+            "D": -2.942479351377295e-05
+          },
+          "positive_tunnels": 1
+        }
+      }
+    },
+    "efficacy_gate_pass": false,
+    "panel": {
+      "delta_auprc": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261213,
+        "ci95_high": 0.0010630111101617536,
+        "ci95_low": 0.0004844476284249811,
+        "clusters": 14,
+        "improved_tunnels": 0,
+        "mean": 0.0007737573731328652,
+        "per_tunnel": {
+          "A": 0.0013638993689196375,
+          "B": 0.0007964309690376765,
+          "C": 6.406228906022322e-05,
+          "D": 0.0008706368655139237
+        },
+        "positive_tunnels": 4
+      },
+      "delta_f1": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261214,
+        "ci95_high": 0.0015074689256908986,
+        "ci95_low": 0.0007333299934330107,
+        "clusters": 14,
+        "improved_tunnels": 0,
+        "mean": 0.0011267020242159613,
+        "per_tunnel": {
+          "A": 0.0008292257621436546,
+          "B": 0.002090654277063885,
+          "C": 0.00014860843018940813,
+          "D": 0.001438319627466898
+        },
+        "positive_tunnels": 4
+      },
+      "delta_matched_fpr": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_seed": 20261215,
+        "ci95_high": 1.1871118601017776e-05,
+        "ci95_low": -4.640410871404687e-05,
+        "clusters": 14,
+        "improved_tunnels": 3,
+        "mean": -1.923755589714452e-05,
+        "per_tunnel": {
+          "A": -4.9697171142335826e-05,
+          "B": 1.2234638210211265e-05,
+          "C": -2.164909515915557e-05,
+          "D": -1.7838595497297955e-05
+        },
+        "positive_tunnels": 1
+      }
+    },
+    "superiority_over_v23": false,
+    "v23_four_tunnel_mean_delta_auprc": 0.0011664849556436803
+  },
+  "global_gate_pass": false,
+  "natural_crack_apparent_width": {
+    "changes_from_v23": {
+      "delta_absolute_error_px": -0.14867735944472063,
+      "paired_estimable_rate": 0.021759697256385935
+    },
+    "claim_boundary": "Detection uses existing annotated tunnel data. Width is expert-mask-defined natural crack apparent width in pixels, not physical millimetre width or traceable metrology.",
+    "coverage": {
+      "parents": 14,
+      "rois": 1057,
+      "tiles": 382,
+      "tunnels": 4
+    },
+    "coverage_pass": true,
+    "delta_absolute_error_px": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 20261113,
+      "ci95_high": -0.2191534804305088,
+      "ci95_low": -0.41466601094181094,
+      "clusters": 14,
+      "improved_tunnels": 4,
+      "mean": -0.30722220269698347,
+      "per_tunnel": {
+        "A": -0.4797688174318403,
+        "B": -0.023166179510389035,
+        "C": -0.43393552317156325,
+        "D": -0.29201829067414137
+      },
+      "positive_tunnels": 0
+    },
+    "effective_nonestimable_rate": 0.27436140018921473,
+    "gate": {
+      "pass": true,
+      "requirements": ">=300 ROI, >=100 tiles, >=10 parents, four tunnels; delta absolute-error mean and 95% CI upper <0; >=3/4 tunnels improve; effective non-estimable increase <=2 percentage points; paired estimable rate >=70%"
+    },
+    "paired_estimable_rate": 0.7010406811731315,
+    "raw_nonestimable_rate": 0.2989593188268685,
+    "safe_fallback_rois": 92,
+    "v23": {
+      "delta_absolute_error_px": -0.15854484325226284,
+      "paired_estimable_rate": 0.6792809839167455
+    }
+  },
+  "payload_sha256": "b05f195a08e49aba6b65df4376175834c226b68adb5ce137f99df96249b02457",
+  "protocol_payload_sha256": "90ede96eeb41bb65dadbcf1c0658074c38e4774e6ce28e7dfc41a6a986111239",
+  "routes": {
+    "d2_deeplabv3_resnet50": "sharp0100",
+    "d2_resnet34_unet": "sharp0100",
+    "d2_vgg16_unet": "sharp0100"
+  },
+  "schema_version": "MERIT-C016-V24-CYCLE2-SUMMARY-v1",
+  "scientific_status": "ALL_SITE_DEVELOPMENT_WITH_SEED_HELD_REPLICATION",
+  "status": "COMPLETE_GATE_FAIL"
+}

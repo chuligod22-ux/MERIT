@@ -1,0 +1,43 @@
+{
+  "bindings": {
+    "contract": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/safety_router_development_contract_v3g.json",
+      "sha256": "3b6ad1299a69064ed102b4864006d2a03273ee95a6b88aebb7e31b5fe53f6c55"
+    },
+    "inventory": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/holdout_inventory_v3g.json",
+      "sha256": "e66f4100158304e067ccca2dbfe2dd373b1b926dbc564e703b49f7bbe31086a8"
+    },
+    "locator_execution_freeze": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/artifacts/locator_development_v1/locator_execution_freeze_v2.json",
+      "sha256": "3ed49aa0c3d0cef80da47805dd8541294fa88185bd5a32c07e2eb15c1c9d53fb"
+    },
+    "runner": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/scripts/c058_safety_router_v3.py",
+      "sha256": "ce55c7b6e7bce4771bab4dbc6bdb1f71ba6425205af51e19501ab71d5ef9b785"
+    },
+    "selection": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/protocol/selected_safety_router_v3g.json",
+      "sha256": "3a7201d01206e7a7e411a113aaccec39cce3d90bb528616193ae6cd22e3a2f54"
+    },
+    "tests": {
+      "path": "05_MERIT_revision/40_수정본/c058_optical_fidelity_adapter/tests/test_c058_safety_router_v3.py",
+      "sha256": "53c13612653ed5cd762110f078632b7e4ccf182bc4ba6498b45b05ddbe8395cb"
+    }
+  },
+  "created_utc": "2026-10-21T01:39:24+00:00",
+  "expected": {
+    "active_condition_cells": 6,
+    "active_distance_cells": 3,
+    "active_frames": 47,
+    "common_complete_case_minimum": 0.95,
+    "condition_cells": 29,
+    "frames": 280,
+    "inactive_condition_cells": 23,
+    "locator_coverage_minimum": 0.95
+  },
+  "one_shot_policy": "First run atomically claims one attempt. Interrupted execution may resume only under identical freeze/inventory/code with exact progress validation; a completed attempt or changed binding can never rerun.",
+  "result": "PASS",
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-HOLDOUT-EXECUTION-v3g",
+  "state": "V3G_READY_SEALED_BEFORE_FIRST_UNEXPOSED_PNG_BYTE_ACCESS"
+}

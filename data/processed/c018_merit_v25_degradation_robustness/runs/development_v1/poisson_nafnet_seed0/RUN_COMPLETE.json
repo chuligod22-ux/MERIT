@@ -1,0 +1,52 @@
+{
+  "batch_size": 8,
+  "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+  "checkpoint_sha256": "cee4b79b67aa63b7769fe559a5b5e3a08e69de0b44d5c37833eb68d2d8dc8598",
+  "completed_at_kst": "2026-10-15T11:57:14+09:00",
+  "elapsed_seconds": 895.0615373000037,
+  "log_path": "<LOCAL_PATH_REDACTED>",
+  "log_sha256": "ceff762dec2e59b7d57562244aaccfbb8f34267c27aeca6df10ff4ad4e71d493",
+  "peak_cuda_memory_bytes": 15962984448,
+  "protocol_sha256": "d7dd43d390aad8246b4cb515c202df4ac91931ead40c40822e652a539056fa82",
+  "schema_version": "MERIT-C018-POISSON-TRAINING-COMPLETE-v1",
+  "scientific_status": "UNBLINDED_DEVELOPMENT_ONLY",
+  "source": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "8b6b528ade6e02e28adee4f826354e89df7fe88adcfa566d0c5be5384d64dd13",
+    "completion_payload_sha256": "5742a297ca3cae0d1deebc71666ab1d9cc7a18508e8ab6c53db4886941126c47",
+    "model": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "model_id": "wp1__nafnet__base__seed0"
+  },
+  "status": "PASS",
+  "steps": 3000,
+  "training_crops": 161
+}

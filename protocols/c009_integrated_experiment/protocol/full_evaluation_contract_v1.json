@@ -1,0 +1,844 @@
+{
+  "assets": {
+    "d0_bank": {
+      "bytes": 42348672,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "72184370f07e825d4ec6ac386b040f14758c09e49cde3ddee588ba8a6f0f82c3"
+    },
+    "d0_manifest": {
+      "bytes": 108587,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "37339f67ebb536043a8429671fc1e1a710a0621d12028d2c95d5d48ea8471c5f"
+    },
+    "d2_cohort": {
+      "bytes": 703837,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f40c89ff3cbb38a1b053106339e2f65f1095e890a8099fe4510cdc7fd1e7d028"
+    },
+    "d2_detector_checkpoints": [
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260921,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "b4b3d973abcd07d4f3950b688a963240c4ef6b5590276fd17d23ce8b05d79477"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260922,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "182b9b71ed09b8b874a36df11bbb3074f26d21e3886ab34eb401398afcd938e3"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260923,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "ba876824ee213af4f65739cdad69b5b87980bf5b8a77c8475fa14644bc7a3c92"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260921,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "28fd8153d04902312ef26fdef875aea6e446fd5e9e88f8a5c83ab98ad708e7a4"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260922,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "246e4a0ee85be640b7f6f4f56d318ea8cccb1a0af0d9e437c663f9a41a3595db"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260923,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "3fd28022de9093803c6d2d553cb0192a066d3728ef717e637213dbaf71042821"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260921,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "2fcfe91a3e241e92332b3776c8763e7cacc21c16e7301907f0457bf85a1a66ab"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260922,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "a586b67c3d38aa9af2ddd1ba9fd3aa9be0f877d343768f48597e05c37576b2bb"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260923,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "5aa0dab25073e1cb4ceb4af070f4ae0b600771423d953869e4b84ec98158526e"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260921,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "aa3178830c18fd9b04838b078a6212616ade2abec223d532fbcb191571ea9b67"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260922,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "0282917da2d4440788103f48ac2681085c9e842888c48207a0b12b27079d77de"
+      },
+      {
+        "bytes": 158889515,
+        "detector": "d2_deeplabv3_resnet50",
+        "detector_seed": 20260923,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "e121c0903f243bee74583601376f61e03c36a2c8008851c4abe641d12d51cf36"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260921,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "edd266eaa4328f84993f14c85132d0f7e0b64ee4a9679f58b6eff11f3e7494c5"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260922,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "f3088cf98ef73a54eed3e8b14c32eec23b3271276de1348041b77f171d8190b3"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260923,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "5050760be40ad6dd048f22b1bd4eb4e8b394317947e5761562f2ba35849a7017"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260921,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "5331db4cfd5048ac5f9a3e69eaec9c2d5e233ec4bdf7bbb5de65e3afb9c07f6e"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260922,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "924bc85a1e1439e5e52939e521fbcbb80538fcdcc025afac776cfc4f57e4b8aa"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260923,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "309528bf61bffd674cd667d908e49a19e6eee57646a71dd023f1d676aa6cb4f7"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260921,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "332057c3cd1c6230fca1db7176d9b345e2518e0b6c7f09156eab78fbc22c740d"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260922,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "e0203cc47f5f1aaea2322f7d36a30bbdf62d27335c82d6f1ca3c3197baea1752"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260923,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "7ec9d866823e03e3f7c11afbb6ca46d3ba993f7613d707a77947dea794e520e1"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260921,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "5cf63fd1f7dda6fd0579679117a83dfe76f6973986070546107c4d952e7acfa7"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260922,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "4d9cb956a476c3686a439277c0efc48e6b06a4c8e55709866c195baedc4313c7"
+      },
+      {
+        "bytes": 117249933,
+        "detector": "d2_vgg16_unet",
+        "detector_seed": 20260923,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "d97d35bb2acc05a28a442fbb97f7d7aec64231967291740b70e49c2ecb89b2be"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260921,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "1ea22dafc4312b67ca8582cc0af68a20d4120ec0fa0b7b757eea06390ca3a8f6"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260922,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "52c09851153c4c8b900b301d2d305d80d98146bb7868a244f2a1bb7e629e5110"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260923,
+        "fold": "A",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "8080949bec1ab3385553ee17af7e8d2d20c5784938614365404116238cc4c0cd"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260921,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "8efd0eb3e8975349347a4d09526d5d2b9d1d13020d281896d24283ef4609e33d"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260922,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "e4d571d29bbcf3e2c1312aaa1e5263f3455aace8b7731977f1da0fe57f3e6693"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260923,
+        "fold": "B",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "0576f0fb486739a28949c64abedbc532577519825fd73903f948237e4930e2ff"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260921,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "098d79f19937646fe8c3aae437f48e0bf29df8e596ff2cdfb8ec496ea1adf4fc"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260922,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "939b1f7526cfb36af034038c411ef0c560b4c642991b0a73f5bf1fafbf57a1c6"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260923,
+        "fold": "C",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "39d5b69eab8d8c40862ff3be397154dff679e2dcdd5085d58ceae4c8506bf4cd"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260921,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "184417a7696219597c808a52873faf074681c0aa4041b568c0f91144dc602b96"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260922,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "78602eabfb124fe77dab0bc00dac5e42cc2fbf4b1d3174be5f3f8bc236e9bcb2"
+      },
+      {
+        "bytes": 98141163,
+        "detector": "d2_resnet34_unet",
+        "detector_seed": 20260923,
+        "fold": "D",
+        "path": "<LOCAL_PATH_REDACTED>",
+        "sha256": "2779531b4dc12027c54b098e1c04279641402d7a70520c0502f2c1ce26ece455"
+      }
+    ],
+    "d2_multidetector_protocol": {
+      "bytes": 7272,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "bd21e7f22dab69f636cadc41475cf59efad583c90c06a373eaf9299790d4fd1b"
+    },
+    "d2_protocol": {
+      "bytes": 10256,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "21b9fbb4124a20774b72536b084dbc0e432f96477dcd7c5d6ab7d1faeabff140"
+    },
+    "d3_cohort": {
+      "bytes": 377720,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "6274b67d6c1da7a82b921c307e83a59422537aeb1eacf467c79bac7e91c43421"
+    },
+    "d3_consensus": {
+      "bytes": 115229,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "9f09039ec821b5e68cfcf1284bac8f10d7945893e426f6685f8f2acb85806a9e"
+    },
+    "d3_protocol": {
+      "bytes": 7377,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "dbc47194b82b6919d6fd02d3351bda812fbcb436f37914f8f621122223c06022"
+    },
+    "g10": {
+      "bytes": 7788,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "d3c7fdc2ca8a76f30972a4ebf984c1329e8528bf92c6fea0d2965883c8bcca71"
+    },
+    "g11_contract": {
+      "bytes": 7544,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969"
+    },
+    "g12": {
+      "bytes": 8709,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "69a116bb72159af80b1f29a3b22324ea2bfcca716b0195dbda3ae65f999ad635"
+    },
+    "g13": {
+      "bytes": 3919,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ddf5becefe661370ed755779811c4cbad8b7dea57faa3b0165a460f45c473803"
+    },
+    "perimeter_cohort": {
+      "bytes": 466699,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "c107a4f4040e31f16b2b79321e294b6e5a84c063d42130bbda521571a20517fd"
+    },
+    "perimeter_protocol": {
+      "bytes": 7816,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "a2901a89adf5abf1a1fe1a71cf2d1d72a1fb2819274bf386208d7861a056c5b7"
+    },
+    "width_protocol": {
+      "bytes": 4601,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "f7ff54b7b795ee8c22abd9bc3a344bac72025a8c9d923335e2ef893b53c790af"
+    },
+    "width_raw_audit": {
+      "bytes": 7587,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "1fbdd4003b2722ae190a0a17b2cea6d89b1ef24b3818f2510aa88f70b10682e7"
+    },
+    "width_roi": {
+      "bytes": 174125,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "ce46cf8249a8666c38a7b9b1ee02899423677ac584643e46bbe2654a32c2fd9f"
+    },
+    "wp1_freeze": {
+      "bytes": 4377,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "728271b1ee17b261c0a3142b96383fae00968a54f19aa9ad6db61ed072a804e3"
+    },
+    "wp23_freeze": {
+      "bytes": 3129,
+      "path": "<LOCAL_PATH_REDACTED>",
+      "sha256": "a0cf384ea9245304e27d368cb725a3e1e0e68cb462769a85c5c616def972d0f5"
+    }
+  },
+  "authorization": "FULL_SCOPE_AT_AUTHOR_RISK_PENDING_JOURNAL_EXTENSION",
+  "controlled_d0": {
+    "cohort": "all 50 synthetic_holdout bank rows; no row selection",
+    "in_distribution_conditions": [
+      {
+        "id": "id_low",
+        "noise_std_8bit": 0.75,
+        "sigma_h_px": 0.7,
+        "sigma_v_px": 0.6
+      },
+      {
+        "id": "id_mid",
+        "noise_std_8bit": 1.5,
+        "sigma_h_px": 1.6,
+        "sigma_v_px": 1.3
+      },
+      {
+        "id": "id_high",
+        "noise_std_8bit": 2.75,
+        "sigma_h_px": 2.7,
+        "sigma_v_px": 2.3
+      }
+    ],
+    "input_conditions": [
+      "degraded",
+      "zero_degradation_identity"
+    ],
+    "metrics": [
+      "PSNR",
+      "LPIPS-Alex",
+      "gradient_MAE",
+      "preclip_out_of_range_fraction",
+      "mean_absolute_output_change",
+      "p99_absolute_output_change",
+      "saturation_fraction_change",
+      "edge_normal_overshoot_p95"
+    ],
+    "noise_seeds": [
+      202609240,
+      202609241,
+      202609242
+    ],
+    "prompt_policy": {
+      "base": "zero maps",
+      "identity": "zero maps for every arm",
+      "merit_full": "oracle normalized blur/noise severity",
+      "normalization": "p_b=(sigma_h+sigma_v)/(2*3); p_n=noise_std_8bit/3; clamp [0,1]"
+    }
+  },
+  "created_utc": "2026-09-24T23:54:08.343666+00:00",
+  "design_payload_sha256": "21bc06eb809413a5aefcec89449265acafe97fb6ce6a8416b3dec95be4dad132",
+  "global_rules": {
+    "all_predeclared_arms_seeds_families_conditions_reported": true,
+    "fixed_final_only": true,
+    "hard_gpu_budget_hours": 240.0,
+    "journal_extension_state": "PENDING",
+    "no_checkpoint_selection": true,
+    "no_external_data_for_model_or_threshold_selection": true,
+    "partial_outputs_are_operational_progress_only": true,
+    "performance_summary_release": "Only after the relevant complete predeclared comparison block passes hash and coverage checks."
+  },
+  "hard_stops": [
+    "Any frozen source, protocol, cohort, detector, or checkpoint hash mismatch.",
+    "Any WP1 or WP2/WP3 run block is incomplete or uses a non-final checkpoint.",
+    "Any post-result model, seed, family, severity, tunnel, parent, frame, or width exclusion.",
+    "Any non-finite model output or incomplete predeclared comparison block.",
+    "Any attempt to infer or tune actual-acquisition prompts from D2/D3 endpoint outcomes.",
+    "Cumulative monitored GPU time reaches 240 hours before completion."
+  ],
+  "model_matrix": {
+    "reuse": {
+      "wp2_informative_oracle": "wp1/nafnet/merit_full_seed{0,1,2}",
+      "wp3_single": "wp1/nafnet/merit_full_seed{0,1,2}"
+    },
+    "wp1": [
+      {
+        "arm": "base",
+        "family": "nafnet",
+        "seed": 0
+      },
+      {
+        "arm": "merit_full",
+        "family": "nafnet",
+        "seed": 0
+      },
+      {
+        "arm": "base",
+        "family": "nafnet",
+        "seed": 1
+      },
+      {
+        "arm": "merit_full",
+        "family": "nafnet",
+        "seed": 1
+      },
+      {
+        "arm": "base",
+        "family": "nafnet",
+        "seed": 2
+      },
+      {
+        "arm": "merit_full",
+        "family": "nafnet",
+        "seed": 2
+      },
+      {
+        "arm": "base",
+        "family": "restormer",
+        "seed": 0
+      },
+      {
+        "arm": "merit_full",
+        "family": "restormer",
+        "seed": 0
+      },
+      {
+        "arm": "base",
+        "family": "restormer",
+        "seed": 1
+      },
+      {
+        "arm": "merit_full",
+        "family": "restormer",
+        "seed": 1
+      },
+      {
+        "arm": "base",
+        "family": "restormer",
+        "seed": 2
+      },
+      {
+        "arm": "merit_full",
+        "family": "restormer",
+        "seed": 2
+      },
+      {
+        "arm": "base",
+        "family": "mprnet",
+        "seed": 0
+      },
+      {
+        "arm": "merit_full",
+        "family": "mprnet",
+        "seed": 0
+      },
+      {
+        "arm": "base",
+        "family": "mprnet",
+        "seed": 1
+      },
+      {
+        "arm": "merit_full",
+        "family": "mprnet",
+        "seed": 1
+      },
+      {
+        "arm": "base",
+        "family": "mprnet",
+        "seed": 2
+      },
+      {
+        "arm": "merit_full",
+        "family": "mprnet",
+        "seed": 2
+      }
+    ],
+    "wp1_count": 18,
+    "wp23_additional": [
+      {
+        "seed": 0,
+        "structure": "zero_prompt_full",
+        "wp": "wp2"
+      },
+      {
+        "seed": 1,
+        "structure": "zero_prompt_full",
+        "wp": "wp2"
+      },
+      {
+        "seed": 2,
+        "structure": "zero_prompt_full",
+        "wp": "wp2"
+      },
+      {
+        "seed": 0,
+        "structure": "cascade",
+        "wp": "wp3"
+      },
+      {
+        "seed": 1,
+        "structure": "cascade",
+        "wp": "wp3"
+      },
+      {
+        "seed": 2,
+        "structure": "cascade",
+        "wp": "wp3"
+      },
+      {
+        "seed": 0,
+        "structure": "parallel",
+        "wp": "wp3"
+      },
+      {
+        "seed": 1,
+        "structure": "parallel",
+        "wp": "wp3"
+      },
+      {
+        "seed": 2,
+        "structure": "parallel",
+        "wp": "wp3"
+      }
+    ],
+    "wp23_additional_count": 9
+  },
+  "result_access_at_freeze": "WP1 was still training nafnet/base_seed0; no C009 fixed-final checkpoint, WP2/WP3 result, or C009 endpoint result existed.",
+  "schema_version": "MERIT-C009-FULL-EVALUATION-CONTRACT-v1",
+  "status": "FROZEN_BEFORE_ANY_C009_FIXED_FINAL_OR_ENDPOINT_RESULT",
+  "wp2_prompt_perturbation": {
+    "batch_order": "bank_index ascending, then condition id, then noise seed",
+    "batch_size_for_shuffle": 10,
+    "cohort_conditions_seeds": "same controlled_d0 full matrix",
+    "conditions": {
+      "constant": {
+        "p_b": 0.48333333333333334,
+        "p_n": 0.5
+      },
+      "correct": "oracle pair",
+      "mismatch_multipliers": [
+        0.5,
+        0.75,
+        1.25,
+        1.5
+      ],
+      "shuffled": "cyclic +1 complete prompt pair within each fixed batch",
+      "swapped": "exchange p_b and p_n",
+      "zero": {
+        "p_b": 0.0,
+        "p_n": 0.0
+      }
+    },
+    "models": "three fixed-final WP1 NAFNet merit_full checkpoints"
+  },
+  "wp3_architecture": {
+    "cohort_conditions_seeds": "same controlled_d0 full matrix plus identity",
+    "models": [
+      "single",
+      "cascade",
+      "parallel"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "wp4_ood": {
+    "cohort": "all 50 D0 synthetic_holdout rows",
+    "families": {
+      "illumination_gradient_vignetting": [
+        {
+          "edge_gain": 0.85,
+          "vertical_gain": 0.95
+        },
+        {
+          "edge_gain": 0.65,
+          "vertical_gain": 0.85
+        },
+        {
+          "edge_gain": 0.45,
+          "vertical_gain": 0.7
+        }
+      ],
+      "linear_motion_psf": [
+        {
+          "angle_deg": 0.0,
+          "length_px": 3
+        },
+        {
+          "angle_deg": 5.0,
+          "length_px": 7
+        },
+        {
+          "angle_deg": 10.0,
+          "length_px": 13
+        }
+      ],
+      "poisson_gaussian": [
+        {
+          "additive_std_8bit": 1.0,
+          "peak_photons": 160.0
+        },
+        {
+          "additive_std_8bit": 2.0,
+          "peak_photons": 80.0
+        },
+        {
+          "additive_std_8bit": 3.0,
+          "peak_photons": 40.0
+        }
+      ],
+      "saturation_clipping": [
+        {
+          "clip_high": 0.98,
+          "gain": 1.05
+        },
+        {
+          "clip_high": 0.94,
+          "gain": 1.2
+        },
+        {
+          "clip_high": 0.88,
+          "gain": 1.4
+        }
+      ],
+      "spatially_varying_blur": [
+        {
+          "sigma_left_px": 0.4,
+          "sigma_right_px": 1.4
+        },
+        {
+          "sigma_left_px": 0.5,
+          "sigma_right_px": 2.8
+        },
+        {
+          "sigma_left_px": 0.6,
+          "sigma_right_px": 4.2
+        }
+      ],
+      "veiling_scattering": [
+        {
+          "contrast": 0.9,
+          "veil": 0.04
+        },
+        {
+          "contrast": 0.75,
+          "veil": 0.1
+        },
+        {
+          "contrast": 0.55,
+          "veil": 0.18
+        }
+      ]
+    },
+    "models": "all 18 WP1 fixed-final checkpoints; no post-result selection",
+    "prompt_rule": "OOD factors have no in-training oracle encoding; both prompt maps are zero. This tests unsupported-input behavior, not operational severity estimation.",
+    "stochastic_seeds": [
+      202609240,
+      202609241,
+      202609242
+    ]
+  },
+  "wp5_external_four_tunnel": {
+    "cohort_rows": 1703,
+    "detector_seed_pairing": [
+      {
+        "detector_seed": 20260921,
+        "restorer_seed": 0
+      },
+      {
+        "detector_seed": 20260922,
+        "restorer_seed": 1
+      },
+      {
+        "detector_seed": 20260923,
+        "restorer_seed": 2
+      }
+    ],
+    "detector_threshold": 0.5,
+    "detectors": [
+      "d2_resnet34_unet",
+      "d2_vgg16_unet",
+      "d2_deeplabv3_resnet50"
+    ],
+    "histogram_bins": 4096,
+    "inference_unit": "tile",
+    "models": "all 18 WP1 fixed-final checkpoints",
+    "physical_parents": 14,
+    "prompts": {
+      "base": "zero",
+      "merit_full": {
+        "p_b": 0.8333333333333334,
+        "p_n": 0.8333333333333334
+      }
+    },
+    "statistical_unit": "parent nested in tunnel",
+    "synthetic_degradation": {
+      "base_seed": 20260923,
+      "noise_std_8bit": 2.5,
+      "sigma_h_px": 2.6,
+      "sigma_v_px": 2.4
+    },
+    "tunnels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "wp6_different_tunnel_same_system": {
+    "claim_boundary": "image-visible detector response and quality-descriptor harmonization only; no clean-reference restoration accuracy or physical false-positive claim",
+    "cohort_rows_total": 988,
+    "eligible_rows": 974,
+    "input_prompt": "zero maps for every model; actual per-frame severity is unavailable",
+    "models": "all 18 WP1 fixed-final checkpoints",
+    "output_storage": "stream detector/descriptor endpoints; do not persist 18x974 full-resolution outputs",
+    "tiling": {
+      "batch_size": {
+        "mprnet": 16,
+        "nafnet": 32,
+        "restormer": 16
+      },
+      "blend": "separable Hann with floor 0.05",
+      "overlap": 112,
+      "stride": 336,
+      "tile_size": 448
+    },
+    "unreadable_excluded": 14
+  },
+  "wp7_qc": {
+    "field_reference_condition": "60 km/h, 2.5 m, ISO100",
+    "field_reference_label": "least-degraded operational field reference",
+    "indoor_role": "ISO 12233 sensitivity only; not field lux calibration or clean truth",
+    "metrics": [
+      "brightness",
+      "noise_proxy",
+      "saturation_fraction",
+      "local_contrast"
+    ]
+  },
+  "wp8_printed_width": {
+    "claim_boundary": "printed nominal apparent width only; not natural-crack physical width",
+    "estimable_roi_count": 387,
+    "estimable_roi_denominator": 400,
+    "method": "orientation-aware RAW-only v2 frozen before C009 restoration output",
+    "models": "all 18 WP1 fixed-final checkpoints",
+    "nominal_widths_mm": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "predeclared_non_estimable_mm": [
+      0.1,
+      0.2
+    ],
+    "source_images": 50
+  }
+}

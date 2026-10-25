@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "fig1.pdf": "38de9340bf96dbc00035a9942a0c4085b39ec7d878433febdf2d72c8d963ad4f",
+    "fig1.png": "f85a611b301d9d1efb3a7c5b57a4132d20bc29ee2e6a7e3585f048bb6f08d0b8"
+  },
+  "claim_boundary": "Controlled chart, natural detection, and width measures are reported separately.",
+  "purpose": "Grid-aligned, print-readable framework overview with separated development, inference-control, and validation lanes.",
+  "schema_version": "MERIT-R3-6-FIG1-v12",
+  "visual_sources": {
+    "fig14.png": "d32397290037d3e7716e9234266b99ca520576869a555a85fcc93ee0cf4d827a",
+    "fig5.png": "eb570cd19b3abd998d69db7f22e723a0af0ef4db2d2d06d8d92b4711721f2fa3"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "contract_sha256": "c08e955ad9d52a3a2fc63336c95683bf472fefb5ab26c0eea20b88652cc313f8",
+  "elapsed_seconds_this_invocation": 12623.562465599738,
+  "eligible_frames": 974,
+  "legacy_raw_baseline_path": "<LOCAL_PATH_REDACTED>",
+  "legacy_raw_baseline_sha256": "0ada95e1d07c18b55bc7c6ab4d8d70b4cccb5f0a5a0a36a4077cadde5bb0880a",
+  "model_id": "wp1__nafnet__merit_full__seed0",
+  "payload_sha256": "e5a929852dc267f55044784d7c17a7ff7aa93f9362fa8a27957af0152127060e",
+  "progress_files": 974,
+  "progress_manifest_sha256": "e1dea170455e16fe37d047e3c94fb8a5d1229b7dbad7764120312ba4a82d4e15",
+  "provenance": {
+    "checkpoint_path": "<LOCAL_PATH_REDACTED>",
+    "checkpoint_sha256": "4a7ddb913cbe2da78212b383e974c6866ab1810efd370a46fda9c0493cc7f389",
+    "completion_payload_sha256": "a0e5b3892fdc3ee34a666cc1b23e7310c9e78a23bd06015a5156205d3ea342bc",
+    "model": {
+      "class": "NAFNetLocal",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "family": "nafnet",
+      "kwargs": {
+        "dec_blk_nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "enc_blk_nums": [
+          1,
+          1,
+          1,
+          28
+        ],
+        "img_channel": 3,
+        "middle_blk_num": 1,
+        "width": 32
+      },
+      "module": "basicsr.models.archs.NAFNet_arch",
+      "output_contract": "channel 0 of the manifest-selected upstream final output, clamped to [0,1]",
+      "output_selector": "tensor",
+      "parameters": 17111907,
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "runtime_adaptations": [],
+      "source_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642",
+      "trainable_parameters": 17111907
+    },
+    "model_id": "wp1__nafnet__merit_full__seed0"
+  },
+  "schema_version": "MERIT-C009-D3-FULLFRAME-RUN-COMPLETE-v1",
+  "specification": {
+    "arm": "merit_full",
+    "family": "nafnet",
+    "kind": "wp1",
+    "seed": 0
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-PREFLIGHT-NO-GO-v1",
+  "state": "PREFLIGHT_NO_GO_BEFORE_CANDIDATE_PNG_ACCESS",
+  "date": "2026-10-21",
+  "reason": "The assumed 403-frame/45-condition cohort is inconsistent with the frozen exclusions.",
+  "candidate_png_content_read": false,
+  "candidate_png_hashes_computed": false,
+  "candidate_png_shapes_decoded": false,
+  "name_only_audit": {
+    "all_50_condition_unused_after_c057": 403,
+    "nonreference_45_condition_unused_after_c057": 397,
+    "frame_id_overlap_with_c006_bank_parents": 117,
+    "strict_parent_disjoint_frames": 280,
+    "strict_parent_disjoint_condition_cells": 29,
+    "strict_parent_disjoint_active_frames_under_original_router": 47,
+    "strict_parent_disjoint_active_condition_cells_under_original_router": 6
+  },
+  "preserved_files": {
+    "runner": {
+      "path": "c058_safety_router_v3_preflight_failed.py",
+      "sha256": "f9e47957cea90ded5d737882d075169eb0b81e5d30de46487a9555431f311566"
+    },
+    "tests": {
+      "path": "test_c058_safety_router_v3_preflight_failed.py",
+      "sha256": "830cd617128ad2c1040c8d61061184525cf873d3404db7592d682c604a8b2c02"
+    }
+  },
+  "disposition": "Preserve this failed preflight. Correct the router and inventory using only name-level availability before any strict holdout PNG access."
+}

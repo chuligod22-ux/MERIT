@@ -1,0 +1,16 @@
+{
+  "mode": "holdout",
+  "frames": 280,
+  "eligible_frames": 8,
+  "eligible_fraction": 0.02857142857142857,
+  "rejection_reasons": {
+    "low_template_score": 259,
+    "partial_chart": 13,
+    "ok": 8
+  },
+  "eligible_raw_roi_attempts": 32,
+  "eligible_raw_valid_rois": 32,
+  "eligible_raw_valid_fraction": 1.0,
+  "eligible_four_valid_roi_frames": 8,
+  "eligible_four_valid_roi_fraction": 1.0
+}

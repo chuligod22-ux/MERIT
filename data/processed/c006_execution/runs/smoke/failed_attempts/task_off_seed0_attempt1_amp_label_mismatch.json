@@ -1,0 +1,10 @@
+{
+  "arm": "task_off",
+  "error": "C006 v1 freezes AMP dtype to bfloat16",
+  "error_type": "ValueError",
+  "failed_at_kst": "2026-09-19T17:51:29+09:00",
+  "seed": 0,
+  "smoke": true,
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"<LOCAL_PATH_REDACTED>", line 639, in main\n    result = run_training(args)\n  File \"<LOCAL_PATH_REDACTED>", line 363, in run_training\n    raise ValueError(\n        f\"C006 v1 freezes AMP dtype to {training_config['amp_dtype']}\"\n    )\nValueError: C006 v1 freezes AMP dtype to bfloat16\n"
+}

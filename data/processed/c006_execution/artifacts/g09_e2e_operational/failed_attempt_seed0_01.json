@@ -1,0 +1,12 @@
+{
+  "schema_version": "MERIT-C006-G09-FAILED-ATTEMPT-v1",
+  "attempt": 1,
+  "seed": 0,
+  "stage": "frozen benchmark orchestration after restoration_off subprocess",
+  "result_file_created": false,
+  "d3_read_or_used": false,
+  "failure": "UnicodeDecodeError while the frozen benchmark decoded child stderr as UTF-8",
+  "cause": "Windows child Python did not have UTF-8 mode forced, so a Korean-path error message contained CP949 bytes",
+  "disposition": "Preserve v1 pre-run freeze and failure record; create v2 specs with child Python -X utf8 before diagnosing any underlying child error.",
+  "command_exit_code": 1
+}

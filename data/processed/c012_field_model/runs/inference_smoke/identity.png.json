@@ -1,0 +1,31 @@
+{
+  "base_seed": 0,
+  "claim_boundary": "Detector-conditioned crack-detection support and printed nominal apparent-width support within the sealed internal holdout. Natural-crack physical width remains undetermined.",
+  "completed_at_kst": "2026-10-11T23:26:43+09:00",
+  "detector": null,
+  "elapsed_seconds": 0.04621889995178208,
+  "holdout_protocol_path": "<LOCAL_PATH_REDACTED>",
+  "holdout_protocol_sha256": "6d50355f31cb839148840df58f9387ea63885f2910f6242925e80bbc1c111ed8",
+  "input_dtype": "uint8",
+  "input_path": "<LOCAL_PATH_REDACTED>",
+  "input_sha256": "d0c3b72878c8f680309ffd5acd90d4060acff1f90c251314a7d2b838b103be37",
+  "input_shape": [
+    512,
+    512
+  ],
+  "output_path": "<LOCAL_PATH_REDACTED>",
+  "output_sha256": "c85fec9894dbdb16deed3a7579a53edbf02fbbb7de293a04d428d5409d01a9b6",
+  "profile": "exact_identity",
+  "profile_code_sha256": "fb11ae3c8af43c1c00e38cdedf5308ee97d22e7a1d85e3bb5ff8552b7e5b45ae",
+  "provenance": null,
+  "runner_sha256": "4b0f9ade4a7d2b3f1f714762d923f3ec84fc31f0c12a2105e6c171687254c679",
+  "schema_version": "MERIT-C012-V23-INFERENCE-v1",
+  "scientific_status": "INTERNAL_HOLDOUT_PASS_NOT_PROSPECTIVELY_EXTERNAL_CONFIRMED",
+  "status": "PASS",
+  "task": "identity",
+  "tiling": {
+    "batch_size": 32,
+    "overlap": 112,
+    "tile_size": 448
+  }
+}

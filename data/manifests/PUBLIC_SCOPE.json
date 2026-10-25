@@ -1,0 +1,31 @@
+{
+  "schema_version": "MERIT-PUBLIC-SCOPE-v2",
+  "release_version": "2.0.0-revision",
+  "public_reproduction": {
+    "all_results": "R1 statistical reproduction",
+    "controlled_inputs": "R2 inference reproduction",
+    "four_tunnel_inputs": "request-only R2 inference reproduction"
+  },
+  "public_release_tags": [
+    "revision-analysis-v2",
+    "revision-cam2-crops-v2",
+    "revision-cam1-optical-crops-v2",
+    "revision-width-inputs-v2",
+    "revision-models-essential-v2",
+    "revision-samples-v2"
+  ],
+  "request_only": {
+    "four_tunnel_source_images": true,
+    "four_tunnel_analysis_tiles": 1703,
+    "four_tunnel_expert_masks": 1703,
+    "public_license_applies": false
+  },
+  "excluded": [
+    "full_detector_training_archive",
+    "unused_indoor_data",
+    "full_cousin_tunnel_archive",
+    "development_and_failed_checkpoints",
+    "third_party_weights",
+    "logs_and_caches"
+  ]
+}

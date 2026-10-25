@@ -1,0 +1,221 @@
+{
+  "schema_version": "MERIT-C009-G11-IMPLEMENTATION-v2",
+  "created_date": "2026-09-25",
+  "gate": "G11",
+  "status": "BLOCKED",
+  "full_training_allowed": false,
+  "source_identity_status": "CONFIRMED",
+  "local_snapshot_status": "MPRNET_FETCH_VERIFIED_PENDING_READ_ONLY_PREFLIGHT",
+  "paired_training_stream_status": "FROZEN_PASS",
+  "official_smoke_status": "NAFNET_RESTORMER_V1_PASS_MPRNET_V2_NOT_RUN",
+  "blocking_reason": "The active third family was changed from MambaIR to MPRNet before confirmatory training. The exact MPRNet source and integration contract are frozen, but active-set source preflight and MPRNet forward/backward GPU smoke have not passed yet.",
+  "candidate_change_control": {
+    "decision": "REPLACE_MAMBAIR_WITH_MPRNET",
+    "decision_timing": "before any confirmatory full training and before any MPRNet result",
+    "excluded_candidate": "MambaIR",
+    "replacement_candidate": "MPRNet",
+    "reason": "The verified Windows host lacks the CUDA extension build chain required by the official mamba_ssm and causal_conv1d dependencies. MPRNet has an official deblurring implementation without that custom CUDA-extension dependency.",
+    "historical_mambair_snapshot_and_blocked_smoke_preserved": true,
+    "historical_manifest": "protocol/g11_implementation_manifest_v1.json",
+    "historical_blocked_smoke": "smoke/g11_official_mambair_smoke_v1.json",
+    "prohibition": "MambaIR must not be represented as an executed G11 comparison model."
+  },
+  "primary_design": {
+    "comparison": "within-backbone paired base package versus MERIT full package",
+    "capacity_policy": "use one frozen native official configuration per family; disclose parameters/FLOPs and do not claim cross-family architectural superiority",
+    "package_parameter_rule": "within each backbone, base and MERIT arms must have identical trainable parameter count",
+    "input": {
+      "channels": 3,
+      "channel_0": "degraded grayscale image in [0,1]",
+      "channel_1": "directional blur prompt map; zero for base, correct frozen oracle for MERIT",
+      "channel_2": "noise prompt map; zero for base, correct frozen oracle for MERIT"
+    },
+    "adapter": {
+      "policy": "do not edit upstream source; wrap the unchanged official 3-channel model, select the manifest-frozen final output, retain channel 0 as the restored grayscale result, and apply the original MERIT [0,1] output clamp",
+      "mprnet_output_rule": "select sequence index 0 only; the official Deblurring/test.py also evaluates restored[0], and Deblurring/MPRNet.py returns the stage-3 residual result at index 0",
+      "path": "scripts/g11_official_backbone_adapter.py",
+      "sha256": "1731ea286ae5d643b39c5ff9bf25ba98b96b4895561c9a789e96add2e6def7be",
+      "trainable_parameters": 0,
+      "base_full_identity_rule": "the exact same wrapper and official architecture instance definition is used in both package arms",
+      "safety_audit": "forward_preclip exposes the unclipped selected channel only for out-of-range and saturation accounting; forward returns the clamped training/evaluation image"
+    },
+    "training": {
+      "seeds": [0, 1, 2],
+      "steps": 8000,
+      "batch_size": 4,
+      "patch_size": 448,
+      "optimizer": "AdamW",
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "scheduler": "CosineAnnealingLR with T_max=8000",
+      "precision": "bfloat16 mixed precision",
+      "checkpoint_selection": "fixed final step only; recovery checkpoints cannot be selected by outcome",
+      "early_stopping": false,
+      "base_loss": "L1 + gradient + 0.1*FFT",
+      "merit_full_loss": "L1 + gradient + 0.1*FFT + 5.0*DeepCrack probability L1",
+      "mprnet_deep_supervision_policy": "The official three-stage training losses are not added. For a controlled package comparison, the common frozen G11 objective is applied only to the official final restoration at sequence index 0 in both arms.",
+      "data_order": "same frozen D0 parent-disjoint bank and seed-specific stream within every paired arm"
+    }
+  },
+  "official_candidates": {
+    "nafnet": {
+      "repository": "https://github.com/megvii-research/NAFNet",
+      "branch": "main",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "license": "MIT for NAFNet code; bundled BasicSR Apache-2.0 notices retained",
+      "official_task": "GoPro single-image motion deblurring",
+      "configuration_path": "options/train/GoPro/NAFNet-width32.yml",
+      "architecture": {
+        "type": "NAFNetLocal",
+        "width": 32,
+        "enc_blk_nums": [1, 1, 1, 28],
+        "middle_blk_num": 1,
+        "dec_blk_nums": [1, 1, 1, 1]
+      },
+      "factory": {
+        "module": "basicsr.models.archs.NAFNet_arch",
+        "class": "NAFNetLocal",
+        "kwargs": {
+          "img_channel": 3,
+          "width": 32,
+          "middle_blk_num": 1,
+          "enc_blk_nums": [1, 1, 1, 28],
+          "dec_blk_nums": [1, 1, 1, 1]
+        },
+        "runtime_adaptations": [],
+        "output_selector": "tensor"
+      },
+      "selection_reason": "official deblurring configuration and lower-capacity official width32 variant, frozen before C009 results",
+      "local_snapshot": "third_party/NAFNet",
+      "local_tree_sha256": "cb57f5d3c37306627d49f60cdbafd7ce661c98f15d7e5f1a8d2b7a48ee084642"
+    },
+    "restormer": {
+      "repository": "https://github.com/swz30/Restormer",
+      "branch": "main",
+      "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "license": "MIT",
+      "official_task": "single-image motion deblurring",
+      "configuration_path": "Motion_Deblurring/Options/Deblurring_Restormer.yml",
+      "architecture": {
+        "type": "Restormer",
+        "inp_channels": 3,
+        "out_channels": 3,
+        "dim": 48,
+        "num_blocks": [4, 6, 6, 8],
+        "num_refinement_blocks": 4,
+        "heads": [1, 2, 4, 8],
+        "ffn_expansion_factor": 2.66,
+        "bias": false,
+        "LayerNorm_type": "WithBias",
+        "dual_pixel_task": false
+      },
+      "factory": {
+        "module": "basicsr.models.archs.restormer_arch",
+        "class": "Restormer",
+        "kwargs": {
+          "inp_channels": 3,
+          "out_channels": 3,
+          "dim": 48,
+          "num_blocks": [4, 6, 6, 8],
+          "num_refinement_blocks": 4,
+          "heads": [1, 2, 4, 8],
+          "ffn_expansion_factor": 2.66,
+          "bias": false,
+          "LayerNorm_type": "WithBias",
+          "dual_pixel_task": false
+        },
+        "runtime_adaptations": [],
+        "output_selector": "tensor"
+      },
+      "selection_reason": "official motion-deblurring architecture configuration, frozen before C009 results",
+      "local_snapshot": "third_party/Restormer",
+      "local_tree_sha256": "df3211187c12d07e09f436292ad4a2d133d048a8f5b051985b503acaab40cf27"
+    },
+    "mprnet": {
+      "repository": "https://github.com/swz30/MPRNet",
+      "branch": "official default HEAD at acquisition",
+      "commit": "43feb2aed45f5e0b9082c78c8c455160e30a3a82",
+      "license": "MIT",
+      "official_task": "single-image motion deblurring",
+      "configuration_path": "Deblurring/training.yml",
+      "architecture": {
+        "type": "MPRNet",
+        "in_c": 3,
+        "out_c": 3,
+        "n_feat": 96,
+        "scale_unetfeats": 48,
+        "scale_orsnetfeats": 32,
+        "num_cab": 8,
+        "kernel_size": 3,
+        "reduction": 4,
+        "bias": false
+      },
+      "factory": {
+        "module": "Deblurring.MPRNet",
+        "class": "MPRNet",
+        "kwargs": {
+          "in_c": 3,
+          "out_c": 3,
+          "n_feat": 96,
+          "scale_unetfeats": 48,
+          "scale_orsnetfeats": 32,
+          "num_cab": 8,
+          "kernel_size": 3,
+          "reduction": 4,
+          "bias": false
+        },
+        "runtime_adaptations": [],
+        "output_selector": "sequence_index_0"
+      },
+      "selection_reason": "official CVPR 2021 deblurring architecture and default constructor; selected as the pre-result replacement for the host-incompatible MambaIR candidate",
+      "local_snapshot": "third_party/MPRNet",
+      "local_tree_sha256": "f773a7b7568cbb05cd7522c327dae3cda9ec93f89fa45ee438090aeb22cc52aa",
+      "source_file_count": 62,
+      "source_total_bytes": 160599,
+      "architecture_sha256": "ed33a4d2e554c38454d2b861378e106bdedb5c3fd029e1300f3359d905fa6c86",
+      "configuration_sha256": "4633e7c90c49c73641e61528197ffd0f981ddca1d1ed7f8622db02394a4a6bf9",
+      "official_test_sha256": "8eea9ee54c3add7141ae275d63d3f92d2ea822968fc30e082d2e6b9e58b706fe"
+    }
+  },
+  "paired_training_stream_freeze": {
+    "contract": "protocol/g11_training_contract_v1.json",
+    "contract_sha256": "7c466aef52b905ad583d1ac11eab6fcee55178d7c57262c179547ba10727213d",
+    "stream_freeze": "protocol/g11_training_stream_freeze_v1.json",
+    "stream_freeze_sha256": "86fc15b95f8645c742975683b3242b8a5f0630a16fe6f62bac19d8e163629b2e",
+    "generator": "scripts/g11_training_stream.py",
+    "generator_sha256": "568e9177349906e34b9d2ca392c820b8835255ac6482f261e0fb7458d9e14ef7",
+    "result": "PASS",
+    "seeds": [0, 1, 2],
+    "authorization_effect": "This closes the paired-stream subgate only and does not authorize full training."
+  },
+  "integration_files": {
+    "factory": {
+      "path": "scripts/g11_official_model_factory.py",
+      "sha256": "67f51f193ec29129159859513c14b1a422471551bca4dace5068666d436e5501"
+    },
+    "source_preflight": {
+      "path": "scripts/g11_source_preflight.py",
+      "sha256": "9129c572e8f80241113e6570046fab84aed021521f9dea141cf7fabaa94eb0ce"
+    },
+    "smoke_runner": {
+      "path": "scripts/g11_official_smoke.py",
+      "sha256": "1aa3a669119e037fb552ede909700cadc111b26607017a23509af3a9c558b703"
+    }
+  },
+  "mprnet_acquisition": {
+    "script": "scripts/fetch_g11_mprnet_source.ps1",
+    "script_sha256": "312e8678db1dec04ef01a226f23c0f05f0d484591dab519c1d5b0d44602728ec",
+    "source_freeze_manifest": "third_party/g11_mprnet_source_freeze_v1.json",
+    "source_freeze_sha256": "534c938cf150e59707d5aa0c7e7f39997cb8df806b6c5c4bd83b790b69c12993",
+    "license_sha256": "3919b32f3a6d25a11ace4a69d10856f31404ce533d260f6fe4ee68d9fa230b80",
+    "overwrite_policy": "reuse an existing target only when it is a clean Git worktree at the requested commit with the expected license and Deblurring directory; otherwise refuse",
+    "full_training_authorization": false
+  },
+  "closure_requirements": [
+    "Pass read-only source preflight v2 for NAFNet, Restormer, and MPRNet.",
+    "Pass MPRNet official-model base/full initial-state and trainable-parameter equality checks.",
+    "Pass MPRNet bfloat16 forward/backward smoke and record peak memory, step time, output range, and FLOP coverage status.",
+    "Rerun NAFNet and Restormer smoke under manifest v2 so all active candidates reference the same frozen active-set manifest.",
+    "Recompute G13 from v2 official-model timings before any full run."
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "code_hash_checks": {
+    "evaluation": true,
+    "models": true,
+    "training": true
+  },
+  "efficacy_gate_pass": true,
+  "evaluation": [
+    {
+      "fold": "A",
+      "seed": 0,
+      "sha256": "697b3e74473f46bd2f074ca9c3b1e97e115074ad3c079703f8c48aaeed121179"
+    },
+    {
+      "fold": "A",
+      "seed": 1,
+      "sha256": "6316623207d936c5a7562806f21d6750b1eab3cdf2a898cfafdfeefff6e8c4eb"
+    },
+    {
+      "fold": "A",
+      "seed": 2,
+      "sha256": "be00cc7200e3b2ce4d49240f7c861b886e35d3da2c6123516b79cc6d3ab28589"
+    },
+    {
+      "fold": "B",
+      "seed": 0,
+      "sha256": "fe78ea8be8b584986f5a75efc424191ece6d2a5fa1800769ebb6e0adeaa1e6dc"
+    },
+    {
+      "fold": "B",
+      "seed": 1,
+      "sha256": "5fa3fc46ebb6a9189021e5822d520d9ebaec29d12a18150c322390529de82ddb"
+    },
+    {
+      "fold": "B",
+      "seed": 2,
+      "sha256": "4804dddf1a00ebed4893135b9ec8e6e60c47e62a508af01dca91999277b7f99c"
+    },
+    {
+      "fold": "C",
+      "seed": 0,
+      "sha256": "32524a89949ee26e993d64da5dc1362d0eae66a08c7debf0ab0b37feb27c8dbf"
+    },
+    {
+      "fold": "C",
+      "seed": 1,
+      "sha256": "59d0646464db85925f81101600c98bd4f67d66c9ac677672f6fa62dd9bdffafc"
+    },
+    {
+      "fold": "C",
+      "seed": 2,
+      "sha256": "636b9077f0336b38fea743b57d77de883507fec7ad42439ed86642b80c522429"
+    },
+    {
+      "fold": "D",
+      "seed": 0,
+      "sha256": "08d1c222651c9217d711971136350f0c93696cdff7d8d1d9ca34411db495b3fd"
+    },
+    {
+      "fold": "D",
+      "seed": 1,
+      "sha256": "09b4da11b486e22f35c123ff4ad5ce2500004e71b4bb3934d327669022dadf67"
+    },
+    {
+      "fold": "D",
+      "seed": 2,
+      "sha256": "c0a6f011decd7d8e674b03fdbc9b29dc41049c36f02e0e865ca4d1ccdc40568b"
+    }
+  ],
+  "evaluation_units": 12,
+  "one_percentage_point_target_pass": true,
+  "payload_sha256": "e5992f2def0c081634d72fa1b9e32a1d4a3ed7b114813acfd129aa09b64fcc99",
+  "protocol_payload_sha256": "a4eb65827a45aa9a953d9c1f132341cb1f04f50e0913b4ddbfccf2e8517033ce",
+  "schema_version": "MERIT-C017-FINAL-AUDIT-v1",
+  "selection_payload_sha256": "83a1fb6f15b50b275d0031557d2d5b4b70bc780e5a6ff3152f43ed37bb08590b",
+  "status": "PASS",
+  "summary_payload_sha256": "bd0b2764de55e8193e4f06ea40ae74ac5f8a1ffc04134700ff8a7710a89d6f6f",
+  "training": [
+    {
+      "checkpoint_sha256": "da92caabf54c54e76ab50c2ba56a28062a0f48c17e5df19ecd67229eeb1121bf",
+      "fold": "A",
+      "model": "segformer_b0",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "5854c4098a05860e7ae187feb4118baf74fe880fbe485178a22035f32d44111a",
+      "fold": "A",
+      "model": "segformer_b0",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "4164c4474988c3e76dd18d0da10195dc5eff0ecead68394a9995509f919b47ce",
+      "fold": "A",
+      "model": "segformer_b0",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "c7491ec885d53ad9b0411988163a4bfcc69c90b1cb7b9bbb353b799cd8d016d5",
+      "fold": "B",
+      "model": "segformer_b0",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "8e33bca541d9540a9e85b4c1e2da5628b9dd308e9ba2f6d1fdc5d467ca8bf75c",
+      "fold": "B",
+      "model": "segformer_b0",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "2b5662dfcd844d9581f512cb902cbc20cf84d2c2fbf31f04f91ab718d2b0ec1c",
+      "fold": "B",
+      "model": "segformer_b0",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "decb197c4a7a1aaca15ba93b01a9f19c7d9c7910c41b53de3e965526a2a68522",
+      "fold": "C",
+      "model": "segformer_b0",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "fc8fbb7941c8a60425fafbbbc470c5cc20526e99f5bb6b5f94b43def0f8b50c7",
+      "fold": "C",
+      "model": "segformer_b0",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "3bdb089d3ba03de98afe4f10bbe97b0b8d914495fa01559cd93db1c3813159a6",
+      "fold": "C",
+      "model": "segformer_b0",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "0b004e0eb7b8061389843a2b0c0a5044cff0ee38123f5336edb24b98fc8bedfe",
+      "fold": "D",
+      "model": "segformer_b0",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "5d02b3579d920c450ab75302002ac10573a6bff73113dc28e79eead758744c6a",
+      "fold": "D",
+      "model": "segformer_b0",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "4061074edb8d79366f6a1395b0ce93e1bb7ab2626efa124ba44b2bbe94362b4f",
+      "fold": "D",
+      "model": "segformer_b0",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "30a214455d1c2c29546fca7f24b8a58d91a0818fe8f96037155205625a28cba7",
+      "fold": "A",
+      "model": "mamba2_unet",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "2b745c431063da838f121ce26c08d99a4426099e35745e739f8a7f46177d8e6a",
+      "fold": "A",
+      "model": "mamba2_unet",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "57cacd0d147e4c52ecb0e011d9576b7ca839ecf651f15e24bc697ff1a068c475",
+      "fold": "A",
+      "model": "mamba2_unet",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "2c9740c2de446685240d322a79ff3f9c8a215db611385ec2e1efaac50dcf8d47",
+      "fold": "B",
+      "model": "mamba2_unet",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "72d59bd961f648bdb9307c72131c5a9c59c5c6fa56ef38a86a93e658054a1412",
+      "fold": "B",
+      "model": "mamba2_unet",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "1c2dbb3695863957c2b58e807ea91d0edf961e8eeaa1ed4f79b88999681ea611",
+      "fold": "B",
+      "model": "mamba2_unet",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "7a9496c27cca50cb1d5dc84f34b51e7e9b1d7019de9ff5117c6d6a96b0628be8",
+      "fold": "C",
+      "model": "mamba2_unet",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "b514e103072cb149a32e5b35a6729a41bc9d492ab981e90fd9b6f8a92b3eb6a0",
+      "fold": "C",
+      "model": "mamba2_unet",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "f8d4ad364be23db8a3f216ee380f740b087f84134010ea2c3d6977c20108e37d",
+      "fold": "C",
+      "model": "mamba2_unet",
+      "seed": 20260923
+    },
+    {
+      "checkpoint_sha256": "6e72d678e6058af976628086f15aedd2732069164789a4c9d54e8df2738ab074",
+      "fold": "D",
+      "model": "mamba2_unet",
+      "seed": 20260921
+    },
+    {
+      "checkpoint_sha256": "e5bc1565885411843bddec10d8664166d0d9b13640016eeb6916870ecdcfd389",
+      "fold": "D",
+      "model": "mamba2_unet",
+      "seed": 20260922
+    },
+    {
+      "checkpoint_sha256": "2394d2add973887c6b0bfb8037d32c3bd9d33800905929abdcf7c0386d486124",
+      "fold": "D",
+      "model": "mamba2_unet",
+      "seed": 20260923
+    }
+  ],
+  "training_runs": 24
+}

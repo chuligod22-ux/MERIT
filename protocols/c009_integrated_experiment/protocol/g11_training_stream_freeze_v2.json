@@ -1,0 +1,263 @@
+{
+  "bank_audit": {
+    "holdout_unique_parents": 33,
+    "parent_overlap": 0,
+    "split_counts": {
+      "synthetic_holdout": 50,
+      "train": 161
+    },
+    "train_unique_parents": 108
+  },
+  "batch_size": 4,
+  "contract_path": "<LOCAL_PATH_REDACTED>",
+  "contract_sha256": "5521878db6d6498ad68e020eae1f27e2f736be587f4700878e97d4618c740969",
+  "generator_path": "<LOCAL_PATH_REDACTED>",
+  "generator_sha256": "b5d314fac2be5424150aec29c7cc0caec2ed2d85bfb93c80b478ecbc1128634d",
+  "interpretation": "The frozen prefixes prove deterministic latent sampling and the allowed prompt-only input difference. They do not close G11 or authorize full training.",
+  "prefix_batches_per_seed": 2,
+  "schema_version": "MERIT-C009-G11-TRAINING-STREAM-FREEZE-v2",
+  "seed_records": [
+    {
+      "batches": [
+        {
+          "base_input_sha256": "93ef6c3d4efbb9e0c6e138821643fe8dbfa66c9f74c01a5f33c7f274e48c81b9",
+          "base_prompts_all_zero": true,
+          "batch_index": 0,
+          "degraded_sha256": "ea6e5a6351a45829e0f032ddb2b8b058ed8561ce881fcf3e395df353700d8b47",
+          "merit_full_input_sha256": "dfd925d113f3abc6cd5476e001d9d338ceca05752dfac52f721345f84de8b92e",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 61,
+                "noise_std_8bit": 1.3127616337880776,
+                "sigma_h_px": 1.386233438148933,
+                "sigma_v_px": 1.6209670487466432
+              },
+              {
+                "bank_index": 155,
+                "noise_std_8bit": 0.07478729604357792,
+                "sigma_h_px": 1.1165573652379583,
+                "sigma_v_px": 1.9618691310731415
+              },
+              {
+                "bank_index": 87,
+                "noise_std_8bit": 1.6555853535042753,
+                "sigma_h_px": 0.5732597417175842,
+                "sigma_v_px": 1.7680419916642112
+              },
+              {
+                "bank_index": 135,
+                "noise_std_8bit": 0.9290164684259066,
+                "sigma_h_px": 0.886176860044656,
+                "sigma_v_px": 1.0884338139607115
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "a8c150e095e0025f0beb2a5cdd8cc088501770d6365ef86d009fd044fad4e6db"
+        },
+        {
+          "base_input_sha256": "5211409ff2697e2a3044f6c1734869b9793f9d096ac4535474fd5c827d8a909c",
+          "base_prompts_all_zero": true,
+          "batch_index": 1,
+          "degraded_sha256": "967ec19e30ffabb90848cf223d69c36cd667b53d15b036e81369e045201e132f",
+          "merit_full_input_sha256": "e59f814c80a89832bb43fa5efee16d5d47901d1e6e29b27cc6f60f8f6eb5a32a",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 3,
+                "noise_std_8bit": 1.8900702210995823,
+                "sigma_h_px": 2.4708704461634765,
+                "sigma_v_px": 2.1703236156589565
+              },
+              {
+                "bank_index": 175,
+                "noise_std_8bit": 2.253317939880257,
+                "sigma_h_px": 0.993272466789713,
+                "sigma_v_px": 1.2827000562160877
+              },
+              {
+                "bank_index": 63,
+                "noise_std_8bit": 2.7523292892985554,
+                "sigma_h_px": 1.935080084880041,
+                "sigma_v_px": 0.25838052551901114
+              },
+              {
+                "bank_index": 17,
+                "noise_std_8bit": 2.786957151020524,
+                "sigma_h_px": 1.01456227715871,
+                "sigma_v_px": 2.0567226501103786
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "03afebdeb6b5d830f3df7432ef7f015543d89b3b0292846b839dc786ce9def9f"
+        }
+      ],
+      "latent_prefix_sha256": "4a8617fea857831813b6bc053aa13e5b476543d5dda21065a474d9d50f9bac78",
+      "seed": 0
+    },
+    {
+      "batches": [
+        {
+          "base_input_sha256": "ad2ae2e0007228cb5108afefa38ab131fc0b52c2bc2c31f9774138a629849922",
+          "base_prompts_all_zero": true,
+          "batch_index": 0,
+          "degraded_sha256": "23cbbef79b37a5c925cd2c5d37327ee26f4058660891a59368627b6bf4afa338",
+          "merit_full_input_sha256": "3d274f44e28dc99adb8ba23d17a8d925f210861543d1ed419d31604b248b0cc0",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 48,
+                "noise_std_8bit": 0.2770157843063934,
+                "sigma_h_px": 1.0465312033691514,
+                "sigma_v_px": 0.5228629597976486
+              },
+              {
+                "bank_index": 184,
+                "noise_std_8bit": 2.6160161696674264,
+                "sigma_h_px": 2.338488680260977,
+                "sigma_v_px": 1.9047296071556794
+              },
+              {
+                "bank_index": 96,
+                "noise_std_8bit": 0.16446187737674267,
+                "sigma_h_px": 0.6172972727252146,
+                "sigma_v_px": 1.4317596007215387
+              },
+              {
+                "bank_index": 181,
+                "noise_std_8bit": 0.25561699033680363,
+                "sigma_h_px": 0.8904729144945422,
+                "sigma_v_px": 1.7884592229710354
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "7522d3b5332e63820bf182f8406e00a6c49c5889821fca228b583b1271a8a359"
+        },
+        {
+          "base_input_sha256": "ae0a47443d2021f7ca2c57d65acedc14ac18b3253fbfa1343969149450c8aff2",
+          "base_prompts_all_zero": true,
+          "batch_index": 1,
+          "degraded_sha256": "de4495291bb25937d706e55c379619bc8a2abe8915e5af78507dd0645819ca2e",
+          "merit_full_input_sha256": "081862aa53123d53684fc85e963c4aab3b4b0f16affe3a3cf9114764d8c5f033",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 155,
+                "noise_std_8bit": 2.481512940531159,
+                "sigma_h_px": 0.4210813434552759,
+                "sigma_v_px": 0.2516704238904639
+              },
+              {
+                "bank_index": 39,
+                "noise_std_8bit": 0.7538019766932703,
+                "sigma_h_px": 2.5132311322234164,
+                "sigma_v_px": 0.9338267253403831
+              },
+              {
+                "bank_index": 118,
+                "noise_std_8bit": 1.5068388405669024,
+                "sigma_h_px": 2.376729834606088,
+                "sigma_v_px": 2.1898522951606436
+              },
+              {
+                "bank_index": 106,
+                "noise_std_8bit": 1.8331317977331736,
+                "sigma_h_px": 0.26096807619057816,
+                "sigma_v_px": 0.2728321291261613
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "36ac884f8caa8ffa52875d414d06b0b59ef3f1e212275b1c5348a36044777506"
+        }
+      ],
+      "latent_prefix_sha256": "ce90013fb12dda2227fb7e9398c9d1d7cea14fa33d40834643210e21898b611a",
+      "seed": 1
+    },
+    {
+      "batches": [
+        {
+          "base_input_sha256": "17acb2c793896c965f9e402e18693e0dcc22a770af53ca510a25988bde190fdf",
+          "base_prompts_all_zero": true,
+          "batch_index": 0,
+          "degraded_sha256": "969935e4d5fadbda7160489ef6ee12336a3a0fea11f46fa74e579b166a69a59e",
+          "merit_full_input_sha256": "c3f925d352adb0fe8f380c55bd6a8168a88386c46c01b212543359689a2e5634",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 19,
+                "noise_std_8bit": 0.9910044630116224,
+                "sigma_h_px": 1.418902699331175,
+                "sigma_v_px": 1.1248091645924758
+              },
+              {
+                "bank_index": 96,
+                "noise_std_8bit": 2.683923314903139,
+                "sigma_h_px": 1.7333088026313435,
+                "sigma_v_px": 1.8761639910287191
+              },
+              {
+                "bank_index": 29,
+                "noise_std_8bit": 0.7432645318222859,
+                "sigma_h_px": 2.996456597142135,
+                "sigma_v_px": 2.3898741752147448
+              },
+              {
+                "bank_index": 55,
+                "noise_std_8bit": 0.30435906170585114,
+                "sigma_h_px": 1.487511965905444,
+                "sigma_v_px": 1.267524556315948
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "6e894754ff43ede91d35ed6a67e7c66b7f20bb6332c2fe45536c69e406601e0d"
+        },
+        {
+          "base_input_sha256": "5ae080d7d3a3c1b64a351110780816fb24870e61b2d8e8a5c0f1bf990bd086c1",
+          "base_prompts_all_zero": true,
+          "batch_index": 1,
+          "degraded_sha256": "5d5c5a0549921b51471a3a386e6f772211cecd144ed332564b28fc3f0913ace5",
+          "merit_full_input_sha256": "44210aee268363c89e96352208c77d83b2acb8932e2d941bb2c6fa820167cdeb",
+          "metadata": {
+            "samples": [
+              {
+                "bank_index": 29,
+                "noise_std_8bit": 0.27030183666538665,
+                "sigma_h_px": 2.6957735643304894,
+                "sigma_v_px": 2.0755019942527806
+              },
+              {
+                "bank_index": 119,
+                "noise_std_8bit": 0.7562587048648509,
+                "sigma_h_px": 1.9518264064777227,
+                "sigma_v_px": 1.8167909278877352
+              },
+              {
+                "bank_index": 8,
+                "noise_std_8bit": 0.752953199441641,
+                "sigma_h_px": 2.5934689950521577,
+                "sigma_v_px": 0.9960330999943374
+              },
+              {
+                "bank_index": 2,
+                "noise_std_8bit": 1.4998791482002072,
+                "sigma_h_px": 1.7788574597852829,
+                "sigma_v_px": 0.8021806056129992
+              }
+            ]
+          },
+          "paired_channel0_equal": true,
+          "target_sha256": "46299a6e57c2620d17c679973ac5a1b33b6b05b7e843dbf0c05cc95b2604d98e"
+        }
+      ],
+      "latent_prefix_sha256": "2d03336e0d1e4db2dc47aa8d1f40efae092050c37326b2af3258935d6abd546c",
+      "seed": 2
+    }
+  ],
+  "status": "PASS",
+  "train_indices_sha256": "e58156e3ba4096fadcd69700897bb5705f6ac77a6bc10175ef3507aee301120e"
+}

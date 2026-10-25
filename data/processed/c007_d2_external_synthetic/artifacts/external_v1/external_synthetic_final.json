@@ -1,0 +1,174 @@
+{
+  "artifacts": {
+    "freeze_sha256": "88a6c73cedb62eba6ba2cb479951af6f3fd69da1381f0f8c0ff691e398e0fc92",
+    "parent_chain_metrics_sha256": "177892ab45023bd72fae73b871dc8565e88c59c02ed65bcf9655222f476b4fc7",
+    "parent_mean_metrics_sha256": "ce3ae6c8ff50b1b6b829651b0d2c9249f9f18e994af17571b30a2ea015e651af",
+    "tunnel_macro_metrics_sha256": "b1af46f934f05cd97423aa7a926244e2e2b1ca3037230ae719a7d67eb4236702"
+  },
+  "claim_boundary": {
+    "allowed_if_primary_passes": "MERIT improves detector AUPRC on expert-annotated imagery from four previously unseen tunnels after the manuscript's fixed synthetic joint blur-noise degradation, using tunnel-held-out detectors.",
+    "forbidden": "Natural-degradation recovery on the different D2 camera, actual cross-device optical calibration, physical crack-width recovery, field safety, zero hallucination, full-grid specificity for all four tunnels, or confirmatory replacement of the earlier frozen endpoints.",
+    "positive_enrichment": "Only parents 0055 and 0211 are full-grid. Other parents remain positive-enriched covered regions even after non-overlap subsampling."
+  },
+  "cohort": {
+    "chains": 3,
+    "parents": 14,
+    "tiles": 1703,
+    "tunnels": 4
+  },
+  "comparisons": {
+    "reference_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": 0.4068041469934222,
+        "ci_upper": 0.4761298430827042,
+        "per_tunnel": {
+          "A": 0.5192047678922106,
+          "B": 0.17167653065758215,
+          "C": 0.5738393243604885,
+          "D": 0.4960940104014143
+        },
+        "point": 0.4402036583279239,
+        "positive_tunnels": 4
+      },
+      "pixel_auprc": {
+        "ci_lower": 0.37064331527571387,
+        "ci_upper": 0.4424578281935271,
+        "per_tunnel": {
+          "A": 0.4790215762554159,
+          "B": 0.17638579401040388,
+          "C": 0.5578980330494807,
+          "D": 0.40826320254512405
+        },
+        "point": 0.4053921514651061,
+        "positive_tunnels": 4
+      }
+    },
+    "task_off_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": -0.020578472541621276,
+        "ci_upper": 0.008467651890789128,
+        "per_tunnel": {
+          "A": -0.008103253306335573,
+          "B": -0.03513665860802101,
+          "C": 0.029108378058673973,
+          "D": -0.013880653279645029
+        },
+        "point": -0.007003046783831902,
+        "positive_tunnels": 1
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.006420265771220324,
+        "ci_upper": 0.018838519018003538,
+        "per_tunnel": {
+          "A": 0.0008388507684681246,
+          "B": -0.018280997016718217,
+          "C": 0.04696142266090597,
+          "D": -0.007716947273141962
+        },
+        "point": 0.005450582284878465,
+        "positive_tunnels": 2
+      }
+    },
+    "task_on_minus_degraded": {
+      "f1_at_0_5": {
+        "ci_lower": -0.040273879980371005,
+        "ci_upper": -0.015935226816538865,
+        "per_tunnel": {
+          "A": -0.02962043591889088,
+          "B": -0.05524430355285079,
+          "C": -0.013233742973463886,
+          "D": -0.014285509460979161
+        },
+        "point": -0.02809599797654617,
+        "positive_tunnels": 0
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.02652551598931692,
+        "ci_upper": -0.0058736454979257426,
+        "per_tunnel": {
+          "A": -0.029053548999478124,
+          "B": -0.03170493813122127,
+          "C": 0.0012864839220838586,
+          "D": -0.007089823752500585
+        },
+        "point": -0.016640456740279044,
+        "positive_tunnels": 1
+      }
+    },
+    "task_on_minus_task_off": {
+      "f1_at_0_5": {
+        "ci_lower": -0.026299767557289168,
+        "ci_upper": -0.01627128015425644,
+        "per_tunnel": {
+          "A": -0.021517182612555308,
+          "B": -0.020107644944829778,
+          "C": -0.04234212103213786,
+          "D": -0.0004048561813341322
+        },
+        "point": -0.02109295119271427,
+        "positive_tunnels": 0
+      },
+      "pixel_auprc": {
+        "ci_lower": -0.027095742718639747,
+        "ci_upper": -0.017539276583684444,
+        "per_tunnel": {
+          "A": -0.02989239976794625,
+          "B": -0.013423941114503055,
+          "C": -0.04567493873882211,
+          "D": 0.0006271235206413775
+        },
+        "point": -0.022091039025157508,
+        "positive_tunnels": 1
+      }
+    }
+  },
+  "completed_utc": "2026-09-23T08:20:01.385750+00:00",
+  "equal_tunnel_macro": {
+    "degraded": {
+      "f1_at_0_5": 0.16981732326509988,
+      "negative_tile_any_positive_rate_at_0_5": 0.0847769028871391,
+      "paired_gradient_mae_dn": 3.4421648483279865,
+      "paired_psnr_db": 36.102692238302836,
+      "pixel_auprc": 0.15278586788858203,
+      "precision_at_0_5": 0.5852291268198929,
+      "recall_at_0_5": 0.10786180492721986
+    },
+    "reference": {
+      "f1_at_0_5": 0.6100209815930238,
+      "negative_tile_any_positive_rate_at_0_5": 0.1251968503937008,
+      "paired_gradient_mae_dn": null,
+      "paired_psnr_db": null,
+      "pixel_auprc": 0.5581780193536882,
+      "precision_at_0_5": 0.6402088432390665,
+      "recall_at_0_5": 0.6288914446749428
+    },
+    "task_off": {
+      "f1_at_0_5": 0.16281427648126798,
+      "negative_tile_any_positive_rate_at_0_5": 0.06745406824146982,
+      "paired_gradient_mae_dn": 2.1349769977402557,
+      "paired_psnr_db": 37.668937272289895,
+      "pixel_auprc": 0.1582364501734605,
+      "precision_at_0_5": 0.5184629584174718,
+      "recall_at_0_5": 0.10397716946226503
+    },
+    "task_on": {
+      "f1_at_0_5": 0.1417213252885537,
+      "negative_tile_any_positive_rate_at_0_5": 0.10078740157480315,
+      "paired_gradient_mae_dn": 2.274674594678749,
+      "paired_psnr_db": 37.3755923252059,
+      "pixel_auprc": 0.136145411148303,
+      "precision_at_0_5": 0.5132215845595434,
+      "recall_at_0_5": 0.08865315159022169
+    }
+  },
+  "gates": {
+    "degradation_manipulation": true,
+    "task_loss_increment": false,
+    "task_on_primary": false
+  },
+  "post_hoc": true,
+  "protocol_id": "MERIT-D2-EXTERNAL-SYNTHETIC-POSTHOC-20260923",
+  "schema_version": "MERIT-C007-D2-EXTERNAL-SYNTHETIC-v1",
+  "task_loss_verdict": "NOT_SUPPORTED",
+  "verdict": "NOT_SUPPORTED"
+}

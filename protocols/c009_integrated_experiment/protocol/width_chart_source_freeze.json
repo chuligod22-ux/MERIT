@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-09-24T13:40:17.596165+00:00",
+  "dimensions": [
+    "8192x5460"
+  ],
+  "excluded_sidecars": {
+    "count": 6,
+    "files": [
+      "._cam1_v60_iso100_d35.png",
+      "._cam1_v60_iso100_d55.png",
+      "._cam1_v60_iso1600_d35.png",
+      "._cam1_v60_iso800_d25.png",
+      "._cam1_v80_iso1600_d35.png",
+      "._cam1_v80_iso1600_d45.png"
+    ],
+    "rule": "filename starts with ._ (AppleDouble metadata, not image data)"
+  },
+  "factor_grid": {
+    "distance_m": [
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5
+    ],
+    "iso": [
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "speed_kmh": [
+      60,
+      80
+    ]
+  },
+  "gate_status": "PARTIAL",
+  "generator": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "sha256": "d659b6eea92d528f7db35eba16d350b3e15a6cdab671cd85e007e7986d150262"
+  },
+  "layout": {
+    "claim_limit": "nominal apparent printed width; not traceable physical metrology",
+    "label_basis": "image-visible handwritten nominal labels",
+    "representative_filename": "cam1_v60_iso100_d25.png",
+    "representative_sha256": "236f5464557d2e89e586f34836e418f771cf89170f27d8c364924c51cc430717",
+    "rows": [
+      [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      [
+        0.9,
+        1.0
+      ]
+    ],
+    "status": "MANUALLY_CONFIRMED_ON_REPRESENTATIVE_FRAME"
+  },
+  "ledger": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "rows": 50,
+    "sha256": "3ee87765258f47f8197be8a172ecc5feded8fe883d8dfdc593378aef5aac0dea"
+  },
+  "legacy_artifact_disposition": {
+    "path": "<LOCAL_PATH_REDACTED>",
+    "reason": "legacy script encoded an incorrect 3/3/4 grid instead of the observed 4/4/2 layout",
+    "status": "DO_NOT_USE_FOR_WIDTH_ENDPOINT"
+  },
+  "remaining_blocker": "Create and independently review a per-image 10-ROI ledger before any quantitative width measurement.",
+  "schema_version": "MERIT-C009-WIDTH-SOURCE-FREEZE-v1",
+  "source_count": 50,
+  "source_root": "<LOCAL_PATH_REDACTED>"
+}

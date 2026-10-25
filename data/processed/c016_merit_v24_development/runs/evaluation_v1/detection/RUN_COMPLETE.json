@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds_this_invocation": 287.1598731999984,
+  "payload_sha256": "7703267ba61e332ff679ab751e45ab93abd747c470e4248da4e58c2b51046c35",
+  "schema_version": "MERIT-C016-DETECTION-EVAL-COMPLETE-v1",
+  "selection_payload_sha256": "9edfd87ad4b57813b25c8440614ff68b0baecf03ae5d82f082c260ec60076634",
+  "status": "PASS_COMPLETE",
+  "units": 12
+}

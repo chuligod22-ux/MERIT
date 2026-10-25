@@ -1,0 +1,73 @@
+{
+  "bindings": {
+    "contract_sha256": "3b6ad1299a69064ed102b4864006d2a03273ee95a6b88aebb7e31b5fe53f6c55",
+    "holdout_inventory_sha256": "e66f4100158304e067ccca2dbfe2dd373b1b926dbc564e703b49f7bbe31086a8",
+    "locator_execution_freeze_sha256": "3ed49aa0c3d0cef80da47805dd8541294fa88185bd5a32c07e2eb15c1c9d53fb",
+    "public_e2e_development_final_sha256": "3dce39d557bbc5fe1dd1035c0ecdae3d349d5fa137e154b667af01592171de07"
+  },
+  "created_utc": "2026-10-21T01:39:24+00:00",
+  "reference_mtf50_native_cy_px_by_distance": {
+    "2.5": 0.10392504501812438,
+    "3.5": 0.1122379567559399,
+    "4.5": 0.09739223995111292,
+    "5.5": 0.09321212790914576,
+    "6.5": 0.11466297642830188
+  },
+  "router": {
+    "active_if": "speed_kmh == 80 and iso in {100,200} and distance_m in {2.5,3.5,4.5}",
+    "active_route_id": "conditioned_expert_band_inverse_s0.75_cap8",
+    "expert_table": [
+      {
+        "alpha": -0.2,
+        "cap_dn": 8.0,
+        "distance_m": 2.5,
+        "expert_seed": 1,
+        "iso": 100,
+        "sigma": 0.75
+      },
+      {
+        "alpha": -1.0,
+        "cap_dn": 8.0,
+        "distance_m": 2.5,
+        "expert_seed": 1,
+        "iso": 200,
+        "sigma": 0.75
+      },
+      {
+        "alpha": -1.5,
+        "cap_dn": 8.0,
+        "distance_m": 3.5,
+        "expert_seed": 1,
+        "iso": 100,
+        "sigma": 0.75
+      },
+      {
+        "alpha": -1.5,
+        "cap_dn": 8.0,
+        "distance_m": 3.5,
+        "expert_seed": 1,
+        "iso": 200,
+        "sigma": 0.75
+      },
+      {
+        "alpha": -0.9,
+        "cap_dn": 8.0,
+        "distance_m": 4.5,
+        "expert_seed": 0,
+        "iso": 100,
+        "sigma": 0.75
+      },
+      {
+        "alpha": -1.5,
+        "cap_dn": 8.0,
+        "distance_m": 4.5,
+        "expert_seed": 1,
+        "iso": 200,
+        "sigma": 0.75
+      }
+    ],
+    "otherwise": "raw_exact_bypass"
+  },
+  "schema_version": "MERIT-C058-SAFETY-ROUTER-SELECTION-v3g",
+  "state": "V3G_FROZEN_AFTER_PUBLIC_E2E_PASS_BEFORE_UNEXPOSED_PNG_ACCESS"
+}

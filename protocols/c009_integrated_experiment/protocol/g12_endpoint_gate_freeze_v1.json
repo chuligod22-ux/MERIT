@@ -1,0 +1,163 @@
+{
+  "schema_version": "MERIT-C009-G12-ENDPOINT-GATES-v1",
+  "created_date": "2026-09-24",
+  "gate": "G12",
+  "status": "CLOSED_BEFORE_C009_RESULTS",
+  "result_access_at_freeze": "No C009 official-backbone full-training or evaluation results existed. Prior C006/C007 negative and mixed results remain mandatory context.",
+  "analysis_unit": {
+    "synthetic_optical": "physical parent/condition after averaging crops and seed-matched predictions",
+    "external_crack": "physical parent nested in tunnel; tiles are computational units only",
+    "d3_field": "camera-region-direction acquisition cell; frames are not independent specimens",
+    "width": "nominal width nested in acquisition condition and source frame"
+  },
+  "uncertainty": {
+    "bootstrap": "parent-within-tunnel hierarchical bootstrap, 10000 replicates, frozen seed 20260924",
+    "permutation": "exact paired parent permutation when feasible; otherwise 100000 sign-flip permutations with frozen seed 20260924",
+    "confidence_interval": "two-sided 95% percentile interval",
+    "multiplicity": "Holm correction at familywise alpha 0.05 for the three individual-backbone claims and separately for the three independent-detector claims; macro-primary tests are single tests",
+    "missingness": "no imputation; report eligible, failed, and non-estimable counts and reasons"
+  },
+  "optical": {
+    "comparison_primary": "MERIT full package minus base package within the same official backbone, seed, parent, and degradation",
+    "macro_primary_pass": {
+      "mean_delta_psnr_db_min": 0.1,
+      "delta_psnr_95ci_lower_strictly_gt": 0.0,
+      "mean_delta_lpips_max": -0.005,
+      "delta_lpips_95ci_upper_strictly_lt": 0.0,
+      "delta_gradient_mae_95ci_upper_lte": 0.0
+    },
+    "restoration_efficacy_floor": {
+      "comparison": "MERIT full package minus degraded input",
+      "mean_delta_psnr_db_min": 0.3,
+      "delta_psnr_95ci_lower_strictly_gt": 0.0,
+      "parents_with_positive_delta_psnr_fraction_min": 0.75
+    },
+    "backbone_portability_pass": {
+      "backbones_with_positive_delta_psnr_point_estimate": "3 of 3",
+      "backbones_with_holm_adjusted_95ci_lower_gt_zero_min": "2 of 3",
+      "individual_backbone_large_regression_forbidden_db": -0.1,
+      "interpretation_on_failure": "architecture-dependent mixed effect; no backbone-portable MERIT claim"
+    },
+    "identity_safety": {
+      "input": "zero synthetic degradation with zero prompt",
+      "mean_absolute_output_change_max_0to1": 0.00392156862745098,
+      "p99_absolute_output_change_max_0to1": 0.011764705882352941,
+      "saturation_fraction_increase_max": 0.001,
+      "preclip_out_of_range_fraction_max": 0.001,
+      "failure_rule": "any official backbone failure blocks a global safety claim"
+    },
+    "oversharpening_safety": {
+      "comparison": "absolute gradient magnitude error to clean reference",
+      "macro_delta_95ci_upper_lte": 0.0,
+      "ringing_check": "edge-normal overshoot p95 cannot increase by more than 0.01 on the [0,1] intensity scale"
+    }
+  },
+  "mtf": {
+    "estimator_gate": {
+      "valid_roi_fraction_min": 0.95,
+      "raw_vs_imatest_spearman_rho_min": 0.7,
+      "rule": "if either gate fails, MTF is descriptive only and cannot decide restoration efficacy"
+    },
+    "efficacy_when_gate_passes": {
+      "comparison": "absolute MTF50 error of MERIT minus degraded",
+      "relative_mean_error_reduction_min": 0.1,
+      "delta_error_95ci_upper_strictly_lt": 0.0,
+      "conditions_improved_fraction_min": 0.75
+    }
+  },
+  "crack": {
+    "primary": "AUPRC delta, MERIT full package minus degraded, within detector and parent",
+    "macro_pass": {
+      "mean_delta_auprc_min": 0.02,
+      "delta_auprc_95ci_lower_strictly_gt": 0.0
+    },
+    "detector_consistency": {
+      "independent_detectors": ["ResNet34-UNet", "VGG16-UNet", "DeepLabV3-ResNet50"],
+      "positive_point_estimate_min": "3 of 3",
+      "holm_adjusted_95ci_lower_gt_zero_min": "2 of 3",
+      "individual_detector_regression_forbidden": -0.01,
+      "legacy_deepcrack_role": "reported separately; cannot rescue the independent-panel gate"
+    },
+    "tunnel_consistency": {
+      "tunnels_with_positive_macro_delta_min": "3 of 4",
+      "single_tunnel_regression_forbidden": -0.02
+    },
+    "matched_sensitivity_safety": {
+      "target": "raw/degraded reference sensitivity frozen before C009 evaluation",
+      "false_positive_pixel_or_component_burden_delta_95ci_upper_lte": 0.0,
+      "language": "detector burden only unless a physical negative reference exists"
+    },
+    "failure_rule": "thresholded F1, subgroup selection, or a single detector cannot rescue an AUPRC gate failure"
+  },
+  "prompt_reliance": {
+    "primary": {
+      "comparison": "correct prompt minus zero prompt on the same frozen NAFNet checkpoint family",
+      "mean_delta_psnr_db_min": 0.1,
+      "delta_psnr_95ci_lower_strictly_gt": 0.0
+    },
+    "specificity": {
+      "correct_minus_shuffled_95ci_lower_gt": 0.0,
+      "correct_minus_swapped_95ci_lower_gt": 0.0,
+      "correct_minus_constant_point_estimate_gt": 0.0,
+      "correct_minus_mismatched_point_estimate_gt": 0.0
+    },
+    "dose_response": {
+      "metric": "Spearman correlation between absolute prompt error and optical error",
+      "macro_rho_min": 0.5,
+      "parents_with_positive_rho_fraction_min": 0.75,
+      "macro_rho_95ci_lower_strictly_gt": 0.0
+    },
+    "claim_limit": "synthetic oracle-prompt reliance only; not an operational prompt-estimation claim"
+  },
+  "architecture": {
+    "comparison": "cascade or parallel minus single, same package and exposure",
+    "parameter_match_relative_tolerance": 0.05,
+    "pass_per_alternative": {
+      "mean_delta_psnr_db_min": 0.1,
+      "delta_psnr_95ci_lower_strictly_gt": 0.0,
+      "delta_lpips_95ci_upper_lte": 0.0,
+      "identity_gate_required": true
+    },
+    "failure_rule": "report no additional improvement in the tested setting; do not select the better arm after results without reporting both"
+  },
+  "printed_width": {
+    "target": "image-visible CAD printed nominal apparent widths 0.1 to 1.0 mm",
+    "source_layout": [[0.1, 0.2, 0.3, 0.4], [0.5, 0.6, 0.7, 0.8], [0.9, 1.0]],
+    "precondition": "the per-image 10-ROI ledger and local pixel/mm transform pass independent review before any width outcome is computed",
+    "primary_pass": {
+      "comparison": "absolute nominal-width error of MERIT minus controlled degraded",
+      "relative_mean_absolute_error_reduction_min": 0.1,
+      "absolute_error_delta_95ci_upper_strictly_lt": 0.0,
+      "nominal_widths_with_improved_point_estimate_min": "7 of 10; if 0.1 and 0.2 mm are both predeclared non-estimable, 6 of the remaining 8"
+    },
+    "increment_over_base": {
+      "comparison": "absolute nominal-width error of MERIT minus base",
+      "absolute_error_delta_95ci_upper_lte": 0.0
+    },
+    "non_estimable_safety": {
+      "rate_increase_max_percentage_points": 5.0,
+      "subpixel_rule": "never force a numeric width when fit uncertainty spans more than half the nominal width or the fitted edge pair is unresolved"
+    },
+    "claim_limit": "does not establish natural-crack physical width accuracy"
+  },
+  "ood": {
+    "per_family_breaking_point": "first severity at which the optical macro-primary or identity/oversharpening safety gate fails",
+    "family_level_success": "severity 1 and 2 both pass optical macro-primary and safety gates",
+    "broad_six_family_claim": "all 6 families pass severity 1 and 2, and at least 4 of 6 pass severity 3",
+    "crack_endpoint": "reported separately and must pass the crack macro gate; optical success cannot substitute for crack success"
+  },
+  "global_verdict": {
+    "full_merit_supported": "optical, backbone portability, prompt reliance, identity/oversharpening safety, external crack, and width primary gates all pass",
+    "optical_only": "optical and safety pass but external crack or width fails",
+    "architecture_dependent": "optical macro passes but backbone portability fails",
+    "not_supported": "optical macro or identity/oversharpening safety fails",
+    "mandatory_reporting": "all predeclared arms, seeds, detectors, tunnels, severities, non-estimable cases, and prior negative C006/C007 results"
+  },
+  "hard_stop_conditions": [
+    "source, cohort, split, protocol, or official-code hash mismatch",
+    "external D2 or D3 outcomes used for training, checkpoint selection, threshold selection, or hyperparameter tuning",
+    "non-finite loss that cannot be reproduced as a documented implementation failure",
+    "missing seed or partial run presented as a completed comparison",
+    "post-result relaxation of any numeric gate without labeling the changed analysis exploratory"
+  ]
+}

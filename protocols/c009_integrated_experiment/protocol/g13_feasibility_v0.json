@@ -1,0 +1,119 @@
+{
+  "schema_version": "MERIT-C009-G13-FEASIBILITY-v0",
+  "created_date": "2026-09-24",
+  "gate": "G13",
+  "status": "OPEN_CONDITIONAL",
+  "full_training_allowed": false,
+  "deadline_state": {
+    "current_official_deadline": "2026-09-27",
+    "second_extension_request_sent": "2026-09-24",
+    "requested_deadline": "2026-10-25",
+    "journal_decision": "PENDING"
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+    "gpu_memory_mib_reported": 97887,
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "precision": "bfloat16"
+  },
+  "local_surrogate_smoke": {
+    "artifact": "40_수정본/c009_integrated_experiment/smoke/local_surrogate_smoke_v1.json",
+    "confirmatory_use": false,
+    "all_six_model_arm_combinations_completed_without_oom": true,
+    "models": {
+      "nafnet_local": {
+        "parameters": 4953697,
+        "base_projected_8000h_model_only": 0.29778722228689325,
+        "full_projected_8000h_model_only": 0.448548911139369,
+        "peak_gb_base": 11.695493698120117,
+        "peak_gb_full": 15.42121221870184
+      },
+      "restormer_lite_local": {
+        "parameters": 2494441,
+        "base_projected_8000h_model_only": 0.13073957773546377,
+        "full_projected_8000h_model_only": 0.27997808893107706,
+        "peak_gb_base": 5.423829555511475,
+        "peak_gb_full": 8.9840367436409
+      },
+      "mamba_lite_local": {
+        "parameters": 1637929,
+        "base_projected_8000h_model_only": 0.2103835108379523,
+        "full_projected_8000h_model_only": 0.35156357785065967,
+        "peak_gb_base": 8.941112875938416,
+        "peak_gb_full": 13.058199882507324
+      }
+    }
+  },
+  "c006_empirical_calibration": {
+    "nafnet_base_mean_8000h": 0.41771228015737577,
+    "nafnet_full_mean_8000h": 1.433962766055548,
+    "model_only_to_full_pipeline_factor_base": 1.4027206303531208,
+    "model_only_to_full_pipeline_factor_full": 3.1968927589481995,
+    "note": "Factors include the C006 degradation stream and target/task handling and are planning multipliers, not transferable performance evidence."
+  },
+  "corrected_local_lower_bound": {
+    "nafnet_local_h_per_run": {"base": 0.41771228015737577, "full": 1.433962766055548},
+    "restormer_lite_local_h_per_run": {"base": 0.18339110289319058, "full": 0.8950599251679153},
+    "mamba_lite_local_h_per_run": {"base": 0.29510929093851507, "full": 1.1239110563406955},
+    "wp1_18_runs_h": 13.047439264659722,
+    "wp2_additional_zero_prompt_full_3_runs_h": 4.301888298166644,
+    "wp3_two_additional_structures_6_runs_assuming_1_25x_naf_full_h": 10.754720745416611,
+    "unique_training_critical_path_h": 28.10404830824298,
+    "warning": "This is a lower-bound from smaller local reimplementations and cannot be used as the official-model budget."
+  },
+  "evaluation_reference": {
+    "c006_d3_eligible_frames": 974,
+    "c006_models": 6,
+    "c006_actual_session_average_seconds_per_frame": 57.52897405852153,
+    "c006_actual_total_h_approx": 15.563393536944438,
+    "c006_idle_process_restart_projection_h": 51.825,
+    "naive_wp1_18_model_streaming_scale_h": 46.690180610833315,
+    "warning": "The 18-model scale is a planning extrapolation. Official native models, shared detector work, tiling, and caching can change it materially."
+  },
+  "deadline_verdicts": {
+    "2026-09-27": {
+      "verdict": "NO_GO",
+      "reason": "G11 is open and even the local lower-bound training plus the measured D3 evaluation reference exceeds the remaining calendar window before writing and independent QA."
+    },
+    "2026-10-25_if_approved": {
+      "verdict": "CONDITIONAL_GO",
+      "conditions": [
+        "The journal explicitly approves 2026-10-25.",
+        "G11 closes with local official source snapshots and official-model base/full smoke no later than 2026-09-27.",
+        "The measured end-to-end GPU critical path for approved training and evaluation is at most 144 hours on the available workstation.",
+        "Every full job is restartable, writes RUN_COMPLETE only after hash verification, and no single uncheckpointed segment exceeds 24 hours.",
+        "At least 10 calendar days remain after numerical freeze for manuscript, response, independent verification, and author QA."
+      ]
+    }
+  },
+  "provisional_calendar_if_oct25_approved": [
+    {"dates": "2026-09-24 to 2026-09-27", "work": "official source snapshots, exact adapters, official smoke, width ROI ledger, final G11/G13 freeze"},
+    {"dates": "2026-09-28 to 2026-10-03", "work": "WP1-WP3 full training with fixed run ledger and recovery checkpoints"},
+    {"dates": "2026-10-04 to 2026-10-09", "work": "WP4-WP8 frozen evaluation and raw-artifact verification"},
+    {"dates": "2026-10-10 to 2026-10-12", "work": "hierarchical statistics, tables, figures, negative-result integration"},
+    {"dates": "2026-10-13 to 2026-10-18", "work": "17-item response and 8000-8500-word manuscript revision"},
+    {"dates": "2026-10-19 to 2026-10-22", "work": "independent recomputation, Claude cross-review, Codex closure, LaTeX and numerical QA"},
+    {"dates": "2026-10-23 to 2026-10-24", "work": "author review, corrections, submission-package hashes"},
+    {"dates": "2026-10-25", "work": "submit before the approved deadline"}
+  ],
+  "predeclared_deletion_order_if_official_budget_exceeds_144h": [
+    "zero-shot generative diagnostic sweeps",
+    "OOD severity-3 repetitions beyond the minimum frozen seed set",
+    "additional qualitative figures"
+  ],
+  "protected_scope": [
+    "three official backbone paired comparison",
+    "prompt perturbation",
+    "independent external crack endpoint",
+    "nominal printed-width endpoint",
+    "existing negative-result integration",
+    "response/manuscript independent QA"
+  ],
+  "closure_requirements": [
+    "Journal extension decision is recorded.",
+    "G11 is CLOSED and all official base/full smoke runs pass.",
+    "Official measured training and evaluation projections replace every local-surrogate extrapolation.",
+    "The combined critical path is <=144 GPU-hours and leaves >=10 calendar days for writing and QA."
+  ]
+}

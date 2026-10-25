@@ -1,0 +1,20 @@
+{
+  "attempt": 3,
+  "failed_at_kst": "2026-09-19T17:54:27+09:00",
+  "failure_stage": "post_run_checkpoint_verification",
+  "reason": "torch.load(weights_only=True) rejected the internally generated torch.torch_version.TorchVersion metadata object",
+  "protocol_changed": false,
+  "data_changed": false,
+  "training_code_changed": false,
+  "task_off": {
+    "status": "complete",
+    "final_checkpoint_sha256": "b44f7c1108d6dc90ef89f8a08b5515b52aa0af18a6e79df132f15755da3a8a4c",
+    "peak_cuda_memory_bytes": 12433505280
+  },
+  "task_on": {
+    "status": "complete",
+    "final_checkpoint_sha256": "d939581eb38e3fe55fa71bf3297de33aae0ca98eac768fc6257c8f1f42d36020",
+    "peak_cuda_memory_bytes": 24721868288
+  },
+  "disposition": "Preserve both completed arm outputs and repair only the trusted-checkpoint verifier allowlist before verify-only rerun."
+}
