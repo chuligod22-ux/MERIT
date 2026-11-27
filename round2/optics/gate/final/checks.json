@@ -1,0 +1,7 @@
+{
+  "common_rois": 1731,
+  "frames": 479,
+  "cells": 50,
+  "frozen_rois": 1737,
+  "minimum_cell_coverage": 0.9473684210526315
+}

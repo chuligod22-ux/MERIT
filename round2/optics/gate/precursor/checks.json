@@ -1,0 +1,12 @@
+{
+  "historical_max_roi_difference": 9.71445146547012e-17,
+  "historical_raw_mae": 0.01399470146851849,
+  "historical_always_mae": 0.014032648738156017,
+  "historical_gated_mae": 0.01186734210775023,
+  "historical_guard_bypass_frames": 39,
+  "common_rois": 1731,
+  "frames": 479,
+  "cells": 50,
+  "frozen_rois": 1737,
+  "minimum_cell_coverage": 0.9473684210526315
+}

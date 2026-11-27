@@ -1,9 +1,8 @@
-# MERIT revision-v2 dataset card
+# MERIT dataset card for v2.1.0-round2
 
 ## 1. Purpose
 
-This package supports reproducibility of the revised MERIT paper. It separates public
-controlled-acquisition inputs from restricted four-tunnel field imagery.
+The second-revision measurements, protocols and replay scripts are in `round2/`. The earlier acquisition inputs remain in the linked revision-v2 releases. The numerical field results are public. The four-tunnel images and expert masks require approved access. [Second-revision release](https://github.com/chuligod22-ux/MERIT/releases/tag/v2.1.0-round2)
 
 ## 2. Public controlled-acquisition data
 
@@ -26,13 +25,19 @@ Fifty controlled target images provide 500 nominal-width ROIs. The final ROI led
 traces, and corresponding input images are public revision assets. These inputs replace
 the unrelated cam1 representatives in the superseded v1 release.
 
+### 2.4 Second-revision chart and gate
+
+The release supplies the controlled fixed-chart input, the scored arrays for twelve methods and the archived external-comparator outputs. These materials support direct rescoring of the controlled chart. The optical gate tables and code support refitting the held acquisition conditions from the frozen per-ROI candidate measurements. [Optical evaluation guide](round2/optics/README.md)
+
 ## 3. Restricted four-tunnel field data
 
 The field study contains 1,703 image/mask pairs from 14 anonymous spans in four tunnels.
 The images and expert masks are not publicly redistributed. Anonymized row-level outputs,
 aggregation code, bootstrap settings, and detector-family summaries are public. Source
 images and masks may be provided by the corresponding author on reasonable request,
-subject to applicable data-use conditions; see ACCESS_REQUEST.md.
+subject to applicable data-use conditions. [Field data access](ACCESS_REQUEST.md)
+
+The public second-revision tables retain the anonymous hierarchy needed to reproduce the reported comparisons. They include the measurements and missingness indicators for all 1,057 selected apparent-width regions, the mask-closing sensitivity results, and the sampling design for each of the 14 spans. The released values allow recomputation of the estimability, localisation and error summaries. Remeasuring the same chords on the field images requires access to the original pixels and masks. [Apparent-width analysis](round2/field_width/README.md)
 
 ## 4. Statistical units
 
@@ -42,6 +47,8 @@ subject to applicable data-use conditions; see ACCESS_REQUEST.md.
 - Field analysis: tile → physical span → tunnel, with tunnel-aware aggregation.
 - Width analysis: ROI with source-aware and tunnel-aware aggregation as specified by each
   frozen protocol.
+
+The primary apparent-width result averages paired region changes within tiles, then tiles within spans, spans within tunnels, and the four tunnels equally. Width-band results use the paired regions within each band. In the post hoc sampling comparison, each span has equal weight within its sampling design.
 
 ## 5. Intended and out-of-scope uses
 

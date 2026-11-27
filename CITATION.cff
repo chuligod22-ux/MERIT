@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this code or public data, please cite the article below."
-title: "MERIT revision reproducibility package"
+message: "If you use this code or public data, please cite this version of the MERIT reproducibility package."
+title: "MERIT reproducibility package for the second manuscript revision"
 type: software
 authors:
   - family-names: Lee
@@ -15,11 +15,13 @@ authors:
   - family-names: An
     given-names: Junbeom
     affiliation: "Korea Institute of Civil Engineering and Building Technology (KICT)"
-version: "2.0.0-revision"
-date-released: "2026-10-26"
-license: MIT
+version: "2.1.0-round2"
+date-released: "2026-11-28"
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: "https://github.com/chuligod22-ux/MERIT"
-url: "https://github.com/chuligod22-ux/MERIT"
+url: "https://github.com/chuligod22-ux/MERIT/releases/tag/v2.1.0-round2"
 keywords:
   - tunnel inspection
   - image restoration
@@ -27,17 +29,3 @@ keywords:
   - crack detection
   - optical preservation
   - MTF50
-preferred-citation:
-  type: article
-  title: "MERIT: Measurement-Fidelity Restoration for High-Speed Tunnel-Lining Crack Inspection"
-  authors:
-    - family-names: Lee
-      given-names: Chulhee
-    - family-names: Kim
-      given-names: Donggyou
-    - family-names: Kim
-      given-names: Dongku
-    - family-names: An
-      given-names: Junbeom
-  journal: "Computer-Aided Civil and Infrastructure Engineering"
-  year: 2026

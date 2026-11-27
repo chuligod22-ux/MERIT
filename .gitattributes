@@ -7,3 +7,5 @@
 *.pt binary
 *.pth binary
 *.zip binary
+*.npz binary
+*.gz binary

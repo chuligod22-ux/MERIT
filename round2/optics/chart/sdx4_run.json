@@ -1,0 +1,21 @@
+{
+  "model_id": "stabilityai/stable-diffusion-x4-upscaler",
+  "revision": "572c99286543a273bfd17fac263db5a77be12c4c",
+  "seed": 5,
+  "steps": 50,
+  "guidance_scale": 0,
+  "noise_level": 20,
+  "prompt": "",
+  "input_sha256": "9705bf8d64778ba6ac901158c24fcc502c486ebd97e557e75202b6ba59cef89c",
+  "output_sha256": "042f8154e760d79d28fb97dc865829a652c245fee1d0d3a1e0a8dac07081da74",
+  "chart_size": [
+    292,
+    492
+  ],
+  "native_output_size": [
+    1168,
+    1968
+  ],
+  "scheduler": "DDIMScheduler",
+  "grayscale_downsampling": "PIL L then OpenCV INTER_AREA to input dimensions"
+}

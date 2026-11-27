@@ -1,0 +1,23 @@
+Creative Commons Attribution 4.0 International (CC-BY 4.0)
+
+Unless explicitly excluded below, the public data files and figures tracked in this
+repository are licensed under the Creative Commons Attribution 4.0 International
+License. You may share and adapt them for any purpose provided that you give appropriate
+credit, link to the license, and indicate whether changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Excluded from this public license
+---------------------------------
+
+The four-tunnel source images, 1,703 analysis tiles, and expert masks are not included in
+the public repository or its release assets and are not licensed here. They are available
+from the corresponding author on reasonable request, subject to the applicable data-use
+conditions described in ACCESS_REQUEST.md.
+
+Third-party software, datasets, and pretrained weights are also excluded. Their original
+licenses apply; see third_party/FETCH.md.
+
+Copyright (c) 2026 Chulhee Lee, Donggyou Kim, Dongku Kim, Junbeom An
+(Korea Institute of Civil Engineering and Building Technology, KICT)

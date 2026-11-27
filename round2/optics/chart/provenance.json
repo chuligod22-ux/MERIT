@@ -1,0 +1,165 @@
+{
+  "frame_id": "60km_2.5m_ISO100/frame_000102.png",
+  "public_crop": "crops/60km_2.5m_ISO100/frame_000102.png",
+  "public_crop_encoded_sha256": "0b58bb6d1b63257d0445d28bd81e5c2003053b01693246bccada1b93a9a3c44e",
+  "source_frame_encoded_sha256": "a70d4960fd0e0bf2cb47476d52ab82a19fa5a86688e29c00d85859dba94ef6ec",
+  "chart_xyxy_in_public_crop": [
+    402,
+    16,
+    694,
+    508
+  ],
+  "score_roi_xyxy_in_chart": [
+    48,
+    48,
+    244,
+    444
+  ],
+  "bounds": "zero-based; right and bottom exclusive",
+  "images": {
+    "common_degraded.png": {
+      "mode": "RGB",
+      "shape": [
+        492,
+        292,
+        3
+      ],
+      "dtype": "uint8",
+      "encoded_png_sha256": "9705bf8d64778ba6ac901158c24fcc502c486ebd97e557e75202b6ba59cef89c",
+      "decoded_c_order_sha256": "f14247ce8f789d1f4533f7825855a9ac5d303893bd1efbd7555dc70b740d5275"
+    },
+    "diffbir_v21_chart.png": {
+      "mode": "RGB",
+      "shape": [
+        492,
+        292,
+        3
+      ],
+      "dtype": "uint8",
+      "encoded_png_sha256": "c0f53576cb5f5171ef012a1229f364fe38e59d0aa600eda821a1d73133b67a13",
+      "decoded_c_order_sha256": "9f7d641d56c64e5ef6749953f65646cb7a18f26f3634c4b94b2691e4c088f863"
+    },
+    "sdx4_chart.png": {
+      "mode": "L",
+      "shape": [
+        492,
+        292
+      ],
+      "dtype": "uint8",
+      "encoded_png_sha256": "042f8154e760d79d28fb97dc865829a652c245fee1d0d3a1e0a8dac07081da74",
+      "decoded_c_order_sha256": "d506ed08891eeb25e3b7d35fcb32ec17a376b471f791ae2d09aace1a27c98e10"
+    },
+    "source_chart.png": {
+      "mode": "L",
+      "shape": [
+        492,
+        292
+      ],
+      "dtype": "uint8",
+      "encoded_png_sha256": "a6ea8b2aa34e9ad48b87ee044e58cb32889d702ef5023e2e9c3ab9a373ff50e8",
+      "decoded_c_order_sha256": "f1d9b09a8b560905da17176cf345d0811ffefb924a2fc878a6b327fac3070f14"
+    }
+  },
+  "scoring_archive": {
+    "file": "scoring_rois.npz",
+    "encoded_npz_sha256": "3c9ac43f5f85bb4f3779384fcc05739ffd5489585f2772a2d267919e829c18e1",
+    "arrays": {
+      "Degraded input": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "ddaf17b954b2b0e97a0dd06a8fecc3063065dc1af160193f9ba6f9c17ace89ff"
+      },
+      "Wiener (oracle PSF)": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "f702b637206a73dec897b7df2e0236f7aa33267da7cca278baab585db490dd57"
+      },
+      "Richardson–Lucy": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "4559aea8ebe17e0e6ad39e44c6e2e444b302355d509c07b19af510c5ca20e9a2"
+      },
+      "Unsupervised Wiener": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "a8dd723e82ccb63cce2cf3498519a5abced20e464e99ae80138e39bf34b2b525"
+      },
+      "Wiener (wrong PSF)": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "cfb5895c857551b625cb28c7ef4c4b7b4578f029945c96f7484e7529c50d6875"
+      },
+      "TV denoise": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "db3db950e4f659b7232559a752bec7a062c899e5e24082fbe7eccfcd9a8f38e6"
+      },
+      "NL-means": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "f832d147df1278d21033a819d1b327fc164e1e2cdde428a4efb0e7093e961cd7"
+      },
+      "Unsharp mask": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "d2ae10810256409cbf1312de0f881c25dee8c5a7b0fbecf8ff52514c3654360e"
+      },
+      "SD-x4": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "224594b84486e9c92a2ff6dab248b9442bce72703fd31de1d7aa1188c92dea0d"
+      },
+      "DiffBIR v2.1": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "d37430770052ffabf456ee569bad16a4e5271bbd5d42df48dd88c8121ccabef3"
+      },
+      "NAFNet-big": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "2f7db56108f393171c4de924b2d112e12850422504e38622fef271227297f1b5"
+      },
+      "MERIT": {
+        "shape": [
+          396,
+          196
+        ],
+        "dtype": "<f8",
+        "c_order_sha256": "cef6f7e56693d32795c22de0fadad5e7e4d39ca727444a39ed5ef79438ef5380"
+      }
+    }
+  }
+}

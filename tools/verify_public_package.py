@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+import ast
 import csv
 import hashlib
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 
@@ -69,13 +71,39 @@ def check_manifest() -> list[str]:
     return failures
 
 
+def check_chart_archive(path: Path) -> None:
+    expected = {"Degraded input", "Wiener (oracle PSF)", "Richardson–Lucy", "Unsupervised Wiener",
+                "Wiener (wrong PSF)", "TV denoise", "NL-means", "Unsharp mask", "SD-x4",
+                "DiffBIR v2.1", "NAFNet-big", "MERIT"}
+    with zipfile.ZipFile(path) as archive:
+        members = archive.infolist()
+        if len(members) != len(expected) or {item.filename for item in members} != {name + ".npy" for name in expected}:
+            raise ValueError("Unexpected fixed-chart arrays")
+        for member in members:
+            with archive.open(member) as stream:
+                if stream.read(8) != bytes.fromhex("93 4e 55 4d 50 59 01 00"):
+                    raise ValueError("Unexpected fixed-chart array format")
+                length = int.from_bytes(stream.read(2), "little")
+                if length > 1024:
+                    raise ValueError("Unexpected fixed-chart array header length")
+                header = ast.literal_eval(stream.read(length).decode("ascii"))
+                if header != {"descr": "<f8", "fortran_order": False, "shape": (396, 196)}:
+                    raise ValueError("Unexpected fixed-chart array type or dimensions")
+                if member.file_size != 10 + length + 396 * 196 * 8:
+                    raise ValueError("Unexpected fixed-chart array size")
+
+
 def check_scope() -> list[str]:
     failures: list[str] = []
     for path in ROOT.rglob("*"):
         if not path.is_file() or ".git" in path.parts:
             continue
         relative = path.relative_to(ROOT).as_posix()
-        if path.suffix.lower() in PROHIBITED_SUFFIXES:
+        # This archive contains only the released, fixed scoring regions of the controlled chart.
+        chart_archive = "round2/optics/chart/scoring_rois.npz"
+        if relative == chart_archive:
+            check_chart_archive(path)
+        elif path.suffix.lower() in PROHIBITED_SUFFIXES:
             failures.append(f"prohibited model/data binary: {relative}")
         if path.stat().st_size >= 100 * 1024 * 1024:
             failures.append(f"Git object at or above 100 MiB: {relative}")

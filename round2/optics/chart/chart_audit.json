@@ -1,0 +1,37 @@
+{
+  "reference_mtf50": 0.07731302713771102,
+  "original_chart_sha256": "a70d4960fd0e0bf2cb47476d52ab82a19fa5a86688e29c00d85859dba94ef6ec",
+  "input_sha256": "9705bf8d64778ba6ac901158c24fcc502c486ebd97e557e75202b6ba59cef89c",
+  "diffbir_output_sha256": "c0f53576cb5f5171ef012a1229f364fe38e59d0aa600eda821a1d73133b67a13",
+  "source_display_percentiles": [
+    2,
+    98
+  ],
+  "shared_source_display_limits_dn": [
+    22.0,
+    62.0
+  ],
+  "diffbir_log_sha256": "9320d9c376825c3911d049f9a01197521e3579e7d48fa8455d9cd5f8a208d87c",
+  "sha256_checkpoints": {
+    "restorer_big.pt": "1348219eae75667447caa8ae78d7c2eab7f5ae5558d25594a3a6797e82a5b37a",
+    "restorer_task.pt": "64c3b9a86dfdfdb3a38a219ae2cac865494ca392fd2258326a50bebf9c9edd7c"
+  },
+  "uint8_mean_minus_float_dn": -0.49852099136772815,
+  "uint8_max_abs_difference_dn": 0.9999995176045182,
+  "sweep_original_float_protocol": {
+    "NAFNet-big": {
+      "n": 16,
+      "mtf_mean": 0.08251008656289946,
+      "mtf_sd": 0.0017124734700730668,
+      "reference_percent": 106.72210055354756,
+      "psnr_mean": 45.35337699350028
+    },
+    "MERIT": {
+      "n": 16,
+      "mtf_mean": 0.07580065061452954,
+      "mtf_sd": 0.0016719804225034083,
+      "reference_percent": 98.043827050663,
+      "psnr_mean": 44.7609773960624
+    }
+  }
+}

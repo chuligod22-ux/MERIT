@@ -1,12 +1,14 @@
 {
-  "schema_version": "MERIT-PUBLIC-SCOPE-v2",
-  "release_version": "2.0.0-revision",
+  "schema_version": "MERIT-PUBLIC-SCOPE-v2.1",
+  "release_version": "2.1.0-round2",
   "public_reproduction": {
-    "all_results": "R1 statistical reproduction",
-    "controlled_inputs": "R2 inference reproduction",
-    "four_tunnel_inputs": "request-only R2 inference reproduction"
+    "round2_statistics": "Public anonymized derived measurements, matched comparisons and statistical replay code in round2/.",
+    "round2_optics": "Public controlled chart inputs, outputs and numerical scoring arrays, with held-condition optical gate refits from recorded ROI measurements.",
+    "controlled_inputs": "Historical release assets provide the controlled crops, printed targets and essential author-trained checkpoints.",
+    "four_tunnel_inputs": "Processing the original field images or expert masks requires approved access from the corresponding author."
   },
   "public_release_tags": [
+    "v2.1.0-round2",
     "revision-analysis-v2",
     "revision-cam2-crops-v2",
     "revision-cam1-optical-crops-v2",
@@ -27,5 +29,25 @@
     "development_and_failed_checkpoints",
     "third_party_weights",
     "logs_and_caches"
-  ]
+  ],
+  "release_tag": "v2.1.0-round2",
+  "date_released": "2026-11-28",
+  "prior_release": {
+    "version_tag": "v2.0.0-revision",
+    "analysis_and_input_asset_tags": [
+      "revision-analysis-v2",
+      "revision-cam2-crops-v2",
+      "revision-cam1-optical-crops-v2",
+      "revision-width-inputs-v2",
+      "revision-models-essential-v2",
+      "revision-samples-v2"
+    ],
+    "historical_paths": [
+      "data/processed/",
+      "figures/",
+      "protocols/",
+      "src/modules/"
+    ]
+  },
+  "current_evidence": "round2/"
 }
