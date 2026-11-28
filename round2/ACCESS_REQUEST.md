@@ -4,7 +4,7 @@ The four-tunnel source images, 1,703 analysis tiles, and expert masks are availa
 the corresponding author on reasonable request. They are not public release assets and
 are not covered by this repository's CC-BY 4.0 license.
 
-Send requests to the corresponding author, Chulhee Lee (`lch@kict.re.kr`), and include:
+Send requests to the corresponding author, Donggyou Kim ([dgkim2004@kict.re.kr](mailto:dgkim2004@kict.re.kr)), and include:
 
 1. requester name, affiliation, and institutional contact;
 2. research purpose and the specific data subset requested;
